@@ -348,12 +348,32 @@
         
         .leadership-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
             margin-top: 2rem;
             max-width: 1200px;
             width: 100%;
-            justify-items: center;
+        }
+        
+        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership-first-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
+        
+        /* Stile per le righe successive con 3 card */
+        .leadership-other-rows {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
         }
         
         .leadership-card {
@@ -368,8 +388,6 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
             position: relative;
             z-index: 2;
-            width: 100%;
-            max-width: 350px;
         }
         
         .leadership-card:hover {
@@ -1571,7 +1589,7 @@
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -1665,7 +1683,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="/news/newsRe.html" class="btn">Vedi tutte le news</a>
+            <a href="news/newsRe.php" class="btn">Vedi tutte le news</a>
         </div>
     </section>
 
@@ -1679,71 +1697,27 @@
 
                 <!-- Prima riga -->
 
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Giuseppe Gionta</h3>
-                    <p class="leadership-desc">C.E.O.</p>
+                <div class="leadership-first-row">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Giuseppe Gionta</h3>
+                        <p class="leadership-desc">C.E.O.</p>
+                    </div>
+                
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Maffei</h3>
+                        <p class="leadership-desc">Presidente</p>
+                    </div>
                 </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Andrea Maffei</h3>
-                    <p class="leadership-desc">Presidente</p>
-                </div>
-
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">3</h3>
-                    <p class="leadership-desc">idk</p>
-                </div> -->
-                
-                <!-- Seconda riga -->
-
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">4</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Services" class="leadership-logo">
-                    <h3 class="leadership-name">5</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">6</h3>
-                    <p class="leadership-desc">idk</p>
-                </div> -->
-                
-                <!-- Terza riga -->
-
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">7</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">8</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">9</h3>
-                    <p class="leadership-desc">idk</p>
-                </div> -->
-            </div>
+            </div><br>
         </div>
         <br><br><br>
     </section>
 
     <!-- ========== SERVICES SECTION ========== -->
     <section id="services" class="section">
-        <h2 class="section-title">Trattati</h2>
+        <h2 class="section-title">I Nostri Servizi</h2>
         <p class="section-subtitle">Un portfolio completo di soluzioni integrate per rispondere a tutte le esigenze del settore assicurativo</p>
         
         <div class="services-wrapper">
@@ -1757,8 +1731,9 @@
                         <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
                     </div>
                     <div class="service-content">
-                        <h3>ANALISI PORTAFOGLIO DELLA COMPAGNIA</h3>
+                        <h3>TRATTATI</h3>
                         <ul class="service-features">
+                            <li>Analisi portafoglio della compagnia</li>
                             <li>Ottimizzazione struttura assicurativa</li>
                             <li>Analisi fabbisogno capitale</li>
                             <li>Individuazione ed ottimizzazione della struttura riassicurativa</li>
@@ -2317,7 +2292,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyServices.html">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Richiesta</button>
                 </div>
@@ -2383,9 +2358,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyRe.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesRe.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalRe.html">Legal & Compliance</a>
+                    <a href="policy/policyRe.php">Privacy Policy</a>
+                    <a href="cookies/cookiesRe.php">Cookie Policy</a>
+                    <a href="legal&comp/legalRe.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

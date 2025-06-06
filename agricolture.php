@@ -1602,7 +1602,7 @@
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -1696,7 +1696,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="/news/newsAgricolture.html" class="btn">Vedi tutte le news</a>
+            <a href="news/newsAgricolture.php" class="btn">Vedi tutte le news</a>
         </div>
     </section>
 
@@ -2342,7 +2342,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyServices.html">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Richiesta</button>
                 </div>
@@ -2408,9 +2408,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyAgricolture.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgricolture.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalAgricolture.html">Legal & Compliance</a>
+                    <a href="policy/policyAgricolture.php">Privacy Policy</a>
+                    <a href="cookies/cookiesAgricolture.php">Cookie Policy</a>
+                    <a href="legal&comp/legalAgricolture.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

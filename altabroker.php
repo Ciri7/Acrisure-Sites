@@ -1602,7 +1602,7 @@
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -1696,7 +1696,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="/news/newsAltabroker.html" class="btn">Vedi tutte le news</a>
+            <a href="news/newsAltabroker.php" class="btn">Vedi tutte le news</a>
         </div>
     </section>
 
@@ -2342,7 +2342,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyServices.html">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Richiesta</button>
                 </div>
@@ -2408,9 +2408,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyAltabroker.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesAltabroker.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalAltabroker.html">Legal & Compliance</a>
+                    <a href="policy/policyAltabroker.php">Privacy Policy</a>
+                    <a href="cookies/cookiesAltabroker.php">Cookie Policy</a>
+                    <a href="legal&comp/legalAltabroker.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

@@ -1623,14 +1623,14 @@
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-services.html" class="nav-link">Lavora Con Noi</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="lavora-con-noi/lcn-services.php" class="nav-link">Lavora Con Noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
                     <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='/eng/services-eng.html'" class="language-btn">EN</a></li>
+                    <li><a onclick="window.location.href='eng/services-eng.php'" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -1717,7 +1717,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="/news/newsServices.html" class="btn">Vedi tutte le news</a>
+            <a href="news/newsServices.php" class="btn">Vedi tutte le news</a>
         </div>
     </section>
 
@@ -2363,7 +2363,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyServices.html">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Richiesta</button>
                 </div>
@@ -2429,9 +2429,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyServices.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesServices.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalServices.html">Legal & Compliance</a>
+                    <a href="policy/policyServices.php">Privacy Policy</a>
+                    <a href="cookies/cookiesServices.php">Cookie Policy</a>
+                    <a href="legal&comp/legalServices.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

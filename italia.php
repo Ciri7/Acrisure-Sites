@@ -1602,7 +1602,7 @@
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -1696,7 +1696,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="/news/newsItalia.html" class="btn">Vedi tutte le news</a>
+            <a href="news/newsItalia.php" class="btn">Vedi tutte le news</a>
         </div>
     </section>
 
@@ -1727,7 +1727,7 @@
                 </div>
                 
                 <!-- Seconda riga -->
-                <div class="leadership-card">
+                <!-- <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">4</h3>
                     <p class="leadership-desc">idk</p>
@@ -1743,10 +1743,10 @@
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
                     <h3 class="leadership-name">6</h3>
                     <p class="leadership-desc">idk</p>
-                </div>
+                </div> -->
                 
                 <!-- Terza riga -->
-                <div class="leadership-card">
+                <!-- <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
                     <h3 class="leadership-name">7</h3>
                     <p class="leadership-desc">idk</p>
@@ -1762,8 +1762,8 @@
                     <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
                     <h3 class="leadership-name">9</h3>
                     <p class="leadership-desc">idk</p>
-                </div>
-            </div>
+                </div> -->
+            </div><br>
         </div>
         <br><br><br>
     </section>
@@ -2342,7 +2342,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyServices.html">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Richiesta</button>
                 </div>
@@ -2408,9 +2408,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyItalia.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesItalia.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.html">Legal & Compliance</a>
+                    <a href="policy/policyItalia.php">Privacy Policy</a>
+                    <a href="cookies/cookiesItalia.php">Cookie Policy</a>
+                    <a href="legal&comp/legalItalia.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

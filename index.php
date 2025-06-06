@@ -1650,42 +1650,42 @@
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
                     <h3 class="azienda-nome">Acrisure Italia</h3>
                     <p class="azienda-desc">Società di brokeraggio assicurativo operante al livello nazionale e internazionale</p>
-                    <a href="italia.html" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                    <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
                     <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="azienda-logo">
                     <h3 class="azienda-nome">Acrisure Services</h3>
                     <p class="azienda-desc">Specializzati in attività operative e gestionali delle società con servizi legati alle risorse umane, alle attività legal e compliance, ai servizi di TPA e Customer Service, alla gestione delle flotte aziendali</p>
-                    <a href="services.html" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                    <a href="services.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
                     <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italia" class="azienda-logo">
                     <h3 class="azienda-nome">Acrisure Re Italia</h3>
                     <p class="azienda-desc">Leader nel settore della riassicurazione, con una profonda competenza nella gestione del rischio e del capitale</p>
-                    <a href="re.html" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                    <a href="re.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
                     <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agricolture" class="azienda-logo">
                     <h3 class="azienda-nome">Acrisure Agricolture</h3>
                     <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
-                    <a href="agricolture.html" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                    <a href="agricolture.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
                     <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="azienda-logo">
                     <h3 class="azienda-nome">Acrisure Agriservices</h3>
                     <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
-                    <a href="agriservices.html" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                    <a href="agriservices.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
                     <img src="/img/Logo ALTA BROKER.jpg" alt="Alta Broker" class="azienda-logo">
                     <h3 class="azienda-nome">Alta Broker</h3>
                     <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
-                    <a href="altabroker.html" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                    <a href="altabroker.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

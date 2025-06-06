@@ -1,4 +1,4 @@
-<?php include('../../includes/auth.php'); ?>
+<?php include('../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>

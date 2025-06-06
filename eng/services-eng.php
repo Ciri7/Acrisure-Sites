@@ -1630,7 +1630,7 @@
     
             <nav class="language-switcher">
                 <ul>
-                    <li><a onclick="window.location.href='services.php'" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='../services.php'" class="language-btn">IT</a></li>
                     <li><a href="#" class="language-btn active">EN</a></li>
                 </ul>
             </nav>

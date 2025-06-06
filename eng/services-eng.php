@@ -1,4 +1,4 @@
-<?php include('../../includes/auth.php'); ?>
+<?php include('../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -1623,14 +1623,14 @@
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="#" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
     
             <nav class="language-switcher">
                 <ul>
-                    <li><a onclick="window.location.href='/services.html'" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='services.php'" class="language-btn">IT</a></li>
                     <li><a href="#" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -1718,7 +1718,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="/news/newsServices.html" class="btn">View all news</a>
+            <a href="news/newsServices.php" class="btn">View all news</a>
         </div>
     </section>
 
@@ -2363,7 +2363,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Mandatory fields</p>
-                        <p>Read ours <a href="/policy/policyServices.html">Privacy Policy</a></p>
+                        <p>Read ours <a href="policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>
@@ -2428,9 +2428,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. All rights reserved.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyServices.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesServices.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalServices.html">Legal & Compliance</a>
+                    <a href="policy/policyServices.php">Privacy Policy</a>
+                    <a href="cookies/cookiesServices.php">Cookie Policy</a>
+                    <a href="legal&comp/legalServices.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

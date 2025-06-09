@@ -2857,11 +2857,11 @@
                 if (this.textContent === 'EN') {
                     // Cambia a inglese
                     console.log('Cambio a inglese');
-                    // window.location.href = '/en/services.html';
+                    // window.location.href = '/en/services.php';
                 } else {
                     // Cambia a italiano
                     console.log('Cambio a italiano');
-                    // window.location.href = '/services.html';
+                    // window.location.href = '/services.php';
                 }
             });
         });

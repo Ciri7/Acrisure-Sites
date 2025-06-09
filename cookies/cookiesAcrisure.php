@@ -593,7 +593,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/index.html">
+                <a href="/index.php">
                     <img src="/img/Acrisure.png" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -604,9 +604,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/index.html#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="/index.html#news" class="nav-link">News</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="/index.php#news" class="nav-link">News</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -807,9 +807,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyAcrisure.html">Privacy Policy</a>
+                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
                     <a href="#header">Cookie Policy</a>
-                    <a href="/legal&comp/legalAcrisure.html">Legal & Compliance</a>
+                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">
@@ -890,11 +890,11 @@
                 if (this.textContent === 'EN') {
                     // Cambia a inglese
                     console.log('Cambio a inglese');
-                    // window.location.href = '/en/services.html';
+                    // window.location.href = '/en/services.php';
                 } else {
                     // Cambia a italiano
                     console.log('Cambio a italiano');
-                    // window.location.href = '/services.html';
+                    // window.location.href = '/services.php';
                 }
             });
         });

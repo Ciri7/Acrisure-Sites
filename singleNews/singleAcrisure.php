@@ -812,7 +812,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="/img/Acrisure 1 Esteso.jpg" alt="Acrisure Italia Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -823,9 +823,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="news.html" class="nav-link">News</a></li>
-                    <li><a href="index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="../index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="../news/newsAcrisure.php" class="nav-link">News</a></li>
+                    <li><a href="../index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                 </ul>
             </nav>
         </div>
@@ -835,9 +835,9 @@
     <section class="article-hero">
         <div class="article-hero-content">
             <div class="breadcrumb">
-                <a href="index.html">Home</a>
+                <a href="../index.php">Home</a>
                 <span>/</span>
-                <a href="news.html">News</a>
+                <a href="../news/newsAcrisure.php">News</a>
                 <span>/</span>
                 <span>Articolo</span>
             </div>
@@ -999,9 +999,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Italia. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="policy/policyAcrisure.html">Privacy Policy</a>
-                    <a href="cookies/cookiesAcrisure.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalAcrisure.html">Legal & Compliance</a>
+                    <a href="../policy/policyAcrisure.php">Privacy Policy</a>
+                    <a href="../cookies/cookiesAcrisure.php">Cookie Policy</a>
+                    <a href="../legal&comp/legalAcrisure.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

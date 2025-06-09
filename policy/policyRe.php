@@ -735,7 +735,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/re.html">
+                <a href="/re.php">
                     <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -746,10 +746,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/re.html#news" class="nav-link">News</a></li>
-                    <li><a href="/re.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/re.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/re.php#news" class="nav-link">News</a></li>
+                    <li><a href="/re.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/re.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -794,7 +794,7 @@
                 <ul>
                     <li><strong>Dati di navigazione</strong>: i sistemi informatici e le procedure software preposte al funzionamento di questo Sito acquisiscono, nel normale esercizio, alcuni dati personali la cui trasmissione è implicita nell'uso dei protocolli di comunicazione Internet.</li>
                     <li><strong>Dati forniti volontariamente dall'utente</strong>: l'invio facoltativo, esplicito e volontario di messaggi agli indirizzi di contatto, nonché la compilazione e l'inoltro dei moduli presenti sul Sito, comportano l'acquisizione dei dati personali inseriti, necessari per rispondere alle richieste.</li>
-                    <li><strong>Cookie</strong>: il Sito utilizza cookie per garantire una migliore esperienza di navigazione. Per maggiori informazioni, consulta la nostra <a href="cookies.html" class="page-transition-link">Cookie Policy</a>.</li>
+                    <li><strong>Cookie</strong>: il Sito utilizza cookie per garantire una migliore esperienza di navigazione. Per maggiori informazioni, consulta la nostra <a href="cookies.php" class="page-transition-link">Cookie Policy</a>.</li>
                 </ul>
             </div>
 
@@ -923,8 +923,8 @@
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
                     <a href="#header">Privacy Policy</a>
-                    <a href="/cookies/cookiesRe.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalRe.html">Legal & Compliance</a>
+                    <a href="/cookies/cookiesRe.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalRe.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

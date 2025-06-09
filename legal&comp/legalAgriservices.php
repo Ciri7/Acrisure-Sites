@@ -769,7 +769,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/agriservices.html">
+                <a href="/agriservices.php">
                     <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -780,10 +780,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/agriservices.html#news" class="nav-link">News</a></li>
-                    <li><a href="/agriservices.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/agriservices.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/agriservices.php#news" class="nav-link">News</a></li>
+                    <li><a href="/agriservices.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/agriservices.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -948,8 +948,8 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyAgriservices.html" class="page-transition-link">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgriservices.html" class="page-transition-link">Cookie Policy</a>
+                    <a href="/policy/policyAgriservices.php" class="page-transition-link">Privacy Policy</a>
+                    <a href="/cookies/cookiesAgriservices.php" class="page-transition-link">Cookie Policy</a>
                     <a href="#header" class="page-transition-link">Legal & Compliance</a>
                 </div>
             </div>

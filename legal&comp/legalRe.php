@@ -769,7 +769,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/re.html">
+                <a href="/re.php">
                     <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -780,10 +780,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/re.html#news" class="nav-link">News</a></li>
-                    <li><a href="/re.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/re.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/re.php#news" class="nav-link">News</a></li>
+                    <li><a href="/re.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/re.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -948,8 +948,8 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyRe.html" class="page-transition-link">Privacy Policy</a>
-                    <a href="/cookies/cookiesRe.html" class="page-transition-link">Cookie Policy</a>
+                    <a href="/policy/policyRe.php" class="page-transition-link">Privacy Policy</a>
+                    <a href="/cookies/cookiesRe.php" class="page-transition-link">Cookie Policy</a>
                     <a href="#header" class="page-transition-link">Legal & Compliance</a>
                 </div>
             </div>

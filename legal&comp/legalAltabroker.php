@@ -769,7 +769,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/altabroker.html">
+                <a href="/altabroker.php">
                     <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -780,10 +780,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/altabroker.html#news" class="nav-link">News</a></li>
-                    <li><a href="/altabroker.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/altabroker.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/altabroker.php#news" class="nav-link">News</a></li>
+                    <li><a href="/altabroker.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/altabroker.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -948,8 +948,8 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyAltabroker.html" class="page-transition-link">Privacy Policy</a>
-                    <a href="/cookies/cookiesAltabroker.html" class="page-transition-link">Cookie Policy</a>
+                    <a href="/policy/policyAltabroker.php" class="page-transition-link">Privacy Policy</a>
+                    <a href="/cookies/cookiesAltabroker.php" class="page-transition-link">Cookie Policy</a>
                     <a href="#header" class="page-transition-link">Legal & Compliance</a>
                 </div>
             </div>

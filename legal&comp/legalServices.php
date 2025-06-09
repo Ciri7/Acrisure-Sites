@@ -769,7 +769,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/services.html">
+                <a href="/services.php">
                     <img src="/img/Acrisure Services 2.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -780,11 +780,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/services.html#news" class="nav-link">News</a></li>
-                    <li><a href="/services.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/services.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-services.html" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/services.php#news" class="nav-link">News</a></li>
+                    <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/services.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/lavora-con-noi/lcn-services.php" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
@@ -948,8 +948,8 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyServices.html" class="page-transition-link">Privacy Policy</a>
-                    <a href="/cookies/cookiesServices.html" class="page-transition-link">Cookie Policy</a>
+                    <a href="/policy/policyServices.php" class="page-transition-link">Privacy Policy</a>
+                    <a href="/cookies/cookiesServices.php" class="page-transition-link">Cookie Policy</a>
                     <a href="#header" class="page-transition-link">Legal & Compliance</a>
                 </div>
             </div>

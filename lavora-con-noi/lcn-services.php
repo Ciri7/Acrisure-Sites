@@ -943,7 +943,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/services.html">
+                <a href="/services.php">
                     <img src="/img/Acrisure Services 2.jpg" class="logo" alt="Acrisure Services">
                 </a>
                 <div class="menu-toggle">
@@ -954,11 +954,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/services.html#news" class="nav-link">News</a></li>
-                    <li><a href="/services.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/services.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="lcn-services.html" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/services.php#news" class="nav-link">News</a></li>
+                    <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/services.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="lcn-services.php" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
     
@@ -1220,7 +1220,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="../policy/policyServices.html">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="../policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Candidatura</button>
                 </div>
@@ -1286,9 +1286,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyServices.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesServices.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalServices.html">Legal & Compliance</a>
+                    <a href="/policy/policyServices.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesServices.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

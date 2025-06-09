@@ -7,7 +7,7 @@
     <title>News - Acrisure Agriservices</title>
     <meta name="description" content="Tutte le ultime novità e aggiornamenti da Acrisure Italia. Scopri le nostre partnership, premi e iniziative nel settore assicurativo.">
     <meta name="keywords" content="news Acrisure, aggiornamenti assicurazioni, novità broker assicurativo, eventi Acrisure Italia">
-    <link rel="canonical" href="https://www.acrisureservices.it/news.html" />
+    <link rel="canonical" href="https://www.acrisureservices.it/news.php" />
     <!-- Schema markup per organizzazione -->
     <script type="application/ld+json">
     {
@@ -890,7 +890,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/agriservices.html">
+                <a href="/agriservices.php">
                 <img src="/img/ACRISURE AGRISERVICES.jpg" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
@@ -901,10 +901,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/agriservices.html#news" class="nav-link">News</a></li>
-                    <li><a href="/agriservices.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/agriservices.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/agriservices.php#news" class="nav-link">News</a></li>
+                    <li><a href="/agriservices.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/agriservices.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -934,7 +934,7 @@
                     <span class="news-date">15 Marzo 2024</span>
                     <h3>Nuova partnership nel settore agricolo</h3>
                     <p class="news-excerpt">Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.</p>
-                    <a href="news-article.html?id=1" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="news-article.php?id=1" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -945,7 +945,7 @@
                     <span class="news-date">28 Febbraio 2024</span>
                     <h3>Premio Innovazione Assicurativa 2024</h3>
                     <p class="news-excerpt">Acrisure Italia si aggiudica il prestigioso premio per la sua piattaforma digitale di risk management avanzato.</p>
-                    <a href="news-article.html?id=2" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="news-article.php?id=2" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -956,7 +956,7 @@
                     <span class="news-date">10 Gennaio 2024</span>
                     <h3>Espansione della rete italiana</h3>
                     <p class="news-excerpt">Apertura del nuovo ufficio di Torino, con un team specializzato in assicurazioni per il settore automotive.</p>
-                    <a href="news-article.html?id=3" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="news-article.php?id=3" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -967,7 +967,7 @@
                     <span class="news-date">5 Dicembre 2023</span>
                     <h3>Lancio del nuovo servizio di risk management</h3>
                     <p class="news-excerpt">Acrisure lancia una piattaforma innovativa per la gestione del rischio per le PMI italiane.</p>
-                    <a href="news-article.html?id=4" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="news-article.php?id=4" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -978,7 +978,7 @@
                     <span class="news-date">20 Novembre 2023</span>
                     <h3>Partnership con l'Università di Sassari</h3>
                     <p class="news-excerpt">Collaborazione con il dipartimento di Economia per la formazione di nuovi professionisti nel settore assicurativo.</p>
-                    <a href="news-article.html?id=5" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="news-article.php?id=5" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -989,7 +989,7 @@
                     <span class="news-date">15 Ottobre 2023</span>
                     <h3>Successo dell'evento annuale Acrisure Italia</h3>
                     <p class="news-excerpt">Oltre 200 partecipanti all'evento che ha presentato le novità per il 2024 e le tendenze del settore.</p>
-                    <a href="news-article.html?id=6" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="news-article.php?id=6" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
         </div>
@@ -1063,9 +1063,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyAgriservices.html">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgriservices.html">Cookie Policy</a>
-                    <a href="/legal&comp/legalAgriservices.html">Legal & Compliance</a>
+                    <a href="/policy/policyAgriservices.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesAgriservices.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalAgriservices.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

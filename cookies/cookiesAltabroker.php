@@ -593,7 +593,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/altabroker.html">
+                <a href="/altabroker.php">
                     <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -604,10 +604,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/altabroker.html#news" class="nav-link">News</a></li>
-                    <li><a href="/altabroker.html#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/altabroker.html#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.html#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/altabroker.php#news" class="nav-link">News</a></li>
+                    <li><a href="/altabroker.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/altabroker.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
@@ -808,9 +808,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="/policy/policyAltabroker.html">Privacy Policy</a>
+                    <a href="/policy/policyAltabroker.php">Privacy Policy</a>
                     <a href="#header">Cookie Policy</a>
-                    <a href="/legal&comp/legalAltabroker.html">Legal & Compliance</a>
+                    <a href="/legal&comp/legalAltabroker.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">
@@ -891,11 +891,11 @@
                 if (this.textContent === 'EN') {
                     // Cambia a inglese
                     console.log('Cambio a inglese');
-                    // window.location.href = '/en/services.html';
+                    // window.location.href = '/en/services.php';
                 } else {
                     // Cambia a italiano
                     console.log('Cambio a italiano');
-                    // window.location.href = '/services.html';
+                    // window.location.href = '/services.php';
                 }
             });
         });

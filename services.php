@@ -1754,7 +1754,7 @@
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Agriservices" class="leadership-logo">
                         <h3 class="leadership-name">Rossella Giacchi</h3>
-                        <p class="leadership-desc">Group General Consel</p>
+                        <p class="leadership-desc">Group General Counsel</p>
                     </div>
                     
                     <div class="leadership-card">
@@ -2224,7 +2224,7 @@
                 </div>
                 <div class="modal-feature-card">
                     <h3><i class="fas fa-money-bill-wave"></i> Riscatti Franchigie</h3>
-                    <p class="feature-description">Leader di mercato nella gestione del riscatto sinistri RCA.</p>
+                    <p class="feature-description">Leader di mercato nella gestione dei riscatti sinistri RCA.</p>
                     <ul class="feature-list">
                         <li>Evitare aumenti di premio</li>
                         <li>Soddisfare esigenze tecniche</li>

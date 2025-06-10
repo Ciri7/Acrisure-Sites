@@ -1782,7 +1782,7 @@
                         <ul class="service-features">
                             <li>Cover note</li>
                             <li>Testi contrattuali</li>
-                            <li>#</li>
+                            <!-- <li></li> -->
                         </ul>
                         <a href="#fleet-modal" class="service-link discover-more" data-modal="fleet">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1797,7 +1797,7 @@
                         <ul class="service-features">
                             <li>Contabilità</li>
                             <li>Reportistica amministrativa</li>
-                            <li>#</li>
+                            <!-- <li></li> -->
                         </ul>
                         <a href="#motor-modal" class="service-link discover-more" data-modal="motor">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>

@@ -2203,7 +2203,7 @@
                 </div>
                 <div class="modal-feature-card">
                     <h3><i class="fas fa-money-bill-wave"></i> Riscatti Franchigie</h3>
-                    <p class="feature-description">Leader di mercato nella gestione del riscatto sinistri RCA.</p>
+                    <p class="feature-description">Leader di mercato nella gestione dei riscatti sinistri RCA.</p>
                     <ul class="feature-list">
                         <li>Evitare aumenti di premio</li>
                         <li>Soddisfare esigenze tecniche</li>

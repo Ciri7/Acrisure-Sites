@@ -1736,7 +1736,7 @@
                         <option value="enti_pubblici">Enti Pubblici</option>
                         <option value="property_liability">Property & Liability</option>
                         <option value="riassicurazione">Riassicurazione</option>
-                        <option value="reclami">Reclami</option>
+                        <!-- <option value="reclami">Reclami</option> -->
                         <option value="altro">Altro</option>
                     </select>
                 </div><br>

@@ -1827,9 +1827,9 @@
         <div class="footer-legal">
             <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
             <div class="legal-links">
-                <a href="policy/policyacrisure.php">Privacy Policy</a>
-                <a href="cookies/cookiesacrisure.php">Cookie Policy</a>
-                <a href="legal&comp/legalacrisure.php">Legal & Compliance</a>
+                <a href="/policy/policyacrisure.php">Privacy Policy</a>
+                <a href="/cookies/cookiesacrisure.php">Cookie Policy</a>
+                <a href="/legal&comp/legalacrisure.php">Legal & Compliance</a>
             </div>
         </div>
         <div class="footer-badge">

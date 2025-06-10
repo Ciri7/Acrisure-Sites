@@ -2342,7 +2342,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="policy/policyServices.php">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="/policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Richiesta</button>
                 </div>
@@ -2408,9 +2408,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
                 <div class="legal-links">
-                    <a href="policy/policyAgricolture.php">Privacy Policy</a>
-                    <a href="cookies/cookiesAgricolture.php">Cookie Policy</a>
-                    <a href="legal&comp/legalAgricolture.php">Legal & Compliance</a>
+                    <a href="/policy/policyAgricolture.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesAgricolture.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalAgricolture.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

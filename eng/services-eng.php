@@ -2363,7 +2363,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Mandatory fields</p>
-                        <p>Read ours <a href="policy/policyServices.php">Privacy Policy</a></p>
+                        <p>Read ours <a href="/policy/policyServices.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>
@@ -2428,9 +2428,9 @@
             <div class="footer-legal">
                 <p>&copy; 2025 Acrisure Services. All rights reserved.</p>
                 <div class="legal-links">
-                    <a href="policy/policyServices.php">Privacy Policy</a>
-                    <a href="cookies/cookiesServices.php">Cookie Policy</a>
-                    <a href="legal&comp/legalServices.php">Legal & Compliance</a>
+                    <a href="/policy/policyServices.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesServices.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
                 </div>
             </div>
             <div class="footer-badge">

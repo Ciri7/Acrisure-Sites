@@ -1825,11 +1825,22 @@
     
     <div class="footer-bottom">
         <div class="footer-legal">
-            <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
+            <p>&copy; 2025 Acrisure. Tutti i diritti riservati.</p>
             <div class="legal-links">
                 <a href="/policy/policyAcrisure.php">Privacy Policy</a>
                 <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
                 <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
+            </div>
+        </div>
+        <div class="footer-badge">
+            <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-legal">
+            <div class="legal-links">
+                <p>Acrisure Italia S.p.A, iscrizione sezione B del  RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p>
             </div>
         </div>
         <div class="footer-badge">

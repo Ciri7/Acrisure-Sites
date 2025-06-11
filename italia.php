@@ -2432,7 +2432,7 @@
             <!-- <div class="footer-badge">
                 <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
             </div> -->
-        </div><br>
+        </div><br><br>
 
          <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">

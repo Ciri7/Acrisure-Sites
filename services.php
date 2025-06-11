@@ -2378,7 +2378,7 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
                     <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 SS</li><br>
                     <li><img src="/img/Acrisure Services 2.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>

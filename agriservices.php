@@ -328,6 +328,19 @@
             color: white;
             position: relative;
         }
+
+        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership-first-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
         
         .leadership .section-title {
             color: white;
@@ -1626,7 +1639,7 @@
     <!-- Sezione News modificata con 3D Rotating Ticker -->
     <section id="news" class="section news-section">
         <h2 class="section-title">News & Aggiornamenti</h2>
-        <p class="section-subtitle">Scopri le ultime novità e gli aggiornamenti dal nostro gruppo</p>
+        <p class="section-subtitle">Gestione del portafoglio degli assicurati di Agricolture e gestione e liquidazione dei sinistri</p>
         
         <div class="news-wrapper">
             <button class="news-nav prev" aria-label="Previous news">
@@ -1707,61 +1720,19 @@
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <!-- Prima riga -->
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">1</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name"> 2</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">3</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <!-- Seconda riga -->
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">4</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Services" class="leadership-logo">
-                    <h3 class="leadership-name">5</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">6</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <!-- Terza riga -->
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">7</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">8</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">9</h3>
-                    <p class="leadership-desc">idk</p>
+                <!-- Prima riga con 2 card centrate -->
+                <div class="leadership-first-row">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Maurizio Capiello</h3>
+                        <p class="leadership-desc">Amministratore Delegato</p>
+                    </div>
+                    
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Maffei</h3>
+                        <p class="leadership-desc">Presidente</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1783,11 +1754,11 @@
                         <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
                     </div>
                     <div class="service-content">
-                        <h3>CUSTOMER SERVICE</h3>
+                        <h3>ASSISTENZA AI DISTRIBITORI ISCRITTI IN RAPPORTO DI COLLABORAZIONE CON AGRICOLTURE</h3>
                         <ul class="service-features">
-                            <li>Servizio telefonico, email e chat in-bound ed out-bound</li>
-                            <li>Gestione servizi post vendita prodotti assicurativi</li>
-                            <li>Gestione sinistri dalla denuncia fino al pagamento con modelli plug & play</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
                         </ul>
                         <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1798,11 +1769,11 @@
                         <img src="/img/scrivania legno.jpg" alt="Fleet Management">
                     </div>
                     <div class="service-content">
-                        <h3>LEGAL, COMPLIANCE & HR</h3>
+                        <h3>GESTIONE TECNICO AMMINISTRATIVO DELLE COPERTURE ASSICURATIVE </h3>
                         <ul class="service-features">
-                            <li>Governance aziendale</li>
-                            <li>Quadro ed aggiornamenti normativi perimetro IVASS</li>
-                            <li>HR management</li>
+                            <li>,</li>
+                            <li>,</li>
+                            <li>,</li>
                         </ul>
                         <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1813,11 +1784,11 @@
                         <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare">
                     </div>
                     <div class="service-content">
-                        <h3>TPA MOTOR & WELFARE</h3>
+                        <h3>APERTURA E GESTIONE DEI SINISTRI </h3>
                         <ul class="service-features">
-                            <li>Centrale operativa 6/7 8-20</li>
-                            <li>Back office documentale / Business Process Outsourcing</li>
-                            <li>Ampia flessibilità ed alta scalabilità</li>
+                            <li>,</li>
+                            <li>,</li>
+                            <li>,</li>
                         </ul>
                         <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1828,17 +1799,17 @@
                         <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
-                        <h3>FLEET MANAGEMENT</h3>
+                        <h3>LIQUIDAZIONE SINISTRO</h3>
                         <ul class="service-features">
-                            <li>Gestione flotta aziendale a 360°</li>
-                            <li>Servizi di manutenzione ordinaria, straordinaria, assistenza stradale</li>
-                            <li>Gestione danni diretti in autoassicurazione</li>
+                            <li>,</li>
+                            <li>,</li>
+                            <li>,</li>
                         </ul>
                         <a href="#fleet-modal" class="service-link discover-more" data-modal="fleet">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
-                <div class="service-card">
+                <!-- <div class="service-card">
                     <div class="service-image">
                         <img src="/img/motor4.jpg" alt="Motor">
                     </div>
@@ -1867,7 +1838,7 @@
                             <li>Data analytics</li>
                         </ul>
                         <a href="#welfare-modal" class="service-link discover-more" data-modal="welfare">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             
@@ -2322,15 +2293,15 @@
                     <label for="service">Servizio di interesse <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Claim & Services</option>
-                        <option value="gestione_sinistri">Gestioni Sinistri</option>
-                        <option value="automotive_solution">Automotive Solution</option>
-                        <option value="welfare">Welfare</option>
-                        <option value="enti_pubblici">Enti Pubblici</option>
+                        <option value="claim&services">Assistenza ai distributori iscritti in rapporto di collaborazione con Agricolture</option>
+                        <option value="gestione_sinistri">Gestione tecnico amministrativo delle coperture assicurative</option>
+                        <option value="automotive_solution">Apertura e gestione dei sinistri</option>
+                        <option value="welfare">Liquidazione sinistro</option>
+                        <!-- <option value="enti_pubblici">Enti Pubblici</option>
                         <option value="property_liability">Property & Liability</option>
                         <option value="riassicurazione">Riassicurazione</option>
                         <option value="reclami">Reclami</option>
-                        <option value="altro">Altro</option>
+                        <option value="altro">Altro</option> -->
                     </select>
                 </div><br>
                 
@@ -2357,7 +2328,7 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
                     <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i> Via Lovanio, 6 - 00198 RM</li><br>
                     <li><img src="/img/ACRISURE AGRISERVICES.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
@@ -2376,9 +2347,9 @@
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 0698968206</li>
                     <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:Infoagriservices@acrisure.it">Infoagriservices@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
                 

@@ -328,6 +328,19 @@
             color: white;
             position: relative;
         }
+
+        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership-first-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
         
         .leadership .section-title {
             color: white;
@@ -1618,7 +1631,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Acrisure Agricolture</h1>
-            <p>Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
+            <p>consulenza specializzata per il mondo della agricoltura per accompagnare i propri clienti alle migliori coperture a garanzia dei risultati del loro business. Verifica in statuto</p>
             <a href="#contatti" class="btn btn-secondary">Contattaci</a>
         </div>
     </section>
@@ -1707,61 +1720,19 @@
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <!-- Prima riga -->
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">1</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name"> 2</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">3</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <!-- Seconda riga -->
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">4</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Services" class="leadership-logo">
-                    <h3 class="leadership-name">5</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">6</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <!-- Terza riga -->
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">7</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">8</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">9</h3>
-                    <p class="leadership-desc">idk</p>
+                <!-- Prima riga con 2 card centrate -->
+                <div class="leadership-first-row">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Maurizio Capiello</h3>
+                        <p class="leadership-desc">Amministratore Delegato</p>
+                    </div>
+                    
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Maffei</h3>
+                        <p class="leadership-desc">Presidente</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1782,7 +1753,7 @@
                     <div class="service-image">
                         <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
                     </div>
-                    <div class="service-content">
+                    <!-- <div class="service-content">
                         <h3>CUSTOMER SERVICE</h3>
                         <ul class="service-features">
                             <li>Servizio telefonico, email e chat in-bound ed out-bound</li>
@@ -1821,18 +1792,18 @@
                         </ul>
                         <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
-                </div>
+                </div> -->
                 
                 <div class="service-card">
                     <div class="service-image">
                         <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
-                        <h3>FLEET MANAGEMENT</h3>
+                        <h3>CONSULENZA</h3>
                         <ul class="service-features">
-                            <li>Gestione flotta aziendale a 360°</li>
-                            <li>Servizi di manutenzione ordinaria, straordinaria, assistenza stradale</li>
-                            <li>Gestione danni diretti in autoassicurazione</li>
+                            <li>,</li>
+                            <li>,</li>
+                            <li>,</li>
                         </ul>
                         <a href="#fleet-modal" class="service-link discover-more" data-modal="fleet">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1843,17 +1814,17 @@
                         <img src="/img/motor4.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
-                        <h3>MOTOR</h3>
+                        <h3>SOTTOSCRIZIONE DI POLIZZE</h3>
                         <ul class="service-features">
-                            <li>Gestione flotte RCA libro matricola / CVT</li>
-                            <li>Smart management assuntivo con comunicazioni agli stakeholder</li>
-                            <li>Gestione sinistri RCA e riscatto sinistri</li>
+                            <li>,</li>
+                            <li>,</li>
+                            <li>,</li>
                         </ul>
                         <a href="#motor-modal" class="service-link discover-more" data-modal="motor">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
-                <div class="service-card">
+                <!-- <div class="service-card">
                     <div class="service-image">
                         <img src="/img/legno.avif" alt="Welfare 360°">
                     </div>
@@ -1868,7 +1839,7 @@
                         </ul>
                         <a href="#welfare-modal" class="service-link discover-more" data-modal="welfare">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
-                </div>
+                </div> -->
             </div>
             
             <button class="services-nav next" aria-label="Next service">
@@ -2357,7 +2328,7 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
                     <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i> Via Lovanio, 6 - 00198 RM</li><br>
                     <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
@@ -2365,10 +2336,10 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>20123 - Via Santa Maria Segreta 6</li>
+                    <!-- <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>20123 - Via Santa Maria Segreta 6</li>
                     <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>00198 - Via Lovanio 6</li>
                     <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>10123 - Via San Francesco Da Paola 15</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>16121 - Piazza della Vittoria 9</li>
+                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>16121 - Piazza della Vittoria 9</li> -->
                     <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>38023 - Piazza Granda 44</li>
                 </ul>
             </div>
@@ -2376,9 +2347,9 @@
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 0698968206</li>
                     <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:Infoagricoluture@acrisure.it">Infoagricoluture@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
                 

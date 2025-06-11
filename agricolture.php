@@ -1252,6 +1252,22 @@
         .footer-badge img:hover {
             opacity: 1;
         }
+
+        .footer-legal-notice {
+            text-align: center;
+            padding: 1.5rem 5%;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+            margin: 0 auto;
+            max-width: 1400px;
+        }
+
+        .footer-legal-notice p {
+            font-size: 0.85rem;
+            color: var(--secondary);
+            line-height: 1.5;
+            margin: 0;
+        }
         
         /* Cookie banner */
         .cookie-banner {
@@ -2377,16 +2393,22 @@
         
         <div class="footer-bottom">
             <div class="footer-legal">
-                <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
+                <p>&copy; 2025 Acrisure Agricolture. Tutti i diritti riservati.</p>
                 <div class="legal-links">
                     <a href="/policy/policyAgricolture.php">Privacy Policy</a>
                     <a href="/cookies/cookiesAgricolture.php">Cookie Policy</a>
                     <a href="/legal&comp/legalAgricolture.php">Legal & Compliance</a>
                 </div>
             </div>
-            <div class="footer-badge">
+            <!-- <div class="footer-badge">
                 <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
+            </div> -->
+        </div><br>
+
+         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
+        <div class="footer-legal-notice">
+            <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
+            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p>
         </div>
     </footer>
 

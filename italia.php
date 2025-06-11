@@ -1091,7 +1091,7 @@
         }
         
         /* Footer */
-        /* footer {
+        footer {
             background-color: white;
             color: var(--secondary);
             padding: 4rem 5% 2rem;
@@ -1123,7 +1123,7 @@
             width: 50px;
             height: 2px;
             background-color: var(--accent);
-        } */
+        }
 
         /* Footer migliorato */
         .footer-column h3 i {

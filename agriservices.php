@@ -1754,7 +1754,7 @@
                         <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
                     </div>
                     <div class="service-content">
-                        <h3>ASSISTENZA AI DISTRIBITORI ISCRITTI IN RAPPORTO DI COLLABORAZIONE CON AGRICOLTURE</h3>
+                        <h3>ASSISTENZA AI DISTRIBUTORI ISCRITTI IN RAPPORTO DI COLLABORAZIONE CON AGRICOLTURE</h3>
                         <ul class="service-features">
                             <li>.</li>
                             <li>.</li>

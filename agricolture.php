@@ -1631,7 +1631,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Acrisure Agricolture</h1>
-            <p>consulenza specializzata per il mondo della agricoltura per accompagnare i propri clienti alle migliori coperture a garanzia dei risultati del loro business. Verifica in statuto</p>
+            <p>Consulenza specializzata per il mondo della agricoltura per accompagnare i propri clienti alle migliori coperture a garanzia dei risultati del loro business. Verifica in statuto</p>
             <a href="#contatti" class="btn btn-secondary">Contattaci</a>
         </div>
     </section>

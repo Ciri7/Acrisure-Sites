@@ -1631,7 +1631,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Acrisure Agriservices</h1>
-            <p>Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
+            <p>Gestione del portafoglio degli assicurati di Agricolture e gestione e liquidazione dei sinistri</p>
             <a href="#contatti" class="btn btn-secondary">Contattaci</a>
         </div>
     </section>
@@ -1639,7 +1639,7 @@
     <!-- Sezione News modificata con 3D Rotating Ticker -->
     <section id="news" class="section news-section">
         <h2 class="section-title">News & Aggiornamenti</h2>
-        <p class="section-subtitle">Gestione del portafoglio degli assicurati di Agricolture e gestione e liquidazione dei sinistri</p>
+        <p class="section-subtitle">Scopri le ultime novità e gli aggiornamenti dal nostro gruppo</p>
         
         <div class="news-wrapper">
             <button class="news-nav prev" aria-label="Previous news">

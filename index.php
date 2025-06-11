@@ -352,9 +352,9 @@
         }
         
         /* About Section */
-        .about {
-            /* background-color: var(--light); */
-        }
+        /* .about {
+            background-color: var(--light);
+        } */
         
         .about-content {
             max-width: 1200px;
@@ -369,9 +369,9 @@
         }
         
         /* Gruppo Section */
-        .gruppo {
+        /* .gruppo {
             background-color: var(--light);
-        }
+        } */
         
         .aziende-container {
             display: flex;

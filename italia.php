@@ -2422,17 +2422,17 @@
         
         <div class="footer-bottom">
             <div class="footer-legal">
-                <p>&copy; 2025 Acrisure Services. Tutti i diritti riservati.</p>
+                <p>&copy; 2025 Acrisure Italia S.p.A. Tutti i diritti riservati.</p>
                 <div class="legal-links">
                     <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
                     <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
                 </div>
             </div>
-            <div class="footer-badge">
+            <!-- <div class="footer-badge">
                 <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div>
+            </div> -->
+        </div><br>
 
          <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">

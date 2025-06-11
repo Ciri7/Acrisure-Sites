@@ -353,7 +353,7 @@
         
         /* About Section */
         .about {
-            background-color: var(--light);
+            /* background-color: var(--light); */
         }
         
         .about-content {

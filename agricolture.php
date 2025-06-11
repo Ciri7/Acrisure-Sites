@@ -1750,9 +1750,9 @@
             
             <div class="services-container">
                 <div class="service-card">
-                    <div class="service-image">
+                    <!-- <div class="service-image">
                         <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
-                    </div>
+                    </div> -->
                     <!-- <div class="service-content">
                         <h3>CUSTOMER SERVICE</h3>
                         <ul class="service-features">

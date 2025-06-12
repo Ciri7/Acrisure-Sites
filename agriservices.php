@@ -1595,6 +1595,93 @@
                 padding: 15px;
             }
         }
+
+
+        /* Nuovo stile per la griglia dei servizi */
+        .services-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    
+        .service-row {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+    
+        .service-card {
+            flex: 1;
+            min-width: 280px;
+            max-width: 480px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid #eee;
+        }
+    
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent);
+        }
+    
+        .service-image {
+            height: 200px;
+            overflow: hidden;
+        }
+    
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+    
+        .service-card:hover .service-image img {
+            transform: scale(1.05);
+        }
+    
+        .service-content {
+            padding: 1.5rem;
+            text-align: center;
+        }
+    
+        .service-content h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .service-badge {
+            background-color: var(--accent);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+    
+        /* Responsive */
+        @media (max-width: 768px) {
+            .service-row {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .service-card {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1739,114 +1826,68 @@
         <br><br><br>
     </section>
 
-    <section id="services" class="section">
-        <h2 class="section-title">I Nostri Servizi</h2>
-        <p class="section-subtitle">Un portfolio completo di soluzioni integrate per rispondere a tutte le esigenze del settore assicurativo</p>
-        
-        <div class="services-wrapper">
-            <button class="services-nav prev" aria-label="Previous service">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            
-            <div class="services-container">
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
-                    </div>
-                    <div class="service-content">
-                        <h3>ASSISTENZA AI DISTRIBUTORI ISCRITTI IN RAPPORTO DI COLLABORAZIONE CON AGRICOLTURE</h3>
-                        <ul class="service-features">
-                            <li>.</li>
-                            <li>.</li>
-                            <li>.</li>
-                        </ul>
-                        <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
+    <!-- I Nostri Servizi - Versione Migliorata -->
+<section id="services" class="section">
+    <h2 class="section-title">I Nostri Servizi</h2>
+    <p class="section-subtitle">Soluzioni specializzate per la gestione assicurativa nel settore agricolo</p>
+    
+    <div class="services-grid">
+        <!-- Riga 1 -->
+        <div class="service-row">
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="/img/cuffie e scrivania.jpg" alt="Assistenza Distributori">
                 </div>
-
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/scrivania legno.jpg" alt="Fleet Management">
+                <div class="service-content">
+                    <h3>ASSISTENZA AI DISTRIBUTORI</h3>
+                    <div class="service-badge">
+                        <span>Agricolture</span>
                     </div>
-                    <div class="service-content">
-                        <h3>GESTIONE TECNICO AMMINISTRATIVO DELLE COPERTURE ASSICURATIVE </h3>
-                        <ul class="service-features">
-                            <li>,</li>
-                            <li>,</li>
-                            <li>,</li>
-                        </ul>
-                        <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare">
-                    </div>
-                    <div class="service-content">
-                        <h3>APERTURA E GESTIONE DEI SINISTRI </h3>
-                        <ul class="service-features">
-                            <li>,</li>
-                            <li>,</li>
-                            <li>,</li>
-                        </ul>
-                        <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
-                    </div>
-                    <div class="service-content">
-                        <h3>LIQUIDAZIONE SINISTRO</h3>
-                        <ul class="service-features">
-                            <li>,</li>
-                            <li>,</li>
-                            <li>,</li>
-                        </ul>
-                        <a href="#fleet-modal" class="service-link discover-more" data-modal="fleet">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/motor4.jpg" alt="Motor">
-                    </div>
-                    <div class="service-content">
-                        <h3>MOTOR</h3>
-                        <ul class="service-features">
-                            <li>Gestione flotte RCA libro matricola / CVT</li>
-                            <li>Smart management assuntivo con comunicazioni agli stakeholder</li>
-                            <li>Gestione sinistri RCA e riscatto sinistri</li>
-                        </ul>
-                        <a href="#motor-modal" class="service-link discover-more" data-modal="motor">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/legno.avif" alt="Welfare 360°">
-                    </div>
-                    <div class="service-content">
-                        <h3>WELFARE 360°</h3>
-                        <ul class="service-features">
-                            <li>Supporto nella definizione e formalizzazione di piani welfare</li>
-                            <li>Definizione ed implementazione di piani di comunicazione e formazione</li>
-                            <li>Creazione dell'offerta di servizi welfare personalizzati</li>
-                            <li>Piattaforma integrata per la gestione dei servizi</li>
-                            <li>Data analytics</li>
-                        </ul>
-                        <a href="#welfare-modal" class="service-link discover-more" data-modal="welfare">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div> -->
                 </div>
             </div>
             
-            <button class="services-nav next" aria-label="Next service">
-                <i class="fas fa-chevron-right"></i>
-            </button>
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="/img/scrivania legno.jpg" alt="Gestione Coperture">
+                </div>
+                <div class="service-content">
+                    <h3>GESTIONE COPERTURE ASSICURATIVE</h3>
+                    <div class="service-badge">
+                        <span>Tecnico-Amministrativa</span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+        
+        <!-- Riga 2 -->
+        <div class="service-row">
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="/img/callcenter.jpg" alt="Gestione Sinistri">
+                </div>
+                <div class="service-content">
+                    <h3>GESTIONE SINISTRI</h3>
+                    <div class="service-badge">
+                        <span>Apertura e Monitoraggio</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="/img/fleet.jpg" alt="Liquidazione Sinistri">
+                </div>
+                <div class="service-content">
+                    <h3>LIQUIDAZIONE SINISTRI</h3>
+                    <div class="service-badge">
+                        <span>Processi Certificati</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Modali per i servizi -->
 <div id="customer-service-modal" class="modal">

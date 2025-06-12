@@ -1767,7 +1767,7 @@
                     <img src="/img/fleet.jpg" alt="Consulenza Agricola">
                 </div>
                 <div class="service-content" style="padding: 2rem; text-align: center;">
-                    <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">CONSULENZA</h3>
+                    <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">CONSULENZA</h3>
                     <div style="display: flex; justify-content: center;">
                         <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                     </div>
@@ -1782,7 +1782,7 @@
                     <img src="/img/motor4.jpg" alt="Sottoscrizione Polizze">
                 </div>
                 <div class="service-content" style="padding: 2rem; text-align: center;">
-                    <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">SOTTOSCRIZIONE DI POLIZZE</h3>
+                    <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">SOTTOSCRIZIONE DI POLIZZE</h3>
                     <div style="display: flex; justify-content: center;">
                         <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                     </div>

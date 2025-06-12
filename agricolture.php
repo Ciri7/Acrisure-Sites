@@ -1749,460 +1749,51 @@
                         <h3 class="leadership-name">Andrea Maffei</h3>
                         <p class="leadership-desc">Presidente</p>
                     </div>
-                </div>
+                </div><br>
             </div>
         </div>
         <br><br><br>
     </section>
 
     <!-- Sezione Servizi Modificata -->
-<section id="services" class="section">
-    <h2 class="section-title">I Nostri Servizi</h2>
-    <p class="section-subtitle">Soluzioni specializzate per il settore agricolo, pensate per proteggere e valorizzare il tuo business</p>
+    <section id="services" class="section">
+        <h2 class="section-title">I Nostri Servizi</h2>
+        <p class="section-subtitle">Soluzioni specializzate per il settore agricolo, pensate per proteggere e valorizzare il tuo business</p>
     
-    <div class="services-wrapper">
-        <div class="services-container" style="justify-content: center; gap: 3rem;">
-            <div class="service-card" style="width: 450px; height: 450px;">
-                <div class="service-image" style="height: 250px;">
-                    <img src="/img/fleet.jpg" alt="Consulenza Agricola">
-                </div>
-                <div class="service-content" style="padding: 2rem; text-align: center;">
-                    <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">CONSULENZA</h3>
-                    <div style="display: flex; justify-content: center;">
-                        <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+        <div class="services-wrapper">
+            <div class="services-container" style="justify-content: center; gap: 3rem;">
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Consulenza.jpg" alt="Consulenza Agricola">
                     </div>
-                    <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                        Servizi di consulenza specializzata per ottimizzare le coperture assicurative e gestire i rischi del settore agricolo
-                    </p>
-                </div>
-            </div>
-
-            <div class="service-card" style="width: 450px; height: 450px;">
-                <div class="service-image" style="height: 250px;">
-                    <img src="/img/motor4.jpg" alt="Sottoscrizione Polizze">
-                </div>
-                <div class="service-content" style="padding: 2rem; text-align: center;">
-                    <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">SOTTOSCRIZIONE DI POLIZZE</h3>
-                    <div style="display: flex; justify-content: center;">
-                        <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">CONSULENZA</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            Servizi di consulenza specializzata per ottimizzare le coperture assicurative e gestire i rischi del settore agricolo
+                        </p>
                     </div>
-                    <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                        Soluzioni assicurative personalizzate per proteggere le attività e gli investimenti nel settore agricolo
-                    </p>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Modali per i servizi -->
-<div id="customer-service-modal" class="modal">
-    <div class="modal-content">
-        <button class="close-modal">&times;</button>
-        <div class="modal-header">
-            <img src="/img/cuffie e scrivania.jpg" alt="Customer Service" class="modal-header-image">
-            <div class="modal-header-content">
-                <h2 class="modal-title">CUSTOMER SERVICE</h2>
-                <p class="modal-subtitle">La nostra Centrale Operativa ha il compito di affiancare le parti coinvolte, fornendo la massima assistenza necessaria</p>
-            </div>
-        </div>
-        <div class="modal-body">
-            <div class="modal-features">
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-user-cog"></i> Personalizzazione</h3>
-                    <p class="feature-description">Ascoltiamo le esigenze dei clienti per fornire un servizio su misura e completamente personalizzato in base alle specifiche necessità.</p>
-                    <ul class="feature-list">
-                        <li>Analisi delle esigenze specifiche</li>
-                        <li>Soluzioni tailor-made</li>
-                        <li>Monitoraggio continuo</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-stopwatch"></i> Tempestività</h3>
-                    <p class="feature-description">Rispondiamo prontamente alle richieste fornendo una soluzione rapida ed efficace, garantendo tempi di risposta ottimali.</p>
-                    <ul class="feature-list">
-                        <li>Assistenza immediata</li>
-                        <li>Risposte in tempo reale</li>
-                        <li>Gestione prioritaria</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-heart"></i> Empatia</h3>
-                    <p class="feature-description">Trattiamo i clienti con cortesia e rispetto, comprendendo le loro esigenze e fornendo supporto con professionalità.</p>
-                    <ul class="feature-list">
-                        <li>Approccio personalizzato</li>
-                        <li>Attenzione alle esigenze</li>
-                        <li>Supporto empatico</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-check-circle"></i> Risoluzione efficace</h3>
-                    <p class="feature-description">Affrontiamo i problemi dei clienti con competenza ed efficacia, garantendo soluzioni concrete e durature.</p>
-                    <ul class="feature-list">
-                        <li>Analisi approfondita</li>
-                        <li>Soluzioni definitive</li>
-                        <li>Follow-up garantito</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-chart-line"></i> Feedback e miglioramenti</h3>
-                    <p class="feature-description">Monitoriamo e accogliamo i feedback per migliorare continuamente i nostri servizi e l'esperienza del cliente.</p>
-                    <ul class="feature-list">
-                        <li>Raccolta feedback</li>
-                        <li>Analisi soddisfazione</li>
-                        <li>Miglioramenti continui</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-headset"></i> Assistenza 360°</h3>
-                    <p class="feature-description">Offriamo supporto completo tramite diversi canali di comunicazione per garantire una copertura totale delle esigenze.</p>
-                    <ul class="feature-list">
-                        <li>Omni-canale</li>
-                        <li>Disponibilità continua</li>
-                        <li>Supporto integrato</li>
-                    </ul>
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Sottoscrizione di polizze.jpg" alt="Sottoscrizione Polizze">
+                    </div>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">SOTTOSCRIZIONE DI POLIZZE</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            Soluzioni assicurative personalizzate per proteggere le attività e gli investimenti nel settore agricolo
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-
-<div id="legal-compliance-modal" class="modal">
-    <div class="modal-content">
-        <button class="close-modal">&times;</button>
-        <div class="modal-header">
-            <img src="/img/scrivania legno.jpg" alt="Legal, Compliance & HR" class="modal-header-image">
-            <div class="modal-header-content">
-                <h2 class="modal-title">LEGAL, COMPLIANCE & HR</h2>
-                <p class="modal-subtitle">Il cuore pulsante che serve i nostri clienti con eccellenza e competenza</p>
-            </div>
-        </div>
-        <div class="modal-body">
-            <div class="modal-features">
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-balance-scale"></i> Affari Societari</h3>
-                    <p class="feature-description">Supporto completo per la gestione della governance aziendale, inclusi CdA, comitati esecutivi e comitati interni.</p>
-                    <ul class="feature-list">
-                        <li>Gestione documentazione societaria</li>
-                        <li>Supporto alle assemblee</li>
-                        <li>Consulenza su struttura organizzativa</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-gavel"></i> Legal</h3>
-                    <p class="feature-description">Gestione completa della contrattualistica e supporto legale specializzato.</p>
-                    <ul class="feature-list">
-                        <li>Contratti con clienti e fornitori</li>
-                        <li>Monitoraggio reclami IVASS</li>
-                        <li>Allineamento procedure aziendali</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-shield-alt"></i> Compliance</h3>
-                    <p class="feature-description">Servizi completi di conformità normativa e gestione del rischio.</p>
-                    <ul class="feature-list">
-                        <li>Analisi contesto normativo</li>
-                        <li>Gestione AML (Anti-Money Laundering)</li>
-                        <li>Investigazioni antifrode</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-users"></i> Human Resource</h3>
-                    <p class="feature-description">Soluzioni integrate per la gestione delle risorse umane.</p>
-                    <ul class="feature-list">
-                        <li>Organigrammi e funzionigrammi</li>
-                        <li>Gestione presenze e permessi</li>
-                        <li>Formazione specialistica</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="tpa-modal" class="modal">
-    <div class="modal-content">
-        <button class="close-modal">&times;</button>
-        <div class="modal-header">
-            <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare" class="modal-header-image2">
-            <div class="modal-header-content">
-                <h2 class="modal-title">TPA MOTOR & WELFARE</h2>
-                <p class="modal-subtitle">Soluzioni complete per la gestione dei sinistri e servizi di welfare</p>
-            </div>
-        </div>
-        <div class="modal-body">
-            <div class="modal-features">
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-headset"></i> Servizio Clienti</h3>
-                    <p class="feature-description">Centrale operativa attiva 6/7 | 8-20 per il contatto diretto con l'assicurato.</p>
-                    <ul class="feature-list">
-                        <li>Assistenza telefonica dedicata</li>
-                        <li>Supporto via email e chat</li>
-                        <li>Gestione richieste in tempo reale</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-user-md"></i> Check-Up Sanitari</h3>
-                    <p class="feature-description">Prenotazione del check up dal network medico convenzionato.</p>
-                    <ul class="feature-list">
-                        <li>Prenotazioni rapide e semplici</li>
-                        <li>Network medico qualificato</li>
-                        <li>Gestione documentazione</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-database"></i> Anagrafica Clienti</h3>
-                    <p class="feature-description">Gestione anagrafica cliente corporate e retail con massima precisione.</p>
-                    <ul class="feature-list">
-                        <li>Aggiornamenti in tempo reale</li>
-                        <li>Integrazione con sistemi esterni</li>
-                        <li>Backup sicuro dei dati</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-file-alt"></i> Gestione Documenti</h3>
-                    <p class="feature-description">Gestione backoffice documentale clienti corporate e retail.</p>
-                    <ul class="feature-list">
-                        <li>Archiviazione digitale</li>
-                        <li>Ricerca rapida documenti</li>
-                        <li>Condivisione sicura</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-car-crash"></i> Risoluzione del sinistro</h3>
-                    <p class="feature-description">Chiudi rapidamente il tuo sinistro con il nostro supporto completo.</p>
-                    <ul class="feature-list">
-                        <li>Caricamento documenti online</li>
-                        <li>Monitoraggio stato pratica</li>
-                        <li>Comunicazioni tempestive</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-cogs"></i> Processi Industrializzati</h3>
-                    <p class="feature-description">Soluzioni ad alta scalabilità per un supporto immediato.</p>
-                    <ul class="feature-list">
-                        <li>Flessibilità operativa</li>
-                        <li>Adattamento ai volumi</li>
-                        <li>Efficienza garantita</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="fleet-modal" class="modal">
-    <div class="modal-content">
-        <button class="close-modal">&times;</button>
-        <div class="modal-header">
-            <img src="/img/fleet.jpg" alt="Fleet Management" class="modal-header-image">
-            <div class="modal-header-content">
-                <h2 class="modal-title">FLEET MANAGEMENT</h2>
-                <p class="modal-subtitle">Gestione completa delle flotte aziendali con servizi integrati</p>
-            </div>
-        </div>
-        <div class="modal-body">
-            <div class="modal-features">
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-car"></i> Gestione Flotte Complete</h3>
-                    <p class="feature-description">Soluzioni end-to-end per la gestione di tutte le esigenze della tua flotta aziendale.</p>
-                    <ul class="feature-list">
-                        <li>Ingresso e uscita veicoli</li>
-                        <li>Copertura RCA a libro matricola</li>
-                        <li>Gestione documentale</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-tools"></i> Manutenzione e Assistenza</h3>
-                    <p class="feature-description">Servizi completi per mantenere la tua flotta sempre efficiente.</p>
-                    <ul class="feature-list">
-                        <li>Manutenzione ordinaria (gestione tagliandi) e straordinaria</li>
-                        <li>Assistenza stradale 24/7</li>
-                        <!-- <li>Gestione tagliandi e rabbocchi</li>  -->
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-euro-sign"></i> Contenimento Costi</h3>
-                    <p class="feature-description">Strategie avanzate per ottimizzare i costi operativi della flotta.</p>
-                    <ul class="feature-list">
-                        <li>Network di provider selezionati</li>
-                        <li>Analisi e razionalizzazione spese</li>
-                        <li>Preventivazione accurata</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-shield-alt"></i> Gestione Sinistri</h3>
-                    <p class="feature-description">Supporto completo nella gestione dei danni e delle pratiche assicurative.</p>
-                    <ul class="feature-list">
-                        <li>Gestione danni diretti in autoassicurazione</li>
-                        <li>Authority del danno</li>
-                        <li>Liquidazioni rapide</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-chart-line"></i> Reporting Avanzato</h3>
-                    <p class="feature-description">Dashboard e report personalizzati per monitorare le performance della flotta.</p>
-                    <ul class="feature-list">
-                        <li>Analisi consumi e costi</li>
-                        <li>Monitoraggio manutenzioni</li>
-                        <li>Statistiche utilizzo veicoli</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-mobile-alt"></i> Piattaforma Digitale</h3>
-                    <p class="feature-description">Accesso a tutti i servizi attraverso la nostra piattaforma integrata.</p>
-                    <ul class="feature-list">
-                        <li>Prenotazioni online</li>
-                        <li>Tracking interventi</li>
-                        <li>Comunicazioni dirette</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="motor-modal" class="modal">
-    <div class="modal-content">
-        <button class="close-modal">&times;</button>
-        <div class="modal-header">
-            <img src="/img/motor4.jpg" alt="Motor" class="modal-header-image">
-            <div class="modal-header-content">
-                <h2 class="modal-title">MOTOR</h2>
-                <p class="modal-subtitle">Soluzioni specializzate per la gestione delle polizze RCA e servizi correlati</p>
-            </div>
-        </div>
-        <div class="modal-body">
-            <div class="modal-features">
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-car-crash"></i> Gestione Sinistri RCA</h3>
-                    <p class="feature-description">Focal point per la gestione completa del sinistro RCA dalla denuncia alla liquidazione.</p>
-                    <ul class="feature-list">
-                        <li>Denuncia sinistro semplificata</li>
-                        <li>Coordinamento con compagnie assicurative</li>
-                        <li>Monitoraggio stato pratica</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-handshake"></i> Facilitatore Relazioni</h3>
-                    <p class="feature-description">Ponte tra le esigenze dei clienti e le regole delle compagnie assicurative.</p>
-                    <ul class="feature-list">
-                        <li>Mediazione efficace</li>
-                        <li>Definizione modalità ottimali</li>
-                        <li>Gestione partnership</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-cogs"></i> Processi Smart</h3>
-                    <p class="feature-description">Soluzioni tecnologiche per l'assunzione e la gestione dei rischi.</p>
-                    <ul class="feature-list">
-                        <li>Approccio plug & play</li>
-                        <li>Adattamento a tutti i contesti</li>
-                        <li>Bilanciamento operativo</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-exchange-alt"></i> Comunicazioni Adattive</h3>
-                    <p class="feature-description">Adattamento dei flussi informativi alle esigenze specifiche di ogni realtà.</p>
-                    <ul class="feature-list">
-                        <li>Soluzioni personalizzate</li>
-                        <li>Integrazione con legacy esistenti</li>
-                        <li>Normalizzazione consapevole</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-comments"></i> Comunicazioni Personalizzate</h3>
-                    <p class="feature-description">Definizione congiunta delle migliori soluzioni di comunicazione.</p>
-                    <ul class="feature-list">
-                        <li>Gestione estratti conto</li>
-                        <li>Comunicazioni agli stakeholder</li>
-                        <li>Semplificazione e automazione</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-money-bill-wave"></i> Riscatti Franchigie</h3>
-                    <p class="feature-description">Leader di mercato nella gestione del riscatto sinistri RCA.</p>
-                    <ul class="feature-list">
-                        <li>Evitare aumenti di premio</li>
-                        <li>Soddisfare esigenze tecniche</li>
-                        <li>Processi industrializzati</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="welfare-modal" class="modal">
-    <div class="modal-content">
-        <button class="close-modal">&times;</button>
-        <div class="modal-header">
-            <img src="/img/legno.avif" alt="Welfare 360°" class="modal-header-image2">
-            <div class="modal-header-content">
-                <h2 class="modal-title">WELFARE 360°</h2>
-                <p class="modal-subtitle">Soluzioni complete per la gestione del welfare aziendale</p>
-            </div>
-        </div>
-        <div class="modal-body">
-            <div class="modal-features">
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-clipboard-list"></i> Progettazione Piani Welfare</h3>
-                    <p class="feature-description">Supporto completo nella definizione e formalizzazione di piani welfare su misura per le esigenze aziendali.</p>
-                    <ul class="feature-list">
-                        <li>Analisi delle esigenze aziendali</li>
-                        <li>Personalizzazione delle soluzioni</li>
-                        <li>Definizione del budget welfare</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-bullhorn"></i> Comunicazione & Formazione</h3>
-                    <p class="feature-description">Strategie integrate per comunicare efficacemente i benefit ai dipendenti.</p>
-                    <ul class="feature-list">
-                        <li>Piani di comunicazione multicanale</li>
-                        <li>Materiali informativi personalizzati</li>
-                        <li>Sessioni formative dedicate</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-gift"></i> Offerta Personalizzata</h3>
-                    <p class="feature-description">Creazione di un catalogo servizi su misura per ogni azienda.</p>
-                    <ul class="feature-list">
-                        <li>Servizi di welfare tradizionali e innovativi</li>
-                        <li>Partnership con provider qualificati</li>
-                        <li>Monitoraggio continui</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-laptop"></i> Piattaforma Digitale</h3>
-                    <p class="feature-description">Strumento integrato per la gestione completa del welfare.</p>
-                    <ul class="feature-list">
-                        <li>Accesso 24/7 da qualsiasi dispositivo</li>
-                        <li>Gestione richieste e prenotazioni</li>
-                        <li>Monitoraggio budget individuale</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-chart-pie"></i> Data Analytics</h3>
-                    <p class="feature-description">Reportistica avanzata per misurare l'efficacia del piano welfare.</p>
-                    <ul class="feature-list">
-                        <li>Analisi utilizzo servizi</li>
-                        <li>Misurazione ROI</li>
-                        <li>Dashboard personalizzate</li>
-                    </ul>
-                </div>
-                <div class="modal-feature-card">
-                    <h3><i class="fas fa-headset"></i> Assistenza Dedicata</h3>
-                    <p class="feature-description">Supporto continuo per aziende e dipendenti.</p>
-                    <ul class="feature-list">
-                        <li>Help desk multicanale</li>
-                        <li>Assistenza nella scelta servizi</li>
-                        <li>Gestione reclami e feedback</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </section>
 
     <section id="contatti" class="section">
         <div class="contact-form">
@@ -2240,15 +1831,8 @@
                     <label for="service">Servizio di interesse <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Claim & Services</option>
-                        <option value="gestione_sinistri">Gestioni Sinistri</option>
-                        <option value="automotive_solution">Automotive Solution</option>
-                        <option value="welfare">Welfare</option>
-                        <option value="enti_pubblici">Enti Pubblici</option>
-                        <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Riassicurazione</option>
-                        <option value="reclami">Reclami</option>
-                        <option value="altro">Altro</option>
+                        <option value="consulenza">Consulenza</option>
+                        <option value="sottoscrizione_di_polizze">Sottoscrizione di polizze</option>
                     </select>
                 </div><br>
                 
@@ -2260,7 +1844,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyServices.php">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="/policy/policyAgricolture.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Richiesta</button>
                 </div>
@@ -2283,10 +1867,6 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <!-- <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>20123 - Via Santa Maria Segreta 6</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>00198 - Via Lovanio 6</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>10123 - Via San Francesco Da Paola 15</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>16121 - Piazza della Vittoria 9</li> -->
                     <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>38023 - Piazza Granda 44</li>
                 </ul>
             </div>

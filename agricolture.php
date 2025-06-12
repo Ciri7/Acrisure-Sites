@@ -1731,6 +1731,7 @@
 
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="gruppo" class="section leadership">
+        <br>
         <h2 class="section-title">Leadership</h2>
         <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         

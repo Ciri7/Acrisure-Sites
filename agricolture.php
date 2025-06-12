@@ -1762,7 +1762,7 @@
     
     <div class="services-wrapper">
         <div class="services-container" style="justify-content: center; gap: 3rem;">
-            <div class="service-card" style="width: 400px; height: 450px;">
+            <div class="service-card" style="width: 450px; height: 450px;">
                 <div class="service-image" style="height: 250px;">
                     <img src="/img/fleet.jpg" alt="Consulenza Agricola">
                 </div>
@@ -1777,7 +1777,7 @@
                 </div>
             </div>
 
-            <div class="service-card" style="width: 400px; height: 450px;">
+            <div class="service-card" style="width: 450px; height: 450px;">
                 <div class="service-image" style="height: 250px;">
                     <img src="/img/motor4.jpg" alt="Sottoscrizione Polizze">
                 </div>

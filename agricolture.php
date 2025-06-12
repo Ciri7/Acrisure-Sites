@@ -1755,114 +1755,45 @@
         <br><br><br>
     </section>
 
-    <section id="services" class="section">
-        <h2 class="section-title">I Nostri Servizi</h2>
-        <p class="section-subtitle">Un portfolio completo di soluzioni integrate per rispondere a tutte le esigenze del settore assicurativo</p>
-        
-        <div class="services-wrapper">
-            <button class="services-nav prev" aria-label="Previous service">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            
-            <div class="services-container">
-                <!-- <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
-                    </div>
-                    <div class="service-content">
-                        <h3>CUSTOMER SERVICE</h3>
-                        <ul class="service-features">
-                            <li>Servizio telefonico, email e chat in-bound ed out-bound</li>
-                            <li>Gestione servizi post vendita prodotti assicurativi</li>
-                            <li>Gestione sinistri dalla denuncia fino al pagamento con modelli plug & play</li>
-                        </ul>
-                        <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
+    <!-- Sezione Servizi Modificata -->
+<section id="services" class="section">
+    <h2 class="section-title">I Nostri Servizi</h2>
+    <p class="section-subtitle">Soluzioni specializzate per il settore agricolo, pensate per proteggere e valorizzare il tuo business</p>
+    
+    <div class="services-wrapper">
+        <div class="services-container" style="justify-content: center; gap: 3rem;">
+            <div class="service-card" style="width: 400px; height: 450px;">
+                <div class="service-image" style="height: 250px;">
+                    <img src="/img/fleet.jpg" alt="Consulenza Agricola">
                 </div>
-
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/scrivania legno.jpg" alt="Fleet Management">
+                <div class="service-content" style="padding: 2rem; text-align: center;">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">CONSULENZA</h3>
+                    <div style="display: flex; justify-content: center;">
+                        <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                     </div>
-                    <div class="service-content">
-                        <h3>LEGAL, COMPLIANCE & HR</h3>
-                        <ul class="service-features">
-                            <li>Governance aziendale</li>
-                            <li>Quadro ed aggiornamenti normativi perimetro IVASS</li>
-                            <li>HR management</li>
-                        </ul>
-                        <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                    <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                        Servizi di consulenza specializzata per ottimizzare le coperture assicurative e gestire i rischi del settore agricolo
+                    </p>
                 </div>
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare">
-                    </div>
-                    <div class="service-content">
-                        <h3>TPA MOTOR & WELFARE</h3>
-                        <ul class="service-features">
-                            <li>Centrale operativa 6/7 8-20</li>
-                            <li>Back office documentale / Business Process Outsourcing</li>
-                            <li>Ampia flessibilità ed alta scalabilità</li>
-                        </ul>
-                        <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div> -->
-                
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
-                    </div>
-                    <div class="service-content">
-                        <h3>CONSULENZA</h3>
-                        <ul class="service-features">
-                            <li>,</li>
-                            <li>,</li>
-                            <li>,</li>
-                        </ul>
-                        <a href="#fleet-modal" class="service-link discover-more" data-modal="fleet">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/motor4.jpg" alt="Motor">
-                    </div>
-                    <div class="service-content">
-                        <h3>SOTTOSCRIZIONE DI POLIZZE</h3>
-                        <ul class="service-features">
-                            <li>,</li>
-                            <li>,</li>
-                            <li>,</li>
-                        </ul>
-                        <a href="#motor-modal" class="service-link discover-more" data-modal="motor">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/legno.avif" alt="Welfare 360°">
-                    </div>
-                    <div class="service-content">
-                        <h3>WELFARE 360°</h3>
-                        <ul class="service-features">
-                            <li>Supporto nella definizione e formalizzazione di piani welfare</li>
-                            <li>Definizione ed implementazione di piani di comunicazione e formazione</li>
-                            <li>Creazione dell'offerta di servizi welfare personalizzati</li>
-                            <li>Piattaforma integrata per la gestione dei servizi</li>
-                            <li>Data analytics</li>
-                        </ul>
-                        <a href="#welfare-modal" class="service-link discover-more" data-modal="welfare">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div> -->
             </div>
-            
-            <button class="services-nav next" aria-label="Next service">
-                <i class="fas fa-chevron-right"></i>
-            </button>
+
+            <div class="service-card" style="width: 400px; height: 450px;">
+                <div class="service-image" style="height: 250px;">
+                    <img src="/img/motor4.jpg" alt="Sottoscrizione Polizze">
+                </div>
+                <div class="service-content" style="padding: 2rem; text-align: center;">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">SOTTOSCRIZIONE DI POLIZZE</h3>
+                    <div style="display: flex; justify-content: center;">
+                        <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                    </div>
+                    <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                        Soluzioni assicurative personalizzate per proteggere le attività e gli investimenti nel settore agricolo
+                    </p>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <!-- Modali per i servizi -->
 <div id="customer-service-modal" class="modal">

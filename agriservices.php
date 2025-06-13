@@ -1827,15 +1827,16 @@
     </section>
 
     <!-- I Nostri Servizi - Versione Migliorata -->
-<section id="services" class="section">
-    <h2 class="section-title">I Nostri Servizi</h2>
-    <p class="section-subtitle">Soluzioni specializzate per la gestione assicurativa nel settore agricolo</p>
-    
-    <div class="services-wrapper">
+    <section id="services" class="section">
+        <h2 class="section-title">I Nostri Servizi</h2>
+        <p class="section-subtitle">Soluzioni specializzate per la gestione assicurativa nel settore agricolo</p>
+        
+        <div class="services-wrapper">
             <div class="services-container" style="justify-content: center; gap: 3rem;">
+                <!-- Prima riga con 2 card -->
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Consulenza Agricola">
+                        <img src="/img/Consulenza.jpg" alt="Assistenza Distributori">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">ASSISTENZA AI DISTRIBUTORI</h3>
@@ -1850,7 +1851,7 @@
 
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Consulenza Agricola">
+                        <img src="/img/Consulenza.jpg" alt="Gestione Coperture">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE COPERTURE ASSICURATIVE</h3>
@@ -1862,10 +1863,11 @@
                         </p>
                     </div>
                 </div>
-
+                
+                <!-- Seconda riga con 2 card -->
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Consulenza Agricola">
+                        <img src="/img/Consulenza.jpg" alt="Gestione Sinistri">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE SINISTRI</h3>
@@ -1880,7 +1882,7 @@
 
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Sottoscrizione di polizze.jpg" alt="Sottoscrizione Polizze">
+                        <img src="/img/Sottoscrizione di polizze.jpg" alt="Liquidazione Sinistri">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">LIQUIDAZIONE SINISTRI</h3>
@@ -1894,7 +1896,7 @@
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
 
 <!-- Modali per i servizi -->

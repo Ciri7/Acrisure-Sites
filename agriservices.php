@@ -1831,61 +1831,69 @@
     <h2 class="section-title">I Nostri Servizi</h2>
     <p class="section-subtitle">Soluzioni specializzate per la gestione assicurativa nel settore agricolo</p>
     
-    <div class="services-grid">
-        <!-- Riga 1 -->
-        <div class="service-row">
-            <div class="service-card">
-                <div class="service-image">
-                    <img src="/img/cuffie e scrivania.jpg" alt="Assistenza Distributori">
-                </div>
-                <div class="service-content">
-                    <h3>ASSISTENZA AI DISTRIBUTORI</h3>
-                    <div class="service-badge">
-                        <span>Agricolture</span>
+    <div class="services-wrapper">
+            <div class="services-container" style="justify-content: center; gap: 3rem;">
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Consulenza.jpg" alt="Consulenza Agricola">
+                    </div>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">ASSISTENZA AI DISTRIBUTORI</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            #############################################
+                        </p>
                     </div>
                 </div>
-            </div>
-            
-            <div class="service-card">
-                <div class="service-image">
-                    <img src="/img/scrivania legno.jpg" alt="Gestione Coperture">
+
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Consulenza.jpg" alt="Consulenza Agricola">
+                    </div>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE COPERTURE ASSICURATIVE</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            #############################################
+                        </p>
+                    </div>
                 </div>
-                <div class="service-content">
-                    <h3>GESTIONE COPERTURE ASSICURATIVE</h3>
-                    <div class="service-badge">
-                        <span>Tecnico-Amministrativa</span>
+
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Consulenza.jpg" alt="Consulenza Agricola">
+                    </div>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE SINISTRI</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            #############################################
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Sottoscrizione di polizze.jpg" alt="Sottoscrizione Polizze">
+                    </div>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">LIQUIDAZIONE SINISTRI</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            ##############################################
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!-- Riga 2 -->
-        <div class="service-row">
-            <div class="service-card">
-                <div class="service-image">
-                    <img src="/img/callcenter.jpg" alt="Gestione Sinistri">
-                </div>
-                <div class="service-content">
-                    <h3>GESTIONE SINISTRI</h3>
-                    <div class="service-badge">
-                        <span>Apertura e Monitoraggio</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="service-card">
-                <div class="service-image">
-                    <img src="/img/fleet.jpg" alt="Liquidazione Sinistri">
-                </div>
-                <div class="service-content">
-                    <h3>LIQUIDAZIONE SINISTRI</h3>
-                    <div class="service-badge">
-                        <span>Processi Certificati</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 

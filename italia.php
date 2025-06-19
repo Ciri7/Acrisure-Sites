@@ -1727,7 +1727,7 @@
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Stefano Sardara</h3>
-                    <p class="leadership-desc">CEO</p>
+                    <p class="leadership-desc">Chief Executivive Officier</p>
                 </div>
                 
                 <div class="leadership-card">
@@ -1739,46 +1739,71 @@
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Giuseppe Barbati</h3>
-                    <p class="leadership-desc">Deputy Chairman</p>
+                    <p class="leadership-desc">Executive Director Insurance Buisiness Development</p>
                 </div>
                 
                 <!-- Seconda riga -->
-                <!-- <div class="leadership-card">
+                <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">4</h3>
-                    <p class="leadership-desc">idk</p>
+                    <h3 class="leadership-name">Gabriele Gilleri</h3>
+                    <p class="leadership-desc">Chief Operating Officer</p>
                 </div>
                 
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services" class="leadership-logo">
-                    <h3 class="leadership-name">5</h3>
-                    <p class="leadership-desc">idk</p>
+                    <h3 class="leadership-name">Simone Cagnetti</h3>
+                    <p class="leadership-desc">Products & Corporate Business Manager</p>
                 </div>
                 
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">6</h3>
-                    <p class="leadership-desc">idk</p>
-                </div> -->
+                    <h3 class="leadership-name">Andrea Barbieri</h3>
+                    <p class="leadership-desc">Account Manager</p>
+                </div>
                 
                 <!-- Terza riga -->
-                <!-- <div class="leadership-card">
+                <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">7</h3>
-                    <p class="leadership-desc">idk</p>
+                    <h3 class="leadership-name">Michela Lazzari</h3>
+                    <p class="leadership-desc">Training, POG & Agreements</p>
                 </div>
                 
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">8</h3>
-                    <p class="leadership-desc">idk</p>
+                    <h3 class="leadership-name">Corrado Soro</h3>
+                    <p class="leadership-desc">Motors</p>
                 </div>
                 
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">9</h3>
-                    <p class="leadership-desc">idk</p>
-                </div> -->
+                    <h3 class="leadership-name">Alberto Cuccureddu</h3>
+                    <p class="leadership-desc">Flexible Benefits</p>
+                </div>
+
+                <!-- Quarta riga -->
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
+                    <h3 class="leadership-name">Maria Grazia Satta</h3>
+                    <p class="leadership-desc">Claims Management</p>
+                </div>
+                
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
+                    <h3 class="leadership-name">Carlotta Piras</h3>
+                    <p class="leadership-desc">Customer Service</p>
+                </div>
+                
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
+                    <h3 class="leadership-name">Veronica Dettori</h3>
+                    <p class="leadership-desc">Commercial  Properties & Casualty</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
+                    <h3 class="leadership-name">Sara Sandroni</h3>
+                    <p class="leadership-desc">Impact manager ( benefit corporation)</p>
+                </div>
             </div><br>
         </div>
         <br><br><br>

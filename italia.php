@@ -401,6 +401,8 @@
             margin-bottom: 1.5rem;
             line-height: 1.6;
         }
+
+        /* --------------- NUOVA PARTE LEADERSHIP --------------- */
         
         /* News Section */
         .news-section {
@@ -1719,11 +1721,11 @@
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="gruppo" class="section leadership">
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        <p class="section-subtitle2">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <!-- Prima riga -->
+                <!-- Prima riga - 3 blocchi -->
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Stefano Sardara</h3>
@@ -1742,7 +1744,7 @@
                     <p class="leadership-desc">Executive Director Insurance Buisiness Development</p>
                 </div>
                 
-                <!-- Seconda riga -->
+                <!-- Seconda riga - 3 blocchi -->
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Gabriele Gilleri</h3>
@@ -1750,59 +1752,59 @@
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services" class="leadership-logo">
+                    <img src="/img/Acrisure Services" alt="Acrisure Services" class="leadership-logo">
                     <h3 class="leadership-name">Simone Cagnetti</h3>
                     <p class="leadership-desc">Products & Corporate Business Manager</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
+                    <img src="/img/Acrisure Re Italia" alt="Acrisure Re Italia" class="leadership-logo">
                     <h3 class="leadership-name">Andrea Barbieri</h3>
                     <p class="leadership-desc">Account Manager</p>
                 </div>
                 
-                <!-- Terza riga -->
+                <!-- Terza riga - 3 blocchi -->
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
+                    <img src="/img/Acrisure Agricolture" alt="Acrisure Agricolture" class="leadership-logo">
                     <h3 class="leadership-name">Michela Lazzari</h3>
                     <p class="leadership-desc">Training, POG & Agreements</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
+                    <img src="/img/Acrisure Agriservices" alt="Acrisure Agriservices" class="leadership-logo">
                     <h3 class="leadership-name">Corrado Soro</h3>
                     <p class="leadership-desc">Motors</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
+                    <img src="/img/Alta Broker" alt="Alta Broker" class="leadership-logo">
                     <h3 class="leadership-name">Alberto Cuccureddu</h3>
                     <p class="leadership-desc">Flexible Benefits</p>
                 </div>
 
-                <!-- Quarta riga -->
+                <!-- Quarta riga - 4 blocchi -->
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
+                    <img src="/img/Acrisure Agricolture" alt="Acrisure Agricolture" class="leadership-logo">
                     <h3 class="leadership-name">Maria Grazia Satta</h3>
                     <p class="leadership-desc">Claims Management</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
+                    <img src="/img/Acrisure Agriservices" alt="Acrisure Agriservices" class="leadership-logo">
                     <h3 class="leadership-name">Carlotta Piras</h3>
                     <p class="leadership-desc">Customer Service</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
+                    <img src="/img/Alta Broker" alt="Alta Broker" class="leadership-logo">
                     <h3 class="leadership-name">Veronica Dettori</h3>
-                    <p class="leadership-desc">Commercial  Properties & Casualty</p>
+                    <p class="leadership-desc">Commercial Properties & Casualty</p>
                 </div>
 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
+                    <img src="/img/Alta Broker" alt="Alta Broker" class="leadership-logo">
                     <h3 class="leadership-name">Sara Sandroni</h3>
-                    <p class="leadership-desc">Impact manager ( benefit corporation)</p>
+                    <p class="leadership-desc">Impact manager (benefit corporation)</p>
                 </div>
             </div><br>
         </div>

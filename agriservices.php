@@ -1682,6 +1682,92 @@
                 max-width: 350px;
             }
         }
+
+                /* Nuovo stile per la griglia dei servizi */
+        .services-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .service-row {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .service-card {
+            flex: 1;
+            min-width: 280px;
+            max-width: 480px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid #eee;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent);
+        }
+
+        .service-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .service-card:hover .service-image img {
+            transform: scale(1.05);
+        }
+
+        .service-content {
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .service-content h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-badge {
+            background-color: var(--accent);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .service-row {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-card {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1831,9 +1917,9 @@
         <h2 class="section-title">I Nostri Servizi</h2>
         <p class="section-subtitle">Soluzioni specializzate per la gestione assicurativa nel settore agricolo</p>
         
-        <div class="services-wrapper">
-            <div class="services-container" style="justify-content: center; gap: 3rem;">
-                <!-- Prima riga con 2 card -->
+        <div class="services-grid">
+            <!-- Prima riga con 2 card -->
+            <div class="service-row">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
                         <img src="/img/Consulenza.jpg" alt="Assistenza Distributori">
@@ -1844,7 +1930,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            #############################################
+                            .
                         </p>
                     </div>
                 </div>
@@ -1859,12 +1945,14 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            #############################################
+                            .
                         </p>
                     </div>
                 </div>
-                
-                <!-- Seconda riga con 2 card -->
+            </div>
+            
+            <!-- Seconda riga con 2 card -->
+            <div class="service-row">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
                         <img src="/img/Consulenza.jpg" alt="Gestione Sinistri">
@@ -1875,7 +1963,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            #############################################
+                            .
                         </p>
                     </div>
                 </div>
@@ -1890,7 +1978,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            ##############################################
+                            .
                         </p>
                     </div>
                 </div>

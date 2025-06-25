@@ -1940,7 +1940,7 @@
                         <img src="/img/Consulenza.jpg" alt="Gestione Coperture">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
-                        <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">GESTIONE COPERTURE ASSICURATIVE</h3>
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE COPERTURE</h3>
                         <div style="display: flex; justify-content: center;">
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>

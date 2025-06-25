@@ -1860,7 +1860,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            #############################################
+                            .
                         </p>
                     </div>
                 </div>
@@ -1875,7 +1875,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            #############################################
+                            .
                         </p>
                     </div>
                 </div>
@@ -1893,7 +1893,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            #############################################
+                            .
                         </p>
                     </div>
                 </div>
@@ -1908,7 +1908,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            ##############################################
+                            .
                         </p>
                     </div>
                 </div>

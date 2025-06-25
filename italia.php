@@ -196,7 +196,7 @@
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
-            background-position: top;
+            background-position: center;
             background-attachment: fixed;
             height: 100vh;
             min-height: 700px;
@@ -2441,19 +2441,19 @@
                         &nbsp;&nbsp;
                         <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
                     </li>
+                    <div class="legal-links">
+                        <a href="/policy/policyItalia.php">Privacy Policy</a><br>
+                        <a href="/cookies/cookiesItalia.php">Cookie Policy</a><br>
+                        <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    </div>
                 </ul>
             </div>
         </div>
         
         <div class="footer-bottom">
-            <div class="footer-legal">
-                <p>&copy; 2025 Acrisure Italia S.p.A. Tutti i diritti riservati.</p>
-                <div class="legal-links">
-                    <a href="/policy/policyItalia.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
-                </div>
-            </div>
+            <!-- <div class="footer-legal">
+                
+            </div> -->
             <!-- <div class="footer-badge">
                 <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
             </div> -->
@@ -2463,6 +2463,7 @@
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
             Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p>
+            <p>&copy; 2025 Acrisure Italia S.p.A. Tutti i diritti riservati.</p>
         </div>
     </footer>
 

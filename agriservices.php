@@ -1930,7 +1930,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            .
+                            Supporto operativo e strategico per la rete distributiva assicurativa
                         </p>
                     </div>
                 </div>
@@ -1940,12 +1940,12 @@
                         <img src="/img/Consulenza.jpg" alt="Gestione Coperture">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
-                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE COPERTURE ASSICURATIVE</h3>
+                        <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem;">GESTIONE COPERTURE ASSICURATIVE</h3>
                         <div style="display: flex; justify-content: center;">
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            .
+                            Analisi e amministrazione delle coperture assicurative in ambito agricolo
                         </p>
                     </div>
                 </div>
@@ -1963,7 +1963,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            .
+                            Coordinamento efficace dell'intero processo di gestione dei sinistri.
                         </p>
                     </div>
                 </div>
@@ -1978,7 +1978,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            .
+                            Tempestività e trasparenza nella fase di liquidazione dei danni.
                         </p>
                     </div>
                 </div>

@@ -1733,7 +1733,7 @@
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Francesco Sardara</h3>
-                        <p class="leadership-desc">CEO</p>
+                        <p class="leadership-desc">Chief Executivive Officier</p>
                     </div>
                     
                     <div class="leadership-card">

@@ -1709,7 +1709,7 @@
 
     <!-- RICHIESTA INFORMAZIONI _______________________________________________________________________________________________________________________ -->
 
-    <section id="contatti" class="section">
+    <!-- <section id="contatti" class="section">
         <div class="contact-form">
             <div class="form-header">
                 <h3>Richiedi informazioni</h3>
@@ -1752,7 +1752,6 @@
                         <option value="enti_pubblici">Enti Pubblici</option>
                         <option value="property_liability">Property & Liability</option>
                         <option value="riassicurazione">Riassicurazione</option>
-                        <!-- <option value="reclami">Reclami</option> -->
                         <option value="altro">Altro</option>
                     </select>
                 </div><br>
@@ -1771,7 +1770,7 @@
                 </div>
             </form>
         </div>
-    </section>
+    </section> -->
 
 <!-- CITAZIONE _____________________________________________________________________________________________________________________________________ -->
 

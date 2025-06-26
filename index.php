@@ -1572,7 +1572,7 @@
         <div class="hero-content">
             <h1>Acrisure</h1>
             <p>Acrisure combina tecnologia avanzata e competenza umana per offrirti soluzioni su misura per le tue esigenze personali e aziendali.</p>
-            <a href="#contatti" class="btn btn-secondary">Contattaci</a>
+            <!-- <a href="#contatti" class="btn btn-secondary">Contattaci</a> -->
         </div>
     </section>
     

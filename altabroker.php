@@ -1710,61 +1710,21 @@
                 <!-- Prima riga -->
                 <div class="leadership-card">
                     <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">1</h3>
-                    <p class="leadership-desc">idk</p>
+                    <h3 class="leadership-name">Stefano Bruschetta</h3>
+                    <p class="leadership-desc">Chief Executivive Officier</p>
                 </div>
                 
                 <div class="leadership-card">
                     <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name"> 2</h3>
-                    <p class="leadership-desc">idk</p>
+                    <h3 class="leadership-name">Stefano Sardara</h3>
+                    <p class="leadership-desc">Chairman</p>
                 </div>
 
                 <div class="leadership-card">
                     <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">3</h3>
-                    <p class="leadership-desc">idk</p>
+                    <h3 class="leadership-name">Beatrice Bruschetta</h3>
+                    <p class="leadership-desc">Executive director operations & IT</p>
                 </div>
-                
-                <!-- Seconda riga -->
-                <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">4</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Services" class="leadership-logo">
-                    <h3 class="leadership-name">5</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">6</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <!-- Terza riga -->
-                <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">7</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">8</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">9</h3>
-                    <p class="leadership-desc">idk</p>
-                </div>
-            </div>
-        </div>
         <br><br><br>
     </section>
 

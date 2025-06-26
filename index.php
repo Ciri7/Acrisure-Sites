@@ -1454,147 +1454,6 @@
             cursor: not-allowed;
         }
 
-        /* IL NOSTRO GRUPPO SECTION - AGGIORNATO */
-        /* Gruppo Section - Stili Migliorati */
-        .gruppo {
-            background-color: var(--light);
-            padding-bottom: 8rem;
-        }
-
-        .aziende-container {
-            display: flex;
-            justify-content: center;
-            padding: 0 5%;
-        }
-
-        .aziende-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2.5rem;
-            max-width: 1400px;
-            width: 100%;
-        }
-
-        .azienda-card {
-            background-color: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            border: 1px solid rgba(0, 0, 0, 0.05);
-        }
-
-        .azienda-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
-            border-color: var(--accent);
-        }
-
-        .azienda-logo-container {
-            height: 180px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 2rem;
-            background: linear-gradient(135deg, rgba(0, 86, 179, 0.03) 0%, rgba(255, 255, 255, 0.1) 100%);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-        }
-
-        .azienda-logo {
-            max-height: 100px;
-            max-width: 100%;
-            width: auto;
-            object-fit: contain;
-            transition: all 0.3s ease;
-            filter: grayscale(20%) contrast(110%);
-        }
-
-        .azienda-card:hover .azienda-logo {
-            transform: scale(1.05);
-            filter: grayscale(0%) contrast(100%);
-        }
-
-        .azienda-content {
-            padding: 2rem;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .azienda-nome {
-            color: var(--secondary);
-            margin: 0 0 1rem 0;
-            font-size: 1.4rem;
-            font-weight: 700;
-            transition: color 0.3s;
-        }
-
-        .azienda-card:hover .azienda-nome {
-            color: var(--accent);
-        }
-
-        .azienda-desc {
-            color: #555;
-            font-size: 1rem;
-            line-height: 1.6;
-            margin-bottom: 1.5rem;
-            flex-grow: 1;
-        }
-
-        .azienda-footer {
-            margin-top: auto;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(0, 0, 0, 0.05);
-        }
-
-        .azienda-link {
-            display: inline-flex;
-            align-items: center;
-            color: var(--accent);
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s;
-            font-size: 0.95rem;
-        }
-
-        .azienda-link i {
-            margin-left: 0.5rem;
-            transition: transform 0.3s;
-            font-size: 0.9rem;
-        }
-
-        .azienda-link:hover {
-            color: var(--primary);
-        }
-
-        .azienda-link:hover i {
-            transform: translateX(5px);
-        }
-
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .aziende-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .aziende-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .azienda-logo-container {
-                height: 150px;
-                padding: 1.5rem;
-            }
-            
-            .azienda-content {
-                padding: 1.5rem;
-            }
-        }
     </style>
 </head>
 <body>
@@ -1796,88 +1655,53 @@
     </section>
 
     <!-- IL NOSTRO GRUPPO _____________________________________________________________________________________________________________________ -->
+
     <section id="gruppo" class="section gruppo">
         <h2 class="section-title">Il Nostro Gruppo</h2>
-        <p class="section-subtitle">Acrisure rappresenta un network di società specializzate che operano nei diversi ambiti del settore assicurativo, offrendo soluzioni integrate e competenze specifiche.</p>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">Acrisure rappresenta un network di società specializzate che operano nei diversi ambiti del settore assicurativo, offrendo soluzioni integrate e competenze specifiche.</p>
         
         <div class="aziende-container">
             <div class="aziende-grid">
                 <div class="azienda-card">
-                    <div class="azienda-logo-container">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                    </div>
-                    <div class="azienda-content">
-                        <h3 class="azienda-nome">Acrisure Italia</h3>
-                        <p class="azienda-desc">Società di brokeraggio assicurativo operante al livello nazionale e internazionale</p>
-                        <div class="azienda-footer">
-                            <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                    <h3 class="azienda-nome">Acrisure Italia</h3>
+                    <p class="azienda-desc">Società di brokeraggio assicurativo operante al livello nazionale e internazionale</p>
+                    <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
-                    <div class="azienda-logo-container">
-                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="azienda-logo">
-                    </div>
-                    <div class="azienda-content">
-                        <h3 class="azienda-nome">Acrisure Services</h3>
-                        <p class="azienda-desc">Specializzati in attività operative e gestionali delle società con servizi legati alle risorse umane, alle attività legal e compliance, ai servizi di TPA e Customer Service, alla gestione delle flotte aziendali</p>
-                        <div class="azienda-footer">
-                            <a href="services.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="azienda-logo">
+                    <h3 class="azienda-nome">Acrisure Services</h3>
+                    <p class="azienda-desc">Specializzati in attività operative e gestionali delle società con servizi legati alle risorse umane, alle attività legal e compliance, ai servizi di TPA e Customer Service, alla gestione delle flotte aziendali</p>
+                    <a href="services.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
-                    <div class="azienda-logo-container">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italia" class="azienda-logo">
-                    </div>
-                    <div class="azienda-content">
-                        <h3 class="azienda-nome">Acrisure Re Italia</h3>
-                        <p class="azienda-desc">Leader nel settore della riassicurazione, con una profonda competenza nella gestione del rischio e del capitale</p>
-                        <div class="azienda-footer">
-                            <a href="re.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italia" class="azienda-logo">
+                    <h3 class="azienda-nome">Acrisure Re Italia</h3>
+                    <p class="azienda-desc">Leader nel settore della riassicurazione, con una profonda competenza nella gestione del rischio e del capitale</p>
+                    <a href="re.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
-                    <div class="azienda-logo-container">
-                        <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agricolture" class="azienda-logo">
-                    </div>
-                    <div class="azienda-content">
-                        <h3 class="azienda-nome">Acrisure Agricolture</h3>
-                        <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
-                        <div class="azienda-footer">
-                            <a href="agricolture.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agricolture" class="azienda-logo">
+                    <h3 class="azienda-nome">Acrisure Agricolture</h3>
+                    <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
+                    <a href="agricolture.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
-                    <div class="azienda-logo-container">
-                        <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="azienda-logo">
-                    </div>
-                    <div class="azienda-content">
-                        <h3 class="azienda-nome">Acrisure Agriservices</h3>
-                        <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
-                        <div class="azienda-footer">
-                            <a href="agriservices.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="azienda-logo">
+                    <h3 class="azienda-nome">Acrisure Agriservices</h3>
+                    <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
+                    <a href="agriservices.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="azienda-card">
-                    <div class="azienda-logo-container">
-                        <img src="/img/Logo ALTA BROKER.jpg" alt="Alta Broker" class="azienda-logo">
-                    </div>
-                    <div class="azienda-content">
-                        <h3 class="azienda-nome">Alta Broker</h3>
-                        <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
-                        <div class="azienda-footer">
-                            <a href="altabroker.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <img src="/img/Logo ALTA BROKER.jpg" alt="Alta Broker" class="azienda-logo">
+                    <h3 class="azienda-nome">Alta Broker</h3>
+                    <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
+                    <a href="altabroker.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

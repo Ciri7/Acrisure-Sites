@@ -1732,7 +1732,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsAcrisure.php" class="btn">Vedi tutte le news</a>
+            <a href="news/newsAcrisure.php" class="btn btn-secondary">Vedi tutte le news</a>
         </div>
     </section>
 
@@ -1757,7 +1757,7 @@
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Services</h3>
                         <p class="azienda-desc">Specializzati in attività operative e gestionali delle società con servizi legati alle risorse umane, alle attività legal e compliance, ai servizi di TPA e Customer Service, alla gestione delle flotte aziendali</p>
                         <div class="azienda-link-container">
@@ -1768,7 +1768,7 @@
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Re Italia</h3>
                         <p class="azienda-desc">Leader nel settore della riassicurazione, con una profonda competenza nella gestione del rischio e del capitale</p>
                         <div class="azienda-link-container">
@@ -1779,7 +1779,7 @@
                                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agricolture</h3>
                         <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
                         <div class="azienda-link-container">
@@ -1790,7 +1790,7 @@
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agriservices</h3>
                         <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
                         <div class="azienda-link-container">
@@ -1801,7 +1801,7 @@
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Alta Broker</h3>
                         <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
                         <div class="azienda-link-container">

@@ -1794,14 +1794,14 @@
                 <!-- Terza riga -->
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">Michela Lazzari</h3>
-                    <p class="leadership-desc">Training, POG & Agreements</p>
+                    <h3 class="leadership-name">Alessandra Sardara</h3>
+                    <p class="leadership-desc">Responsabile Amministrativa e cdg</p>
                 </div>
                 
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">Corrado Soro</h3>
-                    <p class="leadership-desc">Motors</p>
+                    <h3 class="leadership-name">Francesco Norcia</h3>
+                    <p class="leadership-desc">Welfare</p>
                 </div>
                 
                 <div class="leadership-card">
@@ -1813,8 +1813,8 @@
                 <!-- Quarta riga -->
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">Maria Grazia Satta</h3>
-                    <p class="leadership-desc">Claims Management</p>
+                    <h3 class="leadership-name">Sara Sandroni</h3>
+                    <p class="leadership-desc">Impact manager ( benefit corporation)</p>
                 </div>
                 
                 <div class="leadership-card">
@@ -1829,10 +1829,23 @@
                     <p class="leadership-desc">Commercial  Properties & Casualty</p>
                 </div>
 
+                <!-- Quinta riga -->
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">Sara Sandroni</h3>
-                    <p class="leadership-desc">Impact manager ( benefit corporation)</p>
+                    <h3 class="leadership-name">Maria Grazia Satta</h3>
+                    <p class="leadership-desc">Claims Management</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
+                    <h3 class="leadership-name">Michela Lazzari</h3>
+                    <p class="leadership-desc">Training, POG & Agreements</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
+                    <h3 class="leadership-name">Corrado Sono</h3>
+                    <p class="leadership-desc">Motors</p>
                 </div>
             </div><br>
         </div>

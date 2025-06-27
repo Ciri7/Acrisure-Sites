@@ -652,7 +652,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="/services.php">
-                    <img src="/img/Acrisure Services 2.jpg" alt="Acrisure Services Logo" class="logo">
+                    <img src="/img/Acrisure Services.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>

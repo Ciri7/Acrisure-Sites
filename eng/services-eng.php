@@ -1668,7 +1668,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="#home">
-                <img src="/img/Acrisure Services 2.jpg" class="logo" alt=""></li>
+                <img src="/img/Acrisure Services.jpg" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>

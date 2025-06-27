@@ -828,7 +828,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="/services.php">
-                    <img src="/img/Acrisure Services 2.jpg" alt="Acrisure Services Logo" class="logo">
+                    <img src="/img/Acrisure Services.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -1000,9 +1000,9 @@
                 </div>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyServices.php" class="page-transition-link">Privacy Policy</a>
-                    <a href="/cookies/cookiesServices.php" class="page-transition-link">Cookie Policy</a>
-                    <a href="/legal&comp/legalServices.php" class="page-transition-link">Legal & Compliance</a>
+                    <a href="/policy/policyServices.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesServices.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

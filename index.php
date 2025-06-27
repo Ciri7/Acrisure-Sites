@@ -1809,7 +1809,7 @@
                         <h3 class="azienda-nome">Acrisure Services</h3>
                         <p class="azienda-desc">Specializzati in attività operative e gestionali delle società con servizi legati alle risorse umane, alle attività legal e compliance, ai servizi di TPA e Customer Service, alla gestione delle flotte aziendali</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="services.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1820,7 +1820,7 @@
                         <h3 class="azienda-nome">Acrisure Re Italia</h3>
                         <p class="azienda-desc">Leader nel settore della riassicurazione, con una profonda competenza nella gestione del rischio e del capitale</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="re.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1831,7 +1831,7 @@
                         <h3 class="azienda-nome">Acrisure Agricolture</h3>
                         <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="agricolture.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1842,7 +1842,7 @@
                         <h3 class="azienda-nome">Acrisure Agriservices</h3>
                         <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="agriservices.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1853,7 +1853,7 @@
                         <h3 class="azienda-nome">Alta Broker</h3>
                         <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="altabroker.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

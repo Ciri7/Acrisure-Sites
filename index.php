@@ -1937,7 +1937,7 @@
 
 <!-- ________________________________________________________________________________________________________________________________________________ -->
 
-<!-- FOOTER -->
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
@@ -1946,7 +1946,7 @@
                     <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
                     <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
                     <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
+                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
@@ -1989,15 +1989,10 @@
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
                 </div>
                 
-                <div class="social-links">
-                    <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-                
                 <div class="legal-links">
-                    <a href="/policy/policyItalia.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -2022,7 +2017,7 @@
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesAcrisure.html">Maggiori informazioni</a></p>
+        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesAcrisure.php">Maggiori informazioni</a></p>
         <button id="accept-cookies" class="btn">Accetta</button>
     </div>
 

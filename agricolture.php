@@ -1611,6 +1611,48 @@
                 padding: 15px;
             }
         }
+
+                /* NUOVI FOOTER --------------------------- */
+        .social-links a {
+            color: var(--secondary);
+            font-size: 1.5rem; /* Aumentato da 1.2rem */
+            transition: all 0.3s;
+            width: 40px; /* Aggiunto per dimensioni fisse */
+            height: 40px; /* Aggiunto per dimensioni fisse */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+        }
+
+        .social-links a:hover {
+            color: white;
+            background-color: var(--accent);
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-column .legal-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .footer-column .legal-links a {
+            display: block;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .footer-column .legal-links a:hover {
+            color: var(--accent);
+            padding-left: 0.5rem;
+            border-bottom-color: var(--accent);
+        }
     </style>
 </head>
 <body>
@@ -1853,6 +1895,7 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
@@ -1860,7 +1903,7 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
                     <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Via Lovanio, 6 - 00198 RM</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
                     <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
@@ -1868,6 +1911,10 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
+                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>20123 - Via Santa Maria Segreta 6</li>
+                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>00198 - Via Lovanio 6</li>
+                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>10123 - Via San Francesco Da Paola 15</li>
+                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>16121 - Piazza della Vittoria 9</li>
                     <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>38023 - Piazza Granda 44</li>
                 </ul>
             </div>
@@ -1875,9 +1922,9 @@
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 0698968206</li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:Infoagricoluture@acrisure.it">Infoagricoluture@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
                 
@@ -1891,42 +1938,44 @@
                 <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li><br><br>
-                    <li>
-                        <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                        &nbsp;&nbsp; 
-                        <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                        &nbsp;&nbsp;
-                        <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                    </li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <div class="footer-legal">
-                <p>&copy; 2025 Acrisure Agricolture. Tutti i diritti riservati.</p>
+                
+                <div class="footer-badge">
+                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
+                </div>
+                
                 <div class="legal-links">
                     <a href="/policy/policyAgricolture.php">Privacy Policy</a>
                     <a href="/cookies/cookiesAgricolture.php">Cookie Policy</a>
                     <a href="/legal&comp/legalAgricolture.php">Legal & Compliance</a>
                 </div>
             </div>
-            <!-- <div class="footer-badge">
+        </div>
+        
+        <!-- <div class="footer-bottom">
+            <div class="footer-legal">
+                
+            </div>
+            <div class="footer-badge">
                 <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div> -->
-        </div><br>
+            </div>
+        </div><br> -->
 
-         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
+        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
-            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p>
+            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
+            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
         </div>
     </footer>
 
+
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/privacy">Maggiori informazioni</a></p>
+        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesAgricolture.php">Maggiori informazioni</a></p>
         <button id="accept-cookies" class="btn">Accetta</button>
     </div>
 

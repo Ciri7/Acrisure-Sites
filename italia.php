@@ -2434,6 +2434,7 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
@@ -2485,11 +2486,6 @@
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
                 </div>
                 
-                <div class="social-links">
-                    <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-                
                 <div class="legal-links">
                     <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
@@ -2507,7 +2503,6 @@
             </div>
         </div><br> -->
 
-        <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
@@ -2518,7 +2513,7 @@
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/privacy">Maggiori informazioni</a></p>
+        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesItalia.php">Maggiori informazioni</a></p>
         <button id="accept-cookies" class="btn">Accetta</button>
     </div>
 

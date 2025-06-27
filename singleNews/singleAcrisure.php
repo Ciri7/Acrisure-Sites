@@ -806,6 +806,64 @@
                 justify-content: center;
             }
         }
+
+        .footer-legal-notice {
+            text-align: center;
+            padding: 1.5rem 5%;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            max-width: 1400px;
+        }
+
+        .footer-legal-notice p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+                /* NUOVI FOOTER --------------------------- */
+        .social-links a {
+            color: var(--secondary);
+            font-size: 1.5rem; /* Aumentato da 1.2rem */
+            transition: all 0.3s;
+            width: 40px; /* Aggiunto per dimensioni fisse */
+            height: 40px; /* Aggiunto per dimensioni fisse */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+        }
+
+        .social-links a:hover {
+            color: white;
+            background-color: var(--accent);
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-column .legal-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .footer-column .legal-links a {
+            display: block;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .footer-column .legal-links a:hover {
+            color: var(--accent);
+            padding-left: 0.5rem;
+            border-bottom-color: var(--accent);
+        }
     </style>
 </head>
 <body>

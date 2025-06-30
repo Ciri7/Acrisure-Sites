@@ -2440,7 +2440,7 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A. - REA MI-2616058</li>
                     <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
                     <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
@@ -2464,8 +2464,21 @@
                     <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
+                    <!-- <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li> -->
                 </ul>
+
+                <div class="footer-column">
+                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">reclami@acrisureitalia.com</a></li>
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisurespa@pec.acrisureitalia.com</a></li>
+                </ul>
+                
+                <div class="social-links">
+                    <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
                 
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>

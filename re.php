@@ -1835,7 +1835,7 @@
                         <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
-                        <h3>GESTIONE DOCUMENTAZIONE CONTRATTUALE</h3>
+                        <h3>GESTIONE CONTRATTUALE</h3>
                         <ul class="service-features">
                             <li>Cover note</li>
                             <li>Testi contrattuali</li>
@@ -2332,7 +2332,7 @@
                         <option value="claim&services">Analisi Portafoglio della Compagnia</option>
                         <option value="gestione_sinistri">Modelizzazione Catastrofale</option>
                         <option value="automotive_solution">Gestione Tecnica</option>
-                        <option value="welfare">Gestione Documentazione Contrattuale</option>
+                        <option value="welfare">Gestione Contrattuale</option>
                         <option value="enti_pubblici">Gestione Amministrattiva</option>
                         <!-- <option value="property_liability">Property & Liability</option>
                         <option value="riassicurazione">Riassicurazione</option>

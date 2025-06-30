@@ -1537,7 +1537,7 @@
             transform: translateX(5px);
         }
 
-                .social-links {
+        .social-links {
             margin-top: 1.5rem;
             display: flex;
             gap: 15px;

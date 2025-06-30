@@ -2468,16 +2468,11 @@
                 </ul>
 
                 <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-exclamation"></i> Reclami</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">reclami@acrisureitalia.com</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisurespa@pec.acrisureitalia.com</a></li>
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
                 </ul>
-                
-                <div class="social-links">
-                    <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
             </div>
                 
                 <div class="social-links">
@@ -2521,7 +2516,7 @@
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
             Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
+            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati.</p>
         </div>
     </footer>
 

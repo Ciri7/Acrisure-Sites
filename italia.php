@@ -79,7 +79,7 @@
         }
 
         .logo-footer {
-            height: 50px;
+            height: 55px;
             transition: transform 0.3s;
         }
         
@@ -2467,17 +2467,17 @@
                     <!-- <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li> -->
                 </ul>
 
-                <div class="footer-column">
-                <h3><i class="fas fa-exclamation"></i> Reclami</h3>
-                <ul class="footer-links">
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
-                </ul>
-            </div>
-                
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation"></i> Reclami</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
+                    </ul>
                 </div>
             </div>
             
@@ -2493,7 +2493,8 @@
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
                 </div>
-                
+
+                <br>
                 <div class="legal-links">
                     <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>

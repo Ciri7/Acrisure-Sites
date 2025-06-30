@@ -2472,6 +2472,7 @@
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
 
+                <br>
                 <div class="footer-column">
                     <h3><i class="fas fa-exclamation"></i> Reclami</h3>
                     <ul class="footer-links">

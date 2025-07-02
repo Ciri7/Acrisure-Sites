@@ -1787,14 +1787,14 @@
         <br><br><br>
     </section>
 
-        <!-- I Nostri Servizi - Versione Migliorata -->
+    <!-- I Nostri Servizi - Versione Migliorata -->
     <section id="services" class="section">
         <h2 class="section-title">I Nostri Servizi</h2>
         <p class="section-subtitle">Soluzioni specializzate per la gestione assicurativa nel settore agricolo</p>
         
         <div class="services-grid">
             <!-- Prima riga con 2 card -->
-            <div class="service-row">
+            <div class="service-row" style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
                         <img src="/img/Consulenza.jpg" alt="Assistenza Distributori">
@@ -1826,8 +1826,8 @@
                 </div>
             </div>
             
-            <!-- Seconda riga con 2 card -->
-            <div class="service-row" style="margin: 0 auto; width: fit-content;">
+            <!-- Seconda riga con 1 card centrata -->
+            <div class="service-row" style="display: flex; justify-content: center;">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
                         <img src="/img/Consulenza.jpg" alt="Gestione Sinistri">
@@ -2291,15 +2291,9 @@
                     <label for="service">Servizio di interesse <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Claim & Services</option>
-                        <option value="gestione_sinistri">Gestioni Sinistri</option>
-                        <option value="automotive_solution">Automotive Solution</option>
-                        <option value="welfare">Welfare</option>
-                        <option value="enti_pubblici">Enti Pubblici</option>
-                        <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Riassicurazione</option>
-                        <option value="reclami">Reclami</option>
-                        <option value="altro">Altro</option>
+                        <option value="soluzioneProf&aziende">Soluzione per professionisti e aziende</option>
+                        <option value="solPrivati">Soluzione per privati</option>
+                        <option value="gestioneWip">Gestione sinistri wip</option>
                     </select>
                 </div><br>
                 

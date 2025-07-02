@@ -2329,7 +2329,7 @@
                     <label for="service">Servizio di interesse <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Analisi Portafoglio della Compagnia</option>
+                        <option value="claim&services">Trattati</option>
                         <option value="gestione_sinistri">Modelizzazione Catastrofale</option>
                         <option value="automotive_solution">Gestione Tecnica</option>
                         <option value="welfare">Gestione Contrattuale</option>

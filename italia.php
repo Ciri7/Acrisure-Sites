@@ -1867,11 +1867,12 @@
                         <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
                     </div>
                     <div class="service-content">
-                        <h3>CUSTOMER SERVICE</h3>
+                        <h3>CLAIMS & SERVICES</h3>
                         <ul class="service-features">
-                            <li>Servizio telefonico, email e chat in-bound ed out-bound</li>
-                            <li>Gestione servizi post vendita prodotti assicurativi</li>
-                            <li>Gestione sinistri dalla denuncia fino al pagamento con modelli plug & play</li>
+                            <li>Raccolta informazioni</li>
+                            <li>Supporto al cliente</li>
+                            <li>Gestione completa del sinistro (apertura, gestione, proposta di liquidazione)</li>
+                            <li>Assistenza telefonica 5/7</li>
                         </ul>
                         <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1882,11 +1883,9 @@
                         <img src="/img/scrivania legno.jpg" alt="Fleet Management">
                     </div>
                     <div class="service-content">
-                        <h3>LEGAL, COMPLIANCE & HR</h3>
+                        <h3>GESTIONE SINISTRI</h3>
                         <ul class="service-features">
-                            <li>Governance aziendale</li>
-                            <li>Quadro ed aggiornamenti normativi perimetro IVASS</li>
-                            <li>HR management</li>
+                            <li> Il nostro ufficio sinistri attraverso un team altamente qualificato si occupa di seguire passo dopo passo i clienti offrendo un supporto costante ed efficace volto alla massimizzazione del risparmio economico e di tempo.</li>
                         </ul>
                         <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1897,11 +1896,11 @@
                         <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare">
                     </div>
                     <div class="service-content">
-                        <h3>TPA MOTOR & WELFARE</h3>
+                        <h3>AUTOMOTIVE SOLUTION</h3>
                         <ul class="service-features">
-                            <li>Centrale operativa 6/7 8-20</li>
-                            <li>Back office documentale / Business Process Outsourcing</li>
-                            <li>Ampia flessibilità ed alta scalabilità</li>
+                            <li>Motor</li>
+                            <li>Gestione di programmi RCA/CVT/Garanzie Ancillari</li>
+                            <li>Polizze collettive CVT</li>
                         </ul>
                         <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1912,11 +1911,16 @@
                         <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
-                        <h3>FLEET MANAGEMENT</h3>
+                        <h3>WELFARE</h3>
                         <ul class="service-features">
-                            <li>Gestione flotta aziendale a 360°</li>
-                            <li>Servizi di manutenzione ordinaria, straordinaria, assistenza stradale</li>
-                            <li>Gestione danni diretti in autoassicurazione</li>
+                            <li>Rimborso Spese Mediche</li>
+                            <li>Infortuni cumulativa Professionali ed Extra- Professionali</li>
+                            <li>Invalidità permanente</li>
+                            <li>Dentalcare</li>
+                            <li>Vita</li>
+                            <li>Long TermCare (LTC - Perdita dell’autosufficienza)</li>
+                            <li>Temporanea Caso Morte</li>
+                            <li>Dread desease (Indennità Malattie Gravi)</li>
                         </ul>
                         <a href="#fleet-modal" class="service-link discover-more" data-modal="fleet">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1927,7 +1931,7 @@
                         <img src="/img/motor4.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
-                        <h3>MOTOR</h3>
+                        <h3>ENTI PUBBLICI</h3>
                         <ul class="service-features">
                             <li>Gestione flotte RCA libro matricola / CVT</li>
                             <li>Smart management assuntivo con comunicazioni agli stakeholder</li>
@@ -1942,7 +1946,24 @@
                         <img src="/img/legno.avif" alt="Welfare 360°">
                     </div>
                     <div class="service-content">
-                        <h3>WELFARE 360°</h3>
+                        <h3>PROPERTY & LIABILITY</h3>
+                        <ul class="service-features">
+                            <li>Supporto nella definizione e formalizzazione di piani welfare</li>
+                            <li>Definizione ed implementazione di piani di comunicazione e formazione</li>
+                            <li>Creazione dell'offerta di servizi welfare personalizzati</li>
+                            <li>Piattaforma integrata per la gestione dei servizi</li>
+                            <li>Data analytics</li>
+                        </ul>
+                        <a href="#welfare-modal" class="service-link discover-more" data-modal="welfare">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/img/legno.avif" alt="Welfare 360°">
+                    </div>
+                    <div class="service-content">
+                        <h3>RIASSICURAZIONE</h3>
                         <ul class="service-features">
                             <li>Supporto nella definizione e formalizzazione di piani welfare</li>
                             <li>Definizione ed implementazione di piani di comunicazione e formazione</li>

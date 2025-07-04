@@ -1850,7 +1850,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Alta Broker</h3>
+                        <h3 class="azienda-nome">Alta Broker & Partners srl</h3>
                         <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
                         <div class="azienda-link-container">
                             <a href="altabroker.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>

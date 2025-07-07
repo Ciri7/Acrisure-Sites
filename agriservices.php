@@ -2021,7 +2021,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            Coordinamento efficace dell'intero processo di gestione dei sinistri.
+                            Coordinamento efficace dell'intero processo di gestione dei sinistri
                         </p>
                     </div>
                 </div>
@@ -2036,7 +2036,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            Tempestività e trasparenza nella fase di liquidazione dei danni.
+                            Tempestività e trasparenza nella fase di liquidazione dei danni
                         </p>
                     </div>
                 </div>

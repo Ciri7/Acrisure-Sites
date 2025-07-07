@@ -194,7 +194,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Genov2.webp');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Genov1.jpg');
             background-size: cover;
             background-position: top;
             background-attachment: fixed;
@@ -1794,28 +1794,10 @@
         
         <div class="services-grid">
             <!-- Prima riga con 2 card -->
-             <div class="service-row" style="display: flex; justify-content: center;">
-                <div class="service-card" style="width: 450px; height: 450px;">
-                    <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Gestione Sinistri">
-                    </div>
-                    <div class="service-content" style="padding: 2rem; text-align: center;">
-                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE SINISTRI WIP</h3>
-                        <div style="display: flex; justify-content: center;">
-                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
-                        </div>
-                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            ###
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
             <div class="service-row" style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
-
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Gestione Coperture">
+                        <img src="/img/Consulenza.jpg" alt="Assistenza Distributori">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">SOLUZIONI PER PRIVATI</h3>
@@ -1827,21 +1809,38 @@
                         </p>
                     </div>
                 </div>
+
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Consulenza.jpg" alt="Gestione Coperture">
+                    </div>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE E SINISTRI WIP</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            ###
+                        </p>
+                    </div>
+                </div>
             </div>
             
             <!-- Seconda riga con 1 card centrata -->
-            <div class="service-card" style="width: 450px; height: 450px;">
-                <div class="service-image" style="height: 250px;">
-                    <img src="/img/Consulenza.jpg" alt="Assistenza Distributori">
-                </div>
-                <div class="service-content" style="padding: 2rem; text-align: center;">
-                    <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">SOLUZIONI PER PROFESSIONISTI E AZIENDE</h3>
-                    <div style="display: flex; justify-content: center;">
-                        <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+            <div class="service-row" style="display: flex; justify-content: center;">
+                <div class="service-card" style="width: 450px; height: 450px;">
+                    <div class="service-image" style="height: 250px;">
+                        <img src="/img/Consulenza.jpg" alt="Gestione Sinistri">
                     </div>
-                    <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                        ###
-                    </p>
+                    <div class="service-content" style="padding: 2rem; text-align: center;">
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">SOLUZIONI PER PROFESSIONISTI E AZIENDE</h3>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
+                        </div>
+                        <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
+                            ###
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

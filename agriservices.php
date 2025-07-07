@@ -1980,7 +1980,7 @@
             <div class="service-row">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Assistenza Distributori">
+                        <img src="/img/lcn.jpg" alt="Assistenza Distributori">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">ASSISTENZA AI DISTRIBUTORI</h3>
@@ -1995,7 +1995,7 @@
 
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Gestione Coperture">
+                        <img src="/img/servi3.avif" alt="Gestione Coperture">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE COPERTURE</h3>
@@ -2013,7 +2013,7 @@
             <div class="service-row">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Gestione Sinistri">
+                        <img src="/img/servi10.avif" alt="Gestione Sinistri">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE SINISTRI</h3>
@@ -2028,7 +2028,7 @@
 
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Sottoscrizione di polizze.jpg" alt="Liquidazione Sinistri">
+                        <img src="/img/servi14.avif" alt="Liquidazione Sinistri">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">LIQUIDAZIONE SINISTRI</h3>

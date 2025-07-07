@@ -1844,7 +1844,7 @@
 
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">Corrado Sono</h3>
+                    <h3 class="leadership-name">Corrado Soro</h3>
                     <p class="leadership-desc">Motors</p>
                 </div>
             </div><br>

@@ -194,7 +194,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/serv9.avif');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hr3.jpg');
             background-size: cover;
             background-position: top;
             background-attachment: fixed;
@@ -1919,7 +1919,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/motor4.jpg" alt="Motor">
+                        <img src="/img/motor6.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
                         <h3>MOTOR</h3>
@@ -2227,7 +2227,7 @@
     <div class="modal-content">
         <button class="close-modal">&times;</button>
         <div class="modal-header">
-            <img src="/img/motor4.jpg" alt="Motor" class="modal-header-image">
+            <img src="/img/motor6.jpg" alt="Motor" class="modal-header-image">
             <div class="modal-header-content">
                 <h2 class="modal-title">MOTOR</h2>
                 <p class="modal-subtitle">Soluzioni specializzate per la gestione delle polizze RCA e servizi correlati</p>

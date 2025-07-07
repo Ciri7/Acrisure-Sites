@@ -656,6 +656,14 @@
             object-fit: cover;
             transition: transform 0.5s;
         }
+
+        .service-image2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            transition: transform 0.5s;
+        }
         
         .service-card:hover .service-image img {
             transform: scale(1.1);
@@ -846,6 +854,14 @@
             height: 100%;
             object-fit: cover;
             object-position: bottom;
+            filter: brightness(0.7);
+        }
+
+        .modal-header-image3 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
             filter: brightness(0.7);
         }
         
@@ -1918,7 +1934,7 @@
                 </div>
 
                 <div class="service-card">
-                    <div class="service-image">
+                    <div class="service-image2">
                         <img src="/img/motor6.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
@@ -2227,7 +2243,7 @@
     <div class="modal-content">
         <button class="close-modal">&times;</button>
         <div class="modal-header">
-            <img src="/img/motor6.jpg" alt="Motor" class="modal-header-image">
+            <img src="/img/motor6.jpg" alt="Motor" class="modal-header-image3">
             <div class="modal-header-content">
                 <h2 class="modal-title">MOTOR</h2>
                 <p class="modal-subtitle">Soluzioni specializzate per la gestione delle polizze RCA e servizi correlati</p>

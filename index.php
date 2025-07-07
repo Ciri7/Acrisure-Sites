@@ -198,7 +198,7 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sassari.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sassari3.jpg');
             background-size: cover;
             background-position: top;
             background-attachment: fixed;
@@ -1807,7 +1807,7 @@
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Services</h3>
-                        <p class="azienda-desc">Specializzati in attività operative e gestionali delle società con servizi legati alle risorse umane, alle attività legal e compliance, ai servizi di TPA e Customer Service, alla gestione delle flotte aziendali</p>
+                        <p class="azienda-desc">Specializzati nelle attività operative e gestionali delle società, integrando competenze e interconnessioni tra molteplici aree di servizio</p>
                         <div class="azienda-link-container">
                             <a href="services.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>

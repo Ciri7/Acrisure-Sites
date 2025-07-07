@@ -2794,7 +2794,7 @@
                     scrollPosition = servicesContainer.scrollWidth - servicesContainer.clientWidth;
                 } else {
                     // Altrimenti vai all'inizio o alla card precedente
-                    scrollPosition = Math.max(0, scrollPosition - (cardWidth * 3));
+                    scrollPosition = Math.max(0, scrollPosition - (cardWidth * 4));
                 }
         
                 servicesContainer.scrollTo({
@@ -2811,7 +2811,7 @@
                     scrollPosition = 0;
                 } else {
                     // Altrimenti vai alla fine o alla prossima card
-                    scrollPosition = Math.min(maxScroll, scrollPosition + (cardWidth * 3));
+                    scrollPosition = Math.min(maxScroll, scrollPosition + (cardWidth * 4));
                 }
         
                 servicesContainer.scrollTo({

@@ -1964,8 +1964,8 @@
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079/2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
@@ -2011,7 +2011,7 @@
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
             Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
+            <p>Acrisure S.r.l. - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
         </div>
     </footer>
 

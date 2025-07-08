@@ -837,7 +837,7 @@
             <div class="privacy-section">
                 <h2>Titolare del trattamento</h2>
                 <p>Il Titolare del trattamento dei dati è:</p>
-                <p><strong>Acrisure Italia S.r.l.</strong><br>
+                <p><strong>Acrisure S.r.l.</strong><br>
                 Via Giuseppe Mazzini, 3 - 07100 Sassari<br>
                 P.IVA: 13147890969<br>
                 REA: MI-2616058<br>
@@ -851,7 +851,7 @@
                 <ul>
                     <li><strong>Dati di navigazione</strong>: i sistemi informatici e le procedure software preposte al funzionamento di questo Sito acquisiscono, nel normale esercizio, alcuni dati personali la cui trasmissione è implicita nell'uso dei protocolli di comunicazione Internet.</li>
                     <li><strong>Dati forniti volontariamente dall'utente</strong>: l'invio facoltativo, esplicito e volontario di messaggi agli indirizzi di contatto, nonché la compilazione e l'inoltro dei moduli presenti sul Sito, comportano l'acquisizione dei dati personali inseriti, necessari per rispondere alle richieste.</li>
-                    <li><strong>Cookie</strong>: il Sito utilizza cookie per garantire una migliore esperienza di navigazione. Per maggiori informazioni, consulta la nostra <a href="cookies.php" class="page-transition-link">Cookie Policy</a>.</li>
+                    <li><strong>Cookie</strong>: il Sito utilizza cookie per garantire una migliore esperienza di navigazione. Per maggiori informazioni, consulta la nostra <a href="/cookies/cookiesAcrisure.php" class="page-transition-link">Cookie Policy</a>.</li>
                 </ul>
             </div>
 
@@ -927,8 +927,8 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
-                    <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
                     <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
                 </ul>
@@ -937,19 +937,19 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>20123 - Via Santa Maria Segreta 6</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>00198 - Via Lovanio 6</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>10123 - Via San Francesco Da Paola 15</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>16121 - Piazza della Vittoria 9</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>38023 - Piazza Granda 44</li>
+                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio 6 - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola 15 - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria 9 - 16121</li>
+                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda 44 - 38023</li>
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
@@ -967,11 +967,11 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <div class="footer-badge">
+                <!-- <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div>
+                </div> -->
                 
                 <div class="legal-links">
                     <a href="#header">Privacy Policy</a>
@@ -995,7 +995,7 @@
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
             Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
+            <p>Acrisure S.r.l. - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
         </div>
     </footer>
 

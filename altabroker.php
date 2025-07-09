@@ -1830,7 +1830,7 @@
             <div class="service-row" style="display: flex; justify-content: center;">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/solution3.jpg" alt="Gestione Sinistri">
+                        <img src="/img/solution6.jpg" alt="Gestione Sinistri">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">PROFESSIONISTI & AZIENDE</h3>

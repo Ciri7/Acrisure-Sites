@@ -1824,7 +1824,7 @@
                         <img src="/img/solution8.jpg" alt="Gestione Coperture">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
-                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE E SINISTRI</h3>
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE SINISTRI</h3>
                         <div style="display: flex; justify-content: center;">
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
@@ -1864,7 +1864,7 @@
             <div class="modal-header">
                 <img src="/img/solution5.jpg" alt="Customer Service" class="modal-header-image">
                 <div class="modal-header-content">
-                    <h2 class="modal-title">SOLUZIONE PRE PRIVATI</h2>
+                    <h2 class="modal-title">SOLUZIONE PER PRIVATI</h2>
                     <p class="modal-subtitle">La nostra Centrale Operativa ha il compito di affiancare le parti coinvolte, fornendo la massima assistenza necessaria</p>
                 </div>
             </div>
@@ -2302,9 +2302,9 @@
                     <label for="service">Servizio di interesse <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Seleziona un servizio --</option>
-                        <option value="soluzioneProf&aziende">Soluzione per professionisti e aziende</option>
-                        <option value="solPrivati">Soluzione per privati</option>
-                        <option value="gestioneWip">Gestione sinistri wip</option>
+                        <option value="soluzioneProf&aziende">Professionisti & aziende</option>
+                        <option value="solPrivati">Soluzioni per privati</option>
+                        <option value="gestioneWip">Gestione sinistri</option>
                     </select>
                 </div><br>
                 

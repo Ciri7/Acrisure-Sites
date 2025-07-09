@@ -1849,14 +1849,14 @@
         </div>
     </section>
 
-    <!-- Modali per i servizi -->
-    <!-- <div id="customer-service-modal" class="modal">
+    <!-- MODALI PER I SERVIZI -->
+    <div id="customer-service-modal" class="modal">
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">
-                <img src="/img/cuffie e scrivania.jpg" alt="Customer Service" class="modal-header-image">
+                <img src="/img/solution5.jpg" alt="Customer Service" class="modal-header-image">
                 <div class="modal-header-content">
-                    <h2 class="modal-title">CUSTOMER SERVICE</h2>
+                    <h2 class="modal-title">SOLUZIONE PRE PRIVATI</h2>
                     <p class="modal-subtitle">La nostra Centrale Operativa ha il compito di affiancare le parti coinvolte, fornendo la massima assistenza necessaria</p>
                 </div>
             </div>
@@ -1925,9 +1925,9 @@
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">
-                <img src="/img/scrivania legno.jpg" alt="Legal, Compliance & HR" class="modal-header-image">
+                <img src="/img/solution8.jpg" alt="Legal, Compliance & HR" class="modal-header-image">
                 <div class="modal-header-content">
-                    <h2 class="modal-title">LEGAL, COMPLIANCE & HR</h2>
+                    <h2 class="modal-title">GESTIONE SINISTRI</h2>
                     <p class="modal-subtitle">Il cuore pulsante che serve i nostri clienti con eccellenza e competenza</p>
                 </div>
             </div>
@@ -1978,9 +1978,9 @@
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">
-                <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare" class="modal-header-image2">
+                <img src="/img/solution6.jpg" alt="TPA Motor & Welfare" class="modal-header-image2">
                 <div class="modal-header-content">
-                    <h2 class="modal-title">TPA MOTOR & WELFARE</h2>
+                    <h2 class="modal-title">PROFESSIONISTI & AZIENDE</h2>
                     <p class="modal-subtitle">Soluzioni complete per la gestione dei sinistri e servizi di welfare</p>
                 </div>
             </div>
@@ -2045,7 +2045,7 @@
         </div>
     </div>
 
-    <div id="fleet-modal" class="modal">
+    <!-- <div id="fleet-modal" class="modal">
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">

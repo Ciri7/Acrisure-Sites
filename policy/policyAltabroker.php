@@ -955,6 +955,15 @@
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+
+                <br>
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation"></i> Reclami</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@altabroker.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">altabrokerandpartners@pec.it</a></li>
+                    </ul>
+                </div>
             </div>
             
             <div class="footer-column">

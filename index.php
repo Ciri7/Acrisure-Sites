@@ -1795,7 +1795,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Italia</h3>
+                        <h3 class="azienda-nome">Acrisure Italia S.p.A.</h3>
                         <p class="azienda-desc">Società di brokeraggio assicurativo operante al livello nazionale e internazionale</p>
                         <div class="azienda-link-container">
                             <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>

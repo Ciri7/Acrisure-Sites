@@ -1850,7 +1850,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Alta Broker & Partners srl</h3>
+                        <h3 class="azienda-nome">Alta Broker & Partners S.r.l.</h3>
                         <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
                         <div class="azienda-link-container">
                             <a href="altabroker.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
@@ -2009,8 +2009,8 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
-            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
+            <p>Acrisure S.r.l, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
+            Acrisure S.r.l. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
             <p>Acrisure S.r.l. - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
         </div>
     </footer>

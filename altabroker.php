@@ -1675,7 +1675,7 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Alta Broker & Partners srl</h1>
+            <h1>Alta Broker & Partners S.r.l.</h1>
             <p>Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
             <a href="#contatti" class="btn btn-secondary">Contattaci</a>
         </div>
@@ -1797,7 +1797,7 @@
             <div class="service-row" style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Assistenza Distributori">
+                        <img src="/img/solution5.jpg" alt="Assistenza Distributori">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">SOLUZIONI PER PRIVATI</h3>
@@ -1812,7 +1812,7 @@
 
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Gestione Coperture">
+                        <img src="/img/solution8.jpg" alt="Gestione Coperture">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE E SINISTRI WIP</h3>
@@ -1830,7 +1830,7 @@
             <div class="service-row" style="display: flex; justify-content: center;">
                 <div class="service-card" style="width: 450px; height: 450px;">
                     <div class="service-image" style="height: 250px;">
-                        <img src="/img/Consulenza.jpg" alt="Gestione Sinistri">
+                        <img src="/img/solution3.jpg" alt="Gestione Sinistri">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
                         <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">PROFESSIONISTI & AZIENDE</h3>
@@ -2319,8 +2319,8 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
-                    <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
+                    <li><i class="fas fa-file-contract"></i> Alta Broker & Partners S.r.l.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> Via Assarotti, 5 - 16122 Genova</li><br>
                     <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt=""></li>
                 </ul>
@@ -2329,7 +2329,7 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>15057 - Corso Montebello 5</li>
+                    <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>Corso Montebello 5 - 15057</li>
                     <!-- <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>00198 - Via Lovanio 6</li>
                     <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>10123 - Via San Francesco Da Paola 15</li>
                     <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>16121 - Piazza della Vittoria 9</li>
@@ -2367,11 +2367,11 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <div class="footer-badge">
+                <!-- <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div>
+                </div> -->
                 
                 <div class="legal-links">
                     <a href="/policy/policyAltabroker.php">Privacy Policy</a>

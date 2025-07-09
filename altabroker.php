@@ -827,6 +827,14 @@
             object-position: center;
             filter: brightness(0.7);
         }
+
+        .modal-header-image3 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            filter: brightness(0.7);
+        }
         
         .modal-header-content {
             position: absolute;
@@ -1925,7 +1933,7 @@
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">
-                <img src="/img/solution8.jpg" alt="Legal, Compliance & HR" class="modal-header-image2">
+                <img src="/img/solution8.jpg" alt="Legal, Compliance & HR" class="modal-header-image3">
                 <div class="modal-header-content">
                     <h2 class="modal-title">GESTIONE SINISTRI</h2>
                     <p class="modal-subtitle">Il cuore pulsante che serve i nostri clienti con eccellenza e competenza</p>

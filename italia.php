@@ -1769,7 +1769,7 @@
                 <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Giuseppe Barbati</h3>
-                    <p class="leadership-desc">Executive Director Insurance Buisiness Development</p>
+                    <p class="leadership-desc">Executive Director Insurance Business Development</p>
                 </div>
                 
                 <!-- Seconda riga -->
@@ -2461,8 +2461,8 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A. - REA MI-2616058</li>
-                    <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
                 </ul>
@@ -2539,7 +2539,7 @@
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
             Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati.</p>
+            <p>Acrisure Italia S.p.A. - &copy; Copyright 2025 - Tutti i diritti riservati.</p>
         </div>
     </footer>
 

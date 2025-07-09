@@ -1678,7 +1678,7 @@
             </div>
             
             <div class="about-values">
-                <h3>I nostri valori</h3>
+                <!-- <h3>I nostri valori</h3> -->
                 <div class="values-grid">
                     <!-- <div class="value-item">
                         <i class="fas fa-shield-alt"></i>
@@ -1687,7 +1687,7 @@
                     </div> -->
                     <div class="value-item">
                         <i class="fas fa-bullseye"></i>
-                        <h4>Precisione</h4>
+                        <h4>Valori</h4>
                         <p>Mettiamo le persone al centro del nostro business, offrendo un esperienza eccezionale al cliente.</p>
                     </div>
                     <div class="value-item">
@@ -1828,7 +1828,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agricolture</h3>
+                        <h3 class="azienda-nome">Acrisure Agricolture S.r.l.</h3>
                         <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
                         <div class="azienda-link-container">
                             <a href="agricolture.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>

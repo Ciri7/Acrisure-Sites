@@ -1955,14 +1955,14 @@
                 <div class="leadership-first-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Maurizio Capiello</h3>
-                        <p class="leadership-desc">Amministratore Delegato</p>
+                        <h3 class="leadership-name">Andrea Maffei</h3>
+                        <p class="leadership-desc">Chairman</p>
                     </div>
-                    
+
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Andrea Maffei</h3>
-                        <p class="leadership-desc">Presidente</p>
+                        <h3 class="leadership-name">Maurizio Capiello</h3>
+                        <p class="leadership-desc">Chief Executive Officer</p>
                     </div>
                 </div>
             </div>

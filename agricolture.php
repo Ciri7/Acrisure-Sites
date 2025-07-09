@@ -1688,7 +1688,7 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Acrisure Agricolture</h1>
+            <h1>Acrisure Agricolture S.r.l.</h1>
             <p>Consulenza specializzata per il mondo della agricoltura per accompagnare i propri clienti alle migliori coperture a garanzia dei risultati del loro business. Verifica in statuto</p>
             <a href="#contatti" class="btn btn-secondary">Contattaci</a>
         </div>
@@ -1783,14 +1783,14 @@
                 <div class="leadership-first-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Maurizio Capiello</h3>
-                        <p class="leadership-desc">Amministratore Delegato</p>
+                        <h3 class="leadership-name">Andrea Maffei</h3>
+                        <p class="leadership-desc">Chairman</p>
                     </div>
                     
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Andrea Maffei</h3>
-                        <p class="leadership-desc">Presidente</p>
+                        <h3 class="leadership-name">Maurizio Capiello</h3>
+                        <p class="leadership-desc">Chief Executive Officer</p>
                     </div>
                 </div><br>
             </div>
@@ -1901,9 +1901,9 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
-                    <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture S.r.l.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i> Via Lovanio, 6 - 00198 Roma</li><br>
                     <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>

@@ -1807,7 +1807,7 @@
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
                             ###
                         </p>
-                        <a href="#privati-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                        <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -1823,7 +1823,7 @@
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
                             ###
                         </p>
-                        <a href="#sinistri-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                        <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -1842,7 +1842,7 @@
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
                             #
                         </p>
-                        <a href="#aziende-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                        <a href="#tpa-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -1850,7 +1850,7 @@
     </section>
 
     <!-- MODALI PER I SERVIZI -->
-    <div id="privati-modal" class="modal">
+    <div id="customer-service-modal" class="modal">
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">
@@ -1921,7 +1921,7 @@
         </div>
     </div>
 
-    <div id="sinistri-modal" class="modal">
+    <div id="legal-compliance-modal" class="modal">
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">
@@ -1974,7 +1974,7 @@
         </div>
     </div>
 
-    <div id="aziende-modal" class="modal">
+    <div id="tpa-modal" class="modal">
         <div class="modal-content">
             <button class="close-modal">&times;</button>
             <div class="modal-header">

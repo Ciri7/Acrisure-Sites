@@ -196,9 +196,9 @@
 
         /* Hero Section */
         .policy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/genova.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Genov1.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: top;
             height: 50vh;
             min-height: 400px;
             display: flex;

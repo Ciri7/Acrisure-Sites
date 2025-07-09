@@ -947,8 +947,7 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -960,8 +959,8 @@
                 <div class="footer-column">
                     <h3><i class="fas fa-exclamation"></i> Reclami</h3>
                     <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@altabroker.it</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">altabrokerandpartners@pec.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it">reclami@altabroker.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
                     </ul>
                 </div>
             </div>

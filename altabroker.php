@@ -2338,7 +2338,7 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i> Amministrazione: 010/9860606</li>
                     <li><i class="fas fa-fax"></i> Telefax: +39 010 9868018</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@altabroker.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -2350,8 +2350,8 @@
                 <div class="footer-column">
                     <h3><i class="fas fa-exclamation"></i> Reclami</h3>
                     <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@altabroker.it</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">altabrokerandpartners@pec.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it">reclami@altabroker.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
                     </ul>
                 </div>
             </div>

@@ -1823,7 +1823,7 @@
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
                             ###
                         </p>
-                        <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                        <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -1842,7 +1842,7 @@
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
                             #
                         </p>
-                        <a href="#tpa-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                        <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

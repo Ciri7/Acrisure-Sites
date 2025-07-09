@@ -1663,7 +1663,7 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Acrisure Italia</h1>
+            <h1>Acrisure Italia S.p.A.</h1>
             <p>Società di brokeraggio assicurativo operante al livello nazionale e internazionale</p>
             <a href="#contatti" class="btn btn-secondary">Contattaci</a>
         </div>
@@ -2205,7 +2205,7 @@
                         <ul class="feature-list">
                             <li>Manutenzione ordinaria (gestione tagliandi) e straordinaria</li>
                             <li>Assistenza stradale 24/7</li>
-                            <!-- <li>Gestione tagliandi e rabbocchi</li>  -->
+                            <li>Gestione tagliandi e rabbocchi</li>
                         </ul>
                     </div>
                     <div class="modal-feature-card">

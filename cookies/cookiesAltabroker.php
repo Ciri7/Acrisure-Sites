@@ -972,37 +972,37 @@
         });
 
         // Page transition animation
-        document.querySelectorAll('a[href^="/"]').forEach(link => {
-            // Skip anchor links and external links
-            if (link.href.includes('#') || !link.href.includes(window.location.host)) return;
+        // document.querySelectorAll('a[href^="/"]').forEach(link => {
+        //     // Skip anchor links and external links
+        //     if (link.href.includes('#') || !link.href.includes(window.location.host)) return;
             
-            link.addEventListener('click', function(e) {
-                // Skip if target is blank
-                if (this.target === '_blank') return;
+        //     link.addEventListener('click', function(e) {
+        //         // Skip if target is blank
+        //         if (this.target === '_blank') return;
                 
-                e.preventDefault();
-                const href = this.getAttribute('href');
+        //         e.preventDefault();
+        //         const href = this.getAttribute('href');
                 
-                // Show page transition
-                const transition = document.querySelector('.page-transition');
-                transition.style.opacity = '1';
-                transition.style.pointerEvents = 'auto';
+        //         // Show page transition
+        //         const transition = document.querySelector('.page-transition');
+        //         transition.style.opacity = '1';
+        //         transition.style.pointerEvents = 'auto';
                 
-                // After animation completes, navigate to new page
-                setTimeout(() => {
-                    window.location.href = href;
-                }, 400);
-            });
-        });
+        //         // After animation completes, navigate to new page
+        //         setTimeout(() => {
+        //             window.location.href = href;
+        //         }, 400);
+        //     });
+        // });
         
         // When page loads, animate out the transition
-        window.addEventListener('load', () => {
-            const transition = document.querySelector('.page-transition');
-            if (transition) {
-                transition.style.opacity = '0';
-                transition.style.pointerEvents = 'none';
-            }
-        });
+        // window.addEventListener('load', () => {
+        //     const transition = document.querySelector('.page-transition');
+        //     if (transition) {
+        //         transition.style.opacity = '0';
+        //         transition.style.pointerEvents = 'none';
+        //     }
+        // });
     </script>
 </body>
 </html>

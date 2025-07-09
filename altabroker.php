@@ -1807,6 +1807,7 @@
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
                             ###
                         </p>
+                        <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -1815,13 +1816,14 @@
                         <img src="/img/solution8.jpg" alt="Gestione Coperture">
                     </div>
                     <div class="service-content" style="padding: 2rem; text-align: center;">
-                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE E SINISTRI WIP</h3>
+                        <h3 style="font-size: 1.7rem; margin-bottom: 1.5rem;">GESTIONE E SINISTRI</h3>
                         <div style="display: flex; justify-content: center;">
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
                             ###
                         </p>
+                        <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -1838,8 +1840,9 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            ###
+                            #
                         </p>
+                        <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

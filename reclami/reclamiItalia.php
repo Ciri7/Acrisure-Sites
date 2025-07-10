@@ -916,7 +916,7 @@
                 </div>
                 
                 <div class="legal-links">
-                    <a href="#header">Privacy Policy</a>
+                    <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
                     <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
                 </div>

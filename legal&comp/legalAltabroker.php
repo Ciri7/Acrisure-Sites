@@ -964,16 +964,16 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Via Assarotti 5 - 16122</li>
-                    <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>Corso Montebello 5 - 15057</li>
+                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Via Assarotti, 5 - 16122</li>
+                    <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>Corso Montebello, 5 - 15057</li>
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-fax"></i> Telefax: +39 010 9868018</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
                 </ul>
                 

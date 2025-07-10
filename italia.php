@@ -1636,26 +1636,10 @@
         text-decoration: none;
         transition: all 0.3s;
         display: inline-block;
-        position: relative;
         }
 
         .footer-title-link:hover {
             color: var(--accent);
-        }
-
-        .footer-title-link::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background-color: var(--accent);
-            transition: width 0.3s;
-        }
-
-        .footer-title-link:hover::after {
-            width: 50px;
         }
     </style>
 </head>
@@ -2525,7 +2509,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="reclami.php" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiItalia.php" class="footer-title-link">Reclami</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>

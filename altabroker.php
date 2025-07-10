@@ -1775,16 +1775,16 @@
             <div class="leadership-grid">
 
                 <!-- Prima riga -->
-                <div class="leadership-card">
-                <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Stefano Sardara</h3>
-                <p class="leadership-desc">Chairman</p>
+                 <div class="leadership-card">
+                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Stefano Bruschetta</h3>
+                    <p class="leadership-desc">Chief Executivive Officier</p>
                 </div>
 
                 <div class="leadership-card">
                     <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Stefano Bruschetta</h3>
-                    <p class="leadership-desc">Chief Executivive Officier</p>
+                    <h3 class="leadership-name">Stefano Sardara</h3>
+                    <p class="leadership-desc">Chairman</p>
                 </div>
 
                 <div class="leadership-card">

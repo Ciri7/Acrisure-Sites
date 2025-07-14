@@ -929,9 +929,9 @@
                 <h2>Documenti e Risorse</h2>
                 <p>Scarica i principali documenti relativi alla nostra governance e compliance:</p>
                 <ul>
-                    <li><a href="/DOCUMENTI/codice-etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li><a href="/DOCUMENTI/modello-231.pdf" target="_blank">Modello Organizzativo 231</a></li>
-                    <li><a href="/DOCUMENTI/procedura-whistleblowing.pdf" target="_blank">Procedura Whistleblowing</a></li>
+                    <li><a href="/DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
+                    <li><a href="/DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Modello Organizzativo 231</a></li>
+                    <li><a href="/DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Procedura Whistleblowing</a></li>
                     <li><a href="/DOCUMENTI/politica-antiriciclaggio.pdf" target="_blank">Politica Antiriciclaggio</a></li>
                 </ul>
             </div>

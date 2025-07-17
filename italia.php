@@ -2487,9 +2487,9 @@
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li>
+                    <!-- <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li> -->
                 </ul>
             </div>
             
@@ -2551,9 +2551,7 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
-            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia S.p.A. - &copy; Copyright 2025 - Tutti i diritti riservati.</p>
+            <p>ACRISURE ITALIA S.p.a._ Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
         </div>
     </footer>
 

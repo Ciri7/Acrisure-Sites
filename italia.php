@@ -2499,7 +2499,6 @@
                     <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <!-- <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li> -->
                 </ul>
 
                 <div class="social-links">
@@ -2551,7 +2550,8 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>ACRISURE ITALIA S.p.a._ Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.a._ Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. Sociale € 200.000,00 i.v-RUI B000673774.<br>
+            Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
         </div>
     </footer>
 

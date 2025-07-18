@@ -2332,7 +2332,7 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i> Via Assarotti, 5 - 16122 Genova</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i> Via Assarotti, 5/1 - 16122 Genova</li><br>
                     <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
@@ -2401,9 +2401,8 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
-            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
+            <p>Alta Broker & Partners Srl - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
+            Cap.sociale € 60.000,00 i.v. REA GE-494327 RUI: B000605520 P.IVA 02547920997 Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997. </p>
         </div>
     </footer>
 

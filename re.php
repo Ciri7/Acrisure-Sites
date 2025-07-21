@@ -1825,7 +1825,7 @@
             <div class="services-container">
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
+                        <img src="/img/trattati.jpg" alt="Customer Service">
                     </div>
                     <div class="service-content">
                         <h3>TRATTATI</h3>
@@ -1842,7 +1842,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/scrivania legno.jpg" alt="Fleet Management">
+                        <img src="/img/cat.jpeg" alt="Fleet Management">
                     </div>
                     <div class="service-content">
                         <h3>MODELIZZAZIONE CATASTROFALE</h3>
@@ -1857,7 +1857,7 @@
                 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare">
+                        <img src="/img/gest_tec.jpeg" alt="TPA Motor & Welfare">
                     </div>
                     <div class="service-content">
                         <h3>GESTIONE TECNICA</h3>
@@ -1872,7 +1872,7 @@
                 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
+                        <img src="/img/gest_contrat.webp" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
                         <h3>GESTIONE CONTRATTUALE</h3>
@@ -1887,7 +1887,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/motor4.jpg" alt="Motor">
+                        <img src="/img/gest_amm.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
                         <h3>GESTIONE AMMINISTRATIVA</h3>
@@ -1899,23 +1899,6 @@
                         <!-- <a href="#motor-modal" class="service-link discover-more" data-modal="motor">Scopri di più <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
-
-                <!-- <div class="service-card">
-                    <div class="service-image">
-                        <img src="/img/legno.avif" alt="Welfare 360°">
-                    </div>
-                    <div class="service-content">
-                        <h3>WELFARE 360°</h3>
-                        <ul class="service-features">
-                            <li>Supporto nella definizione e formalizzazione di piani welfare</li>
-                            <li>Definizione ed implementazione di piani di comunicazione e formazione</li>
-                            <li>Creazione dell'offerta di servizi welfare personalizzati</li>
-                            <li>Piattaforma integrata per la gestione dei servizi</li>
-                            <li>Data analytics</li>
-                        </ul>
-                        <a href="#welfare-modal" class="service-link discover-more" data-modal="welfare">Scopri di più <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div> -->
             </div>
             
             <button class="services-nav next" aria-label="Next service">

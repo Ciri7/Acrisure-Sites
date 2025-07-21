@@ -1813,7 +1813,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            ###
+                            Servizi assicurativi pensati per proteggere le persone, i loro beni e il loro futuro
                         </p>
                         <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1829,7 +1829,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            ###
+                            Supporto rapido e competente per assisterti in ogni fase del sinistro, dalla denuncia alla risoluzione
                         </p>
                         <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -1848,7 +1848,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            #
+                            Soluzioni assicurative su misura per tutelare l’attività, i collaboratori e il patrimonio aziendale
                         </p>
                         <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>

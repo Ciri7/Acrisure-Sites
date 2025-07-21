@@ -1803,63 +1803,6 @@
                     <h3 class="leadership-name">Andrea Barbieri</h3>
                     <p class="leadership-desc">Account Manager</p>
                 </div>
-                
-                <!-- Terza riga -->
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">Alessandra Sardara</h3>
-                    <p class="leadership-desc">Responsabile Amministrativa e cdg</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">Francesco Norcia</h3>
-                    <p class="leadership-desc">Welfare</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">Alberto Cuccureddu</h3>
-                    <p class="leadership-desc">Flexible Benefits</p>
-                </div> -->
-
-                <!-- Quarta riga -->
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">Sara Sandroni</h3>
-                    <p class="leadership-desc">Impact manager ( benefit corporation)</p>
-                </div> -->
-                
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agriservices" class="leadership-logo">
-                    <h3 class="leadership-name">Carlotta Piras</h3>
-                    <p class="leadership-desc">Customer Service</p>
-                </div> -->
-                
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">Veronica Dettori</h3>
-                    <p class="leadership-desc">Commercial  Properties & Casualty</p>
-                </div> -->
-
-                <!-- Quinta riga -->
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Alta Broker" class="leadership-logo">
-                    <h3 class="leadership-name">Maria Grazia Satta</h3>
-                    <p class="leadership-desc">Claims Management</p>
-                </div> -->
-
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">Michela Lazzari</h3>
-                    <p class="leadership-desc">Training, POG & Agreements</p>
-                </div> -->
-
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Agricolture" class="leadership-logo">
-                    <h3 class="leadership-name">Corrado Soro</h3>
-                    <p class="leadership-desc">Motors</p>
-                </div> -->
             </div><br>
         </div>
         <br><br><br>
@@ -1877,7 +1820,7 @@
             <div class="services-container">
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/cuffie e scrivania.jpg" alt="Customer Service">
+                        <img src="/img/claims.jpg" alt="Customer Service">
                     </div>
                     <div class="service-content">
                         <h3>CLAIMS & SERVICES</h3>
@@ -1893,7 +1836,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/scrivania legno.jpg" alt="Fleet Management">
+                        <img src="/img/Gestione Sinistri.jpg" alt="Fleet Management">
                     </div>
                     <div class="service-content">
                         <h3>GESTIONE SINISTRI</h3>
@@ -1906,7 +1849,7 @@
                 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare">
+                        <img src="/img/automotive_sol.jpg" alt="TPA Motor & Welfare">
                     </div>
                     <div class="service-content">
                         <h3>AUTOMOTIVE SOLUTION</h3>
@@ -1921,7 +1864,7 @@
                 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/fleet.jpg" alt="Legal, Compliance & HR">
+                        <img src="/img/Welfare IT.jpg" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
                         <h3>WELFARE</h3>
@@ -1941,7 +1884,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/motor4.jpg" alt="Motor">
+                        <img src="/img/enti.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
                         <h3>ENTI PUBBLICI</h3>
@@ -1956,7 +1899,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/legno.avif" alt="Welfare 360°">
+                        <img src="/img/prop.jpg" alt="Welfare 360°">
                     </div>
                     <div class="service-content">
                         <h3>PROPERTY & LIABILITY</h3>
@@ -1973,7 +1916,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/legno.avif" alt="Welfare 360°">
+                        <img src="/img/Riass.jpg" alt="Welfare 360°">
                     </div>
                     <div class="service-content">
                         <h3>RIASSICURAZIONE</h3>
@@ -2807,7 +2750,7 @@
                     scrollPosition = servicesContainer.scrollWidth - servicesContainer.clientWidth;
                 } else {
                     // Altrimenti vai all'inizio o alla card precedente
-                    scrollPosition = Math.max(0, scrollPosition - (cardWidth * 4));
+                    scrollPosition = Math.max(0, scrollPosition - (cardWidth * 2));
                 }
         
                 servicesContainer.scrollTo({
@@ -2824,7 +2767,7 @@
                     scrollPosition = 0;
                 } else {
                     // Altrimenti vai alla fine o alla prossima card
-                    scrollPosition = Math.min(maxScroll, scrollPosition + (cardWidth * 4));
+                    scrollPosition = Math.min(maxScroll, scrollPosition + (cardWidth * 2));
                 }
         
                 servicesContainer.scrollTo({

@@ -1829,7 +1829,7 @@
                             <div style="width: 60px; height: 4px; background-color: var(--accent); margin-bottom: 1.5rem;"></div>
                         </div>
                         <p style="color: #555; line-height: 1.6; font-size: 1.1rem;">
-                            Supporto rapido e competente per assisterti in ogni fase del sinistro, dalla denuncia alla risoluzione
+                            Supporto rapido e competente per assisterti in ogni fase del sinistro
                         </p>
                         <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a>
                     </div>

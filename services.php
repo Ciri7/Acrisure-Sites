@@ -1159,6 +1159,21 @@
         .footer-links li {
             margin-bottom: 0.8rem;
             line-height: 1.6;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-links li a {
+            color: var(--secondary);
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+            padding: 2px 0;
+            position: relative;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: calc(100% - 30px);
         }
         
         .footer-links a {
@@ -1191,6 +1206,7 @@
             text-align: center;
             margin-right: 9px;
             color: var(--accent);
+            flex-shrink: 0;
         }
 
         .social-links {
@@ -2453,19 +2469,19 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contatti</h3>
-                <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
-                </ul>
-                
-                <div class="social-links">
-                    <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
+            <h3><i class="fas fa-headset"></i>Contatti</h3>
+            <ul class="footer-links">
+                <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
+                <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
+            </ul>
+            
+            <div class="social-links">
+                <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
+        </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>

@@ -1148,7 +1148,7 @@
 
         /* Footer migliorato */
         .footer-column h3 i {
-            margin-right: 13px;
+            margin-right: 14px;
             color: var(--accent);
         }
 

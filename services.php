@@ -1148,7 +1148,7 @@
 
         /* Footer migliorato */
         .footer-column h3 i {
-            margin-right: 20px;
+            margin-right: 10px;
             color: var(--accent);
         }
 
@@ -1167,7 +1167,7 @@
             transition: all 0.3s;
             font-size: 1rem;
             display: inline-block;
-            padding: 2px 0;
+            padding: 1px 0;
             position: relative;
         }
         

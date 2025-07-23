@@ -1148,7 +1148,7 @@
 
         /* Footer migliorato */
         .footer-column h3 i {
-            margin-right: 10px;
+            margin-right: 12px;
             color: var(--accent);
         }
 
@@ -1157,6 +1157,7 @@
         }
         
         .footer-links li {
+            white-space: nowrap; /* Aggiungi questa riga */
             margin-bottom: 0.8rem;
             line-height: 1.6;
         }
@@ -1167,7 +1168,7 @@
             transition: all 0.3s;
             font-size: 1rem;
             display: inline-block;
-            padding: 1px 0;
+            padding: 2px 0;
             position: relative;
         }
         

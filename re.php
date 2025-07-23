@@ -2423,11 +2423,11 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <div class="footer-badge">
+                <!-- <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div>
+                </div> -->
                 
                 <div class="legal-links">
                     <a href="/policy/policyRe.php">Privacy Policy</a>

@@ -1122,7 +1122,7 @@
         
         .footer-content {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 3rem;
             max-width: 1400px;
             margin: 0 auto;
@@ -1167,7 +1167,7 @@
             transition: all 0.3s;
             font-size: 1rem;
             display: inline-block;
-            padding: 1.5px 0;
+            padding: 2px 0;
             position: relative;
         }
         

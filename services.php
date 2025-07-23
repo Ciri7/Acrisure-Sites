@@ -1122,7 +1122,7 @@
         
         .footer-content {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 3rem;
             max-width: 1400px;
             margin: 0 auto;
@@ -1148,7 +1148,7 @@
 
         /* Footer migliorato */
         .footer-column h3 i {
-            margin-right: 12px;
+            margin-right: 13px;
             color: var(--accent);
         }
 

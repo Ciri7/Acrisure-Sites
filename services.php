@@ -2401,14 +2401,12 @@
                     <label for="service">Servizio di interesse <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Claim & Services</option>
-                        <option value="gestione_sinistri">Gestioni Sinistri</option>
-                        <option value="automotive_solution">Automotive Solution</option>
-                        <option value="welfare">Welfare</option>
-                        <option value="enti_pubblici">Enti Pubblici</option>
-                        <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Riassicurazione</option>
-                        <option value="reclami">Reclami</option>
+                        <option value="customerService">Customer Service</option>
+                        <option value="legalCompliance&HR">Legal, Compliance & HR</option>
+                        <option value="TPAmotor&Welfare">TPA Motor & Welfare</option>
+                        <option value="fleetManagement">Fleet Management</option>
+                        <option value="motor">Motor</option>
+                        <option value="welfare">Welfare 360°</option>
                         <option value="altro">Altro</option>
                     </select>
                 </div><br>
@@ -2459,8 +2457,8 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
                 </ul>
                 
                 <div class="social-links">

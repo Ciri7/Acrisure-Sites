@@ -2305,6 +2305,7 @@
                         <option value="soluzioneProf&aziende">Professionisti & aziende</option>
                         <option value="solPrivati">Soluzioni per privati</option>
                         <option value="gestioneWip">Gestione sinistri</option>
+                        <option value="altro">Altro</option>
                     </select>
                 </div><br>
                 

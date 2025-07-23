@@ -201,7 +201,7 @@
         
         /* Hero Section */
         .legal-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/serv9.avif');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hr3.jpg');
             background-size: cover;
             background-position: top;
             background-attachment: fixed;

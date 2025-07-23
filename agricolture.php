@@ -1876,6 +1876,7 @@
                         <option value="">-- Seleziona un servizio --</option>
                         <option value="consulenza">Consulenza</option>
                         <option value="sottoscrizione_di_polizze">Sottoscrizione di polizze</option>
+                        <option value="altro">Altro</option>
                     </select>
                 </div><br>
                 

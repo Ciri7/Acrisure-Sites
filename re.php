@@ -2352,15 +2352,12 @@
                     <label for="service">Servizio di interesse <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Trattati</option>
-                        <option value="gestione_sinistri">Modelizzazione Catastrofale</option>
-                        <option value="automotive_solution">Gestione Tecnica</option>
-                        <option value="welfare">Gestione Contrattuale</option>
-                        <option value="enti_pubblici">Gestione Amministrattiva</option>
-                        <!-- <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Riassicurazione</option>
-                        <option value="reclami">Reclami</option>
-                        <option value="altro">Altro</option> -->
+                        <option value="trattati">Trattati</option>
+                        <option value="mode_catastrofale">Modelizzazione Catastrofale</option>
+                        <option value="gest_tecnica">Gestione Tecnica</option>
+                        <option value="gest_contrattuale">Gestione Contrattuale</option>
+                        <option value="gest_amministrativa">Gestione Amministrattiva</option>
+                        <option value="altro">Altro</option>
                     </select>
                 </div><br>
                 

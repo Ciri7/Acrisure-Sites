@@ -2494,11 +2494,7 @@
                         <option value="gestione_sinistri">Gestione coperture assicurative</option>
                         <option value="automotive_solution">Apertura e gestione dei sinistri</option>
                         <option value="welfare">Liquidazione sinistri</option>
-                        <!-- <option value="enti_pubblici">Enti Pubblici</option>
-                        <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Riassicurazione</option>
-                        <option value="reclami">Reclami</option>
-                        <option value="altro">Altro</option> -->
+                        <option value="altro">Altro</option>
                     </select>
                 </div><br>
                 

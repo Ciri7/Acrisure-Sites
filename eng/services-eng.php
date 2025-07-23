@@ -194,7 +194,7 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/serv9.avif');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hr3.jpg');
             background-size: cover;
             background-position: top;
             background-attachment: fixed;
@@ -1919,7 +1919,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/motor4.jpg" alt="Motor">
+                        <img src="/img/motor5.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
                         <h3>MOTOR</h3>
@@ -2228,7 +2228,7 @@
     <div class="modal-content">
         <button class="close-modal">&times;</button>
         <div class="modal-header">
-            <img src="/img/motor4.jpg" alt="Motor" class="modal-header-image">
+            <img src="/img/motor5.jpg" alt="Motor" class="modal-header-image">
             <div class="modal-header-content">
                 <h2 class="modal-title">MOTOR</h2>
                 <p class="modal-subtitle">Specialized solutions for the management of RCA policies and related services</p>
@@ -2401,14 +2401,12 @@
                     <label for="service">Service of interest <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Service of interest --</option>
-                        <option value="claim&services">Claim & Services</option>
-                        <option value="gestione_sinistri">Claims Management</option>
-                        <option value="automotive_solution">Automotive Solution</option>
-                        <option value="welfare">Welfare</option>
-                        <option value="enti_pubblici">Public Entities</option>
-                        <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Reinsurance</option>
-                        <option value="reclami">Complaints</option>
+                        <option value="customerService">Customer Service</option>
+                        <option value="legalCompliance&HR">Legal, Compliance & HR</option>
+                        <option value="TPAmotor&Welfare">TPA Motor & Welfare</option>
+                        <option value="fleetManagement">Fleet Management</option>
+                        <option value="motor">Motor</option>
+                        <option value="welfare">Welfare 360°</option>
                         <option value="altro">Others</option>
                     </select>
                 </div><br>
@@ -2501,9 +2499,9 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
-            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
+            <p>Acrisure Services - Sole shareholder company subject to the direction and coordination of Acrisure S.r.l. -
+            Share capital: €10,000.00 fully paid - Member of the Acrisure VAT Group - VAT No. 13147890969 -
+            Tax Code and Company Register No. 02888100902 - Registered with the Sassari Chamber of Commerce, REA No. SS-212778</p>
         </div>
     </footer>
 

@@ -831,14 +831,14 @@
         <div class="privacy-content">
             <div class="privacy-section">
                 <h2>Privacy Policy</h2>
-                <p>This Privacy Policy describes how Acrisure Italy S.r.l. ("Acrisure Italy") collects, uses, stores and protects the personal information of users ("User/s") who access and use the website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site").</p>
+                <p>This Privacy Policy describes how Acrisure Italia S.r.l. ("Acrisure Italia") collects, uses, stores and protects the personal information of users ("User/s") who access and use the website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site").</p>
                 <p>This Policy is provided pursuant to Article 13 of Regulation (EU) 2016/679 ("GDPR") and Legislative Decree 196/2003 ("Privacy Code") as amended by Legislative Decree 101/2018.</p>
             </div>
 
             <div class="privacy-section">
                 <h2>Data Controller</h2>
                 <p>The Data Controller is:</p>
-                <p><strong>Acrisure Italy S.r.l.</strong><br>
+                <p><strong>Acrisure Italia S.r.l.</strong><br>
                 3 Giuseppe Mazzini Street - 07100 Sassari<br>
                 VAT No.: 13147890969<br>
                 REA: MI-2616058<br>
@@ -902,7 +902,7 @@
                 <h2>Communication and disclosure of data</h2>
                 <p>Personal data may be communicated to:</p>
                 <ul>
-                    <li>Subjects internal to the Acrisure Italy organization, authorized to process.</li>
+                    <li>Subjects internal to the Acrisure Italia organization, authorized to process.</li>
                     <li>External subjects appointed as data processors (e.g. IT service providers, consultants).</li>
                     <li>Judicial or administrative authorities, in cases provided for by law.</li>
                 </ul>
@@ -911,12 +911,12 @@
 
             <div class="privacy-section">
                 <h2>Transfer of data outside the EU</h2>
-                <p>Some third-party services used by the Site may involve the transfer of data to countries outside the EU. In such cases, Acrisure Italy adopts the guarantees provided by the GDPR (standard contractual clauses, adequacy decisions).</p>
+                <p>Some third-party services used by the Site may involve the transfer of data to countries outside the EU. In such cases, Acrisure Italia adopts the guarantees provided by the GDPR (standard contractual clauses, adequacy decisions).</p>
             </div>
 
             <div class="privacy-section">
                 <h2>Changes to the privacy policy</h2>
-                <p>Acrisure Italy reserves the right to make changes to this Policy. Updated versions will be published on the Site with the revision date. The User is invited to periodically consult this page.</p>
+                <p>Acrisure Italia reserves the right to make changes to this Policy. Updated versions will be published on the Site with the revision date. The User is invited to periodically consult this page.</p>
                 <p><strong>Last update:</strong> March 31, 2024</p>
             </div>
         </div>
@@ -928,9 +928,9 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italy</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italia</li>
                     <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italy Logo"></li>
+                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italia Logo"></li>
                 </ul>
             </div>
 

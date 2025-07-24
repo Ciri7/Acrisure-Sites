@@ -1002,7 +1002,7 @@
                 <div class="news-content">
                     <span class="news-date">February 28, 2024</span>
                     <h3>Insurance Innovation Award 2024</h3>
-                    <p class="news-excerpt">Acrisure Italy wins the prestigious award for its advanced digital risk management platform.</p>
+                    <p class="news-excerpt">Acrisure Italia wins the prestigious award for its advanced digital risk management platform.</p>
                     <a href="news-article.php?id=2" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
@@ -1045,7 +1045,7 @@
                 <img src="/img/news6.jpg" alt="Acrisure annual event" class="news-image">
                 <div class="news-content">
                     <span class="news-date">October 15, 2023</span>
-                    <h3>Success of the Acrisure Italy annual event</h3>
+                    <h3>Success of the Acrisure Italia annual event</h3>
                     <p class="news-excerpt">Over 200 participants at the event that presented the news for 2024 and industry trends.</p>
                     <a href="news-article.php?id=6" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -1068,10 +1068,10 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Head Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italy</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italia</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italy Logo"></li>
+                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italia Logo"></li>
                 </ul>
             </div>
 

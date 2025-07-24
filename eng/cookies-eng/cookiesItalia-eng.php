@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Re Italia - Cookie Policy</title>
+    <title>Acrisure Italia - Cookie Policy</title>
     <meta name="description" content="Cookie Policy di Acrisure Italia. Scopri come utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web.">
     <link rel="canonical" href="https://www.acrisureitalia.com/cookie-policy" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -196,9 +196,9 @@
 
         /* Hero Section */
         .policy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/re2.avif');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: top;
             height: 50vh;
             min-height: 400px;
             display: flex;
@@ -651,8 +651,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/eng/re-eng.php">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Services Logo" class="logo">
+                <a href="/eng/italia-eng.php">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -662,16 +662,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/eng/re-eng.php#news" class="nav-link">News</a></li>
-                    <li><a href="/eng/re-eng.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/eng/re-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
-                    <li><a href="#" class="nav-link">Work with us</a></li>
+                    <li><a href="#" class="nav-link">Careers</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn">IT</a></li>
+                    <li><a href="/cookies/cookiesItalia.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -687,24 +687,24 @@
     <div class="policy-container">
         <div class="policy-section">
             <h2>Introduction</h2>
-            <p>This Cookie Policy explains how Acrisure Italia ("we", "our" or "us") uses cookies and similar technologies when you visit our website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site"). We inform you about what cookies are, how we use them and how you can manage them.</p>
+            <p>This Cookie Policy explains how Acrisure Italia ("we", "our" or "us") uses cookies and similar technologies when you visit our website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site"). We inform you about what cookies are, how we use them, and how you can manage them.</p>
             <p>By using our Site, you consent to the use of cookies in accordance with this Cookie Policy. If you do not accept our use of cookies, please disable them by following the instructions in this policy or do not use our Site.</p>
         </div>
 
         <div class="policy-section">
             <h2>What are cookies?</h2>
-            <p>Cookies are small text files that websites visited by the user send and record on their computer or mobile device, to be then retransmitted to the same sites on subsequent visits. Thanks to cookies, a website remembers the user's actions and preferences (such as login data, language, font size, other display settings, etc.) so that they do not have to be indicated again when the user returns to visit said site or navigates from one page to another of the same.</p>
-            <p>Cookies are used to perform computer authentication, session monitoring and storage of information regarding the activities of users who access a site and may also contain a unique identification code that allows tracking the user's navigation within the site itself for statistical or advertising purposes.</p>
+            <p>Cookies are small text files that websites visited by the user send and record on their computer or mobile device, to be then retransmitted to the same sites on subsequent visits. Thanks to cookies, a website remembers the user's actions and preferences (such as login data, language, font size, other display settings, etc.) so they don't have to be indicated again when the user returns to visit said site or navigates from one page to another within it.</p>
+            <p>Cookies are used to perform computer authentication, session monitoring and storage of information regarding the activities of users accessing a site and may also contain a unique identification code that allows tracking the user's navigation within the site itself for statistical or advertising purposes.</p>
         </div>
 
         <div class="policy-section">
             <h2>Types of cookies we use</h2>
-            <p>Our Site uses different types of cookies, each with a specific function:</p>
+            <p>Our Site uses several types of cookies, each with a specific function:</p>
             
             <h3>1. Technical cookies</h3>
-            <p>These cookies are essential for the proper functioning of our Site and to allow you to browse and use its features. Without these cookies, some Site features may not be available.</p>
+            <p>These cookies are essential for the proper functioning of our Site and to allow you to navigate and use its features. Without these cookies, some Site functionalities might not be available.</p>
             <ul>
-                <li><strong>Session cookies</strong>: are deleted when you close the browser and are necessary for the operation of the site (e.g. maintaining the browsing session).</li>
+                <li><strong>Session cookies</strong>: are deleted when you close the browser and are necessary for the site's operation (e.g. maintaining the navigation session).</li>
                 <li><strong>Functionality cookies</strong>: remember your choices (such as language or region) to improve your experience.</li>
             </ul>
             
@@ -734,19 +734,19 @@
                     <tr>
                         <td>PHPSESSID</td>
                         <td>Technical</td>
-                        <td>Maintains the user's session state during navigation</td>
+                        <td>Maintains user session state during navigation</td>
                         <td>Until browser closes</td>
                     </tr>
                     <tr>
                         <td>cookie_consent</td>
                         <td>Technical</td>
-                        <td>Stores the user's choice regarding cookie acceptance</td>
+                        <td>Stores user's choice regarding cookie acceptance</td>
                         <td>1 year</td>
                     </tr>
                     <tr>
                         <td>_ga</td>
                         <td>Analytical (Google Analytics)</td>
-                        <td>Distinguishes unique users by assigning a randomly generated number as a client identifier</td>
+                        <td>Distinguishes unique users by assigning a randomly generated number as client identifier</td>
                         <td>2 years</td>
                     </tr>
                     <tr>
@@ -758,7 +758,7 @@
                     <tr>
                         <td>_gat</td>
                         <td>Analytical (Google Analytics)</td>
-                        <td>Used to limit request frequency</td>
+                        <td>Used to limit request rate</td>
                         <td>1 minute</td>
                     </tr>
                 </tbody>
@@ -771,7 +771,7 @@
             <ul>
                 <li>View cookies on your device and delete them</li>
                 <li>Block third-party cookies</li>
-                <li>Block cookies from certain sites</li>
+                <li>Block cookies from specific sites</li>
                 <li>Block all cookies from being set</li>
                 <li>Delete all cookies when you close the browser</li>
             </ul>
@@ -782,8 +782,8 @@
             <ul>
                 <li><a href="https://support.google.com/chrome/answer/95647" target="_blank">Google Chrome</a></li>
                 <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank">Mozilla Firefox</a></li>
-                <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Internet Explorer</a></li>
-                <li><a href="https://support.apple.com/en-us/guide/safari/sfri11471/mac" target="_blank">Safari</a></li>
+                <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank">Microsoft Edge</a></li>
+                <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank">Safari</a></li>
                 <li><a href="https://help.opera.com/en/latest/web-preferences/#cookies" target="_blank">Opera</a></li>
             </ul>
             
@@ -792,8 +792,8 @@
 
         <div class="policy-section">
             <h2>Changes to the Cookie Policy</h2>
-            <p>We reserve the right to make changes to this Cookie Policy at any time. All changes will be posted on this page and, if significant, will be communicated through a clearly visible notice on our Site.</p>
-            <p>We encourage you to periodically review this page to be informed of any changes.</p>
+            <p>We reserve the right to make changes to this Cookie Policy at any time. All changes will be published on this page and, if significant, will be communicated through a clearly visible notice on our Site.</p>
+            <p>We invite you to periodically check this page to be informed about any changes.</p>
         </div>
 
         <div class="policy-section">
@@ -812,20 +812,24 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Head Office</h3>
+                <h3><i class="fas fa-building"></i> Headquarters</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italia</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italia Logo"></li>
+                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt="Acrisure Italia Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
                 <ul class="footer-links">
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Piazza della Vittoria - 16121</li>
+                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Granda Square - 38023</li>
                 </ul>
             </div>
             
@@ -842,6 +846,15 @@
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+
+                <br>
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation"></i> Complaints</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
+                    </ul>
+                </div>
             </div>
             
             <div class="footer-column">
@@ -851,19 +864,25 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
+                <div class="footer-badge">
+                    <img src="/img/BV.jpg" class="logo-footer" alt="BV Logo"> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt="ACCREDIA Mark"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="AIBA Logo"></a>
+                </div>
+                
                 <div class="legal-links">
-                    <a href="/policy/policyRe.php">Privacy Policy</a>
+                    <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="#header">Cookie Policy</a>
-                    <a href="/legal&comp/legalRe.php">Legal & Compliance</a>
+                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
         <div class="footer-legal-notice">
-            <p>Acrisure Re Italia S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital €120,000.00 i.v- RUI: B000729790. Company participating in the Acrisure VAT Group VAT 13147890969- <br>
-            Tax Code and no. registered in the Sassari Companies Register no.02942110905 REA SS-217191</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital €200,000.00 i.v.-RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
+            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
         </div>
     </footer>
 

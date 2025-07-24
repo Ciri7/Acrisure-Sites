@@ -4,23 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Italia - News</title>
-    <meta name="description" content="Tutte le ultime novità e aggiornamenti da Acrisure Italia. Scopri le nostre partnership, premi e iniziative nel settore assicurativo.">
-    <meta name="keywords" content="news Acrisure, aggiornamenti assicurazioni, novità broker assicurativo, eventi Acrisure Italia">
-    <link rel="canonical" href="https://www.acrisureservices.it/news.php" />
-    <!-- Schema markup per organizzazione -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Acrisure Services",
-      "url": "https://www.acrisureservices.it",
-      "logo": "https://www.acrisureservices.it/img/Acrisure-Services-Esteso.jpg",
-      "sameAs": [
-        "https://www.linkedin.com/company/acrisure-services"
-      ]
-    }
-    </script>
+    <title>Acrisure Italia - Legal & Compliance</title>
+    <meta name="description" content="Informazioni su legalità e conformità di Acrisure Italia. Scopri il nostro impegno per la trasparenza e il rispetto delle normative.">
+    <meta name="keywords" content="legal, compliance, normativa, regolamentazione, Acrisure Italia">
+    <link rel="canonical" href="https://www.acrisureitalia.com/legal-e-compliance" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -49,16 +36,27 @@
             background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/img/body.avif');
             background-size: cover;
             background-position: center;
-            background-attachment: fixed;
-            opacity: 0;
-            animation: fadeIn 0.5s ease-out forwards;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            background-attachment: fixed; 
         }
 
+        /* Page transition overlay */
+        .page-transition {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: 9999;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.4s ease;
+        }
+
+        .page-transition.active {
+            opacity: 1;
+        }
+        
         /* Header */
         header {
             background-color: white;
@@ -200,10 +198,10 @@
         .language-btn:hover {
          color: var(--accent);
         }
-
+        
         /* Hero Section */
-        .news-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/777.jpg');
+        .legal-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -213,335 +211,171 @@
             align-items: center;
             padding-top: 80px;
             color: white;
-            text-align: center;
+            margin-bottom: 4rem;
         }
         
-        .news-hero-content {
+        .hero-content {
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 5%;
             width: 100%;
         }
         
-        .news-hero h1 {
+        .legal-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
+            animation: fadeIn 0.8s ease;
         }
         
-        .breadcrumb {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 2rem;
-            font-size: 1rem;
+        .legal-hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin-bottom: 2.5rem;
             opacity: 0.9;
+            animation: fadeIn 0.8s ease 0.3s forwards;
+            opacity: 0;
         }
         
-        .breadcrumb a {
+        /* Section Styling */
+        .section {
+            padding: 6rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+            color: var(--secondary);
+            position: relative;
+            font-size: 2.5rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background-color: var(--accent);
+            border-radius: 2px;
+        }
+        
+        /* Legal Content */
+        .legal-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+        
+        .legal-section {
+            margin-bottom: 3rem;
+        }
+        
+        .legal-section h2 {
+            color: var(--secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            position: relative;
+            padding-bottom: 0.8rem;
+        }
+        
+        .legal-section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background-color: var(--accent);
+        }
+        
+        .legal-section h3 {
+            color: var(--secondary);
+            margin: 2rem 0 1rem;
+            font-size: 1.4rem;
+        }
+        
+        .legal-section p, 
+        .legal-section ul {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
+        }
+        
+        .legal-section ul {
+            padding-left: 2rem;
+        }
+        
+        .legal-section li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .legal-section strong {
+            color: var(--secondary);
+            font-weight: 600;
+        }
+        
+        .legal-section a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .breadcrumb a:hover {
-            color: white;
+        .legal-section a:hover {
+            color: var(--primary);
             text-decoration: underline;
         }
         
-        .breadcrumb span {
-            margin: 0 0.5rem;
-            color: rgba(255, 255, 255, 0.7);
-        }
-        
-        /* News Grid Section */
-        .news-grid-section {
-            padding: 6rem 5%;
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-        
-        .news-grid {
+        /* Compliance Boxes */
+        .compliance-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 2.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
             margin-top: 3rem;
         }
         
-        .news-card {
+        .compliance-box {
             background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-            border: 1px solid #eee;
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeInUp 0.5s ease-out forwards;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .news-card:nth-child(1) { animation-delay: 0.1s; }
-        .news-card:nth-child(2) { animation-delay: 0.2s; }
-        .news-card:nth-child(3) { animation-delay: 0.3s; }
-        .news-card:nth-child(4) { animation-delay: 0.4s; }
-        .news-card:nth-child(5) { animation-delay: 0.5s; }
-        .news-card:nth-child(6) { animation-delay: 0.6s; }
-        
-        .news-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-            border-color: var(--accent);
-        }
-        
-        .news-image {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .news-card:hover .news-image {
-            transform: scale(1.03);
-        }
-        
-        .news-content {
+            border-radius: 8px;
             padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 4px solid var(--accent);
         }
         
-        .news-date {
-            font-size: 0.9rem;
-            color: var(--accent);
-            margin-bottom: 0.8rem;
-            display: block;
+        .compliance-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
         
-        .news-card h3 {
+        .compliance-box h3 {
             color: var(--secondary);
             margin-bottom: 1rem;
-            font-size: 1.4rem;
-            line-height: 1.4;
-            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
         }
-
-        .news-card:hover h3 {
+        
+        .compliance-box h3 i {
+            margin-right: 10px;
             color: var(--accent);
         }
         
-        .news-excerpt {
-            color: #555;
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-        
-        .news-link {
-            display: inline-flex;
-            align-items: center;
-            color: var(--accent);
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-        
-        .news-link i {
-            margin-left: 0.5rem;
-            transition: transform 0.3s;
-        }
-        
-        .news-link:hover {
-            color: var(--primary);
-        }
-        
-        .news-link:hover i {
-            transform: translateX(5px);
-        }
-        
-        /* Pagination */
-        .pagination {
-            display: flex;
-            justify-content: center;
-            margin-top: 4rem;
-            gap: 0.5rem;
-        }
-        
-        .page-link {
-            display: inline-block;
-            padding: 0.8rem 1.2rem;
-            background-color: white;
-            color: var(--secondary);
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            text-decoration: none;
-            transition: all 0.3s;
-            font-weight: 600;
-        }
-        
-        .page-link:hover, .page-link.active {
-            background-color: var(--accent);
-            color: white;
-            border-color: var(--accent);
-        }
-        
-        /* Single News Article */
-        .news-article {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 6rem 5%;
-        }
-        
-        .article-header {
-            margin-bottom: 3rem;
-            text-align: center;
-        }
-        
-        .article-header .news-date {
-            font-size: 1rem;
-            margin-bottom: 1rem;
-        }
-        
-        .article-header h1 {
-            color: var(--secondary);
-            font-size: 2.5rem;
-            line-height: 1.3;
-            margin-bottom: 1.5rem;
-        }
-        
-        .article-meta {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-            color: #666;
-            font-size: 0.9rem;
-        }
-        
-        .article-meta .author {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
-        .article-meta .author img {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        
-        .article-image {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 2rem;
-        }
-        
-        .article-content {
-            line-height: 1.8;
-            font-size: 1.1rem;
-            color: #333;
-        }
-        
-        .article-content p {
-            margin-bottom: 1.5rem;
-        }
-        
-        .article-content h2, .article-content h3 {
-            color: var(--secondary);
-            margin: 2rem 0 1rem;
-        }
-        
-        .article-content h2 {
-            font-size: 1.8rem;
-        }
-        
-        .article-content h3 {
-            font-size: 1.5rem;
-        }
-        
-        .article-content blockquote {
-            border-left: 4px solid var(--accent);
-            padding-left: 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: #555;
-        }
-        
-        .article-content img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-        }
-        
-        .article-footer {
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid #eee;
-        }
-        
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 2rem;
-        }
-        
-        .tag {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background-color: rgba(77, 143, 209, 0.1);
-            color: var(--accent);
-            border-radius: 20px;
-            font-size: 0.9rem;
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-        
-        .tag:hover {
-            background-color: var(--accent);
-            color: white;
-        }
-        
-        .back-to-news {
-            display: inline-flex;
-            align-items: center;
-            color: var(--accent);
-            font-weight: 600;
-            text-decoration: none;
-            margin-top: 2rem;
-        }
-        
-        .back-to-news i {
-            margin-right: 0.5rem;
-            transition: transform 0.3s;
-        }
-        
-        .back-to-news:hover i {
-            transform: translateX(-5px);
-        }
-        
-        /* Related News */
-        .related-news {
-            margin-top: 4rem;
-        }
-        
-        .related-news h2 {
-            color: var(--secondary);
-            margin-bottom: 2rem;
-            font-size: 1.8rem;
-            text-align: center;
-        }
-
         /* Footer */
         footer {
             background-color: white;
@@ -745,6 +579,27 @@
             transform: translateY(-2px);
         }
         
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
         /* Mobile Menu */
         .menu-toggle {
             display: none;
@@ -763,12 +618,12 @@
         
         /* Responsive */
         @media (max-width: 1024px) {
-            .news-hero h1 {
+            .legal-hero h1 {
                 font-size: 3rem;
             }
             
-            .news-grid {
-                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            .section-title {
+                font-size: 2.2rem;
             }
         }
         
@@ -814,21 +669,21 @@
                 display: none;
             }
             
-            .news-hero {
+            .legal-hero {
                 height: 40vh;
                 min-height: 300px;
             }
             
-            .news-hero h1 {
+            .legal-hero h1 {
                 font-size: 2.5rem;
             }
             
-            .article-header h1 {
-                font-size: 2rem;
+            .legal-hero p {
+                font-size: 1.1rem;
             }
             
-            .article-image {
-                height: 300px;
+            .legal-content {
+                padding: 2rem;
             }
             
             .menu-toggle.active span:nth-child(1) {
@@ -842,46 +697,67 @@
             .menu-toggle.active span:nth-child(3) {
                 transform: rotate(-45deg) translate(7px, -6px);
             }
+            
+            .cookie-banner {
+                flex-direction: column;
+                text-align: center;
+                padding: 1rem;
+            }
+            
+            .cookie-banner button {
+                margin: 1rem 0 0;
+                width: 100%;
+            }
 
-            .language-switcher {
-                margin-left: 0;
-                justify-content: center;
-                padding: 1rem 0;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .news-hero h1 {
-                font-size: 2rem;
-            }
-            
-            .news-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .article-header h1 {
-                font-size: 1.8rem;
-            }
-            
-            .article-image {
-                height: 250px;
-            }
-            
-            .pagination {
-                flex-wrap: wrap;
-            }
-            
             .footer-content {
                 grid-template-columns: 1fr;
             }
-            
+
             .footer-bottom {
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .legal-links {
                 justify-content: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .legal-hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 4rem 5%;
+            }
+            
+            .legal-content {
+                padding: 1.5rem;
+            }
+            
+            .legal-section h2 {
+                font-size: 1.5rem;
+            }
+            
+            .legal-section h3 {
+                font-size: 1.2rem;
+            }
+            
+            .legal-section p, 
+            .legal-section ul {
+                font-size: 1rem;
+            }
+
+            /* Mobile language switcher */
+            .language-switcher {
+                margin-left: 0;
+                justify-content: center;
+                padding: 1rem 0;
             }
         }
 
@@ -945,11 +821,14 @@
     </style>
 </head>
 <body>
+    <!-- Page transition overlay -->
+    <div class="page-transition"></div>
+
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/italia.php">
-                <img src="/img/Acrisure Italia.jpg" class="logo" alt=""></li>
+                <a href="/eng/italia-eng.php">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -959,139 +838,127 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/italia.php#news" class="nav-link">News</a></li>
-                    <li><a href="/italia.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/italia.php#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="#" class="nav-link">Careers</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a href="/legal&comp/legalItalia.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="news-hero">
-        <div class="news-hero-content">
-            <h1>News & Aggiornamenti</h1>
+    <section class="legal-hero">
+        <div class="hero-content">
+            <h1>Legal & Compliance</h1>
+            <p>Our commitment to transparency, regulatory compliance and stakeholder protection.</p>
         </div>
     </section>
 
-    <!-- News Grid Section -->
-    <section class="news-grid-section">
-        <div class="news-grid">
-            <!-- News Article 1 -->
-            <article class="news-card">
-                <img src="/img/news1.jpg" alt="Nuova partnership nel settore agricolo" class="news-image">
-                <div class="news-content">
-                    <span class="news-date">15 Marzo 2024</span>
-                    <h3>Nuova partnership nel settore agricolo</h3>
-                    <p class="news-excerpt">Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.</p>
-                    <a href="news-article.php?id=1" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+    <section class="section">
+        <div class="legal-content">
+            <div class="legal-section">
+                <h2>Governance and Compliance</h2>
+                <p>Acrisure Italia operates in full compliance with current regulations, adopting the highest standards of governance and compliance. Our approach is based on transparency, integrity, and accountability, ensuring compliance with all legal and regulatory provisions applicable to the insurance sector.</p>
+                
+                <div class="compliance-grid">
+                    <div class="compliance-box">
+                        <h3><i class="fas fa-balance-scale"></i> IVASS Regulations</h3>
+                        <p>We strictly comply with the provisions of IVASS (Institute for the Supervision of Insurance), guaranteeing maximum transparency in customer relations and proper management of insurance products.</p>
+                    </div>
+                    
+                    <div class="compliance-box">
+                        <h3><i class="fas fa-shield-alt"></i> Anti-Money Laundering</h3>
+                        <p>We have implemented a robust system for preventing money laundering and terrorist financing, in compliance with Legislative Decree 231/2007 and subsequent amendments.</p>
+                    </div>
+                    
+                    <div class="compliance-box">
+                        <h3><i class="fas fa-user-shield"></i> Data Protection</h3>
+                        <p>Privacy and security of personal data are priorities. Processing occurs in compliance with GDPR (EU Regulation 2016/679) and the Italian Privacy Code.</p>
+                    </div>
+                    
+                    <div class="compliance-box">
+                        <h3><i class="fas fa-handshake"></i> Commercial Conduct</h3>
+                        <p>We adopt rigorous policies to ensure fairness, transparency, and integrity in all commercial activities, in line with IVASS provisions on insurance distribution.</p>
+                    </div>
                 </div>
-            </article>
-            
-            <!-- News Article 2 -->
-            <article class="news-card">
-                <img src="/img/news2.jpg" alt="Premio Innovazione Assicurativa 2024" class="news-image">
-                <div class="news-content">
-                    <span class="news-date">28 Febbraio 2024</span>
-                    <h3>Premio Innovazione Assicurativa 2024</h3>
-                    <p class="news-excerpt">Acrisure Italia si aggiudica il prestigioso premio per la sua piattaforma digitale di risk management avanzato.</p>
-                    <a href="news-article.php?id=2" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-            
-            <!-- News Article 3 -->
-            <article class="news-card">
-                <img src="/img/news3.jpg" alt="Espansione della rete italiana" class="news-image">
-                <div class="news-content">
-                    <span class="news-date">10 Gennaio 2024</span>
-                    <h3>Espansione della rete italiana</h3>
-                    <p class="news-excerpt">Apertura del nuovo ufficio di Torino, con un team specializzato in assicurazioni per il settore automotive.</p>
-                    <a href="news-article.php?id=3" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-            
-            <!-- News Article 4 -->
-            <article class="news-card">
-                <img src="/img/news4.jpg" alt="Nuovo servizio di risk management" class="news-image">
-                <div class="news-content">
-                    <span class="news-date">5 Dicembre 2023</span>
-                    <h3>Lancio del nuovo servizio di risk management</h3>
-                    <p class="news-excerpt">Acrisure lancia una piattaforma innovativa per la gestione del rischio per le PMI italiane.</p>
-                    <a href="news-article.php?id=4" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-            
-            <!-- News Article 5 -->
-            <article class="news-card">
-                <img src="/img/news5.jpg" alt="Partnership con università" class="news-image">
-                <div class="news-content">
-                    <span class="news-date">20 Novembre 2023</span>
-                    <h3>Partnership con l'Università di Sassari</h3>
-                    <p class="news-excerpt">Collaborazione con il dipartimento di Economia per la formazione di nuovi professionisti nel settore assicurativo.</p>
-                    <a href="news-article.php?id=5" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-            
-            <!-- News Article 6 -->
-            <article class="news-card">
-                <img src="/img/news6.jpg" alt="Evento annuale Acrisure" class="news-image">
-                <div class="news-content">
-                    <span class="news-date">15 Ottobre 2023</span>
-                    <h3>Successo dell'evento annuale Acrisure Italia</h3>
-                    <p class="news-excerpt">Oltre 200 partecipanti all'evento che ha presentato le novità per il 2024 e le tendenze del settore.</p>
-                    <a href="news-article.php?id=6" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-        </div>
-        
-        <!-- Pagination -->
-        <div class="pagination">
-            <a href="#" class="page-link"><i class="fas fa-chevron-left"></i></a>
-            <a href="#" class="page-link active">1</a>
-            <a href="#" class="page-link">2</a>
-            <a href="#" class="page-link">3</a>
-            <a href="#" class="page-link"><i class="fas fa-chevron-right"></i></a>
+            </div>
+
+            <div class="legal-section">
+                <h2>Supervisory Body under Legislative Decree 231/2001</h2>
+                <p>In compliance with Legislative Decree No. 231 of June 8, 2001, Acrisure Italia has established a Supervisory Body with the task of:</p>
+                <ul>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
+                    <li>Monitoring the adequacy and effectiveness of the Organizational Model</li>
+                    <li>Verifying compliance with adopted procedures and protocols</li>
+                    <li>Reporting any anomalies or violations</li>
+                    <li>Proposing updates to the Model in case of regulatory or organizational changes</li>
+                </ul>
+                <p>The Body operates with full autonomy and independence, ensuring constant updating of prevention measures.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>Model 231 and Code of Ethics</h2>
+                <p>Acrisure Italia has adopted an Organizational Model pursuant to Legislative Decree 231/2001, which includes:</p>
+                <ul>
+                    <li><a href="../../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Code of Ethics</a></li>
+                    <li>Analysis of crime risks</li>
+                    <li>Prevention protocols</li>
+                    <li>Disciplinary system</li>
+                    <li>Information flows and controls</li>
+                </ul>
+                <p>The Code of Ethics defines the principles and values that guide our activities, establishing behavioral standards for employees, administrators, and collaborators.</p>
+            </div>
+
+            <div class="legal-section">
+                <h2>Whistleblowing</h2>
+                <p>In compliance with whistleblower protection legislation (EU Directive 2019/1937 and Legislative Decree 24/2023), Acrisure Italia has established a dedicated channel for reporting violations or irregularities.</p>
+                <p>Reports can be submitted:</p>
+                <ul>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Whistleblowing Procedure</a></li>
+                    <li>Via registered mail to: Supervisory Body - Giuseppe Mazzini Street, 3 - 07100 Sassari</li>
+                </ul>
+                <p>We guarantee maximum confidentiality and protection against retaliation for whistleblowers acting in good faith.</p>
+            </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
+<!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Sede Legale</h3>
+                <h3><i class="fas fa-building"></i> Headquarters</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt="Acrisure Italia Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Piazza della Vittoria - 16121</li>
+                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Granda Square - 38023</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
@@ -1103,7 +970,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation"></i> Reclami</h3>
+                    <h3><i class="fas fa-exclamation"></i> Complaints</h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
@@ -1112,44 +979,34 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
                 <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
+                    <img src="/img/BV.jpg" class="logo-footer" alt="BV Logo"> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt="ACCREDIA Mark"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="AIBA Logo"></a>
                 </div>
                 
                 <div class="legal-links">
                     <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    <a href="#header">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
+            Share Capital € 200,000.00 fully paid - RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
+            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
         </div>
     </footer>
-
+    
     <script>
         // Page transition logic
         document.addEventListener('DOMContentLoaded', function() {

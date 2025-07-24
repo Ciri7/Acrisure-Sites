@@ -865,7 +865,7 @@
         <div class="legal-content">
             <div class="legal-section">
                 <h2>Governance and Compliance</h2>
-                <p>Acrisure Italy operates in full compliance with current regulations, adopting the highest standards of governance and compliance. Our approach is based on transparency, integrity, and accountability, ensuring compliance with all legal and regulatory provisions applicable to the insurance sector.</p>
+                <p>Acrisure Italia operates in full compliance with current regulations, adopting the highest standards of governance and compliance. Our approach is based on transparency, integrity, and accountability, ensuring compliance with all legal and regulatory provisions applicable to the insurance sector.</p>
                 
                 <div class="compliance-grid">
                     <div class="compliance-box">
@@ -892,7 +892,7 @@
 
             <div class="legal-section">
                 <h2>Supervisory Body under Legislative Decree 231/2001</h2>
-                <p>In compliance with Legislative Decree No. 231 of June 8, 2001, Acrisure Italy has established a Supervisory Body with the task of:</p>
+                <p>In compliance with Legislative Decree No. 231 of June 8, 2001, Acrisure Italia has established a Supervisory Body with the task of:</p>
                 <ul>
                     <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
                     <li>Monitoring the adequacy and effectiveness of the Organizational Model</li>
@@ -905,7 +905,7 @@
 
             <div class="legal-section">
                 <h2>Model 231 and Code of Ethics</h2>
-                <p>Acrisure Italy has adopted an Organizational Model pursuant to Legislative Decree 231/2001, which includes:</p>
+                <p>Acrisure Italia has adopted an Organizational Model pursuant to Legislative Decree 231/2001, which includes:</p>
                 <ul>
                     <li><a href="../../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Code of Ethics</a></li>
                     <li>Analysis of crime risks</li>
@@ -918,7 +918,7 @@
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
-                <p>In compliance with whistleblower protection legislation (EU Directive 2019/1937 and Legislative Decree 24/2023), Acrisure Italy has established a dedicated channel for reporting violations or irregularities.</p>
+                <p>In compliance with whistleblower protection legislation (EU Directive 2019/1937 and Legislative Decree 24/2023), Acrisure Italia has established a dedicated channel for reporting violations or irregularities.</p>
                 <p>Reports can be submitted:</p>
                 <ul>
                     <li><a href="../../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Whistleblowing Procedure</a></li>
@@ -935,10 +935,10 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Head Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italy</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italia</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italy Logo"></li>
+                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italia Logo"></li>
                 </ul>
             </div>
 

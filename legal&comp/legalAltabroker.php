@@ -894,6 +894,7 @@
                 <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
                 <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
                 <ul>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
                     <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
                     <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
                     <li>Segnalare eventuali anomalie o violazioni</li>
@@ -906,6 +907,7 @@
                 <h2>Modello 231 e Codice Etico</h2>
                 <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
                 <ul>
+                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
                     <li>Analisi dei rischi di reato</li>
                     <li>Protocolli di prevenzione</li>
                     <li>Sistema disciplinare</li>
@@ -919,31 +921,10 @@
                 <p>In conformità alla normativa sulla protezione dei segnalanti (Direttiva UE 2019/1937 e D.Lgs. 24/2023), Acrisure Italia ha istituito un canale dedicato per la segnalazione di violazioni o irregolarità.</p>
                 <p>Le segnalazioni possono essere inviate:</p>
                 <ul>
-                    <li>Tramite email a: <a href="mailto:whistleblowing@acrisure.it">whistleblowing@acrisure.it</a></li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Procedura Whistleblowing</a></li>
                     <li>Tramite posta raccomandata all'indirizzo: Organismo di Vigilanza - Via Giuseppe Mazzini, 3 - 07100 Sassari</li>
                 </ul>
                 <p>Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Documenti e Risorse</h2>
-                <p>Scarica i principali documenti relativi alla nostra governance e compliance:</p>
-                <ul>
-                    <li><a href="/documents/codice-etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li><a href="/documents/modello-231.pdf" target="_blank">Modello Organizzativo 231</a></li>
-                    <li><a href="/documents/procedura-whistleblowing.pdf" target="_blank">Procedura Whistleblowing</a></li>
-                    <li><a href="/documents/politica-antiriciclaggio.pdf" target="_blank">Politica Antiriciclaggio</a></li>
-                </ul>
-            </div>
-
-            <div class="legal-section">
-                <h2>Contatti Compliance</h2>
-                <p>Per informazioni o segnalazioni relative a legal e compliance:</p>
-                <p><strong>Responsabile Compliance</strong><br>
-                Email: <a href="mailto:compliance@acrisure.it">compliance@acrisure.it</a><br>
-                Telefono: 079/2016047 (interno 5)</p>
-                <p><strong>Organismo di Vigilanza</strong><br>
-                Email: <a href="mailto:organismo.vigilanza@acrisure.it">organismo.vigilanza@acrisure.it</a></p>
             </div>
         </div>
     </section>

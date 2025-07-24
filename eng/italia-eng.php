@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Re Italia</title>
+    <title>Acrisure Italia</title>
     <meta name="description" content="Acrisure Services offre servizi specializzati in attività operative e gestionali per le aziende, con competenze in risorse umane, legal e compliance, TPA e Customer Service.">
     <meta name="keywords" content="servizi assicurativi, gestione flotte, risorse umane, compliance, TPA, customer service, Acrisure">
     <link rel="canonical" href="https://www.acrisureservices.it" />
@@ -44,7 +44,7 @@
             color: var(--dark);
             background-color: white;
             scroll-behavior: smooth;
-            background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('img/body.avif');
+            background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/img/body.avif');
             background-size: cover;
             background-position: center;
             background-attachment: fixed; 
@@ -79,7 +79,7 @@
         }
 
         .logo-footer {
-            height: 50px;
+            height: 55px;
             transition: transform 0.3s;
         }
         
@@ -194,9 +194,9 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/re2.avif');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
-            background-position: top;
+            background-position: center;
             background-attachment: fixed;
             height: 100vh;
             min-height: 700px;
@@ -348,32 +348,11 @@
         
         .leadership-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
             margin-top: 2rem;
             max-width: 1200px;
             width: 100%;
-        }
-        
-        /* Nuovo stile per la prima riga con 2 card centrate */
-        .leadership-first-row {
-            grid-column: 1 / -1;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-        }
-        
-        .leadership-first-row .leadership-card {
-            width: 45%;
-            max-width: 500px;
-        }
-        
-        /* Stile per le righe successive con 3 card */
-        .leadership-other-rows {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
         }
         
         .leadership-card {
@@ -563,7 +542,7 @@
             text-align: center;
             margin-top: 3rem;
         }
-
+        
         /* Navigation arrows */
         .news-nav {
             position: absolute;
@@ -604,7 +583,7 @@
             cursor: not-allowed;
         }
         
-        /* ========== SERVICES SECTION ========== */
+        /* Services Section */
         .services-wrapper {
             position: relative;
             max-width: 1400px;
@@ -670,14 +649,9 @@
         
         .service-content h3 {
             color: var(--secondary);
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             font-size: 1.5rem;
             transition: color 0.3s;
-            min-height: 4.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
         }
         
         .service-card:hover h3 {
@@ -696,12 +670,11 @@
         }
         
         .service-features li {
-            margin-bottom: 0.8rem;
+            margin-bottom: 0.5rem;
             position: relative;
             padding-left: 1.5rem;
             color: #555;
             list-style-type: none;
-            line-height: 1.4;
         }
         
         .service-features li::before {
@@ -722,7 +695,7 @@
             transition: all 0.3s;
             margin-top: auto;
             justify-content: center;
-            padding: 1rem;
+            padding: 0.8rem;
             border-top: 1px solid #eee;
         }
         
@@ -1207,13 +1180,22 @@
 
         .social-links a {
             color: var(--secondary);
-            font-size: 1.2rem;
+            font-size: 1.5rem; /* Aumentato da 1.2rem */
             transition: all 0.3s;
+            width: 40px; /* Aggiunto per dimensioni fisse */
+            height: 40px; /* Aggiunto per dimensioni fisse */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
         }
 
         .social-links a:hover {
-            color: var(--accent);
-            transform: translateY(-3px);
+            color: white;
+            background-color: var(--accent);
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .footer-legal {
@@ -1626,27 +1608,6 @@
             }
         }
 
-                /* NUOVI FOOTER --------------------------- */
-        .social-links a {
-            color: var(--secondary);
-            font-size: 1.5rem; /* Aumentato da 1.2rem */
-            transition: all 0.3s;
-            width: 40px; /* Aggiunto per dimensioni fisse */
-            height: 40px; /* Aggiunto per dimensioni fisse */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: rgba(0, 0, 0, 0.05);
-            border-radius: 50%;
-        }
-
-        .social-links a:hover {
-            color: white;
-            background-color: var(--accent);
-            transform: translateY(-3px) scale(1.1);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
         .footer-column .legal-links {
             display: flex;
             flex-direction: column;
@@ -1667,6 +1628,19 @@
             padding-left: 0.5rem;
             border-bottom-color: var(--accent);
         }
+
+        /* RECLAMI LINK---------- */
+
+        .footer-title-link {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+        }
+
+        .footer-title-link:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>
@@ -1674,7 +1648,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="#home">
-                <img src="/img/Acrisure Re Italia.jpg" class="logo" alt=""></li>
+                <img src="/img/Acrisure Italia.jpg" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -1693,7 +1667,7 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="/re.php" class="language-btn">IT</a></li>
+                    <li><a href="/italia.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -1702,8 +1676,8 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Acrisure Re Italia</h1>
-            <p>We offer insurance companies reinsurance capabilities across all lines to structure risk transfer programs. We provide consulting services and innovative products</p>
+            <h1>Acrisure Italia S.p.A.</h1>
+            <p>Insurance brokerage company operating at national and international level</p>
             <a href="#contatti" class="btn btn-secondary">Contact us</a>
         </div>
     </section>
@@ -1726,7 +1700,7 @@
                     <div class="news-content">
                         <div class="news-date">March 15, 2024</div>
                         <h3>New partnership in the agricultural sector</h3>
-                        <p>Acrisure Agriculture announces a strategic collaboration with the leading national agricultural consortium to offer even more advantageous policies.</p>
+                        <p>Acrisure Agriculture announces a strategic collaboration with the main national agricultural consortium to offer even more advantageous policies.</p>
                     </div>
                 </div>
                 
@@ -1759,7 +1733,7 @@
                     <div class="news-content">
                         <div class="news-date">December 5, 2023</div>
                         <h3>New welfare service</h3>
-                        <p>Launch of the new employee benefits package for client companies, with customizable solutions.</p>
+                        <p>Launch of the new package of benefits for client companies' employees, with customizable solutions.</p>
                     </div>
                 </div>
                 
@@ -1770,7 +1744,7 @@
                     <div class="news-content">
                         <div class="news-date">November 20, 2023</div>
                         <h3>Annual conference</h3>
-                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italia in Milan.</p>
+                        <p>Success for the "Innovation and insurance" conference organized by Acrisure Italia in Milan.</p>
                     </div>
                 </div>
             </div>
@@ -1781,7 +1755,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsRe.php" class="btn">View all news</a>
+            <a href="news/newsItalia.php" class="btn">See all news</a>
         </div>
     </section>
 
@@ -1792,27 +1766,48 @@
         
         <div class="leadership-container">
             <div class="leadership-grid">
-
                 <!-- First row -->
-                <div class="leadership-first-row">
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Giuseppe Gionta</h3>
-                        <p class="leadership-desc">Chief Executive Officer</p>
-                    </div>
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Stefano Sardara</h3>
+                    <p class="leadership-desc">Chief Executive Officer</p>
+                </div>
                 
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Andrea Maffei</h3>
-                        <p class="leadership-desc">Chairman</p>
-                    </div>
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Andrea Maffei</h3>
+                    <p class="leadership-desc">Chairman</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Giuseppe Barbati</h3>
+                    <p class="leadership-desc">Executive Director Insurance Business Development</p>
+                </div>
+                
+                <!-- Second row -->
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Gabriele Gilleri</h3>
+                    <p class="leadership-desc">Chief Operating Officer</p>
+                </div>
+                
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services" class="leadership-logo">
+                    <h3 class="leadership-name">Simone Cagnetti</h3>
+                    <p class="leadership-desc">Products & Corporate Business Manager</p>
+                </div>
+                
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Andrea Barbieri</h3>
+                    <p class="leadership-desc">Account Manager</p>
                 </div>
             </div><br>
         </div>
         <br><br><br>
     </section>
 
-    <!-- ========== SERVICES SECTION ========== -->
     <section id="services" class="section">
         <h2 class="section-title">Our Services</h2>
         <p class="section-subtitle">A complete portfolio of integrated solutions to meet all the needs of the insurance sector</p>
@@ -1825,70 +1820,106 @@
             <div class="services-container">
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/trattati.jpg" alt="Customer Service">
+                        <img src="/img/claims&servicess.webp" alt="Customer Service">
                     </div>
                     <div class="service-content">
-                        <h3>TREATIES</h3>
+                        <h3>CLAIMS & SERVICES</h3>
                         <ul class="service-features">
-                            <li>Company portfolio analysis</li>
-                            <li>Insurance structure optimization</li>
-                            <li>Capital needs analysis</li>
-                            <li>Identification and optimization of reinsurance structure</li>
-                            <li>Single risk transfer</li>
+                            <li>Information collection</li>
+                            <li>Customer support</li>
+                            <li>Complete claims management (opening, management, settlement proposal)</li>
+                            <li>Phone assistance 5/7</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/cat.jpeg" alt="Fleet Management">
+                        <img src="/img/gestSinistrss.jpg" alt="Fleet Management">
                     </div>
                     <div class="service-content">
-                        <h3>CATASTROPHIC MODELING</h3>
+                        <h3>CLAIMS MANAGEMENT</h3>
                         <ul class="service-features">
-                            <li>Catastrophic exposure analysis</li>
-                            <li>Use of catastrophic models</li>
-                            <li>Probable maximum loss calculation</li>
+                            <li>Our claims office, through a highly qualified team, takes care of following clients step by step, offering constant and effective support aimed at maximizing economic and time savings.</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/gest_tec.jpeg" alt="TPA Motor & Welfare">
+                        <img src="/img/automotive_sol.jpg" alt="TPA Motor & Welfare">
                     </div>
                     <div class="service-content">
-                        <h3>TECHNICAL MANAGEMENT</h3>
+                        <h3>AUTOMOTIVE SOLUTION</h3>
                         <ul class="service-features">
-                            <li>Pricing</li>
-                            <li>Actuarial Services</li>
-                            <li>SolvencyII</li>
+                            <li>Motor</li>
+                            <li>Management of RCA/CVT/Ancillary Guarantees programs</li>
+                            <li>Collective CVT policies</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/gest_contrat.webp" alt="Legal, Compliance & HR">
+                        <img src="/img/Welfare IT.jpg" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
-                        <h3>CONTRACT MANAGEMENT</h3>
+                        <h3>WELFARE</h3>
                         <ul class="service-features">
-                            <li>Cover notes</li>
-                            <li>Contract texts</li>
+                            <li>Medical expenses reimbursement</li>
+                            <li>Professional and non-professional cumulative accidents</li>
+                            <li>Permanent disability</li>
+                            <li>Dentalcare</li>
+                            <li>Life</li>
+                            <li>Long TermCare (LTC - Loss of self-sufficiency)</li>
+                            <li>Temporary Death Case</li>
+                            <li>Dread disease (Serious Illness Indemnity)</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/gest_amm.jpg" alt="Motor">
+                        <img src="/img/enti.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
-                        <h3>ADMINISTRATIVE MANAGEMENT</h3>
+                        <h3>PUBLIC ENTITIES</h3>
                         <ul class="service-features">
-                            <li>Accounting</li>
-                            <li>Administrative reporting</li>
+                            <li>RCA fleet management with register book / CVT</li>
+                            <li>Smart underwriting management with communications to stakeholders</li>
+                            <li>RCA claims management and claims buyback</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/img/prop.jpg" alt="Welfare 360°">
+                    </div>
+                    <div class="service-content">
+                        <h3>PROPERTY & LIABILITY</h3>
+                        <ul class="service-features">
+                            <li>Support in defining and formalizing welfare plans</li>
+                            <li>Definition and implementation of communication and training plans</li>
+                            <li>Creation of personalized welfare service offerings</li>
+                            <li>Integrated platform for service management</li>
+                            <li>Data analytics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/img/Riass.jpg" alt="Welfare 360°">
+                    </div>
+                    <div class="service-content">
+                        <h3>REINSURANCE</h3>
+                        <ul class="service-features">
+                            <li>Support in defining and formalizing welfare plans</li>
+                            <li>Definition and implementation of communication and training plans</li>
+                            <li>Creation of personalized welfare service offerings</li>
+                            <li>Integrated platform for service management</li>
+                            <li>Data analytics</li>
                         </ul>
                     </div>
                 </div>
@@ -1912,7 +1943,7 @@
             <form id="contactForm">
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="name">Full Name <span class="required">*</span></label>
+                        <label for="name">Name and Surname <span class="required">*</span></label>
                         <input type="text" id="name" name="name" class="form-control" required>
                     </div>
                     <div class="form-group">
@@ -1936,11 +1967,14 @@
                     <label for="service">Service of interest <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
                         <option value="">-- Select a service --</option>
-                        <option value="trattati">Treaties</option>
-                        <option value="mode_catastrofale">Catastrophic Modeling</option>
-                        <option value="gest_tecnica">Technical Management</option>
-                        <option value="gest_contrattuale">Contract Management</option>
-                        <option value="gest_amministrativa">Administrative Management</option>
+                        <option value="claim&services">Claim & Services</option>
+                        <option value="gestione_sinistri">Claims Management</option>
+                        <option value="automotive_solution">Automotive Solution</option>
+                        <option value="welfare">Welfare</option>
+                        <option value="enti_pubblici">Public Entities</option>
+                        <option value="property_liability">Property & Liability</option>
+                        <option value="riassicurazione">Reinsurance</option>
+                        <option value="reclami">Complaints</option>
                         <option value="altro">Other</option>
                     </select>
                 </div><br>
@@ -1953,7 +1987,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Required fields</p>
-                        <p>Read our <a href="/policy/policyRe.php">Privacy Policy</a></p>
+                        <p>Read our <a href="/policy/policyItalia.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>
@@ -1967,32 +2001,41 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Re Italia</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
                     <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italia Logo"></li>
+                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contacts</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Administration: +39 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i>Customer Care: +39 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisurereitalia@pec.it">acrisurereitalia@pec.it</a></li>
                 </ul>
-                
+
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <br>
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiItalia.php" class="footer-title-link">Complaints</a></h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
+                    </ul>
                 </div>
             </div>
             
@@ -2003,26 +2046,32 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
+                <div class="footer-badge">
+                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
+                </div>
+
+                <br>
                 <div class="legal-links">
-                    <a href="/">Privacy Policy</a>
-                    <a href="/">Cookie Policy</a>
-                    <a href="/">Legal & Compliance</a>
+                    <a href="/policy/policyItalia.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
-        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Re Italia S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital € 120,000.00 fully paid - RUI: B000729790. Company participating in the Acrisure VAT Group VAT No. 13147890969- <br>
-            Tax Code and registration number in the Sassari Companies Register No.02942110905 REA SS-217191</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
+            Share Capital € 200,000.00 fully paid - RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
+            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
         </div>
     </footer>
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>We use cookies to improve your experience. <a href="/cookies/cookiesRe.php">More information</a></p>
+        <p>We use cookies to improve your experience. <a href="/cookies/cookiesItalia.php">More information</a></p>
         <button id="accept-cookies" class="btn">Accept</button>
     </div>
 

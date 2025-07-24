@@ -1,4 +1,4 @@
-<?php include('.../includes/auth.php'); ?>
+<?php include('../../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -983,9 +983,9 @@
         
         <br>
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A, registration in section B of the RUI no. B000673774, is subject to IVASS supervision.<br>
-            Acrisure Italia S.p.A. is a single-member company subject to the direction and coordination of Acrisure S.r.l.</p><br>
-            <p>Acrisure Italy - &copy; Copyright 2025 - All rights reserved - VAT 13147890969</p>
+            <p>Acrisure Services S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital €10,000.00 fully paid - Company participating in the Acrisure VAT Group VAT No. 13147890969 - <br>
+            Tax Code and registration number in the Sassari Companies Register No. 02888100902   REA SS- 212778</p>
         </div>
     </footer>
 

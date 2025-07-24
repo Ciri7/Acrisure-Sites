@@ -596,6 +596,7 @@
             gap: 2rem;
             overflow-x: auto;
             -webkit-overflow-scrolling: touch; /* Per scroll fluido su iOS */
+            overscroll-behavior-x: contain; /* Previene lo scroll della pagina durante lo scroll orizzontale */
             scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
             padding: 1rem 0;
@@ -731,7 +732,7 @@
             cursor: pointer;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             transition: all 0.3s;
-            z-index: 10;
+            z-index: 20;
             border: none;
             color: var(--accent);
             font-size: 1.2rem;
@@ -754,6 +755,7 @@
         .services-nav.disabled {
             opacity: 0.3;
             cursor: not-allowed;
+            transform: none !important;
         }
         
         /* Modal Styles */
@@ -2733,120 +2735,156 @@
         });
         
         // Servizi navigation - Smooth scroll with single click to end/start
+        const servicesWrapper = document.querySelector('.services-wrapper');
         const servicesContainer = document.querySelector('.services-container');
+        const serviceCards = document.querySelectorAll('.service-card');
         const prevBtn = document.querySelector('.services-nav.prev');
         const nextBtn = document.querySelector('.services-nav.next');
 
         if (servicesContainer && prevBtn && nextBtn) {
-            const cards = document.querySelectorAll('.service-card');
-            const cardWidth = cards[0].offsetWidth + 32; // Larghezza card + margin
-            const visibleCards = Math.floor(servicesContainer.clientWidth / cardWidth);
-            let scrollPosition = 0;
-            const maxScroll = servicesContainer.scrollWidth - servicesContainer.clientWidth;
-            let isScrolling = false;
+            // Configurazione
+            const cardStyle = window.getComputedStyle(serviceCards[0]);
+            const cardWidth = serviceCards[0].offsetWidth + 
+                            parseInt(cardStyle.marginRight) + 
+                            parseInt(cardStyle.marginLeft);
+            
+            let currentIndex = 0;
+            let isAnimating = false;
+            let startX, scrollLeft, isDragging = false;
+            let autoScrollTimeout;
 
-            function updateNavButtons() {
-                prevBtn.classList.toggle('disabled', scrollPosition === 0);
-                nextBtn.classList.toggle('disabled', scrollPosition >= maxScroll - 10); // 10px di tolleranza
+            // Calcola quanti card sono visibili contemporaneamente
+            function calculateVisibleCards() {
+                return Math.floor(servicesContainer.clientWidth / cardWidth);
             }
 
-            function smoothScrollTo(targetPosition) {
-                if (isScrolling) return;
-                isScrolling = true;
+            // Aggiorna lo stato dei pulsanti di navigazione
+            function updateNavButtons() {
+                const maxIndex = serviceCards.length - calculateVisibleCards();
+                prevBtn.classList.toggle('disabled', currentIndex <= 0);
+                nextBtn.classList.toggle('disabled', currentIndex >= maxIndex);
+            }
+
+            // Scroll fluido alla posizione specificata
+            function smoothScrollTo(position) {
+                if (isAnimating) return;
                 
-                const startPosition = servicesContainer.scrollLeft;
-                const distance = targetPosition - startPosition;
-                const duration = 500; // ms
+                isAnimating = true;
+                const start = servicesContainer.scrollLeft;
+                const distance = position - start;
+                const duration = 500;
                 let startTime = null;
 
-                function animation(currentTime) {
+                function animateScroll(currentTime) {
                     if (!startTime) startTime = currentTime;
-                    const timeElapsed = currentTime - startTime;
-                    const progress = Math.min(timeElapsed / duration, 1);
-                    const easeProgress = easeInOutQuad(progress);
+                    const elapsed = currentTime - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
                     
-                    servicesContainer.scrollLeft = startPosition + (distance * easeProgress);
+                    // Utilizziamo una curva di easing più fluida
+                    const easeProgress = easeOutCubic(progress);
+                    servicesContainer.scrollLeft = start + (distance * easeProgress);
                     
-                    if (timeElapsed < duration) {
-                        requestAnimationFrame(animation);
+                    if (progress < 1) {
+                        requestAnimationFrame(animateScroll);
                     } else {
-                        scrollPosition = targetPosition;
+                        isAnimating = false;
                         updateNavButtons();
-                        isScrolling = false;
                     }
                 }
 
-                function easeInOutQuad(t) {
-                    return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+                function easeOutCubic(t) {
+                    return (--t) * t * t + 1;
                 }
 
-                requestAnimationFrame(animation);
+                requestAnimationFrame(animateScroll);
             }
 
+            // Scorre al card specificato
+            function scrollToCard(index) {
+                const visibleCards = calculateVisibleCards();
+                const maxIndex = serviceCards.length - visibleCards;
+                currentIndex = Math.max(0, Math.min(index, maxIndex));
+                
+                const targetPosition = currentIndex * cardWidth;
+                smoothScrollTo(targetPosition);
+            }
+
+            // Navigazione precedente
             prevBtn.addEventListener('click', () => {
-                if (scrollPosition === 0) return;
-                
-                const newPosition = Math.max(0, scrollPosition - (cardWidth * visibleCards));
-                smoothScrollTo(newPosition);
+                if (prevBtn.classList.contains('disabled') || isAnimating) return;
+                scrollToCard(currentIndex - 1);
+                resetAutoScroll();
             });
 
+            // Navigazione successiva
             nextBtn.addEventListener('click', () => {
-                if (scrollPosition >= maxScroll - 10) return;
-                
-                const newPosition = Math.min(maxScroll, scrollPosition + (cardWidth * visibleCards));
-                smoothScrollTo(newPosition);
+                if (nextBtn.classList.contains('disabled') || isAnimating) return;
+                scrollToCard(currentIndex + 1);
+                resetAutoScroll();
             });
 
-            servicesContainer.addEventListener('scroll', () => {
-                scrollPosition = servicesContainer.scrollLeft;
-                updateNavButtons();
-            });
-
-            // Abilita lo scorrimento con il mouse/touch
-            let isDragging = false;
-            let startX, startScrollLeft;
-
-            servicesContainer.addEventListener('mousedown', (e) => {
+            // Gestione dello scroll manuale con mouse/touch
+            function startDrag(e) {
                 isDragging = true;
-                startX = e.pageX;
-                startScrollLeft = servicesContainer.scrollLeft;
+                startX = e.pageX || e.touches[0].pageX;
+                scrollLeft = servicesContainer.scrollLeft;
                 servicesContainer.style.cursor = 'grabbing';
                 servicesContainer.style.scrollBehavior = 'auto';
-            });
+                clearTimeout(autoScrollTimeout);
+            }
 
-            servicesContainer.addEventListener('mousemove', (e) => {
+            function duringDrag(e) {
                 if (!isDragging) return;
                 e.preventDefault();
-                const x = e.pageX;
+                const x = e.pageX || e.touches[0].pageX;
                 const walk = (x - startX) * 2; // Moltiplicatore per velocità
-                servicesContainer.scrollLeft = startScrollLeft - walk;
-            });
+                servicesContainer.scrollLeft = scrollLeft - walk;
+            }
 
-            document.addEventListener('mouseup', () => {
+            function endDrag() {
                 isDragging = false;
                 servicesContainer.style.cursor = 'grab';
                 servicesContainer.style.scrollBehavior = 'smooth';
-            });
+                
+                // Allinea alla card più vicina dopo il drag
+                const scrollPos = servicesContainer.scrollLeft;
+                currentIndex = Math.round(scrollPos / cardWidth);
+                scrollToCard(currentIndex);
+                
+                resetAutoScroll();
+            }
 
-            // Touch support
-            servicesContainer.addEventListener('touchstart', (e) => {
-                isDragging = true;
-                startX = e.touches[0].pageX;
-                startScrollLeft = servicesContainer.scrollLeft;
-            });
+            // Event listeners per mouse
+            servicesContainer.addEventListener('mousedown', startDrag);
+            servicesContainer.addEventListener('mousemove', duringDrag);
+            document.addEventListener('mouseup', endDrag);
 
-            servicesContainer.addEventListener('touchmove', (e) => {
-                if (!isDragging) return;
-                const x = e.touches[0].pageX;
-                const walk = (x - startX) * 2;
-                servicesContainer.scrollLeft = startScrollLeft - walk;
-            });
+            // Event listeners per touch
+            servicesContainer.addEventListener('touchstart', startDrag);
+            servicesContainer.addEventListener('touchmove', duringDrag);
+            servicesContainer.addEventListener('touchend', endDrag);
 
-            servicesContainer.addEventListener('touchend', () => {
-                isDragging = false;
-            });
+            // Auto-scroll dopo un periodo di inattività
+            function resetAutoScroll() {
+                clearTimeout(autoScrollTimeout);
+                autoScrollTimeout = setTimeout(() => {
+                    if (!isDragging && !isAnimating) {
+                        const nextIndex = (currentIndex + 1) % (serviceCards.length - calculateVisibleCards() + 1);
+                        scrollToCard(nextIndex);
+                        resetAutoScroll();
+                    }
+                }, 5000); // 5 secondi di inattività prima dello scroll automatico
+            }
 
+            // Inizializzazione
             updateNavButtons();
+            resetAutoScroll();
+
+            // Aggiorna il layout al resize della finestra
+            window.addEventListener('resize', () => {
+                updateNavButtons();
+                scrollToCard(currentIndex); // Riallinea lo scroll dopo il resize
+            });
         }
         
         // News navigation - 3D Rotating Ticker

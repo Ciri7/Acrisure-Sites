@@ -2500,7 +2500,7 @@
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>We use cookies to improve your experience. <a href="#">More info</a></p>
+        <p>We use cookies to improve your experience. <a href="/eng/cookies-eng/cookiesServices-eng.php">More info</a></p>
         <button id="accept-cookies" class="btn">Accept</button>
     </div>
 

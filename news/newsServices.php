@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - Acrisure Services</title>
+    <title>Acrisure Services - News</title>
     <meta name="description" content="Tutte le ultime novità e aggiornamenti da Acrisure Italia. Scopri le nostre partnership, premi e iniziative nel settore assicurativo.">
     <meta name="keywords" content="news Acrisure, aggiornamenti assicurazioni, novità broker assicurativo, eventi Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureservices.it/news.php" />

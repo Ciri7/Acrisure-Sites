@@ -1686,15 +1686,15 @@
                 <ul>
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="#services" class="nav-link">Servizi</a></li>
-                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="#" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a href="/re.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -1703,15 +1703,15 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Acrisure Re Italia</h1>
-            <p>Offriamo alle compagnie assicurative capacità riassicurative in tutti i rami per strutturare i programmi di trasferimento dei richi. Offriamo servizi di consulenza e prodotti innovativi</p>
-            <a href="#contatti" class="btn btn-secondary">Contattaci</a>
+            <p>We offer insurance companies reinsurance capabilities across all lines to structure risk transfer programs. We provide consulting services and innovative products</p>
+            <a href="#contatti" class="btn btn-secondary">Contact us</a>
         </div>
     </section>
 
-    <!-- Sezione News modificata con 3D Rotating Ticker -->
+    <!-- News Section with 3D Rotating Ticker -->
     <section id="news" class="section news-section">
-        <h2 class="section-title">News & Aggiornamenti</h2>
-        <p class="section-subtitle">Scopri le ultime novità e gli aggiornamenti dal nostro gruppo</p>
+        <h2 class="section-title">News & Updates</h2>
+        <p class="section-subtitle">Discover the latest news and updates from our group</p>
         
         <div class="news-wrapper">
             <button class="news-nav prev" aria-label="Previous news">
@@ -1721,56 +1721,56 @@
             <div class="news-container">
                 <div class="news-card" data-index="0" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news1.jpg" alt="Nuova partnership nel settore agricolo">
+                        <img src="/img/news1.jpg" alt="New partnership in the agricultural sector">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">15 Marzo 2024</div>
-                        <h3>Nuova partnership nel settore agricolo</h3>
-                        <p>Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.</p>
+                        <div class="news-date">March 15, 2024</div>
+                        <h3>New partnership in the agricultural sector</h3>
+                        <p>Acrisure Agriculture announces a strategic collaboration with the leading national agricultural consortium to offer even more advantageous policies.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="1" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news2.jpg" alt="Premio Innovazione Assicurativa 2024">
+                        <img src="/img/news2.jpg" alt="Insurance Innovation Award 2024">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">28 Febbraio 2024</div>
-                        <h3>Premio Innovazione Assicurativa 2024</h3>
-                        <p>Acrisure Italia si aggiudica il prestigioso premio per la sua piattaforma digitale di risk management avanzato.</p>
+                        <div class="news-date">February 28, 2024</div>
+                        <h3>Insurance Innovation Award 2024</h3>
+                        <p>Acrisure Italy wins the prestigious award for its advanced digital risk management platform.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="2" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news3.jpg" alt="Espansione della rete italiana">
+                        <img src="/img/news3.jpg" alt="Expansion of the Italian network">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">10 Gennaio 2024</div>
-                        <h3>Espansione della rete italiana</h3>
-                        <p>Apertura del nuovo ufficio di Torino, con un team specializzato in assicurazioni per il settore automotive.</p>
+                        <div class="news-date">January 10, 2024</div>
+                        <h3>Expansion of the Italian network</h3>
+                        <p>Opening of the new Turin office, with a team specialized in insurance for the automotive sector.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="3" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news4.jpg" alt="Nuovo servizio di welfare">
+                        <img src="/img/news4.jpg" alt="New welfare service">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">5 Dicembre 2023</div>
-                        <h3>Nuovo servizio di welfare</h3>
-                        <p>Lancio del nuovo pacchetto di benefit per i dipendenti delle aziende clienti, con soluzioni personalizzabili.</p>
+                        <div class="news-date">December 5, 2023</div>
+                        <h3>New welfare service</h3>
+                        <p>Launch of the new employee benefits package for client companies, with customizable solutions.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="4" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news5.jpg" alt="Convegno annuale">
+                        <img src="/img/news5.jpg" alt="Annual conference">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">20 Novembre 2023</div>
-                        <h3>Convegno annuale</h3>
-                        <p>Successo per il convegno "Innovazione e assicurazioni" organizzato da Acrisure Italia a Milano.</p>
+                        <div class="news-date">November 20, 2023</div>
+                        <h3>Annual conference</h3>
+                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italy in Milan.</p>
                     </div>
                 </div>
             </div>
@@ -1781,30 +1781,30 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsRe.php" class="btn">Vedi tutte le news</a>
+            <a href="news/newsRe.php" class="btn">View all news</a>
         </div>
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="gruppo" class="section leadership">
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle2">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        <p class="section-subtitle2">Our team leads the company with strategic vision, consolidated experience and a strong commitment to innovation and excellence. Discover the people who inspire our growth and shape our future</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">
 
-                <!-- Prima riga -->
+                <!-- First row -->
                 <div class="leadership-first-row">
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italy" class="leadership-logo">
                         <h3 class="leadership-name">Giuseppe Gionta</h3>
-                        <p class="leadership-desc">Chief Executivive Officier</p>
+                        <p class="leadership-desc">Chief Executive Officer</p>
                     </div>
                 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italy" class="leadership-logo">
                         <h3 class="leadership-name">Andrea Maffei</h3>
-                        <p class="leadership-desc">Presidente</p>
+                        <p class="leadership-desc">Chairman</p>
                     </div>
                 </div>
             </div><br>
@@ -1814,8 +1814,8 @@
 
     <!-- ========== SERVICES SECTION ========== -->
     <section id="services" class="section">
-        <h2 class="section-title">I Nostri Servizi</h2>
-        <p class="section-subtitle">Un portfolio completo di soluzioni integrate per rispondere a tutte le esigenze del settore assicurativo</p>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">A complete portfolio of integrated solutions to meet all the needs of the insurance sector</p>
         
         <div class="services-wrapper">
             <button class="services-nav prev" aria-label="Previous service">
@@ -1828,15 +1828,14 @@
                         <img src="/img/trattati.jpg" alt="Customer Service">
                     </div>
                     <div class="service-content">
-                        <h3>TRATTATI</h3>
+                        <h3>TREATIES</h3>
                         <ul class="service-features">
-                            <li>Analisi portafoglio della compagnia</li>
-                            <li>Ottimizzazione struttura assicurativa</li>
-                            <li>Analisi fabbisogno capitale</li>
-                            <li>Individuazione ed ottimizzazione della struttura riassicurativa</li>
-                            <li>Trasferimento del singolo rischio</li>
+                            <li>Company portfolio analysis</li>
+                            <li>Insurance structure optimization</li>
+                            <li>Capital needs analysis</li>
+                            <li>Identification and optimization of reinsurance structure</li>
+                            <li>Single risk transfer</li>
                         </ul>
-                        <!-- <a href="#customer-service-modal" class="service-link discover-more" data-modal="customer-service">Scopri di più <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
 
@@ -1845,13 +1844,12 @@
                         <img src="/img/cat.jpeg" alt="Fleet Management">
                     </div>
                     <div class="service-content">
-                        <h3>MODELIZZAZIONE CATASTROFALE</h3>
+                        <h3>CATASTROPHIC MODELING</h3>
                         <ul class="service-features">
-                            <li>Analisi esposizioni catastrofali</li>
-                            <li>Utilizzo modelli catastrofali</li>
-                            <li>Calcolo sinistro massimo probabile</li>
+                            <li>Catastrophic exposure analysis</li>
+                            <li>Use of catastrophic models</li>
+                            <li>Probable maximum loss calculation</li>
                         </ul>
-                        <!-- <a href="#legal-compliance-modal" class="service-link discover-more" data-modal="legal-compliance">Scopri di più <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 
@@ -1860,13 +1858,12 @@
                         <img src="/img/gest_tec.jpeg" alt="TPA Motor & Welfare">
                     </div>
                     <div class="service-content">
-                        <h3>GESTIONE TECNICA</h3>
+                        <h3>TECHNICAL MANAGEMENT</h3>
                         <ul class="service-features">
                             <li>Pricing</li>
-                            <li>Servizi Attuariali</li>
+                            <li>Actuarial Services</li>
                             <li>SolvencyII</li>
                         </ul>
-                        <!-- <a href="#tpa-modal" class="service-link discover-more" data-modal="tpa">Scopri di più <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
                 
@@ -1875,13 +1872,11 @@
                         <img src="/img/gest_contrat.webp" alt="Legal, Compliance & HR">
                     </div>
                     <div class="service-content">
-                        <h3>GESTIONE CONTRATTUALE</h3>
+                        <h3>CONTRACT MANAGEMENT</h3>
                         <ul class="service-features">
-                            <li>Cover note</li>
-                            <li>Testi contrattuali</li>
-                            <!-- <li></li> -->
+                            <li>Cover notes</li>
+                            <li>Contract texts</li>
                         </ul>
-                        <!-- <a href="#fleet-modal" class="service-link discover-more" data-modal="fleet">Scopri di più <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
 
@@ -1890,13 +1885,11 @@
                         <img src="/img/gest_amm.jpg" alt="Motor">
                     </div>
                     <div class="service-content">
-                        <h3>GESTIONE AMMINISTRATIVA</h3>
+                        <h3>ADMINISTRATIVE MANAGEMENT</h3>
                         <ul class="service-features">
-                            <li>Contabilità</li>
-                            <li>Reportistica amministrativa</li>
-                            <!-- <li></li> -->
+                            <li>Accounting</li>
+                            <li>Administrative reporting</li>
                         </ul>
-                        <!-- <a href="#motor-modal" class="service-link discover-more" data-modal="motor">Scopri di più <i class="fas fa-arrow-right"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1907,420 +1900,11 @@
         </div>
     </section>
 
-    <!-- Modali per i servizi -->
-    <!-- <div id="customer-service-modal" class="modal">
-        <div class="modal-content">
-            <button class="close-modal">&times;</button>
-            <div class="modal-header">
-                <img src="/img/cuffie e scrivania.jpg" alt="Customer Service" class="modal-header-image">
-                <div class="modal-header-content">
-                    <h2 class="modal-title">CUSTOMER SERVICE</h2>
-                    <p class="modal-subtitle">La nostra Centrale Operativa ha il compito di affiancare le parti coinvolte, fornendo la massima assistenza necessaria</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-user-cog"></i> Personalizzazione</h3>
-                        <p class="feature-description">Ascoltiamo le esigenze dei clienti per fornire un servizio su misura e completamente personalizzato in base alle specifiche necessità.</p>
-                        <ul class="feature-list">
-                            <li>Analisi delle esigenze specifiche</li>
-                            <li>Soluzioni tailor-made</li>
-                            <li>Monitoraggio continuo</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-stopwatch"></i> Tempestività</h3>
-                        <p class="feature-description">Rispondiamo prontamente alle richieste fornendo una soluzione rapida ed efficace, garantendo tempi di risposta ottimali.</p>
-                        <ul class="feature-list">
-                            <li>Assistenza immediata</li>
-                            <li>Risposte in tempo reale</li>
-                            <li>Gestione prioritaria</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-heart"></i> Empatia</h3>
-                        <p class="feature-description">Trattiamo i clienti con cortesia e rispetto, comprendendo le loro esigenze e fornendo supporto con professionalità.</p>
-                        <ul class="feature-list">
-                            <li>Approccio personalizzato</li>
-                            <li>Attenzione alle esigenze</li>
-                            <li>Supporto empatico</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-check-circle"></i> Risoluzione efficace</h3>
-                        <p class="feature-description">Affrontiamo i problemi dei clienti con competenza ed efficacia, garantendo soluzioni concrete e durature.</p>
-                        <ul class="feature-list">
-                            <li>Analisi approfondita</li>
-                            <li>Soluzioni definitive</li>
-                            <li>Follow-up garantito</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-chart-line"></i> Feedback e miglioramenti</h3>
-                        <p class="feature-description">Monitoriamo e accogliamo i feedback per migliorare continuamente i nostri servizi e l'esperienza del cliente.</p>
-                        <ul class="feature-list">
-                            <li>Raccolta feedback</li>
-                            <li>Analisi soddisfazione</li>
-                            <li>Miglioramenti continui</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-headset"></i> Assistenza 360°</h3>
-                        <p class="feature-description">Offriamo supporto completo tramite diversi canali di comunicazione per garantire una copertura totale delle esigenze.</p>
-                        <ul class="feature-list">
-                            <li>Omni-canale</li>
-                            <li>Disponibilità continua</li>
-                            <li>Supporto integrato</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="legal-compliance-modal" class="modal">
-        <div class="modal-content">
-            <button class="close-modal">&times;</button>
-            <div class="modal-header">
-                <img src="/img/scrivania legno.jpg" alt="Legal, Compliance & HR" class="modal-header-image">
-                <div class="modal-header-content">
-                    <h2 class="modal-title">LEGAL, COMPLIANCE & HR</h2>
-                    <p class="modal-subtitle">Il cuore pulsante che serve i nostri clienti con eccellenza e competenza</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-balance-scale"></i> Affari Societari</h3>
-                        <p class="feature-description">Supporto completo per la gestione della governance aziendale, inclusi CdA, comitati esecutivi e comitati interni.</p>
-                        <ul class="feature-list">
-                            <li>Gestione documentazione societaria</li>
-                            <li>Supporto alle assemblee</li>
-                            <li>Consulenza su struttura organizzativa</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-gavel"></i> Legal</h3>
-                        <p class="feature-description">Gestione completa della contrattualistica e supporto legale specializzato.</p>
-                        <ul class="feature-list">
-                            <li>Contratti con clienti e fornitori</li>
-                            <li>Monitoraggio reclami IVASS</li>
-                            <li>Allineamento procedure aziendali</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-shield-alt"></i> Compliance</h3>
-                        <p class="feature-description">Servizi completi di conformità normativa e gestione del rischio.</p>
-                        <ul class="feature-list">
-                            <li>Analisi contesto normativo</li>
-                            <li>Gestione AML (Anti-Money Laundering)</li>
-                            <li>Investigazioni antifrode</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-users"></i> Human Resource</h3>
-                        <p class="feature-description">Soluzioni integrate per la gestione delle risorse umane.</p>
-                        <ul class="feature-list">
-                            <li>Organigrammi e funzionigrammi</li>
-                            <li>Gestione presenze e permessi</li>
-                            <li>Formazione specialistica</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="tpa-modal" class="modal">
-        <div class="modal-content">
-            <button class="close-modal">&times;</button>
-            <div class="modal-header">
-                <img src="/img/callcenter.jpg" alt="TPA Motor & Welfare" class="modal-header-image2">
-                <div class="modal-header-content">
-                    <h2 class="modal-title">TPA MOTOR & WELFARE</h2>
-                    <p class="modal-subtitle">Soluzioni complete per la gestione dei sinistri e servizi di welfare</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-headset"></i> Servizio Clienti</h3>
-                        <p class="feature-description">Centrale operativa attiva 6/7 | 8-20 per il contatto diretto con l'assicurato.</p>
-                        <ul class="feature-list">
-                            <li>Assistenza telefonica dedicata</li>
-                            <li>Supporto via email e chat</li>
-                            <li>Gestione richieste in tempo reale</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-user-md"></i> Check-Up Sanitari</h3>
-                        <p class="feature-description">Prenotazione del check up dal network medico convenzionato.</p>
-                        <ul class="feature-list">
-                            <li>Prenotazioni rapide e semplici</li>
-                            <li>Network medico qualificato</li>
-                            <li>Gestione documentazione</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-database"></i> Anagrafica Clienti</h3>
-                        <p class="feature-description">Gestione anagrafica cliente corporate e retail con massima precisione.</p>
-                        <ul class="feature-list">
-                            <li>Aggiornamenti in tempo reale</li>
-                            <li>Integrazione con sistemi esterni</li>
-                            <li>Backup sicuro dei dati</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-file-alt"></i> Gestione Documenti</h3>
-                        <p class="feature-description">Gestione backoffice documentale clienti corporate e retail.</p>
-                        <ul class="feature-list">
-                            <li>Archiviazione digitale</li>
-                            <li>Ricerca rapida documenti</li>
-                            <li>Condivisione sicura</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-car-crash"></i> Risoluzione del sinistro</h3>
-                        <p class="feature-description">Chiudi rapidamente il tuo sinistro con il nostro supporto completo.</p>
-                        <ul class="feature-list">
-                            <li>Caricamento documenti online</li>
-                            <li>Monitoraggio stato pratica</li>
-                            <li>Comunicazioni tempestive</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-cogs"></i> Processi Industrializzati</h3>
-                        <p class="feature-description">Soluzioni ad alta scalabilità per un supporto immediato.</p>
-                        <ul class="feature-list">
-                            <li>Flessibilità operativa</li>
-                            <li>Adattamento ai volumi</li>
-                            <li>Efficienza garantita</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="fleet-modal" class="modal">
-        <div class="modal-content">
-            <button class="close-modal">&times;</button>
-            <div class="modal-header">
-                <img src="/img/fleet.jpg" alt="Fleet Management" class="modal-header-image">
-                <div class="modal-header-content">
-                    <h2 class="modal-title">FLEET MANAGEMENT</h2>
-                    <p class="modal-subtitle">Gestione completa delle flotte aziendali con servizi integrati</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-car"></i> Gestione Flotte Complete</h3>
-                        <p class="feature-description">Soluzioni end-to-end per la gestione di tutte le esigenze della tua flotta aziendale.</p>
-                        <ul class="feature-list">
-                            <li>Ingresso e uscita veicoli</li>
-                            <li>Copertura RCA a libro matricola</li>
-                            <li>Gestione documentale</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-tools"></i> Manutenzione e Assistenza</h3>
-                        <p class="feature-description">Servizi completi per mantenere la tua flotta sempre efficiente.</p>
-                        <ul class="feature-list">
-                            <li>Manutenzione ordinaria (gestione tagliandi) e straordinaria</li>
-                            <li>Assistenza stradale 24/7</li>
-                            <li>Gestione tagliandi e rabbocchi</li> 
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-euro-sign"></i> Contenimento Costi</h3>
-                        <p class="feature-description">Strategie avanzate per ottimizzare i costi operativi della flotta.</p>
-                        <ul class="feature-list">
-                            <li>Network di provider selezionati</li>
-                            <li>Analisi e razionalizzazione spese</li>
-                            <li>Preventivazione accurata</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-shield-alt"></i> Gestione Sinistri</h3>
-                        <p class="feature-description">Supporto completo nella gestione dei danni e delle pratiche assicurative.</p>
-                        <ul class="feature-list">
-                            <li>Gestione danni diretti in autoassicurazione</li>
-                            <li>Authority del danno</li>
-                            <li>Liquidazioni rapide</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-chart-line"></i> Reporting Avanzato</h3>
-                        <p class="feature-description">Dashboard e report personalizzati per monitorare le performance della flotta.</p>
-                        <ul class="feature-list">
-                            <li>Analisi consumi e costi</li>
-                            <li>Monitoraggio manutenzioni</li>
-                            <li>Statistiche utilizzo veicoli</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-mobile-alt"></i> Piattaforma Digitale</h3>
-                        <p class="feature-description">Accesso a tutti i servizi attraverso la nostra piattaforma integrata.</p>
-                        <ul class="feature-list">
-                            <li>Prenotazioni online</li>
-                            <li>Tracking interventi</li>
-                            <li>Comunicazioni dirette</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="motor-modal" class="modal">
-        <div class="modal-content">
-            <button class="close-modal">&times;</button>
-            <div class="modal-header">
-                <img src="/img/motor4.jpg" alt="Motor" class="modal-header-image">
-                <div class="modal-header-content">
-                    <h2 class="modal-title">MOTOR</h2>
-                    <p class="modal-subtitle">Soluzioni specializzate per la gestione delle polizze RCA e servizi correlati</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-car-crash"></i> Gestione Sinistri RCA</h3>
-                        <p class="feature-description">Focal point per la gestione completa del sinistro RCA dalla denuncia alla liquidazione.</p>
-                        <ul class="feature-list">
-                            <li>Denuncia sinistro semplificata</li>
-                            <li>Coordinamento con compagnie assicurative</li>
-                            <li>Monitoraggio stato pratica</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-handshake"></i> Facilitatore Relazioni</h3>
-                        <p class="feature-description">Ponte tra le esigenze dei clienti e le regole delle compagnie assicurative.</p>
-                        <ul class="feature-list">
-                            <li>Mediazione efficace</li>
-                            <li>Definizione modalità ottimali</li>
-                            <li>Gestione partnership</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-cogs"></i> Processi Smart</h3>
-                        <p class="feature-description">Soluzioni tecnologiche per l'assunzione e la gestione dei rischi.</p>
-                        <ul class="feature-list">
-                            <li>Approccio plug & play</li>
-                            <li>Adattamento a tutti i contesti</li>
-                            <li>Bilanciamento operativo</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-exchange-alt"></i> Comunicazioni Adattive</h3>
-                        <p class="feature-description">Adattamento dei flussi informativi alle esigenze specifiche di ogni realtà.</p>
-                        <ul class="feature-list">
-                            <li>Soluzioni personalizzate</li>
-                            <li>Integrazione con legacy esistenti</li>
-                            <li>Normalizzazione consapevole</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-comments"></i> Comunicazioni Personalizzate</h3>
-                        <p class="feature-description">Definizione congiunta delle migliori soluzioni di comunicazione.</p>
-                        <ul class="feature-list">
-                            <li>Gestione estratti conto</li>
-                            <li>Comunicazioni agli stakeholder</li>
-                            <li>Semplificazione e automazione</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-money-bill-wave"></i> Riscatti Franchigie</h3>
-                        <p class="feature-description">Leader di mercato nella gestione del riscatto sinistri RCA.</p>
-                        <ul class="feature-list">
-                            <li>Evitare aumenti di premio</li>
-                            <li>Soddisfare esigenze tecniche</li>
-                            <li>Processi industrializzati</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="welfare-modal" class="modal">
-        <div class="modal-content">
-            <button class="close-modal">&times;</button>
-            <div class="modal-header">
-                <img src="/img/legno.avif" alt="Welfare 360°" class="modal-header-image2">
-                <div class="modal-header-content">
-                    <h2 class="modal-title">WELFARE 360°</h2>
-                    <p class="modal-subtitle">Soluzioni complete per la gestione del welfare aziendale</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-clipboard-list"></i> Progettazione Piani Welfare</h3>
-                        <p class="feature-description">Supporto completo nella definizione e formalizzazione di piani welfare su misura per le esigenze aziendali.</p>
-                        <ul class="feature-list">
-                            <li>Analisi delle esigenze aziendali</li>
-                            <li>Personalizzazione delle soluzioni</li>
-                            <li>Definizione del budget welfare</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-bullhorn"></i> Comunicazione & Formazione</h3>
-                        <p class="feature-description">Strategie integrate per comunicare efficacemente i benefit ai dipendenti.</p>
-                        <ul class="feature-list">
-                            <li>Piani di comunicazione multicanale</li>
-                            <li>Materiali informativi personalizzati</li>
-                            <li>Sessioni formative dedicate</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-gift"></i> Offerta Personalizzata</h3>
-                        <p class="feature-description">Creazione di un catalogo servizi su misura per ogni azienda.</p>
-                        <ul class="feature-list">
-                            <li>Servizi di welfare tradizionali e innovativi</li>
-                            <li>Partnership con provider qualificati</li>
-                            <li>Monitoraggio continui</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-laptop"></i> Piattaforma Digitale</h3>
-                        <p class="feature-description">Strumento integrato per la gestione completa del welfare.</p>
-                        <ul class="feature-list">
-                            <li>Accesso 24/7 da qualsiasi dispositivo</li>
-                            <li>Gestione richieste e prenotazioni</li>
-                            <li>Monitoraggio budget individuale</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-chart-pie"></i> Data Analytics</h3>
-                        <p class="feature-description">Reportistica avanzata per misurare l'efficacia del piano welfare.</p>
-                        <ul class="feature-list">
-                            <li>Analisi utilizzo servizi</li>
-                            <li>Misurazione ROI</li>
-                            <li>Dashboard personalizzate</li>
-                        </ul>
-                    </div>
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-headset"></i> Assistenza Dedicata</h3>
-                        <p class="feature-description">Supporto continuo per aziende e dipendenti.</p>
-                        <ul class="feature-list">
-                            <li>Help desk multicanale</li>
-                            <li>Assistenza nella scelta servizi</li>
-                            <li>Gestione reclami e feedback</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <section id="contatti" class="section">
         <div class="contact-form">
             <div class="form-header">
-                <h3>Richiedi informazioni</h3>
-                <p>Compila il form sottostante e ti risponderemo al più presto</p>
+                <h3>Request information</h3>
+                <p>Fill out the form below and we will get back to you as soon as possible</p>
             </div>
             
             <div id="formMessage" class="form-message"></div>
@@ -2328,11 +1912,11 @@
             <form id="contactForm">
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="name">Nome e Cognome <span class="required">*</span></label>
+                        <label for="name">Full Name <span class="required">*</span></label>
                         <input type="text" id="name" name="name" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label for="company">Azienda</label>
+                        <label for="company">Company</label>
                         <input type="text" id="company" name="company" class="form-control">
                     </div>
                 </div>
@@ -2343,35 +1927,35 @@
                         <input type="email" id="email" name="email" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Telefono</label>
+                        <label for="phone">Phone</label>
                         <input type="tel" id="phone" name="phone" class="form-control">
                     </div>
                 </div>
                 
                 <div class="form-group">
-                    <label for="service">Servizio di interesse <span class="required">*</span></label>
+                    <label for="service">Service of interest <span class="required">*</span></label>
                     <select id="service" name="service" class="form-control" required>
-                        <option value="">-- Seleziona un servizio --</option>
-                        <option value="trattati">Trattati</option>
-                        <option value="mode_catastrofale">Modelizzazione Catastrofale</option>
-                        <option value="gest_tecnica">Gestione Tecnica</option>
-                        <option value="gest_contrattuale">Gestione Contrattuale</option>
-                        <option value="gest_amministrativa">Gestione Amministrattiva</option>
-                        <option value="altro">Altro</option>
+                        <option value="">-- Select a service --</option>
+                        <option value="trattati">Treaties</option>
+                        <option value="mode_catastrofale">Catastrophic Modeling</option>
+                        <option value="gest_tecnica">Technical Management</option>
+                        <option value="gest_contrattuale">Contract Management</option>
+                        <option value="gest_amministrativa">Administrative Management</option>
+                        <option value="altro">Other</option>
                     </select>
                 </div><br>
                 
                 <div class="form-group">
-                    <label for="message">Messaggio <span class="required">*</span></label>
+                    <label for="message">Message <span class="required">*</span></label>
                     <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
                 </div>
                 
                 <div class="form-footer">
                     <div class="form-note">
-                        <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyRe.php">Privacy Policy</a></p>
+                        <p><span class="required">*</span> Required fields</p>
+                        <p>Read our <a href="/policy/policyRe.php">Privacy Policy</a></p>
                     </div>
-                    <button type="submit" class="btn">Invia Richiesta</button>
+                    <button type="submit" class="btn">Send Request</button>
                 </div>
             </form>
         </div>
@@ -2381,31 +1965,27 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure Re Italia</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italy Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio 6 - 00198</li>
-                    <!-- <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola 15 - 10123</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria 9 - 16121</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda 44 - 38023</li> -->
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: +39 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i>Customer Care: +39 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisurereitalia@pec.it">acrisurereitalia@pec.it</a></li>
                 </ul>
@@ -2417,48 +1997,33 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i>Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
-                
                 <div class="legal-links">
-                    <a href="/policy/policyRe.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesRe.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalRe.php">Legal & Compliance</a>
+                    <a href="/">Privacy Policy</a>
+                    <a href="/">Cookie Policy</a>
+                    <a href="/">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Re Italia S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 120.000,00 i.v- RUI: B000729790. Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02942110905 REA SS-217191</p>
+            <p>Acrisure Re Italia S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital € 120,000.00 fully paid - RUI: B000729790. Company participating in the Acrisure VAT Group VAT No. 13147890969- <br>
+            Tax Code and registration number in the Sassari Companies Register No.02942110905 REA SS-217191</p>
         </div>
     </footer>
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesRe.php">Maggiori informazioni</a></p>
-        <button id="accept-cookies" class="btn">Accetta</button>
+        <p>We use cookies to improve your experience. <a href="/cookies/cookiesRe.php">More information</a></p>
+        <button id="accept-cookies" class="btn">Accept</button>
     </div>
 
     <script>

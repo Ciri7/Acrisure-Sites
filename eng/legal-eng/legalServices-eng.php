@@ -848,7 +848,7 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn">IT</a></li>
+                    <li><a href="/legal&comp/legalServices.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -895,6 +895,7 @@
                 <h2>Supervisory Body under Legislative Decree 231/2001</h2>
                 <p>In compliance with Legislative Decree No. 231 of June 8, 2001, Acrisure Italy has established a Supervisory Body with the task of:</p>
                 <ul>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
                     <li>Monitoring the adequacy and effectiveness of the Organizational Model</li>
                     <li>Verifying compliance with adopted procedures and protocols</li>
                     <li>Reporting any anomalies or violations</li>
@@ -907,6 +908,7 @@
                 <h2>Model 231 and Code of Ethics</h2>
                 <p>Acrisure Italy has adopted an Organizational Model pursuant to Legislative Decree 231/2001, which includes:</p>
                 <ul>
+                    <li><a href="../../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Code of Ethics</a></li>
                     <li>Analysis of crime risks</li>
                     <li>Prevention protocols</li>
                     <li>Disciplinary system</li>
@@ -920,31 +922,10 @@
                 <p>In compliance with whistleblower protection legislation (EU Directive 2019/1937 and Legislative Decree 24/2023), Acrisure Italy has established a dedicated channel for reporting violations or irregularities.</p>
                 <p>Reports can be submitted:</p>
                 <ul>
-                    <li>Via email to: <a href="mailto:whistleblowing@acrisure.it">whistleblowing@acrisure.it</a></li>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Whistleblowing Procedure</a></li>
                     <li>Via registered mail to: Supervisory Body - Giuseppe Mazzini Street, 3 - 07100 Sassari</li>
                 </ul>
                 <p>We guarantee maximum confidentiality and protection against retaliation for whistleblowers acting in good faith.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Documents and Resources</h2>
-                <p>Download the main documents related to our governance and compliance:</p>
-                <ul>
-                    <li><a href="/documents/codice-etico.pdf" target="_blank">Code of Ethics</a></li>
-                    <li><a href="/documents/modello-231.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li><a href="/documents/procedura-whistleblowing.pdf" target="_blank">Whistleblowing Procedure</a></li>
-                    <li><a href="/documents/politica-antiriciclaggio.pdf" target="_blank">Anti-Money Laundering Policy</a></li>
-                </ul>
-            </div>
-
-            <div class="legal-section">
-                <h2>Compliance Contacts</h2>
-                <p>For information or reports related to legal and compliance:</p>
-                <p><strong>Compliance Officer</strong><br>
-                Email: <a href="mailto:compliance@acrisure.it">compliance@acrisure.it</a><br>
-                Phone: 079/2016047 (extension 5)</p>
-                <p><strong>Supervisory Body</strong><br>
-                Email: <a href="mailto:organismo.vigilanza@acrisure.it">organismo.vigilanza@acrisure.it</a></p>
             </div>
         </div>
     </section>

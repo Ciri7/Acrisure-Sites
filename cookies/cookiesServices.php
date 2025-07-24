@@ -672,8 +672,8 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
+                    <li><a href="/eng/cookies-eng/cookiesServices-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -688,7 +688,7 @@
     <div class="policy-container">
         <div class="policy-section">
             <h2>Introduzione</h2>
-            <p>Questa Cookie Policy spiega come Acrisure Italia ("noi", "nostro" o "nostri") utilizza i cookie e tecnologie simili quando visiti il nostro sito web <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Sito"). Ti informiamo su cosa sono i cookie, come li utilizziamo e come puoi gestirli.</p>
+            <p>Questa Cookie Policy spiega come Acrisure Italia ("noi", "nostro" o "nostri") utilizza i cookie e tecnologie simili quando visiti il nostro sito web <a href="/services.php">www.acrisureservices.it</a> ("Sito"). Ti informiamo su cosa sono i cookie, come li utilizziamo e come puoi gestirli.</p>
             <p>Utilizzando il nostro Sito, acconsenti all'uso dei cookie in conformità con questa Cookie Policy. Se non accetti il nostro uso dei cookie, ti preghiamo di disabilitarli seguendo le istruzioni in questa policy o di non utilizzare il nostro Sito.</p>
         </div>
 
@@ -795,15 +795,6 @@
             <h2>Modifiche alla Cookie Policy</h2>
             <p>Ci riserviamo il diritto di apportare modifiche a questa Cookie Policy in qualsiasi momento. Tutte le modifiche saranno pubblicate su questa pagina e, se significative, verranno comunicate attraverso un avviso ben visibile sul nostro Sito.</p>
             <p>Ti invitiamo a consultare periodicamente questa pagina per essere informato su eventuali cambiamenti.</p>
-        </div>
-
-        <div class="policy-section">
-            <h2>Contatti</h2>
-            <p>Per qualsiasi domanda o richiesta di chiarimenti riguardanti questa Cookie Policy, puoi contattarci:</p>
-            <ul>
-                <li>Via email: <a href="mailto:privacy@acrisureitalia.com">privacy@acrisureitalia.com</a></li>
-                <li>Per posta: Acrisure S.r.l. - Via Giuseppe Mazzini, 3 - 07100 Sassari (SS)</li>
-            </ul>
         </div>
 
         <p class="last-updated">Ultimo aggiornamento: 15 Giugno 2024</p>

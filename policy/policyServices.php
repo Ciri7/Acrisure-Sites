@@ -814,8 +814,8 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
+                    <li><a href="/eng/policy-eng/policyServices-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -844,7 +844,7 @@
                 P.IVA: 13147890969<br>
                 REA: MI-2616058<br>
                 Email: <a href="mailto:info@acrisure.it">info@acrisure.it</a><br>
-                PEC: <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></p>
+                PEC: <a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></p>
             </div>
 
             <div class="privacy-section">
@@ -969,12 +969,6 @@
                     <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
-                
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
                 
                 <div class="legal-links">
                     <a href="#header">Privacy Policy</a>

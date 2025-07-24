@@ -672,7 +672,7 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn">IT</a></li>
+                    <li><a href="/cookies/cookiesServices.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -688,7 +688,7 @@
     <div class="policy-container">
         <div class="policy-section">
             <h2>Introduction</h2>
-            <p>This Cookie Policy explains how Acrisure Italy ("we", "our" or "us") uses cookies and similar technologies when you visit our website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site"). We inform you about what cookies are, how we use them, and how you can manage them.</p>
+            <p>This Cookie Policy explains how Acrisure Italy ("we", "our" or "us") uses cookies and similar technologies when you visit our website <a href="/services.php">www.acrisureservices.it</a> ("Site"). We inform you about what cookies are, how we use them, and how you can manage them.</p>
             <p>By using our Site, you consent to the use of cookies in accordance with this Cookie Policy. If you do not accept our use of cookies, please disable them following the instructions in this policy or do not use our Site.</p>
         </div>
 
@@ -795,15 +795,6 @@
             <h2>Changes to the Cookie Policy</h2>
             <p>We reserve the right to make changes to this Cookie Policy at any time. All changes will be posted on this page and, if significant, will be communicated through a clearly visible notice on our Site.</p>
             <p>We encourage you to periodically review this page to be informed of any changes.</p>
-        </div>
-
-        <div class="policy-section">
-            <h2>Contacts</h2>
-            <p>For any questions or requests for clarification regarding this Cookie Policy, you can contact us:</p>
-            <ul>
-                <li>By email: <a href="mailto:privacy@acrisureitalia.com">privacy@acrisureitalia.com</a></li>
-                <li>By mail: Acrisure S.r.l. - Giuseppe Mazzini Street, 3 - 07100 Sassari (SS)</li>
-            </ul>
         </div>
 
         <p class="last-updated">Last updated: June 15, 2024</p>

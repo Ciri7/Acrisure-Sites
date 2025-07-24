@@ -815,7 +815,7 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn">IT</a></li>
+                    <li><a href="/policy/policyServices.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -845,7 +845,7 @@
                 VAT: 13147890969<br>
                 REA: MI-2616058<br>
                 Email: <a href="mailto:info@acrisure.it">info@acrisure.it</a><br>
-                PEC: <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></p>
+                PEC: <a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></p>
             </div>
 
             <div class="privacy-section">
@@ -966,12 +966,6 @@
                     <li><i class="far fa-clock"></i><strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
-                
-                <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
-                </div>
                 
                 <div class="legal-links">
                     <a href="#header">Privacy Policy</a>

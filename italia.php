@@ -1820,7 +1820,7 @@
             <div class="services-container">
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/claims.jpg" alt="Customer Service">
+                        <img src="/img/claims&servicess.webp" alt="Customer Service">
                     </div>
                     <div class="service-content">
                         <h3>CLAIMS & SERVICES</h3>
@@ -1836,7 +1836,7 @@
 
                 <div class="service-card">
                     <div class="service-image">
-                        <img src="/img/Gestione Sinistri.jpg" alt="Fleet Management">
+                        <img src="/img/gestSinistrss.jpg" alt="Fleet Management">
                     </div>
                     <div class="service-content">
                         <h3>GESTIONE SINISTRI</h3>

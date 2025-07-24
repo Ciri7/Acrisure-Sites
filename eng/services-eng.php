@@ -2420,7 +2420,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Mandatory fields</p>
-                        <p>Read ours <a href="/policy/policyServices.php">Privacy Policy</a></p>
+                        <p>Read ours <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>

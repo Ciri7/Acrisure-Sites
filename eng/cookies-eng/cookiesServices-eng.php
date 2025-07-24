@@ -946,125 +946,27 @@
         });
 
         // Page transition animation
-        document.addEventListener('DOMContentLoaded', function() {
-            // Add transition class to all internal links
-            const links = document.querySelectorAll('.page-transition-link');
-            const transition = document.querySelector('.page-transition');
+        document.querySelectorAll('a[href^="/"]').forEach(link => {
+            // Skip anchor links and external links
+            if (link.href.includes('#') || !link.href.includes(window.location.host)) return;
             
-            links.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    // Skip if it's an anchor link or external URL
-                    if (this.href.includes('#') || !this.href.includes(window.location.hostname)) {
-                        return;
-                    }
-                    
-                    e.preventDefault();
-                    const href = this.getAttribute('href');
-                    
-                    // Show transition overlay
-                    transition.classList.add('active');
-                    
-                    // After transition, change page
-                    setTimeout(() => {
-                        window.location.href = href;
-                    }, 400);
-                });
-            });
-            
-            // On page load, fade out transition
-            if (transition) {
-                setTimeout(() => {
-                    transition.classList.remove('active');
-                }, 100);
-            }
-            
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-                    
-                    if (targetElement) {
-                        const headerHeight = document.querySelector('header').offsetHeight;
-                        const targetPosition = targetElement.offsetTop - headerHeight;
-                        
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
-                        
-                        if (document.querySelector('.menu-toggle').classList.contains('active')) {
-                            toggleMenu();
-                        }
-                    }
-                });
-            });
-            
-            // Mobile menu toggle
-            const menuToggle = document.querySelector('.menu-toggle');
-            const nav = document.querySelector('nav');
-            
-            function toggleMenu() {
-                menuToggle.classList.toggle('active');
-                nav.classList.toggle('active');
-            }
-            
-            if (menuToggle) {
-                menuToggle.addEventListener('click', toggleMenu);
-            }
-            
-            // Close menu when clicking on a link
-            document.querySelectorAll('nav ul li a').forEach(link => {
-                link.addEventListener('click', () => {
-                    if (window.innerWidth <= 768) {
-                        toggleMenu();
-                    }
-                });
-            });
-            
-            // Header scroll effect
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 100) {
-                    document.getElementById('header').classList.add('scrolled');
-                } else {
-                    document.getElementById('header').classList.remove('scrolled');
-                }
-            });
-            
-            // Cookie banner
-            const cookieBanner = document.getElementById('cookie-banner');
-            const acceptCookiesBtn = document.getElementById('accept-cookies');
-            
-            if (!localStorage.getItem('cookies-accepted') && cookieBanner) {
-                cookieBanner.style.display = 'flex';
+            link.addEventListener('click', function(e) {
+                // Skip if target is blank
+                if (this.target === '_blank') return;
                 
-                if (acceptCookiesBtn) {
-                    acceptCookiesBtn.addEventListener('click', () => {
-                        localStorage.setItem('cookies-accepted', 'true');
-                        cookieBanner.style.display = 'none';
-                    });
-                }
-            }
-
-            // Section animation on scroll
-            const sections = document.querySelectorAll('.section');
-            
-            function checkSections() {
-                sections.forEach(section => {
-                    const sectionTop = section.getBoundingClientRect().top;
-                    const windowHeight = window.innerHeight;
-                    
-                    if (sectionTop < windowHeight * 0.75) {
-                        section.classList.add('visible');
-                    }
-                });
-            }
-            
-            // Initialize
-            window.addEventListener('load', checkSections);
-            window.addEventListener('scroll', checkSections);
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                
+                // Show page transition
+                const transition = document.querySelector('.page-transition');
+                transition.style.opacity = '1';
+                transition.style.pointerEvents = 'auto';
+                
+                // After animation completes, navigate to new page
+                setTimeout(() => {
+                    window.location.href = href;
+                }, 400);
+            });
         });
         
         // When page loads, animate out the transition

@@ -51,6 +51,10 @@
             pointer-events: none;
             transition: opacity 0.4s ease;
         }
+
+        .page-transition.active {
+            opacity: 1;
+        }
         
         /* Header */
         header {

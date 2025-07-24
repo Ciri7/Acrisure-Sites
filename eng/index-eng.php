@@ -1601,16 +1601,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="#chi-siamo" class="nav-link">About Us</a></li>
                     <li><a href="#news" class="nav-link">News</a></li>
-                    <li><a href="#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="#" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a href="/index.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -1619,16 +1619,15 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Acrisure</h1>
-            <p>Acrisure combina tecnologia avanzata e competenza umana per offrirti soluzioni su misura per le tue esigenze personali e aziendali.</p>
-            <!-- <a href="#contatti" class="btn btn-secondary">Contattaci</a> -->
+            <p>Acrisure combines advanced technology with human expertise to provide you with tailored solutions for your personal and business needs.</p>
         </div>
     </section>
     
-    <!-- CHI SIAMO _________________________________________________________________________________________________________________________________ -->
+    <!-- ABOUT US _________________________________________________________________________________________________________________________________ -->
 
     <section id="chi-siamo" class="section about">
-        <h2 class="section-title">Chi Siamo</h2>
-        <p class="section-subtitle">Serviamo milioni di clienti commerciali di piccole e medie imprese, <br>così come individui e famiglie</p>
+        <h2 class="section-title">About Us</h2>
+        <p class="section-subtitle">We serve millions of commercial clients from small and medium-sized businesses, <br>as well as individuals and families</p>
         
         <div class="about-content">
             <div class="about-cards">
@@ -1636,70 +1635,46 @@
                     <div class="about-icon">
                         <i class="fas fa-globe-europe"></i>
                     </div>
-                    <h3>Presenza Globale</h3>
-                    <p>Broker di assicurazioni operante a livello nazionale e internazionale.
-                        Offriamo servizi di qualità fortemente competitivi.</p>
+                    <h3>Global Presence</h3>
+                    <p>Insurance broker operating nationally and internationally. We offer highly competitive quality services.</p>
                 </div>
-                
-                <!-- <div class="about-card">
-                    <div class="about-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Innovazione Tecnologica</h3>
-                    <p>La nostra piattaforma tecnologica avanzata ci permette di offrire soluzioni personalizzate con tempi di risposta rapidi e precisione.</p>
-                </div> -->
                 
                 <div class="about-card">
                     <div class="about-icon">
                         <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>Sociale</h3>
-                    <p>Leader globale nel settore Fintech  che unisce il meglio dell'umanità e dell'alta tecnologia fondata sulla fiducia, l'etica e la sostenibilità.</p>
+                    <h3>Social</h3>
+                    <p>Global leader in the Fintech sector that combines the best of humanity and high technology based on trust, ethics and sustainability.</p>
                 </div>
             </div>
             
             <div class="about-stats">
                 <div class="stat-item">
                     <div class="stat-number" data-count="6">0</div>
-                    <div class="stat-label">Sedi Operative</div>
+                    <div class="stat-label">Operational Offices</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number add-plus" data-count="+100">0</div>
-                    <div class="stat-label">Dipendenti</div>
+                    <div class="stat-label">Employees</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number" data-count="10">0</div>
-                    <div class="stat-label">Linee di Business</div>
+                    <div class="stat-label">Business Lines</div>
                 </div>
-                <!-- <div class="stat-item">
-                    <div class="stat-number" data-count="98">0</div>
-                    <div class="stat-label">Soddisfazione clienti</div>
-                </div> -->
             </div>
             
             <div class="about-values">
-                <!-- <h3>I nostri valori</h3> -->
                 <div class="values-grid">
-                    <!-- <div class="value-item">
-                        <i class="fas fa-shield-alt"></i>
-                        <h4>Valori</h4>
-                        <p>I nostri valori si fondano sulla fiducia, l'etica e la sostenibilità.</p>
-                    </div> -->
                     <div class="value-item">
                         <i class="fas fa-bullseye"></i>
-                        <h4>Valori</h4>
-                        <p>Mettiamo le persone al centro del nostro business, offrendo un esperienza eccezionale al cliente.</p>
+                        <h4>Values</h4>
+                        <p>We put people at the center of our business, offering an exceptional customer experience.</p>
                     </div>
                     <div class="value-item">
                         <i class="fas fa-rocket"></i>
-                        <h4>Innovazione</h4>
-                        <p>In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
+                        <h4>Innovation</h4>
+                        <p>Constantly updated with market news, we combine experience, professionalism and cutting-edge technological tools to guarantee a quality relationship with our partners, suppliers and customers.</p>
                     </div>
-                    <!-- <div class="value-item">
-                        <i class="fas fa-heart"></i>
-                        <h4>Passione</h4>
-                        <p>Amiamo quello che facciamo e ci impegniamo ogni giorno per offrirti il meglio.</p>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -1709,8 +1684,8 @@
 
     <!-- NEWS -->
     <section id="news" class="section news-section">
-        <h2 class="section-title">News & Aggiornamenti</h2>
-        <p class="section-subtitle" style="color: var(--light);">Scopri le ultime novità e gli aggiornamenti dal nostro gruppo</p>
+        <h2 class="section-title">News & Updates</h2>
+        <p class="section-subtitle" style="color: var(--light);">Discover the latest news and updates from our group</p>
         
         <div class="news-wrapper">
             <button class="news-nav prev" aria-label="Previous news">
@@ -1720,56 +1695,56 @@
             <div class="news-container">
                 <div class="news-card" data-index="0" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news1.jpg" alt="Nuova partnership nel settore agricolo">
+                        <img src="/img/news1.jpg" alt="New partnership in the agricultural sector">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">15 Marzo 2024</div>
-                        <h3>Nuova partnership nel settore agricolo</h3>
-                        <p>Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.</p>
+                        <div class="news-date">March 15, 2024</div>
+                        <h3>New partnership in the agricultural sector</h3>
+                        <p>Acrisure Agriculture announces a strategic collaboration with the main national agricultural consortium to offer even more advantageous policies.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="1" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news2.jpg" alt="Premio Innovazione Assicurativa 2024">
+                        <img src="/img/news2.jpg" alt="Insurance Innovation Award 2024">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">28 Febbraio 2024</div>
-                        <h3>Premio Innovazione Assicurativa 2024</h3>
-                        <p>Acrisure Italia si aggiudica il prestigioso premio per la sua piattaforma digitale di risk management avanzato.</p>
+                        <div class="news-date">February 28, 2024</div>
+                        <h3>Insurance Innovation Award 2024</h3>
+                        <p>Acrisure Italy wins the prestigious award for its advanced digital risk management platform.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="2" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news3.jpg" alt="Espansione della rete italiana">
+                        <img src="/img/news3.jpg" alt="Expansion of the Italian network">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">10 Gennaio 2024</div>
-                        <h3>Espansione della rete italiana</h3>
-                        <p>Apertura del nuovo ufficio di Torino, con un team specializzato in assicurazioni per il settore automotive.</p>
+                        <div class="news-date">January 10, 2024</div>
+                        <h3>Expansion of the Italian network</h3>
+                        <p>Opening of the new Turin office, with a team specialized in insurance for the automotive sector.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="3" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news4.jpg" alt="Nuovo servizio di welfare">
+                        <img src="/img/news4.jpg" alt="New welfare service">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">5 Dicembre 2023</div>
-                        <h3>Nuovo servizio di welfare</h3>
-                        <p>Lancio del nuovo pacchetto di benefit per i dipendenti delle aziende clienti, con soluzioni personalizzabili.</p>
+                        <div class="news-date">December 5, 2023</div>
+                        <h3>New welfare service</h3>
+                        <p>Launch of the new package of benefits for employees of client companies, with customizable solutions.</p>
                     </div>
                 </div>
                 
                 <div class="news-card" data-index="4" onclick="window.location.href='#'">
                     <div class="news-image">
-                        <img src="/img/news5.jpg" alt="Convegno annuale">
+                        <img src="/img/news5.jpg" alt="Annual conference">
                     </div>
                     <div class="news-content">
-                        <div class="news-date">20 Novembre 2023</div>
-                        <h3>Convegno annuale</h3>
-                        <p>Successo per il convegno "Innovazione e assicurazioni" organizzato da Acrisure Italia a Milano.</p>
+                        <div class="news-date">November 20, 2023</div>
+                        <h3>Annual conference</h3>
+                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italy in Milan.</p>
                     </div>
                 </div>
             </div>
@@ -1780,80 +1755,80 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsAcrisure.php" class="btn btn-secondary">Vedi tutte le news</a>
+            <a href="news/newsAcrisure.php" class="btn btn-secondary">View all news</a>
         </div>
     </section>
 
-    <!-- IL NOSTRO GRUPPO _____________________________________________________________________________________________________________________ -->
+    <!-- OUR GROUP _____________________________________________________________________________________________________________________ -->
 
     <section id="gruppo" class="section gruppo">
-        <h2 class="section-title">Il Nostro Gruppo</h2>
-        <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">Acrisure rappresenta un network di società specializzate che operano nei diversi ambiti del settore assicurativo, offrendo soluzioni integrate e competenze specifiche.</p>
+        <h2 class="section-title">Our Group</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">Acrisure represents a network of specialized companies operating in various areas of the insurance sector, offering integrated solutions and specific expertise.</p>
         
         <div class="aziende-container">
             <div class="aziende-grid">
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Italia S.p.A.</h3>
-                        <p class="azienda-desc">Società di brokeraggio assicurativo operante al livello nazionale e internazionale</p>
+                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italy" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Italy S.p.A.</h3>
+                        <p class="azienda-desc">Insurance brokerage company operating at national and international level</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="italia.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Services</h3>
-                        <p class="azienda-desc">Specializzati nelle attività operative e gestionali delle società, integrando competenze e interconnessioni tra molteplici aree di servizio</p>
+                        <p class="azienda-desc">Specialized in operational and management activities of companies, integrating skills and interconnections between multiple service areas</p>
                         <div class="azienda-link-container">
-                            <a href="services.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="services.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Re Italia</h3>
-                        <p class="azienda-desc">Leader nel settore della riassicurazione, con una profonda competenza nella gestione del rischio e del capitale</p>
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italy" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Re Italy</h3>
+                        <p class="azienda-desc">Leader in the reinsurance sector, with deep expertise in risk and capital management</p>
                         <div class="azienda-link-container">
-                            <a href="re.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="re.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agricolture S.r.l.</h3>
-                        <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
+                        <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agriculture" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Agriculture S.r.l.</h3>
+                        <p class="azienda-desc">Company specialized in insurance for risks related to the agricultural sector</p>
                         <div class="azienda-link-container">
-                            <a href="agricolture.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="agricolture.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agriservices</h3>
-                        <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
+                        <p class="azienda-desc">Insurance broker expert in policies for the protection of agricultural businesses</p>
                         <div class="azienda-link-container">
-                            <a href="agriservices.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="agriservices.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/Logo ALTA BROKER.jpg" alt="Alta Broker & Partners" class="azienda-logo">
                         <h3 class="azienda-nome">Alta Broker & Partners S.r.l.</h3>
-                        <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
+                        <p class="azienda-desc">Broker specialized in retail policies suitable for all your needs</p>
                         <div class="azienda-link-container">
-                            <a href="altabroker.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                            <a href="altabroker.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1861,76 +1836,11 @@
         </div>
     </section>
 
-    <!-- RICHIESTA INFORMAZIONI _______________________________________________________________________________________________________________________ -->
-
-    <!-- <section id="contatti" class="section">
-        <div class="contact-form">
-            <div class="form-header">
-                <h3>Richiedi informazioni</h3>
-                <p>Compila il form sottostante e ti risponderemo al più presto</p>
-            </div>
-            
-            <div id="formMessage" class="form-message"></div>
-            
-            <form id="contactForm">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="name">Nome e Cognome <span class="required">*</span></label>
-                        <input type="text" id="name" name="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Azienda</label>
-                        <input type="text" id="company" name="company" class="form-control">
-                    </div>
-                </div>
-                
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefono</label>
-                        <input type="tel" id="phone" name="phone" class="form-control">
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="service">Servizio di interesse <span class="required">*</span></label>
-                    <select id="service" name="service" class="form-control" required>
-                        <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Claim & Services</option>
-                        <option value="gestione_sinistri">Gestioni Sinistri</option>
-                        <option value="automotive_solution">Automotive Solution</option>
-                        <option value="welfare">Welfare</option>
-                        <option value="enti_pubblici">Enti Pubblici</option>
-                        <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Riassicurazione</option>
-                        <option value="altro">Altro</option>
-                    </select>
-                </div><br>
-                
-                <div class="form-group">
-                    <label for="message">Messaggio <span class="required">*</span></label>
-                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
-                </div>
-                
-                <div class="form-footer">
-                    <div class="form-note">
-                        <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyAcrisure.php">Privacy Policy</a></p>
-                    </div>
-                    <button type="submit" class="btn">Invia Richiesta</button>
-                </div>
-            </form>
-        </div>
-    </section> -->
-
-<!-- CITAZIONE _____________________________________________________________________________________________________________________________________ -->
+    <!-- QUOTE _____________________________________________________________________________________________________________________________________ -->
 
     <section id="home" class="hero2">
         <div class="hero-content">
-            <h1>“Solo coloro che hanno il coraggio di affrontare i grandi insuccessi possono ottenere grandi successi”</h1><br>
+            <h1>"Only those who dare to fail greatly can ever achieve greatly"</h1><br>
             <p>~ Bobby Kennedy</p>
         </div>
     </section>
@@ -1941,28 +1851,27 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Headquarters</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure S.r.l.</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt="Acrisure Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it"> info@acrisure.it</a></li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:acrisure@legalmail.it"> acrisure@legalmail.it</a></li>
                 </ul>
@@ -1974,17 +1883,11 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i>Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
-                
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
                 
                 <div class="legal-links">
                     <a href="/policy/policyAcrisure.php">Privacy Policy</a>
@@ -1994,28 +1897,18 @@
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure S.r.l. - Cap. sociale €10.000,00 i.v. <br>
-            Società appartenente al Gruppo IVA Acrisure P.IVA 13147890969<br>
-            Cod. Fiscale e n.iscr. al Registro Imprese di Sassari n.11635300962 - REA SS-222619 </p>
+            <p>Acrisure S.r.l. - Share capital €10,000.00 fully paid up <br>
+            Company belonging to the Acrisure VAT Group VAT number 13147890969<br>
+            Tax Code and registration number in the Sassari Company Register no.11635300962 - REA SS-222619 </p>
         </div>
     </footer>
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesAcrisure.php">Maggiori informazioni</a></p>
-        <button id="accept-cookies" class="btn">Accetta</button>
+        <p>We use cookies to improve your experience. <a href="/eng/cookies-eng/cookiesAcrisure-eng.php">More information</a></p>
+        <button id="accept-cookies" class="btn">Accept</button>
     </div>
 
     <script>

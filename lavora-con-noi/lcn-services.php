@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavora con Noi - Acrisure Services</title>
-    <meta name="description" content="Unisciti al team di Acrisure Services. Scopri le opportunità di carriera e invia la tua candidatura.">
-    <link rel="canonical" href="https://www.acrisureservices.it/lavora-con-noi" />
+    <title>Acrisure - Lavora Con Noi</title>
+    <meta name="description" content="Unisciti al team di Acrisure. Scopri le opportunità di carriera e invia la tua candidatura.">
+    <link rel="canonical" href="https://www.acrisure.it/lavora-con-noi" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Stili base (gli stessi del file principale) */
@@ -1001,8 +1001,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/services.php">
-                    <img src="/img/Acrisure Services.jpg" class="logo" alt="Acrisure Services">
+                <a href="/index.php">
+                <img src="/img/AcrisureLOGO.png" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -1012,18 +1012,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/services.php#news" class="nav-link">News</a></li>
-                    <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/services.php#services" class="nav-link">Servizi</a></li>
+                    <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="/index.php#news" class="nav-link">News</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#header" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="#header" class="nav-link">Lavora Con noi</a></li>
                 </ul>
             </nav>
-    
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
+                    <li><a href="#" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -1031,8 +1029,8 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Lavora con Noi</h1>
-            <p>Unisciti al team di Acrisure Services e fai parte di una realtà dinamica e in continua crescita nel settore assicurativo.</p>
+            <h1>Lavora Con Noi</h1>
+            <p>Unisciti al team di Acrisure e fai parte di una realtà dinamica e in continua crescita nel settore assicurativo.</p>
             <a href="#open-positions" class="btn btn-secondary">Scopri le posizioni aperte</a>
         </div>
     </section>
@@ -1278,7 +1276,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="../policy/policyServices.php">Privacy Policy</a></p>
+                        <p>Leggi la nostra <a href="../policy/policyAcrisure.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Invia Candidatura</button>
                 </div>
@@ -1291,10 +1289,10 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Services</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Services.jpg" class="logo-footer" alt=""></li>
+                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
@@ -1303,20 +1301,16 @@
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
-                    <!-- <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li> -->
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i>Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it"> info@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:acrisure@legalmail.it"> acrisure@legalmail.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -1326,22 +1320,22 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i>Orari Ufficio</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <div class="footer-badge">
+                <!-- <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div>
+                </div> -->
                 
                 <div class="legal-links">
-                    <a href="/policy/policyServices.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesServices.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
+                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -1358,9 +1352,9 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Services - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap.sociale € 10.000,00 i.v- Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
-            Cod.Fiscale e n. iscr.al registro Imprese di Sassari n.02888100902   REA SS- 212778</p>
+            <p>Acrisure S.r.l. - Cap. sociale €10.000,00 i.v. <br>
+            Società appartenente al Gruppo IVA Acrisure P.IVA 13147890969<br>
+            Cod. Fiscale e n.iscr. al Registro Imprese di Sassari n.11635300962 - REA SS-222619 </p>
         </div>
     </footer>
 

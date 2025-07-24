@@ -2071,7 +2071,7 @@
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>We use cookies to improve your experience. <a href="/cookies/cookiesItalia.php">More information</a></p>
+        <p>We use cookies to improve your experience. <a href="/eng/cookies-eng/cookiesItalia-eng.php">More information</a></p>
         <button id="accept-cookies" class="btn">Accept</button>
     </div>
 

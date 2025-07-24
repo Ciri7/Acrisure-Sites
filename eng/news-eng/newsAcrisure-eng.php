@@ -948,7 +948,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/index.php">
+                <a href="/eng/index-eng.php">
                 <img src="/img/Acrisure.png" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
@@ -959,16 +959,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="/index.php#news" class="nav-link">News</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/eng/index-eng.php#chi-siamo" class="nav-link">About Us</a></li>
+                    <li><a href="/eng/index-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="#" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a href="/news/newsAcrisure.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -977,7 +977,7 @@
     <!-- Hero Section -->
     <section class="news-hero">
         <div class="news-hero-content">
-            <h1>News & Aggiornamenti</h1>
+            <h1>News & Updates</h1>
         </div>
     </section>
 
@@ -986,67 +986,67 @@
         <div class="news-grid">
             <!-- News Article 1 -->
             <article class="news-card">
-                <img src="/img/news1.jpg" alt="Nuova partnership nel settore agricolo" class="news-image">
+                <img src="/img/news1.jpg" alt="New partnership in the agricultural sector" class="news-image">
                 <div class="news-content">
-                    <span class="news-date">15 Marzo 2024</span>
-                    <h3>Nuova partnership nel settore agricolo</h3>
-                    <p class="news-excerpt">Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.</p>
-                    <a href="news-article.php?id=1" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <span class="news-date">March 15, 2024</span>
+                    <h3>New partnership in the agricultural sector</h3>
+                    <p class="news-excerpt">Acrisure Agriculture announces a strategic collaboration with the main national agricultural consortium to offer even more advantageous policies.</p>
+                    <a href="news-article.php?id=1" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
             <!-- News Article 2 -->
             <article class="news-card">
-                <img src="/img/news2.jpg" alt="Premio Innovazione Assicurativa 2024" class="news-image">
+                <img src="/img/news2.jpg" alt="Insurance Innovation Award 2024" class="news-image">
                 <div class="news-content">
-                    <span class="news-date">28 Febbraio 2024</span>
-                    <h3>Premio Innovazione Assicurativa 2024</h3>
-                    <p class="news-excerpt">Acrisure Italia si aggiudica il prestigioso premio per la sua piattaforma digitale di risk management avanzato.</p>
-                    <a href="news-article.php?id=2" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <span class="news-date">February 28, 2024</span>
+                    <h3>Insurance Innovation Award 2024</h3>
+                    <p class="news-excerpt">Acrisure Italy wins the prestigious award for its advanced digital risk management platform.</p>
+                    <a href="news-article.php?id=2" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
             <!-- News Article 3 -->
             <article class="news-card">
-                <img src="/img/news3.jpg" alt="Espansione della rete italiana" class="news-image">
+                <img src="/img/news3.jpg" alt="Expansion of the Italian network" class="news-image">
                 <div class="news-content">
-                    <span class="news-date">10 Gennaio 2024</span>
-                    <h3>Espansione della rete italiana</h3>
-                    <p class="news-excerpt">Apertura del nuovo ufficio di Torino, con un team specializzato in assicurazioni per il settore automotive.</p>
-                    <a href="news-article.php?id=3" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <span class="news-date">January 10, 2024</span>
+                    <h3>Expansion of the Italian network</h3>
+                    <p class="news-excerpt">Opening of the new Turin office, with a team specialized in insurance for the automotive sector.</p>
+                    <a href="news-article.php?id=3" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
             <!-- News Article 4 -->
             <article class="news-card">
-                <img src="/img/news4.jpg" alt="Nuovo servizio di risk management" class="news-image">
+                <img src="/img/news4.jpg" alt="New risk management service" class="news-image">
                 <div class="news-content">
-                    <span class="news-date">5 Dicembre 2023</span>
-                    <h3>Lancio del nuovo servizio di risk management</h3>
-                    <p class="news-excerpt">Acrisure lancia una piattaforma innovativa per la gestione del rischio per le PMI italiane.</p>
-                    <a href="news-article.php?id=4" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <span class="news-date">December 5, 2023</span>
+                    <h3>Launch of the new risk management service</h3>
+                    <p class="news-excerpt">Acrisure launches an innovative platform for risk management for Italian SMEs.</p>
+                    <a href="news-article.php?id=4" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
             <!-- News Article 5 -->
             <article class="news-card">
-                <img src="/img/news5.jpg" alt="Partnership con università" class="news-image">
+                <img src="/img/news5.jpg" alt="University partnership" class="news-image">
                 <div class="news-content">
-                    <span class="news-date">20 Novembre 2023</span>
-                    <h3>Partnership con l'Università di Sassari</h3>
-                    <p class="news-excerpt">Collaborazione con il dipartimento di Economia per la formazione di nuovi professionisti nel settore assicurativo.</p>
-                    <a href="news-article.php?id=5" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <span class="news-date">November 20, 2023</span>
+                    <h3>Partnership with the University of Sassari</h3>
+                    <p class="news-excerpt">Collaboration with the Economics department for the training of new professionals in the insurance sector.</p>
+                    <a href="news-article.php?id=5" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
             <!-- News Article 6 -->
             <article class="news-card">
-                <img src="/img/news6.jpg" alt="Evento annuale Acrisure" class="news-image">
+                <img src="/img/news6.jpg" alt="Acrisure annual event" class="news-image">
                 <div class="news-content">
-                    <span class="news-date">15 Ottobre 2023</span>
-                    <h3>Successo dell'evento annuale Acrisure Italia</h3>
-                    <p class="news-excerpt">Oltre 200 partecipanti all'evento che ha presentato le novità per il 2024 e le tendenze del settore.</p>
-                    <a href="news-article.php?id=6" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <span class="news-date">October 15, 2023</span>
+                    <h3>Success of the Acrisure Italy annual event</h3>
+                    <p class="news-excerpt">Over 200 participants at the event that presented the news for 2024 and industry trends.</p>
+                    <a href="news-article.php?id=6" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
         </div>
@@ -1065,28 +1065,31 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Sede Legale</h3>
+                <h3><i class="fas fa-building"></i> Headquarters</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
-                    <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-id-card"></i> VAT: 13147890969</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt="Acrisure Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>20123 - Via Santa Maria Segreta 6</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>20123 - 6 Santa Maria Segreta Street</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>00198 - 6 Lovanio Street</li>
+                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>10123 - 15 San Francesco Da Paola Street</li>
+                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>16121 - 9 Victory Square</li>
+                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>38023 - 44 Granda Square</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079/2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079/2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
@@ -1098,16 +1101,16 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
                 <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
+                    <img src="/img/BV.jpg" class="logo-footer" alt="BV Logo"> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt="ACCREDIA Mark"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="AIBA Logo"></a>
                 </div>
                 
                 <div class="legal-links">
@@ -1118,21 +1121,11 @@
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure S.r.l. - Cap. sociale €10.000,00 i.v. <br>
-            Società appartenente al Gruppo IVA Acrisure P.IVA 13147890969<br>
-            Cod. Fiscale e n.iscr. al Registro Imprese di Sassari n.11635300962 - REA SS-222619 </p>
+            <p>Acrisure S.r.l. - Share capital €10,000.00 fully paid up <br>
+            Company belonging to the Acrisure VAT Group VAT number 13147890969<br>
+            Tax Code and registration number in the Sassari Company Register no.11635300962 - REA SS-222619 </p>
         </div>
     </footer>
 

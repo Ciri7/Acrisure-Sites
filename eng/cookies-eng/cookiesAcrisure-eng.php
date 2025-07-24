@@ -651,7 +651,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/index.php">
+                <a href="/eng/index-eng.php">
                     <img src="/img/Acrisure.png" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -662,16 +662,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="/index.php#news" class="nav-link">News</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/eng/index-eng.php#chi-siamo" class="nav-link">About Us</a></li>
+                    <li><a href="/eng/index-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="#" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a href="/cookies/cookiesAcrisure.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -685,153 +685,153 @@
 
     <div class="policy-container">
         <div class="policy-section">
-            <h2>Introduzione</h2>
-            <p>Questa Cookie Policy spiega come Acrisure Italia ("noi", "nostro" o "nostri") utilizza i cookie e tecnologie simili quando visiti il nostro sito web <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Sito"). Ti informiamo su cosa sono i cookie, come li utilizziamo e come puoi gestirli.</p>
-            <p>Utilizzando il nostro Sito, acconsenti all'uso dei cookie in conformità con questa Cookie Policy. Se non accetti il nostro uso dei cookie, ti preghiamo di disabilitarli seguendo le istruzioni in questa policy o di non utilizzare il nostro Sito.</p>
+            <h2>Introduction</h2>
+            <p>This Cookie Policy explains how Acrisure Italy ("we", "our" or "us") uses cookies and similar technologies when you visit our website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site"). We inform you about what cookies are, how we use them, and how you can manage them.</p>
+            <p>By using our Site, you consent to the use of cookies in accordance with this Cookie Policy. If you do not agree to our use of cookies, please disable them following the instructions in this policy or do not use our Site.</p>
         </div>
 
         <div class="policy-section">
-            <h2>Cosa sono i cookie?</h2>
-            <p>I cookie sono piccoli file di testo che i siti web visitati dall'utente inviano e registrano sul suo computer o dispositivo mobile, per essere poi ritrasmessi agli stessi siti alla visita successiva. Grazie ai cookie, un sito ricorda le azioni e le preferenze dell'utente (come dati di accesso, lingua, dimensioni dei caratteri, altre impostazioni di visualizzazione, ecc.) in modo che non debbano essere indicate nuovamente quando l'utente torna a visitare detto sito o naviga da una pagina all'altra dello stesso.</p>
-            <p>I cookie sono utilizzati per eseguire autenticazioni informatiche, monitoraggio di sessioni e memorizzazione di informazioni riguardanti le attività degli utenti che accedono a un sito e possono contenere anche un codice identificativo univoco che consente di tenere traccia della navigazione dell'utente all'interno del sito stesso per finalità statistiche o pubblicitarie.</p>
+            <h2>What are cookies?</h2>
+            <p>Cookies are small text files that websites visited by the user send and record on their computer or mobile device, to be then retransmitted to the same sites on subsequent visits. Thanks to cookies, a site remembers the user's actions and preferences (such as login data, language, font size, other display settings, etc.) so they don't have to be indicated again when the user returns to visit said site or navigates from one page to another within it.</p>
+            <p>Cookies are used to perform computer authentication, session monitoring and storage of information regarding the activities of users accessing a site and may also contain a unique identification code that allows tracking the user's navigation within the site itself for statistical or advertising purposes.</p>
         </div>
 
         <div class="policy-section">
-            <h2>Tipi di cookie che utilizziamo</h2>
-            <p>Il nostro Sito utilizza diverse tipologie di cookie, ciascuna con una specifica funzione:</p>
+            <h2>Types of cookies we use</h2>
+            <p>Our Site uses different types of cookies, each with a specific function:</p>
             
-            <h3>1. Cookie tecnici</h3>
-            <p>Questi cookie sono essenziali per il corretto funzionamento del nostro Sito e per consentirti di navigare e utilizzare le sue funzionalità. Senza questi cookie, alcune funzionalità del Sito potrebbero non essere disponibili.</p>
+            <h3>1. Technical cookies</h3>
+            <p>These cookies are essential for the proper functioning of our Site and to allow you to navigate and use its features. Without these cookies, some Site functionalities might not be available.</p>
             <ul>
-                <li><strong>Cookie di sessione</strong>: vengono cancellati quando chiudi il browser e sono necessari per il funzionamento del sito (es. mantenimento della sessione di navigazione).</li>
-                <li><strong>Cookie di funzionalità</strong>: ricordano le tue scelte (come lingua o regione) per migliorare la tua esperienza.</li>
+                <li><strong>Session cookies</strong>: are deleted when you close the browser and are necessary for the site's operation (e.g. maintaining the navigation session).</li>
+                <li><strong>Functionality cookies</strong>: remember your choices (such as language or region) to improve your experience.</li>
             </ul>
             
-            <h3>2. Cookie analitici</h3>
-            <p>Questi cookie ci aiutano a comprendere come i visitatori interagiscono con il nostro Sito, fornendoci informazioni sul numero di visitatori, le pagine visitate, il tempo trascorso sul sito, ecc. Utilizziamo queste informazioni per migliorare il nostro Sito e l'esperienza dell'utente.</p>
-            <p>Questi cookie sono raccolti in forma anonima e aggregata.</p>
+            <h3>2. Analytical cookies</h3>
+            <p>These cookies help us understand how visitors interact with our Site, providing us with information about the number of visitors, pages visited, time spent on the site, etc. We use this information to improve our Site and user experience.</p>
+            <p>These cookies are collected anonymously and in aggregate form.</p>
             
-            <h3>3. Cookie di terze parti</h3>
-            <p>Alcune pagine del nostro Sito possono contenere cookie di terze parti che gestiscono contenuti e servizi come social plugin o servizi di analisi. Queste terze parti possono impostare cookie propri per tracciare l'attività dell'utente e fornire i propri servizi.</p>
-            <p>Non abbiamo controllo sul contenuto di questi cookie, che sono gestiti interamente dalle terze parti secondo le loro rispettive policy.</p>
+            <h3>3. Third-party cookies</h3>
+            <p>Some pages of our Site may contain third-party cookies that manage content and services such as social plugins or analytics services. These third parties may set their own cookies to track user activity and provide their services.</p>
+            <p>We have no control over the content of these cookies, which are entirely managed by third parties according to their respective policies.</p>
         </div>
 
         <div class="policy-section">
-            <h2>Dettaglio dei cookie utilizzati</h2>
-            <p>Di seguito è riportato un elenco dettagliato dei cookie utilizzati sul nostro Sito:</p>
+            <h2>Detailed list of cookies used</h2>
+            <p>Below is a detailed list of cookies used on our Site:</p>
             
             <table>
                 <thead>
                     <tr>
-                        <th>Nome cookie</th>
-                        <th>Tipo</th>
-                        <th>Scopo</th>
-                        <th>Durata</th>
+                        <th>Cookie name</th>
+                        <th>Type</th>
+                        <th>Purpose</th>
+                        <th>Duration</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>PHPSESSID</td>
-                        <td>Tecnico</td>
-                        <td>Mantiene lo stato della sessione dell'utente durante la navigazione</td>
-                        <td>Fino alla chiusura del browser</td>
+                        <td>Technical</td>
+                        <td>Maintains user session state during navigation</td>
+                        <td>Until browser closes</td>
                     </tr>
                     <tr>
                         <td>cookie_consent</td>
-                        <td>Tecnico</td>
-                        <td>Memorizza la scelta dell'utente riguardo l'accettazione dei cookie</td>
-                        <td>1 anno</td>
+                        <td>Technical</td>
+                        <td>Stores user's choice regarding cookie acceptance</td>
+                        <td>1 year</td>
                     </tr>
                     <tr>
                         <td>_ga</td>
-                        <td>Analitico (Google Analytics)</td>
-                        <td>Distingue gli utenti unici assegnando un numero generato casualmente come identificatore del cliente</td>
-                        <td>2 anni</td>
+                        <td>Analytical (Google Analytics)</td>
+                        <td>Distinguishes unique users by assigning a randomly generated number as client identifier</td>
+                        <td>2 years</td>
                     </tr>
                     <tr>
                         <td>_gid</td>
-                        <td>Analitico (Google Analytics)</td>
-                        <td>Distingue gli utenti</td>
-                        <td>24 ore</td>
+                        <td>Analytical (Google Analytics)</td>
+                        <td>Distinguishes users</td>
+                        <td>24 hours</td>
                     </tr>
                     <tr>
                         <td>_gat</td>
-                        <td>Analitico (Google Analytics)</td>
-                        <td>Utilizzato per limitare la frequenza delle richieste</td>
-                        <td>1 minuto</td>
+                        <td>Analytical (Google Analytics)</td>
+                        <td>Used to limit request rate</td>
+                        <td>1 minute</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
         <div class="policy-section">
-            <h2>Come gestire i cookie</h2>
-            <p>Puoi gestire le tue preferenze sui cookie attraverso le impostazioni del tuo browser. La maggior parte dei browser ti permette di:</p>
+            <h2>How to manage cookies</h2>
+            <p>You can manage your cookie preferences through your browser settings. Most browsers allow you to:</p>
             <ul>
-                <li>Visualizzare i cookie presenti sul tuo dispositivo e cancellarli</li>
-                <li>Bloccare i cookie di terze parti</li>
-                <li>Bloccare i cookie da determinati siti</li>
-                <li>Bloccare l'impostazione di tutti i cookie</li>
-                <li>Cancellare tutti i cookie quando chiudi il browser</li>
+                <li>View cookies on your device and delete them</li>
+                <li>Block third-party cookies</li>
+                <li>Block cookies from specific sites</li>
+                <li>Block all cookies from being set</li>
+                <li>Delete all cookies when you close the browser</li>
             </ul>
             
-            <p>Se scegli di disabilitare i cookie, alcune parti del nostro Sito potrebbero non funzionare correttamente. Alcune funzionalità potrebbero non essere disponibili e alcune pagine potrebbero non essere visualizzate correttamente.</p>
+            <p>If you choose to disable cookies, some parts of our Site may not work properly. Some features may not be available and some pages may not display correctly.</p>
             
-            <h3>Guide per browser specifici:</h3>
+            <h3>Browser-specific guides:</h3>
             <ul>
                 <li><a href="https://support.google.com/chrome/answer/95647" target="_blank">Google Chrome</a></li>
-                <li><a href="https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie" target="_blank">Mozilla Firefox</a></li>
-                <li><a href="https://support.microsoft.com/it-it/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Internet Explorer</a></li>
-                <li><a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank">Safari</a></li>
+                <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank">Mozilla Firefox</a></li>
+                <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Internet Explorer</a></li>
+                <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank">Safari</a></li>
                 <li><a href="https://help.opera.com/en/latest/web-preferences/#cookies" target="_blank">Opera</a></li>
             </ul>
             
-            <p>Per disattivare specificamente i cookie di Google Analytics, puoi scaricare il componente aggiuntivo del browser disponibile al seguente link: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a></p>
+            <p>To specifically disable Google Analytics cookies, you can download the browser add-on available at the following link: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a></p>
         </div>
 
         <div class="policy-section">
-            <h2>Modifiche alla Cookie Policy</h2>
-            <p>Ci riserviamo il diritto di apportare modifiche a questa Cookie Policy in qualsiasi momento. Tutte le modifiche saranno pubblicate su questa pagina e, se significative, verranno comunicate attraverso un avviso ben visibile sul nostro Sito.</p>
-            <p>Ti invitiamo a consultare periodicamente questa pagina per essere informato su eventuali cambiamenti.</p>
+            <h2>Changes to the Cookie Policy</h2>
+            <p>We reserve the right to make changes to this Cookie Policy at any time. All changes will be published on this page and, if significant, will be communicated through a clearly visible notice on our Site.</p>
+            <p>We invite you to periodically review this page to be informed of any changes.</p>
         </div>
 
         <div class="policy-section">
-            <h2>Contatti</h2>
-            <p>Per qualsiasi domanda o richiesta di chiarimenti riguardanti questa Cookie Policy, puoi contattarci:</p>
+            <h2>Contacts</h2>
+            <p>For any questions or requests for clarification regarding this Cookie Policy, you can contact us:</p>
             <ul>
-                <li>Via email: <a href="mailto:privacy@acrisureitalia.com">privacy@acrisureitalia.com</a></li>
-                <li>Per posta: Acrisure S.r.l. - Via Giuseppe Mazzini, 3 - 07100 Sassari (SS)</li>
+                <li>By email: <a href="mailto:privacy@acrisureitalia.com">privacy@acrisureitalia.com</a></li>
+                <li>By mail: Acrisure S.r.l. - 3 Giuseppe Mazzini Street - 07100 Sassari (SS)</li>
             </ul>
         </div>
 
-        <p class="last-updated">Ultimo aggiornamento: 15 Giugno 2024</p>
+        <p class="last-updated">Last updated: June 15, 2024</p>
     </div>
 
     <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Sede Legale</h3>
+                <h3><i class="fas fa-building"></i> Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Italy S.p.A.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
@@ -844,25 +844,25 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">complaints@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
                 <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
                 </div>
                 
                 <div class="legal-links">
@@ -873,21 +873,11 @@
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure Italy S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital € 200,000.00 fully paid up - RUI B000673774. Company participating in the Acrisure Group VAT P7.VAT 13147890969 - <br>
+            Tax Code and registration number in the Sassari Companies Register No. 02848210908. REA SS-222619</p>
         </div>
     </footer>
 

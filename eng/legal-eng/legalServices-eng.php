@@ -828,7 +828,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/services.php">
+                <a href="/eng/services-eng.php">
                     <img src="/img/Acrisure Services.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -841,15 +841,15 @@
                 <ul>
                     <li><a href="/services.php#news" class="nav-link">News</a></li>
                     <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/services.php#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-services.php" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/services.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/lavora-con-noi/lcn-services.php" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a href="#" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -858,92 +858,92 @@
     <section class="legal-hero">
         <div class="hero-content">
             <h1>Legal & Compliance</h1>
-            <p>Il nostro impegno per la trasparenza, la conformità normativa e la tutela degli stakeholder.</p>
+            <p>Our commitment to transparency, regulatory compliance, and stakeholder protection.</p>
         </div>
     </section>
 
     <section class="section">
         <div class="legal-content">
             <div class="legal-section">
-                <h2>Governance e Compliance</h2>
-                <p>Acrisure Italia opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
+                <h2>Governance and Compliance</h2>
+                <p>Acrisure Italy operates in full compliance with current regulations, adopting the highest standards of governance and compliance. Our approach is based on transparency, integrity, and accountability, ensuring compliance with all legal and regulatory provisions applicable to the insurance sector.</p>
                 
                 <div class="compliance-grid">
                     <div class="compliance-box">
-                        <h3><i class="fas fa-balance-scale"></i> Normativa IVASS</h3>
-                        <p>Rispettiamo scrupolosamente le disposizioni dell'IVASS (Istituto per la Vigilanza sulle Assicurazioni), garantendo la massima trasparenza nelle relazioni con i clienti e la corretta gestione dei prodotti assicurativi.</p>
+                        <h3><i class="fas fa-balance-scale"></i> IVASS Regulations</h3>
+                        <p>We strictly comply with the provisions of IVASS (Institute for the Supervision of Insurance), guaranteeing maximum transparency in customer relations and proper management of insurance products.</p>
                     </div>
                     
                     <div class="compliance-box">
-                        <h3><i class="fas fa-shield-alt"></i> Antiriciclaggio</h3>
-                        <p>Abbiamo implementato un solido sistema di prevenzione del riciclaggio e del finanziamento del terrorismo, in conformità al D.Lgs. 231/2007 e alle successive modifiche.</p>
+                        <h3><i class="fas fa-shield-alt"></i> Anti-Money Laundering</h3>
+                        <p>We have implemented a robust system for preventing money laundering and terrorist financing, in compliance with Legislative Decree 231/2007 and subsequent amendments.</p>
                     </div>
                     
                     <div class="compliance-box">
-                        <h3><i class="fas fa-user-shield"></i> Protezione Dati</h3>
-                        <p>La privacy e la sicurezza dei dati personali sono prioritarie. Il trattamento avviene nel rispetto del GDPR (Regolamento UE 2016/679) e del Codice Privacy italiano.</p>
+                        <h3><i class="fas fa-user-shield"></i> Data Protection</h3>
+                        <p>Privacy and security of personal data are priorities. Processing occurs in compliance with GDPR (EU Regulation 2016/679) and the Italian Privacy Code.</p>
                     </div>
                     
                     <div class="compliance-box">
-                        <h3><i class="fas fa-handshake"></i> Condotta Commerciale</h3>
-                        <p>Adottiamo politiche rigorose per garantire correttezza, trasparenza e lealtà in tutte le attività commerciali, in linea con le disposizioni IVASS sulla distribuzione assicurativa.</p>
+                        <h3><i class="fas fa-handshake"></i> Commercial Conduct</h3>
+                        <p>We adopt rigorous policies to ensure fairness, transparency, and integrity in all commercial activities, in line with IVASS provisions on insurance distribution.</p>
                     </div>
                 </div>
             </div>
 
             <div class="legal-section">
-                <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
-                <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
+                <h2>Supervisory Body under Legislative Decree 231/2001</h2>
+                <p>In compliance with Legislative Decree No. 231 of June 8, 2001, Acrisure Italy has established a Supervisory Body with the task of:</p>
                 <ul>
-                    <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
-                    <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
-                    <li>Segnalare eventuali anomalie o violazioni</li>
-                    <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
+                    <li>Monitoring the adequacy and effectiveness of the Organizational Model</li>
+                    <li>Verifying compliance with adopted procedures and protocols</li>
+                    <li>Reporting any anomalies or violations</li>
+                    <li>Proposing updates to the Model in case of regulatory or organizational changes</li>
                 </ul>
-                <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
+                <p>The Body operates with full autonomy and independence, ensuring constant updating of prevention measures.</p>
             </div>
 
             <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
+                <h2>Model 231 and Code of Ethics</h2>
+                <p>Acrisure Italy has adopted an Organizational Model pursuant to Legislative Decree 231/2001, which includes:</p>
                 <ul>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
+                    <li>Analysis of crime risks</li>
+                    <li>Prevention protocols</li>
+                    <li>Disciplinary system</li>
+                    <li>Information flows and controls</li>
                 </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
+                <p>The Code of Ethics defines the principles and values that guide our activities, establishing behavioral standards for employees, administrators, and collaborators.</p>
             </div>
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
-                <p>In conformità alla normativa sulla protezione dei segnalanti (Direttiva UE 2019/1937 e D.Lgs. 24/2023), Acrisure Italia ha istituito un canale dedicato per la segnalazione di violazioni o irregolarità.</p>
-                <p>Le segnalazioni possono essere inviate:</p>
+                <p>In compliance with whistleblower protection legislation (EU Directive 2019/1937 and Legislative Decree 24/2023), Acrisure Italy has established a dedicated channel for reporting violations or irregularities.</p>
+                <p>Reports can be submitted:</p>
                 <ul>
-                    <li>Tramite email a: <a href="mailto:whistleblowing@acrisure.it">whistleblowing@acrisure.it</a></li>
-                    <li>Tramite posta raccomandata all'indirizzo: Organismo di Vigilanza - Via Giuseppe Mazzini, 3 - 07100 Sassari</li>
+                    <li>Via email to: <a href="mailto:whistleblowing@acrisure.it">whistleblowing@acrisure.it</a></li>
+                    <li>Via registered mail to: Supervisory Body - Giuseppe Mazzini Street, 3 - 07100 Sassari</li>
                 </ul>
-                <p>Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.</p>
+                <p>We guarantee maximum confidentiality and protection against retaliation for whistleblowers acting in good faith.</p>
             </div>
 
             <div class="legal-section">
-                <h2>Documenti e Risorse</h2>
-                <p>Scarica i principali documenti relativi alla nostra governance e compliance:</p>
+                <h2>Documents and Resources</h2>
+                <p>Download the main documents related to our governance and compliance:</p>
                 <ul>
-                    <li><a href="/documents/codice-etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li><a href="/documents/modello-231.pdf" target="_blank">Modello Organizzativo 231</a></li>
-                    <li><a href="/documents/procedura-whistleblowing.pdf" target="_blank">Procedura Whistleblowing</a></li>
-                    <li><a href="/documents/politica-antiriciclaggio.pdf" target="_blank">Politica Antiriciclaggio</a></li>
+                    <li><a href="/documents/codice-etico.pdf" target="_blank">Code of Ethics</a></li>
+                    <li><a href="/documents/modello-231.pdf" target="_blank">Organizational Model 231</a></li>
+                    <li><a href="/documents/procedura-whistleblowing.pdf" target="_blank">Whistleblowing Procedure</a></li>
+                    <li><a href="/documents/politica-antiriciclaggio.pdf" target="_blank">Anti-Money Laundering Policy</a></li>
                 </ul>
             </div>
 
             <div class="legal-section">
-                <h2>Contatti Compliance</h2>
-                <p>Per informazioni o segnalazioni relative a legal e compliance:</p>
-                <p><strong>Responsabile Compliance</strong><br>
+                <h2>Compliance Contacts</h2>
+                <p>For information or reports related to legal and compliance:</p>
+                <p><strong>Compliance Officer</strong><br>
                 Email: <a href="mailto:compliance@acrisure.it">compliance@acrisure.it</a><br>
-                Telefono: 079/2016047 (interno 5)</p>
-                <p><strong>Organismo di Vigilanza</strong><br>
+                Phone: 079/2016047 (extension 5)</p>
+                <p><strong>Supervisory Body</strong><br>
                 Email: <a href="mailto:organismo.vigilanza@acrisure.it">organismo.vigilanza@acrisure.it</a></p>
             </div>
         </div>
@@ -953,29 +953,28 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure Services</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Services.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i><a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-envelope"></i><a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
@@ -988,41 +987,25 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
-                
                 <div class="legal-links">
-                    <a href="/policy/policyServices.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesServices.php">Cookie Policy</a>
+                    <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesServices-eng.php">Cookie Policy</a>
                     <a href="#header">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Services S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 10.000,00 i.v- Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
-            Cod.Fiscale e n. iscr.al registro Imprese di Sassari n.02888100902   REA SS- 212778</p>
+            <p>Acrisure Services S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital €10,000.00 fully paid - Company participating in the Acrisure VAT Group VAT No. 13147890969 - <br>
+            Tax Code and registration number in the Sassari Companies Register No. 02888100902   REA SS- 212778</p>
         </div>
     </footer>
 

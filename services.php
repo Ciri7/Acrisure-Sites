@@ -2448,8 +2448,6 @@
                     <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
                     <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
-                    <!-- <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li> -->
                 </ul>
             </div>
             
@@ -2501,7 +2499,7 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Services S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
+            <p>Acrisure Services S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
             Cap.sociale € 10.000,00 i.v- Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
             Cod.Fiscale e n. iscr.al registro Imprese di Sassari n.02888100902   REA SS- 212778</p>
         </div>

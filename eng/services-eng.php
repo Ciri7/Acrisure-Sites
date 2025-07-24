@@ -1147,6 +1147,7 @@
         .footer-links li {
             margin-bottom: 0.8rem;
             line-height: 1.6;
+            white-space: nowrap; /* Aggiungi questa riga */
         }
         
         .footer-links a {
@@ -2430,34 +2431,32 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure Services</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street, 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Services.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street, 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>6 Santa Maria Segreta Street, 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>6 Lovanio Street, 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>15 San Francesco Da Paola Street, 10123</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -2467,20 +2466,14 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Close</li>
                 </ul>
                 
-                <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div>
-                
                 <div class="legal-links">
-                    <a href="#">Privacy Policy</a>
+                    <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a>
                     <a href="#">Cookie Policy</a>
                     <a href="#">Legal & Compliance</a>
                 </div>
@@ -2499,8 +2492,8 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Services - Sole shareholder company subject to the direction and coordination of Acrisure S.r.l. -
-            Share capital: €10,000.00 fully paid - Member of the Acrisure VAT Group - VAT No. 13147890969 -
+            <p>Acrisure Services - Sole shareholder company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital: €10,000.00 fully paid - Member of the Acrisure VAT Group - VAT No. 13147890969 - <br>
             Tax Code and Company Register No. 02888100902 - Registered with the Sassari Chamber of Commerce, REA No. SS-212778</p>
         </div>
     </footer>

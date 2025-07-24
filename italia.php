@@ -595,6 +595,8 @@
             display: flex;
             gap: 2rem;
             overflow-x: auto;
+            -webkit-overflow-scrolling: touch; /* Per scroll fluido su iOS */
+            scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
             padding: 1rem 0;
             position: relative;
@@ -606,6 +608,8 @@
         }
         
         .service-card {
+            scroll-snap-align: start;
+            margin-right: 32px; /* Assicurati che questo corrisponda al gap nel JS */
             flex: 0 0 auto;
             width: 300px;
             background-color: white;
@@ -2493,7 +2497,7 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A._ Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
+            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
             Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
             Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
         </div>

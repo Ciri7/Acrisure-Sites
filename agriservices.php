@@ -2586,7 +2586,7 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Agriservices - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
+            <p>Acrisure Agriservices S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
             Cap.sociale € 10.400,00 i.v- Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
             Cod.Fiscale e n. iscr.al registro Imprese di Roma n.05901241009   REA RM- 937257 </p>
         </div>

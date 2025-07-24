@@ -2501,7 +2501,7 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Services - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
+            <p>Acrisure Services S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
             Cap.sociale € 10.000,00 i.v- Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
             Cod.Fiscale e n. iscr.al registro Imprese di Sassari n.02888100902   REA SS- 212778</p>
         </div>

@@ -1630,7 +1630,7 @@
         <h2 class="section-title">Chi Siamo</h2>
         <p class="section-subtitle">Serviamo milioni di clienti commerciali di piccole e medie imprese, <br>così come individui e famiglie</p>
         
-        < class="about-content">
+        <div class="about-content">
             <div class="about-cards">
                 <div class="about-card">
                     <div class="about-icon">
@@ -1663,31 +1663,26 @@
                     <div class="stat-number" data-count="10">0</div>
                     <div class="stat-label">Linee di Business</div>
                 </div>
-                <!-- <div class="stat-item">
-                    <div class="stat-number" data-count="98">0</div>
-                    <div class="stat-label">Soddisfazione clienti</div>
-                </div> -->
             </div>
             
-            
-                <!-- <h3>I nostri valori</h3> -->
-                <div class="values-grid">
-                    <div class="about-card">
-                        <div class="about-icon">
-                            <i class="fas fa-bullseye"></i>
-                        </div>
-                        <h3>Valori</h3>
-                        <p>Mettiamo le persone al centro del nostro business, offrendo un esperienza eccezionale al cliente.</p>
+            <!-- <h3>I nostri valori</h3> -->
+            <div class="values-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-bullseye"></i>
                     </div>
-
-                    <div class="about-card">
-                        <div class="about-icon">
-                            <i class="fas fa-rocket"></i>
-                        </div>
-                        <h3>Innovazione</h3>
-                        <p>In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
-                    </div>
+                    <h3>Valori</h3>
+                    <p>Mettiamo le persone al centro del nostro business, offrendo un esperienza eccezionale al cliente.</p>
                 </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovazione</h3>
+                    <p>In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
+                </div>
+            </div>
         </div>
     </section>
 

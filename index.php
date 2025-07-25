@@ -1926,7 +1926,7 @@
     <section id="home" class="hero2">
         <div class="hero-content">
             <h1>“Solo coloro che hanno il coraggio di affrontare i grandi insuccessi possono ottenere grandi successi”</h1><br>
-            <p>~ Bobby Kennedy</p>
+            <p>~ Robert F. Kennedy</p>
         </div>
     </section>
 

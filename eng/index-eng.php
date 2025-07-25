@@ -1844,7 +1844,7 @@
     <section id="home" class="hero2">
         <div class="hero-content">
             <h1>"Only those who dare to fail greatly can ever achieve greatly"</h1><br>
-            <p>~ Bobby Kennedy</p>
+            <p>~ Robert F. Kennedy</p>
         </div>
     </section>
 

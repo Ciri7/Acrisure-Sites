@@ -1287,7 +1287,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Headquarters</h3>
+                <h3><i class="fas fa-building"></i> Headquarters</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure S.r.l.</li>
                     <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
@@ -1296,7 +1296,7 @@
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
@@ -1304,7 +1304,7 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contacts</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i> Administration: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
@@ -1319,7 +1319,7 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Office Hours</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>

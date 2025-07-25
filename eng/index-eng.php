@@ -1773,7 +1773,7 @@
                         <h3 class="azienda-nome">Acrisure Italy S.p.A.</h3>
                         <p class="azienda-desc">Insurance brokerage company operating at national and international level</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/italia-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1784,7 +1784,7 @@
                         <h3 class="azienda-nome">Acrisure Services</h3>
                         <p class="azienda-desc">Specialized in operational and management activities of companies, integrating skills and interconnections between multiple service areas</p>
                         <div class="azienda-link-container">
-                            <a href="services.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/services-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1795,7 +1795,7 @@
                         <h3 class="azienda-nome">Acrisure Re Italy</h3>
                         <p class="azienda-desc">Leader in the reinsurance sector, with deep expertise in risk and capital management</p>
                         <div class="azienda-link-container">
-                            <a href="re.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/re-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1806,7 +1806,7 @@
                         <h3 class="azienda-nome">Acrisure Agriculture S.r.l.</h3>
                         <p class="azienda-desc">Company specialized in insurance for risks related to the agricultural sector</p>
                         <div class="azienda-link-container">
-                            <a href="agricolture.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/agricolture-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1817,7 +1817,7 @@
                         <h3 class="azienda-nome">Acrisure Agriservices</h3>
                         <p class="azienda-desc">Insurance broker expert in policies for the protection of agricultural businesses</p>
                         <div class="azienda-link-container">
-                            <a href="agriservices.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/agriservices-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1828,7 +1828,7 @@
                         <h3 class="azienda-nome">Alta Broker & Partners S.r.l.</h3>
                         <p class="azienda-desc">Broker specialized in retail policies suitable for all your needs</p>
                         <div class="azienda-link-container">
-                            <a href="altabroker.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/altabroker-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

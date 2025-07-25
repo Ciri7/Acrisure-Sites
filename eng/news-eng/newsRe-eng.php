@@ -1064,19 +1064,19 @@
 
     <!-- FOOTER -->
     <footer>
+        <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Head Office</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Re Italia</li>
-                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Re Italia</li>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt="Acrisure Re Italia Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
@@ -1084,12 +1084,12 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contacts</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: +39 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i>Customer Care: +39 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisurereitalia@pec.it">acrisurereitalia@pec.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -1099,27 +1099,22 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Office Hours</h3>
+                <h3><i class="fas fa-clock"></i>Office Hours</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt="Bureau Veritas Logo"> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt="ACCREDIA Logo"></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="AIBA Logo"></a>
-                </div>
-                
                 <div class="legal-links">
-                    <a href="/policy/policyRe.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesRe.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalRe.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyRe-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesRe-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalRe-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
             <p>Acrisure Re Italia S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
             Share capital € 120,000.00 fully paid - RUI: B000729790. Company participating in the Acrisure VAT Group VAT No. 13147890969- <br>

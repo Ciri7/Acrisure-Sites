@@ -933,12 +933,12 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Headquarters</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure Agriservices</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>6 Via Lovanio - 00198 Rome</li><br>
-                    <li><img src="/img/ACRISURE AGRISERVICES.jpg" class="logo-footer" alt=""></li>
+                    <li><img src="/img/ACRISURE AGRISERVICES.jpg" class="logo-footer" alt="Acrisure Agriservices Logo"></li>
                 </ul>
             </div>
 
@@ -946,9 +946,6 @@
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Via Lovanio - 00198</li>
-                    <!-- <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Via Santa Maria Segreta - 20123</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 Via San Francesco Da Paola - 10123</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Piazza della Vittoria - 16121</li> -->
                     <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Piazza Granda - 38023</li>
                 </ul>
             </div>
@@ -957,7 +954,6 @@
                 <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i>Administration: +39 069 8968206</li>
-                    <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li> -->
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:demetra@pec.demetra.it">demetra@pec.demetra.it</a></li>
                 </ul>
@@ -975,35 +971,20 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
-                </div> -->
-                
                 <div class="legal-links">
-                    <a href="/policy/policyAgriservices.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgriservices.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAgriservices.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAgriservices-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAgriservices-eng.php">Cookie Policy</a>
+                    <a href="#header">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Authorized by IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
         <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
             <p>Acrisure Agriservices S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital €10,400.00 fully paid - Company participating in the Acrisure VAT Group VAT 13147890969 - <br>
-            Tax Code and registration number in the Rome Companies Register 05901241009 REA RM- 937257 </p>
+            Share capital €10,400.00 fully paid - Company participating in the Acrisure VAT Group VAT No. 13147890969 - <br>
+            Tax Code and registration number in the Rome Companies Register No. 05901241009 REA RM- 937257 </p>
         </div>
     </footer>
 

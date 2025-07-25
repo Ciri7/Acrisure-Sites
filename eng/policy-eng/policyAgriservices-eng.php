@@ -929,6 +929,7 @@
                 <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure Agriservices</li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>6 Via Lovanio - 00198 Rome</li><br>
                     <li><img src="/img/ACRISURE AGRISERVICES.jpg" class="logo-footer" alt="Acrisure Agriservices Logo"></li>
                 </ul>
@@ -964,9 +965,9 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAgriservices.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgriservices.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAgriservices.php">Legal & Compliance</a>
+                    <a href="#header">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAgriservices-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAgriservices-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

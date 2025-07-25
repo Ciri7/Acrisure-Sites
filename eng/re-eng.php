@@ -2006,7 +2006,7 @@
                 <div class="legal-links">
                     <a href="/eng/policy-eng/policyRe-eng.php">Privacy Policy</a>
                     <a href="/eng/cookies-eng/cookiesRe-eng.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalRe.php">Legal & Compliance</a>
+                    <a href="/eng/legal-eng/legalRe-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

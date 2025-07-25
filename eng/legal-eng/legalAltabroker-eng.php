@@ -933,17 +933,17 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Registered Office</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Alta Broker & Partners S.r.l.</li>
+                    <li><i class="fas fa-file-contract"></i>Alta Broker & Partners Ltd.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i> 5 Via Assarotti - 16122 Genoa</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i>5/1 Via Assarotti - 16122 Genoa</li><br>
                     <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt="Alta Broker Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>5 Via Assarotti - 16122</li>
                     <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>5 Corso Montebello - 15057</li>
@@ -951,10 +951,10 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contacts</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: 079 2016047</li>
-                    <li><i class="fas fa-fax"></i> Fax: +39 010 9868018</li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: 010 9860606</li>
+                    <li><i class="fas fa-fax"></i>Fax: +39 010 9868018</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
                 </ul>
                 
@@ -965,7 +965,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation"></i> Complaints</h3>
+                    <h3><i class="fas fa-exclamation"></i>Complaints</h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it">reclami@altabroker.it</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
@@ -980,25 +980,18 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
-                </div> -->
-                
                 <div class="legal-links">
-                    <a href="/policy/policyAltabroker.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAltabroker.php">Cookie Policy</a>
+                    <a href="/eng/policy-eng/policyAltabroker-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAltabroker-eng.php">Cookie Policy</a>
                     <a href="#header">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
-        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners S.r.l. - Single-member company under the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital €60,000.00 fully paid up - REA GE-494327 RUI: B000605520 VAT 02547920997 <br>
+            <p>Alta Broker & Partners Ltd. - Single-member company subject to the direction and coordination of Acrisure Ltd. - <br>
+            Share capital €60,000.00 i.v. REA GE-494327 RUI: B000605520 VAT 02547920997 <br>
             Tax Code and registration number in the Genoa Companies Register 02547920997. </p>
         </div>
     </footer>

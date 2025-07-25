@@ -925,33 +925,29 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Registered Office</h3>
+                <h3><i class="fas fa-building"></i>Headquarters</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l.</li>
-                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure S.r.l.</li>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt="Acrisure Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Piazza della Vittoria - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Piazza Granda - 38023</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contacts</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it"> info@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:acrisure@legalmail.it"> acrisure@legalmail.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -961,7 +957,7 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Office Hours</h3>
+                <h3><i class="fas fa-clock"></i>Office Hours</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
@@ -969,16 +965,16 @@
                 
                 <div class="legal-links">
                     <a href="#header">Privacy Policy</a>
-                    <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
+                    <a href="/eng/cookies-eng/cookiesAcrisure-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAcrisure-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
         <div class="footer-legal-notice">
-            <p>Acrisure S.r.l. - Share capital €10,000.00 fully paid <br>
-            Company belonging to the Acrisure Group VAT 13147890969<br>
+            <p>Acrisure S.r.l. - Share capital €10,000.00 fully paid up <br>
+            Company belonging to the Acrisure VAT Group VAT number 13147890969<br>
             Tax Code and registration number in the Sassari Company Register no.11635300962 - REA SS-222619 </p>
         </div>
     </footer>

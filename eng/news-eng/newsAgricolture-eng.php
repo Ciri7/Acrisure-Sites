@@ -1066,11 +1066,11 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Headquarters</h3>
+                <h3><i class="fas fa-building"></i>Legal Headquarters</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture S.r.l.</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture Ltd.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>6 Via Lovanio - 00198 Rome</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i>6 Lovanio Street - 00198 Rome</li><br>
                     <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt="Acrisure Agricolture Logo"></li>
                 </ul>
             </div>
@@ -1078,18 +1078,14 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Via Lovanio - 00198</li>
-                    <!-- <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Via Santa Maria Segreta - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 Via San Francesco Da Paola - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Piazza della Vittoria - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Piazza Granda - 38023</li> -->
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Administration: +39 069 8968206</li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: +39 06 98968206</li>
                     <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li> -->
                     <!-- <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li> -->
                     <li><i class="fas fa-file-alt"></i> <a href="mailto:premium@pec.premiumbroker.it">premium@pec.premiumbroker.it</a></li>
@@ -1109,19 +1105,19 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAgricolture.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgricolture.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAgricolture.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAgricolture-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAgricolture-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
-        <!-- Legal notice section -->
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Agricolture S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital €150,000.00 fully paid - RUI: B000243223. Company participating in the Acrisure Group VAT 13147890969 - <br>
-            Tax Code and Rome Companies Register number 08359221002. REA RM- 1089539 </p>
+            <p>Acrisure Agricolture Ltd. - Single-member company subject to the direction and coordination of Acrisure Ltd.<br>
+            Share capital €150,000.00 fully paid up - RUI: B000243223. Company participating in the Acrisure Group VAT 13147890969<br>
+            Tax Code and registration number in the Rome Companies Register: 08359221002. REA RM- 1089539</p>
         </div>
     </footer>
 

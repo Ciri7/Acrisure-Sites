@@ -806,7 +806,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/italia.php">
+                <a href="/eng/italia-eng.php">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
@@ -817,10 +817,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/italia.php#news" class="nav-link">News</a></li>
-                    <li><a href="/italia.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/italia.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>

@@ -1630,7 +1630,7 @@
         <h2 class="section-title">Chi Siamo</h2>
         <p class="section-subtitle">Serviamo milioni di clienti commerciali di piccole e medie imprese, <br>così come individui e famiglie</p>
         
-        <div class="about-content">
+        < class="about-content">
             <div class="about-cards">
                 <div class="about-card">
                     <div class="about-icon">
@@ -1669,9 +1669,9 @@
                 </div> -->
             </div>
             
-            <div class="about-values">
+            
                 <!-- <h3>I nostri valori</h3> -->
-                <div class="about-cards">
+                <div class="values-grid">
                     <div class="about-card">
                         <div class="about-icon">
                             <i class="fas fa-bullseye"></i>
@@ -1688,7 +1688,6 @@
                         <p>In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 

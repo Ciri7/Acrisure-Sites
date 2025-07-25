@@ -1663,8 +1663,7 @@
                 </div>
             </div>
             
-            <div class="about-values">
-                <div class="about-cards">
+                <div class="values-grid">
                     <div class="about-card">
                         <div class="about-icon">
                             <i class="fas fa-bullseye"></i>
@@ -1681,7 +1680,6 @@
                         <p>Constantly updated with market news, we combine experience, professionalism and cutting-edge technological tools to guarantee a quality relationship with our partners, suppliers and customers.</p>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 

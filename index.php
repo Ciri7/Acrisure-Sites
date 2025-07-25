@@ -1680,26 +1680,21 @@
             <div class="about-values">
                 <!-- <h3>I nostri valori</h3> -->
                 <div class="values-grid">
-                    <!-- <div class="value-item">
-                        <i class="fas fa-shield-alt"></i>
-                        <h4>Valori</h4>
-                        <p>I nostri valori si fondano sulla fiducia, l'etica e la sostenibilità.</p>
-                    </div> -->
-                    <div class="value-item">
-                        <i class="fas fa-bullseye"></i>
-                        <h4>Valori</h4>
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Valori</h3>
                         <p>Mettiamo le persone al centro del nostro business, offrendo un esperienza eccezionale al cliente.</p>
                     </div>
-                    <div class="value-item">
-                        <i class="fas fa-rocket"></i>
-                        <h4>Innovazione</h4>
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Innovazione</h3>
                         <p>In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
                     </div>
-                    <!-- <div class="value-item">
-                        <i class="fas fa-heart"></i>
-                        <h4>Passione</h4>
-                        <p>Amiamo quello che facciamo e ci impegniamo ogni giorno per offrirti il meglio.</p>
-                    </div> -->
                 </div>
             </div>
         </div>

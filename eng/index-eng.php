@@ -1663,20 +1663,23 @@
                 </div>
             </div>
             
-            <div class="about-values">
-                <div class="values-grid">
-                    <div class="value-item">
-                        <i class="fas fa-bullseye"></i>
-                        <h4>Values</h4>
+            <div class="values-grid">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Values</h3>
                         <p>We put people at the center of our business, offering an exceptional customer experience.</p>
                     </div>
-                    <div class="value-item">
-                        <i class="fas fa-rocket"></i>
-                        <h4>Innovation</h4>
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Innovation</h3>
                         <p>Constantly updated with market news, we combine experience, professionalism and cutting-edge technological tools to guarantee a quality relationship with our partners, suppliers and customers.</p>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 

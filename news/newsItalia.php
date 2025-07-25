@@ -963,13 +963,13 @@
                     <li><a href="/italia.php#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="/italia.php#services" class="nav-link">Servizi</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
+                    <li><a href="/eng/news-eng/newsItalia-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>

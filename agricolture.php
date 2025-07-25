@@ -1679,8 +1679,8 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
+                    <li><a href="/eng/agricolture-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>

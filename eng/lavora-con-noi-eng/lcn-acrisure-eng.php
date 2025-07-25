@@ -577,7 +577,7 @@
             display: block;
         }
 
-        /* Footer (stili identici al file principale) */
+        /* Footer */
         footer {
             background-color: white;
             color: var(--secondary);
@@ -611,12 +611,19 @@
             height: 2px;
             background-color: var(--accent);
         }
-        
+
+        /* Footer migliorato */
+        .footer-column h3 i {
+            margin-right: 12px;
+            color: var(--accent);
+        }
+
         .footer-links {
             list-style: none;
         }
         
         .footer-links li {
+            white-space: nowrap; /* Aggiungi questa riga */
             margin-bottom: 0.8rem;
             line-height: 1.6;
         }
@@ -626,46 +633,50 @@
             text-decoration: none;
             transition: all 0.3s;
             font-size: 1rem;
+            display: inline-block;
+            padding: 2px 0;
+            position: relative;
         }
         
         .footer-links a:hover {
             color: var(--accent);
         }
-        
+
+        .footer-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: var(--accent);
+            transition: width 0.3s;
+        }
+
         .footer-links li i {
             width: 20px;
             text-align: center;
             margin-right: 8px;
             color: var(--accent);
         }
-        
+
         .social-links {
             margin-top: 1.5rem;
             display: flex;
             gap: 15px;
         }
-        
+
         .social-links a {
             color: var(--secondary);
             font-size: 1.2rem;
             transition: all 0.3s;
         }
-        
+
         .social-links a:hover {
             color: var(--accent);
             transform: translateY(-3px);
         }
-        
-        .footer-bottom {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            padding-top: 3rem;
-            margin-top: 3rem;
-            border-top: 1px solid rgba(0, 0, 0, 0.1);
-        }
-        
+
         .footer-legal {
             display: flex;
             justify-content: space-between;
@@ -673,32 +684,105 @@
             flex-wrap: wrap;
             gap: 1rem;
         }
-        
+
         .legal-links {
             display: flex;
             gap: 1.5rem;
         }
-        
+
         .legal-links a {
             color: var(--secondary);
             text-decoration: none;
             transition: color 0.3s;
         }
-        
+
         .legal-links a:hover {
             color: var(--accent);
             text-decoration: underline;
         }
-        
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding-top: 3rem;
+            margin-top: 3rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-badge {
+            display: flex;
+            gap: 1rem;
+        }
+
         .footer-badge img {
             height: 40px;
             width: auto;
             opacity: 0.8;
             transition: opacity 0.3s;
         }
-        
+
         .footer-badge img:hover {
             opacity: 1;
+        }
+/* NUOVI FOOTER --------------------------- */
+        .social-links a {
+            color: var(--secondary);
+            font-size: 1.5rem; /* Aumentato da 1.2rem */
+            transition: all 0.3s;
+            width: 40px; /* Aggiunto per dimensioni fisse */
+            height: 40px; /* Aggiunto per dimensioni fisse */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+        }
+
+        .social-links a:hover {
+            color: white;
+            background-color: var(--accent);
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-column .legal-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .footer-column .legal-links a {
+            display: block;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .footer-column .legal-links a:hover {
+            color: var(--accent);
+            padding-left: 0.5rem;
+            border-bottom-color: var(--accent);
+        }
+
+        .footer-legal-notice {
+            text-align: center;
+            padding: 1.5rem 5%;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            max-width: 1400px;
+        }
+
+        .footer-legal-notice p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.5;
+            margin: 0;
         }
 
         /* Cookie banner */
@@ -936,64 +1020,6 @@
                 width: 100%;
                 margin-top: 1rem;
             }
-        }
-
-        /* NUOVI FOOTER --------------------------- */
-        .social-links a {
-            color: var(--secondary);
-            font-size: 1.5rem; /* Aumentato da 1.2rem */
-            transition: all 0.3s;
-            width: 40px; /* Aggiunto per dimensioni fisse */
-            height: 40px; /* Aggiunto per dimensioni fisse */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: rgba(0, 0, 0, 0.05);
-            border-radius: 50%;
-        }
-
-        .social-links a:hover {
-            color: white;
-            background-color: var(--accent);
-            transform: translateY(-3px) scale(1.1);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .footer-column .legal-links {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
-
-        .footer-column .legal-links a {
-            display: block;
-            padding: 0.5rem 0;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-
-        .footer-column .legal-links a:hover {
-            color: var(--accent);
-            padding-left: 0.5rem;
-            border-bottom-color: var(--accent);
-        }
-
-        .footer-legal-notice {
-            text-align: center;
-            padding: 1.5rem 5%;
-            border-top: 1px solid rgba(0, 0, 0, 0.1);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-            margin: 0 auto;
-            max-width: 1400px;
-        }
-
-        .footer-legal-notice p {
-            font-size: 0.85rem;
-            color: #555;
-            line-height: 1.5;
-            margin: 0;
         }
     </style>
 </head>
@@ -1287,7 +1313,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Headquarters</h3>
+                <h3><i class="fas fa-building"></i>Headquarters</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure S.r.l.</li>
                     <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
@@ -1296,7 +1322,7 @@
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
@@ -1304,10 +1330,10 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contacts</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it"> info@acrisure.it</a></li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:acrisure@legalmail.it"> acrisure@legalmail.it</a></li>
                 </ul>
@@ -1319,7 +1345,7 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Office Hours</h3>
+                <h3><i class="fas fa-clock"></i>Office Hours</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
@@ -1335,9 +1361,9 @@
         
         <br>
         <div class="footer-legal-notice">
-            <p>Acrisure S.r.l. - Share capital €10,000.00 fully paid up<br>
-            Company belonging to the IVA Acrisure Group VAT no. 13147890969<br>
-            Tax Code and registration number in the Sassari Company Register no. 11635300962 - REA SS-222619</p>
+            <p>Acrisure S.r.l. - Share capital €10,000.00 fully paid up <br>
+            Company belonging to the Acrisure VAT Group VAT number 13147890969<br>
+            Tax Code and registration number in the Sassari Company Register no.11635300962 - REA SS-222619 </p>
         </div>
     </footer>
 

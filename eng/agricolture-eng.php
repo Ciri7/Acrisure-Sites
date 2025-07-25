@@ -1888,7 +1888,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Required fields</p>
-                        <p>Read our <a href="/policy/policyAgricolture.php">Privacy Policy</a></p>
+                        <p>Read our <a href="/eng/policy-eng/policyAgricolture-eng.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>
@@ -1913,10 +1913,6 @@
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
-                    <!-- <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Piazza della Vittoria - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Piazza Granda - 38023</li> -->
                 </ul>
             </div>
             
@@ -1943,9 +1939,9 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAgricolture.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgricolture.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAgricolture.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAgricolture-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAgricolture-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -1962,7 +1958,7 @@
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>We use cookies to improve your experience. <a href="/cookies/cookiesAgricolture.php">More information</a></p>
+        <p>We use cookies to improve your experience. <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">More information</a></p>
         <button id="accept-cookies" class="btn">Accept</button>
     </div>
 

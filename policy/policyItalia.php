@@ -922,6 +922,7 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
@@ -940,9 +941,6 @@
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li>
                 </ul>
             </div>
             
@@ -962,7 +960,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation"></i> Reclami</h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>

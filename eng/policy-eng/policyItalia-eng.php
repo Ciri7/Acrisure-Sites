@@ -922,26 +922,24 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Registered Office</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
-                    <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
-                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Victory Square - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Granda Square - 38023</li>
                 </ul>
             </div>
             
@@ -951,9 +949,8 @@
                     <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
-                
+
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -961,7 +958,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation"></i> Complaints</h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiItalia-eng.php" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
@@ -970,7 +967,7 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Office Hours</h3>
+                <h3><i class="fas fa-clock"></i>Office Hours</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
@@ -981,11 +978,12 @@
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
                 </div>
-                
+
+                <br>
                 <div class="legal-links">
                     <a href="#header">Privacy Policy</a>
-                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    <a href="/eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -997,6 +995,7 @@
             Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
         </div>
     </footer>
+
     <script>
         // Page transition logic
         document.addEventListener('DOMContentLoaded', function() {

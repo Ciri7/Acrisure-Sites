@@ -1893,9 +1893,9 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAcrisure-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAcrisure-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAcrisure-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

@@ -2096,7 +2096,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Required fields</p>
-                        <p>Read our <a href="/policy/policyAgriservices.php">Privacy Policy</a></p>
+                        <p>Read our <a href="/eng/policy-eng/policyAgriservices-eng.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>
@@ -2147,9 +2147,9 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAgriservices.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAgriservices.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAgriservices.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAgriservices-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAgriservices-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAgriservices-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -2165,7 +2165,7 @@
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>We use cookies to improve your experience. <a href="/cookies/cookiesAgriservices.php">More information</a></p>
+        <p>We use cookies to improve your experience. <a href="/eng/cookies-eng/cookiesAgriservices-eng.php">More information</a></p>
         <button id="accept-cookies" class="btn">Accept</button>
     </div>
 

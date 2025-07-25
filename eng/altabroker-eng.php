@@ -2104,7 +2104,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Required fields</p>
-                        <p>Read our <a href="/policy/policyAltabroker.php">Privacy Policy</a></p>
+                        <p>Read our <a href="/eng/policy-eng/policyAltabroker-eng.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>
@@ -2164,9 +2164,9 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAltabroker.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAltabroker.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAltabroker.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAltabroker-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAltabroker-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAltabroker-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -2181,7 +2181,7 @@
 
     <!-- Cookie banner -->
     <div id="cookie-banner" class="cookie-banner">
-        <p>We use cookies to improve your experience. <a href="/cookies/cookiesAltabroker.php">More information</a></p>
+        <p>We use cookies to improve your experience. <a href="/eng/cookies-eng/cookiesAltabroker-eng.php">More information</a></p>
         <button id="accept-cookies" class="btn">Accept</button>
     </div>
 

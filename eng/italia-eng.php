@@ -1987,7 +1987,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Required fields</p>
-                        <p>Read our <a href="/policy/policyItalia.php">Privacy Policy</a></p>
+                        <p>Read our <a href="/eng/policy-eng/policyItalia-eng.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Send Request</button>
                 </div>
@@ -2054,9 +2054,9 @@
 
                 <br>
                 <div class="legal-links">
-                    <a href="/policy/policyItalia.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

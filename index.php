@@ -1641,14 +1641,6 @@
                         Offriamo servizi di qualità fortemente competitivi.</p>
                 </div>
                 
-                <!-- <div class="about-card">
-                    <div class="about-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Innovazione Tecnologica</h3>
-                    <p>La nostra piattaforma tecnologica avanzata ci permette di offrire soluzioni personalizzate con tempi di risposta rapidi e precisione.</p>
-                </div> -->
-                
                 <div class="about-card">
                     <div class="about-icon">
                         <i class="fas fa-handshake"></i>
@@ -1679,7 +1671,7 @@
             
             <div class="about-values">
                 <!-- <h3>I nostri valori</h3> -->
-                <div class="values-grid">
+                <div class="about-cards">
                     <div class="about-card">
                         <div class="about-icon">
                             <i class="fas fa-bullseye"></i>

@@ -1683,14 +1683,14 @@
                     <li><a href="#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="#services" class="nav-link">Services</a></li>
                     <li><a href="index.php#gruppo" class="nav-link">Our Group</a></li>
-                    <li><a href="#" class="nav-link">Work With Us</a></li>
+                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
     
             <nav class="language-switcher">
                 <ul>
-                    <li><a onclick="window.location.href='../services.php'" class="language-btn">IT</a></li>
-                    <li><a href="#" class="language-btn active">EN</a></li>
+                    <li><a href="/services.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>

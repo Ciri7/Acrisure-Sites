@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Italia - Cookie Policy</title>
+    <title>Acrisure Agricolture - Cookie Policy</title>
     <meta name="description" content="Cookie Policy di Acrisure Italia. Scopri come utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web.">
     <link rel="canonical" href="https://www.acrisureitalia.com/cookie-policy" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -196,9 +196,9 @@
 
         /* Hero Section */
         .policy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/colture3.jpg');
             background-size: cover;
-            background-position: top;
+            background-position: center;
             height: 50vh;
             min-height: 400px;
             display: flex;
@@ -651,8 +651,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/eng/italia-eng.php">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
+                <a href="/eng/agricolture-eng.php">
+                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -662,16 +662,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
-                    <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
-                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Careers</a></li>
+                    <li><a href="/eng/agricolture-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/agricolture-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/agricolture-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="/cookies/cookiesItalia.php" class="language-btn">IT</a></li>
+                    <li><a href="/cookies/cookiesAgricolture.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -687,30 +687,30 @@
     <div class="policy-container">
         <div class="policy-section">
             <h2>Introduction</h2>
-            <p>This Cookie Policy explains how Acrisure Italia ("we", "our" or "us") uses cookies and similar technologies when you visit our website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site"). We inform you about what cookies are, how we use them, and how you can manage them.</p>
-            <p>By using our Site, you consent to the use of cookies in accordance with this Cookie Policy. If you do not accept our use of cookies, please disable them by following the instructions in this policy or do not use our Site.</p>
+            <p>This Cookie Policy explains how Acrisure Italy ("we", "our" or "us") uses cookies and similar technologies when you visit our website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site"). We inform you about what cookies are, how we use them and how you can manage them.</p>
+            <p>By using our Site, you consent to the use of cookies in accordance with this Cookie Policy. If you do not agree to our use of cookies, please disable them by following the instructions in this policy or do not use our Site.</p>
         </div>
 
         <div class="policy-section">
             <h2>What are cookies?</h2>
-            <p>Cookies are small text files that websites visited by the user send and record on their computer or mobile device, to be then retransmitted to the same sites on subsequent visits. Thanks to cookies, a website remembers the user's actions and preferences (such as login data, language, font size, other display settings, etc.) so they don't have to be indicated again when the user returns to visit said site or navigates from one page to another within it.</p>
-            <p>Cookies are used to perform computer authentication, session monitoring and storage of information regarding the activities of users accessing a site and may also contain a unique identification code that allows tracking the user's navigation within the site itself for statistical or advertising purposes.</p>
+            <p>Cookies are small text files that websites visited by the user send and record on their computer or mobile device, to be then retransmitted to the same sites on subsequent visits. Thanks to cookies, a website remembers the user's actions and preferences (such as login data, language, font size, other display settings, etc.) so that they do not have to be indicated again when the user returns to visit said site or navigates from one page to another of the same site.</p>
+            <p>Cookies are used to perform computer authentication, session monitoring and storage of information regarding the activities of users who access a website and may also contain a unique identification code that allows tracking the user's navigation within the site itself for statistical or advertising purposes.</p>
         </div>
 
         <div class="policy-section">
             <h2>Types of cookies we use</h2>
-            <p>Our Site uses several types of cookies, each with a specific function:</p>
+            <p>Our Site uses different types of cookies, each with a specific function:</p>
             
             <h3>1. Technical cookies</h3>
-            <p>These cookies are essential for the proper functioning of our Site and to allow you to navigate and use its features. Without these cookies, some Site functionalities might not be available.</p>
+            <p>These cookies are essential for the proper functioning of our Site and to allow you to navigate and use its features. Without these cookies, some Site features might not be available.</p>
             <ul>
-                <li><strong>Session cookies</strong>: are deleted when you close the browser and are necessary for the site's operation (e.g. maintaining the navigation session).</li>
-                <li><strong>Functionality cookies</strong>: remember your choices (such as language or region) to improve your experience.</li>
+                <li><strong>Session cookies</strong>: they are deleted when you close the browser and are necessary for the functioning of the site (e.g. maintaining the browsing session).</li>
+                <li><strong>Functionality cookies</strong>: they remember your choices (such as language or region) to improve your experience.</li>
             </ul>
             
-            <h3>2. Analytical cookies</h3>
+            <h3>2. Analytics cookies</h3>
             <p>These cookies help us understand how visitors interact with our Site, providing us with information about the number of visitors, pages visited, time spent on the site, etc. We use this information to improve our Site and user experience.</p>
-            <p>These cookies are collected in anonymous and aggregate form.</p>
+            <p>These cookies are collected anonymously and in aggregate form.</p>
             
             <h3>3. Third-party cookies</h3>
             <p>Some pages of our Site may contain third-party cookies that manage content and services such as social plugins or analytics services. These third parties may set their own cookies to track user activity and provide their services.</p>
@@ -718,7 +718,7 @@
         </div>
 
         <div class="policy-section">
-            <h2>Detailed list of cookies used</h2>
+            <h2>Detail of cookies used</h2>
             <p>Below is a detailed list of cookies used on our Site:</p>
             
             <table>
@@ -735,7 +735,7 @@
                         <td>PHPSESSID</td>
                         <td>Technical</td>
                         <td>Maintains user session state during navigation</td>
-                        <td>Until browser closes</td>
+                        <td>Until browser is closed</td>
                     </tr>
                     <tr>
                         <td>cookie_consent</td>
@@ -771,7 +771,7 @@
             <ul>
                 <li>View cookies on your device and delete them</li>
                 <li>Block third-party cookies</li>
-                <li>Block cookies from specific sites</li>
+                <li>Block cookies from certain sites</li>
                 <li>Block all cookies from being set</li>
                 <li>Delete all cookies when you close the browser</li>
             </ul>
@@ -781,9 +781,9 @@
             <h3>Browser-specific guides:</h3>
             <ul>
                 <li><a href="https://support.google.com/chrome/answer/95647" target="_blank">Google Chrome</a></li>
-                <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank">Mozilla Firefox</a></li>
-                <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank">Microsoft Edge</a></li>
-                <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank">Safari</a></li>
+                <li><a href="https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie" target="_blank">Mozilla Firefox</a></li>
+                <li><a href="https://support.microsoft.com/it-it/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Internet Explorer</a></li>
+                <li><a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank">Safari</a></li>
                 <li><a href="https://help.opera.com/en/latest/web-preferences/#cookies" target="_blank">Opera</a></li>
             </ul>
             
@@ -792,8 +792,8 @@
 
         <div class="policy-section">
             <h2>Changes to the Cookie Policy</h2>
-            <p>We reserve the right to make changes to this Cookie Policy at any time. All changes will be published on this page and, if significant, will be communicated through a clearly visible notice on our Site.</p>
-            <p>We invite you to periodically check this page to be informed about any changes.</p>
+            <p>We reserve the right to make changes to this Cookie Policy at any time. All changes will be posted on this page and, if significant, will be communicated through a clearly visible notice on our Site.</p>
+            <p>We encourage you to check this page periodically to be informed of any changes.</p>
         </div>
 
         <div class="policy-section">
@@ -801,59 +801,49 @@
             <p>For any questions or requests for clarification regarding this Cookie Policy, you can contact us:</p>
             <ul>
                 <li>By email: <a href="mailto:privacy@acrisureitalia.com">privacy@acrisureitalia.com</a></li>
-                <li>By mail: Acrisure S.r.l. - 3 Giuseppe Mazzini Street - 07100 Sassari (SS)</li>
+                <li>By mail: Acrisure S.r.l. - 3 Via Giuseppe Mazzini - 07100 Sassari (SS)</li>
             </ul>
         </div>
 
         <p class="last-updated">Last updated: June 15, 2024</p>
     </div>
 
-<!-- FOOTER -->
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Headquarters</h3>
+                <h3><i class="fas fa-building"></i>Headquarters</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i> 3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt="Acrisure Italia Logo"></li>
+                    <li><i class="fas fa-map-marker-alt"></i>6 Via Lovanio - 00198 Rome</li><br>
+                    <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt="Acrisure Agricolture Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Via Lovanio - 00198</li>
+                    <!-- <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Via Santa Maria Segreta - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 Via San Francesco Da Paola - 10123</li>
                     <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>9 Piazza della Vittoria - 16121</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Granda Square - 38023</li>
+                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>44 Piazza Granda - 38023</li> -->
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contacts</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: +39 069 8968206</li>
+                    <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li> -->
+                    <!-- <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li> -->
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:premium@pec.premiumbroker.it">premium@pec.premiumbroker.it</a></li>
                 </ul>
                 
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-
-                <br>
-                <div class="footer-column">
-                    <h3><i class="fas fa-exclamation"></i> Complaints</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
-                    </ul>
                 </div>
             </div>
             
@@ -864,25 +854,20 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt="BV Logo"> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt="ACCREDIA Mark"></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="AIBA Logo"></a>
-                </div>
-                
                 <div class="legal-links">
-                    <a href="/policy/policyItalia.php">Privacy Policy</a>
-                    <a href="#header">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    <a href="/policy/policyAgricolture.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesAgricolture.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalAgricolture.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
+        <!-- Legal notice section -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital €200,000.00 i.v.-RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
-            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
+            <p>Acrisure Agricolture S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital €150,000.00 fully paid - RUI: B000243223. Company participating in the Acrisure Group VAT 13147890969 - <br>
+            Tax Code and Rome Companies Register number 08359221002. REA RM- 1089539 </p>
         </div>
     </footer>
 

@@ -809,7 +809,7 @@
                     <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="/services.php#services" class="nav-link">Servizi</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-services.php" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora Con Noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">

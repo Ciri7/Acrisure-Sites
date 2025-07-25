@@ -812,17 +812,17 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Sede Legale</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Assarotti, 5 - 16122 Genova</li><br>
+                    <li><i class="fas fa-map-marker-alt"></i>Via Assarotti, 5/1 - 16122 Genova</li><br>
                     <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Via Assarotti, 5 - 16122</li>
                     <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>Corso Montebello, 5 - 15057</li>
@@ -830,10 +830,10 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-fax"></i> Telefax: +39 010 9868018</li>
+                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 010 9860606</li>
+                    <li><i class="fas fa-fax"></i>Telefax: +39 010 9868018</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
                 </ul>
                 
@@ -844,7 +844,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation"></i> Reclami</h3>
+                    <h3><i class="fas fa-exclamation"></i>Reclami</h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it">reclami@altabroker.it</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
@@ -867,7 +867,7 @@
                 
                 <div class="legal-links">
                     <a href="/policy/policyAltabroker.php">Privacy Policy</a>
-                    <a href="#header">Cookie Policy</a>
+                    <a href="/cookies/cookiesAltabroker.php">Cookie Policy</a>
                     <a href="/legal&comp/legalAltabroker.php">Legal & Compliance</a>
                 </div>
             </div>
@@ -885,9 +885,9 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
-            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
+            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
+            Cap.sociale € 60.000,00 i.v. REA GE-494327 RUI: B000605520 P.IVA 02547920997 <br>
+            Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997. </p>
         </div>
     </footer>
 

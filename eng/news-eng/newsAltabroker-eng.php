@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Services - News</title>
+    <title>Alta Broker - News</title>
     <meta name="description" content="Tutte le ultime novità e aggiornamenti da Acrisure Italia. Scopri le nostre partnership, premi e iniziative nel settore assicurativo.">
     <meta name="keywords" content="news Acrisure, aggiornamenti assicurazioni, novità broker assicurativo, eventi Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureservices.it/news.php" />
@@ -590,7 +590,6 @@
         .footer-links li {
             margin-bottom: 0.8rem;
             line-height: 1.6;
-            white-space: nowrap; /* Aggiungi questa riga */
         }
         
         .footer-links a {
@@ -949,8 +948,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/eng/services-eng.php">
-                <img src="/img/Acrisure Services.jpg" class="logo" alt=""></li>
+                <a href="/eng/altabroker-eng.php">
+                <img src="/img/Logo ALTA BROKER.jpg" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -960,16 +959,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/eng/services-eng.php#news" class="nav-link">News</a></li>
-                    <li><a href="/eng/services-eng.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/eng/services-eng.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/altabroker-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/altabroker-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/altabroker-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="/news/newsServices.php" class="language-btn">IT</a></li>
+                    <li><a href="/news/newsAltabroker.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -992,7 +991,7 @@
                 <div class="news-content">
                     <span class="news-date">March 15, 2024</span>
                     <h3>New partnership in the agricultural sector</h3>
-                    <p class="news-excerpt">Acrisure Agriculture announces a strategic collaboration with the national agricultural consortium to offer even more advantageous policies.</p>
+                    <p class="news-excerpt">Acrisure Agriculture announces a strategic collaboration with the national agricultural consortium to offer even more advantageous insurance policies.</p>
                     <a href="news-article.php?id=1" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
@@ -1047,7 +1046,7 @@
                 <div class="news-content">
                     <span class="news-date">October 15, 2023</span>
                     <h3>Success of the Acrisure Italy annual event</h3>
-                    <p class="news-excerpt">Over 200 participants at the event presenting the news for 2024 and industry trends.</p>
+                    <p class="news-excerpt">Over 200 participants at the event presenting news for 2024 and industry trends.</p>
                     <a href="news-article.php?id=6" class="news-link">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
@@ -1067,37 +1066,43 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Headquarters</h3>
+                <h3><i class="fas fa-building"></i> Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Services</li>
+                    <li><i class="fas fa-file-contract"></i> Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>3 Via Giuseppe Mazzini - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Services.jpg" class="logo-footer" alt="Acrisure Services Logo"></li>
+                    <li><i class="fas fa-map-marker-alt"></i> 5 Via Assarotti - 16122 Genoa</li><br>
+                    <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt="Alta Broker Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
+                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street, 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>6 Santa Maria Segreta Street, 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>6 Lovanio Street, 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>15 San Francesco Da Paola Street, 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>5 Via Assarotti - 16122</li>
+                    <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>5 Corso Montebello - 15057</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contacts</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Administration: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-envelope"></i><a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: 010 9860606</li>
+                    <li><i class="fas fa-fax"></i> Fax: +39 010 9868018</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
                 </ul>
                 
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <br>
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation"></i> Complaints</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it">reclami@altabroker.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
+                    </ul>
                 </div>
             </div>
             
@@ -1108,19 +1113,26 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
+                <!-- <div class="footer-badge">
+                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
+                </div> -->
+                
                 <div class="legal-links">
-                    <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a>
-                    <a href="/eng/cookies-eng/cookiesServices-eng.php">Cookie Policy</a>
-                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
+                    <a href="/policy/policyAltabroker.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesAltabroker.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalAltabroker.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Services S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital €10,000.00 fully paid - Company participating in the Acrisure VAT Group VAT 13147890969 - <br>
-            Tax Code and registration number in the Sassari Companies Register no. 02888100902   REA SS- 212778</p>
+            <p>Alta Broker & Partners S.r.l. - Single-member company under the direction and coordination of Acrisure S.r.l. - <br>
+            Share capital €60,000.00 fully paid up - REA GE-494327 RUI: B000605520 VAT 02547920997 <br>
+            Tax Code and registration number in the Genoa Companies Register 02547920997. </p>
         </div>
     </footer>
 

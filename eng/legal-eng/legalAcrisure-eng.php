@@ -1,5 +1,4 @@
-<?php include('../includes/auth.php'); ?>
-<!DOCTYPE html>
+<?php include('../includes/auth.php'); ?><?php include('../../includes/auth.php'); ?><!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">

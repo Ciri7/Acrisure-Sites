@@ -1604,13 +1604,13 @@
                     <li><a href="#chi-siamo" class="nav-link">Chi Siamo</a></li>
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/index-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="#" class="language-btn active">IT</a></li>
+                    <li><a onclick="window.location.href='eng/index-eng.php'" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>

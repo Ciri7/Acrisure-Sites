@@ -794,7 +794,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="/eng/agricolture-eng.php">
-                    <img src="/eng/img/ACRISUR-engE AGRICOLTURE.jpg" alt="Acrisure Services Logo" class="logo">
+                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>

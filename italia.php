@@ -1812,25 +1812,25 @@
                 </div>
                 
                 <!-- Seconda riga -->
-                <div class="leadership-card">
+                <div class="leadership-card second-row">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Gabriele Gilleri</h3>
                     <p class="leadership-desc">Chief Operating Officer</p>
                 </div>
                 
-                <div class="leadership-card">
+                <div class="leadership-card second-row">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services" class="leadership-logo">
                     <h3 class="leadership-name">Simone Cagnetti</h3>
                     <p class="leadership-desc">Products & Corporate Business Manager</p>
                 </div>
                 
-                <div class="leadership-card">
+                <div class="leadership-card second-row">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
                     <h3 class="leadership-name">Andrea Barbieri</h3>
                     <p class="leadership-desc">Account Manager</p>
                 </div>
 
-                <div class="leadership-card">
+                <div class="leadership-card second-row">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
                     <h3 class="leadership-name">Sara Sandroni</h3>
                     <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p>

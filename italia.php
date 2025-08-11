@@ -315,7 +315,37 @@
         }
         
         /* ========== LEADERSHIP SECTION ========== */
-        /* Leadership Section - Updated for 3+4 layout */
+        .leadership {
+            background: linear-gradient(to bottom, 
+                rgba(0, 0, 0, 0.1) 0%, 
+                rgba(0, 0, 0, 0.7) 20%, 
+                rgba(0, 0, 0, 0.7) 80%, 
+                rgba(0, 0, 0, 0.1) 100%), 
+                url('/img/leadership-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            position: relative;
+        }
+        
+        .leadership .section-title {
+            color: white;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .leadership .section-title::after {
+            background-color: white;
+        }
+        
+        .leadership-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+        
         .leadership-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -324,19 +354,7 @@
             max-width: 1200px;
             width: 100%;
         }
-
-        @media (max-width: 1024px) {
-            .leadership-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .leadership-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
+        
         .leadership-card {
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -350,14 +368,14 @@
             position: relative;
             z-index: 2;
         }
-
+        
         .leadership-card:hover {
             transform: translateY(-10px);
             background-color: rgba(255, 255, 255, 0.15);
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
             border-color: var(--accent);
         }
-
+        
         .leadership-logo {
             height: 80px;
             width: auto;
@@ -366,22 +384,48 @@
             margin-bottom: 1.5rem;
             transition: transform 0.5s;
         }
-
+        
         .leadership-card:hover .leadership-logo {
             transform: scale(1.1);
         }
-
+        
         .leadership-name {
             color: white;
             margin: 1rem 0;
             font-size: 1.3rem;
         }
-
+        
         .leadership-desc {
             color: rgba(255, 255, 255, 0.9);
             font-size: 1rem;
             margin-bottom: 1.5rem;
             line-height: 1.6;
+        }
+
+        /* Aggiungi questo alla sezione CSS esistente */
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .second-row {
+            grid-column: span 1;
+        }
+
+        @media (max-width: 1024px) {
+            .second-row {
+                grid-column: span 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .leadership-grid {
+                grid-template-columns: 1fr;
+            }
+            .second-row {
+                grid-column: span 1;
+            }
         }
         
         /* News Section */

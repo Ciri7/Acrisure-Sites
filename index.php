@@ -1690,6 +1690,7 @@
             <nav>
                 <ul>
                     <li><a href="#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
@@ -1775,7 +1776,7 @@
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->
-    <section id="gruppo" class="section leadership">
+    <section id="leadership" class="section leadership">
         <h2 class="section-title">Leadership</h2>
         <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         

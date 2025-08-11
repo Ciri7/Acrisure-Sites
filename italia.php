@@ -1804,10 +1804,10 @@
                     <p class="leadership-desc">Account Manager</p>
                 </div>
 
-                <div class="leadership-card">
+                <!-- <div class="leadership-card">
                     <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
                     <h3 class="leadership-name">Sara Sandroni</h3>
-                    <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p>
+                    <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p> -->
                 </div>
             </div><br>
         </div>

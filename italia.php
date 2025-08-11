@@ -355,6 +355,27 @@
             width: 100%;
         }
         
+        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership-first-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
+        
+        /* Stile per le righe successive con 3 card */
+        .leadership-other-rows {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+        
         .leadership-card {
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -1766,50 +1787,54 @@
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <!-- Prima riga -->
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Stefano Sardara</h3>
-                    <p class="leadership-desc">Chief Executivive Officier</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Andrea Maffei</h3>
-                    <p class="leadership-desc">Chairman</p>
+                <!-- Prima riga con 3 card centrate -->
+                <div class="leadership-first-row">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Stefano Sardara</h3>
+                        <p class="leadership-desc">Chief Executivive Officier</p>
+                    </div>
+                    
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Maffei</h3>
+                        <p class="leadership-desc">Chairman</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Giuseppe Barbati</h3>
+                        <p class="leadership-desc">Executive Director Insurance Business Development</p>
+                    </div>
                 </div>
 
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Giuseppe Barbati</h3>
-                    <p class="leadership-desc">Executive Director Insurance Business Development</p>
-                </div>
-                
-                <!-- Seconda riga -->
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Gabriele Gilleri</h3>
-                    <p class="leadership-desc">Chief Operating Officer</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services" class="leadership-logo">
-                    <h3 class="leadership-name">Simone Cagnetti</h3>
-                    <p class="leadership-desc">Products & Corporate Business Manager</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Andrea Barbieri</h3>
-                    <p class="leadership-desc">Account Manager</p>
-                </div>
+                <!-- Seconda riga con 4 card -->
+                <div class="leadership-other-rows">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Gabriele Gilleri</h3>
+                        <p class="leadership-desc">Chief Operating Officer</p>
+                    </div>
 
-                <!-- <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Sara Sandroni</h3>
-                    <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p> -->
-                </div>
-            </div><br>
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Agriservices" class="leadership-logo">
+                        <h3 class="leadership-name">Simone Cagnetti</h3>
+                        <p class="leadership-desc">Products & Corporate Business Manager</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Barbieri</h3>
+                        <p class="leadership-desc">Account Manager</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Sara Sandroni</h3>
+                        <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p>
+                    </div>
+                </div><br>
+            </div>
         </div>
         <br><br><br>
     </section>

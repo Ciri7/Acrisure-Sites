@@ -355,6 +355,27 @@
             width: 100%;
         }
         
+        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership-first-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
+        
+        /* Stile per le righe successive con 3 card */
+        .leadership-other-rows {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+        
         .leadership-card {
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -1762,46 +1783,56 @@
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="gruppo" class="section leadership">
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle2">Our team leads the company with strategic vision, consolidated experience and a strong commitment to innovation and excellence. Discover the people who inspire our growth and shape our future</p>
+        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <!-- First row -->
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Stefano Sardara</h3>
-                    <p class="leadership-desc">Chief Executive Officer</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Andrea Maffei</h3>
-                    <p class="leadership-desc">Chairman</p>
+                <!-- Prima riga con 3 card centrate -->
+                <div class="leadership-first-row">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Stefano Sardara</h3>
+                        <p class="leadership-desc">Chief Executivive Officier</p>
+                    </div>
+                    
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Maffei</h3>
+                        <p class="leadership-desc">Chairman</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Giuseppe Barbati</h3>
+                        <p class="leadership-desc">Executive Director Insurance Business Development</p>
+                    </div>
                 </div>
 
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Giuseppe Barbati</h3>
-                    <p class="leadership-desc">Executive Director Insurance Business Development</p>
-                </div>
-                
-                <!-- Second row -->
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Gabriele Gilleri</h3>
-                    <p class="leadership-desc">Chief Operating Officer</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
-                    <h3 class="leadership-name">Simone Cagnetti</h3>
-                    <p class="leadership-desc">Products & Corporate Business Manager</p>
-                </div>
-                
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Andrea Barbieri</h3>
-                    <p class="leadership-desc">Account Manager</p>
+                <!-- Seconda riga con 4 card -->
+                <div class="leadership-other-rows">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Gabriele Gilleri</h3>
+                        <p class="leadership-desc">Chief Operating Officer</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
+                        <h3 class="leadership-name">Simone Cagnetti</h3>
+                        <p class="leadership-desc">Products & Corporate Business Manager</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Barbieri</h3>
+                        <p class="leadership-desc">Account Manager</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Sara Sandroni</h3>
+                        <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p>
+                    </div>
                 </div>
             </div><br>
         </div>

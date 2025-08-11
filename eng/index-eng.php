@@ -369,10 +369,6 @@
         }
         
         /* Gruppo Section */
-        /* .gruppo {
-            background-color: var(--light);
-        } */
-        
         .aziende-container {
             display: flex;
             justify-content: center;
@@ -455,6 +451,109 @@
         
         .azienda-link:hover i {
             transform: translateX(5px);
+        }
+
+        /* ========== LEADERSHIP SECTION ========== */
+        .section-subtitle {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .section-subtitle2 {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        .leadership {
+            background: linear-gradient(to bottom, 
+                rgba(0, 0, 0, 0.1) 0%, 
+                rgba(0, 0, 0, 0.7) 20%, 
+                rgba(0, 0, 0, 0.7) 80%, 
+                rgba(0, 0, 0, 0.1) 100%), 
+                url('/img/leadership-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            position: relative;
+        }
+        
+        .leadership .section-title {
+            color: white;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .leadership .section-title::after {
+            background-color: white;
+        }
+        
+        .leadership-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+            max-width: 1200px;
+            width: 100%;
+        }
+        
+        .leadership-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-align: center;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .leadership-card:hover {
+            transform: translateY(-10px);
+            background-color: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent);
+        }
+        
+        .leadership-logo {
+            height: 80px;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+            margin-bottom: 1.5rem;
+            transition: transform 0.5s;
+        }
+        
+        .leadership-card:hover .leadership-logo {
+            transform: scale(1.1);
+        }
+        
+        .leadership-name {
+            color: white;
+            margin: 1rem 0;
+            font-size: 1.3rem;
+        }
+        
+        .leadership-desc {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
         }
         
         /* News Section */
@@ -1685,6 +1784,36 @@
 
     <!-- _______________________________________________________________________________________________________________________________________________________ -->
 
+
+    <!-- ========== LEADERSHIP SECTION ========== -->
+    <section id="leadership" class="section leadership">
+        <h2 class="section-title">Leadership</h2>
+        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        
+        <div class="leadership-container">
+            <div class="leadership-grid">
+
+                <!-- Prima riga -->
+                 <div class="leadership-card">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Jason Howard</h3>
+                    <p class="leadership-desc">Chairman</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Stefano Sardara</h3>
+                    <p class="leadership-desc">Chief Executive Officer</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Giovanni Dallavalle</h3>
+                    <p class="leadership-desc">Chief Financial Officer</p>
+                </div>
+        <br><br><br>
+    </section>
+    
     <!-- NEWS -->
     <section id="news" class="section news-section">
         <h2 class="section-title">News & Updates</h2>

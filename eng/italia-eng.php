@@ -1768,38 +1768,38 @@
             <div class="leadership-grid">
                 <!-- First row -->
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Stefano Sardara</h3>
                     <p class="leadership-desc">Chief Executive Officer</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Andrea Maffei</h3>
                     <p class="leadership-desc">Chairman</p>
                 </div>
 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Giuseppe Barbati</h3>
                     <p class="leadership-desc">Executive Director Insurance Business Development</p>
                 </div>
                 
                 <!-- Second row -->
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Gabriele Gilleri</h3>
                     <p class="leadership-desc">Chief Operating Officer</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
                     <h3 class="leadership-name">Simone Cagnetti</h3>
                     <p class="leadership-desc">Products & Corporate Business Manager</p>
                 </div>
                 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Re Italia" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
                     <h3 class="leadership-name">Andrea Barbieri</h3>
                     <p class="leadership-desc">Account Manager</p>
                 </div>

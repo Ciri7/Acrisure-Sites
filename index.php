@@ -458,6 +458,21 @@
         }
 
         /* ========== LEADERSHIP SECTION ========== */
+        .section-subtitle {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .section-subtitle2 {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
         .leadership {
             background: linear-gradient(to bottom, 
                 rgba(0, 0, 0, 0.1) 0%, 

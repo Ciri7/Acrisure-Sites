@@ -1796,13 +1796,13 @@
                 <!-- First row -->
                 <div class="leadership-first-row">
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Giuseppe Gionta</h3>
                         <p class="leadership-desc">Chief Executive Officer</p>
                     </div>
                 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Andrea Maffei</h3>
                         <p class="leadership-desc">Chairman</p>
                     </div>

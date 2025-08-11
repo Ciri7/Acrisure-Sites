@@ -1776,19 +1776,19 @@
 
                 <!-- First row -->
                  <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italy" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
                     <h3 class="leadership-name">Stefano Bruschetta</h3>
                     <p class="leadership-desc">Chief Executive Officer</p>
                 </div>
 
                 <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italy" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
                     <h3 class="leadership-name">Stefano Sardara</h3>
                     <p class="leadership-desc">Chairman</p>
                 </div>
 
                 <div class="leadership-card">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Italy" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
                     <h3 class="leadership-name">Beatrice Bruschetta</h3>
                     <p class="leadership-desc">Executive director operations & IT</p>
                 </div>

@@ -1954,13 +1954,13 @@
                 <!-- First row with 2 centered cards -->
                 <div class="leadership-first-row">
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italy" class="leadership-logo">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
                         <h3 class="leadership-name">Maurizio Capiello</h3>
                         <p class="leadership-desc">Chief Executive Officer</p>
                     </div>
 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italy" class="leadership-logo">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
                         <h3 class="leadership-name">Andrea Maffei</h3>
                         <p class="leadership-desc">Chairman</p>
                     </div>

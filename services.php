@@ -1815,11 +1815,11 @@
                         <h3 class="leadership-name">Rossella Giacchi</h3>
                         <p class="leadership-desc">Group General Counsel</p>
                     </div>
-                    
+
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Re Italia" class="leadership-logo">
                         <h3 class="leadership-name">Alessandro Marras</h3>
-                        <p class="leadership-desc">Head of team shared services & information technology</p>
+                        <p class="leadership-desc">Chief Operation Officer</p>
                     </div>
                 </div>
 
@@ -1828,13 +1828,34 @@
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="leadership-logo">
                         <h3 class="leadership-name">Daniele Meloni</h3>
-                        <p class="leadership-desc">Business & Financial Analysis</p>
+                        <p class="leadership-desc">Business Analysis</p>
+                    </div>
+                    
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Gabriele Gilleri</h3>
+                        <p class="leadership-desc">Executive Director Business</p>
+                    </div>
+                    
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Agricolture" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandra Sardara</h3>
+                        <p class="leadership-desc">Financial Analysis</p>
+                    </div>
+                </div>
+
+                <!-- Quarta riga con 3 card -->
+                <div class="leadership-other-rows">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="leadership-logo">
+                        <h3 class="leadership-name">Elisa Mulargia</h3>
+                        <p class="leadership-desc">Events</p>
                     </div>
                     
                     <div class="leadership-card">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Re Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Elisa Mulargia</h3>
-                        <p class="leadership-desc">Events</p>
+                        <h3 class="leadership-name">Alessandro Serra</h3>
+                        <p class="leadership-desc">Internal Audit & Quality Management</p>
                     </div>
                     
                     <div class="leadership-card">

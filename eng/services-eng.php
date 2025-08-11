@@ -1697,8 +1697,8 @@
     
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="/services.php" class="language-btn">IT</a></li>
-                    <li><a href="#" class="language-btn active">EN</a></li>
+                    <li><a href="../services.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>

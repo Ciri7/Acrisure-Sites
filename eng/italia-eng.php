@@ -1688,7 +1688,7 @@
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="/italia.php" class="language-btn">IT</a></li>
+                    <li><a href="../italia.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>

@@ -1701,6 +1701,7 @@
             <nav>
                 <ul>
                     <li><a href="#chi-siamo" class="nav-link">About Us</a></li>
+                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>

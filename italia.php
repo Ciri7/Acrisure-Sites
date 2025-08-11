@@ -355,6 +355,11 @@
             width: 100%;
         }
 
+        /* Forza la seconda riga con 4 elementi */
+        .leadership-grid.second-row {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
         .leadership-card {
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -402,15 +407,17 @@
             line-height: 1.6;
         }
 
-        /* Responsive adjustments */
+        /* Responsive */
         @media (max-width: 1024px) {
-            .leadership-grid {
+            .leadership-grid,
+            .leadership-grid.second-row {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
 
         @media (max-width: 768px) {
-            .leadership-grid {
+            .leadership-grid,
+            .leadership-grid.second-row {
                 grid-template-columns: 1fr;
             }
         }
@@ -1773,59 +1780,61 @@
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->
-<section id="gruppo" class="section leadership">
-    <h2 class="section-title">Leadership</h2>
-    <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
-    
-    <div class="leadership-container">
-        <div class="leadership-grid">
+    <section id="gruppo" class="section leadership">
+        <h2 class="section-title">Leadership</h2>
+        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        
+        <div class="leadership-container">
             <!-- Prima riga - 3 blocchi -->
-            <div class="leadership-card">
-                <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Stefano Sardara</h3>
-                <p class="leadership-desc">Chief Executivive Officier</p>
-            </div>
-            
-            <div class="leadership-card">
-                <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Andrea Maffei</h3>
-                <p class="leadership-desc">Chairman</p>
+            <div class="leadership-grid">
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Stefano Sardara</h3>
+                    <p class="leadership-desc">Chief Executivive Officier</p>
+                </div>
+                
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Andrea Maffei</h3>
+                    <p class="leadership-desc">Chairman</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Giuseppe Barbati</h3>
+                    <p class="leadership-desc">Executive Director Insurance Business Development</p>
+                </div>
             </div>
 
-            <div class="leadership-card">
-                <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Giuseppe Barbati</h3>
-                <p class="leadership-desc">Executive Director Insurance Business Development</p>
-            </div>
-            
             <!-- Seconda riga - 4 blocchi -->
-            <div class="leadership-card">
-                <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Gabriele Gilleri</h3>
-                <p class="leadership-desc">Chief Operating Officer</p>
-            </div>
-            
-            <div class="leadership-card">
-                <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Simone Cagnetti</h3>
-                <p class="leadership-desc">Products & Corporate Business Manager</p>
-            </div>
-            
-            <div class="leadership-card">
-                <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Andrea Barbieri</h3>
-                <p class="leadership-desc">Account Manager</p>
-            </div>
+            <div class="leadership-grid second-row">
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Gabriele Gilleri</h3>
+                    <p class="leadership-desc">Chief Operating Officer</p>
+                </div>
+                
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Simone Cagnetti</h3>
+                    <p class="leadership-desc">Products & Corporate Business Manager</p>
+                </div>
+                
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Andrea Barbieri</h3>
+                    <p class="leadership-desc">Account Manager</p>
+                </div>
 
-            <div class="leadership-card">
-                <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
-                <h3 class="leadership-name">Sara Sandroni</h3>
-                <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p>
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Sara Sandroni</h3>
+                    <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p>
+                </div>
             </div>
-        </div><br>
-    </div>
-    <br><br><br>
-</section>
+        </div>
+        <br><br><br>
+    </section>
 
     <section id="services" class="section">
         <h2 class="section-title">I Nostri Servizi</h2>

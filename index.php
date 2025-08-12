@@ -478,7 +478,7 @@
                 rgba(0, 0, 0, 0.1) 0%, 
                 rgba(0, 0, 0, 0.7) 20%, 
                 rgba(0, 0, 0, 0.7) 80%, 
-                rgba(0, 0, 0, 0.1) 100%), 
+                rgba(0, 0, 0, 1) 100%), 
                 url('/img/leadership-bg.jpg');
             background-size: cover;
             background-position: center;

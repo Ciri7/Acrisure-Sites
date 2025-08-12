@@ -2926,33 +2926,6 @@
         // Pausa la rotazione quando il mouse è sopra il contenitore
         document.querySelector('.news-wrapper').addEventListener('mouseenter', stopAutoRotation);
         document.querySelector('.news-wrapper').addEventListener('mouseleave', startAutoRotation);
-
-        // Gestione cambio lingua
-        const languageButtons = document.querySelectorAll('.language-btn');
-        
-        languageButtons.forEach(button => {
-            button.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                // Rimuovi la classe active da tutti i pulsanti
-                languageButtons.forEach(btn => btn.classList.remove('active'));
-                
-                // Aggiungi la classe active al pulsante cliccato
-                this.classList.add('active');
-                
-                // Qui dovresti implementare la logica per cambiare la lingua
-                // Ad esempio, reindirizzando alla versione inglese o caricando i contenuti tradotti
-                if (this.textContent === 'EN') {
-                    // Cambia a inglese
-                    console.log('Cambio a inglese');
-                    // window.location.href = '/en/services.php';
-                } else {
-                    // Cambia a italiano
-                    console.log('Cambio a italiano');
-                    // window.location.href = '/services.php';
-                }
-            });
-        });
         
         // Inizializzazione
         window.addEventListener('load', () => {

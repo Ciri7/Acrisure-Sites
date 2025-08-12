@@ -562,7 +562,7 @@
         
         /* News Section */
         .news-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/777.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/777.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -1823,6 +1823,7 @@
 
     <!-- NEWS -->
     <section id="news" class="section news-section">
+        <br><br><br>
         <h2 class="section-title">News & Aggiornamenti</h2>
         <p class="section-subtitle" style="color: var(--light);">Scopri le ultime novità e gli aggiornamenti dal nostro gruppo</p>
         
@@ -1896,6 +1897,7 @@
         <div class="news-cta">
             <a href="news/newsAcrisure.php" class="btn btn-secondary">Vedi tutte le news</a>
         </div>
+        <br><br><br>
     </section>
 
     <!-- IL NOSTRO GRUPPO _____________________________________________________________________________________________________________________ -->

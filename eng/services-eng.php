@@ -1555,13 +1555,6 @@
                 margin: 0 auto;
                 pointer-events: auto;
             }
-
-            /* Mobile language switcher */
-            .language-switcher {
-                margin-left: 0;
-                justify-content: center;
-                padding: 1rem 0;
-            }
         }
         
         @media (max-width: 480px) {
@@ -1697,7 +1690,7 @@
     
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="../services.php" class="language-btn">IT</a></li>
+                    <li><a href="/services.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>

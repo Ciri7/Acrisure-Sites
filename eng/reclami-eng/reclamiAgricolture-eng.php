@@ -1,10 +1,10 @@
-<?php include('../../includes/auth.php'); ?>
+<?php include('../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Italia Ltd. - Complaints</title>
+    <title>Acrisure Agricolture Ltd. - Complaints</title>
     <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
     <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
@@ -201,7 +201,7 @@
         
         /* Hero Section */
         .privacy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/colture3.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -806,8 +806,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/eng/italia-eng.php">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
+                <a href="/agricolture-eng.php">
+                    <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agricolture Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -817,16 +817,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
-                    <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
-                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>
+                    <li><a href="/agricolture-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/agricolture-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/agricolture-eng.php" class="nav-link">Services</a></li>
+                    <li><a href="/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/lavora-con-noi/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="/reclami/reclamiItalia.php" class="language-btn">IT</a></li>
+                    <li><a href="/reclami/reclamiAgricolture.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -844,10 +844,10 @@
             <div class="privacy-section">
                 <h2>Need to file a complaint? Here are the instructions</h2>
                 <p> Dear Customer,<br><br>
-                    Without prejudice to your right to appeal to the Judicial Authority, you have the right to submit a complaint in writing to the appointing company at the addresses indicated in the additional DIP or to the intermediary. For complaints to the intermediary, you can use the dedicated email addresses complaints@acrisureitalia.com, or via PEC at acrisurespa@pec.acrisureitalia.com, or finally by registered mail with return receipt addressed to the Complaints Manager - Acrisure Italy S.p.A., 3 Mazzini Street, 07100 - Sassari.<br><br>
-                    To facilitate response, the complaint must contain: the subject of the complaint and description of the circumstances on which it is based; the capacity of the complainant (e.g., Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other); residential address; telephone contact and/or email address; policy number; name of the Policyholder; number and date of any claim you are referring to; whether the complaint concerns the behavior of our employees and/or collaborators or concerns the products/services offered by us; any other information you deem useful to help us understand the problem. It should be noted that requests for information or clarification, claims for damages or contract performance are not considered complaints. Moreover, if the complaint concerns the insurance product, it is advisable to contact the Insurance Company directly.<br><br>
-                    Only if you are not satisfied with the outcome of the complaint or in case of no response from the intermediary or the company within the legal deadline of 45 days, you also have the right to contact IVASS through the appropriate form provided on the website www.ivass.it by sending the complaint to the following addresses: via PEC at tutela.consumatore@pec.ivass.it, via fax at number 06.42133206, or by ordinary mail to "IVASS Servizio Tutela del Consumatore" - 21 Via del Quirinale, 00187 Rome. You also have the possibility to use other alternative dispute resolution systems provided by current legislation, as indicated in the additional DIP.<br><br>
-                    Finally, you also have the right to contact the Guarantee Fund for the activity of insurance and reinsurance intermediaries established at Consap, 14 Via Yser, 00198 Rome, telephone 06.857961 to request, where the conditions and the right to do so exist, compensation for patrimonial damage caused by the exercise of the intermediation activity, which has not been compensated by the intermediary itself or has not been indemnified through the liability insurance contract covering damages caused to policyholders by negligence and professional errors of the intermediary or by negligence, professional errors, and infidelity of employees, collaborators, or persons for whose actions the intermediary is responsible by law.
+                    Without prejudice to your right to refer the matter to the Judicial Authority, you may submit a written complaint to the appointing company at the contact details indicated in the additional DIP, or to the intermediary. For complaints addressed to the intermediary, you may use the dedicated email addresses reclami.agricolture@acrisure.it, or via certified email (PEC) at agricolture@pec.acrisure.it, or by registered letter with return receipt addressed to: Complaints Manager - Acrisure Agricolture S.r.l. - Via Lovanio no. 6 - 00198 Rome, Italy.<br><br>
+                    In order to facilitate a timely response, the complaint should include the following information: the subject of the complaint and a description of the circumstances to which it refers; the capacity of the complainant (e.g., Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other); residential address; telephone number and/or email address; policy number; name of the Policyholder; number and date of any related claim; whether the complaint concerns the conduct of our employees and/or collaborators or relates to the products/services we offer; and any other information you consider useful to help us understand the matter. It should be noted that requests for information or clarification, claims for damages, or requests for contract performance are not considered complaints. Furthermore, if the complaint concerns the insurance product, it is advisable to contact the Insurance Company directly.<br><br>
+                    Only if you are not satisfied with the outcome of the complaint, or in the event of no response from the intermediary or the company within the legal time limit of 45 days, you may also contact IVASS by completing the dedicated form available on the website www.ivass.it and sending the complaint to the following addresses: via certified email (PEC) to tutela.consumatore@pec.ivass.it, via fax to +39 06 42133206, or by ordinary mail to IVASS - Consumer Protection Service, Via del Quirinale 21, 00187 Rome, Italy. You also have the option of using any other alternative dispute resolution systems provided for by applicable law, as specified in the additional DIP.<br><br>
+                    Da ultimo, hai inoltre la facoltà di rivolgerti al Fondo di Garanzia per l’attività dei mediatori di assicurazione e riassicurazione istituito presso la Consap, Via Yser 14,00198 Roma, telefono 06.857961 per chiedere, laddove ne esistano i presupposti ed il diritto a farlo, il risarcimento del danno patrimoniale causato dall’esercizio dell’attività di intermediazione, che non sia stato risarcito dall’intermediario stesso o non sia stato indennizzato attraverso il contratto di assicurazione della Responsabilità Civile che copre i danni arrecati ai contraenti da negligenze ed errori professionali dell’intermediario o da negligenze, errori professionali ed infedeltà dei dipendenti, dei collaboratori o delle persone del cui operato l’intermediario deve rispondere a norma di legge.
                 </p>
             </div>
         </div>
@@ -857,73 +857,58 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Registered Office</h3>
+                <h3><i class="fas fa-building"></i>Legal Headquarters</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
-                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture Ltd.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i>6 Lovanio Street - 00198 Rome</li><br>
+                    <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt="Acrisure Agricolture Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contacts</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: +39 06 98968206</li>
+                    <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li> -->
+                    <!-- <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li> -->
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:premium@pec.premiumbroker.it">premium@pec.premiumbroker.it</a></li>
                 </ul>
-
+                
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
-
-                <br>
-                <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiItalia-eng.php" class="footer-title-link">Complaints</a></h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
-                    </ul>
-                </div>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Office Hours</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
-                </div>
-
-                <br>
                 <div class="legal-links">
-                    <a href="/eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
-                    <a href="/eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
-                    <a href="/eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAgricolture-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAgricolture-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
         <br>
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
-            Share Capital € 200,000.00 fully paid - RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
-            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
+            <p>Acrisure Agricolture Ltd. - Single-member company subject to the direction and coordination of Acrisure Ltd.<br>
+            Share capital €150,000.00 fully paid up - RUI: B000243223. Company participating in the Acrisure Group VAT 13147890969<br>
+            Tax Code and registration number in the Rome Companies Register: 08359221002. REA RM- 1089539</p>
         </div>
     </footer>
 

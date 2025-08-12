@@ -109,7 +109,7 @@
             letter-spacing: 0.5px;
         }
         
-        nav ul li:not(:last-child)::after {
+        nav ul li:not(:last-child):not(.language-switcher)::after {
             content: "|";
             color: rgba(0, 0, 0, 0.2);
             position: absolute;
@@ -1545,13 +1545,6 @@
                 margin: 0 auto;
                 pointer-events: auto;
             }
-
-            /* Mobile language switcher */
-            .language-switcher {
-                margin-left: 0;
-                justify-content: center;
-                padding: 1rem 0;
-            }
         }
         
         @media (max-width: 480px) {
@@ -2578,33 +2571,6 @@
         // Pausa la rotazione quando il mouse è sopra il contenitore
         document.querySelector('.news-wrapper').addEventListener('mouseenter', stopAutoRotation);
         document.querySelector('.news-wrapper').addEventListener('mouseleave', startAutoRotation);
-
-        // Gestione cambio lingua
-        const languageButtons = document.querySelectorAll('.language-btn');
-        
-        languageButtons.forEach(button => {
-            button.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                // Rimuovi la classe active da tutti i pulsanti
-                languageButtons.forEach(btn => btn.classList.remove('active'));
-                
-                // Aggiungi la classe active al pulsante cliccato
-                this.classList.add('active');
-                
-                // Qui dovresti implementare la logica per cambiare la lingua
-                // Ad esempio, reindirizzando alla versione inglese o caricando i contenuti tradotti
-                if (this.textContent === 'EN') {
-                    // Cambia a inglese
-                    console.log('Cambio a inglese');
-                    // window.location.href = '/en/services.html';
-                } else {
-                    // Cambia a italiano
-                    console.log('Cambio a italiano');
-                    // window.location.href = '/services.html';
-                }
-            });
-        });
         
         // Inizializzazione
         window.addEventListener('load', () => {

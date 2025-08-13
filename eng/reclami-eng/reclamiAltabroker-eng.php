@@ -911,9 +911,9 @@
 
                 <br>
                 <div class="legal-links">
-                    <a href="/eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
-                    <a href="/eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
-                    <a href="/eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAltabroker-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAltabroker-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAltabroker-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

@@ -201,7 +201,7 @@
         
         /* Hero Section */
         .privacy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Genov1.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;

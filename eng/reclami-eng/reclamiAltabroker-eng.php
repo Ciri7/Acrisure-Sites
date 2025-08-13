@@ -201,7 +201,7 @@
         
         /* Hero Section */
         .privacy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Genov1.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -806,7 +806,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="/eng/altabroker-eng.php">
-                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
+                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>

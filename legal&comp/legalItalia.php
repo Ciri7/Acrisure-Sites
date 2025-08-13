@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Italia - Legal & Compliance</title>
+    <title>Acrisure Italia S.p.A. - Legal & Compliance</title>
     <meta name="description" content="Informazioni su legalità e conformità di Acrisure Italia. Scopri il nostro impegno per la trasparenza e il rispetto delle normative.">
     <meta name="keywords" content="legal, compliance, normativa, regolamentazione, Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureitalia.com/legal-e-compliance" />

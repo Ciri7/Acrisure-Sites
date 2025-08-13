@@ -881,8 +881,6 @@
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i>Amministrazione: 069 8968206</li>
-                    <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li> -->
-                    <!-- <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li> -->
                     <li><i class="fas fa-envelope"></i> <a href="mailto:premium@pec.premiumbroker.it">premium@pec.premiumbroker.it</a></li>
                 </ul>
                 
@@ -893,7 +891,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiAgricolture.php" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami.agricolture@acrisure.it">reclami.agricolture@acrisure.it</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:agricolture@pec.acrisure.it">agricolture@pec.acrisure.it</a></li>
@@ -915,22 +913,13 @@
                 </div>
             </div>
         </div>
-        
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
 
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure Agricolture S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
+            Cap.sociale € 150.000,00 i.v- RUI: B000243223. Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
+            Cod.Fiscale e n. iscr.al registro Imprese di Roma n.08359221002. REA RM- 1089539 </p>
         </div>
     </footer>
 

@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alta Broker - Legal & Compliance</title>
-    <meta name="description" content="Informazioni su legalità e conformità di Acrisure Italia. Scopri il nostro impegno per la trasparenza e il rispetto delle normative.">
-    <meta name="keywords" content="legal, compliance, normativa, regolamentazione, Acrisure Italia">
-    <link rel="canonical" href="https://www.acrisureitalia.com/legal-e-compliance" />
+    <title>Alta Broker & Partners S.r.l. - Reclami</title>
+    <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
+    <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
+    <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -200,10 +200,10 @@
         }
         
         /* Hero Section */
-        .legal-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Genov1.jpg');
+        .privacy-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
-            background-position: top;
+            background-position: center;
             background-attachment: fixed;
             height: 50vh;
             min-height: 400px;
@@ -221,14 +221,14 @@
             width: 100%;
         }
         
-        .legal-hero h1 {
+        .privacy-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
             animation: fadeIn 0.8s ease;
         }
         
-        .legal-hero p {
+        .privacy-hero p {
             font-size: 1.3rem;
             max-width: 600px;
             margin-bottom: 2.5rem;
@@ -272,8 +272,8 @@
             border-radius: 2px;
         }
         
-        /* Legal Content */
-        .legal-content {
+        /* Privacy Content */
+        .privacy-content {
             max-width: 1000px;
             margin: 0 auto;
             background-color: white;
@@ -282,11 +282,11 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
         }
         
-        .legal-section {
+        .privacy-section {
             margin-bottom: 3rem;
         }
         
-        .legal-section h2 {
+        .privacy-section h2 {
             color: var(--secondary);
             margin-bottom: 1.5rem;
             font-size: 1.8rem;
@@ -294,7 +294,7 @@
             padding-bottom: 0.8rem;
         }
         
-        .legal-section h2::after {
+        .privacy-section h2::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -304,76 +304,42 @@
             background-color: var(--accent);
         }
         
-        .legal-section h3 {
+        .privacy-section h3 {
             color: var(--secondary);
             margin: 2rem 0 1rem;
             font-size: 1.4rem;
         }
         
-        .legal-section p, 
-        .legal-section ul {
+        .privacy-section p, 
+        .privacy-section ul {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
             color: #555;
         }
         
-        .legal-section ul {
+        .privacy-section ul {
             padding-left: 2rem;
         }
         
-        .legal-section li {
+        .privacy-section li {
             margin-bottom: 0.8rem;
         }
         
-        .legal-section strong {
+        .privacy-section strong {
             color: var(--secondary);
             font-weight: 600;
         }
         
-        .legal-section a {
+        .privacy-section a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .legal-section a:hover {
+        .privacy-section a:hover {
             color: var(--primary);
             text-decoration: underline;
-        }
-        
-        /* Compliance Boxes */
-        .compliance-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .compliance-box {
-            background-color: white;
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s, box-shadow 0.3s;
-            border-top: 4px solid var(--accent);
-        }
-        
-        .compliance-box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-        
-        .compliance-box h3 {
-            color: var(--secondary);
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-        }
-        
-        .compliance-box h3 i {
-            margin-right: 10px;
-            color: var(--accent);
         }
         
         /* Footer */
@@ -618,7 +584,7 @@
         
         /* Responsive */
         @media (max-width: 1024px) {
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 3rem;
             }
             
@@ -669,20 +635,20 @@
                 display: none;
             }
             
-            .legal-hero {
+            .privacy-hero {
                 height: 40vh;
                 min-height: 300px;
             }
             
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 2.5rem;
             }
             
-            .legal-hero p {
+            .privacy-hero p {
                 font-size: 1.1rem;
             }
             
-            .legal-content {
+            .privacy-content {
                 padding: 2rem;
             }
             
@@ -724,7 +690,7 @@
         }
         
         @media (max-width: 480px) {
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 2rem;
             }
             
@@ -736,20 +702,20 @@
                 padding: 4rem 5%;
             }
             
-            .legal-content {
+            .privacy-content {
                 padding: 1.5rem;
             }
             
-            .legal-section h2 {
+            .privacy-section h2 {
                 font-size: 1.5rem;
             }
             
-            .legal-section h3 {
+            .privacy-section h3 {
                 font-size: 1.2rem;
             }
             
-            .legal-section p, 
-            .legal-section ul {
+            .privacy-section p, 
+            .privacy-section ul {
                 font-size: 1rem;
             }
 
@@ -760,7 +726,7 @@
                 padding: 1rem 0;
             }
         }
-
+        
         /* NUOVI FOOTER --------------------------- */
         .social-links a {
             color: var(--secondary);
@@ -819,7 +785,7 @@
             margin: 0;
         }
 
-        /* RECLAMI LINK---------- */
+         /* RECLAMI LINK---------- */
         .footer-title-link {
         color: var(--secondary);
         text-decoration: none;
@@ -860,83 +826,28 @@
             <nav class="language-switcher">
                 <ul>
                     <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/legal-eng/legalAltabroker-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="/eng/reclami-eng/reclamiAltabroker-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="legal-hero">
+    <section class="privacy-hero">
         <div class="hero-content">
-            <h1>Legal & Compliance</h1>
-            <p>Il nostro impegno per la trasparenza, la conformità normativa e la tutela degli stakeholder.</p>
+            <h1>Reclami</h1>
         </div>
     </section>
 
     <section class="section">
-        <div class="legal-content">
-            <div class="legal-section">
-                <h2>Governance e Compliance</h2>
-                <p>Acrisure Italia opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
-                
-                <div class="compliance-grid">
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-balance-scale"></i> Normativa IVASS</h3>
-                        <p>Rispettiamo scrupolosamente le disposizioni dell'IVASS (Istituto per la Vigilanza sulle Assicurazioni), garantendo la massima trasparenza nelle relazioni con i clienti e la corretta gestione dei prodotti assicurativi.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-shield-alt"></i> Antiriciclaggio</h3>
-                        <p>Abbiamo implementato un solido sistema di prevenzione del riciclaggio e del finanziamento del terrorismo, in conformità al D.Lgs. 231/2007 e alle successive modifiche.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-user-shield"></i> Protezione Dati</h3>
-                        <p>La privacy e la sicurezza dei dati personali sono prioritarie. Il trattamento avviene nel rispetto del GDPR (Regolamento UE 2016/679) e del Codice Privacy italiano.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-handshake"></i> Condotta Commerciale</h3>
-                        <p>Adottiamo politiche rigorose per garantire correttezza, trasparenza e lealtà in tutte le attività commerciali, in linea con le disposizioni IVASS sulla distribuzione assicurativa.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="legal-section">
-                <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
-                <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
-                    <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
-                    <li>Segnalare eventuali anomalie o violazioni</li>
-                    <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
-                </ul>
-                <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
-                <ul>
-                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
-                </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Whistleblowing</h2>
-                <p>In conformità alla normativa sulla protezione dei segnalanti (Direttiva UE 2019/1937 e D.Lgs. 24/2023), Acrisure Italia ha istituito un canale dedicato per la segnalazione di violazioni o irregolarità.</p>
-                <p>Le segnalazioni possono essere inviate:</p>
-                <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Procedura Whistleblowing</a></li>
-                    <li>Tramite posta raccomandata all'indirizzo: Organismo di Vigilanza - Via Giuseppe Mazzini, 3 - 07100 Sassari</li>
-                </ul>
-                <p>Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.</p>
+        <div class="privacy-content">
+            <div class="privacy-section">
+                <h2>Devi inviarci un reclamo? Ecco le istruzioni</h2>
+                <p> Gentile Cliente,<br><br>
+                    fermo restando il tuo diritto di rivolgerti all’Autorità Giudiziaria, hai la facoltà di presentare reclamo per iscritto all’impresa preponente ai recapiti indicati nel DIP aggiuntivo o all’intermediario. Per i reclami all’intermediario può utilizzare gli indirizzi mail dedicati reclami@altabroker.it, ovvero tramite PEC all’indirizzo altabrokerandpartners@pec.it ed infine con raccomandata A/R indirizzata alla Funzione Reclami - Alta Brokers & Partners S.r.l. - Via Assarotti 5/1 - 16122 GENOVA.<br><br>
+                    Anche al fine di facilitare il riscontro, il reclamo deve contenere l’indicazione di: l’oggetto del reclamo e descrizione delle circostanze su cui lo stesso verte; la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro); l’indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail; il numero della polizza; il nominativo del Contraente; il numero e la data dell’eventuale sinistro a cui fai riferimento; se il reclamo ha ad oggetto il comportamento dei nostri dipendenti e/o collaboratori oppure riguarda i prodotti/servizi da noi offerti; qualsiasi altra informazione che ritieni utile per aiutarci a comprendere il problema. È opportuno evidenziare che non sono considerate reclami le richieste di informazioni o di chiarimenti, le richieste di risarcimento danni o di esecuzione del contratto, inoltre, qualora il reclamo riguardi il prodotto assicurativo è consigliabile rivolgersi direttamente alla Compagnia di Assicurazione.<br><br>
+                    Solo qualora non dovessi essere soddisfatto dell’esito del reclamo o in caso di assenza di riscontro da parte dell’intermediario o dell’impresa entro il termine di legge previsto in 45 giorni hai altresì la facoltà di rivolgersi all’IVASS tramite l’apposito form previsto sul sito web www.ivass.it inviando il reclamo ai seguenti recapiti: via PEC all’indirizzo tutela.consumatore@pec.ivass.it, via fax al numero 06.42133206 ovvero tramite posta ordinaria “IVASS Servizio Tutela del Consumatore” - Via del Quirinale, 21 00187 Roma Hai inoltre la possibilità di avvalerti di altri eventuali sistemi alternativi di risoluzione delle controversie previsti dalla normativa vigente, sempre secondo quanto indicato nel DIP aggiuntivo.<br><br>
+                    Da ultimo, hai inoltre la facoltà di rivolgerti al Fondo di Garanzia per l’attività dei mediatori di assicurazione e riassicurazione istituito presso la Consap, Via Yser 14,00198 Roma, telefono 06.857961 per chiedere, laddove ne esistano i presupposti ed il diritto a farlo, il risarcimento del danno patrimoniale causato dall’esercizio dell’attività di intermediazione, che non sia stato risarcito dall’intermediario stesso o non sia stato indennizzato attraverso il contratto di assicurazione della Responsabilità Civile che copre i danni arrecati ai contraenti da negligenze ed errori professionali dell’intermediario o da negligenze, errori professionali ed infedeltà dei dipendenti, dei collaboratori o delle persone del cui operato l’intermediario deve rispondere a norma di legge.
+                </p>
             </div>
         </div>
     </section>
@@ -977,7 +888,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiAltabroker.php" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto: reclami@altabroker.it"> reclami@altabroker.it</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>

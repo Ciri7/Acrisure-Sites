@@ -1,13 +1,13 @@
-<?php include('../includes/auth.php'); ?>
+<?php include('../../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alta Broker - Legal & Compliance</title>
-    <meta name="description" content="Informazioni su legalità e conformità di Acrisure Italia. Scopri il nostro impegno per la trasparenza e il rispetto delle normative.">
-    <meta name="keywords" content="legal, compliance, normativa, regolamentazione, Acrisure Italia">
-    <link rel="canonical" href="https://www.acrisureitalia.com/legal-e-compliance" />
+    <title>Alta Broker & Partners Ltd. - Complaints</title>
+    <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
+    <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
+    <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -200,10 +200,10 @@
         }
         
         /* Hero Section */
-        .legal-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Genov1.jpg');
+        .privacy-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
-            background-position: top;
+            background-position: center;
             background-attachment: fixed;
             height: 50vh;
             min-height: 400px;
@@ -221,14 +221,14 @@
             width: 100%;
         }
         
-        .legal-hero h1 {
+        .privacy-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
             animation: fadeIn 0.8s ease;
         }
         
-        .legal-hero p {
+        .privacy-hero p {
             font-size: 1.3rem;
             max-width: 600px;
             margin-bottom: 2.5rem;
@@ -272,8 +272,8 @@
             border-radius: 2px;
         }
         
-        /* Legal Content */
-        .legal-content {
+        /* Privacy Content */
+        .privacy-content {
             max-width: 1000px;
             margin: 0 auto;
             background-color: white;
@@ -282,11 +282,11 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
         }
         
-        .legal-section {
+        .privacy-section {
             margin-bottom: 3rem;
         }
         
-        .legal-section h2 {
+        .privacy-section h2 {
             color: var(--secondary);
             margin-bottom: 1.5rem;
             font-size: 1.8rem;
@@ -294,7 +294,7 @@
             padding-bottom: 0.8rem;
         }
         
-        .legal-section h2::after {
+        .privacy-section h2::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -304,76 +304,42 @@
             background-color: var(--accent);
         }
         
-        .legal-section h3 {
+        .privacy-section h3 {
             color: var(--secondary);
             margin: 2rem 0 1rem;
             font-size: 1.4rem;
         }
         
-        .legal-section p, 
-        .legal-section ul {
+        .privacy-section p, 
+        .privacy-section ul {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
             color: #555;
         }
         
-        .legal-section ul {
+        .privacy-section ul {
             padding-left: 2rem;
         }
         
-        .legal-section li {
+        .privacy-section li {
             margin-bottom: 0.8rem;
         }
         
-        .legal-section strong {
+        .privacy-section strong {
             color: var(--secondary);
             font-weight: 600;
         }
         
-        .legal-section a {
+        .privacy-section a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .legal-section a:hover {
+        .privacy-section a:hover {
             color: var(--primary);
             text-decoration: underline;
-        }
-        
-        /* Compliance Boxes */
-        .compliance-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .compliance-box {
-            background-color: white;
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s, box-shadow 0.3s;
-            border-top: 4px solid var(--accent);
-        }
-        
-        .compliance-box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-        
-        .compliance-box h3 {
-            color: var(--secondary);
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-        }
-        
-        .compliance-box h3 i {
-            margin-right: 10px;
-            color: var(--accent);
         }
         
         /* Footer */
@@ -618,7 +584,7 @@
         
         /* Responsive */
         @media (max-width: 1024px) {
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 3rem;
             }
             
@@ -669,20 +635,20 @@
                 display: none;
             }
             
-            .legal-hero {
+            .privacy-hero {
                 height: 40vh;
                 min-height: 300px;
             }
             
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 2.5rem;
             }
             
-            .legal-hero p {
+            .privacy-hero p {
                 font-size: 1.1rem;
             }
             
-            .legal-content {
+            .privacy-content {
                 padding: 2rem;
             }
             
@@ -724,7 +690,7 @@
         }
         
         @media (max-width: 480px) {
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 2rem;
             }
             
@@ -736,20 +702,20 @@
                 padding: 4rem 5%;
             }
             
-            .legal-content {
+            .privacy-content {
                 padding: 1.5rem;
             }
             
-            .legal-section h2 {
+            .privacy-section h2 {
                 font-size: 1.5rem;
             }
             
-            .legal-section h3 {
+            .privacy-section h3 {
                 font-size: 1.2rem;
             }
             
-            .legal-section p, 
-            .legal-section ul {
+            .privacy-section p, 
+            .privacy-section ul {
                 font-size: 1rem;
             }
 
@@ -760,7 +726,7 @@
                 padding: 1rem 0;
             }
         }
-
+        
         /* NUOVI FOOTER --------------------------- */
         .social-links a {
             color: var(--secondary);
@@ -839,8 +805,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/altabroker.php">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Services Logo" class="logo">
+                <a href="/eng/altabroker-eng.php">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -850,126 +816,71 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/altabroker.php#news" class="nav-link">News</a></li>
-                    <li><a href="/altabroker.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/altabroker.php#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/eng/altabroker-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/altabroker-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/altabroker-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/legal-eng/legalAltabroker-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="/reclami/reclamiAltabroker.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="legal-hero">
+    <section class="privacy-hero">
         <div class="hero-content">
-            <h1>Legal & Compliance</h1>
-            <p>Il nostro impegno per la trasparenza, la conformità normativa e la tutela degli stakeholder.</p>
+            <h1>Complaints</h1>
         </div>
     </section>
 
     <section class="section">
-        <div class="legal-content">
-            <div class="legal-section">
-                <h2>Governance e Compliance</h2>
-                <p>Acrisure Italia opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
-                
-                <div class="compliance-grid">
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-balance-scale"></i> Normativa IVASS</h3>
-                        <p>Rispettiamo scrupolosamente le disposizioni dell'IVASS (Istituto per la Vigilanza sulle Assicurazioni), garantendo la massima trasparenza nelle relazioni con i clienti e la corretta gestione dei prodotti assicurativi.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-shield-alt"></i> Antiriciclaggio</h3>
-                        <p>Abbiamo implementato un solido sistema di prevenzione del riciclaggio e del finanziamento del terrorismo, in conformità al D.Lgs. 231/2007 e alle successive modifiche.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-user-shield"></i> Protezione Dati</h3>
-                        <p>La privacy e la sicurezza dei dati personali sono prioritarie. Il trattamento avviene nel rispetto del GDPR (Regolamento UE 2016/679) e del Codice Privacy italiano.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-handshake"></i> Condotta Commerciale</h3>
-                        <p>Adottiamo politiche rigorose per garantire correttezza, trasparenza e lealtà in tutte le attività commerciali, in linea con le disposizioni IVASS sulla distribuzione assicurativa.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="legal-section">
-                <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
-                <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
-                    <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
-                    <li>Segnalare eventuali anomalie o violazioni</li>
-                    <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
-                </ul>
-                <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
-                <ul>
-                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
-                </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Whistleblowing</h2>
-                <p>In conformità alla normativa sulla protezione dei segnalanti (Direttiva UE 2019/1937 e D.Lgs. 24/2023), Acrisure Italia ha istituito un canale dedicato per la segnalazione di violazioni o irregolarità.</p>
-                <p>Le segnalazioni possono essere inviate:</p>
-                <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Procedura Whistleblowing</a></li>
-                    <li>Tramite posta raccomandata all'indirizzo: Organismo di Vigilanza - Via Giuseppe Mazzini, 3 - 07100 Sassari</li>
-                </ul>
-                <p>Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.</p>
+        <div class="privacy-content">
+            <div class="privacy-section">
+                <h2>Need to file a complaint? Here are the instructions</h2>
+                <p> Dear Customer,<br><br>
+                    Without prejudice to your right to refer the matter to the Judicial Authority, you may submit a written complaint to the appointing company at the contact details indicated in the additional DIP, or to the intermediary. For complaints addressed to the intermediary, you may use the dedicated email address reclami@altabroker.it, or via certified email (PEC) at altabrokerandpartners@pec.it, or by registered letter with return receipt addressed to: Complaints Department - Alta Brokers & Partners S.r.l. - Via Assarotti 5/1 - 16122 Genoa, Italy.<br><br>
+                    In order to facilitate a prompt response, the complaint should include the following information: the subject of the complaint and a description of the circumstances to which it refers; the capacity of the complainant (e.g., Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other); residential address; telephone number and/or email address; policy number; name of the Policyholder; number and date of any related claim; whether the complaint concerns the conduct of our employees and/or collaborators or relates to the products/services we offer; and any other information you consider useful to help us understand the matter. It should be noted that requests for information or clarification, claims for damages, or requests for contract performance are not considered complaints. Furthermore, if the complaint concerns the insurance product, it is advisable to contact the Insurance Company directly.<br><br>
+                    Only if you are not satisfied with the outcome of the complaint, or in the event of no response from the intermediary or the company within the legal time limit of 45 days, you may also contact IVASS by completing the dedicated form available on the website www.ivass.it and sending the complaint to the following addresses: via certified email (PEC) to tutela.consumatore@pec.ivass.it, via fax to +39 06 42133206, or by ordinary mail to IVASS - Consumer Protection Service, Via del Quirinale 21, 00187 Rome, Italy. You also have the option of using any other alternative dispute resolution systems provided for under applicable law, as indicated in the additional DIP.<br><br>
+                    Lastly, you may also contact the Guarantee Fund for the activity of insurance and reinsurance brokers, established at CONSAP, Via Yser 14, 00198 Rome, Italy, telephone +39 06 857961, to request—where the relevant conditions and legal entitlement exist—compensation for financial loss caused by the exercise of intermediation activities, which has not been compensated by the intermediary itself or indemnified through the professional civil liability insurance policy covering damages caused to policyholders as a result of the intermediary’s negligence or professional errors, or due to the negligence, professional errors, or misconduct of employees, collaborators, or any other persons for whose actions the intermediary is legally liable.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER ------------------------------------------------------------------------------------------------------------------ -->
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Assarotti, 5/1 - 16122 Genova</li><br>
-                    <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
+                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Via Assarotti, 5 - 16122</li>
-                    <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>Corso Montebello, 5 - 15057</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contatti</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 010 9860606</li>
-                    <li><i class="fas fa-fax"></i>Telefax: +39 010 9868018</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                 </ul>
-                
+
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -977,50 +888,41 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiAltabroker.php" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto: reclami@altabroker.it"> reclami@altabroker.it</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i>Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
+                <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
-                
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
+                </div>
+
+                <br>
                 <div class="legal-links">
-                    <a href="/policy/policyAltabroker.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAltabroker.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAltabroker.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 60.000,00 i.v. REA GE-494327 RUI: B000605520 P.IVA 02547920997 <br>
-            Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997. </p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
+            Share Capital € 200,000.00 fully paid - RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
+            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
         </div>
     </footer>
 

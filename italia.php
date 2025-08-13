@@ -1644,7 +1644,6 @@
         }
 
         /* RECLAMI LINK---------- */
-
         .footer-title-link {
         color: var(--secondary);
         text-decoration: none;

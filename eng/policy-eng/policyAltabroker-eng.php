@@ -784,6 +784,18 @@
             line-height: 1.5;
             margin: 0;
         }
+
+        /* RECLAMI LINK---------- */
+        .footer-title-link {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+        }
+
+        .footer-title-link:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>
@@ -958,9 +970,9 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation"></i>Complaints</h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiAltabroker-eng.php" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it">reclami@altabroker.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it"> reclami@altabroker.it</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
                     </ul>
                 </div>
@@ -974,7 +986,7 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="#header">Privacy Policy</a>
+                    <a href="/eng/policy-eng/policyAltabroker-eng.php">Privacy Policy</a>
                     <a href="/eng/cookies-eng/cookiesAltabroker-eng.php">Cookie Policy</a>
                     <a href="/eng/legal-eng/legalAltabroker-eng.php">Legal & Compliance</a>
                 </div>

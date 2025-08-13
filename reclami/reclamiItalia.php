@@ -881,7 +881,6 @@
                     <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -912,6 +911,7 @@
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
                 </div>
                 
+                <br>
                 <div class="legal-links">
                     <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>

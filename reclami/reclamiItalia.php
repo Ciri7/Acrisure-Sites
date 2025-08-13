@@ -785,8 +785,7 @@
             margin: 0;
         }
 
-         /* RECLAMI LINK---------- */
-
+        /* RECLAMI LINK---------- */
         .footer-title-link {
         color: var(--secondary);
         text-decoration: none;

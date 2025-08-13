@@ -642,6 +642,18 @@
             line-height: 1.5;
             margin: 0;
         }
+
+        /* RECLAMI LINK---------- */
+        .footer-title-link {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+        }
+
+        .footer-title-link:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>

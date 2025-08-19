@@ -1796,6 +1796,12 @@
                         <h3 class="leadership-name">Andrea Maffei</h3>
                         <p class="leadership-desc">Chairman</p>
                     </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Tiziano Berti</h3>
+                        <p class="leadership-desc">Executive Director of Northen Agricultural Business Development</p>
+                    </div>
                 </div><br>
             </div>
         </div>

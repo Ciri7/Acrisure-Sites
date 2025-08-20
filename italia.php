@@ -1784,7 +1784,7 @@
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Stefano Sardara</h3>
-                        <p class="leadership-desc">Chief Executivive Officier</p>
+                        <p class="leadership-desc">Chief Executive Officier</p>
                     </div>
                     
                     <div class="leadership-card">

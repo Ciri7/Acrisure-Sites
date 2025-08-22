@@ -938,8 +938,7 @@
                 </p>
                 <ul>
                     <li><a href="../DOCUMENTI/MODELLO 231/WB_Italia.pdf" target="_blank">Procedura Whistleblowing</a></li>
-                </ul><br><br>
-                <p>Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.</p>
+                </ul>
             </div>
         </div>
     </section>

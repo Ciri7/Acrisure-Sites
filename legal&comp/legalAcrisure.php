@@ -903,16 +903,24 @@
             </div>
 
             <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
+                <h2>Modello 231</h2>
+                <p>
+                    Il Modello adottato da Acrisure S.r.l. si articola in: - una Parte Generale, che definisce il quadro normativo, i principi, le responsabilità e le modalità di attuazione del sistema di controllo; - una Parte Speciale, dedicata alle principali categorie di reati rilevanti rispetto all’attività della
+                    Società; - il Codice Etico, parte integrante del Modello, che esprime i valori e i principi comportamentali cui devono attenersi tutti i destinatari. Il Modello si fonda su: - Analisi e mappatura dei rischi (risk assessment); - Individuazione delle attività sensibili; - Protocolli e procedure di prevenzione; - Flussi informativi strutturati verso l’OdV; - Sistema disciplinare interno; - Formazione e sensibilizzazione dei destinatari; - Aggiornamento e miglioramento continuo dei presidi adottati.
+                </p>
+                <!-- <ul>
+                    <li><a href="../DOCUMENTI/ETICA/#" target="_blank">Modello 231</a></li>
+                </ul> -->
+            </div>
+
+            <div class="legal-section">
+                <h2>Codice Etico</h2>
+                <p>
+                    Il Codice Etico adottato da Acrisure S.r.l. definisce i valori di integrità, correttezza, rispetto e legalità che ispirano l’azione della Società. Esso stabilisce standard di comportamento vincolanti per amministratori, dipendenti, collaboratori, consulenti, fornitori e, ove applicabile, clienti. In qualità di Capogruppo, Acrisure S.r.l. promuove la diffusione e l’osservanza del Codice Etico anche all’interno delle società controllate, nell’ambito di un sistema di governance condiviso.
+                </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
+                    <li><a href="../DOCUMENTI/ETICA/#" target="_blank">Codice Etico</a></li>
                 </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
             </div>
 
             <div class="legal-section">

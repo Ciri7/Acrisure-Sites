@@ -916,7 +916,7 @@
             <div class="legal-section">
                 <h2>Codice Etico</h2>
                 <p>
-                    Il Codice Etico adottato da Acrisure S.r.l. definisce i valori di integrità, correttezza, rispetto e legalità che ispirano l’azione della Società. Esso stabilisce standard di comportamento vincolanti per amministratori, dipendenti, collaboratori, consulenti, fornitori e, ove applicabile, clienti. In qualità di Capogruppo, Acrisure S.r.l. promuove la diffusione e l’osservanza del Codice Etico anche all’interno delle società controllate, nell’ambito di un sistema di governance condiviso.
+                    Il Codice Etico adottato da Acrisure S.r.l. definisce i valori di integrità, correttezza, rispetto e legalità che ispirano l’azione della Società. Esso stabilisce standard di comportamento vincolanti per amministratori, dipendenti, collaboratori, consulenti, fornitori e, ove applicabile, clienti.<br>In qualità di Capogruppo, Acrisure S.r.l. promuove la diffusione e l’osservanza del Codice Etico anche all’interno delle società controllate, nell’ambito di un sistema di governance condiviso.
                 </p>
                 <ul>
                     <li><a href="../DOCUMENTI/ETICA/#" target="_blank">Codice Etico</a></li>

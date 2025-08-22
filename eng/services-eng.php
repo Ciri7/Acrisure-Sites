@@ -1869,7 +1869,7 @@
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
                         <h3 class="leadership-name">Sara Sandroni</h3>
-                        <p class="leadership-desc">Impact Manager<br>(Benefit Corporation)</p>
+                        <p class="leadership-desc">Communications Brand Awareness</p>
                     </div>
                 </div>
             </div><br>

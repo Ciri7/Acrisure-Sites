@@ -1236,6 +1236,7 @@
             <nav>
                 <ul>
                     <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="/index.php#leadership" class="nav-link">Leadership</a></li>
                     <li><a href="/index.php#news" class="nav-link">News</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="#header" class="nav-link">Lavora Con Noi</a></li>
@@ -1270,7 +1271,7 @@
                     <i class="fas fa-users"></i>
                 </div>
                 <h3 class="benefit-title">Team Building</h3>
-                <p class="benefit-description">Partecipa alle nostre attività di team building pensate per rafforzare lo spirito di squadra, migliorare la collaborazione e creare un ambiente di lavoro coeso e motivante.</p>
+                <p class="benefit-description">Migliorare la collaborazione e creare un ambiente di lavoro coeso e motivante.</p>
                 <a href="#" class="benefit-link" onclick="openModal('modal-team-building')">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
             
@@ -1279,8 +1280,8 @@
                 <div class="benefit-icon">
                     <i class="fas fa-utensils"></i>
                 </div>
-                <h3 class="benefit-title">Sala Relax & Reset Zone</h3>
-                <p class="benefit-description">Goditi i nostri spazi dedicati al relax e alla pausa pranzo. Un'area confortevole dove ricaricarti e condividere momenti informali con i colleghi.</p>
+                <h3 class="benefit-title">Relax & Reset Zone</h3>
+                <p class="benefit-description">I nostri spazi dedicati al relax e alla pausa pranzo.</p>
                 <a href="#" class="benefit-link" onclick="openModal('modal-sala-relax')">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
             
@@ -1290,7 +1291,7 @@
                     <i class="fas fa-calendar-alt"></i>
                 </div>
                 <h3 class="benefit-title">Eventi</h3>
-                <p class="benefit-description">Prendi parte ai nostri eventi aziendali, feste e celebrazioni che rendono speciale il percorso lavorativo e creano ricordi indimenticabili insieme al team.</p>
+                <p class="benefit-description">I nostri eventi e la condivisione di momenti speciali e indimenticabili con i nostri partner.</p>
                 <a href="#" class="benefit-link" onclick="openModal('modal-eventi')">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>

@@ -1708,7 +1708,7 @@
                     <li><a href="#leadership" class="nav-link">Leadership</a></li>
                     <li><a href="#news" class="nav-link">News</a></li>
                     <li><a href="#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora Con Noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">

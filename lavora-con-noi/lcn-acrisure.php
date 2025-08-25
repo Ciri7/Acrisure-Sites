@@ -295,6 +295,80 @@
             color: #555;
         }
 
+        /* Benefits Section - MODIFICATA */
+        .benefits-section {
+            background-color: transparent;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .benefit-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 450px; /* Altezza aumentata per i blocchi verticali */
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 3rem; /* Icone più grandi */
+            color: var(--accent);
+            margin-bottom: 2rem;
+        }
+        
+        .benefit-title {
+            color: var(--secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .benefit-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            flex-grow: 1;
+        }
+        
+        .benefit-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            padding: 1rem;
+            border-top: 1px solid #eee;
+            margin-top: auto;
+        }
+        
+        .benefit-link i {
+            margin-left: 0.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .benefit-link:hover {
+            color: var(--primary);
+        }
+        
+        .benefit-link:hover i {
+            transform: translateX(5px);
+        }
+
         /* Careers Section */
         .careers-container {
             display: grid;
@@ -384,49 +458,6 @@
         
         .career-link:hover i {
             transform: translateX(5px);
-        }
-
-        /* Benefits Section */
-        .benefits-section {
-            background-color: transparent;
-        }
-        
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(3, minmax(200px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .benefit-card {
-            background-color: white;
-            border-radius: 10px;
-            padding: 2rem;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: all 0.3s;
-        }
-        
-        .benefit-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-        
-        .benefit-icon {
-            font-size: 2.5rem;
-            color: var(--accent);
-            margin-bottom: 1.5rem;
-        }
-        
-        .benefit-title {
-            color: var(--secondary);
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-        }
-        
-        .benefit-description {
-            color: #666;
-            line-height: 1.6;
         }
 
         /* Application Form */
@@ -575,6 +606,170 @@
             border: 1px solid #28a745;
             color: #28a745;
             display: block;
+        }
+
+        /* MODAL STYLES - Aggiunti per i modali */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            z-index: 2000;
+            overflow-y: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            overscroll-behavior: contain;
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            border-radius: 10px;
+            max-width: 900px;
+            position: relative;
+            animation: modalFadeIn 0.4s ease-out;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 10;
+            border: none;
+            color: var(--primary);
+            font-size: 1.5rem;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .close-modal:hover {
+            background-color: var(--accent);
+            color: white;
+            transform: rotate(90deg);
+        }
+        
+        .modal-header {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+        }
+        
+        .modal-header-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.7);
+        }
+        
+        .modal-header-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 30px;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+            color: white;
+        }
+        
+        .modal-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+        
+        .modal-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            color: var(--light);
+            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            font-weight: 500;
+        }
+        
+        .modal-body {
+            padding: 30px;
+        }
+        
+        .modal-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .modal-feature-card {
+            background-color: var(--light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .modal-feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .modal-feature-card h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .modal-feature-card h3 i {
+            margin-right: 10px;
+            color: var(--accent);
+        }
+        
+        .feature-description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .feature-list li {
+            position: relative;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+        
+        .feature-list li::before {
+            content: '\f054';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -1.5rem;
+            color: var(--accent);
+            font-size: 0.8rem;
+        }
+
+        .no-scroll {
+            position: fixed;
+            width: 100%;
+            overflow-y: scroll;
         }
 
         /* Footer */
@@ -850,6 +1045,17 @@
             }
         }
         
+        @keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
         /* Mobile Menu */
         .menu-toggle {
             display: none;
@@ -874,6 +1080,10 @@
             
             .section-title {
                 font-size: 2.2rem;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         
@@ -992,6 +1202,49 @@
             .careers-container {
                 grid-template-columns: 1fr;
             }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .benefit-card {
+                height: auto;
+                min-height: 400px;
+            }
+            
+            .modal-content {
+                margin: 10% auto;
+                padding: 20px;
+                width: 90%;
+            }
+            
+            .modal-header {
+                height: 200px;
+            }
+            
+            .modal-title {
+                font-size: 2rem;
+            }
+            
+            .modal-subtitle {
+                font-size: 1rem;
+            }
+            
+            .modal-body {
+                padding: 20px;
+            }
+            
+            .modal-features {
+                grid-template-columns: 1fr;
+            }
+            
+            .close-modal {
+                width: 35px;
+                height: 35px;
+                font-size: 1.2rem;
+                top: 10px;
+                right: 10px;
+            }
         }
         
         @media (max-width: 480px) {
@@ -1020,6 +1273,10 @@
                 width: 100%;
                 margin-top: 1rem;
             }
+            
+            .benefit-card {
+                padding: 1.5rem;
+            }
         }
     </style>
 </head>
@@ -1041,7 +1298,7 @@
                     <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
                     <li><a href="/index.php#news" class="nav-link">News</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="#header" class="nav-link">Lavora Con noi</a></li>
+                    <li><a href="#header" class="nav-link">Lavora Con Noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
@@ -1056,119 +1313,107 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Lavora Con Noi</h1>
-            <p>Unisciti al team di Acrisure e fai parte di una realtà dinamica e in continua crescita nel settore assicurativo.</p>
-            <a href="#open-positions" class="btn btn-secondary">Scopri le posizioni aperte</a>
+            <p>Unisciti al team di Acrisure e scopri le opportunità di carriera che ti aspettano.</p>
+            <a href="#posizioni-aperte" class="btn">Scopri le posizioni aperte</a>
         </div>
     </section>
 
-    <section id="open-positions" class="section">
+    <!-- SEZIONE LAVORARE IN ACRISURE (ex Benefit) -->
+    <section id="lavorare-in-acrisure" class="section benefits-section">
+        <h2 class="section-title">Lavorare In Acrisure</h2>
+        <p class="section-subtitle">Scopri l'ambiente di lavoro unico che ti aspetta in Acrisure, dove valorizziamo le persone e promuoviamo un equilibrio perfetto tra professionalità e benessere.</p>
+        
+        <div class="benefits-grid">
+            <!-- Team Building -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 class="benefit-title">Team Building</h3>
+                <p class="benefit-description">Partecipa alle nostre attività di team building pensate per rafforzare lo spirito di squadra, migliorare la collaborazione e creare un ambiente di lavoro coeso e motivante.</p>
+                <a href="#" class="benefit-link" onclick="openModal('modal-team-building')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <!-- Sala Relax & Reset Zone -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3 class="benefit-title">Sala Relax & Reset Zone</h3>
+                <p class="benefit-description">Goditi i nostri spazi dedicati al relax e alla pausa pranzo. Un'area confortevole dove ricaricarti e condividere momenti informali con i colleghi.</p>
+                <a href="#" class="benefit-link" onclick="openModal('modal-sala-relax')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <!-- Eventi -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3 class="benefit-title">Eventi</h3>
+                <p class="benefit-description">Prendi parte ai nostri eventi aziendali, feste e celebrazioni che rendono speciale il percorso lavorativo e creano ricordi indimenticabili insieme al team.</p>
+                <a href="#" class="benefit-link" onclick="openModal('modal-eventi')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE POSIZIONI APERTE -->
+    <section id="posizioni-aperte" class="section careers-section">
         <h2 class="section-title">Posizioni Aperte</h2>
-        <p class="section-subtitle">Scegli tra le nostre opportunità di carriera e candidati per unirti al nostro team</p>
+        <p class="section-subtitle">Scopri le opportunità di carriera disponibili nel nostro team. Scegli la posizione che fa per te e candidati subito.</p>
         
         <div class="careers-container">
+            <!-- Posizione 1 -->
             <div class="career-card">
                 <div class="career-header">
-                    <h3 class="career-title">Customer Service Specialist</h3>
+                    <h3 class="career-title">Consulente Assicurativo</h3>
                     <div class="career-location">
                         <i class="fas fa-map-marker-alt"></i> Milano
                     </div>
                 </div>
                 <div class="career-body">
                     <ul class="career-features">
-                        <li>Gestione delle richieste dei clienti via telefono e email</li>
-                        <li>Supporto nella risoluzione di problemi e reclami</li>
-                        <li>Collaborazione con i vari dipartimenti aziendali</li>
-                        <li>Mantenimento di elevati standard di servizio</li>
+                        <li>Contratto a tempo indeterminato</li>
+                        <li>Formazione continua garantita</li>
+                        <li>Pacchetto retributivo competitivo</li>
+                        <li>Piano di crescita professionale</li>
                     </ul>
                     <a href="#application-form" class="career-link">Candidati ora <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             
+            <!-- Posizione 2 -->
             <div class="career-card">
                 <div class="career-header">
-                    <h3 class="career-title">Esperto in Gestione Sinistri</h3>
+                    <h3 class="career-title">Back Office Assicurativo</h3>
                     <div class="career-location">
                         <i class="fas fa-map-marker-alt"></i> Roma
                     </div>
                 </div>
                 <div class="career-body">
                     <ul class="career-features">
-                        <li>Gestione end-to-end delle pratiche sinistri</li>
-                        <li>Analisi documentale e valutazione dei danni</li>
-                        <li>Comunicazione con clienti e fornitori</li>
-                        <li>Rispetto delle procedure e dei tempi stabiliti</li>
+                        <li>Contratto a tempo indeterminato</li>
+                        <li>Ambiente di lavoro dinamico</li>
+                        <li>Orario flessibile</li>
+                        <li>Welfare aziendale completo</li>
                     </ul>
                     <a href="#application-form" class="career-link">Candidati ora <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             
+            <!-- Posizione 3 -->
             <div class="career-card">
                 <div class="career-header">
-                    <h3 class="career-title">HR Specialist</h3>
-                    <div class="career-location">
-                        <i class="fas fa-map-marker-alt"></i> Sassari
-                    </div>
-                </div>
-                <div class="career-body">
-                    <ul class="career-features">
-                        <li>Gestione del personale e delle relazioni sindacali</li>
-                        <li>Supporto al reclutamento e selezione</li>
-                        <li>Amministrazione del personale</li>
-                        <li>Gestione dei processi di formazione</li>
-                    </ul>
-                    <a href="#application-form" class="career-link">Candidati ora <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <div class="career-card">
-                <div class="career-header">
-                    <h3 class="career-title">Fleet Manager</h3>
+                    <h3 class="career-title">Account Manager</h3>
                     <div class="career-location">
                         <i class="fas fa-map-marker-alt"></i> Torino
                     </div>
                 </div>
                 <div class="career-body">
                     <ul class="career-features">
-                        <li>Gestione operativa delle flotte aziendali</li>
-                        <li>Coordinamento con fornitori e officine</li>
-                        <li>Monitoraggio costi e ottimizzazione risorse</li>
-                        <li>Analisi dei dati e reporting</li>
-                    </ul>
-                    <a href="#application-form" class="career-link">Candidati ora <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <div class="career-card">
-                <div class="career-header">
-                    <h3 class="career-title">Compliance Officer</h3>
-                    <div class="career-location">
-                        <i class="fas fa-map-marker-alt"></i> Milano
-                    </div>
-                </div>
-                <div class="career-body">
-                    <ul class="career-features">
-                        <li>Monitoraggio della conformità normativa</li>
-                        <li>Analisi dei rischi e implementazione controlli</li>
-                        <li>Formazione del personale</li>
-                        <li>Rapporti con le autorità di vigilanza</li>
-                    </ul>
-                    <a href="#application-form" class="career-link">Candidati ora <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <div class="career-card">
-                <div class="career-header">
-                    <h3 class="career-title">Sviluppatore Software</h3>
-                    <div class="career-location">
-                        <i class="fas fa-map-marker-alt"></i> Remoto
-                    </div>
-                </div>
-                <div class="career-body">
-                    <ul class="career-features">
-                        <li>Sviluppo e manutenzione di applicazioni interne</li>
-                        <li>Collaborazione con il team IT</li>
-                        <li>Analisi e risoluzione di problemi</li>
-                        <li>Implementazione di nuove funzionalità</li>
+                        <li>Gestione portfolio clienti</li>
+                        <li>Retribuzione variabile + fisso</li>
+                        <li>Auto aziendale</li>
+                        <li>Piano di sviluppo carriera</li>
                     </ul>
                     <a href="#application-form" class="career-link">Candidati ora <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -1176,140 +1421,183 @@
         </div>
     </section>
 
-    <section class="section benefits-section">
-        <h2 class="section-title">I Nostri Benefit</h2>
-        <p class="section-subtitle">Ecco cosa offriamo ai nostri collaboratori</p>
+    <!-- SEZIONE APPLICATION FORM -->
+    <section id="application-form" class="section form-section">
+        <h2 class="section-title">Invia la tua candidatura</h2>
+        <p class="section-subtitle">Compila il form sottostante per candidarti alla posizione di tuo interesse. Ti contatteremo al più presto.</p>
         
-        <div class="benefits-grid">
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-hand-holding-usd"></i>
+        <form class="application-form" id="career-form" enctype="multipart/form-data">
+            <div class="form-message error" id="form-error"></div>
+            <div class="form-message success" id="form-success"></div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name">Nome <span class="required">*</span></label>
+                    <input type="text" id="first-name" name="first-name" class="form-control" required>
                 </div>
-                <h3 class="benefit-title">Pacchetto Retributivo</h3>
-                <p class="benefit-description">Retribuzione competitiva con bonus di risultato e premi di produzione</p>
+                <div class="form-group">
+                    <label for="last-name">Cognome <span class="required">*</span></label>
+                    <input type="text" id="last-name" name="last-name" class="form-control" required>
+                </div>
             </div>
             
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-heartbeat"></i>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" class="form-control" required>
                 </div>
-                <h3 class="benefit-title">Welfare Aziendale</h3>
-                <p class="benefit-description">Pacchetto benefit personalizzabile (assicurazioni, buoni pasto, ecc.)</p>
+                <div class="form-group">
+                    <label for="phone">Telefono <span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                </div>
             </div>
             
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-graduation-cap"></i>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="position">Posizione di interesse <span class="required">*</span></label>
+                    <select id="position" name="position" class="form-control" required>
+                        <option value="">Seleziona una posizione</option>
+                        <option value="Consulente Assicurativo">Consulente Assicurativo</option>
+                        <option value="Back Office Assicurativo">Back Office Assicurativo</option>
+                        <option value="Account Manager">Account Manager</option>
+                    </select>
                 </div>
-                <h3 class="benefit-title">Formazione Continua</h3>
-                <p class="benefit-description">Percorsi di crescita professionale e corsi di aggiornamento</p>
+                <div class="form-group">
+                    <label for="location">Sede preferita <span class="required">*</span></label>
+                    <select id="location" name="location" class="form-control" required>
+                        <option value="">Seleziona una sede</option>
+                        <option value="Milano">Milano</option>
+                        <option value="Roma">Roma</option>
+                        <option value="Torino">Torino</option>
+                    </select>
+                </div>
             </div>
             
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-balance-scale"></i>
-                </div>
-                <h3 class="benefit-title">Work-Life Balance</h3>
-                <p class="benefit-description">Flessibilità oraria e smart working quando possibile</p>
+            <div class="form-group">
+                <label for="message">Messaggio <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-control" placeholder="Raccontaci perché sei interessato a lavorare con noi..." required></textarea>
             </div>
             
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-utensils"></i>
-                </div>
-                <h3 class="benefit-title">Area Ristoro</h3>
-                <p class="benefit-description">Spazi dedicati alla pausa pranzo con distributori e microonde</p>
+            <div class="form-group">
+                <label for="cv-upload" class="file-upload-label">
+                    <i class="fas fa-upload"></i> Carica il tuo CV (PDF, DOC, DOCX - max 5MB)
+                </label>
+                <input type="file" id="cv-upload" name="cv-upload" accept=".pdf,.doc,.docx" class="form-control" style="display: none;" required>
+                <div class="file-name" id="file-name"></div>
             </div>
             
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-baby-carriage"></i>
+            <div class="form-footer">
+                <div class="form-note">
+                    Cliccando su "Invia candidatura", accetti la nostra <a href="/privacy-policy.php" target="_blank">Privacy Policy</a>.
                 </div>
-                <h3 class="benefit-title">Sostegno alla Famiglia</h3>
-                <p class="benefit-description">Agevolazioni per asili nido e congedi parentali</p>
+                <button type="submit" class="btn">Invia candidatura</button>
             </div>
-        </div>
+        </form>
     </section>
 
-    <section id="application-form" class="section">
-        <div class="application-form">
-            <div class="form-header">
-                <h3>Invia la tua candidatura</h3>
-                <p>Compila il form sottostante per candidarti a una delle nostre posizioni aperte</p>
+    <!-- MODAL TEAM BUILDING -->
+    <div id="modal-team-building" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
+            <div class="modal-header">
+                <img src="/img/team-building.jpg" alt="Team Building" class="modal-header-image">
+                <div class="modal-header-content">
+                    <h2 class="modal-title">Team Building</h2>
+                    <p class="modal-subtitle">Costruiamo insieme relazioni solide e un team coeso</p>
+                </div>
             </div>
-            
-            <div id="formMessage" class="form-message"></div>
-            
-            <form id="careerForm">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="fullName">Nome e Cognome <span class="required">*</span></label>
-                        <input type="text" id="fullName" name="fullName" class="form-control" required>
+            <div class="modal-body">
+                <p>Le nostre attività di team building sono progettate per rafforzare lo spirito di squadra, migliorare la collaborazione e creare un ambiente di lavoro motivante e positivo.</p>
+                
+                <div class="modal-features">
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-hiking"></i> Attività Outdoor</h3>
+                        <p class="feature-description">Escursioni, attività sportive e giornate all'aria aperta per rafforzare il team in un contesto informale e divertente.</p>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input type="email" id="email" name="email" class="form-control" required>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-puzzle-piece"></i> Workshop Collaborativi</h3>
+                        <p class="feature-description">Sessioni di problem solving e attività creative che stimolano la collaborazione e l'innovazione.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-trophy"></i> Eventi Competitivi</h3>
+                        <p class="feature-description">Tornei e sfide amichevoli che alimentano lo spirito di squadra e la sana competizione.</p>
                     </div>
                 </div>
-                
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="phone">Telefono <span class="required">*</span></label>
-                        <input type="tel" id="phone" name="phone" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="position">Posizione di interesse <span class="required">*</span></label>
-                        <select id="position" name="position" class="form-control" required>
-                            <option value="">-- Seleziona --</option>
-                            <option value="Customer Service Specialist">Customer Service Specialist</option>
-                            <option value="Esperto in Gestione Sinistri">Esperto in Gestione Sinistri</option>
-                            <option value="HR Specialist">HR Specialist</option>
-                            <option value="Fleet Manager">Fleet Manager</option>
-                            <option value="Compliance Officer">Compliance Officer</option>
-                            <option value="Sviluppatore Software">Sviluppatore Software</option>
-                            <option value="Altro">Altro</option>
-                        </select>
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Messaggio <span class="required">*</span></label>
-                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
-                </div><br>
-                
-                <div class="form-group">
-                    <label for="cv">Carica il tuo CV (PDF, max 5MB) <span class="required">*</span></label>
-                    <div class="file-upload">
-                        <label for="cv" class="file-upload-label">
-                            <i class="fas fa-file-upload"></i> Scegli file
-                        </label>
-                        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required style="display: none;">
-                        <span id="fileName" class="file-name"></span>
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="additionalFiles">Altri allegati (opzionali)</label>
-                    <div class="file-upload">
-                        <label for="additionalFiles" class="file-upload-label">
-                            <i class="fas fa-file-upload"></i> Scegli file
-                        </label>
-                        <input type="file" id="additionalFiles" name="additionalFiles" multiple style="display: none;">
-                        <span id="additionalFilesName" class="file-name"></span>
-                    </div>
-                </div>
-                
-                <div class="form-footer">
-                    <div class="form-note">
-                        <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="../policy/policyAcrisure.php">Privacy Policy</a></p>
-                    </div>
-                    <button type="submit" class="btn">Invia Candidatura</button>
-                </div>
-            </form>
+            </div>
         </div>
-    </section>
+    </div>
 
+    <!-- MODAL SALA RELAX -->
+    <div id="modal-sala-relax" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('modal-sala-relax')">&times;</button>
+            <div class="modal-header">
+                <img src="/img/sala-relax.jpg" alt="Sala Relax & Reset Zone" class="modal-header-image">
+                <div class="modal-header-content">
+                    <h2 class="modal-title">Sala Relax & Reset Zone</h2>
+                    <p class="modal-subtitle">Il tuo spazio per ricaricarti e connetterti con i colleghi</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>La nostra sala relax è un ambiente confortevole e accogliente dove puoi staccare la spina, gustare il tuo pranzo e socializzare con i colleghi in un'atmosfera informale.</p>
+                
+                <div class="modal-features">
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-utensils"></i> Area Pranzo</h3>
+                        <p class="feature-description">Spazio attrezzato con microonde, frigorifero e tutte le comodità per il tuo pranzo in compagnia.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-couch"></i> Zona Relax</h3>
+                        <p class="feature-description">Comode poltrone e divani dove rilassarsi durante le pause e ricaricare le energie.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-gamepad"></i> Area Intrattenimento</h3>
+                        <p class="feature-description">Videogiochi, giochi da tavolo e attività ricreative per momenti di divertimento condiviso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL EVENTI -->
+    <div id="modal-eventi" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('modal-eventi')">&times;</button>
+            <div class="modal-header">
+                <img src="/img/eventi-aziendali.jpg" alt="Eventi Aziendali" class="modal-header-image">
+                <div class="modal-header-content">
+                    <h2 class="modal-title">Eventi</h2>
+                    <p class="modal-subtitle">Celebriamo insieme i successi e creiamo ricordi indimenticabili</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>I nostri eventi aziendali sono momenti speciali per celebrare i traguardi raggiunti, rafforzare i legami del team e creare un senso di appartenenza unico.</p>
+                
+                <div class="modal-features">
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-glass-cheers"></i> Feste Aziendali</h3>
+                        <p class="feature-description">Celebrazioni periodiche, cene di Natale e eventi speciali per festeggiare insieme i successi del team.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-gift"></i> Eventi Tematici</h3>
+                        <p class="feature-description">Serate a tema, feste di compleanno e occasioni speciali per condividere momenti di gioia.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-award"></i> Cerimonie di Riconoscimento</h3>
+                        <p class="feature-description">Eventi dedicati alla valorizzazione dei risultati e al riconoscimento del merito individuale e di gruppo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
@@ -1384,187 +1672,151 @@
         </div>
     </footer>
 
+    <!-- Cookie banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesAcrisure.php">Maggiori informazioni</a></p>
+        <button id="accept-cookies" class="btn">Accetta</button>
+    </div>
+
     <script>
-        // Smooth scrolling per i link di navigazione
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                
-                if (targetElement) {
-                    const headerHeight = document.querySelector('header').offsetHeight;
-                    const targetPosition = targetElement.offsetTop - headerHeight;
-                    
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                    
-                    if (document.querySelector('.menu-toggle').classList.contains('active')) {
-                        toggleMenu();
+        // Scroll animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section');
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav');
+            const header = document.getElementById('header');
+            
+            // Intersection Observer for section animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
                     }
-                }
-            });
-        });
-        
-        // Animazione delle sezioni al scroll
-        const sections = document.querySelectorAll('.section');
-        
-        function checkSections() {
+                });
+            }, { threshold: 0.1 });
+            
             sections.forEach(section => {
-                const sectionTop = section.getBoundingClientRect().top;
-                const windowHeight = window.innerHeight;
-                
-                if (sectionTop < windowHeight * 0.75) {
-                    section.classList.add('visible');
+                observer.observe(section);
+            });
+            
+            // Header scroll effect
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
                 }
             });
-        }
-        
-        // Gestione menu mobile
-        const menuToggle = document.querySelector('.menu-toggle');
-        const nav = document.querySelector('nav');
-        
-        function toggleMenu() {
-            menuToggle.classList.toggle('active');
-            nav.classList.toggle('active');
-        }
-        
-        menuToggle.addEventListener('click', toggleMenu);
-        
-        // Chiudi il menu quando si clicca su un link
-        document.querySelectorAll('nav ul li a').forEach(link => {
-            link.addEventListener('click', () => {
-                if (window.innerWidth <= 768) {
-                    toggleMenu();
+            
+            // Mobile menu toggle
+            menuToggle.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+            
+            // Close mobile menu when clicking on links
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                });
+            });
+            
+            // File upload name display
+            const fileInput = document.getElementById('cv-upload');
+            const fileName = document.getElementById('file-name');
+            
+            fileInput.addEventListener('change', function() {
+                if (this.files.length > 0) {
+                    fileName.textContent = this.files[0].name;
+                    fileName.style.display = 'block';
+                } else {
+                    fileName.style.display = 'none';
                 }
             });
-        });
-        
-        // Header scroll effect
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 100) {
-                document.getElementById('header').classList.add('scrolled');
-            } else {
-                document.getElementById('header').classList.remove('scrolled');
-            }
-        });
-        
-        // Gestione file upload
-        document.getElementById('cv').addEventListener('change', function(e) {
-            const fileName = document.getElementById('fileName');
-            if (this.files.length > 0) {
-                fileName.textContent = this.files[0].name;
-                fileName.style.display = 'block';
-            } else {
-                fileName.style.display = 'none';
-            }
-        });
-        
-        document.getElementById('additionalFiles').addEventListener('change', function(e) {
-            const fileName = document.getElementById('additionalFilesName');
-            if (this.files.length > 0) {
-                fileName.textContent = `${this.files.length} file selezionati`;
-                fileName.style.display = 'block';
-            } else {
-                fileName.style.display = 'none';
-            }
-        });
-        
-        // Gestione form di candidatura
-        const careerForm = document.getElementById('careerForm');
-        const formMessage = document.getElementById('formMessage');
-        
-        if (careerForm) {
-            careerForm.addEventListener('submit', async function(e) {
+            
+            // Form validation
+            const form = document.getElementById('career-form');
+            const formError = document.getElementById('form-error');
+            const formSuccess = document.getElementById('form-success');
+            
+            form.addEventListener('submit', function(e) {
                 e.preventDefault();
                 
+                // Basic validation
                 let isValid = true;
-                const requiredFields = this.querySelectorAll('[required]');
+                const inputs = form.querySelectorAll('input, textarea, select');
                 
-                // Validazione campi obbligatori
-                requiredFields.forEach(field => {
-                    if (field.value.trim() === '') {
-                        field.classList.add('error');
+                inputs.forEach(input => {
+                    if (input.hasAttribute('required') && !input.value.trim()) {
+                        input.classList.add('error');
                         isValid = false;
+                    } else {
+                        input.classList.remove('error');
                     }
                 });
                 
-                // Validazione email
-                const email = this.querySelector('input[type="email"]');
-                if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
-                    email.classList.add('error');
-                    isValid = false;
-                }
-                
-                // Validazione telefono
-                const phone = this.querySelector('input[type="tel"]');
-                if (phone && !/^[+\d\s\-]{10,15}$/.test(phone.value)) {
-                    phone.classList.add('error');
-                    isValid = false;
-                }
-                
-                // Validazione file
-                const cv = this.querySelector('input[type="file"]');
-                if (cv && cv.files.length === 0) {
-                    cv.classList.add('error');
-                    isValid = false;
-                }
-                
                 if (!isValid) {
-                    formMessage.textContent = 'Per favore controlla i campi evidenziati';
-                    formMessage.classList.remove('success');
-                    formMessage.classList.add('error');
-                    formMessage.style.display = 'block';
+                    formError.textContent = 'Per favore, compila tutti i campi obbligatori.';
+                    formError.style.display = 'block';
+                    formSuccess.style.display = 'none';
                     return;
                 }
                 
-                // Simulazione invio
-                try {
-                    // Qui andrebbe una chiamata fetch() al tuo backend
-                    await new Promise(resolve => setTimeout(resolve, 1000));
-                    
-                    formMessage.textContent = 'Grazie per la tua candidatura! Ti contatteremo al più presto.';
-                    formMessage.classList.remove('error');
-                    formMessage.classList.add('success');
-                    formMessage.style.display = 'block';
-                    
-                    careerForm.reset();
-                    document.getElementById('fileName').style.display = 'none';
-                    document.getElementById('additionalFilesName').style.display = 'none';
-                    
-                    setTimeout(() => {
-                        formMessage.style.display = 'none';
-                    }, 5000);
-                } catch (error) {
-                    formMessage.textContent = 'Si è verificato un errore. Riprova più tardi.';
-                    formMessage.classList.remove('success');
-                    formMessage.classList.add('error');
-                    formMessage.style.display = 'block';
+                // File size validation (5MB max)
+                const file = fileInput.files[0];
+                if (file && file.size > 5 * 1024 * 1024) {
+                    formError.textContent = 'Il file non deve superare 5MB.';
+                    formError.style.display = 'block';
+                    formSuccess.style.display = 'none';
+                    return;
+                }
+                
+                // If validation passes, show success message (in a real scenario, you would submit the form)
+                formSuccess.textContent = 'Grazie per la tua candidatura! Ti contatteremo al più presto.';
+                formSuccess.style.display = 'block';
+                formError.style.display = 'none';
+                form.reset();
+                fileName.style.display = 'none';
+                
+                // Scroll to success message
+                formSuccess.scrollIntoView({ behavior: 'smooth' });
+            });
+            
+            // Cookie banner
+            if (!localStorage.getItem('cookiesAccepted')) {
+                document.getElementById('cookie-banner').style.display = 'flex';
+            }
+        });
+        
+        function acceptCookies() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            document.getElementById('cookie-banner').style.display = 'none';
+        }
+        
+        // Modal functions
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.style.display = 'block';
+            document.body.classList.add('no-scroll');
+        }
+        
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.style.display = 'none';
+            document.body.classList.remove('no-scroll');
+        }
+        
+        // Close modal when clicking outside
+        window.addEventListener('click', function(event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                    document.body.classList.remove('no-scroll');
                 }
             });
-        }
-        
-        // Gestione cookie banner
-        const cookieBanner = document.getElementById('cookie-banner');
-        const acceptCookiesBtn = document.getElementById('accept-cookies');
-        
-        if (!localStorage.getItem('cookies-accepted')) {
-            cookieBanner.style.display = 'flex';
-            
-            acceptCookiesBtn.addEventListener('click', () => {
-                localStorage.setItem('cookies-accepted', 'true');
-                cookieBanner.style.display = 'none';
-            });
-        }
-        
-        // Inizializzazione
-        window.addEventListener('load', () => {
-            checkSections();
         });
-        window.addEventListener('scroll', checkSections);
     </script>
 </body>
 </html>

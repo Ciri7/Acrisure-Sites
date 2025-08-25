@@ -1945,7 +1945,7 @@
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agricolture S.r.l.</h3>
-                        <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
+                        <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
                         <div class="azienda-link-container">
                             <a href="agricolture.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -1956,7 +1956,7 @@
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agriservices</h3>
-                        <p class="azienda-desc">Broker assicurativo esperto in polizze per la protezione delle aziende agricole</p>
+                        <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
                         <div class="azienda-link-container">
                             <a href="agriservices.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
                         </div>

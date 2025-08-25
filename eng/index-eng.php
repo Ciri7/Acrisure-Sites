@@ -1937,7 +1937,7 @@
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agriculture" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agriculture S.r.l.</h3>
-                        <p class="azienda-desc">Company specialized in insurance for risks related to the agricultural sector</p>
+                        <p class="azienda-desc">Insurance broker expert in policies for the protection of agricultural businesses</p>
                         <div class="azienda-link-container">
                             <a href="/eng/agricolture-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -1948,7 +1948,7 @@
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agriservices</h3>
-                        <p class="azienda-desc">Insurance broker expert in policies for the protection of agricultural businesses</p>
+                        <p class="azienda-desc">Company specialized in insurance for risks related to the agricultural sector</p>
                         <div class="azienda-link-container">
                             <a href="/eng/agriservices-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>

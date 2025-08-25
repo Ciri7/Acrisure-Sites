@@ -1667,6 +1667,34 @@
     </footer>
 
     <script>
+        // Funzioni per gestire i modali
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'block';
+                document.body.classList.add('no-scroll');
+            }
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'none';
+                document.body.classList.remove('no-scroll');
+            }
+        }
+
+        // Chiudi il modale cliccando fuori dal contenuto
+        window.addEventListener('click', function(event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                    document.body.classList.remove('no-scroll');
+                }
+            });
+        });
+
         // Smooth scrolling per i link di navigazione
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {

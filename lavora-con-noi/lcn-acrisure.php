@@ -1218,6 +1218,92 @@
                 margin-top: 1rem;
             }
         }
+
+        /* Nuovi stili per le gallerie */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            height: 250px;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gallery-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .gallery-item:hover .gallery-image {
+            transform: scale(1.05);
+        }
+        
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: white;
+            padding: 1.5rem 1rem 1rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover .gallery-caption {
+            transform: translateY(0);
+        }
+        
+        .gallery-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .gallery-description {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Stili per la navigazione tra modali */
+        .modal-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .modal-nav-btn {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        
+        .modal-nav-btn:hover {
+            background-color: var(--primary);
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
@@ -1259,7 +1345,7 @@
         </div>
     </section>
 
-    <!-- SEZIONE LAVORARE IN ACRISURE (ex Benefit) -->
+    <!-- SEZIONE LAVORARE IN ACRISURE -->
     <section id="lavorare-in-acrisure" class="section benefits-section">
         <h2 class="section-title">Lavorare In Acrisure</h2>
         <p class="section-subtitle">Scopri l'ambiente di lavoro unico che ti aspetta in Acrisure, dove valorizziamo le persone e promuoviamo un equilibrio perfetto tra professionalità e benessere.</p>
@@ -1272,7 +1358,7 @@
                 </div>
                 <h3 class="benefit-title">Team Building</h3>
                 <p class="benefit-description">Migliorare la collaborazione e creare un ambiente di lavoro coeso e motivante.</p>
-                <a href="#" class="benefit-link" onclick="openModal('modal-team-building')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                <a href="javascript:void(0)" class="benefit-link" onclick="openModal('modal-team-building')">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
             
             <!-- Sala Relax & Reset Zone -->
@@ -1282,7 +1368,7 @@
                 </div>
                 <h3 class="benefit-title">Relax & Reset Zone</h3>
                 <p class="benefit-description">I nostri spazi dedicati al relax e alla pausa pranzo.</p>
-                <a href="#" class="benefit-link" onclick="openModal('modal-sala-relax')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                <a href="javascript:void(0)" class="benefit-link" onclick="openModal('modal-sala-relax')">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
             
             <!-- Eventi -->
@@ -1292,12 +1378,12 @@
                 </div>
                 <h3 class="benefit-title">Eventi</h3>
                 <p class="benefit-description">I nostri eventi e la condivisione di momenti speciali e indimenticabili con i nostri partner.</p>
-                <a href="#" class="benefit-link" onclick="openModal('modal-eventi')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                <a href="javascript:void(0)" class="benefit-link" onclick="openModal('modal-eventi')">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- MODAL TEAM BUILDING -->
+    <!-- MODAL TEAM BUILDING (trasformato in galleria) -->
     <div id="modal-team-building" class="modal">
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
@@ -1311,61 +1397,36 @@
             <div class="modal-body">
                 <p>Le nostre attività di team building sono progettate per rafforzare lo spirito di squadra, migliorare la collaborazione e creare un ambiente di lavoro motivante e positivo.</p>
                 
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-hiking"></i> Attività Outdoor</h3>
-                        <p class="feature-description">Escursioni, attività sportive e giornate all'aria aperta per rafforzare il team in un contesto informale e divertente.</p>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="/img/acrichef.jpg" alt="Acrichef" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Acrichef</h3>
+                            <p class="gallery-description">Cucina di squadra per rafforzare la collaborazione</p>
+                        </div>
                     </div>
                     
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-puzzle-piece"></i> Workshop Collaborativi</h3>
-                        <p class="feature-description">Sessioni di problem solving e attività creative che stimolano la collaborazione e l'innovazione.</p>
+                    <div class="gallery-item">
+                        <img src="/img/pulizia-spiagge.jpg" alt="Pulizia Spiagge" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Pulizia Spiagge</h3>
+                            <p class="gallery-description">Impegno sociale e ambientale per il nostro territorio</p>
+                        </div>
                     </div>
                     
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-trophy"></i> Eventi Competitivi</h3>
-                        <p class="feature-description">Tornei e sfide amichevoli che alimentano lo spirito di squadra e la sana competizione.</p>
+                    <div class="gallery-item">
+                        <img src="/img/yoga-sup.jpg" alt="Yoga & Sup" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Yoga & Sup</h3>
+                            <p class="gallery-description">Attività wellness per il benessere del team</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- MODAL SALA RELAX -->
-    <div id="modal-sala-relax" class="modal">
-        <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('modal-sala-relax')">&times;</button>
-            <div class="modal-header">
-                <img src="/img/sala-relax.jpg" alt="Sala Relax & Reset Zone" class="modal-header-image">
-                <div class="modal-header-content">
-                    <h2 class="modal-title">Sala Relax & Reset Zone</h2>
-                    <p class="modal-subtitle">Il tuo spazio per ricaricarti e connetterti con i colleghi</p>
-                </div>
-            </div>
-            <div class="modal-body">
-                <p>La nostra sala relax è un ambiente confortevole e accogliente dove puoi staccare la spina, gustare il tuo pranzo e socializzare con i colleghi in un'atmosfera informale.</p>
-                
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-utensils"></i> Area Pranzo</h3>
-                        <p class="feature-description">Spazio attrezzato con microonde, frigorifero e tutte le comodità per il tuo pranzo in compagnia.</p>
-                    </div>
-                    
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-couch"></i> Zona Relax</h3>
-                        <p class="feature-description">Comode poltrone e divani dove rilassarsi durante le pause e ricaricare le energie.</p>
-                    </div>
-                    
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-gamepad"></i> Area Intrattenimento</h3>
-                        <p class="feature-description">Videogiochi, giochi da tavolo e attività ricreative per momenti di divertimento condiviso.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- MODAL EVENTI -->
+    <!-- MODAL EVENTI (trasformato in galleria) -->
     <div id="modal-eventi" class="modal">
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-eventi')">&times;</button>
@@ -1379,20 +1440,29 @@
             <div class="modal-body">
                 <p>I nostri eventi aziendali sono momenti speciali per celebrare i traguardi raggiunti, rafforzare i legami del team e creare un senso di appartenenza unico.</p>
                 
-                <div class="modal-features">
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-glass-cheers"></i> Feste Aziendali</h3>
-                        <p class="feature-description">Celebrazioni periodiche, cene di Natale e eventi speciali per festeggiare insieme i successi del team.</p>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="/img/evento-natale.jpg" alt="Cena di Natale" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Cena di Natale</h3>
+                            <p class="gallery-description">Celebrazione annuale per festeggiare insieme</p>
+                        </div>
                     </div>
                     
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-gift"></i> Eventi Tematici</h3>
-                        <p class="feature-description">Serate a tema, feste di compleanno e occasioni speciali per condividere momenti di gioia.</p>
+                    <div class="gallery-item">
+                        <img src="/img/evento-lancio.jpg" alt="Evento di Lancio" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Evento di Lancio</h3>
+                            <p class="gallery-description">Presentazione di nuovi progetti e obiettivi</p>
+                        </div>
                     </div>
                     
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-award"></i> Cerimonie di Riconoscimento</h3>
-                        <p class="feature-description">Eventi dedicati alla valorizzazione dei risultati e al riconoscimento del merito individuale e di gruppo.</p>
+                    <div class="gallery-item">
+                        <img src="/img/evento-premiazioni.jpg" alt="Premiazioni" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Premiazioni</h3>
+                            <p class="gallery-description">Riconoscimenti per i risultati eccellenti</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1674,6 +1744,8 @@
             if (modal) {
                 modal.style.display = 'block';
                 document.body.classList.add('no-scroll');
+                // Memorizza la posizione di scroll prima di aprire il modale
+                document.body.dataset.scrollY = window.scrollY;
             }
         }
 
@@ -1682,6 +1754,8 @@
             if (modal) {
                 modal.style.display = 'none';
                 document.body.classList.remove('no-scroll');
+                // Ripristina la posizione di scroll dopo aver chiuso il modale
+                window.scrollTo(0, document.body.dataset.scrollY || 0);
             }
         }
 
@@ -1692,7 +1766,16 @@
                 if (event.target === modal) {
                     modal.style.display = 'none';
                     document.body.classList.remove('no-scroll');
+                    // Ripristina la posizione di scroll dopo aver chiuso il modale
+                    window.scrollTo(0, document.body.dataset.scrollY || 0);
                 }
+            });
+        });
+
+        // Previeni il comportamento predefinito dei link "Scopri di più"
+        document.querySelectorAll('.benefit-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
             });
         });
 

@@ -1744,8 +1744,6 @@
             if (modal) {
                 modal.style.display = 'block';
                 document.body.classList.add('no-scroll');
-                // Memorizza la posizione di scroll prima di aprire il modale
-                document.body.dataset.scrollY = window.scrollY;
             }
         }
 
@@ -1754,8 +1752,6 @@
             if (modal) {
                 modal.style.display = 'none';
                 document.body.classList.remove('no-scroll');
-                // Ripristina la posizione di scroll dopo aver chiuso il modale
-                window.scrollTo(0, document.body.dataset.scrollY || 0);
             }
         }
 
@@ -1766,16 +1762,7 @@
                 if (event.target === modal) {
                     modal.style.display = 'none';
                     document.body.classList.remove('no-scroll');
-                    // Ripristina la posizione di scroll dopo aver chiuso il modale
-                    window.scrollTo(0, document.body.dataset.scrollY || 0);
                 }
-            });
-        });
-
-        // Previeni il comportamento predefinito dei link "Scopri di più"
-        document.querySelectorAll('.benefit-link').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
             });
         });
 

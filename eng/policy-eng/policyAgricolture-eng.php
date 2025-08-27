@@ -843,14 +843,14 @@
         <div class="privacy-content">
             <div class="privacy-section">
                 <h2>Privacy Policy</h2>
-                <p>This Privacy Policy describes how Acrisure Italy Ltd. ("Acrisure Italy") collects, uses, stores and protects the personal information of users ("User/s") who access and use the website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site").</p>
+                <p>This Privacy Policy describes how Acrisure Italy S.r.l. ("Acrisure Italy") collects, uses, stores and protects the personal information of users ("User/s") who access and use the website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site").</p>
                 <p>This Policy is provided pursuant to Article 13 of Regulation (EU) 2016/679 ("GDPR") and Legislative Decree 196/2003 ("Privacy Code") as amended by Legislative Decree 101/2018.</p>
             </div>
 
             <div class="privacy-section">
                 <h2>Data Controller</h2>
                 <p>The Data Controller is:</p>
-                <p><strong>Acrisure Italy Ltd.</strong><br>
+                <p><strong>Acrisure Italy S.r.l.</strong><br>
                 3 Giuseppe Mazzini Street - 07100 Sassari<br>
                 VAT: 13147890969<br>
                 REA: MI-2616058<br>
@@ -940,7 +940,7 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Legal Headquarters</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture Ltd.</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>6 Lovanio Street - 00198 Rome</li><br>
                     <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt="Acrisure Agricolture Logo"></li>
@@ -996,7 +996,7 @@
         <br>
         <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Agricolture Ltd. - Single-member company subject to the direction and coordination of Acrisure Ltd.<br>
+            <p>Acrisure Agricolture S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l.<br>
             Share capital €150,000.00 fully paid up - RUI: B000243223. Company participating in the Acrisure Group VAT 13147890969<br>
             Tax Code and registration number in the Rome Companies Register: 08359221002. REA RM- 1089539</p>
         </div>

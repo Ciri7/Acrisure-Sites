@@ -1695,7 +1695,7 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Acrisure Re Italia</h1>
+            <h1>Acrisure Re Italia S.r.l.</h1>
             <p>Offriamo alle compagnie assicurative capacità riassicurative in tutti i rami per strutturare i programmi di trasferimento dei richi. Offriamo servizi di consulenza e prodotti innovativi</p>
             <a href="#contatti" class="btn btn-secondary">Contattaci</a>
         </div>
@@ -1967,7 +1967,7 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Re Italia</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Re Italia S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt=""></li>

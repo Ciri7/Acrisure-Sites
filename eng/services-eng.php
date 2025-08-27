@@ -2521,7 +2521,7 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Services - Sole shareholder company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            <p>Acrisure Services S.r.l. - Sole shareholder company subject to the direction and coordination of Acrisure S.r.l. - <br>
             Share capital: €10,000.00 fully paid - Member of the Acrisure VAT Group - VAT No. 13147890969 - <br>
             Tax Code and Company Register No. 02888100902 - Registered with the Sassari Chamber of Commerce, REA No. SS-212778</p>
         </div>

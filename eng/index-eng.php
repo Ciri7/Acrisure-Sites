@@ -1844,7 +1844,7 @@
                     <div class="news-content">
                         <div class="news-date">February 28, 2024</div>
                         <h3>Insurance Innovation Award 2024</h3>
-                        <p>Acrisure Italy wins the prestigious award for its advanced digital risk management platform.</p>
+                        <p>Acrisure Italia wins the prestigious award for its advanced digital risk management platform.</p>
                     </div>
                 </div>
                 
@@ -1877,7 +1877,7 @@
                     <div class="news-content">
                         <div class="news-date">November 20, 2023</div>
                         <h3>Annual conference</h3>
-                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italy in Milan.</p>
+                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italia in Milan.</p>
                     </div>
                 </div>
             </div>
@@ -1902,8 +1902,8 @@
             <div class="aziende-grid">
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italy" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Italy S.p.A.</h3>
+                        <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Italia S.p.A.</h3>
                         <p class="azienda-desc">Insurance brokerage company operating at national and international level</p>
                         <div class="azienda-link-container">
                             <a href="/eng/italia-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
@@ -1914,7 +1914,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Services</h3>
+                        <h3 class="azienda-nome">Acrisure Services S.r.l.</h3>
                         <p class="azienda-desc">Specialized in operational and management activities of companies, integrating skills and interconnections between multiple service areas</p>
                         <div class="azienda-link-container">
                             <a href="/eng/services-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
@@ -1924,8 +1924,8 @@
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italy" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Re Italy</h3>
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italia" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Re Italia S.r.l.</h3>
                         <p class="azienda-desc">Leader in the reinsurance sector, with deep expertise in risk and capital management</p>
                         <div class="azienda-link-container">
                             <a href="/eng/re-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
@@ -1947,7 +1947,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agriservices</h3>
+                        <h3 class="azienda-nome">Acrisure Agriservices S.r.l.</h3>
                         <p class="azienda-desc">Company specialized in insurance for risks related to the agricultural sector</p>
                         <div class="azienda-link-container">
                             <a href="/eng/agriservices-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>

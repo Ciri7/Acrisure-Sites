@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alta Broker & Partners Ltd.</title>
+    <title>Alta Broker & Partners S.r.l.</title>
     <meta name="description" content="Acrisure Services offre servizi specializzati in attività operative e gestionali per le aziende, con competenze in risorse umane, legal e compliance, TPA e Customer Service.">
     <meta name="keywords" content="servizi assicurativi, gestione flotte, risorse umane, compliance, TPA, customer service, Acrisure">
     <link rel="canonical" href="https://www.acrisureservices.it" />
@@ -1688,7 +1688,7 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Alta Broker & Partners Ltd.</h1>
+            <h1>Alta Broker & Partners S.r.l.</h1>
             <p>Specialized broker in retail policies suitable for all your needs</p>
             <a href="#contatti" class="btn btn-secondary">Contact Us</a>
         </div>
@@ -2123,7 +2123,7 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Alta Broker & Partners Ltd.</li>
+                    <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>5/1 Via Assarotti - 16122 Genoa</li><br>
                     <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt="Alta Broker Logo"></li>
@@ -2178,7 +2178,7 @@
         
         <br>
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners Ltd. - Single-member company subject to the direction and coordination of Acrisure Ltd. - <br>
+            <p>Alta Broker & Partners S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
             Share capital €60,000.00 i.v. REA GE-494327 RUI: B000605520 VAT 02547920997 <br>
             Tax Code and registration number in the Genoa Companies Register 02547920997. </p>
         </div>

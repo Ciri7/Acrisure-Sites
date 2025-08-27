@@ -1922,7 +1922,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Services</h3>
+                        <h3 class="azienda-nome">Acrisure Services S.r.l.</h3>
                         <p class="azienda-desc">Specializzati nelle attività operative e gestionali delle società, integrando competenze e interconnessioni tra molteplici aree di servizio</p>
                         <div class="azienda-link-container">
                             <a href="services.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
@@ -1933,7 +1933,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Re Italia</h3>
+                        <h3 class="azienda-nome">Acrisure Re Italia S.r.l.</h3>
                         <p class="azienda-desc">Leader nel settore della riassicurazione, con una profonda competenza nella gestione del rischio e del capitale</p>
                         <div class="azienda-link-container">
                             <a href="re.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
@@ -1955,7 +1955,7 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agriservices</h3>
+                        <h3 class="azienda-nome">Acrisure Agriservices S.r.l.</h3>
                         <p class="azienda-desc">Società specializzata nell'assicurazione dei rischi legati al settore agricoltura</p>
                         <div class="azienda-link-container">
                             <a href="agriservices.php" class="azienda-link">Scopri di più <i class="fas fa-arrow-right"></i></a>

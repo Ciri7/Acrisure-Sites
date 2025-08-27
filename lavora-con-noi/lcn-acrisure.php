@@ -1426,6 +1426,40 @@
         </div>
     </div>
 
+    <!-- MODAL SALA RELAX -->
+    <div id="modal-sala-relax" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('modal-sala-relax')">&times;</button>
+            <div class="modal-header">
+                <img src="/img/sala-relax.jpg" alt="Sala Relax & Reset Zone" class="modal-header-image">
+                <div class="modal-header-content">
+                    <h2 class="modal-title">Sala Relax & Reset Zone</h2>
+                    <p class="modal-subtitle">Il tuo spazio per ricaricarti e connetterti con i colleghi</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>La nostra sala relax è un ambiente confortevole e accogliente dove puoi staccare la spina, gustare il tuo pranzo e socializzare con i colleghi in un'atmosfera informale.</p>
+                
+                <div class="modal-features">
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-utensils"></i> Area Pranzo</h3>
+                        <p class="feature-description">Spazio attrezzato con microonde, frigorifero e tutte le comodità per il tuo pranzo in compagnia.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-couch"></i> Zona Relax</h3>
+                        <p class="feature-description">Comode poltrone e divani dove rilassarsi durante le pause e ricaricare le energie.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-gamepad"></i> Area Intrattenimento</h3>
+                        <p class="feature-description">Videogiochi, giochi da tavolo e attività ricreative per momenti di divertimento condiviso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- MODAL EVENTI (trasformato in galleria) -->
     <div id="modal-eventi" class="modal">
         <div class="modal-content">
@@ -1744,6 +1778,8 @@
             if (modal) {
                 modal.style.display = 'block';
                 document.body.classList.add('no-scroll');
+                // Memorizza la posizione di scroll prima di aprire il modale
+                document.body.dataset.scrollY = window.scrollY;
             }
         }
 
@@ -1752,6 +1788,8 @@
             if (modal) {
                 modal.style.display = 'none';
                 document.body.classList.remove('no-scroll');
+                // Ripristina la posizione di scroll dopo aver chiuso il modale
+                window.scrollTo(0, document.body.dataset.scrollY || 0);
             }
         }
 
@@ -1762,7 +1800,16 @@
                 if (event.target === modal) {
                     modal.style.display = 'none';
                     document.body.classList.remove('no-scroll');
+                    // Ripristina la posizione di scroll dopo aver chiuso il modale
+                    window.scrollTo(0, document.body.dataset.scrollY || 0);
                 }
+            });
+        });
+
+        // Previeni il comportamento predefinito dei link "Scopri di più"
+        document.querySelectorAll('.benefit-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
             });
         });
 

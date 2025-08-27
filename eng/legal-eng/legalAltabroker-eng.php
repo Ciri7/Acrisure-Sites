@@ -947,7 +947,7 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Alta Broker & Partners Ltd.</li>
+                    <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>5/1 Via Assarotti - 16122 Genoa</li><br>
                     <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt="Alta Broker Logo"></li>
@@ -1002,7 +1002,7 @@
         
         <br>
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners Ltd. - Single-member company subject to the direction and coordination of Acrisure Ltd. - <br>
+            <p>Alta Broker & Partners S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
             Share capital €60,000.00 i.v. REA GE-494327 RUI: B000605520 VAT 02547920997 <br>
             Tax Code and registration number in the Genoa Companies Register 02547920997. </p>
         </div>

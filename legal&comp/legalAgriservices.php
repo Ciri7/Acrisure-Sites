@@ -935,7 +935,7 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Agriservices</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agriservices S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>Via Lovanio, 6 - 00198 Roma</li><br>
                     <li><img src="/img/ACRISURE AGRISERVICES.jpg" class="logo-footer" alt=""></li>

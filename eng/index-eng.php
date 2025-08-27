@@ -1718,7 +1718,7 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Acrisure</h1>
+            <h1>Acrisure S.r.l.</h1>
             <p>Acrisure combines advanced technology with human expertise to provide you with tailored solutions for your personal and business needs.</p>
         </div>
     </section>

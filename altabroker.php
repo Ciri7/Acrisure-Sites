@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alta Broker & Partners S.r.l.</title>
+    <title>Alta Broker & Partners</title>
     <meta name="description" content="Acrisure Services offre servizi specializzati in attività operative e gestionali per le aziende, con competenze in risorse umane, legal e compliance, TPA e Customer Service.">
     <meta name="keywords" content="servizi assicurativi, gestione flotte, risorse umane, compliance, TPA, customer service, Acrisure">
     <link rel="canonical" href="https://www.acrisureservices.it" />
@@ -1660,7 +1660,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="#home">
-                <img src="/img/Logo ALTA BROKER.jpg" class="logo" alt=""></li>
+                <img src="/img/New Alta provvisorio.webp" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -2126,7 +2126,7 @@
                     <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>Via Assarotti, 5/1 - 16122 Genova</li><br>
-                    <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt=""></li>
+                    <li><img src="/img/New Alta provvisorio.webp" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 

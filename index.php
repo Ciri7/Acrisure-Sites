@@ -1979,7 +1979,7 @@
 
     <!-- RICHIESTA INFORMAZIONI _______________________________________________________________________________________________________________________ -->
 
-    <!-- <section id="contatti" class="section">
+    <!-- <section id="contatti" class="section">.
         <div class="contact-form">
             <div class="form-header">
                 <h3>Richiedi informazioni</h3>

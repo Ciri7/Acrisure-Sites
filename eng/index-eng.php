@@ -200,7 +200,7 @@
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/foto\ sfondo\ acrisure\ UFFICI.webp');
             background-size: cover;
-            background-position: top;
+            background-position: center;
             background-attachment: fixed;
             height: 100vh;
             min-height: 700px;
@@ -1727,8 +1727,7 @@
 
     <section id="chi-siamo" class="section about">
         <h2 class="section-title">About Us</h2>
-        <p class="section-subtitle">We serve millions of commercial clients from small and medium-sized businesses, <br>as well as individuals and families</p>
-        
+        <p class="section-subtitle">Acrisure S.r.l. is the holding company that brings together leading players in the insurance and services sectors. We leverage the strength of our group’s synergies to develop integrated and cutting-edge solutions designed to create long-term value for our partners and clients.</p>
         <div class="about-content">
             <div class="about-cards">
                 <div class="about-card">

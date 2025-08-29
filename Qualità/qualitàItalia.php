@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure - Legal & Compliance</title>
-    <meta name="description" content="Informazioni su legalità e conformità di Acrisure Italia. Scopri il nostro impegno per la trasparenza e il rispetto delle normative.">
-    <meta name="keywords" content="legal, compliance, normativa, regolamentazione, Acrisure Italia">
-    <link rel="canonical" href="https://www.acrisureitalia.com/legal-e-compliance" />
+    <title>Acrisure Italia - Reclami</title>
+    <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
+    <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
+    <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -200,8 +200,8 @@
         }
         
         /* Hero Section */
-        .legal-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/foto\ sfondo\ acrisure\ UFFICI.webp');
+        .privacy-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -221,14 +221,14 @@
             width: 100%;
         }
         
-        .legal-hero h1 {
+        .privacy-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
             animation: fadeIn 0.8s ease;
         }
         
-        .legal-hero p {
+        .privacy-hero p {
             font-size: 1.3rem;
             max-width: 600px;
             margin-bottom: 2.5rem;
@@ -272,8 +272,8 @@
             border-radius: 2px;
         }
         
-        /* Legal Content */
-        .legal-content {
+        /* Privacy Content */
+        .privacy-content {
             max-width: 1000px;
             margin: 0 auto;
             background-color: white;
@@ -282,11 +282,11 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
         }
         
-        .legal-section {
+        .privacy-section {
             margin-bottom: 3rem;
         }
         
-        .legal-section h2 {
+        .privacy-section h2 {
             color: var(--secondary);
             margin-bottom: 1.5rem;
             font-size: 1.8rem;
@@ -294,7 +294,7 @@
             padding-bottom: 0.8rem;
         }
         
-        .legal-section h2::after {
+        .privacy-section h2::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -304,76 +304,42 @@
             background-color: var(--accent);
         }
         
-        .legal-section h3 {
+        .privacy-section h3 {
             color: var(--secondary);
             margin: 2rem 0 1rem;
             font-size: 1.4rem;
         }
         
-        .legal-section p, 
-        .legal-section ul {
+        .privacy-section p, 
+        .privacy-section ul {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
             color: #555;
         }
         
-        .legal-section ul {
+        .privacy-section ul {
             padding-left: 2rem;
         }
         
-        .legal-section li {
+        .privacy-section li {
             margin-bottom: 0.8rem;
         }
         
-        .legal-section strong {
+        .privacy-section strong {
             color: var(--secondary);
             font-weight: 600;
         }
         
-        .legal-section a {
+        .privacy-section a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .legal-section a:hover {
+        .privacy-section a:hover {
             color: var(--primary);
             text-decoration: underline;
-        }
-        
-        /* Compliance Boxes */
-        .compliance-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .compliance-box {
-            background-color: white;
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s, box-shadow 0.3s;
-            border-top: 4px solid var(--accent);
-        }
-        
-        .compliance-box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-        
-        .compliance-box h3 {
-            color: var(--secondary);
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-        }
-        
-        .compliance-box h3 i {
-            margin-right: 10px;
-            color: var(--accent);
         }
         
         /* Footer */
@@ -618,7 +584,7 @@
         
         /* Responsive */
         @media (max-width: 1024px) {
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 3rem;
             }
             
@@ -669,20 +635,20 @@
                 display: none;
             }
             
-            .legal-hero {
+            .privacy-hero {
                 height: 40vh;
                 min-height: 300px;
             }
             
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 2.5rem;
             }
             
-            .legal-hero p {
+            .privacy-hero p {
                 font-size: 1.1rem;
             }
             
-            .legal-content {
+            .privacy-content {
                 padding: 2rem;
             }
             
@@ -724,7 +690,7 @@
         }
         
         @media (max-width: 480px) {
-            .legal-hero h1 {
+            .privacy-hero h1 {
                 font-size: 2rem;
             }
             
@@ -736,20 +702,20 @@
                 padding: 4rem 5%;
             }
             
-            .legal-content {
+            .privacy-content {
                 padding: 1.5rem;
             }
             
-            .legal-section h2 {
+            .privacy-section h2 {
                 font-size: 1.5rem;
             }
             
-            .legal-section h3 {
+            .privacy-section h3 {
                 font-size: 1.2rem;
             }
             
-            .legal-section p, 
-            .legal-section ul {
+            .privacy-section p, 
+            .privacy-section ul {
                 font-size: 1rem;
             }
 
@@ -760,7 +726,7 @@
                 padding: 1rem 0;
             }
         }
-
+        
         /* NUOVI FOOTER --------------------------- */
         .social-links a {
             color: var(--secondary);
@@ -818,6 +784,18 @@
             line-height: 1.5;
             margin: 0;
         }
+
+        /* RECLAMI LINK---------- */
+        .footer-title-link {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+        }
+
+        .footer-title-link:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>
@@ -827,8 +805,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/index.php">
-                    <img src="/img/Acrisure.png" alt="Acrisure Services Logo" class="logo">
+                <a href="/italia.php">
+                    <img src="/img/Acrisure Italia.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -838,8 +816,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="/index.php#news" class="nav-link">News</a></li>
+                    <li><a href="/italia.php#news" class="nav-link">News</a></li>
+                    <li><a href="/italia.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/italia.php#services" class="nav-link">Servizi</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
                 </ul>
@@ -847,108 +826,43 @@
             <nav class="language-switcher">
                 <ul>
                     <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/legal-eng/legalAcrisure-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="/eng/reclami-eng/reclamiItalia-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="legal-hero">
+    <section class="privacy-hero">
         <div class="hero-content">
-            <h1>Legal & Compliance</h1>
-            <p>Il nostro impegno per la trasparenza, la conformità normativa e la tutela degli stakeholder.</p>
+            <h1>Qualità</h1>
         </div>
     </section>
 
     <section class="section">
-        <div class="legal-content">
-            <div class="legal-section">
-                <h2>Governance e Compliance</h2>
-                <p>Acrisure Italia opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
-                
-                <div class="compliance-grid">
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-balance-scale"></i> Normativa IVASS</h3>
-                        <p>Rispettiamo scrupolosamente le disposizioni dell'IVASS (Istituto per la Vigilanza sulle Assicurazioni), garantendo la massima trasparenza nelle relazioni con i clienti e la corretta gestione dei prodotti assicurativi.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-shield-alt"></i> Antiriciclaggio</h3>
-                        <p>Abbiamo implementato un solido sistema di prevenzione del riciclaggio e del finanziamento del terrorismo, in conformità al D.Lgs. 231/2007 e alle successive modifiche.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-user-shield"></i> Protezione Dati</h3>
-                        <p>La privacy e la sicurezza dei dati personali sono prioritarie. Il trattamento avviene nel rispetto del GDPR (Regolamento UE 2016/679) e del Codice Privacy italiano.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-handshake"></i> Condotta Commerciale</h3>
-                        <p>Adottiamo politiche rigorose per garantire correttezza, trasparenza e lealtà in tutte le attività commerciali, in linea con le disposizioni IVASS sulla distribuzione assicurativa.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="legal-section">
-                <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
-                <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
-                    <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
-                    <li>Segnalare eventuali anomalie o violazioni</li>
-                    <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
-                </ul>
-                <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Modello 231</h2>
-                <p>
-                    Il Modello adottato da Acrisure S.r.l. si articola in: - una Parte Generale, che definisce il quadro normativo, i principi, le responsabilità e le modalità di attuazione del sistema di controllo; - una Parte Speciale, dedicata alle principali categorie di reati rilevanti rispetto all’attività della
-                    Società; - il Codice Etico, parte integrante del Modello, che esprime i valori e i principi comportamentali cui devono attenersi tutti i destinatari. Il Modello si fonda su: - Analisi e mappatura dei rischi (risk assessment); - Individuazione delle attività sensibili; - Protocolli e procedure di prevenzione; - Flussi informativi strutturati verso l’OdV; - Sistema disciplinare interno; - Formazione e sensibilizzazione dei destinatari; - Aggiornamento e miglioramento continuo dei presidi adottati.
-                </p>
-                <!-- <ul>
-                    <li><a href="../DOCUMENTI/ETICA/#" target="_blank">Modello 231</a></li>
-                </ul> -->
-            </div>
-
-            <div class="legal-section">
-                <h2>Codice Etico</h2>
-                <p>
-                    Il Codice Etico adottato da Acrisure S.r.l. definisce i valori di integrità, correttezza, rispetto e legalità che ispirano l’azione della Società. Esso stabilisce standard di comportamento vincolanti per amministratori, dipendenti, collaboratori, consulenti, fornitori e, ove applicabile, clienti.<br>In qualità di Capogruppo, Acrisure S.r.l. promuove la diffusione e l’osservanza del Codice Etico anche all’interno delle società controllate, nell’ambito di un sistema di governance condiviso.
+        <div class="privacy-content">
+            <div class="privacy-section">
+                <h2>Politica della qualità</h2>
+                <p>Il Sistema di Gestione della Qualità rappresenta la volontà aziendale di sviluppare continuamente la qualità interna ed esterna della Società attraverso l’osservanza di un continuo adeguato livello di formazione e conoscenza delle proprie risorse e attraverso l’offerta verso i clienti attuali e futuri di quel costante eccellente livello di servizio che mette Acrisure Italia S.p.A. fra i leaders nel proprio settore di attività.
+                     All’interno del Sistema di Gestione della Qualità, Acrisure Italia ha pertanto stilato una Politica per la Qualità conforme ai requisiti espressi dalla Norma ISO 9001:2015 e strategica per il raggiungimento degli obiettivi stabiliti dalla Società. 
+                     In particolare, la Politica per la Qualità adottata da Acrisure Italia formalizza gli obiettivi che la Società vuole raggiungere in funzione delle strategie, dei clienti, del mercato, degli stakeholders - in particolare i dipendenti - affinché siano attuate, mantenute, controllate e migliorate le prestazioni del Sistema.
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/ETICA/#" target="_blank">Codice Etico</a></li>
-                </ul>
-            </div>
-
-            <div class="legal-section">
-                <h2>Whistleblowing</h2>
-                <p>
-                    Acrisure S.r.l. promuove e sostiene attivamente la segnalazione, in buona fede, da parte di dipendenti e soggetti terzi, di comportamenti inappropriati, scorretti, attivi o omissivi, nonché di possibili violazioni sia delle norme interne — quali il Codice Etico, il Modello di Organizzazione e Gestione adottato in conformità al Dlgs 231/2001, e più in generale l’intero corpus normativo aziendale — sia delle normative esterne applicabili, come leggi e regolamenti, oltre a qualsiasi illecito o irregolarità legata alla gestione delle attività aziendali.
-                    L’obiettivo è duplice: da un lato, intervenire tempestivamente per contrastare ogni comportamento illecito o non etico, agendo sui fatti segnalati e sui responsabili; dall’altro, prevenire rischi che possano portare la Società a sanzioni o azioni legali da parte delle Autorità, con conseguenti danni reputazionali.
-                    A tal fine, Acrisure S.r.l. si è dotata di un sistema interno per la gestione delle segnalazioni, disciplinato dalla Procedura Whistleblowing, elaborata in collaborazione con le rappresentanze sindacali, ai sensi dell’art. 51 del D.lgs. 81/2015. Questa procedura stabilisce le modalità di ricezione e verifica delle segnalazioni, coinvolgendo attivamente la Società, i dipendenti e i soggetti terzi.
-                    La piattaforma per l’invio delle segnalazioni è raggiungibile ed utilizzabile al seguente link: <a href="https://acrisure.lpwhistleblowing.com/" target="_blank">https://acrisure.lpwhistleblowing.com/</a>.
-                    Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.
-                </p>
-                <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/WB_Acrisure.pdf" target="_blank">Procedura Whistleblowing</a></li>
+                    <li><a href="../../#" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
                 </ul>
             </div>
         </div>
     </section>
 
-<!-- FOOTER -->
+    <!-- FOOTER ------------------------------------------------------------------------------------------------------------------ -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i> Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l.</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
+                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
@@ -956,22 +870,31 @@
                 <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
                 
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <br>
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
+                    </ul>
                 </div>
             </div>
             
@@ -982,16 +905,19 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
+                <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
+                </div>
                 
+                <br>
                 <div class="legal-links">
-                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
-                    <a href="#header">Legal & Compliance</a>
+                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    <a href="#header">Qualità</a>
+                    <a href="/Sostenibilità/sostenibilitaItalia.php">Sostenibilità</a>
+                    <a href="/policy/policyItalia.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
                 </div>
             </div>
         </div>
@@ -1008,9 +934,9 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure S.r.l. - Cap. sociale €10.000,00 i.v. <br>
-            Società appartenente al Gruppo IVA Acrisure P.IVA 13147890969<br>
-            Cod. Fiscale e n.iscr. al Registro Imprese di Sassari n.11635300962 - REA SS-222619 </p>
+            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
+            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
+            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
         </div>
     </footer>
 

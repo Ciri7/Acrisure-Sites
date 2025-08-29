@@ -994,9 +994,11 @@
                 
                 <br>
                 <div class="legal-links">
+                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
+                    <a href="/Qualità/qualitàItalia.php">Qualità</a>
+                    <a href="/Sostenibilità/sostenibilitaItalia.php">Sostenibilità</a>
                     <a href="#header">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

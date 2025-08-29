@@ -198,7 +198,7 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/foto\ sfondo\ acrisure\ UFFICI.webp');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/SHASSHARI.webp');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -1810,11 +1810,14 @@
                     <p class="leadership-desc">Chief Executive Officer</p>
                 </div>
 
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Giovanni Dallavalle</h3>
-                    <p class="leadership-desc">Chief Financial Officer</p>
+                <div class="leadership-other-rows">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Giovanni Dallavalle</h3>
+                        <p class="leadership-desc">Chief Financial Officer</p>
+                    </div>
                 </div>
+                
         <br><br><br>
     </section>
 

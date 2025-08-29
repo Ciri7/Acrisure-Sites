@@ -1807,7 +1807,7 @@
                 <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Alessandra Caparucci</h3>
+                        <h3 class="leadership-name">Alessandra Capparucci</h3>
                         <p class="leadership-desc">Human Resources</p>
                     </div>
 

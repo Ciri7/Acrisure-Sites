@@ -1780,7 +1780,7 @@
                     <div class="stat-label">Sedi Operative</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number add-plus" data-count="+100">0</div>
+                    <div class="stat-number add-plus" data-count="+19.000">0</div>
                     <div class="stat-label">Dipendenti</div>
                 </div>
                 <div class="stat-item">

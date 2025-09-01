@@ -350,6 +350,13 @@
             font-size: 1.2rem;
             color: #555;
         }
+        .section-subtitle2 {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #fff;
+        }
         
         /* About Section */
         /* .about {
@@ -1806,7 +1813,7 @@
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="leadership" class="section leadership">
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle" style="color: white;">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        <p class="section-subtitle2">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">

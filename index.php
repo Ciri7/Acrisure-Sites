@@ -559,6 +559,32 @@
             margin-bottom: 1.5rem;
             line-height: 1.6;
         }
+
+        /* Stili per la nuova struttura leadership */
+        .leadership-row {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+
+        .leadership-card.centered-card {
+            margin: 0 auto;
+        }
+
+        /* Media query per dispositivi mobili */
+        @media (max-width: 768px) {
+            .leadership-row {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .leadership-card {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
         
         /* News Section */
         .news-section {
@@ -1790,15 +1816,15 @@
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->
-    <section id="leadership" class="section leadership">
-        <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
-        
-        <div class="leadership-container">
-            <div class="leadership-grid">
-
-                <!-- Prima riga -->
-                 <div class="leadership-card">
+<section id="leadership" class="section leadership">
+    <h2 class="section-title">Leadership</h2>
+    <p class="section-subtitle2">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+    
+    <div class="leadership-container">
+        <div class="leadership-grid">
+            <!-- Prima riga - 2 blocchi -->
+            <div class="leadership-row">
+                <div class="leadership-card">
                     <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Jason Howard</h3>
                     <p class="leadership-desc">Chairman</p>
@@ -1809,15 +1835,19 @@
                     <h3 class="leadership-name">Stefano Sardara</h3>
                     <p class="leadership-desc">Chief Executive Officer</p>
                 </div>
-                
-                <div class="leadership-card">
+            </div>
+            
+            <!-- Seconda riga - 1 blocco centrato -->
+            <div class="leadership-row">
+                <div class="leadership-card centered-card">
                     <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Giovanni Dallavalle</h3>
                     <p class="leadership-desc">Chief Financial Officer</p>
                 </div>
-                
-        <br><br><br>
-    </section>
+            </div>
+        </div>
+    </div><br><br><br>
+</section>
 
     <!-- _______________________________________________________________________________________________________________________________________________________ -->
 

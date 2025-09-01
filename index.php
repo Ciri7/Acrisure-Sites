@@ -1806,11 +1806,10 @@
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="leadership" class="section leadership">
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        <p class="section-subtitle" style="color: white;">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">
-
                 <!-- Prima riga con 2 card centrate -->
                 <div class="leadership-first-row">
                     <div class="leadership-card">
@@ -1826,14 +1825,16 @@
                     </div>
                 </div>
 
-                <!-- Seconda riga con 3 card -->
-                <div class="leadership-other-rows">
+                <!-- Seconda riga con 1 card centrata (stessa dimensione delle prime due) -->
+                <div class="leadership-first-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Giovanni Dallavalle</h3>
                         <p class="leadership-desc">Chief Financial Officer</p>
                     </div>
                 </div>
+            </div>
+        </div>
         <br><br><br>
     </section>
 

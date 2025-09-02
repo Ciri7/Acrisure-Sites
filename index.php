@@ -1772,9 +1772,9 @@
                     <p>Leader globale nel settore Fintech  che unisce il meglio dell'umanità e dell'alta tecnologia fondata sulla fiducia, l'etica e la sostenibilità. In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
                 </div>
             </div>
-            
+
+            <h3 class="about-card">Presenza Globale</h3>
             <div class="about-stats">
-                <h3>Presenza Globale</h3>
                 <div class="stat-item">
                     <div class="stat-number" data-count="4,8B">0</div>
                     <div class="stat-label">Ricavi</div>
@@ -1789,8 +1789,8 @@
                 </div>
             </div>
 
+            <h3 class="about-card">Presenza in Italia</h3>
             <div class="about-stats">
-                <h3>Presenza in Italia</h3>
                 <div class="stat-item">
                     <div class="stat-number" data-count="6">0</div>
                     <div class="stat-label">Sedi Operative</div>
@@ -2334,12 +2334,31 @@
             });
         }
         
-        // Animazione numeri nella sezione Chi Siamo
+        // Animazione numeri nella sezione Chi Siamo - VERSIONE CORRETTA
         function animateStats() {
             const statNumbers = document.querySelectorAll('.stat-number');
             
             statNumbers.forEach(stat => {
-                const target = parseInt(stat.getAttribute('data-count'));
+                const dataValue = stat.getAttribute('data-count');
+                let target, suffix = '';
+                
+                // Gestione dei valori con suffissi o separatori
+                if (dataValue.includes('B')) {
+                    // Per i miliardi (es. "4,8B" -> 4.8 miliardi)
+                    target = parseFloat(dataValue.replace('B', '').replace(',', '.')) * 1000000000;
+                    suffix = 'B';
+                } else if (dataValue.includes('+')) {
+                    // Per i valori con il segno "+" (es. "+19,000" -> 19000)
+                    target = parseInt(dataValue.replace('+', '').replace(',', ''));
+                    suffix = '+';
+                } else if (dataValue.includes(',')) {
+                    // Per i valori con separatore delle migliaia (es. "19,000" -> 19000)
+                    target = parseInt(dataValue.replace(',', ''));
+                } else {
+                    // Per i valori normali
+                    target = parseInt(dataValue);
+                }
+                
                 const duration = 2000; // 2 secondi
                 const step = target / (duration / 16); // 60fps
                 
@@ -2347,13 +2366,27 @@
                 const increment = () => {
                     current += step;
                     if (current < target) {
-                        stat.textContent = Math.floor(current);
+                        // Formatta il numero in base al tipo
+                        if (suffix === 'B') {
+                            // Per i miliardi, mostra un decimale
+                            stat.textContent = (current / 1000000000).toFixed(1).replace('.', ',') + suffix;
+                        } else if (suffix === '+') {
+                            // Per i valori con "+", formatta con separatore delle migliaia
+                            stat.textContent = suffix + Math.floor(current).toLocaleString('it-IT');
+                        } else {
+                            // Per i valori normali
+                            stat.textContent = Math.floor(current).toLocaleString('it-IT');
+                        }
                         requestAnimationFrame(increment);
                     } else {
-                        stat.textContent = target;
-                        if (stat.classList.contains('add-plus')) {
-                        stat.textContent = `+${stat.textContent}`; // Aggiungi il "+"
-                }
+                        // Valore finale
+                        if (suffix === 'B') {
+                            stat.textContent = dataValue;
+                        } else if (suffix === '+') {
+                            stat.textContent = suffix + target.toLocaleString('it-IT');
+                        } else {
+                            stat.textContent = target.toLocaleString('it-IT');
+                        }
                     }
                 };
                 

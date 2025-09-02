@@ -345,7 +345,7 @@
         
         .section-subtitle {
             text-align: center;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto 3rem;
             font-size: 1.2rem;
             color: #555;

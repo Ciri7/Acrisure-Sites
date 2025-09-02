@@ -1753,7 +1753,7 @@
 
     <section id="chi-siamo" class="section about">
         <h2 class="section-title">Chi Siamo</h2>
-        <p class="section-subtitle">Acrisure S.r.l. è la holding che riunisce i principali attori nei settori dell'assicurazione e dei servizi. Sfruttiamo la forza della sinergia del nostro gruppo per sviluppare soluzioni integrate e all'avanguardia, capaci di generare valore a lungo termine per i nostri partner e clienti.</p>
+        <p class="section-subtitle">Acrisure S.r.l. è la holding italiana del Gruppo Acrisure, tra i principali operatori globali nei servizi di intermediazione assicurativa, riassicurativa e consulenza finanziaria. La società svolge un ruolo di indirizzo strategico e di gestione delle partecipazioni, coordinando le attività delle società del Gruppo in Italia e favorendone la crescita in linea con la visione internazionale di Acrisure, consolidando competenze, innovazione e solide relazioni sul mercato.</p>
         <div class="about-content">
             <div class="about-cards">
                 <div class="about-card">
@@ -1761,26 +1761,42 @@
                         <i class="fas fa-globe-europe"></i>
                     </div>
                     <h3>Presenza Globale</h3>
-                    <p>Broker di assicurazioni operante a livello nazionale e internazionale.
-                        Offriamo servizi di qualità fortemente competitivi.</p>
+                    <p>Acrisure è tra i principali operatori internazionali nei servizi assicurativi e finanziari, con una presenza in oltre 20 Paesi, integrando eccellenze locali in una realtà globale capace di offrire soluzioni innovative e personalizzate per imprese e privati.</p>
                 </div>
                 
                 <div class="about-card">
                     <div class="about-icon">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <h3>Sociale</h3>
-                    <p>Leader globale nel settore Fintech  che unisce il meglio dell'umanità e dell'alta tecnologia fondata sulla fiducia, l'etica e la sostenibilità.</p>
+                    <h3>Fintech</h3>
+                    <p>Leader globale nel settore Fintech  che unisce il meglio dell'umanità e dell'alta tecnologia fondata sulla fiducia, l'etica e la sostenibilità. In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
                 </div>
             </div>
             
             <div class="about-stats">
+                <h3>Presenza Globale</h3>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="4,8B">0</div>
+                    <div class="stat-label">Ricavi</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number add-plus" data-count="+19,000">0</div>
+                    <div class="stat-label">Dipendenti</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-label">Paesi</div>
+                </div>
+            </div>
+
+            <div class="about-stats">
+                <h3>Presenza in Italia</h3>
                 <div class="stat-item">
                     <div class="stat-number" data-count="6">0</div>
                     <div class="stat-label">Sedi Operative</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number add-plus" data-count="+19.000">0</div>
+                    <div class="stat-number add-plus" data-count="+100">0</div>
                     <div class="stat-label">Dipendenti</div>
                 </div>
                 <div class="stat-item">
@@ -1796,15 +1812,15 @@
                         <i class="fas fa-bullseye"></i>
                     </div>
                     <h3>Valori</h3>
-                    <p>Mettiamo le persone al centro del nostro business, offrendo un esperienza eccezionale al cliente.</p>
+                    <p>Il successo di Acrisure in Italia si fonda su integrità, fiducia e spirito imprenditoriale. Il nostro personale è il fulcro dei valori aziendali: professionalità e dedizione che si traducono ogni giorno in relazioni solide con clienti e partner, valorizzando competenze locali in coerenza con la visione internazionale del Gruppo.</p>
                 </div>
 
                 <div class="about-card">
                     <div class="about-icon">
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>Innovazione</h3>
-                    <p>In costante aggiornamento con le novità di mercato, uniamo esperienza, professionalità e strumenti tecnologici all'avanguardia in grado di garantire un rapporto di qualità con i nostri partner, fornitori e clienti.</p>
+                    <h3>Sociale</h3>
+                    <p>#</p>
                 </div>
             </div>
         </div>

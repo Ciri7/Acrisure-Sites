@@ -1754,6 +1754,7 @@
     <section id="chi-siamo" class="section about">
         <h2 class="section-title">Chi Siamo</h2>
         <p class="section-subtitle">Acrisure S.r.l. è la holding italiana del Gruppo Acrisure, tra i principali operatori globali nei servizi di intermediazione assicurativa, riassicurativa e consulenza finanziaria. La società svolge un ruolo di indirizzo strategico e di gestione delle partecipazioni, coordinando le attività delle società del Gruppo in Italia e favorendone la crescita in linea con la visione internazionale di Acrisure, consolidando competenze, innovazione e solide relazioni sul mercato.</p>
+        <br>
         <div class="about-content">
             <div class="about-cards">
                 <div class="about-card">
@@ -1773,7 +1774,7 @@
                 </div>
             </div>
 
-            <h3 class="about-card">Presenza Globale</h3>
+            <h3 style="color: var(--secondary); text-align: center;">Presenza Globale</h3>
             <div class="about-stats">
                 <div class="stat-item">
                     <div class="stat-number" data-count="4,8B">0</div>
@@ -1789,7 +1790,7 @@
                 </div>
             </div>
 
-            <h3 class="about-card">Presenza in Italia</h3>
+            <h3 style="color: var(--secondary); text-align: center;">Presenza in Italia</h3>
             <div class="about-stats">
                 <div class="stat-item">
                     <div class="stat-number" data-count="6">0</div>

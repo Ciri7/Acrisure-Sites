@@ -842,21 +842,21 @@
         <div class="privacy-content">
             <div class="privacy-section">
                 <h2>Politica della qualità</h2>
-                <p>In qualità di broker assicurativo, Acrisure Italia S.p.A. considera la qualità come il fulcro del proprio impegno verso clienti e stakeholder. Attraverso il Sistema di Gestione della Qualità, investiamo costantemente nella crescita delle nostre persone e nella solidità delle relazioni con i clienti, per offrire soluzioni assicurative caratterizzate da trasparenza, professionalità ed eccellenza consulenziale.<br><br>
-                    Abbiamo adottato una Politica per la Qualità conforme alla Norma ISO 9001:2015, consapevoli che rappresenti una leva strategica per raggiungere gli obiettivi aziendali, garantire la conformità ai requisiti applicabili e creare valore sostenibile nel tempo.<br><br>
-                    Con questa Politica ci impegniamo a: <br><br>
+                <p>Acrisure Services S.r.l. è la società dedicata a fornire servizi di supporto altamente qualificati alle realtà del Gruppo e ai partner.
+                    All’interno del nostro Sistema di Gestione della Qualità, la crescita delle competenze, l’efficienza organizzativa e l’innovazione rappresentano i pilastri che ci permettono di garantire affidabilità, tempestività e valore operativo.<br><br>
+                    La Politica per la Qualità, conforme alla Norma ISO 9001:2015, è parte integrante della nostra strategia e orienta ogni attività verso la conformità ai requisiti applicabili e il miglioramento continuo dei processi e della soddisfazione degli stakeholder.<br><br>
+                    Ci impegniamo a: <br><br>
                     <ul>
-                        <li>comprendere a fondo i bisogni dei clienti, fornendo risposte puntuali e personalizzate;</li>
-                        <li>rafforzare la fiducia attraverso un approccio consulenziale etico, responsabile e conforme alle normative;</li>
-                        <li>promuovere il miglioramento continuo delle competenze, dei processi interni e delle performance aziendali.</li>
+                        <li>assicurare servizi puntuali, efficienti e di elevato standard qualitativo;</li>
+                        <li>valorizzare la professionalità dei nostri collaboratori attraverso formazione, coinvolgimento e responsabilizzazione;</li>
+                        <li>monitorare costantemente le performance, gestendo rischi e opportunità per garantire innovazione e ottimizzazione.</li>
                     </ul>
-                    <br><br>
-                    Per noi, qualità significa dare certezze e costruire fiducia, accompagnando i nostri clienti nelle scelte più importanti.
-                    La Politica è diffusa, compresa e riesaminata periodicamente per garantirne l’attualità e l’efficacia.
+                    Per Acrisure Services, qualità significa essere il partner operativo di fiducia, capace di supportare e potenziare le performance del business.
+                    La Politica è comunicata a tutti i livelli e viene riesaminata con regolarità per assicurarne coerenza ed efficacia.
+                    <ul>
+                        <li><a href="../../#" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
+                    </ul>
                 </p>
-                <ul>
-                    <li><a href="../../#" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
-                </ul>
             </div>
         </div>
     </section>

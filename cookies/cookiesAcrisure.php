@@ -195,11 +195,10 @@
         }
 
         /* Hero Section */
-        .legal-hero {
+        .policy-hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/acrisure7.jpg');
             background-size: cover;
             background-position: center;
-            background-attachment: fixed;
             height: 50vh;
             min-height: 400px;
             display: flex;
@@ -216,20 +215,11 @@
             width: 100%;
         }
         
-        .legal-hero h1 {
+        .policy-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
-            animation: fadeIn 0.8s ease;
-        }
-        
-        .legal-hero p {
-            font-size: 1.3rem;
-            max-width: 600px;
-            margin-bottom: 2.5rem;
-            opacity: 0.9;
-            animation: fadeIn 0.8s ease 0.3s forwards;
-            opacity: 0;
+            animation: fadeInUp 1s ease;
         }
         
         /* Policy Content */
@@ -832,24 +822,20 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Sede Legale</h3>
+                <h3><i class="fas fa-building"></i> Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
+                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
-                    <!-- <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li> -->
-                    <!-- <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li> -->
+                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta 6 - 20123</li>
                 </ul>
             </div>
             
@@ -859,43 +845,32 @@
                     <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
                 </ul>
-
+                
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
-
-                <br>
-                <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiItalia.php" class="footer-title-link">Reclami</a></h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
-                    </ul>
-                </div>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <div class="footer-badge">
+                <!-- <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div>
-
-                <br>
+                </div> -->
+                
                 <div class="legal-links">
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
-                    <a href="/Qualità/qualitàItalia.php">Qualità</a>
-                    <a href="/Sostenibilità/sostenibilitaItalia.php">Sostenibilità</a>
-                    <a href="/policy/policyItalia.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
+                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
+                    <a href="#header">Cookie Policy</a>
+                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -912,10 +887,9 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Iscritta alla Sez. B del RUI n.000673774, è soggetta alla vigilanza IVASS
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure S.r.l. - Cap. sociale €10.000,00 i.v. <br>
+            Società appartenente al Gruppo IVA Acrisure P.IVA 13147890969<br>
+            Cod. Fiscale e n.iscr. al Registro Imprese di Sassari n.11635300962 - REA SS-222619 </p>
         </div>
     </footer>
 

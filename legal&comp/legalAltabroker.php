@@ -915,7 +915,7 @@
                 <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
             </div> -->
 
-            <div class="legal-section">
+            <!-- <div class="legal-section">
                 <h2>Modello 231 e Codice Etico</h2>
                 <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
                 <ul>
@@ -926,7 +926,7 @@
                     <li>Flussi informativi e controlli</li>
                 </ul>
                 <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
-            </div>
+            </div> -->
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>

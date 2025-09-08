@@ -916,16 +916,26 @@
             </div> -->
 
             <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
+                <h2>Modello di organizzazione gestione e controllo - D. Lgs. 231/2001</h2>
+                <p>
+                    Il D. Lgs. 8 giugno 2001, n. 231, che reca la “Disciplina della responsabilità amministrativa delle persone giuridiche, delle società e delle associazioni anche prive di personalità giuridica” (di seguito anche il “D. Lgs. 231/2001” o anche soltanto il “Decreto”), entrato in vigore il 4 luglio 2001 in attuazione dell’art. 11 della Legge-Delega 29 settembre 2000 n. 300, ha introdotto nell’ordinamento giuridico italiano, conformemente a quanto previsto in ambito comunitario, la responsabilità amministrativa degli enti, ove per “Enti” si intendono le società commerciali, di capitali e di persone, e le associazioni, anche prive di personalità giuridica. Attraverso un’approfondita analisi delle attività aziendali, esaminando in primo luogo la propria struttura organizzativa, ed altresì sottoponendo ad un’attenta e accurata valutazione le diverse attività specifiche nell’ambito di ciascun settore, anche Acrisure Italia ha adottato il proprio Modello di Organizzazione, Gestione e Controllo ex D. Lgs. 231/2001, approvato dal proprio Consiglio di Amministrazione. L’adozione del Modello di Organizzazione, Gestione e Controllo prevede altresì la nomina di un Organismo di Vigilanza, nel caso di Acrisure Italia in composizione collegiale, con attribuzione di specifici compiti di vigilanza sull’efficace attuazione ed effettiva applicazione del Modello.<br>
+                    L’Organismo riporta direttamente al Consiglio di Amministrazione ed ha libero accesso alla documentazione aziendale che consideri rilevante. Il medesimo deve essere tenuto costantemente informato dagli organi sociali e responsabili delle strutture interessate dalla disciplina di cui al D. Lgs. 231/01 in merito all’evoluzione e agli sviluppi delle attività a rischio, oltre che in relazione agli aspetti della gestione aziendale che possano esporre la Società al rischio di commissione di reati.<br><br>
+                    Nell’ambito della normativa di riferimento, a partire dal 2024 anche la Acrisure S.r.l., società capogruppo del Gruppo Acrisure in Italia, ha adottato il proprio Modello 231 con l’obiettivo di assicurare condizioni di correttezza e sicurezza nella conduzione delle proprie attività aziendali, prevenendo la commissione di illeciti e garantendo il rispetto della normativa vigente. A supporto del Modello 231, la Acrisure S.r.l. ha altresì istituito un Organismo di Vigilanza collegiale, incaricato di monitorare l’efficacia, l’adeguatezza e l’applicazione del modello.
+                </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/MOG_231_ITALIA.pdf" target="_blank">Modello gestione e controllo - D. Lgs. 231/2001</a></li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/OrgContr_Italia.pdf" target="_blank">Modello di Organizzazione Gestione e Controllo D. Lgs. 231-01</a></li>
                 </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
+            </div>
+            
+            <div class="legal-section">
+                <h2>Codice Etico</h2>
+                <p>
+                    Etica ed integrità sono alla base delle relazioni di Acrisure Italia S.p.A. non solo tra i propri dipendenti, amministratori e dirigenti, ma anche verso l’esterno con clienti, fornitori, partner e con tutti gli stakeholder della Società. Con l’obiettivo di sviluppare la propria struttura aziendale valorizzando tali importanti valori, anche Acrisure Italia si è impegnata nell’adozione di un proprio Codice Etico, strumento fondamentale per sostenere con successo le attività dell’azienda. Il Codice Etico di Acrisure Italia S.p.A. individua i diritti e i doveri morali, definendo la responsabilità etico-morale di ogni partecipante alla Società, ed esprime gli impegni e le responsabilità etiche nella conduzione degli affari e delle attività aziendali. Capacità, competenza, indipendenza e rispetto dei principi di equità e onestà hanno da sempre ispirato la filosofia alla base dell’attività di Acrisure Italia. Sono questi requisiti che hanno consentito il raggiungimento e il consolidamento della propria posizione nel settore.
+                </p>
+                <ul>
+                    <li><a href="../DOCUMENTI/ETICA/CodEtico_ITALIA.pdf" target="_blank">Codice Etico</a></li>
+                </ul>
             </div>
 
             <div class="legal-section">

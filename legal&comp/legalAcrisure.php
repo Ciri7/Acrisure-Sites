@@ -901,7 +901,7 @@
                 </p>
                 <ul>
 
-                    <li><a href="../DOCUMENTI/codice etico acrisure srl.pdf" target="_blank">Codice Eitco</a></li>
+                    <li><a href="../DOCUMENTI/ETICA/codice etico acrisure srl.pdf" target="_blank">Codice Eitco</a></li>
                     <li><a href="../DOCUMENTI/MODELLO 231/MOG_231.pdf" target="_blank">Modello 231</a></li>
                 </ul>
             </div>

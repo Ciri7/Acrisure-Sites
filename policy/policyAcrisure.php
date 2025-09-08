@@ -200,8 +200,8 @@
         }
         
         /* Hero Section */
-        .privacy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/foto\ sfondo\ acrisure\ UFFICI.webp');
+        .legal-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/acrisure7.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -221,14 +221,14 @@
             width: 100%;
         }
         
-        .privacy-hero h1 {
+        .legal-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
             animation: fadeIn 0.8s ease;
         }
         
-        .privacy-hero p {
+        .legal-hero p {
             font-size: 1.3rem;
             max-width: 600px;
             margin-bottom: 2.5rem;

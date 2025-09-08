@@ -891,7 +891,7 @@
                 </div>
             </div>
 
-            <div class="legal-section">
+            <!-- <div class="legal-section">
                 <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
                 <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
                 <ul>
@@ -902,7 +902,7 @@
                     <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
                 </ul>
                 <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div>
+            </div> -->
 
             <div class="legal-section">
                 <h2>Modello 231 e Codice Etico</h2>

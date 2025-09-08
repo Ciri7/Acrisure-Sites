@@ -1016,7 +1016,8 @@
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
             <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
+            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Iscritta alla Sez. B del RUI n.000673774, è soggetta alla vigilanza IVASS
+            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
             Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
         </div>
     </footer>

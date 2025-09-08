@@ -890,7 +890,7 @@
                 </div>
             </div>
 
-            <div class="legal-section">
+            <!-- <div class="legal-section">
                 <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
                 <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
                 <ul>
@@ -901,7 +901,7 @@
                     <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
                 </ul>
                 <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div>
+            </div> -->
 
             <div class="legal-section">
                 <h2>Modello 231 e Codice Etico</h2>
@@ -918,13 +918,16 @@
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
-                <p>In conformità alla normativa sulla protezione dei segnalanti (Direttiva UE 2019/1937 e D.Lgs. 24/2023), Acrisure Italia ha istituito un canale dedicato per la segnalazione di violazioni o irregolarità.</p>
-                <p>Le segnalazioni possono essere inviate:</p>
+                <p>
+                    Acrisure Agriservices S.r.l., promuove e sostiene attivamente la segnalazione, in buona fede, da parte di dipendenti e soggetti terzi, di comportamenti inappropriati, scorretti, attivi o omissivi, nonché di possibili violazioni sia delle norme interne — quali il Codice Etico e, più in generale, l’intero corpus normativo aziendale — sia delle normative esterne applicabili, come leggi e regolamenti, oltre a qualsiasi illecito o irregolarità legata alla gestione delle attività aziendali.
+                    L’obiettivo è duplice: da un lato, intervenire tempestivamente per contrastare ogni comportamento illecito o non etico, agendo sui fatti segnalati e sui responsabili; dall’altro, prevenire rischi che possano portare la Società a sanzioni o azioni legali da parte delle Autorità, con conseguenti danni reputazionali.
+                    A tal fine, Acrisure Agriservices S.r.l. si è dotata di un sistema interno per la gestione delle segnalazioni, disciplinato dalla Procedura Whistleblowing, elaborata in collaborazione con le rappresentanze sindacali, ai sensi dell’art. 51 del D.lgs. 81/2015. Questa procedura stabilisce le modalità di ricezione e verifica delle segnalazioni, coinvolgendo attivamente la Società, i dipendenti e i soggetti terzi.
+                    La piattaforma per l’invio delle segnalazioni è raggiungibile ed utilizzabile al seguente link: <a href="https://acrisure.lpwhistleblowing.com/" target="_blank">https://acrisure.lpwhistleblowing.com/</a>.
+                    Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.
+                </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Procedura Whistleblowing</a></li>
-                    <li>Tramite posta raccomandata all'indirizzo: Organismo di Vigilanza - Via Giuseppe Mazzini, 3 - 07100 Sassari</li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/WB_Agriservices.pdf" target="_blank">Procedura Whistleblowing</a></li>
                 </ul>
-                <p>Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.</p>
             </div>
         </div>
     </section>

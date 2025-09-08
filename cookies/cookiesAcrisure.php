@@ -195,10 +195,11 @@
         }
 
         /* Hero Section */
-        .policy-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/foto\ sfondo\ acrisure\ UFFICI.webp');
+        .legal-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/acrisure7.jpg');
             background-size: cover;
-            background-position: top;
+            background-position: center;
+            background-attachment: fixed;
             height: 50vh;
             min-height: 400px;
             display: flex;
@@ -215,11 +216,20 @@
             width: 100%;
         }
         
-        .policy-hero h1 {
+        .legal-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
-            animation: fadeInUp 1s ease;
+            animation: fadeIn 0.8s ease;
+        }
+        
+        .legal-hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            animation: fadeIn 0.8s ease 0.3s forwards;
+            opacity: 0;
         }
         
         /* Policy Content */

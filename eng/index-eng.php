@@ -2255,12 +2255,51 @@
             });
         }
         
-        // Animazione numeri nella sezione Chi Siamo
+        // Animazione numeri nella sezione Chi Siamo - VERSIONE CORRETTA
         function animateStats() {
             const statNumbers = document.querySelectorAll('.stat-number');
             
             statNumbers.forEach(stat => {
-                const target = parseInt(stat.getAttribute('data-count'));
+                const dataValue = stat.getAttribute('data-count');
+                let target, prefix = '', suffix = '';
+                
+                // Gestione dei valori con prefissi (come $) e suffissi
+                if (dataValue.startsWith('$')) {
+                    // Per i valori che iniziano con $ (es. "$4,8B")
+                    prefix = '$';
+                    const cleanValue = dataValue.substring(1);
+                    
+                    if (cleanValue.includes('B')) {
+                        // Per i miliardi
+                        target = parseFloat(cleanValue.replace('B', '').replace(',', '.')) * 1000000000;
+                        suffix = 'B';
+                    } else if (cleanValue.includes('+')) {
+                        // Per i valori con il segno "+"
+                        target = parseInt(cleanValue.replace('+', '').replace(',', ''));
+                        suffix = '+';
+                    } else if (cleanValue.includes(',')) {
+                        // Per i valori con separatore delle migliaia
+                        target = parseInt(cleanValue.replace(',', ''));
+                    } else {
+                        // Per i valori normali
+                        target = parseInt(cleanValue);
+                    }
+                } else if (dataValue.includes('B')) {
+                    // Per i miliardi (es. "4,8B" -> 4.8 miliardi)
+                    target = parseFloat(dataValue.replace('B', '').replace(',', '.')) * 1000000000;
+                    suffix = 'B';
+                } else if (dataValue.includes('+')) {
+                    // Per i valori con il segno "+" (es. "+19,000" -> 19000)
+                    prefix = dataValue.includes('+') ? '+' : '';
+                    target = parseInt(dataValue.replace('+', '').replace(',', ''));
+                } else if (dataValue.includes(',')) {
+                    // Per i valori con separatore delle migliaia (es. "19,000" -> 19000)
+                    target = parseInt(dataValue.replace(',', ''));
+                } else {
+                    // Per i valori normali
+                    target = parseInt(dataValue);
+                }
+                
                 const duration = 2000; // 2 secondi
                 const step = target / (duration / 16); // 60fps
                 
@@ -2268,13 +2307,21 @@
                 const increment = () => {
                     current += step;
                     if (current < target) {
-                        stat.textContent = Math.floor(current);
+                        // Formatta il numero in base al tipo
+                        if (suffix === 'B') {
+                            // Per i miliardi, mostra un decimale
+                            stat.textContent = prefix + (current / 1000000000).toFixed(1).replace('.', ',') + suffix;
+                        } else if (prefix === '+') {
+                            // Per i valori con "+", formatta con separatore delle migliaia
+                            stat.textContent = prefix + Math.floor(current).toLocaleString('it-IT');
+                        } else {
+                            // Per i valori normali
+                            stat.textContent = prefix + Math.floor(current).toLocaleString('it-IT');
+                        }
                         requestAnimationFrame(increment);
                     } else {
-                        stat.textContent = target;
-                        if (stat.classList.contains('add-plus')) {
-                        stat.textContent = `+${stat.textContent}`; // Aggiungi il "+"
-                }
+                        // Valore finale - manteniamo il formato originale
+                        stat.textContent = dataValue;
                     }
                 };
                 

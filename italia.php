@@ -1654,6 +1654,124 @@
         .footer-title-link:hover {
             color: var(--accent);
         }
+
+        /* Sezione Chi Siamo migliorata */
+        .about-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .about-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .about-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-icon {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        .about-card h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 1.5rem;
+            background: rgba(0, 86, 179, 0.1);
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--dark);
+            font-weight: 600;
+        }
+
+        .about-values h3 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 1.8rem;
+            color: var(--secondary);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .value-item {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .value-item i {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        .value-item h4 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        /* Animazione numeri */
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .stat-number.animated {
+            animation: countUp 1s ease forwards;
+        }
+
+        /* About Section */
+        /* .about {
+            background-color: var(--light);
+        } */
+        
+        .about-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .about-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            text-align: center;
+        }
     </style>
 </head>
 <body>

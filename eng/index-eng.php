@@ -1755,7 +1755,7 @@
 
     <section id="chi-siamo" class="section about">
         <h2 class="section-title">About Us</h2>
-        <p class="section-subtitle">Acrisure LLC is the Italian holding company of the Acrisure Group, one of the leading global operators in insurance and reinsurance brokerage and financial advisory services. The company plays a strategic direction and shareholding management role, coordinating the activities of the Group's companies in Italy and fostering their growth in line with Acrisure's international vision, consolidating expertise, innovation, and strong market relationships.</p>
+        <p class="section-subtitle">Acrisure S.r.l. is the Italian holding company of the Acrisure Group, one of the leading global operators in insurance and reinsurance brokerage and financial advisory services. The company plays a strategic direction and shareholding management role, coordinating the activities of the Group's companies in S.r.l. and fostering their growth in line with Acrisure's international vision, consolidating expertise, innovation, and strong market relationships.</p>
         <br>
         <div class="about-content">
             <div class="about-cards">
@@ -1792,7 +1792,7 @@
                 </div>
             </div>
 
-            <h3 style="color: var(--secondary); text-align: center;">Presence in Italy</h3>
+            <h3 style="color: var(--secondary); text-align: center;">Presence in S.r.l.</h3>
             <div class="about-stats">
                 <div class="stat-item">
                     <div class="stat-number" data-count="6">0</div>
@@ -1814,7 +1814,7 @@
                         <i class="fas fa-bullseye"></i>
                     </div>
                     <h3>Values</h3>
-                    <p>Acrisure's success in Italy is based on integrity, trust, and entrepreneurship. Our staff is the core of the company's values: professionalism and dedication that translate every day into solid relationships with clients and partners, enhancing local skills in line with the Group's international vision.</p>
+                    <p>Acrisure's success in S.r.l. is based on integrity, trust, and entrepreneurship. Our staff is the core of the company's values: professionalism and dedication that translate every day into solid relationships with clients and partners, enhancing local skills in line with the Group's international vision.</p>
                 </div>
 
                 <div class="about-card">
@@ -1822,7 +1822,9 @@
                         <i class="fas fa-handshake"></i>
                     </div>
                     <h3>Social Responsibility</h3>
-                    <p>#</p>
+                    <p>
+                        Our social commitment is not just a corporate responsibility, but a fundamental value. We actively work for a more sustainable future, convinced that taking concrete action is the only way to truly make a difference.
+                    </p>
                 </div>
             </div>
         </div>
@@ -1884,7 +1886,7 @@
                     <div class="news-content">
                         <div class="news-date">March 15, 2024</div>
                         <h3>New partnership in the agricultural sector</h3>
-                        <p>Acrisure Agriculture announces a strategic collaboration with the leading national agricultural consortium to offer even more advantageous policies.</p>
+                        <p>Acrisure Agricolture announces a strategic collaboration with the leading national agricultural consortium to offer even more advantageous policies.</p>
                     </div>
                 </div>
                 
@@ -1895,7 +1897,7 @@
                     <div class="news-content">
                         <div class="news-date">February 28, 2024</div>
                         <h3>Insurance Innovation Award 2024</h3>
-                        <p>Acrisure Italy wins the prestigious award for its advanced digital risk management platform.</p>
+                        <p>Acrisure S.r.l. wins the prestigious award for its advanced digital risk management platform.</p>
                     </div>
                 </div>
                 
@@ -1928,7 +1930,7 @@
                     <div class="news-content">
                         <div class="news-date">November 20, 2023</div>
                         <h3>Annual conference</h3>
-                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italy in Milan.</p>
+                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure S.r.l. in Milan.</p>
                     </div>
                 </div>
             </div>
@@ -1955,10 +1957,10 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Italy S.p.A.</h3>
+                        <h3 class="azienda-nome">Acrisure Italia S.p.A.</h3>
                         <p class="azienda-desc">Insurance brokerage company operating at national and international level</p>
                         <div class="azienda-link-container">
-                            <a href="italia.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/italia-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1966,10 +1968,10 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Services LLC</h3>
+                        <h3 class="azienda-nome">Acrisure Services S.r.l.</h3>
                         <p class="azienda-desc">Specialized in operational and management activities of companies, integrating skills and interconnections between multiple service areas</p>
                         <div class="azienda-link-container">
-                            <a href="services.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/services-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1977,10 +1979,10 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Re Italy LLC</h3>
+                        <h3 class="azienda-nome">Acrisure Re S.r.l.</h3>
                         <p class="azienda-desc">Leader in the reinsurance sector, with deep expertise in risk and capital management</p>
                         <div class="azienda-link-container">
-                            <a href="re.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/re-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1988,10 +1990,10 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agriculture LLC</h3>
+                        <h3 class="azienda-nome">Acrisure Agricolture S.r.l.</h3>
                         <p class="azienda-desc">Insurance broker expert in policies for the protection of agricultural businesses</p>
                         <div class="azienda-link-container">
-                            <a href="agricolture.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/agricolture-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1999,10 +2001,10 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agriservices LLC</h3>
+                        <h3 class="azienda-nome">Acrisure Agriservices S.r.l.</h3>
                         <p class="azienda-desc">Company specialized in insurance of risks related to the agricultural sector</p>
                         <div class="azienda-link-container">
-                            <a href="agriservices.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/agricolture-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -2010,10 +2012,10 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/New Alta provvisorio.webp" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Alta Broker & Partners LLC</h3>
+                        <h3 class="azienda-nome">Alta Broker & Partners S.r.l.</h3>
                         <p class="azienda-desc">Broker specialized in retail policies suitable for all your needs</p>
                         <div class="azienda-link-container">
-                            <a href="altabroker.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/altabroker-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

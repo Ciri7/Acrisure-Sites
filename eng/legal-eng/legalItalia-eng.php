@@ -877,96 +877,100 @@
         <div class="legal-content">
             <div class="legal-section">
                 <h2>Governance and Compliance</h2>
-                <p>Acrisure Italia operates in full compliance with current regulations, adopting the highest standards of governance and compliance. Our approach is based on transparency, integrity, and accountability, ensuring compliance with all legal and regulatory provisions applicable to the insurance sector.</p>
+                <p>Acrisure Italy operates in full compliance with current regulations, adopting the highest standards of governance and compliance. Our approach is based on transparency, integrity and responsibility, ensuring compliance with all legal and regulatory provisions applicable to the insurance sector.</p>
                 
                 <div class="compliance-grid">
                     <div class="compliance-box">
                         <h3><i class="fas fa-balance-scale"></i> IVASS Regulations</h3>
-                        <p>We strictly comply with the provisions of IVASS (Institute for the Supervision of Insurance), guaranteeing maximum transparency in customer relations and proper management of insurance products.</p>
+                        <p>We scrupulously comply with the provisions of IVASS (Institute for the Supervision of Insurance), guaranteeing maximum transparency in customer relations and proper management of insurance products.</p>
                     </div>
                     
                     <div class="compliance-box">
                         <h3><i class="fas fa-shield-alt"></i> Anti-Money Laundering</h3>
-                        <p>We have implemented a robust system for preventing money laundering and terrorist financing, in compliance with Legislative Decree 231/2007 and subsequent amendments.</p>
+                        <p>We have implemented a robust system for the prevention of money laundering and terrorist financing, in compliance with Legislative Decree 231/2007 and subsequent amendments.</p>
                     </div>
                     
                     <div class="compliance-box">
                         <h3><i class="fas fa-user-shield"></i> Data Protection</h3>
-                        <p>Privacy and security of personal data are priorities. Processing occurs in compliance with GDPR (EU Regulation 2016/679) and the Italian Privacy Code.</p>
+                        <p>Privacy and security of personal data are priorities. Processing takes place in compliance with GDPR (EU Regulation 2016/679) and the Italian Privacy Code.</p>
                     </div>
                     
                     <div class="compliance-box">
                         <h3><i class="fas fa-handshake"></i> Commercial Conduct</h3>
-                        <p>We adopt rigorous policies to ensure fairness, transparency, and integrity in all commercial activities, in line with IVASS provisions on insurance distribution.</p>
+                        <p>We adopt rigorous policies to ensure fairness, transparency and loyalty in all commercial activities, in line with IVASS provisions on insurance distribution.</p>
                     </div>
                 </div>
             </div>
 
             <div class="legal-section">
-                <h2>Supervisory Body under Legislative Decree 231/2001</h2>
-                <p>In compliance with Legislative Decree No. 231 of June 8, 2001, Acrisure Italia has established a Supervisory Body with the task of:</p>
+                <h2>Organizational, Management and Control Model - Legislative Decree 231/2001</h2>
+                <p>
+                    Legislative Decree No. 231 of June 8, 2001, which contains the "Discipline of administrative liability of legal persons, companies and associations even without legal personality" (hereinafter also "Legislative Decree 231/2001" or simply the "Decree"), entered into force on July 4, 2001 in implementation of Art. 11 of the Delegated Law No. 300 of September 29, 2000, introduced into the Italian legal system, in accordance with what is provided for at community level, the administrative liability of entities, where by "Entities" we mean commercial companies, capital and partnerships, and associations, even without legal personality. Through an in-depth analysis of company activities, first examining its organizational structure, and also subjecting the different specific activities in each sector to careful and accurate evaluation, Acrisure Italy has also adopted its own Organizational, Management and Control Model ex Legislative Decree 231/2001, approved by its Board of Directors. The adoption of the Organizational, Management and Control Model also provides for the appointment of a Supervisory Body, in the case of Acrisure Italy in collegial composition, with specific tasks of supervising the effective implementation and actual application of the Model.<br>
+                    The Body reports directly to the Board of Directors and has free access to company documentation that it considers relevant. The same must be constantly informed by the corporate bodies and managers of the structures affected by the discipline of Legislative Decree 231/01 regarding the evolution and developments of risk activities, as well as in relation to aspects of company management that may expose the Company to the risk of commission of crimes.<br><br>
+                    Within the reference legislation, starting from 2024, Acrisure S.r.l., the parent company of the Acrisure Group in Italy, has also adopted its own Model 231 with the aim of ensuring conditions of correctness and safety in the conduct of its business activities, preventing the commission of offenses and ensuring compliance with current legislation. To support Model 231, Acrisure S.r.l. has also established a collegial Supervisory Body, responsible for monitoring the effectiveness, adequacy and application of the model.
+                </p>
                 <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitoring the adequacy and effectiveness of the Organizational Model</li>
-                    <li>Verifying compliance with adopted procedures and protocols</li>
-                    <li>Reporting any anomalies or violations</li>
-                    <li>Proposing updates to the Model in case of regulatory or organizational changes</li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/MOG_231_ITALIA.pdf" target="_blank">Management and control model - Legislative Decree 231/2001</a></li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/OrgContr_Italia.pdf" target="_blank">Organizational, Management and Control Model Legislative Decree 231-01</a></li>
                 </ul>
-                <p>The Body operates with full autonomy and independence, ensuring constant updating of prevention measures.</p>
             </div>
-
+            
             <div class="legal-section">
-                <h2>Model 231 and Code of Ethics</h2>
-                <p>Acrisure Italia has adopted an Organizational Model pursuant to Legislative Decree 231/2001, which includes:</p>
+                <h2>Code of Ethics</h2>
+                <p>
+                    Ethics and integrity are the basis of the relationships of Acrisure Italy S.p.A. not only among its employees, administrators and managers, but also externally with customers, suppliers, partners and all the Company's stakeholders. With the aim of developing its corporate structure by enhancing these important values, Acrisure Italy has also committed itself to adopting its own Code of Ethics, a fundamental tool to successfully support the company's activities. The Code of Ethics of Acrisure Italy S.p.A. identifies the moral rights and duties, defining the ethical-moral responsibility of each participant in the Company, and expresses the ethical commitments and responsibilities in the conduct of business and company activities. Ability, competence, independence and respect for the principles of fairness and honesty have always inspired the philosophy underlying Acrisure Italy's activity. These are the requirements that have allowed the achievement and consolidation of its position in the sector.
+                </p>
                 <ul>
-                    <li><a href="../../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Code of Ethics</a></li>
-                    <li>Analysis of crime risks</li>
-                    <li>Prevention protocols</li>
-                    <li>Disciplinary system</li>
-                    <li>Information flows and controls</li>
+                    <li><a href="../DOCUMENTI/ETICA/CodEtico_ITALIA.pdf" target="_blank">Code of Ethics</a></li>
                 </ul>
-                <p>The Code of Ethics defines the principles and values that guide our activities, establishing behavioral standards for employees, administrators, and collaborators.</p>
             </div>
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
-                <p>In compliance with whistleblower protection legislation (EU Directive 2019/1937 and Legislative Decree 24/2023), Acrisure Italia has established a dedicated channel for reporting violations or irregularities.</p>
-                <p>Reports can be submitted:</p>
+                <p>Acrisure Italy S.p.A. actively promotes and supports the reporting, in good faith, by employees and third parties, of inappropriate, incorrect, active or omissive behaviors, as well as possible violations of both internal rules - such as the Code of Ethics, the Organizational and Management Model adopted in accordance with Legislative Decree 231/2001, and more generally the entire corporate regulatory body - and applicable external regulations, such as laws and regulations, in addition to any illegal acts or irregularities related to the management of company activities.
+                    The objective is twofold: on the one hand, to intervene promptly to counter any illegal or unethical behavior, acting on the reported facts and those responsible; on the other hand, to prevent risks that could lead the Company to sanctions or legal actions by the Authorities, with consequent reputational damage.
+                    To this end, Acrisure Italy S.p.a., has equipped itself with an internal system for managing reports, governed by the Whistleblowing Procedure, developed in collaboration with trade union representatives, pursuant to art. 51 of Legislative Decree 81/2015. This procedure establishes the methods for receiving and verifying reports, actively involving the Company, employees and third parties.
+                    The platform for sending reports is reachable and usable at the following link: <a href="https://acrisure.lpwhistleblowing.com/" target="_blank">https://acrisure.lpwhistleblowing.com/</a>.
+                    We guarantee maximum confidentiality and protection against retaliation for whistleblowers who act in good faith.
+                </p>
                 <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Whistleblowing Procedure</a></li>
-                    <li>Via registered mail to: Supervisory Body - Giuseppe Mazzini Street, 3 - 07100 Sassari</li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/WB_Italia.pdf" target="_blank">Whistleblowing Procedure</a></li>
                 </ul>
-                <p>We guarantee maximum confidentiality and protection against retaliation for whistleblowers acting in good faith.</p>
             </div>
         </div>
     </section>
 
-<!-- FOOTER -->
+
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
-                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt="Acrisure Italia"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>Via Lovanio, 6 - 00198</li>
+                    <!-- <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li> -->
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                 </ul>
 
@@ -977,7 +981,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiItalia-eng.php" class="footer-title-link">Complaints</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiItalia.php" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
@@ -993,25 +997,29 @@
                 </ul>
                 
                 <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
+                    <img src="/img/BV.jpg" class="logo-footer" alt="Bureau Veritas"> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt="ACCREDIA Mark"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="AIBA"></a>
                 </div>
 
                 <br>
                 <div class="legal-links">
-                    <a href="/eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
-                    <a href="/eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
                     <a href="#header">Legal & Compliance</a>
+                    <a href="../Qualità-eng/qualitàItalia-eng.php">Quality</a>
+                    <a href="../eng/Sostenibilità-eng/sostenibilitàItalia-eng.php">Sustainability</a>
+                    <a href="../eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
+                    <a href="../eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
                 </div>
             </div>
         </div>
         
         <br>
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
-            Share Capital € 200,000.00 fully paid - RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
-            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share Capital € 200,000.00 i.v - RUI B000673774. Registered in Section B of the RUI no. 000673774, is subject to IVASS supervision
+            The identifying and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the Ivass website: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Company participating in the Acrisure VAT Group P7.VAT 13147890969 - <br>
+            Tax Code and no. registration in the Sassari Business Register no. 02848210908. REA SS-222619</p>
         </div>
     </footer>
     

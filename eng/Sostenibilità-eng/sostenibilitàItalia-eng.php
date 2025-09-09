@@ -816,17 +816,17 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/italia.php#news" class="nav-link">News</a></li>
-                    <li><a href="/italia.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/italia.php#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Careers</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/Sostenibilità-eng/sostenibilitàItalia-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="/it/sostenibilita/sostenibilitaItalia.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -834,43 +834,43 @@
 
     <section class="privacy-hero">
         <div class="hero-content">
-            <h1>Sostenibilità</h1>
+            <h1>Sustainability</h1>
         </div>
     </section>
 
     <section class="section">
         <div class="privacy-content">
             <div class="privacy-section">
-                <h2>Società Benefit</h2>
-                <p>Acrisure Italia è una “Società Benefit”: il nostro impegno verso la sostenibilità e la visione responsabile dell’impatto da noi generato sono da sempre il fulcro della nostra mission aziendale. 
-                    Tale evoluzione societaria rappresenta il naturale sviluppo di un percorso avviato da qualche anno a questa parte, finalizzato alla formalizzazione dei valori che guidano le nostre scelte di business e all’integrazione degli stessi mediante principi etici e di beneficio comune. 
-                    Essere una società benefit è un impegno costante, di lungo periodo e non sempre facile, che orienta il nostro lavoro al rispetto del contesto ambientale e territoriale all’interno del quale operiamo. 
-                    Abbracciare un pensiero sostenibile significa fondare le proprie radici in principi sani, condivisibili, identitari che possano essere un monito per il presente e il futuro imprenditoriale dell’impresa.
+                <h2>Benefit Corporation</h2>
+                <p>Acrisure Italia is a "Benefit Corporation": our commitment to sustainability and responsible vision of the impact we generate has always been the core of our corporate mission.
+                    This corporate evolution represents the natural development of a journey started a few years ago, aimed at formalizing the values that guide our business choices and integrating them through ethical principles and common benefit.
+                    Being a benefit corporation is a constant, long-term commitment that is not always easy, which directs our work towards respecting the environmental and territorial context in which we operate.
+                    Embracing sustainable thinking means founding our roots in healthy, shareable, identity principles that can serve as a warning for the present and future entrepreneurial endeavors of the company.
                 </p>
             </div>
 
             <div class="privacy-section">
-                <h2>Relazione d'impatto 2024</h2>
-                <p>La seconda Relazione di Impatto rafforza e affina il percorso verso la sostenibilità.
-                    In questa edizione sono presentate le azioni e le iniziative responsabili intraprese nel 2024 finalizzate al miglioramento delle nostre performance aziendali incentrate sulla creazione di valore.
-                    Siamo orgogliosi dei progressi compiuti finora, ma consapevoli che la sfida della sostenibilità sia in continua evoluzione. Continueremo a lavorare con impegno e a perseguire obiettivi sempre più ambiziosi.
-                    I risultati di quest'anno confermano inequivocabilmente l'efficacia delle nostre strategie e l'importanza cruciale della definizione di opportuni indicatori e valutazioni numeriche nella nostra metodologia.
+                <h2>2024 Impact Report</h2>
+                <p>The second Impact Report strengthens and refines the path towards sustainability.
+                    This edition presents the responsible actions and initiatives undertaken in 2024 aimed at improving our corporate performance focused on value creation.
+                    We are proud of the progress made so far, but aware that the sustainability challenge is constantly evolving. We will continue to work with commitment and pursue increasingly ambitious goals.
+                    This year's results unequivocally confirm the effectiveness of our strategies and the crucial importance of defining appropriate indicators and numerical evaluations in our methodology.
                 </p>
                 <ul>
-                    <li><a href="/DOCUMENTI/IMPATTO/RELAZIONE D’IMPATTO 2024.pdf" target="_blank">Relazione d'impatto 2024</a></li>
+                    <li><a href="/DOCUMENTI/IMPATTO/RELAZIONE D'IMPATTO 2024.pdf" target="_blank">2024 Impact Report</a></li>
                 </ul>
             </div>
 
             <div class="privacy-section">
-                <h2>Relazione d'impatto 2023</h2>
-                <p>La stesura della nostra prima Relazione d’Impatto ha sancito l’avvio concreto del nostro percorso verso un’integrazione graduale dei valori della Responsabilità Sociale d’Impresa. 
-                    Una pubblicazione volontaria e trasparente con la quale certificare il nostro impegno in qualità di Società Benefit attraverso la condivisione di valori e attività che hanno trovato spazio all’interno delle strategie del 2023 e che avranno una loro continua risonanza negli anni a venire. 
-                    Ci rivolgiamo al presente e al futuro con contezza e coscienza rispetto alle allarmanti informazioni riguardo al declino del pianeta cercando di assumere un ruolo cruciale nel fare la nostra parte al fine di attenuare tali problemi creando valide soluzioni per un futuro migliore. 
-                    La discriminante per il raggiungimento di strategie di successo può trovare sede nel porsi le giuste domande, nel calibrare i propri obiettivi rispetto ai propri punti di partenza e, infine, ottimizzare le informazioni, i dati raccolti e le proprie energie verso obiettivi raggiungibili e misurabili senza però porsi limiti in future azioni più coraggiose ma apparentemente di più difficile concretizzazione. 
-                    La Relazione d’Impatto 2023 è il nostro punto di partenza al fine di costituire le solide radici su cui fondare il cambiamento del domani in un’ottica sempre più sostenibile.
+                <h2>2023 Impact Report</h2>
+                <p>The drafting of our first Impact Report marked the concrete start of our journey towards a gradual integration of Corporate Social Responsibility values.
+                    A voluntary and transparent publication with which we certify our commitment as a Benefit Corporation through the sharing of values and activities that found space within the 2023 strategies and that will continue to resonate in the years to come.
+                    We look to the present and future with awareness and conscience regarding the alarming information about the planet's decline, trying to play a crucial role in doing our part to mitigate these problems by creating valid solutions for a better future.
+                    The discriminating factor for achieving successful strategies can be found in asking the right questions, calibrating one's objectives relative to one's starting points, and finally optimizing information, collected data, and one's energies towards achievable and measurable goals without setting limits on future bolder actions that may seem more difficult to implement.
+                    The 2023 Impact Report is our starting point to establish the solid roots on which to base tomorrow's change in an increasingly sustainable perspective.
                 </p>
                 <ul>
-                    <li><a href="/DOCUMENTI/IMPATTO/Relazione d'impatto 2023 .pdf" target="_blank">Relazione d'impatto 2023</a></li>
+                    <li><a href="/DOCUMENTI/IMPATTO/Relazione d'impatto 2023 .pdf" target="_blank">2023 Impact Report</a></li>
                 </ul>
             </div>
         </div>
@@ -880,28 +880,28 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Sede Legale</h3>
+                <h3><i class="fas fa-building"></i> Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i> Acrisure Italia S.p.A.</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
                     <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i> Italian Offices</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>Via Lovanio, 6 - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: 079 2016047</li>
                     <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                 </ul>
@@ -913,7 +913,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiItalia-eng.php" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
@@ -922,45 +922,36 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 - 18:00</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
                 <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
                 </div>
                 
                 <br>
                 <div class="legal-links">
-                    <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
-                    <a href="/Qualità/qualitàItalia.php">Qualità</a>
-                    <a href="#header">Sostenibilità</a>
-                    <a href="/policy/policyItalia.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesItalia.php">Cookie Policy</a>
+                    <a href="/eng/legal&comp/legalItalia-eng.php">Legal & Compliance</a>
+                    <a href="/eng/Qualità/qualitàItalia-eng.php">Quality</a>
+                    <a href="#header">Sustainability</a>
+                    <a href="/eng/policy/policyItalia-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies/cookiesItalia-eng.php">Cookie Policy</a>
                 </div>
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Iscritta alla Sez. B del RUI n.000673774, è soggetta alla vigilanza IVASS
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
+            Share Capital € 200,000.00 i.v-RUI B000673774. Registered in Section B of the RUI n.000673774, is subject to IVASS supervision
+            The identifying and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the Ivass website: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
+            Tax Code and n. registration in the Sassari Business Register n.02848210908. REA SS-222619</p>
         </div>
     </footer>
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Italia - Reclami</title>
+    <title>Acrisure Italia - Qualità</title>
     <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
     <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
@@ -826,7 +826,7 @@
             <nav class="language-switcher">
                 <ul>
                     <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/reclami-eng/reclamiItalia-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="/eng/Qualità-eng/qualitàItalia-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>

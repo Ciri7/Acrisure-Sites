@@ -1821,7 +1821,9 @@
                         <i class="fas fa-handshake"></i>
                     </div>
                     <h3>Sociale</h3>
-                    <p>#</p>
+                    <p>
+                        Il nostro impegno sociale non è solo una responsabilità aziendale, ma un valore fondamentale. Lavoriamo attivamente per un futuro più sostenibile, convinti che agire concretamente sia l’unico modo per fare davvero la differenza.
+                    </p>
                 </div>
             </div>
         </div>

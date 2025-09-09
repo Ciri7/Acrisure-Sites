@@ -1773,6 +1773,21 @@
         </div>
     </section>
 
+    <!-- BENEFIT SECTION -->
+    <section id="chi-siamo" class="section about">
+        <h2 class="section-title">Benefit Corporation</h2>
+        <div class="about-content">
+            <div class="about-cards">
+                <div class="about-card">
+                    <p>
+                        Being a Benefit Corporation for Acrisure Italia means integrating economic success with a positive impact on people, communities and the environment.
+                        This commitment, which goes beyond profit, guides our daily actions and directs our business towards a more sustainable, transparent and inclusive future, based on ethical and long-term principles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="gruppo" class="section leadership">
         <h2 class="section-title">Leadership</h2>
@@ -2026,25 +2041,29 @@
                 <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
-                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt="Acrisure Italia"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>Via Lovanio, 6 - 00198</li>
+                    <!-- <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li> -->
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i> Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
+                    <li><i class="fas fa-phone-alt"></i> Administration: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
                 </ul>
 
@@ -2055,7 +2074,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiItalia-eng.php" class="footer-title-link">Complaints</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiItalia.php" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
@@ -2071,25 +2090,29 @@
                 </ul>
                 
                 <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
+                    <img src="/img/BV.jpg" class="logo-footer" alt="Bureau Veritas"> 
+                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt="ACCREDIA Mark"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="AIBA"></a>
                 </div>
 
                 <br>
                 <div class="legal-links">
-                    <a href="/eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
-                    <a href="/eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
-                    <a href="/eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
+                    <a href="../eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
+                    <a href="../eng/Qualità-eng/qualitàItalia-eng.php">Quality</a>
+                    <a href="../eng/Sostenibilità-eng/sostenibilitàItalia-eng.php">Sustainability</a>
+                    <a href="../eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
+                    <a href="../eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
                 </div>
             </div>
         </div>
         
         <br>
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
-            Share Capital € 200,000.00 fully paid - RUI B000673774. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
-            Tax Code and registration number in the Sassari Companies Register no.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
+            Share Capital € 200,000.00 i.v - RUI B000673774. Registered in Section B of the RUI no. 000673774, is subject to IVASS supervision
+            The identifying and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the Ivass website: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Company participating in the Acrisure VAT Group P7.VAT 13147890969 - <br>
+            Tax Code and no. registration in the Sassari Business Register no. 02848210908. REA SS-222619</p>
         </div>
     </footer>
 

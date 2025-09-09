@@ -1771,6 +1771,23 @@
             <a href="news/newsItalia.php" class="btn">Vedi tutte le news</a>
         </div>
     </section>
+    
+    
+    <!-- SOCIETÀ BENEFIT _________________________________________________________________________________________________________________________________ -->
+    
+    <section id="chi-siamo" class="section about">
+        <h2 class="section-title">Spcietà Benefit</h2>
+        <div class="about-content">
+            <div class="about-cards">
+                <div class="about-card">
+                    <p>
+                        Essere una Società Benefit per Acrisure Italia significa integrare il successo economico con un impatto positivo su persone, comunità e ambiente. 
+                        Questo impegno, che va oltre il profitto, guida le nostre azioni quotidiane e orienta il nostro business verso un futuro più sostenibile, trasparente e inclusivo, fondato su principi etici e di lungo periodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="gruppo" class="section leadership">

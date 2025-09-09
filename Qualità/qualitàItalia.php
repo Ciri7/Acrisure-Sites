@@ -855,7 +855,7 @@
                     La Politica è diffusa, compresa e riesaminata periodicamente per garantirne l’attualità e l’efficacia.
                 </p>
                 <ul>
-                    <li><a href="../Qualità/qualitàItalia.php" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
+                    <li><a href="/DOCUMENTI/QUALITÀ/Qualità Italia.pdf" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
                 </ul>
             </div>
         </div>

@@ -854,7 +854,7 @@
                     Per Acrisure Services, qualità significa essere il partner operativo di fiducia, capace di supportare e potenziare le performance del business.
                     La Politica è comunicata a tutti i livelli e viene riesaminata con regolarità per assicurarne coerenza ed efficacia.
                     <ul>
-                        <li><a href="../Qualità/qualitàServices.php" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
+                        <li><a href="/DOCUMENTI/QUALITÀ/Qualità Services.pdf" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
                     </ul>
                 </p>
             </div>

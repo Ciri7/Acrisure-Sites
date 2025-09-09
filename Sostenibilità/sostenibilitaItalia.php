@@ -841,6 +841,15 @@
     <section class="section">
         <div class="privacy-content">
             <div class="privacy-section">
+                <h2>Società Benefit</h2>
+                <p>Acrisure Italia è una “Società Benefit”: il nostro impegno verso la sostenibilità e la visione responsabile dell’impatto da noi generato sono da sempre il fulcro della nostra mission aziendale. 
+                    Tale evoluzione societaria rappresenta il naturale sviluppo di un percorso avviato da qualche anno a questa parte, finalizzato alla formalizzazione dei valori che guidano le nostre scelte di business e all’integrazione degli stessi mediante principi etici e di beneficio comune. 
+                    Essere una società benefit è un impegno costante, di lungo periodo e non sempre facile, che orienta il nostro lavoro al rispetto del contesto ambientale e territoriale all’interno del quale operiamo. 
+                    Abbracciare un pensiero sostenibile significa fondare le proprie radici in principi sani, condivisibili, identitari che possano essere un monito per il presente e il futuro imprenditoriale dell’impresa.
+                </p>
+            </div>
+
+            <div class="privacy-section">
                 <h2>Relazione d'impatto 2024</h2>
                 <p>La seconda Relazione di Impatto rafforza e affina il percorso verso la sostenibilità.
                     In questa edizione sono presentate le azioni e le iniziative responsabili intraprese nel 2024 finalizzate al miglioramento delle nostre performance aziendali incentrate sulla creazione di valore.
@@ -848,15 +857,20 @@
                     I risultati di quest'anno confermano inequivocabilmente l'efficacia delle nostre strategie e l'importanza cruciale della definizione di opportuni indicatori e valutazioni numeriche nella nostra metodologia.
                 </p>
                 <ul>
-                    <li><a href="../../#" target="_blank">Relazione d'impatto 2024</a></li>
+                    <li><a href="/DOCUMENTI/IMPATTO/RELAZIONE D’IMPATTO 2024.pdf" target="_blank">Relazione d'impatto 2024</a></li>
                 </ul>
             </div>
 
             <div class="privacy-section">
                 <h2>Relazione d'impatto 2023</h2>
-                <p>La stesura della nostra prima Relazione d’Impatto ha sancito l’avvio concreto del nostro percorso verso un’integrazione graduale dei valori della Responsabilità Sociale d’Impresa. Una pubblicazione volontaria e trasparente con la quale certificare il nostro impegno in qualità di Società Benefit attraverso la condivisione di valori e attività che hanno trovato spazio all’interno delle strategie del 2023 e che avranno una loro continua risonanza negli anni a venire. Ci rivolgiamo al presente e al futuro con contezza e coscienza rispetto alle allarmanti informazioni riguardo al declino del pianeta cercando di assumere un ruolo cruciale nel fare la nostra parte al fine di attenuare tali problemi creando valide soluzioni per un futuro migliore. La discriminante per il raggiungimento di strategie di successo può trovare sede nel porsi le giuste domande, nel calibrare i propri obiettivi rispetto ai propri punti di partenza e, infine, ottimizzare le informazioni, i dati raccolti e le proprie energie verso obiettivi raggiungibili e misurabili senza però porsi limiti in future azioni più coraggiose ma apparentemente di più difficile concretizzazione. La Relazione d’Impatto 2023 è il nostro punto di partenza al fine di costituire le solide radici su cui fondare il cambiamento del domani in un’ottica sempre più sostenibile.</p>
+                <p>La stesura della nostra prima Relazione d’Impatto ha sancito l’avvio concreto del nostro percorso verso un’integrazione graduale dei valori della Responsabilità Sociale d’Impresa. 
+                    Una pubblicazione volontaria e trasparente con la quale certificare il nostro impegno in qualità di Società Benefit attraverso la condivisione di valori e attività che hanno trovato spazio all’interno delle strategie del 2023 e che avranno una loro continua risonanza negli anni a venire. 
+                    Ci rivolgiamo al presente e al futuro con contezza e coscienza rispetto alle allarmanti informazioni riguardo al declino del pianeta cercando di assumere un ruolo cruciale nel fare la nostra parte al fine di attenuare tali problemi creando valide soluzioni per un futuro migliore. 
+                    La discriminante per il raggiungimento di strategie di successo può trovare sede nel porsi le giuste domande, nel calibrare i propri obiettivi rispetto ai propri punti di partenza e, infine, ottimizzare le informazioni, i dati raccolti e le proprie energie verso obiettivi raggiungibili e misurabili senza però porsi limiti in future azioni più coraggiose ma apparentemente di più difficile concretizzazione. 
+                    La Relazione d’Impatto 2023 è il nostro punto di partenza al fine di costituire le solide radici su cui fondare il cambiamento del domani in un’ottica sempre più sostenibile.
+                </p>
                 <ul>
-                    <li><a href="../../#" target="_blank">Relazione d'impatto 2023</a></li>
+                    <li><a href="/DOCUMENTI/IMPATTO/Relazione d'impatto 2023 .pdf" target="_blank">Relazione d'impatto 2023</a></li>
                 </ul>
             </div>
         </div>

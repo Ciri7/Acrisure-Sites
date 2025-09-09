@@ -2019,73 +2019,7 @@
             </div>
         </div>
     </section>
-
-    <!-- RICHIESTA INFORMAZIONI _______________________________________________________________________________________________________________________ -->
-
-    <!-- <section id="contatti" class="section">.
-        <div class="contact-form">
-            <div class="form-header">
-                <h3>Richiedi informazioni</h3>
-                <p>Compila il form sottostante e ti risponderemo al più presto</p>
-            </div>
-            
-            <div id="formMessage" class="form-message"></div>
-            
-            <form id="contactForm">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="name">Nome e Cognome <span class="required">*</span></label>
-                        <input type="text" id="name" name="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Azienda</label>
-                        <input type="text" id="company" name="company" class="form-control">
-                    </div>
-                </div>
-                
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefono</label>
-                        <input type="tel" id="phone" name="phone" class="form-control">
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="service">Servizio di interesse <span class="required">*</span></label>
-                    <select id="service" name="service" class="form-control" required>
-                        <option value="">-- Seleziona un servizio --</option>
-                        <option value="claim&services">Claim & Services</option>
-                        <option value="gestione_sinistri">Gestioni Sinistri</option>
-                        <option value="automotive_solution">Automotive Solution</option>
-                        <option value="welfare">Welfare</option>
-                        <option value="enti_pubblici">Enti Pubblici</option>
-                        <option value="property_liability">Property & Liability</option>
-                        <option value="riassicurazione">Riassicurazione</option>
-                        <option value="altro">Altro</option>
-                    </select>
-                </div><br>
-                
-                <div class="form-group">
-                    <label for="message">Messaggio <span class="required">*</span></label>
-                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
-                </div>
-                
-                <div class="form-footer">
-                    <div class="form-note">
-                        <p><span class="required">*</span> Campi obbligatori</p>
-                        <p>Leggi la nostra <a href="/policy/policyAcrisure.php">Privacy Policy</a></p>
-                    </div>
-                    <button type="submit" class="btn">Invia Richiesta</button>
-                </div>
-            </form>
-        </div>
-    </section> -->
-
-<!-- CITAZIONE _____________________________________________________________________________________________________________________________________ -->
+    <!-- CITAZIONE _____________________________________________________________________________________________________________________________________ -->
 
     <section id="home" class="hero2">
         <div class="hero-content">
@@ -2094,7 +2028,7 @@
         </div>
     </section>
 
-<!-- ________________________________________________________________________________________________________________________________________________ -->
+    <!-- ________________________________________________________________________________________________________________________________________________ -->
 
     <!-- FOOTER -->
     <footer>
@@ -2341,17 +2275,37 @@
             
             statNumbers.forEach(stat => {
                 const dataValue = stat.getAttribute('data-count');
-                let target, suffix = '';
+                let target, prefix = '', suffix = '';
                 
-                // Gestione dei valori con suffissi o separatori
-                if (dataValue.includes('B')) {
+                // Gestione dei valori con prefissi (come $) e suffissi
+                if (dataValue.startsWith('$')) {
+                    // Per i valori che iniziano con $ (es. "$4,8B")
+                    prefix = '$';
+                    const cleanValue = dataValue.substring(1);
+                    
+                    if (cleanValue.includes('B')) {
+                        // Per i miliardi
+                        target = parseFloat(cleanValue.replace('B', '').replace(',', '.')) * 1000000000;
+                        suffix = 'B';
+                    } else if (cleanValue.includes('+')) {
+                        // Per i valori con il segno "+"
+                        target = parseInt(cleanValue.replace('+', '').replace(',', ''));
+                        suffix = '+';
+                    } else if (cleanValue.includes(',')) {
+                        // Per i valori con separatore delle migliaia
+                        target = parseInt(cleanValue.replace(',', ''));
+                    } else {
+                        // Per i valori normali
+                        target = parseInt(cleanValue);
+                    }
+                } else if (dataValue.includes('B')) {
                     // Per i miliardi (es. "4,8B" -> 4.8 miliardi)
                     target = parseFloat(dataValue.replace('B', '').replace(',', '.')) * 1000000000;
                     suffix = 'B';
                 } else if (dataValue.includes('+')) {
                     // Per i valori con il segno "+" (es. "+19,000" -> 19000)
+                    prefix = dataValue.includes('+') ? '+' : '';
                     target = parseInt(dataValue.replace('+', '').replace(',', ''));
-                    suffix = '+';
                 } else if (dataValue.includes(',')) {
                     // Per i valori con separatore delle migliaia (es. "19,000" -> 19000)
                     target = parseInt(dataValue.replace(',', ''));
@@ -2370,24 +2324,18 @@
                         // Formatta il numero in base al tipo
                         if (suffix === 'B') {
                             // Per i miliardi, mostra un decimale
-                            stat.textContent = (current / 1000000000).toFixed(1).replace('.', ',') + suffix;
-                        } else if (suffix === '+') {
+                            stat.textContent = prefix + (current / 1000000000).toFixed(1).replace('.', ',') + suffix;
+                        } else if (prefix === '+') {
                             // Per i valori con "+", formatta con separatore delle migliaia
-                            stat.textContent = suffix + Math.floor(current).toLocaleString('it-IT');
+                            stat.textContent = prefix + Math.floor(current).toLocaleString('it-IT');
                         } else {
                             // Per i valori normali
-                            stat.textContent = Math.floor(current).toLocaleString('it-IT');
+                            stat.textContent = prefix + Math.floor(current).toLocaleString('it-IT');
                         }
                         requestAnimationFrame(increment);
                     } else {
-                        // Valore finale
-                        if (suffix === 'B') {
-                            stat.textContent = dataValue;
-                        } else if (suffix === '+') {
-                            stat.textContent = suffix + target.toLocaleString('it-IT');
-                        } else {
-                            stat.textContent = target.toLocaleString('it-IT');
-                        }
+                        // Valore finale - manteniamo il formato originale
+                        stat.textContent = dataValue;
                     }
                 };
                 

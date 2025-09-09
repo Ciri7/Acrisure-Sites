@@ -890,7 +890,7 @@
             </div> -->
 
             <div class="legal-section">
-                <h2>Modello di organizzazione gestione e controllo - D. Lgs. 231/2001 e Codice Etico</h2>
+                <h2>Modello di Organizzazione Gestione e Controllo - D. Lgs. 231/2001 e Codice Etico</h2>
                 <p>
                     Per Acrisure S.r.l., holding italiana del Gruppo Acrisure, la reputazione è un patrimonio fondamentale, costruito ogni giorno attraverso comportamenti responsabili, trasparenti e coerenti con i nostri valori.<br><br>
                     In quest’ottica, la Società ha adottato il Modello di organizzazione, gestione e controllo ai sensi del D.Lgs. 231/2001, rafforzando così il proprio impegno verso un modello di impresa fondato su legalità, integrità e sostenibilità. Non si tratta solo di un adempimento normativo, ma di una scelta consapevole che riflette la volontà di garantire un ambiente di lavoro sano e rispettoso, relazioni improntate alla correttezza e una gestione orientata alla creazione di valore duraturo per tutti gli stakeholder.<br><br>

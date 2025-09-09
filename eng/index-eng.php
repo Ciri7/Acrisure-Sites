@@ -198,7 +198,7 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/foto\ sfondo\ acrisure\ UFFICI.webp');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/acrisure7.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -343,14 +343,28 @@
             border-radius: 2px;
         }
         
-        .section-subtitle {
+        /* .section-subtitle {
             text-align: center;
             max-width: 800px;
             margin: 0 auto 3rem;
             font-size: 1.2rem;
             color: #555;
-        }
+        } */
         
+        .section-subtitle {
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .section-subtitle2 {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #fff;
+        }
         /* About Section */
         /* .about {
             background-color: var(--light);
@@ -454,21 +468,6 @@
         }
 
         /* ========== LEADERSHIP SECTION ========== */
-        .section-subtitle {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto 3rem;
-            font-size: 1.2rem;
-            color: #555;
-        }
-        .section-subtitle2 {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto 3rem;
-            font-size: 1.2rem;
-            color: #fff;
-        }
-
         .leadership {
             background: linear-gradient(to bottom, 
                 rgba(0, 0, 0, 0.1) 0%, 
@@ -502,11 +501,40 @@
         
         .leadership-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
             margin-top: 2rem;
             max-width: 1200px;
             width: 100%;
+        }
+        
+        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership-first-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
+        
+        /* Stile per le righe successive con 3 card */
+        .leadership-other-rows {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2rem;
+        }
+
+        /* Stile per le righe successive con 3 card */
+        .leadership-other-rows2 {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
         }
         
         .leadership-card {
@@ -1727,7 +1755,8 @@
 
     <section id="chi-siamo" class="section about">
         <h2 class="section-title">About Us</h2>
-        <p class="section-subtitle">Acrisure S.r.l. is the holding company that brings together leading players in the insurance and services sectors. We leverage the strength of our group’s synergies to develop integrated and cutting-edge solutions designed to create long-term value for our partners and clients.</p>
+        <p class="section-subtitle">Acrisure LLC is the Italian holding company of the Acrisure Group, one of the leading global operators in insurance and reinsurance brokerage and financial advisory services. The company plays a strategic direction and shareholding management role, coordinating the activities of the Group's companies in Italy and fostering their growth in line with Acrisure's international vision, consolidating expertise, innovation, and strong market relationships.</p>
+        <br>
         <div class="about-content">
             <div class="about-cards">
                 <div class="about-card">
@@ -1735,22 +1764,39 @@
                         <i class="fas fa-globe-europe"></i>
                     </div>
                     <h3>Global Presence</h3>
-                    <p>Insurance broker operating nationally and internationally. We offer highly competitive quality services.</p>
+                    <p>Acrisure is one of the leading international operators in insurance and financial services, with a presence in over 20 countries, integrating local excellence into a global reality capable of offering innovative and personalized solutions for businesses and individuals.</p>
                 </div>
                 
                 <div class="about-card">
                     <div class="about-icon">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <h3>Social</h3>
-                    <p>Global leader in the Fintech sector that combines the best of humanity and high technology based on trust, ethics and sustainability.</p>
+                    <h3>Fintech</h3>
+                    <p>A global leader in the Fintech sector that combines the best of humanity and high technology based on trust, ethics, and sustainability. Constantly updated with market innovations, we combine experience, professionalism, and cutting-edge technological tools to ensure a quality relationship with our partners, suppliers, and clients.</p>
                 </div>
             </div>
-            
+
+            <h3 style="color: var(--secondary); text-align: center;">Global Presence</h3>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="$4.8B">0</div>
+                    <div class="stat-label">Revenue</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number add-plus" data-count="+19,000">0</div>
+                    <div class="stat-label">Employees</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-label">Countries</div>
+                </div>
+            </div>
+
+            <h3 style="color: var(--secondary); text-align: center;">Presence in Italy</h3>
             <div class="about-stats">
                 <div class="stat-item">
                     <div class="stat-number" data-count="6">0</div>
-                    <div class="stat-label">Operational Offices</div>
+                    <div class="stat-label">Operating Offices</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number add-plus" data-count="+100">0</div>
@@ -1768,54 +1814,60 @@
                         <i class="fas fa-bullseye"></i>
                     </div>
                     <h3>Values</h3>
-                    <p>We put people at the center of our business, offering an exceptional customer experience.</p>
+                    <p>Acrisure's success in Italy is based on integrity, trust, and entrepreneurship. Our staff is the core of the company's values: professionalism and dedication that translate every day into solid relationships with clients and partners, enhancing local skills in line with the Group's international vision.</p>
                 </div>
 
                 <div class="about-card">
                     <div class="about-icon">
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>Innovation</h3>
-                    <p>Constantly updated with market news, we combine experience, professionalism and cutting-edge technological tools to guarantee a quality relationship with our partners, suppliers and customers.</p>
+                    <h3>Social Responsibility</h3>
+                    <p>#</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- _______________________________________________________________________________________________________________________________________________________ -->
-
-
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="leadership" class="section leadership">
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        <p class="section-subtitle2">Our team leads the company with strategic vision, proven experience, and a strong commitment to innovation and excellence. Discover the people who inspire our growth and shape our future</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">
-
-                <!-- Prima riga -->
-                 <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Jason Howard</h3>
-                    <p class="leadership-desc">Chairman</p>
+                <!-- First row with 2 centered cards -->
+                <div class="leadership-first-row">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Jason Howard</h3>
+                        <p class="leadership-desc">Chairman</p>
+                    </div>
+                    
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Stefano Sardara</h3>
+                        <p class="leadership-desc">Chief Executive Officer</p>
+                    </div>
                 </div>
 
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Stefano Sardara</h3>
-                    <p class="leadership-desc">Chief Executive Officer</p>
+                <!-- Second row with 1 centered card (same size as the first two) -->
+                <div class="leadership-first-row">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Giovanni Dallavalle</h3>
+                        <p class="leadership-desc">Chief Financial Officer</p>
+                    </div>
                 </div>
-
-                <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                    <h3 class="leadership-name">Giovanni Dallavalle</h3>
-                    <p class="leadership-desc">Chief Financial Officer</p>
-                </div>
+            </div>
+        </div>
         <br><br><br>
     </section>
-    
+
+    <!-- _______________________________________________________________________________________________________________________________________________________ -->
+
     <!-- NEWS -->
     <section id="news" class="section news-section">
+        <br><br><br>
         <h2 class="section-title">News & Updates</h2>
         <p class="section-subtitle" style="color: var(--light);">Discover the latest news and updates from our group</p>
         
@@ -1832,7 +1884,7 @@
                     <div class="news-content">
                         <div class="news-date">March 15, 2024</div>
                         <h3>New partnership in the agricultural sector</h3>
-                        <p>Acrisure Agriculture announces a strategic collaboration with the main national agricultural consortium to offer even more advantageous policies.</p>
+                        <p>Acrisure Agriculture announces a strategic collaboration with the leading national agricultural consortium to offer even more advantageous policies.</p>
                     </div>
                 </div>
                 
@@ -1843,7 +1895,7 @@
                     <div class="news-content">
                         <div class="news-date">February 28, 2024</div>
                         <h3>Insurance Innovation Award 2024</h3>
-                        <p>Acrisure Italia wins the prestigious award for its advanced digital risk management platform.</p>
+                        <p>Acrisure Italy wins the prestigious award for its advanced digital risk management platform.</p>
                     </div>
                 </div>
                 
@@ -1865,7 +1917,7 @@
                     <div class="news-content">
                         <div class="news-date">December 5, 2023</div>
                         <h3>New welfare service</h3>
-                        <p>Launch of the new package of benefits for employees of client companies, with customizable solutions.</p>
+                        <p>Launch of the new benefits package for client companies' employees, with customizable solutions.</p>
                     </div>
                 </div>
                 
@@ -1876,7 +1928,7 @@
                     <div class="news-content">
                         <div class="news-date">November 20, 2023</div>
                         <h3>Annual conference</h3>
-                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italia in Milan.</p>
+                        <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italy in Milan.</p>
                     </div>
                 </div>
             </div>
@@ -1889,6 +1941,7 @@
         <div class="news-cta">
             <a href="news/newsAcrisure.php" class="btn btn-secondary">View all news</a>
         </div>
+        <br><br><br>
     </section>
 
     <!-- OUR GROUP _____________________________________________________________________________________________________________________ -->
@@ -1902,71 +1955,72 @@
                 <div class="azienda-card">
                     <div class="azienda-card-content">
                         <img src="/img/Acrisure Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Italia S.p.A.</h3>
+                        <h3 class="azienda-nome">Acrisure Italy S.p.A.</h3>
                         <p class="azienda-desc">Insurance brokerage company operating at national and international level</p>
                         <div class="azienda-link-container">
-                            <a href="/eng/italia-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="italia.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Services" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Services S.r.l.</h3>
+                        <img src="/img/Acrisure Services.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Services LLC</h3>
                         <p class="azienda-desc">Specialized in operational and management activities of companies, integrating skills and interconnections between multiple service areas</p>
                         <div class="azienda-link-container">
-                            <a href="/eng/services-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="services.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Re Italia" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Re Italia S.r.l.</h3>
+                        <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Re Italy LLC</h3>
                         <p class="azienda-desc">Leader in the reinsurance sector, with deep expertise in risk and capital management</p>
                         <div class="azienda-link-container">
-                            <a href="/eng/re-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="re.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Agriculture" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agriculture S.r.l.</h3>
+                        <img src="/img/ACRISURE AGRICOLTURE.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Agriculture LLC</h3>
                         <p class="azienda-desc">Insurance broker expert in policies for the protection of agricultural businesses</p>
                         <div class="azienda-link-container">
-                            <a href="/eng/agricolture-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="agricolture.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Agriservices" class="azienda-logo">
-                        <h3 class="azienda-nome">Acrisure Agriservices S.r.l.</h3>
-                        <p class="azienda-desc">Company specialized in insurance for risks related to the agricultural sector</p>
+                        <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="azienda-logo">
+                        <h3 class="azienda-nome">Acrisure Agriservices LLC</h3>
+                        <p class="azienda-desc">Company specialized in insurance of risks related to the agricultural sector</p>
                         <div class="azienda-link-container">
-                            <a href="/eng/agriservices-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="agriservices.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/Logo ALTA BROKER.jpg" alt="Alta Broker & Partners" class="azienda-logo">
-                        <h3 class="azienda-nome">Alta Broker & Partners S.r.l.</h3>
+                        <img src="/img/New Alta provvisorio.webp" alt="Acrisure Italia" class="azienda-logo">
+                        <h3 class="azienda-nome">Alta Broker & Partners LLC</h3>
                         <p class="azienda-desc">Broker specialized in retail policies suitable for all your needs</p>
                         <div class="azienda-link-container">
-                            <a href="/eng/altabroker-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            <a href="altabroker.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- QUOTE _____________________________________________________________________________________________________________________________________ -->
 

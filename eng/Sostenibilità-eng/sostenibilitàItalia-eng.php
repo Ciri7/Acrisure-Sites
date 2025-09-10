@@ -1,10 +1,10 @@
-<?php include('../includes/auth.php'); ?>
+<?php include('../../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Italia - Reclami</title>
+    <title>Acrisure Italia - Sustainability</title>
     <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
     <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
@@ -816,16 +816,16 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
-                    <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
-                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Careers</a></li>
+                    <li><a href="../italia-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="../italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="../italia-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="../index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="../lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Careers</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="/it/sostenibilita/sostenibilitaItalia.php" class="language-btn">IT</a></li>
+                    <li><a href="/Sostenibilità/sostenibilitaItalia.php" class="language-btn">IT</a></li>
                     <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
@@ -857,7 +857,7 @@
                     This year's results unequivocally confirm the effectiveness of our strategies and the crucial importance of defining appropriate indicators and numerical evaluations in our methodology.
                 </p>
                 <ul>
-                    <li><a href="/DOCUMENTI/IMPATTO/RELAZIONE D'IMPATTO 2024.pdf" target="_blank">2024 Impact Report</a></li>
+                    <li><a href="../..//DOCUMENTI/IMPATTO/RELAZIONE D'IMPATTO 2024.pdf" target="_blank">2024 Impact Report</a></li>
                 </ul>
             </div>
 
@@ -870,7 +870,7 @@
                     The 2023 Impact Report is our starting point to establish the solid roots on which to base tomorrow's change in an increasingly sustainable perspective.
                 </p>
                 <ul>
-                    <li><a href="/DOCUMENTI/IMPATTO/Relazione d'impatto 2023 .pdf" target="_blank">2023 Impact Report</a></li>
+                    <li><a href="../..//DOCUMENTI/IMPATTO/Relazione d'impatto 2023 .pdf" target="_blank">2023 Impact Report</a></li>
                 </ul>
             </div>
         </div>
@@ -937,7 +937,7 @@
                 <br>
                 <div class="legal-links">
                     <a href="/eng/legal&comp/legalItalia-eng.php">Legal & Compliance</a>
-                    <a href="/eng/Qualità/qualitàItalia-eng.php">Quality</a>
+                    <a href="/eng/Qualità-eng/qualitàItalia-eng.php">Quality</a>
                     <a href="#header">Sustainability</a>
                     <a href="/eng/policy/policyItalia-eng.php">Privacy Policy</a>
                     <a href="/eng/cookies/cookiesItalia-eng.php">Cookie Policy</a>

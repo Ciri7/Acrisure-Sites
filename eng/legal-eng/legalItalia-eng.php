@@ -910,8 +910,8 @@
                     Within the reference legislation, starting from 2024, Acrisure S.r.l., the parent company of the Acrisure Group in Italy, has also adopted its own Model 231 with the aim of ensuring conditions of correctness and safety in the conduct of its business activities, preventing the commission of offenses and ensuring compliance with current legislation. To support Model 231, Acrisure S.r.l. has also established a collegial Supervisory Body, responsible for monitoring the effectiveness, adequacy and application of the model.
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/MOG_231_ITALIA.pdf" target="_blank">Management and control model - Legislative Decree 231/2001</a></li>
-                    <li><a href="../DOCUMENTI/MODELLO 231/OrgContr_Italia.pdf" target="_blank">Organizational, Management and Control Model Legislative Decree 231-01</a></li>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/MOG_231_ITALIA.pdf" target="_blank">Management and control model - Legislative Decree 231/2001</a></li>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/OrgContr_Italia.pdf" target="_blank">Organizational, Management and Control Model Legislative Decree 231-01</a></li>
                 </ul>
             </div>
             
@@ -921,7 +921,7 @@
                     Ethics and integrity are the basis of the relationships of Acrisure Italy S.p.A. not only among its employees, administrators and managers, but also externally with customers, suppliers, partners and all the Company's stakeholders. With the aim of developing its corporate structure by enhancing these important values, Acrisure Italy has also committed itself to adopting its own Code of Ethics, a fundamental tool to successfully support the company's activities. The Code of Ethics of Acrisure Italy S.p.A. identifies the moral rights and duties, defining the ethical-moral responsibility of each participant in the Company, and expresses the ethical commitments and responsibilities in the conduct of business and company activities. Ability, competence, independence and respect for the principles of fairness and honesty have always inspired the philosophy underlying Acrisure Italy's activity. These are the requirements that have allowed the achievement and consolidation of its position in the sector.
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/ETICA/CodEtico_ITALIA.pdf" target="_blank">Code of Ethics</a></li>
+                    <li><a href="../../DOCUMENTI/ETICA/CodEtico_ITALIA.pdf" target="_blank">Code of Ethics</a></li>
                 </ul>
             </div>
 
@@ -934,7 +934,7 @@
                     We guarantee maximum confidentiality and protection against retaliation for whistleblowers who act in good faith.
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/WB_Italia.pdf" target="_blank">Whistleblowing Procedure</a></li>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/WB_Italia.pdf" target="_blank">Whistleblowing Procedure</a></li>
                 </ul>
             </div>
         </div>

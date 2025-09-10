@@ -1791,7 +1791,9 @@
     <!-- ========== LEADERSHIP SECTION ========== -->
     <section id="gruppo" class="section leadership">
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        <p class="section-subtitle2">
+            Our team leads the company with strategic vision, consolidated experience and a strong commitment to innovation and excellence. Discover the people who inspire our growth and shape our future
+        </p>
         
         <div class="leadership-container">
             <div class="leadership-grid">

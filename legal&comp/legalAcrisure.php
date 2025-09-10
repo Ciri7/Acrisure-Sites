@@ -863,32 +863,33 @@
     <section class="section">
         <div class="legal-content">
             <div class="legal-section">
-                <h2>Organizational, Management and Control Model - Legislative Decree 231/2001 and Code of Ethics</h2>
+                <h2>Modello di Organizzazione Gestione e Controllo - D. Lgs. 231/2001 e Codice Etico</h2>
                 <p>
-                    For Acrisure S.r.l., the Italian holding company of the Acrisure Group, reputation is a fundamental asset, built every day through responsible, transparent behavior consistent with our values.<br><br>
-                    In this perspective, the Company has adopted the Organizational, Management and Control Model pursuant to Legislative Decree 231/2001, thus strengthening its commitment to a business model based on legality, integrity and sustainability. This is not just a regulatory compliance, but a conscious choice that reflects the desire to guarantee a healthy and respectful work environment, relationships based on correctness and management oriented towards creating lasting value for all stakeholders.<br><br>
-                    To ensure the effective implementation and updating of the Model, Acrisure S.r.l. has also appointed a collegial Supervisory Body, with autonomous powers of initiative and control, tasked with overseeing the functioning, observance and continuous improvement of the Model itself.<br><br>
-                    The central element of this path is the Code of Ethics, which represents the value compass of our activity: a set of principles and rules of conduct that guide the daily decisions and behaviors of administrators, employees, collaborators and partners.<br><br>
-                    Through the 231 Model, the Code of Ethics and the action of the Supervisory Body, Acrisure S.r.l. reaffirms its identity as a responsible company, aware that the trust of the people it works with is the most important resource to face the challenges of the present and build the future.<br><br>
-                    Documents available for consultation and download:
+                    Per Acrisure S.r.l., holding italiana del Gruppo Acrisure, la reputazione è un patrimonio fondamentale, costruito ogni giorno attraverso comportamenti responsabili, trasparenti e coerenti con i nostri valori.<br><br>
+                    In quest’ottica, la Società ha adottato il Modello di organizzazione, gestione e controllo ai sensi del D.Lgs. 231/2001, rafforzando così il proprio impegno verso un modello di impresa fondato su legalità, integrità e sostenibilità. Non si tratta solo di un adempimento normativo, ma di una scelta consapevole che riflette la volontà di garantire un ambiente di lavoro sano e rispettoso, relazioni improntate alla correttezza e una gestione orientata alla creazione di valore duraturo per tutti gli stakeholder.<br><br>
+                    A presidio dell’efficace attuazione e aggiornamento del Modello, Acrisure S.r.l. ha inoltre nominato un Organismo di Vigilanza collegiale, dotato di autonomi poteri di iniziativa e controllo, con il compito di vigilare sul funzionamento, sull’osservanza e sul costante miglioramento del Modello stesso.<br><br>
+                    Elemento centrale di questo percorso è il Codice Etico, che rappresenta la bussola valoriale della nostra attività: un insieme di principi e regole di condotta che guidano le decisioni e i comportamenti quotidiani di amministratori, dipendenti, collaboratori e partner.<br><br>
+                    Attraverso il Modello 231, il Codice Etico e l’azione dell’Organismo di Vigilanza, Acrisure S.r.l. riafferma la propria identità di impresa responsabile, consapevole che la fiducia delle persone con cui lavora è la risorsa più importante per affrontare le sfide del presente e costruire il futuro.<br><br>
+                    È possibile consultare e scaricare i documenti:
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/ETICA/codice etico acrisure srl.pdf" target="_blank">Code of Ethics</a></li>
-                    <li><a href="../DOCUMENTI/MODELLO 231/MOG_231.pdf" target="_blank">231 Model</a></li>
+
+                    <li><a href="../DOCUMENTI/ETICA/codice etico acrisure srl.pdf" target="_blank">Codice Eitco</a></li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/MOG_231.pdf" target="_blank">Modello 231</a></li>
                 </ul>
             </div>
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
                 <p>
-                    Acrisure S.r.l. actively promotes and supports the good faith reporting by employees and third parties of inappropriate, incorrect, active or omissive behaviors, as well as possible violations of both internal rules - such as the Code of Ethics, the Organizational and Management Model adopted in accordance with Legislative Decree 231/2001, and more generally the entire corporate regulatory framework - and applicable external regulations, such as laws and regulations, as well as any unlawful acts or irregularities related to the management of corporate activities.
-                    The objective is twofold: on one hand, to intervene promptly to counter any unlawful or unethical behavior, acting on the reported facts and those responsible; on the other hand, to prevent risks that could lead the Company to sanctions or legal actions by the Authorities, with consequent reputational damage.
-                    To this end, Acrisure S.r.l. has established an internal system for managing reports, governed by the Whistleblowing Procedure, developed in collaboration with trade union representatives, pursuant to art. 51 of Legislative Decree 81/2015. This procedure establishes the methods for receiving and verifying reports, actively involving the Company, employees and third parties.
-                    The platform for submitting reports is accessible and usable at the following link: <a href="https://acrisure.lpwhistleblowing.com/" target="_blank">https://acrisure.lpwhistleblowing.com/</a>.
-                    We guarantee maximum confidentiality and protection against retaliation for whistleblowers who act in good faith.
+                    Acrisure S.r.l. promuove e sostiene attivamente la segnalazione, in buona fede, da parte di dipendenti e soggetti terzi, di comportamenti inappropriati, scorretti, attivi o omissivi, nonché di possibili violazioni sia delle norme interne — quali il Codice Etico, il Modello di Organizzazione e Gestione adottato in conformità al Dlgs 231/2001, e più in generale l’intero corpus normativo aziendale — sia delle normative esterne applicabili, come leggi e regolamenti, oltre a qualsiasi illecito o irregolarità legata alla gestione delle attività aziendali.
+                    L’obiettivo è duplice: da un lato, intervenire tempestivamente per contrastare ogni comportamento illecito o non etico, agendo sui fatti segnalati e sui responsabili; dall’altro, prevenire rischi che possano portare la Società a sanzioni o azioni legali da parte delle Autorità, con conseguenti danni reputazionali.
+                    A tal fine, Acrisure S.r.l. si è dotata di un sistema interno per la gestione delle segnalazioni, disciplinato dalla Procedura Whistleblowing, elaborata in collaborazione con le rappresentanze sindacali, ai sensi dell’art. 51 del D.lgs. 81/2015. Questa procedura stabilisce le modalità di ricezione e verifica delle segnalazioni, coinvolgendo attivamente la Società, i dipendenti e i soggetti terzi.
+                    La piattaforma per l’invio delle segnalazioni è raggiungibile ed utilizzabile al seguente link: <a href="https://acrisure.lpwhistleblowing.com/" target="_blank">https://acrisure.lpwhistleblowing.com/</a>.
+                    Garantiamo la massima riservatezza e protezione contro ritorsioni per i segnalanti che agiscono in buona fede.
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/WB_Acrisure.pdf" target="_blank">Whistleblowing Procedure</a></li>
+                    <li><a href="../DOCUMENTI/MODELLO 231/WB_Acrisure.pdf" target="_blank">Procedura Whistleblowing</a></li>
                 </ul>
             </div>
         </div>

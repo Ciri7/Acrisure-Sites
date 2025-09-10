@@ -873,8 +873,8 @@
                     Documents available for consultation and download:
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/ETICA/codice etico acrisure srl.pdf" target="_blank">Code of Ethics</a></li>
-                    <li><a href="../DOCUMENTI/MODELLO 231/MOG_231.pdf" target="_blank">231 Model</a></li>
+                    <li><a href="../../DOCUMENTI/ETICA/codice etico acrisure srl.pdf" target="_blank">Code of Ethics</a></li>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/MOG_231.pdf" target="_blank">231 Model</a></li>
                 </ul>
             </div>
 
@@ -888,7 +888,7 @@
                     We guarantee maximum confidentiality and protection against retaliation for whistleblowers who act in good faith.
                 </p>
                 <ul>
-                    <li><a href="../DOCUMENTI/MODELLO 231/WB_Acrisure.pdf" target="_blank">Whistleblowing Procedure</a></li>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/WB_Acrisure.pdf" target="_blank">Whistleblowing Procedure</a></li>
                 </ul>
             </div>
         </div>

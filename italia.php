@@ -1893,15 +1893,23 @@
     
     <!-- SOCIETÀ BENEFIT _________________________________________________________________________________________________________________________________ -->
     
-    <section id="chi-siamo" class="section about">
-        <h2 class="section-title">Spcietà Benefit</h2>
-        <div class="about-content">
-            <div class="about-cards">
-                <div class="about-card">
-                    <p>
-                        Essere una Società Benefit per Acrisure Italia significa integrare il successo economico con un impatto positivo su persone, comunità e ambiente. 
-                        Questo impegno, che va oltre il profitto, guida le nostre azioni quotidiane e orienta il nostro business verso un futuro più sostenibile, trasparente e inclusivo, fondato su principi etici e di lungo periodo.
-                    </p>
+    <section id="chi-siamo" class="section leadership" style="background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.8) 0%, 
+        rgba(0, 0, 0, 0.1) 20%, 
+        rgba(0, 0, 0, 0.7) 100%), 
+        url('/img/leadership-bg.jpg');">
+        <h2 class="section-title">Società Benefit</h2>
+        <p class="section-subtitle2">Essere una Società Benefit per Acrisure Italia significa integrare il successo economico con un impatto positivo su persone, comunità e ambiente. Questo impegno, che va oltre il profitto, guida le nostre azioni quotidiane e orienta il nostro business verso un futuro più sostenibile, trasparente e inclusivo, fondato su principi etici e di lungo periodo.</p>
+        
+        <div class="leadership-container">
+            <div class="leadership-grid">
+                <!-- Card unica centrata -->
+                <div class="leadership-first-row" style="justify-content: center;">
+                    <div class="leadership-card" style="width: 70%; max-width: 800px;">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Benefit Corporation" class="leadership-logo">
+                        <h3 class="leadership-name">Il Nostro Impegno</h3>
+                        <p class="leadership-desc">Oltre il profitto, verso un futuro sostenibile</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -2232,15 +2240,6 @@
             </div>
         </div>
         
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
-
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">

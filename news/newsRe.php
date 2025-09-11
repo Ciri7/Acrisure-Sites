@@ -1132,9 +1132,11 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Re Italia S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 120.000,00 i.v- RUI: B000729790. Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02942110905 REA SS-217191</p>
+            <p>Acrisure Re Italia S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - Cap.sociale € 120.000,00 i.v.
+                Iscritta alla Sez. B del RUI n° B000729790, è soggetta alla vigilanza IVASS.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: <a href="www.ivass.it">www.ivass.it</a>.
+                Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02942110905 REA SS-217191
+            </p>
         </div>
     </footer>
 

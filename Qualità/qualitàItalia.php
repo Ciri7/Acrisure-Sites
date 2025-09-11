@@ -844,7 +844,7 @@
                 <h2>Politica della qualità</h2>
                 <p>In qualità di broker assicurativo, Acrisure Italia S.p.A. considera la qualità come il fulcro del proprio impegno verso clienti e stakeholder. Attraverso il Sistema di Gestione della Qualità, investiamo costantemente nella crescita delle nostre persone e nella solidità delle relazioni con i clienti, per offrire soluzioni assicurative caratterizzate da trasparenza, professionalità ed eccellenza consulenziale.<br><br>
                     Abbiamo adottato una Politica per la Qualità conforme alla Norma ISO 9001:2015, consapevoli che rappresenti una leva strategica per raggiungere gli obiettivi aziendali, garantire la conformità ai requisiti applicabili e creare valore sostenibile nel tempo.<br><br>
-                    Con questa Politica ci impegniamo a: <br><br>
+                    Con questa Politica ci impegniamo a: <br>
                     <ul>
                         <li>comprendere a fondo i bisogni dei clienti, fornendo risposte puntuali e personalizzate;</li>
                         <li>rafforzare la fiducia attraverso un approccio consulenziale etico, responsabile e conforme alle normative;</li>
@@ -942,10 +942,11 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Iscritta alla Sez. B del RUI n.000673774, è soggetta alla vigilanza IVASS
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. Sociale € 200.000,00 i.v.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: www.ivass.it
+                Iscritta alla Sez. B del RUI n.000673774, è soggetta alla vigilanza IVASS
+                Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619
+            </p>
         </div>
     </footer>
 

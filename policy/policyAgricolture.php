@@ -1009,10 +1009,11 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Agricolture S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 150.000,00 i.v- RUI: B000243223. Iscritta alla Sez. B del RUI n° 000243223, è soggetta alla vigilanza IVASS. 
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/no-back-button#/workspace/dettaglio-intermediario. Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
-            Cod.Fiscale e n. iscr.al registro Imprese di Roma n.08359221002. REA RM- 1089539 </p>
+            <p>Acrisure Agricolture S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. sociale € 150.000,00 i.v.
+                Iscritta alla Sez. B del RUI n° 000243223, è soggetta alla vigilanza IVASS.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: www.ivass.it
+                Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Roma n.08359221002. REA RM- 1089539
+            </p>
         </div>
     </footer>
 

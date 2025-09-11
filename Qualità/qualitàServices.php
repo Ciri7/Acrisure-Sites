@@ -845,7 +845,7 @@
                 <p>Acrisure Services S.r.l. è la società dedicata a fornire servizi di supporto altamente qualificati alle realtà del Gruppo e ai partner.
                     All’interno del nostro Sistema di Gestione della Qualità, la crescita delle competenze, l’efficienza organizzativa e l’innovazione rappresentano i pilastri che ci permettono di garantire affidabilità, tempestività e valore operativo.<br><br>
                     La Politica per la Qualità, conforme alla Norma ISO 9001:2015, è parte integrante della nostra strategia e orienta ogni attività verso la conformità ai requisiti applicabili e il miglioramento continuo dei processi e della soddisfazione degli stakeholder.<br><br>
-                    Ci impegniamo a: <br><br>
+                    Ci impegniamo a: <br>
                     <ul>
                         <li>assicurare servizi puntuali, efficienti e di elevato standard qualitativo;</li>
                         <li>valorizzare la professionalità dei nostri collaboratori attraverso formazione, coinvolgimento e responsabilizzazione;</li>
@@ -914,7 +914,7 @@
                 
                 <div class="legal-links">
                     <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
-                    <a href="/Qualità/qualitàServices.php">Qualità</a>
+                    <a href="#header">Qualità</a>
                     <a href="/policy/policyServices.php">Privacy Policy</a>
                     <a href="/cookies/cookiesServices.php">Cookie Policy</a>
                 </div>

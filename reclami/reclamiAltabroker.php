@@ -843,10 +843,33 @@
             <div class="privacy-section">
                 <h2>Devi inviarci un reclamo? Ecco le istruzioni</h2>
                 <p> Gentile Cliente,<br><br>
-                    fermo restando il tuo diritto di rivolgerti all’Autorità Giudiziaria, hai la facoltà di presentare reclamo per iscritto all’impresa preponente ai recapiti indicati nel DIP aggiuntivo o all’intermediario. Per i reclami all’intermediario può utilizzare gli indirizzi mail dedicati reclami@altabroker.it, ovvero tramite PEC all’indirizzo altabrokerandpartners@pec.it ed infine con raccomandata A/R indirizzata alla Funzione Reclami - Alta Brokers & Partners S.r.l. - Via Assarotti 5/1 - 16122 GENOVA.<br><br>
-                    Anche al fine di facilitare il riscontro, il reclamo deve contenere l’indicazione di: l’oggetto del reclamo e descrizione delle circostanze su cui lo stesso verte; la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro); l’indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail; il numero della polizza; il nominativo del Contraente; il numero e la data dell’eventuale sinistro a cui fai riferimento; se il reclamo ha ad oggetto il comportamento dei nostri dipendenti e/o collaboratori oppure riguarda i prodotti/servizi da noi offerti; qualsiasi altra informazione che ritieni utile per aiutarci a comprendere il problema. È opportuno evidenziare che non sono considerate reclami le richieste di informazioni o di chiarimenti, le richieste di risarcimento danni o di esecuzione del contratto, inoltre, qualora il reclamo riguardi il prodotto assicurativo è consigliabile rivolgersi direttamente alla Compagnia di Assicurazione.<br><br>
-                    Solo qualora non dovessi essere soddisfatto dell’esito del reclamo o in caso di assenza di riscontro da parte dell’intermediario o dell’impresa entro il termine di legge previsto in 45 giorni hai altresì la facoltà di rivolgersi all’IVASS tramite l’apposito form previsto sul sito web www.ivass.it inviando il reclamo ai seguenti recapiti: via PEC all’indirizzo tutela.consumatore@pec.ivass.it, via fax al numero 06.42133206 ovvero tramite posta ordinaria “IVASS Servizio Tutela del Consumatore” - Via del Quirinale, 21 00187 Roma. Hai inoltre la possibilità di avvalerti di altri eventuali sistemi alternativi di risoluzione delle controversie previsti dalla normativa vigente, sempre secondo quanto indicato nel DIP aggiuntivo.<br><br>
-                    Da ultimo, hai inoltre la facoltà di rivolgerti al Fondo di Garanzia per l’attività dei mediatori di assicurazione e riassicurazione istituito presso la Consap, Via Yser 14,00198 Roma, telefono 06.857961 per chiedere, laddove ne esistano i presupposti ed il diritto a farlo, il risarcimento del danno patrimoniale causato dall’esercizio dell’attività di intermediazione, che non sia stato risarcito dall’intermediario stesso o non sia stato indennizzato attraverso il contratto di assicurazione della Responsabilità Civile che copre i danni arrecati ai contraenti da negligenze ed errori professionali dell’intermediario o da negligenze, errori professionali ed infedeltà dei dipendenti, dei collaboratori o delle persone del cui operato l’intermediario deve rispondere a norma di legge.
+                    ferma la possibilità di rivolgerti all’Autorità Giudiziaria, hai la facoltà di inoltrare reclamo per iscritto all’impresa preponente ai recapiti indicati nel DIP aggiuntivo o all’intermediario. Per i reclami all’intermediario può utilizzare gli indirizzi mail dedicati reclami@altabroker.it, ovvero tramite PEC all’indirizzo altabrokerandpartners@pec.it ed infine con raccomandata A/R indirizzata alla Funzione Reclami - Via Assarotti 5/1 - 16122 GENOVA.<br><br>
+                    Anche al fine di facilitare il riscontro, il reclamo deve contenere l’indicazione di: <br>
+                    <ul>
+                    <li>l’oggetto del reclamo e una breve descrizione delle circostanze su cui lo stesso verte;</li>
+                    <li>il nominativo, l’indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail e la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro);</li>
+                    <li>il numero della polizza;</li>
+                    <li>il nominativo del Contraente;</li>
+                    <li>il numero e la data dell’eventuale sinistro a cui fai riferimento;</li>
+                    <li>se il reclamo ha ad oggetto il comportamento dei nostri dipendenti e/o collaboratori oppure riguarda i prodotti/servizi da noi offerti, l’indicazione del soggetto o dei soggetti di cui si lamenta l’operato;</li>
+                    <li>qualsiasi altra informazione che ritieni utile per aiutarci a comprendere il problema.</li>
+                    </ul>
+
+                    <br>
+                    L’intermediario è tenuto a fornire riscontro entro 45 giorni dalla ricezione del reclamo. È opportuno evidenziare che non sono considerate reclami le richieste di informazioni o di chiarimenti, le richieste di risarcimento danni o di esecuzione del contratto, inoltre, qualora il reclamo riguardi il prodotto assicurativo è consigliabile rivolgersi direttamente alla Compagnia di Assicurazione.<br><br>
+                    Solo qualora non dovessi essere soddisfatto dell’esito del reclamo o in caso di assenza di riscontro da parte dell’intermediario o dell’impresa entro il termine di legge previsto in 45 giorni hai altresì la facoltà di rivolgerti all’IVASS tramite l’apposito form previsto sul sito web www.ivass.it inviando il reclamo ai seguenti recapiti: via PEC all’indirizzo tutela.consumatore@pec.ivass.it, via fax al numero 06.42133206 ovvero tramite posta ordinaria “IVASS Servizio Tutela del Consumatore” - Via del Quirinale, 21 00187 Roma. Tale comunicazione dovrà contenere i seguenti dati:<br>
+                    <ul>
+                    <li>l’oggetto del reclamo e una breve descrizione delle circostanze su cui lo stesso verte;</li>
+                    <li>il nominativo, l’indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail e la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro);</li>
+                    <li>l’indicazione del soggetto o dei soggetti di cui si lamenta l’operato;</li>
+                    <li>copia del reclamo presentato all’impresa o al broker di assicurazione e dell’eventuale riscontro fornito dalla stessa;</li>
+                    <li>qualsiasi altra informazione che ritieni utile per descrivere più compiutamente il problema.</li>
+                    </ul>
+
+                    <br>
+                    Eventuali reclami non relativi al rapporto contrattuale o alla gestione dei sinistri, ma relativi alla mancata osservanza di altre disposizioni del Codice delle assicurazioni, delle relative norme di attuazione, nonché delle norme sulla commercializzazione a distanza dei prodotti assicurativi, possono essere presentati direttamente all’IVASS secondo le modalità sopra elencate.<br><br>
+                    Ed ancora, hai la facoltà di avvalerti di altri eventuali sistemi alternativi di risoluzione delle controversie previsti dalla normativa vigente, sempre secondo quanto indicato nel DIP aggiuntivo.<br>
+                    Da ultimo, hai inoltre la facoltà di rivolgerti al Fondo di Garanzia per l’attività dei mediatori di assicurazione e riassicurazione istituito presso la Consap, Via Yser 14,00198 Roma, telefono 06.857961 per chiedere, laddove ne esistano i presupposti ed il diritto a farlo, il risarcimento del danno patrimoniale loro causato dall’esercizio dell’attività di intermediazione, che non sia stato risarcito dall’intermediario stesso o non sia stato indennizzato attraverso il contratto di assicurazione della Responsabilità Civile che copre i danni arrecati ai contraenti da negligenze ed errori professionali dell’intermediario o da negligenze, errori professionali ed infedeltà dei dipendenti, dei collaboratori o delle persone del cui operato l’intermediario deve rispondere a norma di legge.
                 </p>
             </div>
         </div>
@@ -903,12 +926,6 @@
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
-                
                 <div class="legal-links">
                     <a href="/policy/policyAltabroker.php">Privacy Policy</a>
                     <a href="/cookies/cookiesAltabroker.php">Cookie Policy</a>
@@ -916,23 +933,15 @@
                 </div>
             </div>
         </div>
-        
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
 
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 60.000,00 i.v. REA GE-494327. Iscritta nella Sezione B del RUI al n° 000605520, è soggetta alla vigilanza IVASS.
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/no-back-button#/workspace/dettaglio-intermediario.<br>
-            P.IVA 02547920997 Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997.</p>
+            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. sociale € 60.000,00 i.v. REA GE-494327
+                Iscritta nella Sezione B del RUI al n°000605520, è soggetta alla vigilanza IVASS.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: www.ivass.it
+                P.IVA 02547920997 Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997.
+            </p>
         </div>
     </footer>
 

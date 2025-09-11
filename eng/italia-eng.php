@@ -2111,10 +2111,11 @@
         <br>
         <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share Capital € 200,000.00 i.v - RUI B000673774. Registered in Section B of the RUI no. 000673774, is subject to IVASS supervision
-            The identifying and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the Ivass website: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Company participating in the Acrisure VAT Group P7.VAT 13147890969 - <br>
-            Tax Code and no. registration in the Sassari Business Register no. 02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the management and coordination of Acrisure S.r.l. - Share Capital €200,000.00 fully paid-in.
+                The identification and registration details provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: www.ivass.it
+                Registered in Section B of the RUI under no. 000673774, subject to IVASS supervision.
+                Company belonging to the Acrisure VAT Group - VAT no. 13147890969 - Tax Code and Companies Register of Sassari no. 02848210908 - REA SS-222619.
+            </p>
         </div>
     </footer>
 

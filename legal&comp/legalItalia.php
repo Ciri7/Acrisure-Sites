@@ -902,19 +902,6 @@
                 </div>
             </div>
 
-            <!-- <div class="legal-section">
-                <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
-                <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
-                    <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
-                    <li>Segnalare eventuali anomalie o violazioni</li>
-                    <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
-                </ul>
-                <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div> -->
-
             <div class="legal-section">
                 <h2>Modello di organizzazione gestione e controllo - D. Lgs. 231/2001</h2>
                 <p>
@@ -1034,10 +1021,11 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- <br>
-            Cap. Sociale € 200.000,00 i.v-RUI B000673774. Iscritta alla Sez. B del RUI n.000673774, è soggetta alla vigilanza IVASS
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Società partecipante al Gruppo IVA Acrisure P7.IVA 13147890969- <br>
-            Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. Sociale € 200.000,00 i.v.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: www.ivass.it
+                Iscritta alla Sez. B del RUI n.000673774, è soggetta alla vigilanza IVASS
+                Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02848210908. REA SS-222619
+            </p>
         </div>
     </footer>
     

@@ -809,7 +809,7 @@
                     <li><a href="/services.php#news" class="nav-link">News</a></li>
                     <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="/services.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>

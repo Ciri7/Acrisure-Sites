@@ -1151,10 +1151,11 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 60.000,00 i.v. REA GE-494327. Iscritta nella Sezione B del RUI al n° 000605520, è soggetta alla vigilanza IVASS.
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/no-back-button#/workspace/dettaglio-intermediario.<br>
-            P.IVA 02547920997 Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997.</p>
+            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. sociale € 60.000,00 i.v. REA GE-494327
+                Iscritta nella Sezione B del RUI al n°000605520, è soggetta alla vigilanza IVASS.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: www.ivass.it
+                P.IVA 02547920997 Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997.
+            </p>
         </div>
     </footer>
 

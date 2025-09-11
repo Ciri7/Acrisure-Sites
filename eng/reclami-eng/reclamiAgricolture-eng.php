@@ -842,12 +842,35 @@
     <section class="section">
         <div class="privacy-content">
             <div class="privacy-section">
-                <h2>Need to file a complaint? Here are the instructions</h2>
+                <h2>Do you need to file a complaint? Here are the instructions</h2>
                 <p> Dear Customer,<br><br>
-                    Without prejudice to your right to refer the matter to the Judicial Authority, you may submit a written complaint to the appointing company at the contact details indicated in the additional DIP, or to the intermediary. For complaints addressed to the intermediary, you may use the dedicated email addresses reclami.agricolture@acrisure.it, or via certified email (PEC) at agricolture@pec.acrisure.it, or by registered letter with return receipt addressed to: Complaints Manager - Acrisure Agricolture S.r.l. - Via Lovanio no. 6 - 00198 Rome, Italy.<br><br>
-                    In order to facilitate a timely response, the complaint should include the following information: the subject of the complaint and a description of the circumstances to which it refers; the capacity of the complainant (e.g., Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other); residential address; telephone number and/or email address; policy number; name of the Policyholder; number and date of any related claim; whether the complaint concerns the conduct of our employees and/or collaborators or relates to the products/services we offer; and any other information you consider useful to help us understand the matter. It should be noted that requests for information or clarification, claims for damages, or requests for contract performance are not considered complaints. Furthermore, if the complaint concerns the insurance product, it is advisable to contact the Insurance Company directly.<br><br>
-                    Only if you are not satisfied with the outcome of the complaint, or in the event of no response from the intermediary or the company within the legal time limit of 45 days, you may also contact IVASS by completing the dedicated form available on the website www.ivass.it and sending the complaint to the following addresses: via certified email (PEC) to tutela.consumatore@pec.ivass.it, via fax to +39 06 42133206, or by ordinary mail to IVASS - Consumer Protection Service, Via del Quirinale 21, 00187 Rome, Italy. You also have the option to resort to the Insurance Ombudsman by filing a complaint directly on the website <a href="https://www.arbitroassicurativo.org/homepage/index.html">https://www.arbitroassicurativo.org/homepage/index.html</a>, or to make use of any other alternative dispute resolution mechanisms provided for under the applicable legislation.<br><br>
-                    Lastly, you may also contact the Guarantee Fund for the activity of insurance and reinsurance brokers, established at CONSAP, Via Yser 14, 00198 Rome, Italy, telephone +39 06 857961, in order to request—where the relevant conditions and legal right exist—compensation for financial loss caused by the exercise of intermediation activities which has not been compensated by the intermediary itself or indemnified through the professional civil liability insurance policy covering damages caused to policyholders as a result of the intermediary’s negligence or professional errors, or due to the negligence, professional errors, or misconduct of employees, collaborators, or any other persons for whose actions the intermediary is legally liable.
+                    without prejudice to the option of turning to the Judicial Authority, you have the right to submit a written complaint to the appointing company at the contacts indicated in the additional DIP or to the intermediary. For complaints to the intermediary, you may use the dedicated email addresses reclami.agricolture@acrisure.it, or via PEC at agricolture@pec.acrisure.it, and finally by registered mail with return receipt addressed to the Complaints Function - Acrisure Agricolture S.r.l., Via Lovanio no. 6 - 00198 Rome.<br><br>
+                    To facilitate a proper response, the complaint must include the following information: <br>
+                    <ul>
+                        <li>the subject of the complaint and a brief description of the circumstances on which it is based;</li>
+                        <li>the name, residential address, telephone number and/or email address, and the status of the complainant (e.g. Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other);</li>
+                        <li>the policy number;</li>
+                        <li>the name of the Policyholder;</li>
+                        <li>the number and date of any claim you are referring to;</li>
+                        <li>if the complaint concerns the conduct of our employees and/or collaborators or the products/services we offer, the identification of the person(s) whose actions are being contested;</li>
+                        <li>any other information you consider useful to help us understand the issue.</li>
+                    </ul>
+
+                    <br>
+                    The intermediary is required to provide a response within 45 days of receiving the complaint. It should be noted that requests for information or clarifications, claims for damages, or requests for contract execution are not considered complaints. Furthermore, if the complaint concerns the insurance product, it is advisable to contact the Insurance Company directly.<br><br>
+                    Only if you are not satisfied with the outcome of the complaint or in case of no response from the intermediary or the company within the legal term of 45 days, you also have the right to contact IVASS through the specific form available on the website www.ivass.it by sending the complaint to the following contacts: via PEC at tutela.consumatore@pec.ivass.it, via fax at 06.42133206, or by ordinary mail to “IVASS – Consumer Protection Service” - Via del Quirinale, 21 - 00187 Rome. Such communication must include the following information:<br>
+                    <ul>
+                        <li>the subject of the complaint and a brief description of the circumstances on which it is based;</li>
+                        <li>the name, residential address, telephone number and/or email address, and the status of the complainant (e.g. Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other);</li>
+                        <li>the identification of the person(s) whose actions are being contested;</li>
+                        <li>a copy of the complaint submitted to the company or the insurance broker and any response received;</li>
+                        <li>any other information you consider useful to better describe the issue.</li>
+                    </ul>
+
+                    <br>
+                    Complaints not relating to the contractual relationship or claims management, but rather to the failure to comply with other provisions of the Insurance Code, its implementing rules, as well as the rules on distance marketing of insurance products, may be submitted directly to IVASS following the methods described above.<br><br>
+                    Furthermore, you may use other alternative dispute resolution systems provided for under current legislation, as indicated in the additional DIP.<br>
+                    Finally, you also have the right to contact the Guarantee Fund for the activity of insurance and reinsurance brokers established at Consap, Via Yser 14, 00198 Rome, telephone 06.857961, to request, where the requirements and rights exist, compensation for financial damages caused by the exercise of brokerage activity, which have not been compensated by the intermediary itself or indemnified through the Civil Liability insurance contract covering damages caused to policyholders by negligence and professional errors of the intermediary or by negligence, professional errors, and misconduct of employees, collaborators, or other persons for whose conduct the intermediary is legally responsible.
                 </p>
             </div>
         </div>
@@ -915,9 +938,11 @@
         <br>
         <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Agricolture S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l.<br>
-            Share capital €150,000.00 fully paid up - RUI: B000243223. Company participating in the Acrisure Group VAT 13147890969<br>
-            Tax Code and registration number in the Rome Companies Register: 08359221002. REA RM- 1089539</p>
+            <p>Acrisure Agricolture S.r.l. - Single-member company subject to the management and coordination of Acrisure S.r.l. - Share Capital €150,000.00 fully paid-in.
+                Registered in Section B of the RUI under no. 000243223, subject to IVASS supervision.
+                The identification and registration details provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: www.ivass.it
+                Company belonging to the Acrisure VAT Group - VAT no. 13147890969 - Tax Code and Companies Register of Rome no. 08359221002 - REA RM-1089539.
+            </p>
         </div>
     </footer>
 

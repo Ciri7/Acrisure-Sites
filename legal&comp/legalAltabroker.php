@@ -877,7 +877,7 @@
         <div class="legal-content">
             <div class="legal-section">
                 <h2>Governance e Compliance</h2>
-                <p>Acrisure Italia opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
+                <p>Alta Broker & Partners opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
                 
                 <div class="compliance-grid">
                     <div class="compliance-box">
@@ -901,32 +901,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="legal-section">
-                <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
-                <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
-                    <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
-                    <li>Segnalare eventuali anomalie o violazioni</li>
-                    <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
-                </ul>
-                <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div> -->
-
-            <!-- <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
-                <ul>
-                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
-                </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
-            </div> -->
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
@@ -1021,10 +995,11 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 60.000,00 i.v. REA GE-494327. Iscritta nella Sezione B del RUI al n° 000605520, è soggetta alla vigilanza IVASS.
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/no-back-button#/workspace/dettaglio-intermediario.<br>
-            P.IVA 02547920997 Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997.</p>
+            <p>Alta Broker & Partners S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. sociale € 60.000,00 i.v. REA GE-494327
+                Iscritta nella Sezione B del RUI al n°000605520, è soggetta alla vigilanza IVASS.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: www.ivass.it
+                P.IVA 02547920997 Cod. Fiscale e n. iscr. Registro Imprese di Genova 02547920997.
+            </p>
         </div>
     </footer>
 

@@ -974,7 +974,7 @@
                     <li><a href="/eng/altabroker-eng.php#news" class="nav-link">News</a></li>
                     <li><a href="/eng/altabroker-eng.php#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="/eng/altabroker-eng.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
@@ -1135,9 +1135,11 @@
         
         <br>
         <div class="footer-legal-notice">
-            <p>Alta Broker & Partners S.r.l. - Single-member company subject to the direction and coordination of Acrisure S.r.l. - <br>
-            Share capital €60,000.00 i.v. REA GE-494327 RUI: B000605520 VAT 02547920997 <br>
-            Tax Code and registration number in the Genoa Companies Register 02547920997. </p>
+            <p>Alta Broker & Partners S.r.l. - Single-member company subject to the management and coordination of Acrisure S.r.l. - Share Capital €60,000.00 fully paid-in - REA GE-494327.
+                Registered in Section B of the RUI under no. 000605520, subject to IVASS supervision.
+                The identification and registration details provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: www.ivass.it
+                VAT no. 02547920997 - Tax Code and Companies Register of Genoa no. 02547920997.
+            </p>
         </div>
     </footer>
 

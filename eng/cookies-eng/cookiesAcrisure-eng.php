@@ -663,6 +663,7 @@
             <nav>
                 <ul>
                     <li><a href="/eng/index-eng.php#chi-siamo" class="nav-link">About Us</a></li>
+                    <li><a href="/eng/index-eng.php#leadership" class="nav-link">Leadership</a></li>
                     <li><a href="/eng/index-eng.php#news" class="nav-link">News</a></li>
                     <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>

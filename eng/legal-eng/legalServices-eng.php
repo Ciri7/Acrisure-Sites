@@ -842,7 +842,7 @@
                     <li><a href="/services.php#news" class="nav-link">News</a></li>
                     <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="/services.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>
                 </ul>
             </nav>
@@ -865,70 +865,21 @@
     <section class="section">
         <div class="legal-content">
             <div class="legal-section">
-                <h2>Governance and Compliance</h2>
-                <p>Acrisure Italy operates in full compliance with current regulations, adopting the highest standards of governance and compliance. Our approach is based on transparency, integrity, and accountability, ensuring compliance with all legal and regulatory provisions applicable to the insurance sector.</p>
-                
-                <div class="compliance-grid">
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-balance-scale"></i> IVASS Regulations</h3>
-                        <p>We strictly comply with the provisions of IVASS (Institute for the Supervision of Insurance), guaranteeing maximum transparency in customer relations and proper management of insurance products.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-shield-alt"></i> Anti-Money Laundering</h3>
-                        <p>We have implemented a robust system for preventing money laundering and terrorist financing, in compliance with Legislative Decree 231/2007 and subsequent amendments.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-user-shield"></i> Data Protection</h3>
-                        <p>Privacy and security of personal data are priorities. Processing occurs in compliance with GDPR (EU Regulation 2016/679) and the Italian Privacy Code.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-handshake"></i> Commercial Conduct</h3>
-                        <p>We adopt rigorous policies to ensure fairness, transparency, and integrity in all commercial activities, in line with IVASS provisions on insurance distribution.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="legal-section">
-                <h2>Supervisory Body under Legislative Decree 231/2001</h2>
-                <p>In compliance with Legislative Decree No. 231 of June 8, 2001, Acrisure Italy has established a Supervisory Body with the task of:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitoring the adequacy and effectiveness of the Organizational Model</li>
-                    <li>Verifying compliance with adopted procedures and protocols</li>
-                    <li>Reporting any anomalies or violations</li>
-                    <li>Proposing updates to the Model in case of regulatory or organizational changes</li>
-                </ul>
-                <p>The Body operates with full autonomy and independence, ensuring constant updating of prevention measures.</p>
-            </div>
-
-            <div class="legal-section">
-                <h2>Model 231 and Code of Ethics</h2>
-                <p>Acrisure Italy has adopted an Organizational Model pursuant to Legislative Decree 231/2001, which includes:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Code of Ethics</a></li>
-                    <li>Analysis of crime risks</li>
-                    <li>Prevention protocols</li>
-                    <li>Disciplinary system</li>
-                    <li>Information flows and controls</li>
-                </ul>
-                <p>The Code of Ethics defines the principles and values that guide our activities, establishing behavioral standards for employees, administrators, and collaborators.</p>
-            </div>
-
-            <div class="legal-section">
                 <h2>Whistleblowing</h2>
-                <p>In compliance with whistleblower protection legislation (EU Directive 2019/1937 and Legislative Decree 24/2023), Acrisure Italy has established a dedicated channel for reporting violations or irregularities.</p>
-                <p>Reports can be submitted:</p>
+                <p>
+                    Acrisure Services S.r.l. actively promotes and supports the good-faith reporting by employees and third parties of inappropriate, improper, active, or omitted behaviors, as well as possible violations of both internal regulations — such as the Code of Ethics and, more generally, the entire corporate regulatory framework — and applicable external laws and regulations, in addition to any misconduct or irregularity related to the management of company activities.
+                    The objective is twofold: on one hand, to act promptly to counter any illegal or unethical behavior by addressing the reported facts and those responsible; on the other hand, to prevent risks that may expose the Company to sanctions or legal actions by Authorities, with consequent reputational damage.
+                    To this end, Acrisure Services S.r.l. has implemented an internal reporting system governed by the Whistleblowing Procedure, developed in collaboration with trade union representatives, pursuant to Art. 51 of Legislative Decree 81/2015. This procedure establishes the methods for receiving and verifying reports, actively involving the Company, employees, and third parties.
+                    The platform for submitting reports can be accessed and used at the following link: <a href="https://acrisure.lpwhistleblowing.com/" target="_blank">https://acrisure.lpwhistleblowing.com/</a>.
+                    We guarantee maximum confidentiality and protection against retaliation for whistleblowers acting in good faith.
+                </p>
                 <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/procedura WB_Acrisure Italia_signed[30].pdf" target="_blank">Whistleblowing Procedure</a></li>
-                    <li>Via registered mail to: Supervisory Body - Giuseppe Mazzini Street, 3 - 07100 Sassari</li>
+                    <li><a href="../../DOCUMENTI/MODELLO 231/WB_Services.pdf" target="_blank">Whistleblowing Procedure</a></li>
                 </ul>
-                <p>We guarantee maximum confidentiality and protection against retaliation for whistleblowers acting in good faith.</p>
             </div>
         </div>
     </section>
+
 
     <!-- FOOTER -->
     <footer>

@@ -1109,21 +1109,13 @@
                 </ul>
                 
                 <div class="legal-links">
+                    <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
+                    <a href="/Qualità/qualitàServices.php">Qualità</a>
                     <a href="/policy/policyServices.php">Privacy Policy</a>
                     <a href="/cookies/cookiesServices.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
-        
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
 
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->

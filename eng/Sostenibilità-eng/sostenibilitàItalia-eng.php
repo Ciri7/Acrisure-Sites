@@ -857,7 +857,7 @@
                     This year's results unequivocally confirm the effectiveness of our strategies and the crucial importance of defining appropriate indicators and numerical evaluations in our methodology.
                 </p>
                 <ul>
-                    <li><a href="../..//DOCUMENTI/IMPATTO/RELAZIONE D'IMPATTO 2024.pdf" target="_blank">2024 Impact Report</a></li>
+                    <li><a href="../../DOCUMENTI/IMPATTO/IMPATTO - ENG/R. Impatto 2024 - ENG.pdf" target="_blank">2024 Impact Report</a></li>
                 </ul>
             </div>
 
@@ -870,7 +870,7 @@
                     The 2023 Impact Report is our starting point to establish the solid roots on which to base tomorrow's change in an increasingly sustainable perspective.
                 </p>
                 <ul>
-                    <li><a href="../..//DOCUMENTI/IMPATTO/Relazione d'impatto 2023 .pdf" target="_blank">2023 Impact Report</a></li>
+                    <li><a href="../../DOCUMENTI/IMPATTO/IMPATTO - ENG/R. Impatto 2023 - ENG.pdf" target="_blank">2023 Impact Report</a></li>
                 </ul>
             </div>
         </div>
@@ -948,10 +948,11 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A. - Single-member company subject to the direction and coordination of Acrisure S.r.l.- <br>
-            Share Capital € 200,000.00 i.v-RUI B000673774. Registered in Section B of the RUI n.000673774, is subject to IVASS supervision
-            The identifying and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the Ivass website: https://ruipubblico.ivass.it/rui-pubblica/ng/#/workspace/dettaglio-intermediario. Company participating in the Acrisure VAT Group P7.VAT 13147890969- <br>
-            Tax Code and n. registration in the Sassari Business Register n.02848210908. REA SS-222619</p>
+            <p>Acrisure Italia S.p.A. - Single-member company subject to the management and coordination of Acrisure S.r.l. - Share Capital €200,000.00 fully paid-in.
+                The identification and registration details provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: www.ivass.it
+                Registered in Section B of the RUI under no. 000673774, subject to IVASS supervision.
+                Company belonging to the Acrisure VAT Group - VAT no. 13147890969 - Tax Code and Companies Register of Sassari no. 02848210908 - REA SS-222619.
+            </p>
         </div>
     </footer>
 

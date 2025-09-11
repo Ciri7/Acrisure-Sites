@@ -674,6 +674,7 @@
             <nav>
                 <ul>
                     <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="/index.php#leadership" class="nav-link">Leadership</a></li>
                     <li><a href="/index.php#news" class="nav-link">News</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>

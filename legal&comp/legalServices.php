@@ -864,46 +864,6 @@
 
     <section class="section">
         <div class="legal-content">
-            <!-- <div class="legal-section">
-                <h2>Governance e Compliance</h2>
-                <p>Acrisure Italia opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
-                
-                <div class="compliance-grid">
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-balance-scale"></i> Normativa IVASS</h3>
-                        <p>Rispettiamo scrupolosamente le disposizioni dell'IVASS (Istituto per la Vigilanza sulle Assicurazioni), garantendo la massima trasparenza nelle relazioni con i clienti e la corretta gestione dei prodotti assicurativi.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-shield-alt"></i> Antiriciclaggio</h3>
-                        <p>Abbiamo implementato un solido sistema di prevenzione del riciclaggio e del finanziamento del terrorismo, in conformità al D.Lgs. 231/2007 e alle successive modifiche.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-user-shield"></i> Protezione Dati</h3>
-                        <p>La privacy e la sicurezza dei dati personali sono prioritarie. Il trattamento avviene nel rispetto del GDPR (Regolamento UE 2016/679) e del Codice Privacy italiano.</p>
-                    </div>
-                    
-                    <div class="compliance-box">
-                        <h3><i class="fas fa-handshake"></i> Condotta Commerciale</h3>
-                        <p>Adottiamo politiche rigorose per garantire correttezza, trasparenza e lealtà in tutte le attività commerciali, in linea con le disposizioni IVASS sulla distribuzione assicurativa.</p>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
-                <ul>
-                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
-                </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
-            </div> -->
-
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
                 <p>
@@ -972,9 +932,10 @@
                 </div> -->
                 
                 <div class="legal-links">
+                    <a href="#header">Legal & Compliance</a>
+                    <a href="/Qualità/qualitàServices.php">Qualità</a>
                     <a href="/policy/policyServices.php">Privacy Policy</a>
                     <a href="/cookies/cookiesServices.php">Cookie Policy</a>
-                    <a href="#header">Legal & Compliance</a>
                 </div>
             </div>
         </div>

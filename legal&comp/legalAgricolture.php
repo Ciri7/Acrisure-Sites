@@ -877,7 +877,7 @@
         <div class="legal-content">
             <div class="legal-section">
                 <h2>Governance e Compliance</h2>
-                <p>Acrisure Italia opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
+                <p>Acrisure Agricolture opera nel pieno rispetto delle normative vigenti, adottando i più elevati standard di governance e compliance. Il nostro approccio si basa su trasparenza, integrità e responsabilità, garantendo la conformità a tutte le disposizioni di legge e regolamentari applicabili al settore assicurativo.</p>
                 
                 <div class="compliance-grid">
                     <div class="compliance-box">
@@ -901,32 +901,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="legal-section">
-                <h2>Organismo di Vigilanza ex D.Lgs. 231/2001</h2>
-                <p>In ottemperanza al Decreto Legislativo 8 giugno 2001, n. 231, Acrisure Italia ha istituito un Organismo di Vigilanza con il compito di:</p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/MODELLO 231/ACRISURE ITALIA S.P.A. - Modello 231_Parte Generale.pdf" target="_blank">Organizational Model 231</a></li>
-                    <li>Monitorare l'adeguatezza e l'efficacia del Modello Organizzativo</li>
-                    <li>Verificare il rispetto delle procedure e dei protocolli adottati</li>
-                    <li>Segnalare eventuali anomalie o violazioni</li>
-                    <li>Proporre aggiornamenti al Modello in caso di modifiche normative o organizzative</li>
-                </ul>
-                <p>L'Organismo opera in piena autonomia e indipendenza, garantendo il costante aggiornamento delle misure di prevenzione.</p>
-            </div> -->
-
-            <!-- <div class="legal-section">
-                <h2>Modello 231 e Codice Etico</h2>
-                <p>Acrisure Italia ha adottato un Modello Organizzativo ai sensi del D.Lgs. 231/2001, che include:</p>
-                <ul>
-                    <li><a href="../DOCUMENTI/ETICA/ACRISURE ITALIA S.P.A. - Codice Etico.pdf" target="_blank">Codice Etico</a></li>
-                    <li>Analisi dei rischi di reato</li>
-                    <li>Protocolli di prevenzione</li>
-                    <li>Sistema disciplinare</li>
-                    <li>Flussi informativi e controlli</li>
-                </ul>
-                <p>Il Codice Etico definisce i principi e i valori che guidano la nostra attività, stabilendo standard di comportamento per dipendenti, amministratori e collaboratori.</p>
-            </div> -->
 
             <div class="legal-section">
                 <h2>Whistleblowing</h2>
@@ -1006,23 +980,15 @@
                 </div>
             </div>
         </div>
-        
-        <!-- <div class="footer-bottom">
-            <div class="footer-legal">
-                
-            </div>
-            <div class="footer-badge">
-                <img src="/img/ivass-badge.png" alt="Autorizzato IVASS" width="80">
-            </div>
-        </div><br> -->
 
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Agricolture S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
-            Cap.sociale € 150.000,00 i.v- RUI: B000243223. Iscritta alla Sez. B del RUI n° 000243223, è soggetta alla vigilanza IVASS. 
-            I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: https://ruipubblico.ivass.it/rui-pubblica/ng/no-back-button#/workspace/dettaglio-intermediario. Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
-            Cod.Fiscale e n. iscr.al registro Imprese di Roma n.08359221002. REA RM- 1089539 </p>
+            <p>Acrisure Agricolture S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.- Cap. sociale € 150.000,00 i.v.
+                Iscritta alla Sez. B del RUI n° 000243223, è soggetta alla vigilanza IVASS.
+                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: www.ivass.it
+                Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Roma n.08359221002. REA RM- 1089539
+            </p>
         </div>
     </footer>
 

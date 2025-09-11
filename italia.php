@@ -318,8 +318,8 @@
         .leadership {
             background: linear-gradient(to bottom, 
                 rgba(197, 221, 239, 0.1) 0%, 
-                rgba(197, 221, 239, 0.7) 20%, 
-                rgba(197, 221, 239, 0.7) 80%, 
+                rgba(197, 221, 239, 1) 20%, 
+                rgba(197, 221, 239, 1) 80%, 
                 rgba(197, 221, 239, 0.1) 100%), 
                 url('/img/leadership-bg.jpg');
             background-size: cover;
@@ -1897,9 +1897,9 @@
     <section id="societa-benefit" class="section leadership" style="
     background: linear-gradient(to bottom, 
         rgba(198, 211, 173, 0.1) 0%, 
-        rgba(198, 211, 173, 0.7) 20%, 
-        rgba(198, 211, 173, 0.7) 80%, 
-        rgba(198, 211, 173, 0.1) 100%), 
+        rgba(198, 211, 173, 1) 20%, 
+        rgba(198, 211, 173, 1) 80%, 
+        rgba(198, 211, 173, 1) 100%), 
         url('/img/leadership-bg.jpg');
     background-size: cover;
     background-position: center;

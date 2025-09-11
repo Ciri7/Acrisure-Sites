@@ -317,10 +317,10 @@
         /* ========== LEADERSHIP SECTION ========== */
         .leadership {
             background: linear-gradient(to bottom, 
-                rgba(0, 0, 0, 0.1) 0%, 
-                rgba(0, 0, 0, 0.7) 20%, 
-                rgba(0, 0, 0, 0.7) 80%, 
-                rgba(0, 0, 0, 0.1) 100%), 
+                rgba(197, 221, 239, 0.1) 0%, 
+                rgba(197, 221, 239, 0.7) 20%, 
+                rgba(197, 221, 239, 0.7) 80%, 
+                rgba(197, 221, 239, 0.1) 100%), 
                 url('/img/leadership-bg.jpg');
             background-size: cover;
             background-position: center;
@@ -1894,26 +1894,26 @@
     <!-- SOCIETÀ BENEFIT _________________________________________________________________________________________________________________________________ -->
     
     <!-- SOCIETÀ BENEFIT -->
-    <section id="societa-benefit" class="section" style="
-        background: linear-gradient(to bottom, 
-            rgba(0, 0, 0, 0.1) 0%, 
-            rgba(0, 0, 0, 0.7) 20%, 
-            rgba(0, 0, 0, 0.7) 80%, 
-            rgba(0, 0, 0, 0.1) 100%), 
-            url('/img/leadership-bg.jpg');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        color: white;
-        position: relative;
-        ">
+    <section id="societa-benefit" class="section leadership" style="
+    background: linear-gradient(to bottom, 
+        rgba(198, 211, 173, 0.1) 0%, 
+        rgba(198, 211, 173, 0.7) 20%, 
+        rgba(198, 211, 173, 0.7) 80%, 
+        rgba(198, 211, 173, 0.1) 100%), 
+        url('/img/leadership-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+    ">
         <br><br><br>
         <h2 class="section-title">Società Benefit</h2>
         <p class="section-subtitle2">
             Essere una Società Benefit per Acrisure Italia significa integrare il successo economico con un impatto positivo su persone, comunità e ambiente. 
             Questo impegno, che va oltre il profitto, guida le nostre azioni quotidiane e orienta il nostro business verso un futuro più sostenibile, trasparente e inclusivo, fondato su principi etici e di lungo periodo.
         </p>
-        <br>
+        <br><br>
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->

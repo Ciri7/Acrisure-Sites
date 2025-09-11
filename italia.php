@@ -317,7 +317,7 @@
         /* ========== LEADERSHIP SECTION ========== */
         .leadership {
             background: linear-gradient(to bottom, 
-                rgba(0, 0, 0, 0.1) 0%, 
+                rgba(0, 0, 0, 0.7) 0%, 
                 rgba(0, 0, 0, 0.7) 20%, 
                 rgba(0, 0, 0, 0.7) 80%, 
                 rgba(0, 0, 0, 0.1) 100%), 
@@ -1893,26 +1893,25 @@
     
     <!-- SOCIETÀ BENEFIT _________________________________________________________________________________________________________________________________ -->
     
-    <section id="chi-siamo" class="section leadership" style="background: linear-gradient(to bottom, 
-        rgba(255, 255, 255, 0.8) 0%, 
-        rgba(0, 0, 0, 0.1) 20%, 
-        rgba(0, 0, 0, 0.7) 100%), 
-        url('/img/leadership-bg.jpg');">
-        <h2 class="section-title">Società Benefit</h2>
-        <p class="section-subtitle2">Essere una Società Benefit per Acrisure Italia significa integrare il successo economico con un impatto positivo su persone, comunità e ambiente. Questo impegno, che va oltre il profitto, guida le nostre azioni quotidiane e orienta il nostro business verso un futuro più sostenibile, trasparente e inclusivo, fondato su principi etici e di lungo periodo.</p>
-        
-        <div class="leadership-container">
-            <div class="leadership-grid">
-                <!-- Card unica centrata -->
-                <div class="leadership-first-row" style="justify-content: center;">
-                    <div class="leadership-card" style="width: 70%; max-width: 800px;">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Benefit Corporation" class="leadership-logo">
-                        <h3 class="leadership-name">Il Nostro Impegno</h3>
-                        <p class="leadership-desc">Oltre il profitto, verso un futuro sostenibile</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- SOCIETÀ BENEFIT -->
+    <section id="societa-benefit" class="section" style="
+        background: linear-gradient(to bottom, 
+            rgba(0, 0, 0, 0.1) 0%, 
+            rgba(0, 0, 0, 0.7) 20%, 
+            rgba(0, 0, 0, 0.7) 80%, 
+            rgba(0, 0, 0, 0.7) 100%),
+            url('/img/leadership-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        position: relative;
+        ">
+        <h2 class="section-title" style="color: var(--secondary); position: relative; z-index: 2;">Società Benefit</h2>
+        <p class="section-subtitle" style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: #fff;">
+            Essere una Società Benefit per Acrisure Italia significa integrare il successo economico con un impatto positivo su persone, comunità e ambiente. 
+            Questo impegno, che va oltre il profitto, guida le nostre azioni quotidiane e orienta il nostro business verso un futuro più sostenibile, trasparente e inclusivo, fondato su principi etici e di lungo periodo.
+        </p>
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->

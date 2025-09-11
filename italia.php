@@ -1908,7 +1908,7 @@
         position: relative;
         ">
         <h2 class="section-title" style="color: var(--secondary); position: relative; z-index: 2;">Società Benefit</h2>
-        <p class="section-subtitle" style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: #fff;">
+        <p class="section-subtitle">
             Essere una Società Benefit per Acrisure Italia significa integrare il successo economico con un impatto positivo su persone, comunità e ambiente. 
             Questo impegno, che va oltre il profitto, guida le nostre azioni quotidiane e orienta il nostro business verso un futuro più sostenibile, trasparente e inclusivo, fondato su principi etici e di lungo periodo.
         </p>

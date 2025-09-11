@@ -983,7 +983,7 @@
         <div class="footer-legal-notice">
             <p>Acrisure Agricolture S.r.l. - Sole shareholder company under the direction and coordination of Acrisure S.r.l. - Share Capital €150,000.00 fully paid.
                 Registered in Section B of the RUI under no. 000243223, it is subject to IVASS supervision.
-                The identification and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: <a href="https://ruipubblico.ivass.it/rui-pubblica/ng/#/home">www.ivass.it</a>.
+                The identification and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: <a href="https://ruipubblico.ivass.it/rui-pubblica/ng/#/home" target="_blank">www.ivass.it</a>.
                 Company participating in the Acrisure Group VAT number P.IVA 13147890969 - Tax Code and registration number in the Rome Companies Register n. 08359221002. REA RM-1089539
             </p>
         </div>

@@ -1137,7 +1137,7 @@
         <div class="footer-legal-notice">
             <p>Alta Broker & Partners S.r.l. - Sole shareholder company under the direction and coordination of Acrisure S.r.l. - Share Capital €60,000.00 fully paid. REA GE-494327
                 Registered in Section B of the RUI under no. 000605520, it is subject to IVASS supervision.
-                The identification and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: <a href="https://ruipubblico.ivass.it/rui-pubblica/ng/#/home">www.ivass.it</a>.
+                The identification and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: <a href="https://ruipubblico.ivass.it/rui-pubblica/ng/#/home" target="_blank">www.ivass.it</a>.
                 VAT number P.IVA 02547920997 - Tax Code and registration number in the Genoa Companies Register 02547920997.
             </p>
         </div>

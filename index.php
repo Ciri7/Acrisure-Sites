@@ -583,7 +583,12 @@
         
         /* News Section */
         .news-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/777.jpg');
+            background: linear-gradient(to bottom, 
+                rgba(0, 0, 0, 0.1) 0%, 
+                rgba(0, 0, 0, 0.7) 20%, 
+                rgba(0, 0, 0, 0.7) 80%, 
+                rgba(0, 0, 0, 0.1) 100%), 
+                url('/img/777.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;

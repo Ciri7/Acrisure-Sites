@@ -895,7 +895,7 @@
                 
                 <h3>a) dati di navigazione</h3>
                 <p>Vale a dire, dati personali la cui trasmissione è implicita nell'uso dei protocolli di comunicazione di Internet.</p>
-                <p>In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computers utilizzati dagli utenti che si connettono al sito, gli indirizzi in notazione URI (Uniform Resource Identifier) delle risorse richieste, l'orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server ed altri parametri relativi al sistema operativo e all'ambiente informatico dell'utente nonché, per quanto riguarda l'utilizzo dei servizi connessi, i dati anagrafici dell'utente. Per i dati personali trattati tramite l'utilizzo dei cookie, si rinvia alla <a href="/cookies/cookiesItalia.php" class="page-transition-link">relativa informativa</a>.</p>
+                <p>In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computers utilizzati dagli utenti che si connettono al sito, gli indirizzi in notazione URI (Uniform Resource Identifier) delle risorse richieste, l'orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server ed altri parametri relativi al sistema operativo e all'ambiente informatico dell'utente nonché, per quanto riguarda l'utilizzo dei servizi connessi, i dati anagrafici dell'utente. Per i dati personali trattati tramite l'utilizzo dei cookie, si rinvia alla <a href="/cookies/cookiesItalia.php">relativa informativa</a>.</p>
                 
                 <h3>b) dati comunicati dall'utente</h3>
                 <p>Vale a dire, tutti i dati che l'utente deciderà di condividere con Acrisure Italia S.p.A. per fruire dei servizi disponibili sul Sito web. In particolare, al fine di usufruire dei servizi offerti sul Sito web gli interessati potranno comunicare:</p>
@@ -925,8 +925,8 @@
                             <td><strong>I.</strong> Dati di navigazione/ cookie tecnici (strettamente necessari) e cookie analitici</td>
                             <td>art. 130 D.lgs. 196/2003</td>
                             <td><strong>Erogazione del contenuto del Sito web e analisi statistiche aggregate</strong></td>
-                            <td>Si rinvia a quanto riportato nell'<a href="/cookies/cookiesItalia.php" class="page-transition-link">informativa cookie</a></td>
-                            <td>Si rinvia a quanto riportato nell'<a href="/cookies/cookiesItalia.php" class="page-transition-link">informativa cookie</a></td>
+                            <td>Si rinvia a quanto riportato nell'<a href="/cookies/cookiesItalia.php">informativa cookie</a></td>
+                            <td>Si rinvia a quanto riportato nell'<a href="/cookies/cookiesItalia.php">informativa cookie</a></td>
                         </tr>
                         <tr>
                             <td><strong>II.</strong> Dati anagrafici e di contatto/ Dati attinenti al bene che si intende assicurare</td>

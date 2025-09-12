@@ -761,6 +761,7 @@
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
             text-decoration: none;
             transition: all 0.3s;
+            color: var(--secondary);
         }
 
         .footer-column .legal-links a:hover {
@@ -795,6 +796,40 @@
 
         .footer-title-link:hover {
             color: var(--accent);
+        }
+        
+        /* Tabella Privacy */
+        .privacy-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .privacy-table th, .privacy-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .privacy-table th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .privacy-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .privacy-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+        @media (max-width: 768px) {
+            .privacy-table {
+                display: block;
+                overflow-x: auto;
+            }
         }
     </style>
 </head>
@@ -839,100 +874,151 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="privacy-content">
-            <div class="privacy-section">
-                <h2>Privacy Policy</h2>
-                <p>This Privacy Policy describes how Acrisure Italia S.r.l. ("Acrisure Italia") collects, uses, stores and protects the personal information of users ("User/s") who access and use the website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site").</p>
-                <p>This Policy is provided pursuant to Article 13 of Regulation (EU) 2016/679 ("GDPR") and Legislative Decree 196/2003 ("Privacy Code") as amended by Legislative Decree 101/2018.</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Data Controller</h2>
-                <p>The Data Controller is:</p>
-                <p><strong>Acrisure Italia S.r.l.</strong><br>
-                3 Giuseppe Mazzini Street - 07100 Sassari<br>
-                VAT: 13147890969<br>
-                REA: MI-2616058<br>
-                Email: <a href="mailto:info@acrisure.it">info@acrisure.it</a><br>
-                PEC: <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Types of data collected</h2>
-                <p>Among the Personal Data collected by this Site, independently or through third parties, are:</p>
-                <ul>
-                    <li><strong>Navigation data</strong>: the computer systems and software procedures used to operate this Site acquire, in normal operation, some personal data whose transmission is implicit in the use of Internet communication protocols.</li>
-                    <li><strong>Data voluntarily provided by the user</strong>: the optional, explicit and voluntary sending of messages to contact addresses, as well as the compilation and submission of forms on the Site, result in the acquisition of the personal data entered, necessary to respond to requests.</li>
-                    <li><strong>Cookies</strong>: the Site uses cookies to ensure a better browsing experience. For more information, see our <a href="cookies.php" class="page-transition-link">Cookie Policy</a>.</li>
-                </ul>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Purposes and legal basis of processing</h2>
-                <p>Personal data are processed for the following purposes:</p>
-                <ul>
-                    <li><strong>Execution of requested services</strong>: responding to requests for information, quotes or contacts (legal basis: execution of pre-contractual or contractual measures).</li>
-                    <li><strong>Legal obligations</strong>: fulfillment of obligations under laws, regulations or EU legislation (legal basis: legal obligation).</li>
-                    <li><strong>Marketing</strong>: sending commercial communications, subject to User's consent (legal basis: consent).</li>
-                    <li><strong>Statistics</strong>: anonymous analysis of navigation data to improve the Site (legal basis: legitimate interest).</li>
-                </ul>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Processing methods</h2>
-                <p>The processing of personal data is carried out using IT and/or telematic tools, with organizational methods and logic strictly related to the indicated purposes.</p>
-                <p>Specific security measures are observed to prevent data loss, illicit or incorrect use and unauthorized access.</p>
-                <p>Data are processed exclusively by authorized personnel and by any external managers appointed as such pursuant to Article 28 GDPR.</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Retention period</h2>
-                <p>Personal data are retained for the time necessary to achieve the purposes for which they were collected, in particular:</p>
-                <ul>
-                    <li>Data for contractual purposes: for the entire duration of the relationship and subsequently for 10 years to fulfill legal obligations.</li>
-                    <li>Data for marketing purposes: until the data subject revokes consent.</li>
-                    <li>Navigation data: for the time strictly necessary for the collection purpose and in any case no longer than 12 months.</li>
-                </ul>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Rights of data subjects</h2>
-                <p>Pursuant to Articles 15-22 GDPR, the User may exercise the following rights:</p>
-                <ul>
-                    <li>Access to their personal data.</li>
-                    <li>Request for rectification or erasure.</li>
-                    <li>Restriction of processing.</li>
-                    <li>Objection to processing.</li>
-                    <li>Data portability.</li>
-                    <li>Withdrawal of consent, where provided.</li>
-                </ul>
-                <p>Requests must be addressed to the Controller at the contacts indicated above. The User also has the right to lodge a complaint with the Data Protection Authority (www.garanteprivacy.it).</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Communication and disclosure of data</h2>
-                <p>Personal data may be communicated to:</p>
-                <ul>
-                    <li>Subjects within Acrisure Italia's organization, authorized to process.</li>
-                    <li>External subjects appointed as data processors (e.g. IT service providers, consultants).</li>
-                    <li>Judicial or administrative authorities, in cases provided by law.</li>
-                </ul>
-                <p>Data will not be disclosed, except in anonymous and aggregate form for statistical purposes.</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Transfer of data outside the EU</h2>
-                <p>Some third-party services used by the Site may involve the transfer of data to countries outside the EU. In such cases, Acrisure Italia adopts the guarantees provided by the GDPR (standard contractual clauses, adequacy decisions).</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Changes to the privacy policy</h2>
-                <p>Acrisure Italia reserves the right to make changes to this Policy. Updated versions will be published on the Site with the revision date. Users are invited to periodically consult this page.</p>
-                <p><strong>Last updated:</strong> March 31, 2024</p>
-            </div>
+<section class="section">
+    <div class="privacy-content">
+        <div class="privacy-section">
+            <h2>PRIVACY POLICY FOR THE WEBSITE</h2>
+            <h3>INTRODUCTION</h3>
+            <p>Pursuant to Regulation (EU) 2016/679 ("GDPR"), Acrisure Italia S.p.A. provides this information on the processing of personal data of users who browse the website <a href="/eng/italia-eng.php">Acrisure Italia S.p.A.</a> ("Website") and who provide their personal data to use the services offered therein.</p>
+            <p>This information does not concern other websites or online services accessible via hyperlinks that may be published on the Website but refer to resources outside the domain.</p>
+            <p>This policy applies to all users, including registered and unregistered visitors, of our site: <a href="/eng/italia-eng.php">Acrisure Italia S.p.A.</a>. The user is invited to read this information carefully. In case of doubts or questions, the user can contact us at: <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></p>
         </div>
-    </section>
+
+        <div class="privacy-section">
+            <h2>1) DATA CONTROLLER AND DATA PROTECTION OFFICER</h2>
+            <p><strong>Data Controller</strong> is Acrisure Italia S.p.A, Via Mazzini 3, 07100, Sassari</p>
+            <p><strong>Data Protection Officer (DPO)</strong> is Dr. Alessandro Asole, Z.I Predda Niedda str 1, reachable at the following address: <a href="mailto:privacy@prismaquality.com">privacy@prismaquality.com</a></p>
+        </div>
+
+        <div class="privacy-section">
+            <h2>2) PERSONAL DATA PROCESSED</h2>
+            <p>Acrisure Italia S.p.A. will process the following personal data of users:</p>
+            
+            <h3>a) Navigation data</h3>
+            <p>That is, personal data whose transmission is implicit in the use of Internet communication protocols.</p>
+            <p>This category of data includes IP addresses or domain names of computers used by users connecting to the site, URI (Uniform Resource Identifier) addresses of requested resources, time of request, method used to submit the request to the server, and other parameters related to the operating system and computer environment of the user, as well as, regarding the use of connected services, the user's personal data. For personal data processed through the use of cookies, please refer to the <a href="/eng/cookies-eng/cookiesItalia-eng.php">relevant cookie policy</a>.</p>
+            
+            <h3>b) Data provided by the user</h3>
+            <p>That is, all data that the user decides to share with Acrisure Italia S.p.A. to use the services available on the Website. In particular, to use the services offered on the Website, interested parties may provide:</p>
+            <ul>
+                <li>Personal and contact details (e.g., name, surname, email, phone) provided through the "Contacts" section;</li>
+                <li>Data contained in the curriculum vitae transmitted through the "Work with us" section;</li>
+                <li>Other data that may be requested in the future through new sections or services of the Website (for example, newsletter subscriptions, registrations to reserved areas, or similar interaction tools);</li>
+                <li>Data present in messages sent to Acrisure Italia S.p.A. to request information.</li>
+            </ul>
+        </div>
+
+        <div class="privacy-section">
+            <h2>3) TYPE OF DATA PROCESSED, LEGAL BASIS, PURPOSE OF PROCESSING, RETENTION PERIOD, MANDATORY NATURE OF PROVISION</h2>
+            
+            <table class="privacy-table">
+                <thead>
+                    <tr>
+                        <th>TYPE OF DATA PROCESSED</th>
+                        <th>LEGAL BASIS</th>
+                        <th>PURPOSE OF PROCESSING</th>
+                        <th>RETENTION PERIOD</th>
+                        <th>MANDATORY PROVISION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>I.</strong> Navigation data/ technical cookies (strictly necessary) and analytical cookies</td>
+                        <td>art. 130 Legislative Decree 196/2003</td>
+                        <td><strong>Delivery of Website content and aggregate statistical analysis</strong></td>
+                        <td>Please refer to the <a href="/eng/cookies-eng/cookiesItalia-eng.php">cookie policy</a></td>
+                        <td>Please refer to the <a href="/eng/cookies-eng/cookiesItalia-eng.php">cookie policy</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>II.</strong> Personal and contact data/ Data related to the asset to be insured</td>
+                        <td>Performance of a contract or pre-contractual measures requested by the data subject (art. 6, par. 1, lett. b), GDPR)</td>
+                        <td><strong>Provision of "Information request" and "assistance request" services in the "contact us" area/ Provision of "consultancy" services</strong></td>
+                        <td>2 years from the service request and quote request (for prospects)/ 10 years from termination of the contractual relationship (for clients)</td>
+                        <td>Failure to provide data will make it impossible for Acrisure Italia S.p.A to provide the requested services, but will not affect the user's use of the Website.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>III.</strong> Common personal data provided by the data subject, including those related to contact details.</td>
+                        <td>Consent of the data subject (art. 6, par. 1, lett. a), GDPR)</td>
+                        <td><strong>MARKETING</strong> (e.g., sending promotional communications, direct sales, targeting and re-targeting, market research through automated and digital means such as SMS, Email, Instant Messaging Apps...)</td>
+                        <td>24 months from the quote request or consultancy request or until revocation of consent by the data subject if earlier.</td>
+                        <td>Provision of data is optional and if you decide not to give consent to processing, you will not suffer any negative consequences regarding existing or pending contracts.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>IV.</strong> - personal data, provided by you and/or acquired from third parties (excluding special category data), - contact data (email and phone) - data acquired through questionnaires on needs, interests and preferences, to analyze aspects concerning, among others, economic situation, personal preferences, interests, habits, behavior, and to improve the offering of the Company itself and companies belonging to the group.</td>
+                        <td>Consent of the data subject (art. 6, par. 1, lett. a), GDPR)</td>
+                        <td><strong>PROFILING</strong> (automated processing of personal data to analyze or predict aspects concerning economic situation, personal preferences, interests, behavior for marketing activities)</td>
+                        <td>12 months from the quote request or consultancy request or until revocation of consent by the data subject if earlier.</td>
+                        <td>Provision of data is optional and if you decide not to give consent to processing, you will not suffer any negative consequences regarding existing or pending contracts.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>V.</strong> Personal data and data provided for example when completing legally mandatory questionnaires regarding risk profiles</td>
+                        <td>Compliance with legal obligations to which the controller is subject (art. 6, par. 1, lett. c), GDPR)</td>
+                        <td><strong>Compliance with legal obligations incumbent on the Controller</strong> (e.g., regulatory obligations related to the insurance sector, obligations for Website accessibility, etc.)</td>
+                        <td>10 years or the different term provided by applicable laws</td>
+                        <td>Provision of personal data is implicit whenever the user browses the Website and/or requests to use the services offered by the Website.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>VI.</strong> Personal and pre-contractual data, and any relevant data in the specific case</td>
+                        <td>Legitimate interest of Acrisure Italia S.p.A. and/or third parties to exercise the right of defense and protection of rights and/or interests of Acrisure Italia S.p.A. and/or third parties (art. 6, par. 1, lett. f), GDPR).</td>
+                        <td><strong>Establishment, exercise or defense of a right of Acrisure Italia S.p.A or third parties</strong></td>
+                        <td>For the entire time necessary to define any contentious or pre-contentious situation until final res judicata or expiration of statute of limitations.</td>
+                        <td>Provision of personal data is implicit whenever the user browses the Website and/or requests to use the services offered by the Website.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="privacy-section">
+            <h2>4) DATA DISCLOSURE</h2>
+            <p>The processing of personal data for the purposes described above will be carried out by internal staff specifically appointed by Acrisure Italia S.p.A, who will act based on specific instructions provided by the Controller itself.</p>
+            <p>Furthermore, personal data may be disclosed to the following subjects:</p>
+            <ul>
+                <li><strong>a)</strong> Insurance agents and subjects who process personal data for the purposes described above on behalf of Acrisure Italia S.p.A., specifically appointed as data processors pursuant to art. 28 GDPR (e.g., IT service providers or Website developers);</li>
+                <li><strong>b)</strong> Public or private subjects (e.g., insurance companies, banks, legal consultants, public authorities, judicial bodies, revenue agency), who will process personal data as autonomous data controllers.</li>
+            </ul>
+        </div>
+
+        <div class="privacy-section">
+            <h2>5) DATA TRANSFER</h2>
+            <p>Without prejudice to what is provided for data processing through cookies, for which please refer to the <a href="/eng/cookies-eng/cookiesItalia-eng.php" class="page-transition-link">relevant cookie policy</a>, the transfer of personal data to countries outside the European Economic Area ("EEA") or to international organizations is not envisaged.</p>
+            <p>Should such transfer become necessary, the measures provided by the GDPR will be implemented, with prior update of this policy as well.</p>
+        </div>
+
+        <div class="privacy-section">
+            <h2>6) USER RIGHTS</h2>
+            <p>Pursuant to arts. 15-22 GDPR, data subjects may contact the Controller to exercise specific rights such as:</p>
+            <ul>
+                <li><strong>Right of access</strong>: right to obtain from the Controller confirmation as to whether or not personal data are being processed, and, where that is the case, access to the personal data and further information about origin, purpose, categories of data processed, recipients of communication and/or data transfer, etc;</li>
+                <li><strong>Right to rectification</strong>: right to obtain from the Controller without undue delay the rectification of inaccurate personal data, as well as the completion of incomplete personal data, also by providing a supplementary statement;</li>
+                <li><strong>Right to erasure</strong>: right to obtain from the Controller the erasure of personal data without undue delay in cases where:
+                    <ul>
+                        <li>the personal data are no longer necessary in relation to the purposes for which they were processed;</li>
+                        <li>the data subject withdraws consent and there is no other legal basis for the processing;</li>
+                        <li>the data subject objects to the processing and there are no overriding legitimate grounds for the processing;</li>
+                        <li>the personal data have been unlawfully processed;</li>
+                        <li>the personal data have to be erased for compliance with a legal obligation;</li>
+                    </ul>
+                </li>
+                <li><strong>Right to restriction of processing</strong>: right to obtain from the Controller restriction of processing in certain circumstances, including when the data subject contests the accuracy of the personal data, for a period enabling the controller to verify the accuracy of the personal data;</li>
+                <li><strong>Right to data portability</strong>: right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance;</li>
+                <li><strong>Right to object</strong>: right to object at any time to processing of personal data concerning him or her which is based on the legitimate interest of the Controller or third parties;</li>
+                <li><strong>Right to withdraw consent</strong>: right to withdraw consent at any time for processing purposes based on consent, without affecting the lawfulness of processing based on consent before its withdrawal;</li>
+                <li><strong>Right to lodge a complaint</strong>: right to lodge a complaint with the Data Protection Authority (www.garanteprivacy.it) or another competent supervisory authority.</li>
+            </ul>
+            <p>The exercise of the above rights can be carried out by sending a written request to <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a>.</p>
+        </div>
+
+        <div class="privacy-section">
+            <h2>7) METHODS OF EXERCISING RIGHTS</h2>
+            <p>We also remind you that you have the right to lodge a complaint with a supervisory authority. In particular, without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority, in particular in the Member State of his or her habitual residence, place of work or place of the alleged infringement if he or she considers that the processing of personal data relating to him or her infringes the GDPR. For Italy, the competent Authority is the Garante per la Protezione dei Dati Personali (Data Protection Authority).</p>
+        </div>
+
+        <div class="privacy-section">
+            <h2>8) CHANGES AND UPDATES TO THIS POLICY</h2>
+            <p>Also considering future changes that may occur in the legislation on personal data protection, ACRISURE ITALIA S.p.A may integrate and/or update, in whole or in part, this policy. It is understood that any changes, integrations or updates will be communicated in accordance with current legislation, by means of publication on the website <a href="/eng/italia-eng.php">Acrisure Italia S.p.A.</a></p>
+        </div>
+    </div>
+</section>
 
     <!-- FOOTER -->
     <footer>

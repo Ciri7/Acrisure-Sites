@@ -1773,19 +1773,27 @@
         </div>
     </section>
 
-    <!-- BENEFIT SECTION -->
-    <section id="chi-siamo" class="section about">
+    <!-- SOCIETÀ BENEFIT -->
+    <section id="societa-benefit" class="section leadership" style="
+        background: linear-gradient(to bottom, 
+            rgba(198, 211, 173, 0.1) 0%, 
+            rgba(198, 211, 173, 1) 20%, 
+            rgba(198, 211, 173, 1) 80%, 
+            rgba(0, 0, 0, 0.1) 100%), 
+            url('/img/leadership-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        position: relative;
+        ">
+        <br><br><br>
         <h2 class="section-title">Benefit Corporation</h2>
-        <div class="about-content">
-            <div class="about-cards">
-                <div class="about-card">
-                    <p>
-                        Being a Benefit Corporation for Acrisure Italia means integrating economic success with a positive impact on people, communities and the environment.
-                        This commitment, which goes beyond profit, guides our daily actions and directs our business towards a more sustainable, transparent and inclusive future, based on ethical and long-term principles.
-                    </p>
-                </div>
-            </div>
-        </div>
+        <p class="section-subtitle2">
+            Being a Benefit Corporation for Acrisure Italia means integrating economic success with a positive impact on people, communities and the environment. 
+            This commitment, which goes beyond profit, guides our daily actions and directs our business towards a more sustainable, transparent and inclusive future, based on ethical and long-term principles.
+        </p>
+        <br><br>
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->

@@ -878,7 +878,7 @@
             <div class="privacy-section">
                 <h2>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI PER IL SITO</h2>
                 <h3>INTRODUZIONE</h3>
-                <p>Ai sensi del Regolamento (UE) 2016/679 ("GDPR"), Acrisure Italia S.p.A. fornisce la presente informativa sul trattamento dei dati personali degli utenti che navigano sul sito web <a href="/italia.php">Acrisure Italia S.p.A.</a> ("Sito web") e che forniscono i propri dati personali per fruire dei servizi ivi offerti.</p>
+                <p>Ai sensi del Regolamento (UE) 2016/679 ("GDPR"), Acrisure Italia S.p.A. fornisce la presente informativa sul trattamento dei dati personali degli utenti che navigano sul sito web <a href="/italia.php">Acrisure Italia S.p.A.</a> e che forniscono i propri dati personali per fruire dei servizi ivi offerti.</p>
                 <p>Le presenti informazioni non riguardano altri siti web o servizi online raggiungibili tramite link ipertestuali eventualmente pubblicati sul Sito web ma riferiti a risorse esterne al dominio.</p>
                 <p>La presente informativa si applica a tutti gli utenti, tra cui visitatori registrati e non registrati, del nostro sito: <a href="/italia.php">Acrisure Italia S.p.A.</a>. Si invita l'utente a leggere attentamente la presente informativa. In caso di dubbi o domande l'utente potrà contattarci all'indirizzo: <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></p>
             </div>
@@ -979,7 +979,7 @@
 
             <div class="privacy-section">
                 <h2>5) TRASFERIMENTO DEI DATI</h2>
-                <p>Fermo quanto previsto per il trattamento dei dati effettuato tramite cookie, per il quale si rinvia alla <a href="/cookies/cookiesItalia.php" class="page-transition-link">relativa informativa</a>, non è previsto il trasferimento dei dati personali verso Paesi non appartenenti allo Spazio Economico Europeo ("SEE") o verso organizzazioni internazionali.</p>
+                <p>Fermo quanto previsto per il trattamento dei dati effettuato tramite cookie, per il quale si rinvia alla <a href="/cookies/cookiesItalia.php">relativa informativa</a>, non è previsto il trasferimento dei dati personali verso Paesi non appartenenti allo Spazio Economico Europeo ("SEE") o verso organizzazioni internazionali.</p>
                 <p>Qualora tale trasferimento dovesse rendersi necessario, saranno messe in atto le misure previste dal GDPR, previo aggiornamento anche della presente informativa.</p>
             </div>
 

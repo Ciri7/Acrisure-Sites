@@ -879,7 +879,7 @@
         <div class="privacy-section">
             <h2>PRIVACY POLICY FOR THE WEBSITE</h2>
             <h3>INTRODUCTION</h3>
-            <p>Pursuant to Regulation (EU) 2016/679 ("GDPR"), Acrisure Italia S.p.A. provides this information on the processing of personal data of users who browse the website <a href="/eng/italia-eng.php">Acrisure Italia S.p.A.</a> ("Website") and who provide their personal data to use the services offered therein.</p>
+            <p>Pursuant to Regulation (EU) 2016/679 ("GDPR"), Acrisure Italia S.p.A. provides this information on the processing of personal data of users who browse the website <a href="/eng/italia-eng.php">Acrisure Italia S.p.A.</a> and who provide their personal data to use the services offered therein.</p>
             <p>This information does not concern other websites or online services accessible via hyperlinks that may be published on the Website but refer to resources outside the domain.</p>
             <p>This policy applies to all users, including registered and unregistered visitors, of our site: <a href="/eng/italia-eng.php">Acrisure Italia S.p.A.</a>. The user is invited to read this information carefully. In case of doubts or questions, the user can contact us at: <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></p>
         </div>
@@ -980,7 +980,7 @@
 
         <div class="privacy-section">
             <h2>5) DATA TRANSFER</h2>
-            <p>Without prejudice to what is provided for data processing through cookies, for which please refer to the <a href="/eng/cookies-eng/cookiesItalia-eng.php" class="page-transition-link">relevant cookie policy</a>, the transfer of personal data to countries outside the European Economic Area ("EEA") or to international organizations is not envisaged.</p>
+            <p>Without prejudice to what is provided for data processing through cookies, for which please refer to the <a href="/eng/cookies-eng/cookiesItalia-eng.php">relevant cookie policy</a>, the transfer of personal data to countries outside the European Economic Area ("EEA") or to international organizations is not envisaged.</p>
             <p>Should such transfer become necessary, the measures provided by the GDPR will be implemented, with prior update of this policy as well.</p>
         </div>
 

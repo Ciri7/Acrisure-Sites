@@ -909,9 +909,10 @@
                 </ul>
                 
                 <div class="legal-links">
+                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
+                    <a href="#header">Qualità</a>
                     <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a>
                     <a href="/eng/cookies-eng/cookiesServices-eng.php">Cookie Policy</a>
-                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

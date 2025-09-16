@@ -796,6 +796,40 @@
         .footer-title-link:hover {
             color: var(--accent);
         }
+
+                /* Tabella Privacy */
+        .privacy-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .privacy-table th, .privacy-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .privacy-table th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .privacy-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .privacy-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+        @media (max-width: 768px) {
+            .privacy-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
     </style>
 </head>
 <body>
@@ -842,94 +876,136 @@
     <section class="section">
         <div class="privacy-content">
             <div class="privacy-section">
-                <h2>Privacy Policy</h2>
-                <p>This Privacy Policy describes how Acrisure Italy S.r.l. ("Acrisure Italy") collects, uses, stores and protects the personal information of users ("User/s") who access and use the website <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Site").</p>
-                <p>This Policy is provided pursuant to Article 13 of Regulation (EU) 2016/679 ("GDPR") and Legislative Decree 196/2003 ("Privacy Code") as amended by Legislative Decree 101/2018.</p>
+            <h2>PRIVACY POLICY FOR THE WEBSITE</h2>
+            <h3>INTRODUCTION</h3>
+                <p>Pursuant to Regulation (EU) 2016/679 ("GDPR"), Acrisure Agricolture S.r.l. provides this information on the processing of personal data of users who browse the website <a href="/eng/agricolture-eng.php">Acrisure Agricolture S.r.l.</a> and who provide their personal data to use the services offered therein.</p>
+                <p>This information does not concern other websites or online services accessible via hyperlinks that may be published on the Website but refer to resources external to the domain.</p>
+                <p>This policy applies to all users, including registered and unregistered visitors, of our site: <a href="/eng/agricolture-eng.php">Acrisure Agricolture S.r.l.</a>. Users are invited to read this information carefully. In case of doubts or questions, users can contact us at: <a href="mailto:agricolture@pec.acrisure.it">agricolture@pec.acrisure.it</a></p>
             </div>
 
             <div class="privacy-section">
-                <h2>Data Controller</h2>
-                <p>The Data Controller is:</p>
-                <p><strong>Acrisure Italy S.r.l.</strong><br>
-                3 Giuseppe Mazzini Street - 07100 Sassari<br>
-                VAT: 13147890969<br>
-                REA: MI-2616058<br>
-                Email: <a href="mailto:info@acrisure.it">info@acrisure.it</a><br>
-                PEC: <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></p>
+                <h2>1) DATA CONTROLLER AND DATA PROTECTION OFFICER</h2>
+                <p><strong>Data Controller</strong> is Acrisure Agricolture S.r.l., Via Lovanio, 6 - 00198 Roma.</p>
+                <p><strong>Data Protection Officer (DPO)</strong> is Dr. Alessandro Asole, Z.I Predda Niedda str 1, reachable at the following address: <a href="mailto:privacy@prismaquality.com">privacy@prismaquality.com</a></p>
             </div>
 
             <div class="privacy-section">
-                <h2>Types of Data Collected</h2>
-                <p>Among the Personal Data collected by this Site, either independently or through third parties, are:</p>
+                <h2>2) PERSONAL DATA PROCESSED</h2>
+                <p>Acrisure Agricolture S.r.l. will process the following personal data of users:</p>
+                
+                <h3>a) Navigation data</h3>
+                <p>That is, personal data whose transmission is implicit in the use of Internet communication protocols.</p>
+                <p>This category of data includes IP addresses or domain names of computers used by users connecting to the site, URI (Uniform Resource Identifier) addresses of requested resources, time of request, method used to submit the request to the server, and other parameters related to the operating system and computer environment of the user, as well as, regarding the use of connected services, the user's personal details. For personal data processed through the use of cookies, please refer to the <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">relevant cookie policy</a>.</p>
+                
+                <h3>b) Data provided by the user</h3>
+                <p>That is, all data that the user decides to share with Acrisure Agricolture S.r.l. to use the services available on the Website. In particular, to use the services offered on the Website, interested parties may provide:</p>
                 <ul>
-                    <li><strong>Navigation data</strong>: the computer systems and software procedures used to operate this Site acquire, during their normal operation, some personal data whose transmission is implicit in the use of Internet communication protocols.</li>
-                    <li><strong>Data voluntarily provided by the user</strong>: the optional, explicit and voluntary sending of messages to contact addresses, as well as the completion and submission of forms on the Site, entail the acquisition of the personal data provided, necessary to respond to requests.</li>
-                    <li><strong>Cookies</strong>: the Site uses cookies to ensure a better browsing experience. For more information, see our <a href="cookies.php" class="page-transition-link">Cookie Policy</a>.</li>
+                    <li>Personal and contact details (e.g., name, surname, email, phone) provided through the "Contacts" section;</li>
+                    <li>Data contained in the curriculum vitae transmitted through the "Work with us" section;</li>
+                    <li>Other data that may be requested in the future through new sections or services of the Website (e.g., newsletter subscriptions, registrations to reserved areas, or similar interaction tools);</li>
+                    <li>Data contained in messages sent to Acrisure Agricolture S.r.l. to request information.</li>
                 </ul>
             </div>
 
             <div class="privacy-section">
-                <h2>Purposes and Legal Basis of Processing</h2>
-                <p>Personal data are processed for the following purposes:</p>
+                <h2>3) TYPES OF DATA PROCESSED, LEGAL BASIS, PROCESSING PURPOSES, RETENTION PERIODS, MANDATORY NATURE OF PROVISION</h2>
+                
+                <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+                    <tr style="background-color: #f2f2f2;">
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">TYPE OF DATA PROCESSED</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LEGAL BASIS</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">PROCESSING PURPOSE</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">RETENTION PERIOD</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">MANDATORY PROVISION</th>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>I.</strong> Navigation data/ strictly necessary technical cookies and analytical cookies</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">art. 130 D.lgs. 196/2003</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Provision of Website content and aggregate statistical analysis</strong></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Please refer to the <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">cookie policy</a>.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Please refer to the <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">cookie policy</a>.</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>II.</strong> Personal and contact details/ Data related to the asset to be insured</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Performance of a contract or pre-contractual measures requested by the data subject (art. 6, par. 1, lett. b), GDPR)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Provision of "Information request" and "assistance request" services in the "contact us" area/ Provision of "consultancy" services</strong></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2 years from the service request and quote request (for prospects)/ 10 years from termination of contractual relationship (for clients)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Failure to provide data will make it impossible for Acrisure Agricolture S.r.l. to provide the requested services, but will not affect the user's browsing of the Website.</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>III.</strong> Common personal data provided by the data subject, including those related to contact details.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Consent of the data subject (art. 6, par. 1, lett. a), GDPR)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>MARKETING</strong>/ (e.g., sending promotional communications, direct sales, targeting and re-targeting, market research through automated and digital methods such as SMS, email, instant messaging apps...)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">24 months from the quote request or consultancy request or until withdrawal of consent by the data subject if earlier.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Provision of data is optional and if you decide not to give consent to processing, you will not suffer any negative consequences regarding existing or pending contracts.</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>IV.</strong> - personal data, provided by you and/or acquired from third parties (excluding special category data), - contact details (email and phone) - data acquired through questionnaires on needs, interests and preferences, to analyze aspects concerning, among others, economic situation, personal preferences, interests, habits, behavior, and to improve the offer of the Company itself and from companies of the group.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Consent of the data subject (art. 6, par. 1, lett. a), GDPR)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>PROFILING</strong> (automated processing of personal data to analyze or predict aspects concerning economic situation, personal preferences, interests, behavior for marketing activities)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">12 months from the quote request or consultancy request or until withdrawal of consent by the data subject if earlier.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Provision of data is optional and if you decide not to give consent to processing, you will not suffer any negative consequences regarding existing or pending contracts.</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>V.</strong> Personal details and data provided e.g., when completing legally mandatory questionnaires regarding risk profiles</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Compliance with legal obligations to which the controller is subject (art. 6, par. 1, lett. c), GDPR)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Compliance with legal obligations incumbent on the Controller</strong>/ (e.g., regulatory obligations related to the insurance sector, obligations for Website accessibility, etc.)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">10 years or the different term provided by applicable laws</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Provision of personal data is implicit whenever the user browses the Website and/or requests to use the services offered by the Website.</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>VI.</strong> Personal details and pre-contractual data, and any relevant data in the specific case</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Legitimate interest of Acrisure Agricolture S.r.l. and/or third parties to exercise the right of defense and protection of rights and/or interests of Acrisure Agricolture S.r.l. and/or third parties (art. 6, par. 1, lett. f), GDPR).</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Establishment, exercise or defense of a right of Acrisure Agricolture S.r.l. or third parties</strong></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">For the entire time necessary to resolve any litigation or pre-litigation situation until final judgment or expiration of limitation periods.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Provision of personal data is implicit whenever the user browses the Website and/or requests to use the services offered by the Website.</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="privacy-section">
+                <h2>4) DATA COMMUNICATION</h2>
+                <p>The processing of personal data for the purposes described above will be carried out by internal staff specifically appointed by Acrisure Agricolture S.r.l. who will act on the basis of specific instructions provided by the Controller.</p>
+                <p>Furthermore, personal data may also be communicated to the following subjects:</p>
+                <p>a) Insurance agents and subjects who process personal data for the purposes described above on behalf of Acrisure Agricolture S.r.l., specifically appointed as data processors pursuant to art. 28 GDPR (e.g., IT service providers or Website developers);</p>
+                <p>b) Public or private subjects (e.g., insurance companies, banks, legal consultants, public authorities, judicial bodies, revenue agency), who will process personal data as autonomous data controllers.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>5) DATA TRANSFER</h2>
+                <p>Subject to what is provided for data processing through cookies, for which please refer to the <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">relevant cookie policy</a>, no transfer of personal data to countries outside the European Economic Area ("EEA") or to international organizations is envisaged.</p>
+                <p>If such transfer becomes necessary, the measures provided by the GDPR will be implemented, after updating this policy as well.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>6) USER RIGHTS</h2>
+                <p>Pursuant to arts. 15-22 GDPR, data subjects may contact the Controller to exercise specific rights such as:</p>
                 <ul>
-                    <li><strong>Execution of requested services</strong>: response to requests for information, quotes or contacts (legal basis: execution of pre-contractual or contractual measures).</li>
-                    <li><strong>Legal obligations</strong>: fulfillment of obligations under laws, regulations or EU legislation (legal basis: legal obligation).</li>
-                    <li><strong>Marketing</strong>: sending commercial communications, subject to User's consent (legal basis: consent).</li>
-                    <li><strong>Statistics</strong>: anonymous analysis of navigation data to improve the Site (legal basis: legitimate interest).</li>
+                    <li><strong>Right of access</strong>: right to obtain from the Controller confirmation as to whether or not personal data is being processed and, if so, to obtain access to personal data and further information on origin, purpose, categories of data processed, recipients of communication and/or data transfer, etc;</li>
+                    <li><strong>Right to rectification</strong>: right to obtain from the Controller the rectification of inaccurate personal data without undue delay, as well as the completion of incomplete personal data, also by providing a supplementary statement;</li>
+                    <li><strong>Right to erasure</strong>: right to obtain from the Controller the erasure of personal data without undue delay in the case where:
+                        <ul>
+                            <li>the personal data are no longer necessary in relation to the purposes for which they were processed;</li>
+                            <li>the consent on which the processing is based is withdrawn and there is no other legal basis for the processing;</li>
+                            <li>the personal data have been unlawfully processed;</li>
+                            <li>the personal data must be erased to comply with a legal obligation under Union or Member State law to which the controller is subject;</li>
+                        </ul>
+                    </li>
+                    <li><strong>Right to object to processing</strong>: right to object at any time, on grounds relating to your particular situation, to processing of personal data pursuant to Article 6(1)(e) or (f) GDPR, including profiling based on those provisions;</li>
+                    <li><strong>Right to restriction of processing</strong>: right to obtain from the Controller restriction of processing, in cases where the accuracy of the personal data is contested (for the period necessary for the controller to verify the accuracy of such personal data), if the processing is unlawful and/or the data subject has objected to processing;</li>
+                    <li><strong>Right to data portability</strong>: right to receive in a structured, commonly used and machine-readable format the personal data and to transmit those data to another controller, only for cases where processing is based on consent and only for data processed through electronic means.</li>
                 </ul>
+                <p>To exercise these rights, make reports and/or request clarifications on the processing of personal data, data subjects can send an email to: <a href="mailto:agricolture@pec.acrisure.it">agricolture@pec.acrisure.it</a> or a registered letter to: Acrisure Agricolture S.r.l., Via Lovanio, 6 - 00198 Roma.</p>
             </div>
 
             <div class="privacy-section">
-                <h2>Processing Methods</h2>
-                <p>The processing of personal data is carried out using IT and/or telematic tools, with organizational methods and logics strictly related to the indicated purposes.</p>
-                <p>Specific security measures are observed to prevent data loss, illicit or incorrect use and unauthorized access.</p>
-                <p>Data are processed exclusively by authorized personnel and by any external managers appointed as such pursuant to Article 28 GDPR.</p>
+                <h2>7) METHODS OF EXERCISING RIGHTS</h2>
+                <p><strong>We also remind you that you have the right to lodge a complaint with a supervisory authority.</strong> In particular, without prejudice to any other administrative or judicial remedy, a data subject who considers that the processing of personal data relating to him or her infringes the GDPR has the right to lodge a complaint with the supervisory authority of the Member State in which he or she resides or works, or of the place where the alleged infringement occurred. For Italy, the competent Authority is the Garante per la Protezione dei Dati Personali (Italian Data Protection Authority).</p>
             </div>
 
             <div class="privacy-section">
-                <h2>Retention Period</h2>
-                <p>Personal data are retained for the time necessary to achieve the purposes for which they were collected, in particular:</p>
-                <ul>
-                    <li>Data for contractual purposes: for the entire duration of the relationship and subsequently for 10 years to fulfill legal obligations.</li>
-                    <li>Data for marketing purposes: until the data subject revokes consent.</li>
-                    <li>Navigation data: for the time strictly necessary for the collection purpose and in any case no longer than 12 months.</li>
-                </ul>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Data Subjects' Rights</h2>
-                <p>Pursuant to Articles 15-22 GDPR, the User may exercise the following rights:</p>
-                <ul>
-                    <li>Access to their personal data.</li>
-                    <li>Request for rectification or erasure.</li>
-                    <li>Restriction of processing.</li>
-                    <li>Objection to processing.</li>
-                    <li>Data portability.</li>
-                    <li>Withdrawal of consent, where applicable.</li>
-                </ul>
-                <p>Requests should be addressed to the Data Controller at the contacts indicated above. The User also has the right to lodge a complaint with the Data Protection Authority (www.garanteprivacy.it).</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Data Communication and Disclosure</h2>
-                <p>Personal data may be communicated to:</p>
-                <ul>
-                    <li>Subjects within Acrisure Italy's organization, authorized to process data.</li>
-                    <li>External subjects appointed as data processors (e.g. IT service providers, consultants).</li>
-                    <li>Judicial or administrative authorities, in cases provided by law.</li>
-                </ul>
-                <p>Data will not be disclosed, except in anonymous and aggregated form for statistical purposes.</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Extra-EU Data Transfer</h2>
-                <p>Some third-party services used by the Site may involve the transfer of data to countries outside the EU. In such cases, Acrisure Italy adopts the safeguards provided by the GDPR (standard contractual clauses, adequacy decisions).</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Changes to the Privacy Policy</h2>
-                <p>Acrisure Italy reserves the right to make changes to this Policy. Updated versions will be published on the Site with the revision date. Users are invited to periodically consult this page.</p>
-                <p><strong>Last update:</strong> March 31, 2024</p>
+                <h2>8) CHANGES AND UPDATES TO THIS POLICY</h2>
+                <p>Also considering future changes that may occur in the legislation on the protection of personal data, Acrisure Agricolture S.r.l. may integrate and/or update, in whole or in part, this policy. It is understood that any changes, integrations or updates will be communicated in accordance with current legislation, by means of publication on the website <a href="/eng/agricolture-eng.php">Acrisure Agricolture S.r.l.</a></p>
             </div>
         </div>
     </section>

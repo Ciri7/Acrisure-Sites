@@ -786,6 +786,40 @@
             line-height: 1.5;
             margin: 0;
         }
+
+        /* Tabella Privacy */
+        .privacy-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .privacy-table th, .privacy-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .privacy-table th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .privacy-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .privacy-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+        @media (max-width: 768px) {
+            .privacy-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
     </style>
 </head>
 <body>
@@ -834,7 +868,7 @@
             <div class="privacy-section">
                 <h2>PRIVACY POLICY FOR THE WEBSITE</h2>
                 <h3>INTRODUCTION</h3>
-                <p>Pursuant to Regulation (EU) 2016/679 ("GDPR"), Acrisure Services S.r.l. provides this information on the processing of personal data of users who browse the website <a href="/eng/services-eng.php">Acrisure Services S.r.l.</a> ("Website") and who provide their personal data to use the services offered therein.</p>
+                <p>Pursuant to Regulation (EU) 2016/679 ("GDPR"), Acrisure Services S.r.l. provides this information on the processing of personal data of users who browse the website <a href="/eng/services-eng.php">Acrisure Services S.r.l.</a> and who provide their personal data to use the services offered therein.</p>
                 <p>This information does not concern other websites or online services accessible via hyperlinks that may be published on the Website but refer to resources outside the domain.</p>
                 <p>This policy applies to all users, including registered and unregistered visitors, of our site: <a href="/eng/services-eng.php">Acrisure Services S.r.l.</a>. The user is invited to read this information carefully. In case of doubts or questions, the user can contact us at: <a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></p>
             </div>
@@ -935,7 +969,7 @@
 
             <div class="privacy-section">
                 <h2>5) DATA TRANSFER</h2>
-                <p>Without prejudice to what is provided for data processing carried out through cookies, for which we refer to the <a href="/cookies/cookiesServices.php">relevant policy</a>, the transfer of personal data to countries outside the European Economic Area ("EEA") or to international organizations is not envisaged.</p>
+                <p>Without prejudice to what is provided for data processing carried out through cookies, for which we refer to the <a href="/eng/cookies-eng/cookiesServices-eng.php">relevant policy</a>, the transfer of personal data to countries outside the European Economic Area ("EEA") or to international organizations is not envisaged.</p>
                 <p>Should such transfer become necessary, the measures provided by the GDPR will be implemented, after updating this policy as well.</p>
             </div>
 
@@ -1016,9 +1050,10 @@
                 </ul>
                 
                 <div class="legal-links">
+                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
+                    <a href="/eng/Qualità-eng/qualitàServices-eng.php">Qualità</a>
                     <a href="#header">Privacy Policy</a>
                     <a href="/eng/cookies-eng/cookiesServices-eng.php">Cookie Policy</a>
-                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

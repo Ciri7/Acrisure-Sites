@@ -784,6 +784,40 @@
             line-height: 1.5;
             margin: 0;
         }
+
+        /* Tabella Privacy */
+        .privacy-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .privacy-table th, .privacy-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .privacy-table th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .privacy-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .privacy-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+        @media (max-width: 768px) {
+            .privacy-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
     </style>
 </head>
 <body>
@@ -830,94 +864,142 @@
     <section class="section">
         <div class="privacy-content">
             <div class="privacy-section">
-                <h2>Informativa sulla privacy</h2>
-                <p>La presente Informativa sulla privacy descrive le modalità con cui Acrisure Italia S.r.l. ("Acrisure Italia") raccoglie, utilizza, conserva e protegge le informazioni personali degli utenti ("Utente/i") che accedono e utilizzano il sito web <a href="https://www.acrisureitalia.com">www.acrisureitalia.com</a> ("Sito").</p>
-                <p>Questa Informativa è resa ai sensi dell'art. 13 del Regolamento (UE) 2016/679 ("GDPR") e del D.Lgs. 196/2003 ("Codice Privacy") come modificato dal D.Lgs. 101/2018.</p>
+                <h2>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI PER IL SITO</h2>
+                <h3>INTRODUZIONE</h3>
+                <p>Ai sensi del Regolamento (UE) 2016/679 ("GDPR"), Acrisure Re Italia S.r.l. fornisce la presente informativa sul trattamento dei dati personali degli utenti che navigano sul sito web <a href="/re.php">Acrisure Re Italia S.r.l.</a> e che forniscono i propri dati personali per fruire dei servizi ivi offerti.</p>
+                <p>Le presenti informazioni non riguardano altri siti web o servizi online raggiungibili tramite link ipertestuali eventualmente pubblicati sul Sito web ma riferiti a risorse esterne al dominio.</p>
+                <p>La presente informativa si applica a tutti gli utenti, tra cui visitatori registrati e non registrati, del nostro sito: <a href="/re.php">Acrisure Re Italia S.r.l.</a>. Si invita l'utente a leggere attentamente la presente informativa. In caso di dubbi o domande l'utente potrà contattarci all'indirizzo: <a href="mailto:acrisurereitalia@pec.it">acrisurereitalia@pec.it</a></p>
             </div>
 
             <div class="privacy-section">
-                <h2>Titolare del trattamento</h2>
-                <p>Il Titolare del trattamento dei dati è:</p>
-                <p><strong>Acrisure Italia S.r.l.</strong><br>
-                Via Giuseppe Mazzini, 3 - 07100 Sassari<br>
-                P.IVA: 13147890969<br>
-                REA: MI-2616058<br>
-                Email: <a href="mailto:info@acrisure.it">info@acrisure.it</a><br>
-                PEC: <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></p>
+                <h2>1) TITOLARE DEL TRATTAMENTO E RESPONSABILE DELLA PROTEZIONE DEI DATI</h2>
+                <p><strong>Titolare del Trattamento</strong> è Acrisure Re Italia S.r.l., Via Mazzini 3, 07100, Sassari</p>
+                <p><strong>Responsabile per la protezione dati (DPO)</strong> è dott. Alessandro Asole, Z.I Predda Niedda str 1, raggiungibile al seguente indirizzo: <a href="mailto:privacy@prismaquality.com">privacy@prismaquality.com</a></p>
             </div>
 
             <div class="privacy-section">
-                <h2>Tipologie di dati raccolti</h2>
-                <p>Tra i Dati Personali raccolti da questo Sito, in modo autonomo o tramite terze parti, ci sono:</p>
+                <h2>2) DATI PERSONALI TRATTATI</h2>
+                <p>Acrisure Re Italia S.r.l. tratterà i seguenti dati personali degli utenti:</p>
+                
+                <h3>a) dati di navigazione</h3>
+                <p>Vale a dire, dati personali la cui trasmissione è implicita nell'uso dei protocolli di comunicazione di Internet.</p>
+                <p>In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computer utilizzati dagli utenti che si connettono al sito, gli indirizzi in notazione URI (Uniform Resource Identifier) delle risorse richieste, l'orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server ed altri parametri relativi al sistema operativo e all'ambiente informatico dell'utente nonché, per quanto riguarda l'utilizzo dei servizi connessi, i dati anagrafici dell'utente. Per i dati personali trattati tramite l'utilizzo dei cookie, si rinvia alla <a href="/cookies/cookiesRe.php">relativa informativa</a>.</p>
+                
+                <h3>b) dati comunicati dall'utente</h3>
+                <p>Vale a dire, tutti i dati che l'utente deciderà di condividere con Acrisure Re Italia S.r.l. per fruire dei servizi disponibili sul Sito web. In particolare, al fine di usufruire dei servizi offerti sul Sito web gli interessati potranno comunicare:</p>
                 <ul>
-                    <li><strong>Dati di navigazione</strong>: i sistemi informatici e le procedure software preposte al funzionamento di questo Sito acquisiscono, nel normale esercizio, alcuni dati personali la cui trasmissione è implicita nell'uso dei protocolli di comunicazione Internet.</li>
-                    <li><strong>Dati forniti volontariamente dall'utente</strong>: l'invio facoltativo, esplicito e volontario di messaggi agli indirizzi di contatto, nonché la compilazione e l'inoltro dei moduli presenti sul Sito, comportano l'acquisizione dei dati personali inseriti, necessari per rispondere alle richieste.</li>
-                    <li><strong>Cookie</strong>: il Sito utilizza cookie per garantire una migliore esperienza di navigazione. Per maggiori informazioni, consulta la nostra <a href="cookies.php" class="page-transition-link">Cookie Policy</a>.</li>
+                    <li>dati anagrafici e di contatto (es. nome, cognome, e-mail, telefono) forniti tramite la sezione "Contatti";</li>
+                    <li>dati contenuti nel curriculum vitae trasmesso tramite la sezione "Lavora con noi";</li>
+                    <li>altri dati che potranno essere richiesti in futuro attraverso nuove sezioni o servizi del Sito web (a titolo meramente esemplificativo e non esaustivo ad esempio, iscrizioni a newsletter, registrazioni ad aree riservate o analoghi strumenti di interazione);</li>
+                    <li>dati presenti nei messaggi inviati a Acrisure Re Italia S.r.l. per richiedere informazioni.</li>
                 </ul>
             </div>
 
             <div class="privacy-section">
-                <h2>Finalità e base giuridica del trattamento</h2>
-                <p>I dati personali sono trattati per le seguenti finalità:</p>
+                <h2>3) TIPOLOGIA DEI DATI TRATTATI, BASE GIURIDICA, FINALITA' DEL TRATTAMENTO, TEMPI DI CONSERVAZIONE, OBBLIGATORIETA' DEL CONFERIMENTO</h2>
+                
+                <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+                    <thead>
+                        <tr style="background-color: var(--secondary); color: white;">
+                            <th style="border: 1px solid #ddd; padding: 8px;">TIPOLOGIA DEI DATI TRATTATI</th>
+                            <th style="border: 1px solid #ddd; padding: 8px;">BASE GIURIDICA</th>
+                            <th style="border: 1px solid #ddd; padding: 8px;">FINALITÀ DEL TRATTAMENTO</th>
+                            <th style="border: 1px solid #ddd; padding: 8px;">TEMPI DI CONSERVAZIONE</th>
+                            <th style="border: 1px solid #ddd; padding: 8px;">OBBLIGATORIETÀ CONFERIMENTO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>I.</strong> Dati di navigazione cookie tecnici (strettamente necessari) e cookie analitici</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">art. 130 D.lgs. 196/2003</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>Erogazione del contenuto del Sito web e analisi statistiche aggregate</strong></td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Si rinvia a quanto riportato nell'<a href="/cookies/cookiesRe.php">informativa cookie</a>.</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Si rinvia a quanto riportato nell'<a href="/cookies/cookiesRe.php">informativa cookie</a>.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>II.</strong> Dati anagrafici e di contatto Dati attinenti al bene che si intende assicurare</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Esecuzione di un contratto o di misure precontrattuali richieste dall'interessato (art. 6, par. 1, lett. b), GDPR)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>Erogazione dei servizi di "Richiesta di informazioni" e "richiesta di assistenza" nell'area "contattaci" Erogazione dei servizi di "consulenza"</strong></td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">2 anni dalla richiesta del servizio e dalla richiesta di preventivo (per i prospect) 10 anni dalla cessazione del rapporto contrattuale (per i clienti)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Il mancato conferimento dei dati comporterà l'impossibilità per Acrisure Re Italia S.r.l. di erogare i servizi richiesti, ma non influirà sulla fruizione del Sito web da parte dell'utente.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>III.</strong> Dati personali comuni forniti dall'interessato, compresi quelli inerenti recapiti e contatti.</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Consenso dell'interessato (art. 6, par. 1, lett. a), GDPR)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>MARKETING</strong> (a titolo esemplificativo e non esaustivo: invio di comunicazioni promozionali, vendita diretta, targeting e re-targeting, compimento di ricerche di mercato mediante modalità automatizzate e digitali ad es. SMS, Posta elettronica, App di messaggistica istantanea...)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">24 mesi dalla richiesta di preventivo o dalla richiesta di consulenza ovvero fino alla revoca del consenso dell'interessato se precedente.</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Il conferimento dei dati è facoltativo e nel caso in cui decida di non prestare il consenso al trattamento lei non subirà alcuna conseguenza negativa riguardo al contratto in essere ovvero in corso di costituzione.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>IV.</strong> - dati personali, da lei forniti e/o acquisiti da terzi (con esclusione dei dati di categorie particolari), - dati di contatto (mail e telefono) - dati acquisiti tramite questionari su bisogni, interessi e preferenze, allo scopo di analizzare aspetti riguardanti, tra gli altri, situazione economica, preferenze personali, interessi, abitudini, comportamento, e per migliorare l'offerta della Società stessa e dalle Società del gruppo di appartenenza.</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Consenso dell'interessato (art. 6, par. 1, lett. a), GDPR)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>PROFILAZIONE</strong> (trattamento automatizzato di dati personali per analizzare o prevedere aspetti riguardanti la situazione economica, le preferenze personali, gli interessi, il comportamento ai fini dell'attività di marketing)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">12 mesi dalla richiesta di preventivo o dalla richiesta di consulenza ovvero fino alla revoca del consenso dell'interessato se precedente.</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Il conferimento dei dati è facoltativo e nel caso in cui decida di non prestare il consenso al trattamento lei non subirà alcuna conseguenza negativa riguardo al contratto in essere ovvero in corso di costituzione.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>V.</strong> Dati anagrafici e dati forniti ad esempio in occasione della compilazione obbligatoria per legge di questionari relativi ai suoi profili di rischio</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Adempimento di obblighi legali cui è soggetto il titolare del trattamento (art. 6, par. 1, lett. c), GDPR)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>Adempimento di obblighi legali gravanti sul Titolare</strong> (es. obblighi regolamentari relativi al settore assicurativo, obblighi per l'accessibilità del Sito web, etc.)</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">10 anni oppure il diverso termine previsto dalle norme di legge applicabili</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Il conferimento dei dati personali è implicito ogniqualvolta l'utente navighi sul Sito web e/o richieda di usufruire dei servizi offerti dal Sito web.</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>VI.</strong> Dati anagrafici e precontrattuali, e qualsiasi dato rilevante nel caso concreto</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Legittimo interesse di Acrisure Re Italia S.r.l. e/o di terzi ad esercitare il diritto di difesa e di tutela di diritti e/o interessi di Acrisure Re Italia S.r.l. e/o di terzi (art. 6, par. 1, lett. f), GDPR).</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;"><strong>Accertamento, esercizio o difesa di un diritto di Acrisure Re Italia S.r.l. o di terzi</strong></td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Per tutto il tempo necessario alla definizione dell'eventuale situazione contenziosa o precontenziosa fino al definitivo passaggio in giudicato o decorso dei tempi di prescrizione.</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Il conferimento dei dati personali è implicito ogniqualvolta l'utente navighi sul Sito web e/o richieda di usufruire dei servizi offerti dal Sito web.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="privacy-section">
+                <h2>4) COMUNICAZIONE DEI DATI</h2>
+                <p>Il trattamento dei dati personali per le finalità sopra illustrate sarà effettuato dal personale interno appositamente incaricato di Acrisure Re Italia S.r.l. che agirà sulla base di specifiche istruzioni fornite dal Titolare stesso.</p>
+                <p>Inoltre, i dati personali potranno essere comunicati anche ai seguenti soggetti:</p>
                 <ul>
-                    <li><strong>Esecuzione di servizi richiesti</strong>: risposta a richieste di informazioni, preventivi o contatti (base giuridica: esecuzione di misure precontrattuali o contrattuali).</li>
-                    <li><strong>Adempimenti legali</strong>: adempimento di obblighi previsti da leggi, regolamenti o normativa comunitaria (base giuridica: obbligo legale).</li>
-                    <li><strong>Marketing</strong>: invio di comunicazioni commerciali, previo consenso dell'Utente (base giuridica: consenso).</li>
-                    <li><strong>Statistiche</strong>: analisi anonima dei dati di navigazione per migliorare il Sito (base giuridica: legittimo interesse).</li>
+                    <li>a) Agenti di assicurazione e soggetti che trattano i dati personali per le finalità sopra illustrate per conto di Acrisure Re Italia S.r.l., appositamente nominati responsabili del trattamento ai sensi dell'art. 28 GDPR (ad esempio, fornitori di servizi IT o sviluppatori del Sito web);</li>
+                    <li>b) soggetti pubblici o privati (a titolo meramente esemplificativo, assicurazioni, banche, consulenti legali, pubbliche autorità, organi giudiziari, agenzia delle entrate), che tratteranno i dati personali in qualità di autonomi titolari del trattamento.</li>
                 </ul>
             </div>
 
             <div class="privacy-section">
-                <h2>Modalità del trattamento</h2>
-                <p>Il trattamento dei dati personali è effettuato mediante strumenti informatici e/o telematici, con modalità organizzative e con logiche strettamente correlate alle finalità indicate.</p>
-                <p>Specifiche misure di sicurezza sono osservate per prevenire la perdita dei dati, usi illeciti o non corretti e accessi non autorizzati.</p>
-                <p>I dati sono trattati esclusivamente da personale autorizzato e da eventuali responsabili esterni nominati come tali ai sensi dell'art. 28 GDPR.</p>
+                <h2>5) TRASFERIMENTO DEI DATI</h2>
+                <p>Fermo quanto previsto per il trattamento dei dati effettuato tramite cookie, per il quale si rinvia alla <a href="/cookies/cookiesRe.php">relativa informativa</a>, non è previsto il trasferimento dei dati personali verso Paesi non appartenenti allo Spazio Economico Europeo ("SEE") o verso organizzazioni internazionali.</p>
+                <p>Qualora tale trasferimento dovesse rendersi necessario, saranno messe in atto le misure previste dal GDPR, previo aggiornamento anche della presente informativa.</p>
             </div>
 
             <div class="privacy-section">
-                <h2>Periodo di conservazione</h2>
-                <p>I dati personali sono conservati per il tempo necessario al conseguimento delle finalità per le quali sono stati raccolti, in particolare:</p>
+                <h2>6) DIRITTI DELL'UTENTE</h2>
+                <p>Ai sensi degli artt. 15-22 GDPR, gli interessati possono rivolgersi al Titolare per esercitare specifici diritti quali:</p>
                 <ul>
-                    <li>Dati per finalità contrattuali: per tutta la durata del rapporto e successivamente per 10 anni per adempiere agli obblighi di legge.</li>
-                    <li>Dati per finalità di marketing: fino alla revoca del consenso da parte dell'interessato.</li>
-                    <li>Dati di navigazione: per il tempo strettamente necessario alla finalità di raccolta e comunque non oltre 12 mesi.</li>
+                    <li><strong>Diritto di accesso</strong>: diritto di ottenere dal Titolare la conferma che sia o meno in corso un trattamento di dati personali e, in tal caso, di ottenere l'accesso ai dati personali e ad ulteriori informazioni su origine, finalità, categoria di dati trattati, destinatari di comunicazione e/o trasferimento dei dati, etc;</li>
+                    <li><strong>Diritto di rettifica</strong>: diritto di ottenere dal Titolare la rettifica dei dati personali inesatti senza ingiustificato ritardo, nonché l'integrazione dei dati personali incompleti, anche fornendo una dichiarazione integrativa;</li>
+                    <li><strong>Diritto alla cancellazione</strong>: diritto di ottenere dal Titolare la cancellazione dei dati personali senza ingiustificato ritardo nel caso in cui:
+                        <ul>
+                            <li>i dati personali non sono più necessari rispetto alle finalità del trattamento;</li>
+                            <li>il consenso su cui si basa il trattamento è revocato e non sussiste altro fondamento giuridico per il trattamento;</li>
+                            <li>i dati personali sono stati trattati illecitamente;</li>
+                            <li>i dati personali devono essere cancellati per adempiere un obbligo legale previsto dal diritto dell'Unione o dello Stato membro cui è soggetto il titolare del trattamento;</li>
+                        </ul>
+                    </li>
+                    <li><strong>Diritto di opposizione al trattamento</strong>: diritto di opporsi in qualsiasi momento, per motivi connessi alla propria situazione particolare, al trattamento dei dati personali di cui all'art. 6, co. 1, lett. e) o f), GDPR, compresa la profilazione sulla base di tali disposizioni;</li>
+                    <li><strong>Diritto di limitazione di trattamento</strong>: diritto di ottenere dal Titolare la limitazione del trattamento, nei casi in cui sia contestata l'esattezza dei dati personali (per il periodo necessario al titolare del trattamento per verificare l'esattezza di tali dati personali), se il trattamento è illecito e/o l'interessato si è opposto al trattamento;</li>
+                    <li><strong>Diritto alla portabilità dei dati</strong>: diritto di ricevere in un formato strutturato, di uso comune e leggibile da dispositivo automatico i dati personali e di trasmettere tali dati ad altro titolare del trattamento, solo per i casi in cui il trattamento sia basato sul consenso e per i soli dati trattati tramite strumenti elettronici.</li>
                 </ul>
+                <p>Per esercitare tali diritti, effettuare segnalazioni e/o chiedere chiarimenti sul trattamento dei dati personali, gli interessati possono inviare una e-mail all'indirizzo: <a href="mailto:acrisurereitalia@pec.it">acrisurereitalia@pec.it</a> oppure una raccomandata all'indirizzo: Acrisure Re Italia S.r.l., Via Mazzini 3, 07100, Sassari.</p>
             </div>
 
             <div class="privacy-section">
-                <h2>Diritti degli interessati</h2>
-                <p>Ai sensi degli artt. 15-22 GDPR, l'Utente può esercitare i seguenti diritti:</p>
-                <ul>
-                    <li>Accesso ai propri dati personali.</li>
-                    <li>Richiesta di rettifica o cancellazione.</li>
-                    <li>Limitazione del trattamento.</li>
-                    <li>Opposizione al trattamento.</li>
-                    <li>Portabilità dei dati.</li>
-                    <li>Revoca del consenso, ove previsto.</li>
-                </ul>
-                <p>Le richieste vanno indirizzate al Titolare ai contatti sopra indicati. L'Utente ha inoltre il diritto di proporre reclamo all'Autorità Garante per la protezione dei dati personali (www.garanteprivacy.it).</p>
+                <h2>7) MODALITÀ DI ESERCIZIO DEI DIRITTI</h2>
+                <p><strong>Le ricordiamo inoltre che ha il diritto di proporre reclamo a un'autorità di controllo.</strong> In particolare, fatto salvo ogni altro ricorso amministrativo o giurisdizionale, l'interessato che ritenga che il trattamento che lo riguarda violi il GDPR ha il diritto di proporre reclamo all'autorità di controllo dello Stato membro in cui risiede o lavora abitualmente, ovvero dello Stato in cui si è verificata la presunta violazione. Per l'Italia, l'Autorità competente è il Garante per la Protezione dei Dati Personali</p>
             </div>
 
             <div class="privacy-section">
-                <h2>Comunicazione e diffusione dei dati</h2>
-                <p>I dati personali potranno essere comunicati a:</p>
-                <ul>
-                    <li>Soggetti interni all'organizzazione di Acrisure Italia, autorizzati al trattamento.</li>
-                    <li>Soggetti esterni nominati responsabili del trattamento (es. fornitori di servizi IT, consulenti).</li>
-                    <li>Autorità giudiziarie o amministrative, nei casi previsti dalla legge.</li>
-                </ul>
-                <p>I dati non saranno diffusi, se non in forma anonima e aggregata per finalità statistiche.</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Trasferimento dati extra UE</h2>
-                <p>Alcuni servizi terzi utilizzati dal Sito potrebbero comportare il trasferimento di dati in Paesi extra UE. In tali casi, Acrisure Italia adotta le garanzie previste dal GDPR (clausole contrattuali standard, decisioni di adeguatezza).</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>Modifiche alla privacy policy</h2>
-                <p>Acrisure Italia si riserva il diritto di apportare modifiche alla presente Informativa. Le versioni aggiornate saranno pubblicate sul Sito con l'indicazione della data di revisione. Si invita l'Utente a consultare periodicamente questa pagina.</p>
-                <p><strong>Ultimo aggiornamento:</strong> 31 marzo 2024</p>
+                <h2>8) MODIFICHE E AGGIORNAMENTI DELLA PRESENTE INFORMATIVA</h2>
+                <p>Anche in considerazione dei futuri cambiamenti che potranno intervenire sulla normativa in materia di protezione dei dati personali, Acrisure Re Italia S.r.l. potrà integrare e/o aggiornare, in tutto o in parte, la presente informativa. Resta inteso che qualunque modifica, integrazione o aggiornamento le sarà comunicato in conformità alla normativa vigente, a mezzo pubblicazione sul sito internet <a href="/re.php">Acrisure Re Italia S.r.l.</a></p>
             </div>
         </div>
     </section>

@@ -868,7 +868,7 @@
             <div class="privacy-section">
                 <h2>INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI PER IL SITO</h2>
                 <h3>INTRODUZIONE</h3>
-                <p>Ai sensi del Regolamento (UE) 2016/679 ("GDPR"), Acrisure Services S.r.l. fornisce la presente informativa sul trattamento dei dati personali degli utenti che navigano sul sito web <a href="/services.php">Acrisure Services S.r.l.</a> ("Sito web") e che forniscono i propri dati personali per fruire dei servizi ivi offerti.</p>
+                <p>Ai sensi del Regolamento (UE) 2016/679 ("GDPR"), Acrisure Services S.r.l. fornisce la presente informativa sul trattamento dei dati personali degli utenti che navigano sul sito web <a href="/services.php">Acrisure Services S.r.l.</a> e che forniscono i propri dati personali per fruire dei servizi ivi offerti.</p>
                 <p>Le presenti informazioni non riguardano altri siti web o servizi online raggiungibili tramite link ipertestuali eventualmente pubblicati sul Sito web ma riferiti a risorse esterne al dominio.</p>
                 <p>La presente informativa si applica a tutti gli utenti, tra cui visitatori registrati e non registrati, del nostro sito: <a href="/services.php">Acrisure Services S.r.l.</a>. Si invita l'utente a leggere attentamente la presente informativa. In caso di dubbi o domande l'utente potrà contattarci all'indirizzo: <a href="mailto:acrisureservices@pec.acrisureservices.com">acrisureservices@pec.acrisureservices.com</a></p>
             </div>

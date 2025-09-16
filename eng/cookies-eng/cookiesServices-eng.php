@@ -849,9 +849,10 @@
                 </ul>
                 
                 <div class="legal-links">
+                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
+                    <a href="/eng/Qualità-eng/qualitàServices-eng.php">Qualità</a>
                     <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a>
                     <a href="#header">Cookie Policy</a>
-                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

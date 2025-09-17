@@ -797,7 +797,7 @@
             color: var(--accent);
         }
 
-                /* Tabella Privacy */
+        /* Tabella Privacy */
         .privacy-table {
             width: 100%;
             border-collapse: collapse;

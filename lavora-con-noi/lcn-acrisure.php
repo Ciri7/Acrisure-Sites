@@ -1802,8 +1802,13 @@
                 modal.style.display = 'block';
                 document.body.classList.add('no-scroll');
                 
-                // Imposta la posizione di scroll immediatamente
-                window.scrollTo(0, scrollY);
+                // Mantieni l'header visibile
+                const header = document.getElementById('header');
+                if (header) {
+                    header.style.position = 'fixed';
+                    header.style.width = '100%';
+                    header.style.top = '0';
+                }
             }
         }
 
@@ -1812,6 +1817,14 @@
             if (modal) {
                 modal.style.display = 'none';
                 document.body.classList.remove('no-scroll');
+                
+                // Ripristina lo stile dell'header
+                const header = document.getElementById('header');
+                if (header) {
+                    header.style.position = '';
+                    header.style.width = '';
+                    header.style.top = '';
+                }
                 
                 // Ripristina la posizione di scroll dopo aver chiuso il modale
                 if (document.body.dataset.scrollY) {
@@ -1831,10 +1844,9 @@
             const modals = document.querySelectorAll('.modal');
             modals.forEach(modal => {
                 if (event.target === modal) {
-                    modal.style.display = 'none';
-                    document.body.classList.remove('no-scroll');
-                    // Ripristina la posizione di scroll dopo aver chiuso il modale
-                    window.scrollTo(0, document.body.dataset.scrollY || 0);
+                    // Salva la posizione prima di chiudere
+                    document.body.dataset.scrollY = window.scrollY;
+                    closeModal(modal.id);
                 }
             });
         });

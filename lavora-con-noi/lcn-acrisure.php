@@ -1358,7 +1358,7 @@
                 </div>
                 <h3 class="benefit-title">Team Building</h3>
                 <p class="benefit-description">Migliorare la collaborazione e creare un ambiente di lavoro coeso e motivante.</p>
-                <a href="javascript:void(0)" class="benefit-link" onclick="openModal('modal-team-building')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="benefit-link" onclick="openModal('modal-team-building', event)">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
             
             <!-- Sala Relax & Reset Zone -->
@@ -1368,7 +1368,7 @@
                 </div>
                 <h3 class="benefit-title">Relax & Reset Zone</h3>
                 <p class="benefit-description">I nostri spazi dedicati al relax e alla pausa pranzo.</p>
-                <a href="javascript:void(0)" class="benefit-link" onclick="openModal('modal-sala-relax')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="benefit-link" onclick="openModal('modal-sala-relax', event)">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
             
             <!-- Eventi -->
@@ -1378,7 +1378,7 @@
                 </div>
                 <h3 class="benefit-title">Eventi</h3>
                 <p class="benefit-description">I nostri eventi e la condivisione di momenti speciali e indimenticabili con i nostri partner.</p>
-                <a href="javascript:void(0)" class="benefit-link" onclick="openModal('modal-eventi')">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="benefit-link" onclick="openModal('modal-eventi', event)">Scopri di più <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -1773,7 +1773,11 @@
 
     <script>
         // Funzioni per gestire i modali
-        function openModal(modalId) {
+        function openModal(modalId, event) {
+            if (event) {
+                event.preventDefault(); // Previene il comportamento predefinito del link
+            }
+            
             const modal = document.getElementById(modalId);
             if (modal) {
                 modal.style.display = 'block';
@@ -1789,7 +1793,9 @@
                 modal.style.display = 'none';
                 document.body.classList.remove('no-scroll');
                 // Ripristina la posizione di scroll dopo aver chiuso il modale
-                window.scrollTo(0, document.body.dataset.scrollY || 0);
+                if (document.body.dataset.scrollY) {
+                    window.scrollTo(0, parseInt(document.body.dataset.scrollY));
+                }
             }
         }
 

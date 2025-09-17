@@ -1782,15 +1782,15 @@
         // Funzioni per gestire i modali
         function openModal(modalId, event) {
             if (event) {
-                event.preventDefault(); // Previene il comportamento predefinito del link
+                // Salva prima la posizione di scroll, poi previeni il comportamento predefinito
+                document.body.dataset.scrollY = window.scrollY;
+                event.preventDefault(); // Previeni il comportamento predefinito del link
             }
             
             const modal = document.getElementById(modalId);
             if (modal) {
                 modal.style.display = 'block';
                 document.body.classList.add('no-scroll');
-                // Memorizza la posizione di scroll prima di aprire il modale
-                document.body.dataset.scrollY = window.scrollY;
             }
         }
 

@@ -1304,6 +1304,13 @@
             background-color: var(--primary);
             transform: translateY(-2px);
         }
+
+        /* Aggiungi questo stile per prevenire lo scroll quando il modale è aperto */
+        body.modal-open {
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+        }
     </style>
 </head>
 <body>

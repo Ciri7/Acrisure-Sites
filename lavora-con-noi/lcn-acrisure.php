@@ -1311,6 +1311,13 @@
             position: fixed;
             width: 100%;
         }
+        
+        /* Aggiungi questo stile per prevenire lo scroll quando il modale è aperto */
+        body.no-scroll {
+            position: fixed;
+            width: 100%;
+            top: var(--scroll-top, 0);
+        }
     </style>
 </head>
 <body>
@@ -1782,15 +1789,21 @@
         // Funzioni per gestire i modali
         function openModal(modalId, event) {
             if (event) {
-                // Salva prima la posizione di scroll, poi previeni il comportamento predefinito
-                document.body.dataset.scrollY = window.scrollY;
                 event.preventDefault(); // Previeni il comportamento predefinito del link
             }
+            
+            // Salva la posizione di scroll corrente
+            const scrollY = window.scrollY;
+            document.body.dataset.scrollY = scrollY;
+            document.body.style.setProperty('--scroll-top', `-${scrollY}px`);
             
             const modal = document.getElementById(modalId);
             if (modal) {
                 modal.style.display = 'block';
                 document.body.classList.add('no-scroll');
+                
+                // Imposta la posizione di scroll immediatamente
+                window.scrollTo(0, scrollY);
             }
         }
 
@@ -1799,9 +1812,16 @@
             if (modal) {
                 modal.style.display = 'none';
                 document.body.classList.remove('no-scroll');
+                
                 // Ripristina la posizione di scroll dopo aver chiuso il modale
                 if (document.body.dataset.scrollY) {
-                    window.scrollTo(0, parseInt(document.body.dataset.scrollY));
+                    const scrollY = parseInt(document.body.dataset.scrollY);
+                    window.scrollTo(0, scrollY);
+                    
+                    // Forza un altro reset dopo un breve ritardo
+                    setTimeout(() => {
+                        window.scrollTo(0, scrollY);
+                    }, 10);
                 }
             }
         }

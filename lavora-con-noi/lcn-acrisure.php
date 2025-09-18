@@ -1446,7 +1446,7 @@
                     </div>
 
                     <div class="gallery-item">
-                        <img src="/img/hero TB.jpeg" alt="Yoga & Sup" class="gallery-image">
+                        <img src="/img/hero TB.jpeg" alt="Yoga & Sup" class="gallery-image2">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Yoga & Sup</h3>
                             <p class="gallery-description">Attività wellness per il benessere del team per la cura dei clienti</p>

@@ -516,7 +516,7 @@
         
         .modal-header {
             position: relative;
-            height: 250px;
+            height: 300px;
             overflow: hidden;
         }
         

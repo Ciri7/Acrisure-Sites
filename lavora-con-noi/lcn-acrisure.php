@@ -532,7 +532,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: bottom;
+            object-position: top;
             filter: brightness(0.7);
         }
         
@@ -1411,7 +1411,7 @@
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
             <div class="modal-header">
-                <img src="/img/hero TB.jpeg" alt="Team Building" class="modal-header-image2">
+                <img src="/img/TeamBuilding.jpg" alt="Team Building" class="modal-header-image2">
                 <div class="modal-header-content">
                     <h2 class="modal-title">Team Building</h2>
                     <p class="modal-subtitle">Costruiamo insieme relazioni solide e un team coeso</p>
@@ -1438,7 +1438,7 @@
                     </div>
 
                     <div class="gallery-item">
-                        <img src="/img/yoga-sup.jpg" alt="Yoga & Sup" class="gallery-image">
+                        <img src="/img/hero TB.jpeg" alt="Yoga & Sup" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Yoga & Sup</h3>
                             <p class="gallery-description">Attività wellness per il benessere del team per la cura dei clienti</p>

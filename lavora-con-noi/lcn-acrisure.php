@@ -527,6 +527,14 @@
             object-position: center;
             filter: brightness(0.7);
         }
+
+        .modal-header-image2 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            filter: brightness(0.7);
+        }
         
         .modal-header-content {
             position: absolute;
@@ -1403,7 +1411,7 @@
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
             <div class="modal-header">
-                <img src="/img/hero TB.jpeg" alt="Team Building" class="modal-header-image">
+                <img src="/img/hero TB.jpeg" alt="Team Building" class="modal-header-image2">
                 <div class="modal-header-content">
                     <h2 class="modal-title">Team Building</h2>
                     <p class="modal-subtitle">Costruiamo insieme relazioni solide e un team coeso</p>

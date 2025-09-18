@@ -1402,7 +1402,7 @@
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
             <div class="modal-header">
-                <img src="/img/team-building.jpg" alt="Team Building" class="modal-header-image">
+                <img src="/img/hero TB.jpeg" alt="Team Building" class="modal-header-image">
                 <div class="modal-header-content">
                     <h2 class="modal-title">Team Building</h2>
                     <p class="modal-subtitle">Costruiamo insieme relazioni solide e un team coeso</p>
@@ -1413,10 +1413,26 @@
                 
                 <div class="gallery-container">
                     <div class="gallery-item">
+                        <img src="/img/acrichef.jpg" alt="Natura & Avventura" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Natura & Avventura</h3>
+                            <p class="gallery-description">Un immersione totale nella natura tra sfide avvincenti</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
                         <img src="/img/acrichef.jpg" alt="Acrichef" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Acrichef</h3>
-                            <p class="gallery-description">Cucina di squadra per rafforzare la collaborazione</p>
+                            <p class="gallery-description">Sfida di cucina tra squadre per rafforzare la collaborazione</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="/img/yoga-sup.jpg" alt="Yoga & Sup" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Yoga & Sup</h3>
+                            <p class="gallery-description">Attività wellness per il benessere del team per la cura dei clienti</p>
                         </div>
                     </div>
                     
@@ -1425,14 +1441,6 @@
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Pulizia Spiagge</h3>
                             <p class="gallery-description">Impegno sociale e ambientale per il nostro territorio</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="/img/yoga-sup.jpg" alt="Yoga & Sup" class="gallery-image">
-                        <div class="gallery-caption">
-                            <h3 class="gallery-title">Yoga & Sup</h3>
-                            <p class="gallery-description">Attività wellness per il benessere del team</p>
                         </div>
                     </div>
                 </div>
@@ -1445,7 +1453,7 @@
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-sala-relax')">&times;</button>
             <div class="modal-header">
-                <img src="/img/sala-relax.jpg" alt="Sala Relax & Reset Zone" class="modal-header-image">
+                <img src="/img/hero RELAX.jpeg" alt="Sala Relax & Reset Zone" class="modal-header-image">
                 <div class="modal-header-content">
                     <h2 class="modal-title">Sala Relax & Reset Zone</h2>
                     <p class="modal-subtitle">Il tuo spazio per ricaricarti e connetterti con i colleghi</p>
@@ -1463,11 +1471,6 @@
                     <div class="modal-feature-card">
                         <h3><i class="fas fa-couch"></i> Zona Relax</h3>
                         <p class="feature-description">Comode poltrone e divani dove rilassarsi durante le pause e ricaricare le energie.</p>
-                    </div>
-                    
-                    <div class="modal-feature-card">
-                        <h3><i class="fas fa-gamepad"></i> Area Intrattenimento</h3>
-                        <p class="feature-description">Videogiochi, giochi da tavolo e attività ricreative per momenti di divertimento condiviso.</p>
                     </div>
                 </div>
             </div>
@@ -1500,8 +1503,8 @@
                     <div class="gallery-item">
                         <img src="/img/evento-lancio.jpg" alt="Evento di Lancio" class="gallery-image">
                         <div class="gallery-caption">
-                            <h3 class="gallery-title">Evento di Lancio</h3>
-                            <p class="gallery-description">Presentazione di nuovi progetti e obiettivi</p>
+                            <h3 class="gallery-title">Acrisure Experience</h3>
+                            <p class="gallery-description">Valorizziamo i nostri legami potenziando le nostre strategie di business</p>
                         </div>
                     </div>
                     
@@ -1509,7 +1512,15 @@
                         <img src="/img/evento-premiazioni.jpg" alt="Premiazioni" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Premiazioni</h3>
-                            <p class="gallery-description">Riconoscimenti per i risultati eccellenti</p>
+                            <p class="gallery-description">Riconoscimenti per i nostri risultati e per il nostro impegno nel sociale</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="/img/evento-premiazioni.jpg" alt="Convegni" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Convegni</h3>
+                            <p class="gallery-description">Confronto sui trend e opportunità del settore</p>
                         </div>
                     </div>
                 </div>
@@ -1668,6 +1679,7 @@
                             <option value="Fleet Manager">Fleet Manager</option>
                             <option value="Compliance Officer">Compliance Officer</option>
                             <option value="Sviluppatore Software">Sviluppatore Software</option>
+                            <option value="Candidatura Spontanea">Candidatura Spontanea</option>
                             <option value="Altro">Altro</option>
                         </select>
                     </div>

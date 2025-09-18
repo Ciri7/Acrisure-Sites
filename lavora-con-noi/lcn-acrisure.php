@@ -1256,8 +1256,16 @@
             object-fit: cover;
             transition: transform 0.5s ease;
         }
+
+        .gallery-image2 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            transition: transform 0.5s ease;
+        }
         
-        .gallery-item:hover .gallery-image {
+        .gallery-item:hover .gallery-image .gallery-image2 {
             transform: scale(1.05);
         }
         
@@ -1411,7 +1419,7 @@
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
             <div class="modal-header">
-                <img src="/img/TeamBuilding.jpg" alt="Team Building" class="modal-header-image2">
+                <img src="/img/TeamBuilding.jpg" alt="Team Building" class="modal-header-image">
                 <div class="modal-header-content">
                     <h2 class="modal-title">Team Building</h2>
                     <p class="modal-subtitle">Costruiamo insieme relazioni solide e un team coeso</p>

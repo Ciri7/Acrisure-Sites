@@ -1793,7 +1793,7 @@
                 <!-- <div class="footer-badge">.
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
+                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>.
                 </div> -->
                 
                 <div class="legal-links">

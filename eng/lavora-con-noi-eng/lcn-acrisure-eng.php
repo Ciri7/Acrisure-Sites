@@ -386,14 +386,14 @@
             transform: translateX(5px);
         }
 
-        /* Benefits Section */
+        /* Benefits Section - MODIFICATA */
         .benefits-section {
             background-color: transparent;
         }
         
         .benefits-grid {
             display: grid;
-            grid-template-columns: repeat(3, minmax(200px, 1fr));
+            grid-template-columns: repeat(3, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
@@ -401,10 +401,13 @@
         .benefit-card {
             background-color: white;
             border-radius: 10px;
-            padding: 2rem;
+            padding: 2.5rem;
             text-align: center;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 450px; /* Altezza aumentata per i blocchi verticali */
         }
         
         .benefit-card:hover {
@@ -413,20 +416,221 @@
         }
         
         .benefit-icon {
-            font-size: 2.5rem;
+            font-size: 3rem; /* Icone più grandi */
             color: var(--accent);
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
         }
         
         .benefit-title {
             color: var(--secondary);
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
         }
         
         .benefit-description {
             color: #666;
             line-height: 1.6;
+            margin-bottom: 2rem;
+            flex-grow: 1;
+        }
+        
+        .benefit-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            padding: 1rem;
+            border-top: 1px solid #eee;
+            margin-top: auto;
+        }
+        
+        .benefit-link i {
+            margin-left: 0.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .benefit-link:hover {
+            color: var(--primary);
+        }
+        
+        .benefit-link:hover i {
+            transform: translateX(5px);
+        }
+
+        /* MODAL STYLES - Aggiunti per i modali */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            z-index: 2000;
+            overflow-y: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            overscroll-behavior: contain;
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            border-radius: 10px;
+            max-width: 900px;
+            position: relative;
+            animation: modalFadeIn 0.4s ease-out;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 10;
+            border: none;
+            color: var(--primary);
+            font-size: 1.5rem;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .close-modal:hover {
+            background-color: var(--accent);
+            color: white;
+            transform: rotate(90deg);
+        }
+        
+        .modal-header {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        .modal-header-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            filter: brightness(0.7);
+        }
+
+        .modal-header-image2 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            filter: brightness(0.7);
+        }
+        
+        .modal-header-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 30px;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+            color: white;
+        }
+        
+        .modal-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+        
+        .modal-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            color: var(--light);
+            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            font-weight: 500;
+        }
+        
+        .modal-body {
+            padding: 30px;
+        }
+        
+        .modal-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .modal-feature-card {
+            background-color: var(--light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .modal-feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .modal-feature-card h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .modal-feature-card h3 i {
+            margin-right: 10px;
+            color: var(--accent);
+        }
+        
+        .feature-description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding-left: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .feature-list li {
+            position: relative;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+        
+        .feature-list li::before {
+            content: '\f054';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: -1.5rem;
+            color: var(--accent);
+            font-size: 0.8rem;
+        }
+
+        .no-scroll {
+            position: fixed;
+            width: 100%;
+            overflow-y: scroll;
         }
 
         /* Application Form */
@@ -865,6 +1069,8 @@
             margin-bottom: 5px;
             transition: all 0.3s;
         }
+
+        
         
         /* Responsive */
         @media (max-width: 1024px) {
@@ -1020,6 +1226,122 @@
                 width: 100%;
                 margin-top: 1rem;
             }
+        }
+
+        /* Nuovi stili per le gallerie */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            height: 250px;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gallery-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-image2 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-image3 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            transition: transform 0.5s ease;
+        }
+        
+        .gallery-item:hover .gallery-image .gallery-image2 .gallery-image3 {
+            transform: scale(1.05);
+        }
+        
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: white;
+            padding: 1.5rem 1rem 1rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover .gallery-caption {
+            transform: translateY(0);
+        }
+        
+        .gallery-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .gallery-description {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Stili per la navigazione tra modali */
+        .modal-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .modal-nav-btn {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        
+        .modal-nav-btn:hover {
+            background-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        /* Aggiungi questo stile per prevenire lo scroll quando il modale è aperto */
+        body.modal-open {
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+        }
+        
+        /* Aggiungi questo stile per prevenire lo scroll quando il modale è aperto */
+        body.no-scroll {
+            position: fixed;
+            width: 100%;
+            top: var(--scroll-top, 0);
         }
     </style>
 </head>

@@ -563,7 +563,6 @@
         
         .modal-body {
             padding: 30px;
-            text-align: center;
         }
         
         .modal-features {
@@ -1435,7 +1434,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <p>Our team building activities are designed to strengthen team spirit, improve collaboration, and create a motivating and positive work environment.</p>
+                <p style="text-align: center;">Our team building activities are designed to strengthen team spirit, improve collaboration, and create a motivating and positive work environment.</p>
                 
                 <div class="gallery-container">
                     <div class="gallery-item">
@@ -1486,7 +1485,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <p>Our relaxation room is a comfortable and welcoming environment where you can unwind, enjoy your lunch, and socialize with colleagues in an informal atmosphere.</p>
+                <p style="text-align: center;">Our relaxation room is a comfortable and welcoming environment where you can unwind, enjoy your lunch, and socialize with colleagues in an informal atmosphere.</p>
                 
                 <div class="modal-features">
                     <div class="modal-feature-card">
@@ -1515,7 +1514,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <p>Our corporate events are special moments to celebrate achievements, strengthen team bonds, and create a unique sense of belonging.</p>
+                <p style="text-align: center;">Our corporate events are special moments to celebrate achievements, strengthen team bonds, and create a unique sense of belonging.</p>
                 
                 <div class="gallery-container">
                     <div class="gallery-item">

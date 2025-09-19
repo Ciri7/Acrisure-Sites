@@ -563,7 +563,6 @@
         
         .modal-body {
             padding: 30px;
-            text-align: center;
         }
         
         .modal-features {
@@ -1435,7 +1434,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <p>Le nostre attività di team building sono progettate per rafforzare lo spirito di squadra, migliorare la collaborazione e creare un ambiente di lavoro motivante e positivo.</p>
+                <p style="text-align: center;">Le nostre attività di team building sono progettate per rafforzare lo spirito di squadra, migliorare la collaborazione e creare un ambiente di lavoro motivante e positivo.</p>
                 
                 <div class="gallery-container">
                     <div class="gallery-item">
@@ -1486,7 +1485,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <p>La nostra sala relax è un ambiente confortevole e accogliente dove puoi staccare la spina, gustare il tuo pranzo e socializzare con i colleghi in un'atmosfera informale.</p>
+                <p style="text-align: center;">La nostra sala relax è un ambiente confortevole e accogliente dove puoi staccare la spina, gustare il tuo pranzo e socializzare con i colleghi in un'atmosfera informale.</p>
                 
                 <div class="modal-features">
                     <div class="modal-feature-card">
@@ -1515,7 +1514,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <p>I nostri eventi aziendali sono momenti speciali per celebrare i traguardi raggiunti, rafforzare i legami del team e creare un senso di appartenenza unico.</p>
+                <p style="text-align: center;">I nostri eventi aziendali sono momenti speciali per celebrare i traguardi raggiunti, rafforzare i legami del team e creare un senso di appartenenza unico.</p>
                 
                 <div class="gallery-container">
                     <div class="gallery-item">

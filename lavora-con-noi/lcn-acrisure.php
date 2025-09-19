@@ -1542,7 +1542,7 @@
                     </div>
 
                     <div class="gallery-item">
-                        <img src="/img/Convegni.jpeg" alt="Convegni" class="gallery-image">
+                        <img src="/img/Convegni.jpg" alt="Convegni" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Convegni</h3>
                             <p class="gallery-description">Confronto sui trend e opportunità del settore</p>

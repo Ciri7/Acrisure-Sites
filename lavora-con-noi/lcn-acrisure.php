@@ -1462,7 +1462,7 @@
                     </div>
                     
                     <div class="gallery-item">
-                        <img src="/img/PuliziaBeach.jpeg" alt="Pulizia Spiagge" class="gallery-image3">
+                        <img src="/img/PuliziaBeach.jpg" alt="Pulizia Spiagge" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Pulizia Spiagge</h3>
                             <p class="gallery-description">Impegno sociale e ambientale per il nostro territorio</p>
@@ -1526,7 +1526,7 @@
                     </div>
                     
                     <div class="gallery-item">
-                        <img src="/img/Experience.jpg" alt="Acrisure Experience" class="gallery-image3">
+                        <img src="/img/Experience.jpg" alt="Acrisure Experience" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Acrisure Experience</h3>
                             <p class="gallery-description">Valorizziamo i nostri legami potenziando le nostre strategie di business</p>

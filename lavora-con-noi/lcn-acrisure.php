@@ -432,7 +432,6 @@
             line-height: 1.6;
             margin-bottom: 2rem;
             flex-grow: 1;
-            text-align: center;
         }
         
         .benefit-link {
@@ -1303,6 +1302,7 @@
         .gallery-description {
             font-size: 0.9rem;
             opacity: 0.9;
+            text-align: center;
         }
 
         /* Stili per la navigazione tra modali */

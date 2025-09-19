@@ -1264,8 +1264,16 @@
             object-position: bottom;
             transition: transform 0.5s ease;
         }
+
+        .gallery-image3 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            transition: transform 0.5s ease;
+        }
         
-        .gallery-item:hover .gallery-image .gallery-image2 {
+        .gallery-item:hover .gallery-image .gallery-image2 .gallery-image3 {
             transform: scale(1.05);
         }
         
@@ -1454,7 +1462,7 @@
                     </div>
                     
                     <div class="gallery-item">
-                        <img src="/img/PuliziaBeach.jpeg" alt="Pulizia Spiagge" class="gallery-image">
+                        <img src="/img/PuliziaBeach.jpeg" alt="Pulizia Spiagge" class="gallery-image3">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Pulizia Spiagge</h3>
                             <p class="gallery-description">Impegno sociale e ambientale per il nostro territorio</p>
@@ -1510,7 +1518,7 @@
                 
                 <div class="gallery-container">
                     <div class="gallery-item">
-                        <img src="/img/evento-natale.jpg" alt="Cena di Natale" class="gallery-image">
+                        <img src="/img/Natale.jpg" alt="Cena di Natale" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Cena di Natale</h3>
                             <p class="gallery-description">Celebrazione annuale per festeggiare insieme</p>
@@ -1518,7 +1526,7 @@
                     </div>
                     
                     <div class="gallery-item">
-                        <img src="/img/Experience.jpg" alt="Acrisure Experience" class="gallery-image">
+                        <img src="/img/Experience.jpg" alt="Acrisure Experience" class="gallery-image3">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Acrisure Experience</h3>
                             <p class="gallery-description">Valorizziamo i nostri legami potenziando le nostre strategie di business</p>
@@ -1526,7 +1534,7 @@
                     </div>
                     
                     <div class="gallery-item">
-                        <img src="/img/evento-premiazioni.jpg" alt="Premiazioni" class="gallery-image">
+                        <img src="/img/Premiazioni.png" alt="Premiazioni" class="gallery-image3">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Premiazioni</h3>
                             <p class="gallery-description">Riconoscimenti per i nostri risultati e per il nostro impegno nel sociale</p>
@@ -1534,7 +1542,7 @@
                     </div>
 
                     <div class="gallery-item">
-                        <img src="/img/evento-premiazioni.jpg" alt="Convegni" class="gallery-image">
+                        <img src="/img/Convegni.jpeg" alt="Convegni" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Convegni</h3>
                             <p class="gallery-description">Confronto sui trend e opportunità del settore</p>

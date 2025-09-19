@@ -1806,6 +1806,78 @@
     </footer>
 
     <script>
+        // Funzioni per gestire i modali
+        function openModal(modalId, event) {
+            if (event) {
+                event.preventDefault(); // Previeni il comportamento predefinito del link
+            }
+            
+            // Salva la posizione di scroll corrente
+            const scrollY = window.scrollY;
+            document.body.dataset.scrollY = scrollY;
+            document.body.style.setProperty('--scroll-top', `-${scrollY}px`);
+            
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'block';
+                document.body.classList.add('no-scroll');
+                
+                // Mantieni l'header visibile
+                const header = document.getElementById('header');
+                if (header) {
+                    header.style.position = 'fixed';
+                    header.style.width = '100%';
+                    header.style.top = '0';
+                }
+            }
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'none';
+                document.body.classList.remove('no-scroll');
+                
+                // Ripristina lo stile dell'header
+                const header = document.getElementById('header');
+                if (header) {
+                    header.style.position = '';
+                    header.style.width = '';
+                    header.style.top = '';
+                }
+                
+                // Ripristina la posizione di scroll dopo aver chiuso il modale
+                if (document.body.dataset.scrollY) {
+                    const scrollY = parseInt(document.body.dataset.scrollY);
+                    window.scrollTo(0, scrollY);
+                    
+                    // Forza un altro reset dopo un breve ritardo
+                    setTimeout(() => {
+                        window.scrollTo(0, scrollY);
+                    }, 10);
+                }
+            }
+        }
+
+        // Chiudi il modale cliccando fuori dal contenuto
+        window.addEventListener('click', function(event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    // Salva la posizione prima di chiudere
+                    document.body.dataset.scrollY = window.scrollY;
+                    closeModal(modal.id);
+                }
+            });
+        });
+
+        // Previeni il comportamento predefinito dei link "Scopri di più"
+        document.querySelectorAll('.benefit-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+            });
+        });
+
         // Smooth scrolling per i link di navigazione
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {

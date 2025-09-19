@@ -563,6 +563,7 @@
         
         .modal-body {
             padding: 30px;
+            text-align: center;
         }
         
         .modal-features {
@@ -1302,7 +1303,6 @@
         .gallery-description {
             font-size: 0.9rem;
             opacity: 0.9;
-            text-align: center;
         }
 
         /* Stili per la navigazione tra modali */

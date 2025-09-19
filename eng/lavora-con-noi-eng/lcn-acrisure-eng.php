@@ -432,6 +432,7 @@
             line-height: 1.6;
             margin-bottom: 2rem;
             flex-grow: 1;
+            text-align: center;
         }
         
         .benefit-link {

@@ -1507,7 +1507,7 @@
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-eventi')">&times;</button>
             <div class="modal-header">
-                <img src="/img/HeroEventi.jpg" alt="Eventi Aziendali" class="modal-header-image">
+                <img src="/img/HeroEventi.jpg" alt="Eventi Aziendali" class="modal-header-image2">
                 <div class="modal-header-content">
                     <h2 class="modal-title">Eventi</h2>
                     <p class="modal-subtitle">Celebriamo insieme i successi e creiamo ricordi indimenticabili</p>

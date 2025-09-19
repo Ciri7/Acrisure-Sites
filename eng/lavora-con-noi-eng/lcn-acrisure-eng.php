@@ -1062,9 +1062,178 @@
         </div>
     </section>
 
+    <!-- WORKING AT ACRISURE SECTION -->
+    <section id="lavorare-in-acrisure" class="section benefits-section">
+        <h2 class="section-title">Working At Acrisure</h2>
+        <p class="section-subtitle">Discover the unique work environment that awaits you at Acrisure, where we value people and promote a perfect balance between professionalism and well-being.</p>
+        
+        <div class="benefits-grid">
+            <!-- Team Building -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 class="benefit-title">Team Building</h3>
+                <p class="benefit-description">Improve collaboration and create a cohesive and motivating work environment.</p>
+                <a href="#" class="benefit-link" onclick="openModal('modal-team-building', event)">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <!-- Relax & Reset Zone -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3 class="benefit-title">Relax & Reset Zone</h3>
+                <p class="benefit-description">Our spaces dedicated to relaxation and lunch breaks.</p>
+                <a href="#" class="benefit-link" onclick="openModal('modal-sala-relax', event)">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <!-- Events -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3 class="benefit-title">Events</h3>
+                <p class="benefit-description">Our events and the sharing of special and unforgettable moments with our partners.</p>
+                <a href="#" class="benefit-link" onclick="openModal('modal-eventi', event)">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL TEAM BUILDING (transformed into gallery) -->
+    <div id="modal-team-building" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
+            <div class="modal-header">
+                <img src="/img/TeamBuilding.jpg" alt="Team Building" class="modal-header-image">
+                <div class="modal-header-content">
+                    <h2 class="modal-title">Team Building</h2>
+                    <p class="modal-subtitle">Building strong relationships and a cohesive team together</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Our team building activities are designed to strengthen team spirit, improve collaboration, and create a motivating and positive work environment.</p>
+                
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="/img/acrichef.jpg" alt="Nature & Adventure" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Nature & Adventure</h3>
+                            <p class="gallery-description">A total immersion in nature with exciting challenges</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="/img/Acrichef.jpeg" alt="Acrichef" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Acrichef</h3>
+                            <p class="gallery-description">Cooking challenge between teams to strengthen collaboration</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="/img/hero TB.jpeg" alt="Yoga & Sup" class="gallery-image2">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Yoga & Sup</h3>
+                            <p class="gallery-description">Wellness activities for team well-being and customer care</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="/img/PuliziaBeach.jpg" alt="Beach Cleaning" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Beach Cleaning</h3>
+                            <p class="gallery-description">Social and environmental commitment for our territory</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL RELAX ROOM -->
+    <div id="modal-sala-relax" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('modal-sala-relax')">&times;</button>
+            <div class="modal-header">
+                <img src="/img/hero RELAX.jpeg" alt="Relax Room & Reset Zone" class="modal-header-image">
+                <div class="modal-header-content">
+                    <h2 class="modal-title">Relax Room & Reset Zone</h2>
+                    <p class="modal-subtitle">Your space to recharge and connect with colleagues</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Our relaxation room is a comfortable and welcoming environment where you can unwind, enjoy your lunch, and socialize with colleagues in an informal atmosphere.</p>
+                
+                <div class="modal-features">
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-utensils"></i> Lunch Area</h3>
+                        <p class="feature-description">Space equipped with microwave, refrigerator, and all comforts for your lunch with colleagues.</p>
+                    </div>
+                    
+                    <div class="modal-feature-card">
+                        <h3><i class="fas fa-couch"></i> Relaxation Zone</h3>
+                        <p class="feature-description">Comfortable armchairs and sofas to relax during breaks and recharge your energy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL EVENTS (transformed into gallery) -->
+    <div id="modal-eventi" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('modal-eventi')">&times;</button>
+            <div class="modal-header">
+                <img src="/img/HeroEventi.jpg" alt="Corporate Events" class="modal-header-image2">
+                <div class="modal-header-content">
+                    <h2 class="modal-title">Events</h2>
+                    <p class="modal-subtitle">Celebrating successes together and creating unforgettable memories</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Our corporate events are special moments to celebrate achievements, strengthen team bonds, and create a unique sense of belonging.</p>
+                
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="/img/Natale.jpg" alt="Christmas Dinner" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Christmas Dinner</h3>
+                            <p class="gallery-description">Annual celebration to celebrate together</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="/img/Experience.jpg" alt="Acrisure Experience" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Acrisure Experience</h3>
+                            <p class="gallery-description">We value our relationships by enhancing our business strategies</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="/img/Premiazioni.png" alt="Awards" class="gallery-image3">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Awards</h3>
+                            <p class="gallery-description">Recognition for our results and our commitment to social causes</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="/img/Convegni.jpg" alt="Conferences" class="gallery-image">
+                        <div class="gallery-caption">
+                            <h3 class="gallery-title">Conferences</h3>
+                            <p class="gallery-description">Discussion on trends and opportunities in the sector</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section id="open-positions" class="section">
         <h2 class="section-title">Open Positions</h2>
-        <p class="section-subtitle">Choose among our career opportunities and apply to join our team</p>
+        <p class="section-subtitle">Choose from our career opportunities and apply to join our team</p>
         
         <div class="careers-container">
             <div class="career-card">
@@ -1076,7 +1245,7 @@
                 </div>
                 <div class="career-body">
                     <ul class="career-features">
-                        <li>Handling customer requests via phone and email</li>
+                        <li>Managing customer requests via phone and email</li>
                         <li>Support in problem and complaint resolution</li>
                         <li>Collaboration with various company departments</li>
                         <li>Maintaining high service standards</li>
@@ -1094,9 +1263,9 @@
                 </div>
                 <div class="career-body">
                     <ul class="career-features">
-                        <li>End-to-end claims file management</li>
+                        <li>End-to-end management of claims files</li>
                         <li>Document analysis and damage assessment</li>
-                        <li>Communication with clients and suppliers</li>
+                        <li>Communication with customers and suppliers</li>
                         <li>Compliance with established procedures and timelines</li>
                     </ul>
                     <a href="#application-form" class="career-link">Apply now <i class="fas fa-arrow-right"></i></a>
@@ -1113,9 +1282,9 @@
                 <div class="career-body">
                     <ul class="career-features">
                         <li>Personnel management and union relations</li>
-                        <li>Recruitment and selection support</li>
+                        <li>Support in recruitment and selection</li>
                         <li>Personnel administration</li>
-                        <li>Training process management</li>
+                        <li>Management of training processes</li>
                     </ul>
                     <a href="#application-form" class="career-link">Apply now <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -1177,65 +1346,10 @@
         </div>
     </section>
 
-    <section class="section benefits-section">
-        <h2 class="section-title">Our Benefits</h2>
-        <p class="section-subtitle">Here's what we offer to our collaborators</p>
-        
-        <div class="benefits-grid">
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-hand-holding-usd"></i>
-                </div>
-                <h3 class="benefit-title">Compensation Package</h3>
-                <p class="benefit-description">Competitive salary with performance bonuses and production incentives</p>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-heartbeat"></i>
-                </div>
-                <h3 class="benefit-title">Corporate Welfare</h3>
-                <p class="benefit-description">Customizable benefit package (insurance, meal vouchers, etc.)</p>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-                <h3 class="benefit-title">Continuous Training</h3>
-                <p class="benefit-description">Professional growth paths and refresher courses</p>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-balance-scale"></i>
-                </div>
-                <h3 class="benefit-title">Work-Life Balance</h3>
-                <p class="benefit-description">Flexible hours and smart working when possible</p>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-utensils"></i>
-                </div>
-                <h3 class="benefit-title">Break Area</h3>
-                <p class="benefit-description">Dedicated lunch break spaces with vending machines and microwaves</p>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">
-                    <i class="fas fa-baby-carriage"></i>
-                </div>
-                <h3 class="benefit-title">Family Support</h3>
-                <p class="benefit-description">Nursery school benefits and parental leave</p>
-            </div>
-        </div>
-    </section>
-
     <section id="application-form" class="section">
         <div class="application-form">
             <div class="form-header">
-                <h3>Submit your application</h3>
+                <h3>Submit Your Application</h3>
                 <p>Fill out the form below to apply for one of our open positions</p>
             </div>
             
@@ -1259,7 +1373,7 @@
                         <input type="tel" id="phone" name="phone" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label for="position">Position of interest <span class="required">*</span></label>
+                        <label for="position">Position of Interest <span class="required">*</span></label>
                         <select id="position" name="position" class="form-control" required>
                             <option value="">-- Select --</option>
                             <option value="Customer Service Specialist">Customer Service Specialist</option>
@@ -1268,6 +1382,7 @@
                             <option value="Fleet Manager">Fleet Manager</option>
                             <option value="Compliance Officer">Compliance Officer</option>
                             <option value="Software Developer">Software Developer</option>
+                            <option value="Spontaneous Application">Spontaneous Application</option>
                             <option value="Other">Other</option>
                         </select>
                     </div>
@@ -1279,7 +1394,7 @@
                 </div><br>
                 
                 <div class="form-group">
-                    <label for="cv">Upload your CV (PDF, max 5MB) <span class="required">*</span></label>
+                    <label for="cv">Upload Your CV (PDF, max 5MB) <span class="required">*</span></label>
                     <div class="file-upload">
                         <label for="cv" class="file-upload-label">
                             <i class="fas fa-file-upload"></i> Choose file
@@ -1293,7 +1408,7 @@
                     <label for="additionalFiles">Additional attachments (optional)</label>
                     <div class="file-upload">
                         <label for="additionalFiles" class="file-upload-label">
-                            <i class="fas fa-file-upload"></i> Choose file
+                            <i class="fas fa-file-upload"></i> Choose files
                         </label>
                         <input type="file" id="additionalFiles" name="additionalFiles" multiple style="display: none;">
                         <span id="additionalFilesName" class="file-name"></span>

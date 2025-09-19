@@ -1438,7 +1438,7 @@
                     </div>
 
                     <div class="gallery-item">
-                        <img src="/img/acrichef.jpg" alt="Acrichef" class="gallery-image">
+                        <img src="/img/Acrichef.jpeg" alt="Acrichef" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Acrichef</h3>
                             <p class="gallery-description">Sfida di cucina tra squadre per rafforzare la collaborazione</p>
@@ -1454,7 +1454,7 @@
                     </div>
                     
                     <div class="gallery-item">
-                        <img src="/img/pulizia-spiagge.jpg" alt="Pulizia Spiagge" class="gallery-image">
+                        <img src="/img/PuliziaBeach.jpeg" alt="Pulizia Spiagge" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Pulizia Spiagge</h3>
                             <p class="gallery-description">Impegno sociale e ambientale per il nostro territorio</p>
@@ -1518,7 +1518,7 @@
                     </div>
                     
                     <div class="gallery-item">
-                        <img src="/img/evento-lancio.jpg" alt="Evento di Lancio" class="gallery-image">
+                        <img src="/img/Experience.jpg" alt="Acrisure Experience" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Acrisure Experience</h3>
                             <p class="gallery-description">Valorizziamo i nostri legami potenziando le nostre strategie di business</p>

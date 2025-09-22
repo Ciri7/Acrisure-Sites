@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure</title>
+    <title>Acrisure S.r.l.</title>
     <meta name="description" content="Acrisure Italia offre soluzioni assicurative innovative e su misura per privati e aziende. Scopri le nostre polizze e servizi di risk management.">
     <!-- Aggiunto per SEO -->
     <meta name="keywords" content="assicurazioni, broker assicurativo, polizze, risk management, Acrisure, coperture assicurative">

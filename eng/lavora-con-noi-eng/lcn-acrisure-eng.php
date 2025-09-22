@@ -1438,7 +1438,7 @@
                 
                 <div class="gallery-container">
                     <div class="gallery-item">
-                        <img src="/img/acrichef.jpg" alt="Nature & Adventure" class="gallery-image">
+                        <img src="/img/Nat&Avv.jpeg" alt="Nature & Adventure" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Nature & Adventure</h3>
                             <p class="gallery-description">A total immersion in nature with exciting challenges</p>

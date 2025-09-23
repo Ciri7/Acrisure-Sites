@@ -1681,7 +1681,7 @@
             font-size: 1.5rem; /* Aumentato da 1.2rem */
             transition: all 0.3s;
             width: 40px; /* Aggiunto per dimensioni fisse */
-            height: 40px; /* Aggiunto per dimensioni fisse */
+            height: 40px; /* Aggiunto per dimensioni fisse. */
             display: flex;
             align-items: center;
             justify-content: center;

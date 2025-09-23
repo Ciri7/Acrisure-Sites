@@ -1805,7 +1805,7 @@
                     </div>
                 </div>
 
-                <!-- Seconda riga con 3 card -->
+                <!-- Seconda riga con 5 card -->
                 <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
@@ -1839,7 +1839,7 @@
 
                 </div>
 
-                <!-- Terza riga con 3 card -->
+                <!-- Terza riga con 5 card -->
                 <div class="leadership-other-rows">
 
                     <div class="leadership-card">
@@ -1861,15 +1861,15 @@
                     </div>
 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
-                        <h3 class="leadership-name">Sara Sandroni</h3>
-                        <p class="leadership-desc">Communications Brand Awareness</p>
-                    </div>
-
-                    <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
                         <h3 class="leadership-name">Rossella Giacchi</h3>
                         <p class="leadership-desc">Group General Counsel</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
+                        <h3 class="leadership-name">Sara Sandroni</h3>
+                        <p class="leadership-desc">Communications Brand Awareness</p>
                     </div>
                 </div>
 

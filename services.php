@@ -1822,43 +1822,40 @@
                         <h3 class="leadership-name">Alessandro Marras</h3>
                         <p class="leadership-desc">Chief Operation Officer</p>
                     </div>
-                </div>
 
-                <!-- Terza riga con 3 card -->
-                <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
                         <h3 class="leadership-name">Daniele Meloni</h3>
                         <p class="leadership-desc">Business Analysis</p>
                     </div>
-                    
+
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Gabriele Gilleri</h3>
                         <p class="leadership-desc">Executive Director Business</p>
                     </div>
-                    
+                </div>
+
+                <!-- Terza riga con 3 card -->
+                <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
                         <h3 class="leadership-name">Alessandra Sardara</h3>
                         <p class="leadership-desc">Financial Analysis</p>
                     </div>
-                </div>
 
-                <!-- Quarta riga con 4 card -->
-                <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
                         <h3 class="leadership-name">Elisa Mulargia</h3>
                         <p class="leadership-desc">Events</p>
                     </div>
-                    
+
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
                         <h3 class="leadership-name">Alessandro Serra</h3>
                         <p class="leadership-desc">Internal Audit & Quality Management</p>
                     </div>
-                    
+
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
                         <h3 class="leadership-name">Emanuela Vignotti</h3>
@@ -1871,6 +1868,11 @@
                         <p class="leadership-desc">Communications Brand Awareness</p>
                     </div>
                 </div>
+
+                <!-- Quarta riga con 4 card -->
+                <!-- <div class="leadership-other-rows2">
+                    
+                </div> -->
             </div><br>
         </div>
         <br><br><br>

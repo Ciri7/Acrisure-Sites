@@ -1859,15 +1859,15 @@
                     </div>
 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
-                        <h3 class="leadership-name">Sara Sandroni</h3>
-                        <p class="leadership-desc">Communications Brand Awareness</p>
-                    </div>
-
-                    <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
                         <h3 class="leadership-name">Rossella Giacchi</h3>
                         <p class="leadership-desc">Group General Counsel</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
+                        <h3 class="leadership-name">Sara Sandroni</h3>
+                        <p class="leadership-desc">Communications Brand Awareness</p>
                     </div>
                 </div>
 

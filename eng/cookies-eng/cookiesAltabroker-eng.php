@@ -664,7 +664,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="/eng/altabroker-eng.php">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Services Logo" class="logo">
+                    <img src="/img/logoAltaBroker.png" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -829,7 +829,7 @@
                     <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>5/1 Via Assarotti - 16122 Genoa</li><br>
-                    <li><img src="/img/Logo ALTA BROKER.jpg" class="logo-footer" alt="Alta Broker Logo"></li>
+                    <li><img src="/img/logoAltaBroker.png" class="logo-footer" alt="Alta Broker Logo"></li>
                 </ul>
             </div>
 

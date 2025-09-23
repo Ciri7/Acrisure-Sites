@@ -195,7 +195,12 @@ $article = $articles[$article_id];
         }
         
         .logo {
-            height:60px;
+            height: 70px;
+            transition: transform 0.3s;
+        }
+
+        .logo-footer {
+            height: 50px;
             transition: transform 0.3s;
         }
         
@@ -206,6 +211,7 @@ $article = $articles[$article_id];
         nav ul {
             display: flex;
             list-style: none;
+            align-items: center;
         }
         
         nav ul li {
@@ -217,10 +223,20 @@ $article = $articles[$article_id];
             text-decoration: none;
             color: var(--dark);
             font-weight: 600;
-            font-size: 1rem;
+            font-size: 1.1rem;
             transition: all 0.3s;
             padding: 0.5rem 0;
             position: relative;
+            letter-spacing: 0.5px;
+        }
+        
+        nav ul li:not(:last-child):not(.language-switcher)::after {
+            content: "|";
+            color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            right: -1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
         }
         
         nav ul li a:hover {
@@ -240,6 +256,61 @@ $article = $articles[$article_id];
         
         nav ul li a:hover::after {
             width: 100%;
+        }
+
+        /* Language switcher */
+        .language-switcher {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .language-switcher::after {
+            content: "|";
+            color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            right: -1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .language-btn {
+            background: none;
+            border: none;
+            color: var(--dark);
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            padding: 0.5rem 0;
+            transition: all 0.3s;
+            position: relative;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+
+        .language-btn.active {
+            color: var(--primary);
+        }
+
+        .language-btn::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--accent);
+            transition: width 0.3s;
+        }
+ 
+        .language-btn.active::after,
+        .language-btn:hover::after {
+            width: 100%;
+        }
+
+        .language-btn:hover {
+         color: var(--accent);
         }
         
         /* Article Hero */
@@ -643,6 +714,7 @@ $article = $articles[$article_id];
             transition: width 0.3s;
         }
 
+        /* Footer migliorato */
         .footer-column h3 i {
             margin-right: 10px;
             color: var(--accent);
@@ -756,6 +828,27 @@ $article = $articles[$article_id];
 
         .footer-badge img:hover {
             opacity: 1;
+        }
+
+        .footer-legal-notice {
+            text-align: center;
+            padding: 1.5rem 5%;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            max-width: 1400px;
+        }
+
+        .footer-legal-notice p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .logo-footer {
+            height: 50px;
+            transition: transform 0.3s;
         }
         
         /* Cookie banner */
@@ -1032,6 +1125,13 @@ $article = $articles[$article_id];
     <!-- Article Hero -->
     <section class="article-hero">
         <div class="article-hero-content">
+            <div class="breadcrumb">
+                <!-- <a href="../index.php">Home</a>
+                <span>/</span>
+                <a href="../news/newsAcrisure.php">News</a>
+                <span>/</span> -->
+                <span>Articolo</span>
+            </div>
             <h1><?php echo htmlspecialchars($article['title']); ?></h1>
         </div>
     </section>

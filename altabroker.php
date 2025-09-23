@@ -1660,7 +1660,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="#home">
-                <img src="/img/New Alta provvisorio.webp" class="logo" alt=""></li>
+                <img src="/img/logoAltaBroker.png" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -2126,7 +2126,7 @@
                     <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
                     <li><i class="fas fa-map-marker-alt"></i>Via Assarotti, 5/1 - 16122 Genova</li><br>
-                    <li><img src="/img/New Alta provvisorio.webp" class="logo-footer" alt=""></li>
+                    <li><img src="/img/logoAltaBroker.png" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 

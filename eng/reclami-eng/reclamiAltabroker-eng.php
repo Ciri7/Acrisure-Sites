@@ -806,7 +806,7 @@
         <div class="navbar">
             <div class="navbar-brand">
                 <a href="/eng/altabroker-eng.php">
-                    <img src="/img/Logo ALTA BROKER.jpg" alt="Acrisure Services Logo" class="logo">
+                    <img src="/img/logoAltaBroker.png" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -881,29 +881,29 @@
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Registered Office</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Italia S.p.A.</li>
-                    <li><i class="fas fa-map-marker-alt"></i>3 Giuseppe Mazzini Street - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Italia.jpg" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-file-contract"></i>Alta Broker & Partners S.r.l.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i>5/1 Via Assarotti - 16122 Genoa</li><br>
+                    <li><img src="/img/logoAltaBroker.png" class="logo-footer" alt="Alta Broker Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Genoa (GE)</strong><br>5 Via Assarotti - 16122</li>
+                    <li><i class="fas fa-city"></i> <strong>Tortona (AL)</strong><br>5 Corso Montebello - 15057</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contacts</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Administration: +39 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: 010 9860606</li>
+                    <li><i class="fas fa-fax"></i>Fax: +39 010 9868018</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
                 </ul>
-
+                
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -913,26 +913,19 @@
                 <div class="footer-column">
                     <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:acrisurespa@pec.acrisureitalia.com">acrisurespa@pec.acrisureitalia.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it"> reclami@altabroker.it</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Office Hours</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="New image"></a>
-                </div>
-
-                <br>
                 <div class="legal-links">
                     <a href="/eng/policy-eng/policyAltabroker-eng.php">Privacy Policy</a>
                     <a href="/eng/cookies-eng/cookiesAltabroker-eng.php">Cookie Policy</a>

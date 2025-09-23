@@ -1883,7 +1883,8 @@
             </button>
             
             <div class="news-container">
-                <div class="news-card" data-index="0" onclick="window.location.href='#'">
+                <!-- Articolo 1 -->
+                <div class="news-card" data-index="0" onclick="window.location.href='singleNews/singleAcrisure.php?id=1'">
                     <div class="news-image">
                         <img src="/img/news1.jpg" alt="Nuova partnership nel settore agricolo">
                     </div>
@@ -1894,7 +1895,8 @@
                     </div>
                 </div>
                 
-                <div class="news-card" data-index="1" onclick="window.location.href='#'">
+                <!-- Articolo 2 -->
+                <div class="news-card" data-index="1" onclick="window.location.href='singleNews/singleAcrisure.php?id=2'">
                     <div class="news-image">
                         <img src="/img/news2.jpg" alt="Premio Innovazione Assicurativa 2024">
                     </div>
@@ -1905,7 +1907,8 @@
                     </div>
                 </div>
                 
-                <div class="news-card" data-index="2" onclick="window.location.href='#'">
+                <!-- Articolo 3 -->
+                <div class="news-card" data-index="2" onclick="window.location.href='singleNews/singleAcrisure.php?id=3'">
                     <div class="news-image">
                         <img src="/img/news3.jpg" alt="Espansione della rete italiana">
                     </div>
@@ -1916,7 +1919,8 @@
                     </div>
                 </div>
                 
-                <div class="news-card" data-index="3" onclick="window.location.href='#'">
+                <!-- Articolo 4 -->
+                <div class="news-card" data-index="3" onclick="window.location.href='singleNews/singleAcrisure.php?id=4'">
                     <div class="news-image">
                         <img src="/img/news4.jpg" alt="Nuovo servizio di welfare">
                     </div>
@@ -1927,7 +1931,8 @@
                     </div>
                 </div>
                 
-                <div class="news-card" data-index="4" onclick="window.location.href='#'">
+                <!-- Articolo 5 -->
+                <div class="news-card" data-index="4" onclick="window.location.href='singleNews/singleAcrisure.php?id=5'">
                     <div class="news-image">
                         <img src="/img/news5.jpg" alt="Convegno annuale">
                     </div>

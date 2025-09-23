@@ -1,4 +1,136 @@
 <?php include('../includes/auth.php'); ?>
+<?php
+// Recupera l'ID dell'articolo dalla query string
+$article_id = isset($_GET['id']) ? intval($_GET['id']) : 1;
+
+// Array con i dati degli articoli
+$articles = [
+    1 => [
+        'title' => 'Nuova partnership nel settore agricolo',
+        'date' => '15 Marzo 2024',
+        'image' => '/img/news1-large.jpg',
+        'author' => 'Marco Rossi',
+        'author_img' => '/img/author1.jpg',
+        'content' => '
+            <p>Acrisure Agricolture è lieta di annunciare una nuova collaborazione strategica con il Consorzio Agricolo Nazionale (CAN), il principale consorzio agricolo italiano, per offrire soluzioni assicurative ancora più vantaggiose e su misura per gli operatori del settore agricolo.</p>
+            
+            <h2>Una partnership che unisce competenze</h2>
+            
+            <p>Questa partnership unisce l\'esperienza pluriennale di Acrisure nel settore assicurativo con la profonda conoscenza del settore agricolo del CAN. Insieme, svilupperemo polizze innovative che rispondano alle reali esigenze degli agricoltori italiani, con particolare attenzione alla sostenibilità e alla gestione del rischio climatico.</p>
+            
+            <blockquote>
+                "Siamo entusiasti di questa collaborazione con il Consorzio Agricolo Nazionale. Insieme possiamo offrire soluzioni realmente personalizzate che proteggano il lavoro e gli investimenti degli agricoltori italiani", ha dichiarato il CEO di Acrisure Italia.
+            </blockquote>
+            
+            <h3>Le nuove soluzioni</h3>
+            
+            <p>Tra le novità introdotte da questa partnership:</p>
+            
+            <ul>
+                <li>Polizze multirischio per coltivazioni con coperture estese</li>
+                <li>Soluzioni per la protezione dagli eventi climatici estremi</li>
+                <li>Coperture innovative per le nuove tecniche di agricoltura sostenibile</li>
+                <li>Servizi di consulenza e risk management dedicati</li>
+            </ul>
+            
+            <img src="/img/agricoltura1.jpg" alt="Agricoltura sostenibile">
+            <p class="image-caption">Nuove tecniche di agricoltura sostenibile che saranno coperte dalle polizze</p>
+            
+            <h2>Vantaggi per gli associati CAN</h2>
+            
+            <p>Gli associati al Consorzio Agricolo Nazionale avranno accesso a condizioni privilegiate e a un servizio dedicato, con consulenti specializzati nel settore agricolo. Inoltre, sarà disponibile una piattaforma digitale per la gestione delle polizze e la segnalazione dei sinistri con tempi di risposta rapidi.</p>
+            
+            <p>Le nuove polizze saranno disponibili a partire dal prossimo mese di aprile in tutte le sedi del CAN e attraverso i canali digitali di Acrisure Agricolture.</p>
+            
+            <h3>Prospettive future</h3>
+            
+            <p>Questa partnership rappresenta solo il primo passo di una collaborazione più ampia che vedrà Acrisure e il CAN lavorare insieme su progetti di ricerca e sviluppo per creare prodotti assicurativi sempre più innovativi e rispondenti alle esigenze del settore agricolo italiano.</p>
+        ',
+        'tags' => ['Agricoltura', 'Partnership', 'Innovazione', 'Assicurazioni'],
+        'related' => [4, 5, 6]
+    ],
+    2 => [
+        'title' => 'Premio Innovazione Assicurativa 2024',
+        'date' => '28 Febbraio 2024',
+        'image' => '/img/news2-large.jpg',
+        'author' => 'Laura Bianchi',
+        'author_img' => '/img/author2.jpg',
+        'content' => '
+            <p>Acrisure Italia si è aggiudicata il prestigioso Premio Innovazione Assicurativa 2024 per la sua piattaforma digitale di risk management avanzato, riconoscimento che conferma la leadership dell\'azienda nel campo della tecnologia applicata al settore assicurativo.</p>
+            
+            <h2>Una piattaforma rivoluzionaria</h2>
+            
+            <p>La piattaforma premiata rappresenta un punto di riferimento nel settore, combinando intelligenza artificiale, analisi predittiva e machine learning per offrire soluzioni di risk management personalizzate e proattive.</p>
+            
+            <blockquote>
+                "Questo premio riconosce il nostro impegno costante nell\'innovazione tecnologica. Siamo orgogliosi di essere all\'avanguardia nel settore assicurativo italiano", ha commentato il CTO di Acrisure Italia.
+            </blockquote>
+            
+            <p>La cerimonia di premiazione si è tenuta a Roma alla presenza delle principali autorità del settore assicurativo italiano.</p>
+        ',
+        'tags' => ['Innovazione', 'Premio', 'Tecnologia', 'Risk Management'],
+        'related' => [1, 3, 6]
+    ],
+    3 => [
+        'title' => 'Espansione della rete italiana',
+        'date' => '10 Gennaio 2024',
+        'image' => '/img/news3-large.jpg',
+        'author' => 'Giuseppe Verdi',
+        'author_img' => '/img/author3.jpg',
+        'content' => '
+            <p>Acrisure Italia annuncia l\'apertura del nuovo ufficio di Torino, rafforzando ulteriormente la sua presenza sul territorio nazionale con un team specializzato in assicurazioni per il settore automotive.</p>
+            
+            <h2>Nuove opportunità nel settore automotive</h2>
+            
+            <p>Il nuovo ufficio, situato in via Roma 123, sarà dedicato esclusivamente alle esigenze del settore automotive, offrendo soluzioni assicurative tailor-made per concessionarie, officine e aziende di trasporto.</p>
+            
+            <p>Con questa apertura, Acrisure Italia consolida la sua presenza in Piemonte e rafforza il suo impegno nel supportare le imprese del territorio.</p>
+        ',
+        'tags' => ['Espansione', 'Torino', 'Automotive', 'Crescita'],
+        'related' => [1, 2, 4]
+    ],
+    4 => [
+        'title' => 'Nuovo servizio di welfare',
+        'date' => '5 Dicembre 2023',
+        'image' => '/img/news4-large.jpg',
+        'author' => 'Maria Rossi',
+        'author_img' => '/img/author4.jpg',
+        'content' => '
+            <p>Acrisure Italia lancia un innovativo pacchetto di benefit per i dipendenti delle aziende clienti, offrendo soluzioni di welfare personalizzabili che rispondono alle esigenze specifiche di ogni realtà aziendale.</p>
+            
+            <h2>Welfare su misura</h2>
+            
+            <p>Il nuovo servizio permette alle aziende di costruire pacchetti benefit modulari, scegliendo tra diverse opzioni tra cui assicurazioni sanitarie, previdenza complementare, buoni pasto e servizi di conciliazione vita-lavoro.</p>
+        ',
+        'tags' => ['Welfare', 'Benefit', 'Risorse Umane', 'Servizi'],
+        'related' => [1, 5, 6]
+    ],
+    5 => [
+        'title' => 'Convegno annuale',
+        'date' => '20 Novembre 2023',
+        'image' => '/img/news5-large.jpg',
+        'author' => 'Andrea Neri',
+        'author_img' => '/img/author5.jpg',
+        'content' => '
+            <p>Successo per il convegno "Innovazione e assicurazioni" organizzato da Acrisure Italia a Milano, che ha riunito oltre 300 professionisti del settore per discutere le nuove frontiere dell\'assicurazione digitale.</p>
+            
+            <h2>Un evento di riferimento</h2>
+            
+            <p>L\'evento ha rappresentato un momento di confronto importante per tutto il settore assicurativo italiano, con interventi di esperti nazionali e internazionali.</p>
+        ',
+        'tags' => ['Convegno', 'Evento', 'Milano', 'Innovazione'],
+        'related' => [2, 3, 4]
+    ]
+];
+
+// Se l'ID non esiste, reindirizza all'articolo 1
+if (!isset($articles[$article_id])) {
+    $article_id = 1;
+}
+
+$article = $articles[$article_id];
+?>
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -63,7 +195,12 @@
         }
         
         .logo {
-            height:60px;
+            height: 70px;
+            transition: transform 0.3s;
+        }
+
+        .logo-footer {
+            height: 50px;
             transition: transform 0.3s;
         }
         
@@ -74,6 +211,7 @@
         nav ul {
             display: flex;
             list-style: none;
+            align-items: center;
         }
         
         nav ul li {
@@ -85,10 +223,20 @@
             text-decoration: none;
             color: var(--dark);
             font-weight: 600;
-            font-size: 1rem;
+            font-size: 1.1rem;
             transition: all 0.3s;
             padding: 0.5rem 0;
             position: relative;
+            letter-spacing: 0.5px;
+        }
+        
+        nav ul li:not(:last-child):not(.language-switcher)::after {
+            content: "|";
+            color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            right: -1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
         }
         
         nav ul li a:hover {
@@ -109,337 +257,724 @@
         nav ul li a:hover::after {
             width: 100%;
         }
-        
-        /* Article Hero */
-        .article-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/777.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 60vh;
-            min-height: 500px;
+
+        /* Language switcher */
+        .language-switcher {
+            margin-left: auto;
             display: flex;
-            align-items: flex-end;
-            padding-top: 80px;
-            color: white;
-            margin-bottom: 4rem;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .language-switcher::after {
+            content: "|";
+            color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            right: -1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .language-btn {
+            background: none;
+            border: none;
+            color: var(--dark);
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            padding: 0.5rem 0;
+            transition: all 0.3s;
+            position: relative;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+
+        .language-btn.active {
+            color: var(--primary);
+        }
+
+        .language-btn::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--accent);
+            transition: width 0.3s;
+        }
+ 
+        .language-btn.active::after,
+        .language-btn:hover::after {
+            width: 100%;
+        }
+
+        .language-btn:hover {
+         color: var(--accent);
         }
         
-        .article-hero-content {
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/acrisure7.jpg');
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            height: 100vh;
+            min-height: 700px;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            color: white;
+        }
+
+        .hero2 {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/cit2.avif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 60vh;
+            min-height: 700px;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            color: white;
+        }
+        
+        .hero-content {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 5% 4rem;
+            padding: 0 5%;
+            width: 100%;
+        }
+
+        .hero2-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 5%;
             width: 100%;
         }
         
-        .breadcrumb {
-            display: flex;
+        .hero h1 {
+            font-size: 3.5rem;
             margin-bottom: 1.5rem;
+            line-height: 1.2;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero2 h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            animation: fadeInUp 1s ease;
+            text-align: center;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.3s forwards;
+            opacity: 0;
+        }
+
+        .hero2 p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.3s forwards;
+            opacity: 0;
+            text-align: center;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
             font-size: 1rem;
+            transition: all 0.3s;
+            animation: fadeInUp 1s ease 0.6s forwards;
+            opacity: 0;
+            border: 2px solid var(--accent);
+            text-align: center;
+        }
+        
+        .btn:hover {
+            background-color: transparent;
+            color: var(--accent);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border-color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: white;
+            color: var(--primary);
+            border-color: white;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Section Styling */
+        .section {
+            padding: 6rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+            color: var(--secondary);
+            position: relative;
+            font-size: 2.5rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background-color: var(--accent);
+            border-radius: 2px;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .section-subtitle2 {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+        
+        /* About Section */
+        /* .about {
+            background-color: var(--light);
+        } */
+        
+        .about-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .about-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            text-align: center;
+        }
+        
+        /* Gruppo Section */
+        /* .gruppo {
+            background-color: var(--light);
+        } */
+        
+        .aziende-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .aziende-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            max-width: 1200px;
+            width: 100%;
+        }
+        
+        .azienda-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-align: center;
+            padding: 2rem;
+            border: 1px solid #eee;
+        }
+        
+        .azienda-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent);
+        }
+        
+        .azienda-logo {
+            height: 80px;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+            margin-bottom: 1.5rem;
+            transition: transform 0.5s;
+        }
+        
+        .azienda-card:hover .azienda-logo {
+            transform: scale(1.1);
+        }
+        
+        .azienda-nome {
+            color: var(--secondary);
+            margin: 1rem 0;
+            font-size: 1.3rem;
+            transition: color 0.3s;
+        }
+        
+        .azienda-card:hover .azienda-nome {
+            color: var(--accent);
+        }
+        
+        .azienda-desc {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .azienda-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .azienda-link i {
+            margin-left: 0.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .azienda-link:hover {
+            color: var(--primary);
+        }
+        
+        .azienda-link:hover i {
+            transform: translateX(5px);
+        }
+
+        /* ========== LEADERSHIP SECTION ========== */
+        .leadership {
+            background: linear-gradient(to bottom, 
+                rgba(0, 0, 0, 0.1) 0%, 
+                rgba(0, 0, 0, 0.7) 20%, 
+                rgba(0, 0, 0, 0.7) 80%, 
+                rgba(0, 0, 0, 0.1) 100%), 
+                url('/img/leadership-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            position: relative;
+        }
+        
+        .leadership .section-title {
+            color: white;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .leadership .section-title::after {
+            background-color: white;
+        }
+        
+        .leadership-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+            max-width: 1200px;
+            width: 100%;
+        }
+        
+        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership-first-row {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
+        
+        /* Stile per le righe successive con 3 card */
+        .leadership-other-rows {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2rem;
+        }
+
+        /* Stile per le righe successive con 3 card */
+        .leadership-other-rows2 {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+        
+        .leadership-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-align: center;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .leadership-card:hover {
+            transform: translateY(-10px);
+            background-color: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent);
+        }
+        
+        .leadership-logo {
+            height: 80px;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+            margin-bottom: 1.5rem;
+            transition: transform 0.5s;
+        }
+        
+        .leadership-card:hover .leadership-logo {
+            transform: scale(1.1);
+        }
+        
+        .leadership-name {
+            color: white;
+            margin: 1rem 0;
+            font-size: 1.3rem;
+        }
+        
+        .leadership-desc {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        /* News Section */
+        .news-section {
+            background: linear-gradient(to bottom, 
+                rgba(0, 0, 0, 0.1) 0%, 
+                rgba(0, 0, 0, 0.7) 20%, 
+                rgba(0, 0, 0, 0.7) 80%, 
+                rgba(0, 0, 0, 0.1) 100%), 
+                url('/img/777.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+        
+        .news-section .section-title {
+            color: white;
+        }
+        
+        .news-section .section-title::after {
+            background-color: white;
+        }
+        
+        .news-container {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .news-carousel {
+            flex: 2;
+            min-width: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .news-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .news-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .news-date {
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        
+        .news-item h3 {
+            margin: 0.5rem 0;
+            color: white;
+            font-size: 1.3rem;
+        }
+        
+        .news-item p {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        
+        .news-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .news-link i {
+            margin-left: 0.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .news-link:hover {
+            color: white;
+        }
+        
+        .news-link:hover i {
+            transform: translateX(5px);
+        }
+        
+        .newsletter-box {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .newsletter-box h3 {
+            margin-top: 0;
+            color: white;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .newsletter-box p {
+            margin-bottom: 1.5rem;
             opacity: 0.9;
         }
         
-        .breadcrumb a {
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .newsletter-form input {
+            padding: 1rem;
+            border: none;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.9);
+            font-size: 1rem;
+        }
+        
+        .newsletter-form button {
+            align-self: flex-start;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+        }
+        
+        .newsletter-box .privacy-note {
+            font-size: 0.8rem;
+            margin-top: 1rem;
+            opacity: 0.7;
+        }
+        
+        .newsletter-box .privacy-note a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .breadcrumb a:hover {
+        .newsletter-box .privacy-note a:hover {
             color: white;
-            text-decoration: underline;
         }
-        
-        .breadcrumb span {
-            margin: 0 0.5rem;
-            color: rgba(255, 255, 255, 0.7);
-        }
-        
-        /* Article Content */
-        .news-article {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 5% 6rem;
-        }
-        
-        .article-header {
-            margin-bottom: 3rem;
-        }
-        
-        .news-date {
-            font-size: 1rem;
-            color: var(--accent);
-            margin-bottom: 1rem;
-            display: block;
-        }
-        
-        .article-header h1 {
-            color: var(--secondary);
-            font-size: 2.5rem;
-            line-height: 1.3;
-            margin-bottom: 1.5rem;
-        }
-        
-        .article-meta {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            color: #666;
-            font-size: 0.9rem;
-        }
-        
-        .article-meta .author {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
-        .article-meta .author img {
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        
-        .article-image {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin: 2rem 0 3rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-        
-        .article-content {
-            line-height: 1.8;
-            font-size: 1.1rem;
-            color: #333;
-        }
-        
-        .article-content p {
-            margin-bottom: 1.8rem;
-        }
-        
-        .article-content h2 {
-            color: var(--secondary);
-            margin: 3rem 0 1.5rem;
-            font-size: 1.8rem;
-            line-height: 1.4;
-        }
-        
-        .article-content h3 {
-            color: var(--secondary);
-            margin: 2.5rem 0 1.2rem;
-            font-size: 1.5rem;
-        }
-        
-        .article-content ul, .article-content ol {
-            margin: 1.5rem 0 1.5rem 2rem;
-        }
-        
-        .article-content li {
-            margin-bottom: 0.8rem;
-        }
-        
-        .article-content blockquote {
-            border-left: 4px solid var(--accent);
-            padding: 1rem 1.5rem;
-            margin: 2.5rem 0;
-            font-style: italic;
-            color: #555;
-            background-color: rgba(77, 143, 209, 0.05);
-            border-radius: 0 4px 4px 0;
-        }
-        
-        .article-content img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin: 2rem 0;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        .article-content .image-caption {
+
+        .news-cta {
             text-align: center;
-            font-size: 0.9rem;
-            color: #666;
-            margin-top: -1.5rem;
+            margin-top: 2rem;
+        }
+        
+        /* Contact Form Section */
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+        
+        .form-header {
+            text-align: center;
             margin-bottom: 2rem;
         }
         
-        /* Article Footer */
-        .article-footer {
-            margin-top: 5rem;
-            padding-top: 3rem;
-            border-top: 1px solid #eee;
-        }
-        
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.8rem;
-            margin-bottom: 3rem;
-        }
-        
-        .tag {
-            display: inline-block;
-            padding: 0.6rem 1.2rem;
-            background-color: rgba(77, 143, 209, 0.1);
-            color: var(--accent);
-            border-radius: 20px;
-            font-size: 0.9rem;
-            text-decoration: none;
-            transition: all 0.3s;
-            font-weight: 500;
-        }
-        
-        .tag:hover {
-            background-color: var(--accent);
-            color: white;
-        }
-        
-        .social-share {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 3rem;
-        }
-        
-        .share-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color: #f5f5f5;
+        .form-header h3 {
             color: var(--secondary);
-            transition: all 0.3s;
-        }
-        
-        .share-btn:hover {
-            background-color: var(--accent);
-            color: white;
-            transform: translateY(-3px);
-        }
-        
-        .back-to-news {
-            display: inline-flex;
-            align-items: center;
-            color: var(--accent);
-            font-weight: 600;
-            text-decoration: none;
-            margin-top: 2rem;
-            padding: 0.8rem 1.5rem;
-            border: 2px solid var(--accent);
-            border-radius: 4px;
-            transition: all 0.3s;
-        }
-        
-        .back-to-news i {
-            margin-right: 0.5rem;
-            transition: transform 0.3s;
-        }
-        
-        .back-to-news:hover {
-            background-color: var(--accent);
-            color: white;
-        }
-        
-        .back-to-news:hover i {
-            transform: translateX(-5px);
-        }
-        
-        /* Related News */
-        .related-news {
-            margin-top: 5rem;
-        }
-        
-        .related-news h2 {
-            color: var(--secondary);
-            margin-bottom: 3rem;
-            font-size: 1.8rem;
-            text-align: center;
-            position: relative;
-            padding-bottom: 1rem;
-        }
-        
-        .related-news h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 3px;
-            background-color: var(--accent);
-        }
-        
-        .related-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        
-        .related-card {
-            background-color: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s;
-            border: 1px solid #eee;
-        }
-        
-        .related-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-            border-color: var(--accent);
-        }
-        
-        .related-image {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-        }
-        
-        .related-content {
-            padding: 1.5rem;
-        }
-        
-        .related-date {
-            font-size: 0.8rem;
-            color: var(--accent);
             margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .form-header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .form-row {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group {
+            flex: 1;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--secondary);
+            font-size: 1rem;
+        }
+        
+        .form-group label .required {
+            color: var(--error);
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: all 0.3s;
+            background-color: #f9f9f9;
+        }
+        
+        .form-control.error {
+            border-color: var(--error);
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(77, 143, 209, 0.2);
+            background-color: white;
+        }
+        
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .form-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .form-note {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .form-note a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .form-note a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+        
+        .form-message {
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            display: none;
+            font-size: 1rem;
+        }
+        
+        .form-message.success {
+            background-color: rgba(40, 167, 69, 0.1);
+            border: 1px solid var(--success);
+            color: var(--success);
             display: block;
         }
         
-        .related-card h3 {
-            color: var(--secondary);
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
-            line-height: 1.4;
-        }
-        
-        .related-link {
-            display: inline-flex;
-            align-items: center;
-            color: var(--accent);
-            font-weight: 600;
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: all 0.3s;
-        }
-        
-        .related-link i {
-            margin-left: 0.5rem;
-            transition: transform 0.3s;
-        }
-        
-        .related-link:hover {
-            color: var(--primary);
-        }
-        
-        .related-link:hover i {
-            transform: translateX(5px);
+        .form-message.error {
+            background-color: rgba(220, 53, 69, 0.1);
+            border: 1px solid var(--error);
+            color: var(--error);
+            display: block;
         }
         
         /* Footer */
@@ -511,6 +1046,7 @@
             transition: width 0.3s;
         }
 
+        /* Footer migliorato */
         .footer-column h3 i {
             margin-right: 10px;
             color: var(--accent);
@@ -625,6 +1161,123 @@
         .footer-badge img:hover {
             opacity: 1;
         }
+
+        .footer-legal-notice {
+            text-align: center;
+            padding: 1.5rem 5%;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            max-width: 1400px;
+        }
+
+        .footer-legal-notice p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.5;
+            margin: 0;
+        }
+        
+        /* Sezione Chi Siamo migliorata */
+        .about-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .about-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .about-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-icon {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        .about-card h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 1.5rem;
+            background: rgba(0, 86, 179, 0.1);
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--dark);
+            font-weight: 600;
+        }
+
+        .about-values h3 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 1.8rem;
+            color: var(--secondary);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .value-item {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .value-item i {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        .value-item h4 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        /* Animazione numeri */
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .stat-number.animated {
+            animation: countUp 1s ease forwards;
+        }
         
         /* Cookie banner */
         .cookie-banner {
@@ -679,6 +1332,23 @@
             transform: translateY(-2px);
         }
         
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
         /* Mobile Menu */
         .menu-toggle {
             display: none;
@@ -697,12 +1367,16 @@
         
         /* Responsive */
         @media (max-width: 1024px) {
-            .article-hero h1 {
-                font-size: 2.8rem;
+            .hero h1 {
+                font-size: 3rem;
             }
             
-            .article-image {
-                height: 400px;
+            .section-title {
+                font-size: 2.2rem;
+            }
+            
+            .aziende-grid {
+                grid-template-columns: repeat(2, minmax(250px, 1fr));
             }
         }
         
@@ -744,23 +1418,23 @@
                 margin: 0.5rem 0;
             }
             
-            .article-hero {
-                height: 50vh;
-                min-height: 400px;
+            .hero {
+                height: 90vh;
+                min-height: 600px;
             }
             
-            .article-header h1 {
-                font-size: 2.2rem;
+            .hero h1 {
+                font-size: 2.5rem;
             }
             
-            .article-image {
-                height: 300px;
+            .hero p {
+                font-size: 1.1rem;
             }
             
-            .article-meta {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 0.5rem;
+            .btn {
+                display: block;
+                width: 100%;
+                margin-bottom: 1rem;
             }
             
             .menu-toggle.active span:nth-child(1) {
@@ -774,53 +1448,345 @@
             .menu-toggle.active span:nth-child(3) {
                 transform: rotate(-45deg) translate(7px, -6px);
             }
-        }
-        
-        @media (max-width: 480px) {
-            .article-hero h1 {
-                font-size: 2rem;
+            
+            .form-row {
+                flex-direction: column;
+                gap: 0;
             }
             
-            .article-header h1 {
-                font-size: 1.8rem;
+            .cookie-banner {
+                flex-direction: column;
+                text-align: center;
+                padding: 1rem;
             }
             
-            .article-image {
-                height: 250px;
+            .cookie-banner button {
+                margin: 1rem 0 0;
+                width: 100%;
             }
-            
-            .related-grid {
-                grid-template-columns: 1fr;
-            }
-            
+
             .footer-content {
                 grid-template-columns: 1fr;
             }
-            
+
             .footer-bottom {
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .legal-links {
                 justify-content: center;
             }
         }
-
-        .footer-legal-notice {
-            text-align: center;
-            padding: 1.5rem 5%;
-            border-top: 1px solid rgba(0, 0, 0, 0.1);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-            margin: 0 auto;
-            max-width: 1400px;
+        
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 4rem 5%;
+            }
+            
+            .aziende-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .news-container {
+                flex-direction: column;
+            }
+            
+            .news-carousel, .newsletter-box {
+                min-width: 100%;
+            }
+            
+            .contact-form {
+                padding: 2rem;
+            }
+            
+            .form-footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .form-footer button {
+                width: 100%;
+                margin-top: 1rem;
+            }
         }
 
-        .footer-legal-notice p {
-            font-size: 0.85rem;
-            color: #555;
-            line-height: 1.5;
-            margin: 0;
+        /* News Section */
+        .news-section {
+            overflow: hidden;
+        }
+        
+        .news-wrapper {
+            position: relative;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 5%;
+            perspective: 1000px;
+            height: 500px;
+        }
+        
+        .news-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+        }
+        
+        .news-card {
+            position: absolute;
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid #eee;
+            cursor: pointer;
+            transform-origin: center center -200px;
+            pointer-events: none;
+            opacity: 0;
+            transform: translateX(0) rotateY(0) scale(1);
+            transition: all 0.5s ease;
+        }
+        
+        .news-card.active {
+            transform: translateZ(0);
+            z-index: 10;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            pointer-events: auto;
+            opacity: 1;
+        }
+        
+        .news-card.prev {
+            transform: translateX(-80%) rotateY(30deg) scale(0.8);
+            z-index: 5;
+            opacity: 0.8;
+            filter: brightness(0.9);
+        }
+        
+        .news-card.next {
+            transform: translateX(80%) rotateY(-30deg) scale(0.8);
+            z-index: 5;
+            opacity: 0.8;
+            filter: brightness(0.9);
+        }
+        
+        .news-card.far-prev {
+            transform: translateX(-150%) rotateY(45deg) scale(0.6);
+            z-index: 1;
+            opacity: 0.6;
+            filter: brightness(0.7);
+        }
+        
+        .news-card.far-next {
+            transform: translateX(150%) rotateY(-45deg) scale(0.6);
+            z-index: 1;
+            opacity: 0.6;
+            filter: brightness(0.7);
+        }
+        
+        .news-card.hidden-left {
+            transform: translateX(-200%) rotateY(60deg) scale(0.4);
+            opacity: 0;
+            z-index: 0;
+        }
+        
+        .news-card.hidden-right {
+            transform: translateX(200%) rotateY(-60deg) scale(0.4);
+            opacity: 0;
+            z-index: 0;
+        }
+        
+        .news-card.active:hover {
+            transform: translateZ(20px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+        }
+        
+        .news-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .news-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .news-card.active:hover .news-image img {
+            transform: scale(1.1);
+        }
+        
+        .news-content {
+            padding: 2rem;
+        }
+        
+        .news-content h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+        
+        .news-card.active:hover h3 {
+            color: var(--accent);
+        }
+        
+        .news-date {
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        
+        .news-content p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .news-cta {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        /* Navigation arrows */
+        .news-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.20);
+            transition: all 0.3s;
+            z-index: 10;
+            border: none;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+        
+        .news-nav:hover {
+            background-color: var(--accent);
+            color: white;
+            transform: translateY(-50%) scale(1.1);
+        }
+        
+        .news-nav.prev {
+            left: 20px;
+        }
+        
+        .news-nav.next {
+            right: 20px;
+        }
+        
+        .news-nav.disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        /* Modifiche per la sezione gruppo */
+        .aziende-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .azienda-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-align: center;
+            padding: 2rem;
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Assicura che tutte le card abbiano la stessa altezza */
+            min-height: 400px; /* Altezza minima per uniformità */
+        }
+
+        .azienda-card-content {
+            flex: 1; /* Fa espandere il contenuto per occupare lo spazio disponibile */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .azienda-logo {
+            height: 80px;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+            margin-bottom: 1.5rem;
+            transition: transform 0.5s;
+        }
+
+        .azienda-nome {
+            color: var(--secondary);
+            margin: 1rem 0;
+            font-size: 1.3rem;
+            transition: color 0.3s;
+        }
+
+        .azienda-desc {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            flex: 1; /* Fa espandere la descrizione per occupare lo spazio */
+        }
+
+        .azienda-link-container {
+            margin-top: auto; /* Spinge il link in fondo */
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.1); /* Linea separatrice */
+        }
+
+        .azienda-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .azienda-link i {
+            margin-left: 0.5rem;
+            transition: transform 0.3s;
+        }
+
+        .azienda-link:hover {
+            color: var(--primary);
+        }
+
+        .azienda-link:hover i {
+            transform: translateX(5px);
+        }
+
+        .social-links {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 15px;
         }
 
         /* NUOVI FOOTER --------------------------- */
@@ -870,8 +1836,8 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="index.php">
-                    <img src="/img/Acrisure 1 Esteso.jpg" alt="Acrisure Italia Logo" class="logo">
+                <a href="#home">
+                <img src="/img/AcrisureLOGO.png" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -881,9 +1847,17 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="../news/newsAcrisure.php" class="nav-link">News</a></li>
-                    <li><a href="../index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                    <li><a href="#news" class="nav-link">News</a></li>
+                    <li><a href="#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora Con Noi</a></li>
+                </ul>
+            </nav>
+            <nav class="language-switcher">
+                <ul>
+                    <li><a href="#" class="language-btn active">IT</a></li>
+                    <li><a onclick="window.location.href='eng/index-eng.php'" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -892,73 +1866,33 @@
     <!-- Article Hero -->
     <section class="article-hero">
         <div class="article-hero-content">
-            <div class="breadcrumb">
-                <a href="../index.php">Home</a>
-                <span>/</span>
-                <a href="../news/newsAcrisure.php">News</a>
-                <span>/</span>
-                <span>Articolo</span>
-            </div>
-            <h1>Nuova partnership nel settore agricolo</h1>
+            <h1><?php echo htmlspecialchars($article['title']); ?></h1>
         </div>
     </section>
 
     <!-- Article Content -->
     <article class="news-article">
         <div class="article-header">
-            <span class="news-date">15 Marzo 2024</span>
-            <h1>Nuova partnership nel settore agricolo</h1>
+            <span class="news-date"><?php echo $article['date']; ?></span>
+            <h1><?php echo htmlspecialchars($article['title']); ?></h1>
             <div class="article-meta">
-                <span class="author"><img src="/img/author1.jpg" alt="Autore"> Marco Rossi</span>
+                <span class="author"><img src="<?php echo $article['author_img']; ?>" alt="Autore"> <?php echo $article['author']; ?></span>
                 <span>•</span>
                 <span>3 minuti di lettura</span>
             </div>
         </div>
         
-        <img src="/img/news1-large.jpg" alt="Nuova partnership nel settore agricolo" class="article-image">
+        <img src="<?php echo $article['image']; ?>" alt="<?php echo htmlspecialchars($article['title']); ?>" class="article-image">
         
         <div class="article-content">
-            <p>Acrisure Agricolture è lieta di annunciare una nuova collaborazione strategica con il Consorzio Agricolo Nazionale (CAN), il principale consorzio agricolo italiano, per offrire soluzioni assicurative ancora più vantaggiose e su misura per gli operatori del settore agricolo.</p>
-            
-            <h2>Una partnership che unisce competenze</h2>
-            
-            <p>Questa partnership unisce l'esperienza pluriennale di Acrisure nel settore assicurativo con la profonda conoscenza del settore agricolo del CAN. Insieme, svilupperemo polizze innovative che rispondano alle reali esigenze degli agricoltori italiani, con particolare attenzione alla sostenibilità e alla gestione del rischio climatico.</p>
-            
-            <blockquote>
-                "Siamo entusiasti di questa collaborazione con il Consorzio Agricolo Nazionale. Insieme possiamo offrire soluzioni realmente personalizzate che proteggano il lavoro e gli investimenti degli agricoltori italiani", ha dichiarato il CEO di Acrisure Italia.
-            </blockquote>
-            
-            <h3>Le nuove soluzioni</h3>
-            
-            <p>Tra le novità introdotte da questa partnership:</p>
-            
-            <ul>
-                <li>Polizze multirischio per coltivazioni con coperture estese</li>
-                <li>Soluzioni per la protezione dagli eventi climatici estremi</li>
-                <li>Coperture innovative per le nuove tecniche di agricoltura sostenibile</li>
-                <li>Servizi di consulenza e risk management dedicati</li>
-            </ul>
-            
-            <img src="/img/agricoltura1.jpg" alt="Agricoltura sostenibile">
-            <p class="image-caption">Nuove tecniche di agricoltura sostenibile che saranno coperte dalle polizze</p>
-            
-            <h2>Vantaggi per gli associati CAN</h2>
-            
-            <p>Gli associati al Consorzio Agricolo Nazionale avranno accesso a condizioni privilegiate e a un servizio dedicato, con consulenti specializzati nel settore agricolo. Inoltre, sarà disponibile una piattaforma digitale per la gestione delle polizze e la segnalazione dei sinistri con tempi di risposta rapidi.</p>
-            
-            <p>Le nuove polizze saranno disponibili a partire dal prossimo mese di aprile in tutte le sedi del CAN e attraverso i canali digitali di Acrisure Agricolture.</p>
-            
-            <h3>Prospettive future</h3>
-            
-            <p>Questa partnership rappresenta solo il primo passo di una collaborazione più ampia che vedrà Acrisure e il CAN lavorare insieme su progetti di ricerca e sviluppo per creare prodotti assicurativi sempre più innovativi e rispondenti alle esigenze del settore agricolo italiano.</p>
+            <?php echo $article['content']; ?>
         </div>
         
         <div class="article-footer">
             <div class="tags">
-                <a href="#" class="tag">Agricoltura</a>
-                <a href="#" class="tag">Partnership</a>
-                <a href="#" class="tag">Innovazione</a>
-                <a href="#" class="tag">Assicurazioni</a>
+                <?php foreach ($article['tags'] as $tag): ?>
+                    <a href="#" class="tag"><?php echo $tag; ?></a>
+                <?php endforeach; ?>
             </div>
             
             <div class="social-share">
@@ -969,37 +1903,34 @@
                 <a href="#" class="share-btn" aria-label="Condividi via Email"><i class="fas fa-envelope"></i></a>
             </div>
             
-            <a href="news.html" class="back-to-news"><i class="fas fa-arrow-left"></i> Torna alle news</a>
+            <a href="../news/newsAcrisure.php" class="back-to-news"><i class="fas fa-arrow-left"></i> Torna alle news</a>
             
             <div class="related-news">
                 <h2>Potrebbero interessarti anche</h2>
                 <div class="related-grid">
-                    <article class="related-card">
-                        <img src="/img/news4.jpg" alt="Nuovo servizio di risk management" class="related-image">
-                        <div class="related-content">
-                            <span class="related-date">5 Dicembre 2023</span>
-                            <h3>Lancio del nuovo servizio di risk management</h3>
-                            <a href="news-article.html?id=4" class="related-link">Leggi l'articolo <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </article>
+                    <?php 
+                    $related_articles = [
+                        4 => ['title' => 'Nuovo servizio di risk management', 'date' => '5 Dicembre 2023', 'image' => '/img/news4.jpg'],
+                        5 => ['title' => 'Partnership con l\'Università di Sassari', 'date' => '20 Novembre 2023', 'image' => '/img/news5.jpg'],
+                        6 => ['title' => 'Successo dell\'evento annuale Acrisure Italia', 'date' => '15 Ottobre 2023', 'image' => '/img/news6.jpg']
+                    ];
                     
+                    foreach ($article['related'] as $related_id): 
+                        if (isset($related_articles[$related_id])):
+                            $related = $related_articles[$related_id];
+                    ?>
                     <article class="related-card">
-                        <img src="/img/news5.jpg" alt="Partnership con università" class="related-image">
+                        <img src="<?php echo $related['image']; ?>" alt="<?php echo htmlspecialchars($related['title']); ?>" class="related-image">
                         <div class="related-content">
-                            <span class="related-date">20 Novembre 2023</span>
-                            <h3>Partnership con l'Università di Sassari</h3>
-                            <a href="news-article.html?id=5" class="related-link">Leggi l'articolo <i class="fas fa-arrow-right"></i></a>
+                            <span class="related-date"><?php echo $related['date']; ?></span>
+                            <h3><?php echo htmlspecialchars($related['title']); ?></h3>
+                            <a href="singleAcrisure.php?id=<?php echo $related_id; ?>" class="related-link">Leggi l'articolo <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </article>
-                    
-                    <article class="related-card">
-                        <img src="/img/news6.jpg" alt="Evento annuale Acrisure" class="related-image">
-                        <div class="related-content">
-                            <span class="related-date">15 Ottobre 2023</span>
-                            <h3>Successo dell'evento annuale Acrisure Italia</h3>
-                            <a href="news-article.html?id=6" class="related-link">Leggi l'articolo <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </article>
+                    <?php 
+                        endif;
+                    endforeach; 
+                    ?>
                 </div>
             </div>
         </div>
@@ -1009,33 +1940,30 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i> Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i> Acrisure S.r.l. - REA MI-2616058</li>
-                    <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
+                    <li><i class="fas fa-file-contract"></i>Acrisure S.r.l.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
                     <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i> Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>20123 - Via Santa Maria Segreta 6</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>00198 - Via Lovanio 6</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>10123 - Via San Francesco Da Paola 15</li>
-                    <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>16121 - Piazza della Vittoria 9</li>
-                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>38023 - Piazza Granda 44</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079/2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Custom Care: 079/2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisure@pec.acrisure.it">acrisure@pec.acrisure.it</a></li>
+                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
+                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it"> info@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:acrisure@legalmail.it"> acrisure@legalmail.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -1045,17 +1973,17 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i>Orari Ufficio</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
                 </ul>
                 
-                <div class="footer-badge">
+                <!-- <div class="footer-badge">
                     <img src="/img/BV.jpg" class="logo-footer" alt=""> 
                     <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
                     <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div>
+                </div> -->
                 
                 <div class="legal-links">
                     <a href="/policy/policyAcrisure.php">Privacy Policy</a>
@@ -1077,17 +2005,17 @@
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Italia S.p.A, iscrizione sezione B del RUI n° B000673774, è soggetta alla vigilanza Ivass.<br>
-            Acrisure Italia S.p.A. è una società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l.</p><br>
-            <p>Acrisure Italia - &copy; Copyright 2025 - Tutti i diritti riservati - PI 13147890969</p>
+            <p>Acrisure S.r.l. - Cap. sociale €10.000,00 i.v. <br>
+            Società appartenente al Gruppo IVA Acrisure P.IVA 13147890969<br>
+            Cod. Fiscale e n.iscr. al Registro Imprese di Sassari n.11635300962 - REA SS-222619 </p>
         </div>
     </footer>
 
     <!-- Cookie banner -->
-    <div id="cookie-banner" class="cookie-banner">
+    <!-- <div id="cookie-banner" class="cookie-banner">
         <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesAcrisure.html">Maggiori informazioni</a></p>
         <button id="accept-cookies" class="btn">Accetta</button>
-    </div>
+    </div> -->
 
     <script>
         // Smooth scrolling per i link di navigazione

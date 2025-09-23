@@ -136,7 +136,7 @@ $article = $articles[$article_id];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuova partnership nel settore agricolo - Acrisure Italia</title>
+    <title>News - Acrisure</title>
     <meta name="description" content="Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.">
     <meta name="keywords" content="assicurazioni agricole, partnership Acrisure, polizze agricoltura, Acrisure Agricolture">
     <link rel="canonical" href="https://www.acrisureitalia.com/news-article.html?id=1" />
@@ -313,27 +313,42 @@ $article = $articles[$article_id];
          color: var(--accent);
         }
         
-        /* Article Hero */
+        /* Hero Section */
         .article-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/777.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/acrisure7.jpg');
             background-size: cover;
             background-position: center;
-            height: 60vh;
-            min-height: 500px;
+            background-attachment: fixed;
+            height: 50vh;
+            min-height: 400px;
             display: flex;
-            align-items: center; /* Cambiato da flex-end a center */
-            justify-content: center; /* Centrato orizzontalmente */
+            align-items: center;
             padding-top: 80px;
             color: white;
             margin-bottom: 4rem;
-            text-align: center; /* Testo centrato */
         }
-
+        
         .article-hero-content {
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 5%;
             width: 100%;
+        }
+        
+        .article-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            animation: fadeIn 0.8s ease;
+        }
+        
+        .article-hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            animation: fadeIn 0.8s ease 0.3s forwards;
+            opacity: 0;
         }
         
         /* Article Content */
@@ -1074,7 +1089,7 @@ $article = $articles[$article_id];
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="#home">
+                <a href="/index.php">
                 <img src="/img/AcrisureLOGO.png" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
@@ -1087,15 +1102,15 @@ $article = $articles[$article_id];
                 <ul>
                     <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
                     <li><a href="/index.php#leadership" class="nav-link">Leadership</a></li>
-                    <li><a href="index.php#news" class="nav-link">News</a></li>
-                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/index.php#news" class="nav-link">News</a></li>
+                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora Con Noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
                     <li><a href="#" class="language-btn active">IT</a></li>
-                    <li><a onclick="window.location.href='eng/index-eng.php'" class="language-btn">EN</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -1104,7 +1119,7 @@ $article = $articles[$article_id];
     <!-- Article Hero -->
     <section class="article-hero">
         <div class="article-hero-content">
-            <h1><?php echo htmlspecialchars($article['title']); ?></h1>
+            <h1>News & Aggiornamenti</h1>
         </div>
     </section>
 

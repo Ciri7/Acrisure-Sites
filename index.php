@@ -2020,7 +2020,7 @@
                 
                 <div class="azienda-card">
                     <div class="azienda-card-content">
-                        <img src="/img/New Alta provvisorio.webp" alt="Acrisure Italia" class="azienda-logo">
+                        <img src="/img/logoAltaBroker.png" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Alta Broker & Partners S.r.l.</h3>
                         <p class="azienda-desc">Broker specializzato nelle polizze retail adatto ad ogni vostra esigenza</p>
                         <div class="azienda-link-container">

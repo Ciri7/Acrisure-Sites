@@ -845,7 +845,7 @@
                 <p>Acrisure Italia is a "Benefit Corporation": our commitment to sustainability and responsible vision of the impact we generate has always been the core of our corporate mission.
                     This corporate evolution represents the natural development of a journey started a few years ago, aimed at formalizing the values that guide our business choices and integrating them through ethical principles and common benefit.
                     Being a benefit corporation is a constant, long-term commitment that is not always easy, which directs our work towards respecting the environmental and territorial context in which we operate.
-                    Embracing sustainable thinking means founding our roots in healthy, shareable, identity principles that can serve as a warning for the present and future entrepreneurial endeavors of the company.
+                    Embracing sustainable thinking means founding our roots in healthy, shareable, identity principles that can serve as the foundation for the present and future entrepreneurial endeavors of the company.
                 </p>
             </div>
 

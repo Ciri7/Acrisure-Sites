@@ -2007,7 +2007,7 @@
                     <div class="azienda-card-content">
                         <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Italia" class="azienda-logo">
                         <h3 class="azienda-nome">Acrisure Agriservices S.r.l.</h3>
-                        <p class="azienda-desc">Company specialized in insurance of risks related to the agricultural sector</p>
+                        <p class="azienda-desc">Company specialized in managing insurance for risks related to the agricultural sector</p>
                         <div class="azienda-link-container">
                             <a href="/eng/agricolture-eng.php" class="azienda-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>

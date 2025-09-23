@@ -845,7 +845,7 @@
                 <p>Acrisure Italia è una “Società Benefit”: il nostro impegno verso la sostenibilità e la visione responsabile dell’impatto da noi generato sono da sempre il fulcro della nostra mission aziendale. 
                     Tale evoluzione societaria rappresenta il naturale sviluppo di un percorso avviato da qualche anno a questa parte, finalizzato alla formalizzazione dei valori che guidano le nostre scelte di business e all’integrazione degli stessi mediante principi etici e di beneficio comune. 
                     Essere una società benefit è un impegno costante, di lungo periodo e non sempre facile, che orienta il nostro lavoro al rispetto del contesto ambientale e territoriale all’interno del quale operiamo. 
-                    Abbracciare un pensiero sostenibile significa fondare le proprie radici in principi sani, condivisibili, identitari che possano essere un monito per il presente e il futuro imprenditoriale dell’impresa.
+                    Abbracciare un pensiero sostenibile significa fondare le proprie radici in principi sani, condivisibili, identitari che possano essere la base per il presente e il futuro imprenditoriale dell’impresa.
                 </p>
             </div>
 

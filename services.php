@@ -372,7 +372,7 @@
         .leadership-other-rows {
             grid-column: 1 / -1;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 2rem;
         }
 
@@ -1846,7 +1846,7 @@
                 </div>
 
                 <!-- Quarta riga con 4 card -->
-                <div class="leadership-other-rows2">
+                <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
                         <h3 class="leadership-name">Elisa Mulargia</h3>

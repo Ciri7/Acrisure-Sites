@@ -1079,10 +1079,11 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street, 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>6 Santa Maria Segreta Street, 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>6 Lovanio Street, 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>15 San Francesco Da Paola Street, 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Perugia (PG)</strong><br>13 d/e Campo di Marte Street, 06124</li>
                 </ul>
             </div>
             

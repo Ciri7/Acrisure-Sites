@@ -1814,42 +1814,15 @@
                     </div>
 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
-                        <h3 class="leadership-name">Rossella Giacchi</h3>
-                        <p class="leadership-desc">Group General Counsel</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Alessandro Marras</h3>
-                        <p class="leadership-desc">Chief Operation Officer</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
-                        <h3 class="leadership-name">Daniele Meloni</h3>
-                        <p class="leadership-desc">Business Analysis</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Gabriele Gilleri</h3>
-                        <p class="leadership-desc">Executive Director Business</p>
-                    </div>
-                </div>
-
-                <!-- Terza riga con 3 card -->
-                <div class="leadership-other-rows">
-                    <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
                         <h3 class="leadership-name">Alessandra Sardara</h3>
                         <p class="leadership-desc">Financial Analysis</p>
                     </div>
-
+                    
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
-                        <h3 class="leadership-name">Elisa Mulargia</h3>
-                        <p class="leadership-desc">Events</p>
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandro Marras</h3>
+                        <p class="leadership-desc">Chief Operation Officer</p>
                     </div>
 
                     <div class="leadership-card">
@@ -1859,15 +1832,44 @@
                     </div>
 
                     <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
+                        <h3 class="leadership-name">Daniele Meloni</h3>
+                        <p class="leadership-desc">Business Analysis</p>
+                    </div>
+
+                </div>
+
+                <!-- Terza riga con 3 card -->
+                <div class="leadership-other-rows">
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
+                        <h3 class="leadership-name">Elisa Mulargia</h3>
+                        <p class="leadership-desc">Events</p>
+                    </div>
+
+                    <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
                         <h3 class="leadership-name">Emanuela Vignotti</h3>
                         <p class="leadership-desc">Welfare</p>
                     </div>
 
                     <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Gabriele Gilleri</h3>
+                        <p class="leadership-desc">Executive Director Business</p>
+                    </div>
+
+                    <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
                         <h3 class="leadership-name">Sara Sandroni</h3>
                         <p class="leadership-desc">Communications Brand Awareness</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
+                        <h3 class="leadership-name">Rossella Giacchi</h3>
+                        <p class="leadership-desc">Group General Counsel</p>
                     </div>
                 </div>
 
@@ -2475,10 +2477,11 @@
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street, 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>6 Santa Maria Segreta Street, 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>6 Lovanio Street, 00198</li>
-                    <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>15 San Francesco Da Paola Street, 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>3 Giuseppe Mazzini Street - 07100</li>
+                    <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Perugia (PG)</strong><br>13 d/e Campo di Marte Street, 06124</li>
                 </ul>
             </div>
             

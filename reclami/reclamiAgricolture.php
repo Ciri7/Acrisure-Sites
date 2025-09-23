@@ -901,10 +901,12 @@
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i> Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contatti</h3>
                 <ul class="footer-links">
                     <li><i class="fas fa-phone-alt"></i>Amministrazione: 069 8968206</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:premium@pec.premiumbroker.it">premium@pec.premiumbroker.it</a></li>
+                    <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li> -->
+                    <!-- <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li> -->
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:agricolture@pec.acrisure.it">agricolture@pec.acrisure.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -914,10 +916,9 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiAgricolture.php" class="footer-title-link">Reclami</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami.agricolture@acrisure.it">reclami.agricolture@acrisure.it</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:agricolture@pec.acrisure.it">agricolture@pec.acrisure.it</a></li>
                     </ul>
                 </div>
             </div>

@@ -900,6 +900,7 @@
                     <li><i class="fas fa-city"></i> <strong>Milan (MI)</strong><br>6 Santa Maria Segreta Street - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
                     <li><i class="fas fa-city"></i> <strong>Turin (TO)</strong><br>15 San Francesco Da Paola Street - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Perugia (PG)</strong><br>13 d/e Campo di Marte Street, 06124</li>
                 </ul>
             </div>
             

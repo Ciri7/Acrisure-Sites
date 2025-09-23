@@ -1092,7 +1092,7 @@
                     <li><i class="fas fa-phone-alt"></i>Amministrazione: 069 8968206</li>
                     <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li> -->
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:agriservices@pec.acrisure.it">agriservices@pec.acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:agriservices@pec.acrisure.it">agriservices@pec.acrisure.it</a></li>
                 </ul>
                 
                 <div class="social-links">

@@ -824,6 +824,7 @@
                     <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
                     <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
                     <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li>
+                    <li><i class="fas fa-city"></i> <strong>Perugia (PG)</strong><br>Via Campo di Marte, 13 d/e - 06124</li>
                 </ul>
             </div>
             

@@ -1646,6 +1646,18 @@
             padding-left: 0.5rem;
             border-bottom-color: var(--accent);
         }
+
+        /* RECLAMI LINK---------- */
+        .footer-title-link {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+        }
+
+        .footer-title-link:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>
@@ -1921,12 +1933,20 @@
                     <li><i class="fas fa-phone-alt"></i>Administration: +39 06 98968206</li>
                     <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li> -->
                     <!-- <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li> -->
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:premium@pec.premiumbroker.it">premium@pec.premiumbroker.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:agricolture@pec.acrisure.it">agricolture@pec.acrisure.it</a></li>
                 </ul>
                 
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <br>
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclam+-eng.php" class="footer-title-link">Complaints</a></h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami.agricolture@acrisure.it">reclami.agricolture@acrisure.it</a></li>
+                    </ul>
                 </div>
             </div>
             

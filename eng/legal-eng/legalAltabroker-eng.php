@@ -946,6 +946,7 @@
                     <li><i class="fas fa-phone-alt"></i>Administration: 010 9860606</li>
                     <li><i class="fas fa-fax"></i>Fax: +39 010 9868018</li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@altabroker.it">info@altabroker.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -958,7 +959,6 @@
                     <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiAltabroker-eng.php" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@altabroker.it"> reclami@altabroker.it</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:altabrokerandpartners@pec.it">altabrokerandpartners@pec.it</a></li>
                     </ul>
                 </div>
             </div>

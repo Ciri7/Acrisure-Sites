@@ -1782,7 +1782,7 @@
             <h3 style="color: var(--secondary); text-align: center;">Presenza Globale</h3>
             <div class="about-stats">
                 <div class="stat-item">
-                    <div class="stat-number" data-count="$4,8B">0</div>
+                    <div class="stat-number" data-count="$5,0B">0</div>
                     <div class="stat-label">Ricavi</div>
                 </div>
                 <div class="stat-item">

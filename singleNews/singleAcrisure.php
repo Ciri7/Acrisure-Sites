@@ -321,40 +321,19 @@ $article = $articles[$article_id];
             height: 60vh;
             min-height: 500px;
             display: flex;
-            align-items: flex-end;
+            align-items: center; /* Cambiato da flex-end a center */
+            justify-content: center; /* Centrato orizzontalmente */
             padding-top: 80px;
             color: white;
             margin-bottom: 4rem;
+            text-align: center; /* Testo centrato */
         }
-        
+
         .article-hero-content {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 5% 4rem;
+            padding: 0 5%;
             width: 100%;
-        }
-        
-        .breadcrumb {
-            display: flex;
-            margin-bottom: 1.5rem;
-            font-size: 1rem;
-            opacity: 0.9;
-        }
-        
-        .breadcrumb a {
-            color: var(--accent);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .breadcrumb a:hover {
-            color: white;
-            text-decoration: underline;
-        }
-        
-        .breadcrumb span {
-            margin: 0 0.5rem;
-            color: rgba(255, 255, 255, 0.7);
         }
         
         /* Article Content */
@@ -1106,10 +1085,10 @@ $article = $articles[$article_id];
             </div>
             <nav>
                 <ul>
-                    <li><a href="#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
-                    <li><a href="#news" class="nav-link">News</a></li>
-                    <li><a href="#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
+                    <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="/index.php#leadership" class="nav-link">Leadership</a></li>
+                    <li><a href="index.php#news" class="nav-link">News</a></li>
+                    <li><a href="index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
                     <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora Con Noi</a></li>
                 </ul>
             </nav>
@@ -1125,13 +1104,6 @@ $article = $articles[$article_id];
     <!-- Article Hero -->
     <section class="article-hero">
         <div class="article-hero-content">
-            <div class="breadcrumb">
-                <!-- <a href="../index.php">Home</a>
-                <span>/</span>
-                <a href="../news/newsAcrisure.php">News</a>
-                <span>/</span> -->
-                <span>Articolo</span>
-            </div>
             <h1><?php echo htmlspecialchars($article['title']); ?></h1>
         </div>
     </section>

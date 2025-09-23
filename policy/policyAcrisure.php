@@ -200,7 +200,6 @@
         }
         
         /* Hero Section */
-        /* Hero Section */
         .privacy-hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/acrisure7.jpg');
             background-size: cover;

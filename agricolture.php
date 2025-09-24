@@ -329,7 +329,33 @@
             position: relative;
         }
 
-        /* Nuovo stile per la prima riga con 2 card centrate */
+        .leadership .section-title {
+            color: white;
+            position: relative;
+            z-index: 2;
+        }
+
+        .leadership .section-title::after {
+            background-color: white;
+        }
+
+        .leadership-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .leadership-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            margin-top: 2rem;
+            max-width: 1200px;
+            width: 100%;
+            align-items: center;
+        }
+
         .leadership-row {
             display: flex;
             justify-content: center;
@@ -337,40 +363,23 @@
             width: 100%;
         }
 
-        .leadership-row:first-child .leadership-card {
-            width: calc(33.333% - 1.34rem); /* 3 card per riga */
+        .leadership-row:first-child {
+            /* Prima riga con 3 card */
+            justify-content: space-between;
         }
 
-        .leadership-row:last-child .leadership-card {
-            width: calc(50% - 1rem); /* 2 card per riga */
-        }
-        
-        .leadership .section-title {
-            color: white;
-            position: relative;
-            z-index: 2;
-        }
-        
-        .leadership .section-title::after {
-            background-color: white;
-        }
-        
-        .leadership-container {
-            display: flex;
+        .leadership-row:last-child {
+            /* Seconda riga con 2 card - aggiungiamo spazi vuoti ai lati */
             justify-content: center;
-            position: relative;
-            z-index: 2;
         }
-        
-        .leadership-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            margin-top: 2rem;
-            max-width: 1200px;
-            width: 100%;
+
+        .leadership-row:last-child::before,
+        .leadership-row:last-child::after {
+            content: "";
+            width: calc((100% - 700px) / 2); /* Calcolato in base alla larghezza delle card */
+            max-width: 175px; /* Massimo come una card */
         }
-        
+
         .leadership-card {
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -388,18 +397,18 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 350px; /* Larghezza fissa per tutte le card */
-            max-width: 100%;
+            width: 350px; /* Larghezza fissa identica per tutte */
+            flex-shrink: 0; /* Impedisce il ridimensionamento */
             box-sizing: border-box;
         }
-        
+
         .leadership-card:hover {
             transform: translateY(-10px);
             background-color: rgba(255, 255, 255, 0.15);
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
             border-color: var(--accent);
         }
-        
+
         .leadership-logo {
             height: 80px;
             width: auto;
@@ -408,22 +417,74 @@
             margin-bottom: 1.5rem;
             transition: transform 0.5s;
         }
-        
+
         .leadership-card:hover .leadership-logo {
             transform: scale(1.1);
         }
-        
+
         .leadership-name {
             color: white;
             margin: 1rem 0;
             font-size: 1.3rem;
         }
-        
+
         .leadership-desc {
             color: rgba(255, 255, 255, 0.9);
             font-size: 1rem;
             margin-bottom: 1.5rem;
             line-height: 1.6;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .leadership-card {
+                width: 320px;
+            }
+            
+            .leadership-row:last-child::before,
+            .leadership-row:last-child::after {
+                width: calc((100% - 640px) / 2); /* Aggiornato per 320px */
+            }
+        }
+
+        @media (max-width: 1100px) {
+            .leadership-row:last-child::before,
+            .leadership-row:last-child::after {
+                display: none; /* Su schermi più piccoli rimuoviamo gli spazi */
+            }
+            
+            .leadership-row:first-child {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .leadership-row:first-child .leadership-card {
+                width: calc(50% - 1rem); /* 2 card per riga su tablet */
+            }
+            
+            .leadership-row:last-child .leadership-card {
+                width: calc(50% - 1rem);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .leadership-row {
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+            }
+            
+            .leadership-card {
+                width: 100%;
+                max-width: 400px;
+                min-height: 280px;
+            }
+            
+            .leadership-row:first-child .leadership-card,
+            .leadership-row:last-child .leadership-card {
+                width: 100%;
+                max-width: 400px;
+            }
         }
         
         /* News Section */
@@ -1381,27 +1442,6 @@
             .section-title {
                 font-size: 2.2rem;
             }
-            
-            .leadership-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .leadership-card:nth-child(1),
-            .leadership-card:nth-child(2) {
-                grid-column: span 1;
-            }
-
-            .leadership-row:first-child {
-                flex-wrap: wrap;
-            }
-            
-            .leadership-row:first-child .leadership-card {
-                width: calc(50% - 1rem); /* 2 card per riga su tablet */
-            }
-            
-            .leadership-row:last-child .leadership-card {
-                width: calc(50% - 1rem);
-            }
         }
         
         @media (max-width: 768px) {
@@ -1589,17 +1629,6 @@
                 margin: 0 auto;
                 pointer-events: auto;
             }
-
-                .leadership-row {
-                    flex-direction: column;
-                    align-items: center;
-                }
-                
-                .leadership-row:first-child .leadership-card,
-                .leadership-row:last-child .leadership-card {
-                    width: 100%;
-                    max-width: 400px;
-                }
         }
         
         @media (max-width: 480px) {
@@ -1639,7 +1668,7 @@
             }
         }
 
-                /* NUOVI FOOTER --------------------------- */
+        /* NUOVI FOOTER --------------------------- */
         .social-links a {
             color: var(--secondary);
             font-size: 1.5rem; /* Aumentato da 1.2rem */

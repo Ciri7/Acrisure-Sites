@@ -916,7 +916,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiAgricolture.php" class="footer-title-link">Reclami</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="#header" class="footer-title-link">Reclami</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami.agricolture@acrisure.it">reclami.agricolture@acrisure.it</a></li>
                     </ul>

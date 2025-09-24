@@ -1778,22 +1778,21 @@
         
         <div class="leadership-container">
             <div class="leadership-grid">
-
                 <!-- First row -->
-                 <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
-                    <h3 class="leadership-name">Stefano Bruschetta</h3>
-                    <p class="leadership-desc">Chief Executive Officer</p>
-                </div>
-
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Stefano Sardara</h3>
                     <p class="leadership-desc">Chairman</p>
                 </div>
 
                 <div class="leadership-card">
-                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italy" class="leadership-logo">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                    <h3 class="leadership-name">Stefano Bruschetta</h3>
+                    <p class="leadership-desc">Chief Executive Officier</p>
+                </div>
+
+                <div class="leadership-card">
+                    <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                     <h3 class="leadership-name">Beatrice Bruschetta</h3>
                     <p class="leadership-desc">Executive Director Operations & IT</p>
                 </div>

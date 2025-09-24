@@ -821,9 +821,6 @@
     </style>
 </head>
 <body>
-    <!-- Page transition overlay -->
-    <div class="page-transition"></div>
-
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">

@@ -1809,14 +1809,14 @@
                 <div class="leadership-first-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Stefano Sardara</h3>
-                        <p class="leadership-desc">Chief Executive Officier</p>
-                    </div>
-                    
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Andrea Maffei</h3>
                         <p class="leadership-desc">Chairman</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Stefano Sardara</h3>
+                        <p class="leadership-desc">Chief Executive Officier</p>
                     </div>
 
                     <div class="leadership-card">
@@ -1829,9 +1829,9 @@
                 <!-- Seconda riga con 4 card -->
                 <div class="leadership-other-rows">
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Gabriele Gilleri</h3>
-                        <p class="leadership-desc">Chief Operating Officer</p>
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Andrea Barbieri</h3>
+                        <p class="leadership-desc">Account Manager</p>
                     </div>
 
                     <div class="leadership-card">
@@ -1841,9 +1841,9 @@
                     </div>
 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Andrea Barbieri</h3>
-                        <p class="leadership-desc">Account Manager</p>
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Gabriele Gilleri</h3>
+                        <p class="leadership-desc">Chief Operating Officer</p>
                     </div>
 
                     <div class="leadership-card">

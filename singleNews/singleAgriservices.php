@@ -136,7 +136,7 @@ $article = $articles[$article_id];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - Acrisure</title>
+    <title>News - Acrisure Agriservices</title>
     <meta name="description" content="Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.">
     <meta name="keywords" content="assicurazioni agricole, partnership Acrisure, polizze agricoltura, Acrisure Agricolture">
     <link rel="canonical" href="https://www.acrisureitalia.com/news-article.html?id=1" />
@@ -1103,8 +1103,8 @@ $article = $articles[$article_id];
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/index.php">
-                <img src="/img/AcrisureLOGO.png" class="logo" alt=""></li>
+                <a href="/agriservices.php">
+                    <img src="/img/ACRISURE AGRISERVICES.jpg" alt="Acrisure Services Logo" class="logo">
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -1114,11 +1114,11 @@ $article = $articles[$article_id];
             </div>
             <nav>
                 <ul>
-                    <li><a href="/index.php#chi-siamo" class="nav-link">Chi Siamo</a></li>
-                    <li><a href="/index.php#leadership" class="nav-link">Leadership</a></li>
-                    <li><a href="/index.php#news" class="nav-link">News</a></li>
+                    <li><a href="/agriservices.php#news" class="nav-link">News</a></li>
+                    <li><a href="/agriservices.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/agriservices.php#services" class="nav-link">Servizi</a></li>
                     <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora Con Noi</a></li>
+                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
@@ -1203,34 +1203,37 @@ $article = $articles[$article_id];
         </div>
     </article>
 
-    <!-- FOOTER -->
+    <!-- FOOTER ------------------------------------------------------------------------------------------------------------------ -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
                 <h3><i class="fas fa-building"></i>Sede Legale</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure S.r.l.</li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agriservices S.r.l.</li>
                     <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/AcrisureLOGO.png" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-map-marker-alt"></i>Via Lovanio, 6 - 00198 Roma</li><br>
+                    <li><img src="/img/ACRISURE AGRISERVICES.jpg" class="logo-footer" alt=""></li>
                 </ul>
             </div>
 
             <div class="footer-column">
                 <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li>
+                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio, 6 - 00198</li>
+                    <!-- <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta, 6 - 20123</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Torino (TO)</strong><br>Via San Francesco Da Paola, 15 - 10123</li> -->
+                    <!-- <li><i class="fas fa-city"></i> <strong>Genova (GE)</strong><br>Piazza della Vittoria, 9 - 16121</li> -->
+                    <li><i class="fas fa-city"></i> <strong>Cles (TN)</strong><br>Piazza Granda, 44 - 38023</li>
                 </ul>
             </div>
             
             <div class="footer-column">
                 <h3><i class="fas fa-headset"></i>Contatti</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i> Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it"> info@acrisure.it</a></li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:acrisure@legalmail.it"> acrisure@legalmail.it</a></li>
+                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 069 8968206</li>
+                    <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: 079 2853063</li> -->
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:agriservices@pec.acrisure.it">agriservices@pec.acrisure.it</a></li>
                 </ul>
                 
                 <div class="social-links">
@@ -1240,7 +1243,7 @@ $article = $articles[$article_id];
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Orari Ufficio</h3>
                 <ul class="footer-links">
                     <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
                     <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
@@ -1253,9 +1256,9 @@ $article = $articles[$article_id];
                 </div> -->
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
+                    <a href="/policy/policyAgriservices.php">Privacy Policy</a>
+                    <a href="/cookies/cookiesAgriservices.php">Cookie Policy</a>
+                    <a href="/legal&comp/legalAgriservices.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
@@ -1272,9 +1275,9 @@ $article = $articles[$article_id];
         <br>
         <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure S.r.l. - Cap. sociale €10.000,00 i.v. <br>
-            Società appartenente al Gruppo IVA Acrisure P.IVA 13147890969<br>
-            Cod. Fiscale e n.iscr. al Registro Imprese di Sassari n.11635300962 - REA SS-222619 </p>
+            <p>Acrisure Agriservices S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - <br>
+            Cap.sociale € 10.400,00 i.v- Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- <br>
+            Cod.Fiscale e n. iscr.al registro Imprese di Roma n.05901241009   REA RM- 937257 </p>
         </div>
     </footer>
 

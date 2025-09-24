@@ -344,14 +344,9 @@
 
         .leadership-other-rows {
             grid-column: 1 / -1;
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
-        }
-
-        .leadership-other-rows .leadership-card {
-            width: 45%;
-            max-width: 500px;
         }
         
         .leadership .section-title {
@@ -374,15 +369,6 @@
         .leadership-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            margin-top: 2rem;
-            max-width: 1200px;
-            width: 100%;
-        }
-
-        .leadership-grid2 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
             margin-top: 2rem;
             max-width: 1200px;
@@ -1824,10 +1810,8 @@
                         <p class="leadership-desc">Executive Director of Northen Agricultural Business Development</p>
                     </div>
                 </div>
-            </div>
-            
-            <div class="leadership-grid2">
-                <div class="leadership-first-row">
+
+                <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Aurelio Carnevale</h3>

@@ -337,7 +337,7 @@
             gap: 2rem;
         }
         
-        .leadership-first-row .leadership-other-rows .leadership-card {
+        .leadership-first-row .leadership-card {
             width: 45%;
             max-width: 500px;
         }
@@ -345,8 +345,14 @@
         .leadership-other-rows {
             grid-column: 1 / -1;
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(2, minmax(300px, 45%));
+            justify-content: center;
             gap: 2rem;
+        }
+
+        .leadership-other-rows .leadership-card {
+            max-width: 500px;
+            margin: 0 auto;
         }
         
         .leadership .section-title {

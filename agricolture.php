@@ -330,21 +330,29 @@
         }
 
         /* Nuovo stile per la prima riga con 2 card centrate */
-        .leadership-first-row,
-        .leadership-other-rows {
+        .leadership-first-row {
+            grid-column: 1 / -1;
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
             gap: 2rem;
-            align-items: stretch; /* altezze uniformi */
+        }
+        
+        .leadership-first-row .leadership-card {
+            width: 45%;
+            max-width: 500px;
         }
 
-        .leadership-card {
-            flex: 0 0 320px;   /* tutte le card hanno larghezza 320px */
-            max-width: 320px;  /* non crescono oltre */
-            width: 100%;       /* così rispettano la larghezza fissa */
+        .leadership-other-rows {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
         }
 
+        .leadership-other-rows .leadership-card {
+            width: 45%;
+            max-width: 500px;
+        }
         
         .leadership .section-title {
             color: white;
@@ -1808,7 +1816,7 @@
                     </div>
                 </div>
 
-                <div class="leadership-other-rows">
+                <div class="leadership-first-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Aurelio Carnevale</h3>

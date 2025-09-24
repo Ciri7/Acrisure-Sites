@@ -344,15 +344,14 @@
 
         .leadership-other-rows {
             grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: repeat(2, minmax(300px, 45%));
+            display: flex;
             justify-content: center;
             gap: 2rem;
         }
 
         .leadership-other-rows .leadership-card {
+            width: 45%;
             max-width: 500px;
-            margin: 0 auto;
         }
         
         .leadership .section-title {

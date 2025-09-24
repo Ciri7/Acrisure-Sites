@@ -363,10 +363,9 @@
             width: 100%;
         }
 
-        .leadership-row:first-child {
-            /* Prima riga con 3 card */
+        /* .leadership-row:first-child {
             justify-content: space-between;
-        }
+        } */
 
         .leadership-row:last-child {
             /* Seconda riga con 2 card - aggiungiamo spazi vuoti ai lati */

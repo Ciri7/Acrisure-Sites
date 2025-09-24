@@ -330,29 +330,19 @@
         }
 
         /* Nuovo stile per la prima riga con 2 card centrate */
-        .leadership-first-row {
-            grid-column: 1 / -1;
+        .leadership-row {
             display: flex;
             justify-content: center;
             gap: 2rem;
-        }
-        
-        .leadership-first-row .leadership-card {
-            width: 45%;
-            max-width: 500px;
+            width: 100%;
         }
 
-        .leadership-other-rows {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: repeat(2, minmax(300px, 45%));
-            justify-content: center;
-            gap: 2rem;
+        .leadership-row:first-child .leadership-card {
+            width: calc(33.333% - 1.34rem); /* 3 card per riga */
         }
 
-        .leadership-other-rows .leadership-card {
-            max-width: 500px;
-            margin: 0 auto;
+        .leadership-row:last-child .leadership-card {
+            width: calc(50% - 1rem); /* 2 card per riga */
         }
         
         .leadership .section-title {
@@ -373,8 +363,8 @@
         }
         
         .leadership-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            flex-direction: column;
             gap: 2rem;
             margin-top: 2rem;
             max-width: 1200px;
@@ -1392,6 +1382,18 @@
             .leadership-card:nth-child(2) {
                 grid-column: span 1;
             }
+
+            .leadership-row:first-child {
+                flex-wrap: wrap;
+            }
+            
+            .leadership-row:first-child .leadership-card {
+                width: calc(50% - 1rem); /* 2 card per riga su tablet */
+            }
+            
+            .leadership-row:last-child .leadership-card {
+                width: calc(50% - 1rem);
+            }
         }
         
         @media (max-width: 768px) {
@@ -1579,6 +1581,17 @@
                 margin: 0 auto;
                 pointer-events: auto;
             }
+
+                .leadership-row {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .leadership-row:first-child .leadership-card,
+                .leadership-row:last-child .leadership-card {
+                    width: 100%;
+                    max-width: 400px;
+                }
         }
         
         @media (max-width: 480px) {
@@ -1792,12 +1805,12 @@
     <section id="gruppo" class="section leadership">
         <br>
         <h2 class="section-title">Leadership</h2>
-        <p class="section-subtitle2">Il nostro team guida l’azienda con visione strategica, esperienza consolidata e un forte impegno verso l’innovazione e l’eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
+        <p class="section-subtitle2">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <!-- Prima riga con 2 card centrate -->
-                <div class="leadership-first-row">
+                <!-- Prima riga con 3 card -->
+                <div class="leadership-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Andrea Maffei</h3>
@@ -1817,7 +1830,8 @@
                     </div>
                 </div>
 
-                <div class="leadership-other-rows">
+                <!-- Seconda riga con 2 card centrate -->
+                <div class="leadership-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Aurelio Carnevale</h3>
@@ -1829,7 +1843,7 @@
                         <h3 class="leadership-name">Francesco Depalo</h3>
                         <p class="leadership-desc">Technical Sales Director</p>
                     </div>
-                </div><br>
+                </div>
             </div>
         </div>
         <br><br><br>

@@ -348,6 +348,11 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
         }
+
+        .leadership-other-rows .leadership-card {
+            width: 30%;
+            max-width: 500px;
+        }
         
         .leadership .section-title {
             color: white;

@@ -1846,8 +1846,8 @@
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <!-- Prima riga con 2 card centrate -->
-                <div class="leadership-first-row">
+                <!-- Prima riga con 3 card -->
+                <div class="leadership-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Andrea Maffei</h3>
@@ -1867,7 +1867,8 @@
                     </div>
                 </div>
 
-                <div class="leadership-first-row">
+                <!-- Seconda riga con 2 card centrate -->
+                <div class="leadership-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Aurelio Carnevale</h3>
@@ -1879,7 +1880,7 @@
                         <h3 class="leadership-name">Francesco Depalo</h3>
                         <p class="leadership-desc">Technical Sales Director</p>
                     </div>
-                </div><br>
+                </div>
             </div>
         </div>
         <br><br><br>

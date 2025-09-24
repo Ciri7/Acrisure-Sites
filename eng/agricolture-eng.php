@@ -337,7 +337,7 @@
             gap: 2rem;
         }
         
-        .leadership-first-row .leadership-card {
+        .leadership-first-row .leadership-other-rows .leadership-card {
             width: 45%;
             max-width: 500px;
         }

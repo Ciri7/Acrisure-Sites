@@ -328,45 +328,57 @@
             color: white;
             position: relative;
         }
-        
+
         .leadership .section-title {
             color: white;
             position: relative;
             z-index: 2;
         }
-        
+
         .leadership .section-title::after {
             background-color: white;
         }
-        
+
         .leadership-container {
             display: flex;
             justify-content: center;
             position: relative;
             z-index: 2;
         }
-        
+
         .leadership-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
             margin-top: 2rem;
             max-width: 1200px;
             width: 100%;
+            align-items: center;
         }
 
-        .leadership-first-row {
-            grid-column: 1 / -1;
+        .leadership-row {
             display: flex;
             justify-content: center;
             gap: 2rem;
+            width: 100%;
         }
-        
-        .leadership-first-row .leadership-card {
-            width: 45%;
-            max-width: 500px;
+
+        /* .leadership-row:first-child {
+            justify-content: space-between;
+        } */
+
+        .leadership-row:last-child {
+            /* Seconda riga con 2 card - aggiungiamo spazi vuoti ai lati */
+            justify-content: center;
         }
-        
+
+        .leadership-row:last-child::before,
+        .leadership-row:last-child::after {
+            content: "";
+            width: calc((100% - 700px) / 2); /* Calcolato in base alla larghezza delle card */
+            max-width: 175px; /* Massimo come una card */
+        }
+
         .leadership-card {
             background-color: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -379,15 +391,23 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
             position: relative;
             z-index: 2;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px; /* Larghezza fissa identica per tutte */
+            flex-shrink: 0; /* Impedisce il ridimensionamento */
+            box-sizing: border-box;
         }
-        
+
         .leadership-card:hover {
             transform: translateY(-10px);
             background-color: rgba(255, 255, 255, 0.15);
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
             border-color: var(--accent);
         }
-        
+
         .leadership-logo {
             height: 80px;
             width: auto;
@@ -396,22 +416,74 @@
             margin-bottom: 1.5rem;
             transition: transform 0.5s;
         }
-        
+
         .leadership-card:hover .leadership-logo {
             transform: scale(1.1);
         }
-        
+
         .leadership-name {
             color: white;
             margin: 1rem 0;
             font-size: 1.3rem;
         }
-        
+
         .leadership-desc {
             color: rgba(255, 255, 255, 0.9);
             font-size: 1rem;
             margin-bottom: 1.5rem;
             line-height: 1.6;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .leadership-card {
+                width: 320px;
+            }
+            
+            .leadership-row:last-child::before,
+            .leadership-row:last-child::after {
+                width: calc((100% - 640px) / 2); /* Aggiornato per 320px */
+            }
+        }
+
+        @media (max-width: 1100px) {
+            .leadership-row:last-child::before,
+            .leadership-row:last-child::after {
+                display: none; /* Su schermi più piccoli rimuoviamo gli spazi */
+            }
+            
+            .leadership-row:first-child {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .leadership-row:first-child .leadership-card {
+                width: calc(50% - 1rem); /* 2 card per riga su tablet */
+            }
+            
+            .leadership-row:last-child .leadership-card {
+                width: calc(50% - 1rem);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .leadership-row {
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+            }
+            
+            .leadership-card {
+                width: 100%;
+                max-width: 400px;
+                min-height: 280px;
+            }
+            
+            .leadership-row:first-child .leadership-card,
+            .leadership-row:last-child .leadership-card {
+                width: 100%;
+                max-width: 400px;
+            }
         }
         
         /* News Section */
@@ -1790,7 +1862,7 @@
         
         <div class="leadership-container">
             <div class="leadership-grid">
-                <div class="leadership-first-row">
+                <div class="leadership-row">
                     <!-- Prima riga -->
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
@@ -1811,7 +1883,7 @@
                     </div>
                 </div>
 
-                <div class="leadership-first-row">
+                <div class="leadership-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Giusy Novelli</h3>

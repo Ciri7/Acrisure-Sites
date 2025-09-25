@@ -1097,7 +1097,7 @@
                 <br>
                 <div class="legal-links">
                     <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
-                    <a href="#header">Certificazioni</a>
+                    <a href="/Certificazioni/certificazioniItalia.php">Certificazioni</a>
                     <a href="/Sostenibilità/sostenibilitaItalia.php">Sostenibilità</a>
                     <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>

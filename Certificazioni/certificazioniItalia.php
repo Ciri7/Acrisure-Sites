@@ -918,10 +918,10 @@
                     
                     <div class="certification-badge">
                         <i class="fas fa-certificate"></i>
-                        <span>ISO 9001</span>
+                        <span>ISO 9001:2015</span>
                     </div>
                     
-                    <p><a href="/DOCUMENTI/QUALITÀ/Qualità Italia.pdf" target="_blank">Scarica il documento completo della Politica per la Qualità</a></p>
+                    <p><a href="/DOCUMENTI/QUALITÀ/Politica della Qualità Acrisure Italia.pdf" target="_blank">Scarica il documento completo della Politica per la Qualità</a></p>
                 </div>
             </div>
             
@@ -1097,7 +1097,7 @@
                 <br>
                 <div class="legal-links">
                     <a href="/legal&comp/legalItalia.php">Legal & Compliance</a>
-                    <a href="#header">Qualità</a>
+                    <a href="#header">Certificazioni</a>
                     <a href="/Sostenibilità/sostenibilitaItalia.php">Sostenibilità</a>
                     <a href="/policy/policyItalia.php">Privacy Policy</a>
                     <a href="/cookies/cookiesItalia.php">Cookie Policy</a>

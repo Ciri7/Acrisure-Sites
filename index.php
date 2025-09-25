@@ -1886,7 +1886,7 @@
                 <!-- Articolo 1 -->
                 <div class="news-card" data-index="0" onclick="window.location.href='singleNews/singleAcrisure.php?id=1'">
                     <div class="news-image">
-                        <img src="/img/news1.jpg" alt="Nuova partnership nel settore agricolo">
+                        <img src="/img/Armonia Relax.jpg" alt="Nuova partnership nel settore agricolo">
                     </div>
                     <div class="news-content">
                         <div class="news-date">15 Marzo 2024</div>

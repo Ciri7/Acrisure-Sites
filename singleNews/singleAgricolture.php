@@ -1182,7 +1182,7 @@ $article = $articles[$article_id];
                 <a href="#" class="share-btn" aria-label="Condividi via Email"><i class="fas fa-envelope"></i></a>
             </div>
             
-            <a href="../news/newsAcrisure.php" class="back-to-news"><i class="fas fa-arrow-left"></i> Torna alle news</a>
+            <a href="../news/newsAgricolture.php" class="back-to-news"><i class="fas fa-arrow-left"></i> Torna alle news</a>
             
             <div class="related-news">
                 <h2>Potrebbero interessarti anche</h2>

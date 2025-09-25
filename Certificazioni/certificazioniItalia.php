@@ -1126,6 +1126,26 @@
     </footer>
 
     <script>
+
+        // Gestione speciale per i link anchor
+        const anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+        anchorLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                // Se il link anchor punta a un elemento nella stessa pagina
+                if (this.getAttribute('href') !== '#' && 
+                    document.querySelector(this.getAttribute('href'))) {
+                    
+                    e.preventDefault();
+                    pageTransition.classList.add('active');
+                    
+                    setTimeout(() => {
+                        window.location.href = this.href;
+                    }, 400);
+                }
+            });
+        });
+
         // Accordion functionality
         document.addEventListener('DOMContentLoaded', function() {
             const accordionHeaders = document.querySelectorAll('.accordion-header');

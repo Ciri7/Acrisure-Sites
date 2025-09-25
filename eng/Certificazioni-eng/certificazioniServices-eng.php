@@ -272,74 +272,119 @@
             border-radius: 2px;
         }
         
-        /* Privacy Content */
-        .privacy-content {
+        /* Certifications Content */
+        .certifications-content {
             max-width: 1000px;
             margin: 0 auto;
-            background-color: white;
-            padding: 3rem;
+        }
+        
+        /* Accordion Styling */
+        .certification-accordion {
+            margin-bottom: 2rem;
             border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            background-color: white;
         }
         
-        .privacy-section {
-            margin-bottom: 3rem;
+        .certification-accordion:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            transform: translateY(-5px);
         }
         
-        .privacy-section h2 {
-            color: var(--secondary);
-            margin-bottom: 1.5rem;
-            font-size: 1.8rem;
-            position: relative;
-            padding-bottom: 0.8rem;
+        .accordion-header {
+            padding: 1.5rem 2rem;
+            background-color: var(--secondary);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s;
         }
         
-        .privacy-section h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 2px;
-            background-color: var(--accent);
+        .accordion-header:hover {
+            background-color: #00264d;
         }
         
-        .privacy-section h3 {
-            color: var(--secondary);
-            margin: 2rem 0 1rem;
+        .accordion-header h3 {
+            margin: 0;
             font-size: 1.4rem;
+            font-weight: 600;
         }
         
-        .privacy-section p, 
-        .privacy-section ul {
+        .accordion-icon {
+            transition: transform 0.3s ease;
+            font-size: 1.2rem;
+        }
+        
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+        
+        .accordion-content {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            background-color: white;
+        }
+        
+        .accordion-content.active {
+            padding: 2rem;
+            max-height: 1000px;
+        }
+        
+        .accordion-content p {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
             color: #555;
         }
         
-        .privacy-section ul {
+        .accordion-content ul {
             padding-left: 2rem;
+            margin-bottom: 1.5rem;
         }
         
-        .privacy-section li {
+        .accordion-content li {
             margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
         }
         
-        .privacy-section strong {
+        .accordion-content strong {
             color: var(--secondary);
             font-weight: 600;
         }
         
-        .privacy-section a {
+        .accordion-content a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .privacy-section a:hover {
+        .accordion-content a:hover {
             color: var(--primary);
             text-decoration: underline;
+        }
+        
+        .certification-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--light);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .certification-badge i {
+            margin-right: 0.5rem;
+            color: var(--accent);
         }
         
         /* Footer */
@@ -833,32 +878,70 @@
         </div>
     </header>
 
-    <section class="privacy-hero">
+    <section class="certifications-hero">
         <div class="hero-content">
-            <h1>Quality</h1>
+            <h1>Certifications</h1>
+            <p>The certifications that attest to our commitment to excellence and regulatory compliance</p>
         </div>
     </section>
 
     <section class="section">
-        <div class="privacy-content">
-            <div class="privacy-section">
-                <h2>Quality Policy</h2>
-                <p>Acrisure Services S.r.l. is the company dedicated to providing highly qualified support services to Group entities and partners.
-                    Within our Quality Management System, skills development, organizational efficiency, and innovation are the pillars that enable us to ensure reliability, timeliness, and operational value.<br><br>
-                    The Quality Policy, in compliance with ISO 9001:2015, is an integral part of our strategy and guides every activity towards compliance with applicable requirements and the continuous improvement of processes and stakeholder satisfaction.<br><br>
-                    We are committed to: <br>
+        <div class="certifications-content">
+            <h2 class="section-title">Our Certifications</h2>
+            
+            <!-- Quality Certification -->
+            <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Quality Policy</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Services S.r.l. is the company dedicated to providing highly qualified support services to the Group's entities and partners. Within our Quality Management System, the growth of skills, organizational efficiency, and innovation represent the pillars that allow us to guarantee reliability, timeliness, and operational value.</p>
+                    
+                    <p>The Quality Policy, compliant with the ISO 9001:2015 Standard, is an integral part of our strategy and guides every activity towards compliance with applicable requirements and continuous improvement of processes and stakeholder satisfaction.</p>
+                    
+                    <p>We are committed to:</p>
                     <ul>
-                        <li>delivering timely, efficient services with high quality standards;</li>
-                        <li>enhancing the professionalism of our collaborators through training, engagement, and empowerment;</li>
-                        <li>constantly monitoring performance, managing risks and opportunities to ensure innovation and optimization.</li>
+                        <li>ensuring timely, efficient, and high-standard quality services;</li>
+                        <li>enhancing the professionalism of our collaborators through training, involvement, and empowerment;</li>
+                        <li>constantly monitoring performance, managing risks and opportunities to guarantee innovation and optimization.</li>
                     </ul>
-                    For Acrisure Services, quality means being the trusted operational partner, able to support and enhance business performance.
-                    The Policy is communicated at all levels and is regularly reviewed to ensure consistency and effectiveness. <br>
-                    <ul>
-                        <li><a href="../../DOCUMENTI/QUALITÀ/Qualità Services.pdf" target="_blank">Acrisure Services S.r.l. - Quality Policy</a></li>
-                    </ul>
-                </p>
+                    
+                    <p>For Acrisure Services, quality means being a trusted operational partner, capable of supporting and enhancing business performance. The Policy is communicated at all levels and regularly reviewed to ensure consistency and effectiveness.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>ISO 9001:2015</span>
+                    </div>
+                    
+                    <p><a href="/DOCUMENTI/QUALITÀ/Politica della Qualità Acrisure Services.pdf" target="_blank">Download the complete Quality Policy document</a></p>
+                </div>
             </div>
+            
+            <!-- Future certifications placeholder -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Future Certifications</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Services S.r.l. is constantly committed to continuous improvement and expanding its certifications to ensure the highest standards of quality and compliance.</p>
+                    
+                    <p>We are currently evaluating obtaining additional certifications in areas such as:</p>
+                    <ul>
+                        <li>Cybersecurity and data protection</li>
+                        <li>Corporate social responsibility (CSR)</li>
+                        <li>Digital innovation in support services</li>
+                    </ul>
+                    
+                    <p>This section will be updated as soon as new certifications are obtained, demonstrating our constant commitment to excellence.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-rocket"></i>
+                        <span>In Evolution</span>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </section>
 
@@ -911,7 +994,7 @@
                 
                 <div class="legal-links">
                     <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
-                    <a href="#header">Qualità</a>
+                    <a href="#header">Certifications</a>
                     <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a>
                     <a href="/eng/cookies-eng/cookiesServices-eng.php">Cookie Policy</a>
                 </div>

@@ -272,74 +272,119 @@
             border-radius: 2px;
         }
         
-        /* Privacy Content */
-        .privacy-content {
+        /* Certifications Content */
+        .certifications-content {
             max-width: 1000px;
             margin: 0 auto;
-            background-color: white;
-            padding: 3rem;
+        }
+        
+        /* Accordion Styling */
+        .certification-accordion {
+            margin-bottom: 2rem;
             border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            background-color: white;
         }
         
-        .privacy-section {
-            margin-bottom: 3rem;
+        .certification-accordion:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            transform: translateY(-5px);
         }
         
-        .privacy-section h2 {
-            color: var(--secondary);
-            margin-bottom: 1.5rem;
-            font-size: 1.8rem;
-            position: relative;
-            padding-bottom: 0.8rem;
+        .accordion-header {
+            padding: 1.5rem 2rem;
+            background-color: var(--secondary);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s;
         }
         
-        .privacy-section h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 2px;
-            background-color: var(--accent);
+        .accordion-header:hover {
+            background-color: #00264d;
         }
         
-        .privacy-section h3 {
-            color: var(--secondary);
-            margin: 2rem 0 1rem;
+        .accordion-header h3 {
+            margin: 0;
             font-size: 1.4rem;
+            font-weight: 600;
         }
         
-        .privacy-section p, 
-        .privacy-section ul {
+        .accordion-icon {
+            transition: transform 0.3s ease;
+            font-size: 1.2rem;
+        }
+        
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+        
+        .accordion-content {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            background-color: white;
+        }
+        
+        .accordion-content.active {
+            padding: 2rem;
+            max-height: 1000px;
+        }
+        
+        .accordion-content p {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
             color: #555;
         }
         
-        .privacy-section ul {
+        .accordion-content ul {
             padding-left: 2rem;
+            margin-bottom: 1.5rem;
         }
         
-        .privacy-section li {
+        .accordion-content li {
             margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
         }
         
-        .privacy-section strong {
+        .accordion-content strong {
             color: var(--secondary);
             font-weight: 600;
         }
         
-        .privacy-section a {
+        .accordion-content a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .privacy-section a:hover {
+        .accordion-content a:hover {
             color: var(--primary);
             text-decoration: underline;
+        }
+        
+        .certification-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--light);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .certification-badge i {
+            margin-right: 0.5rem;
+            color: var(--accent);
         }
         
         /* Footer */
@@ -832,31 +877,44 @@
         </div>
     </header>
 
-    <section class="privacy-hero">
+    <section class="certifications-hero">
         <div class="hero-content">
-            <h1>Quality</h1>
+            <h1>Certifications</h1>
+            <p>The certifications that attest to our commitment to excellence and regulatory compliance</p>
         </div>
     </section>
 
     <section class="section">
-        <div class="privacy-content">
-            <div class="privacy-section">
-                <h2>Quality Policy</h2>
-                <p>As an insurance broker, Acrisure Italia S.p.A. considers quality as the cornerstone of its commitment to clients and stakeholders. Through our Quality Management System, we continuously invest in the growth of our people and in the strength of customer relationships, in order to provide insurance solutions characterized by transparency, professionalism, and consulting excellence.<br><br>
-                    We have adopted a Quality Policy in compliance with ISO 9001:2015, aware that it represents a strategic lever to achieve corporate objectives, ensure compliance with applicable requirements, and create sustainable long-term value.<br><br>
-                    With this Policy we commit to: <br>
+        <div class="certifications-content">
+            <h2 class="section-title">Our Certifications</h2>
+            
+            <!-- Quality Certification -->
+            <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Quality Policy</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>As an insurance broker, Acrisure Italia S.p.A. considers quality to be the cornerstone of its commitment to customers and stakeholders. Through the Quality Management System, we constantly invest in the growth of our people and the strength of our relationships with clients, to offer insurance solutions characterized by transparency, professionalism, and consulting excellence.</p>
+                    
+                    <p>We have adopted a Quality Policy in accordance with the ISO 9001:2015 Standard, aware that it represents a strategic lever to achieve corporate objectives, ensure compliance with applicable requirements, and create sustainable value over time.</p>
+                    
+                    <p>With this Policy, we are committed to:</p>
                     <ul>
-                        <li>fully understanding customer needs, providing timely and tailored responses;</li>
+                        <li>deeply understanding customer needs, providing timely and personalized responses;</li>
                         <li>strengthening trust through an ethical, responsible, and regulatory-compliant consulting approach;</li>
-                        <li>promoting continuous improvement of skills, internal processes, and business performance.</li>
+                        <li>promoting continuous improvement of skills, internal processes, and corporate performance.</li>
                     </ul>
-                    <br><br>
-                    For us, quality means providing certainty and building trust, guiding our clients through their most important choices.
-                    The Policy is shared, understood, and periodically reviewed to ensure its relevance and effectiveness.
-                </p>
-                <ul>
-                    <li><a href="../../DOCUMENTI/QUALITÀ/Qualità Italia.pdf" target="_blank">Acrisure Italia - Quality Policy</a></li>
-                </ul>
+                    
+                    <p>For us, quality means providing certainty and building trust, accompanying our clients in their most important choices. The Policy is disseminated, understood, and periodically reviewed to ensure its relevance and effectiveness.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>ISO 9001:2015</span>
+                    </div>
+                    
+                    <p><a href="/DOCUMENTI/QUALITÀ/Politica della Qualità Acrisure Italia.pdf" target="_blank">Download the complete Quality Policy document</a></p>
+                </div>
             </div>
         </div>
     </section>
@@ -925,7 +983,7 @@
                 <br>
                 <div class="legal-links">
                     <a href="../eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
-                    <a href="#header">Quality</a>
+                    <a href="#header">Certifications</a>
                     <a href="../eng/Sostenibilità-eng/sostenibilitàItalia-eng.php">Sustainability</a>
                     <a href="../eng/policy-eng/policyItalia-eng.php">Privacy Policy</a>
                     <a href="../eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>
@@ -945,6 +1003,26 @@
     </footer>
 
     <script>
+
+        // Gestione speciale per i link anchor
+        const anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+        anchorLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                // Se il link anchor punta a un elemento nella stessa pagina
+                if (this.getAttribute('href') !== '#' && 
+                    document.querySelector(this.getAttribute('href'))) {
+                    
+                    e.preventDefault();
+                    pageTransition.classList.add('active');
+                    
+                    setTimeout(() => {
+                        window.location.href = this.href;
+                    }, 400);
+                }
+            });
+        });
+
         // Page transition logic
         document.addEventListener('DOMContentLoaded', function() {
             // Add transition class to all internal links

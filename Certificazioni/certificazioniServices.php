@@ -272,75 +272,121 @@
             border-radius: 2px;
         }
         
-        /* Privacy Content */
-        .privacy-content {
+        /* Certifications Content */
+        .certifications-content {
             max-width: 1000px;
             margin: 0 auto;
-            background-color: white;
-            padding: 3rem;
+        }
+        
+        /* Accordion Styling */
+        .certification-accordion {
+            margin-bottom: 2rem;
             border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            background-color: white;
         }
         
-        .privacy-section {
-            margin-bottom: 3rem;
+        .certification-accordion:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            transform: translateY(-5px);
         }
         
-        .privacy-section h2 {
-            color: var(--secondary);
-            margin-bottom: 1.5rem;
-            font-size: 1.8rem;
-            position: relative;
-            padding-bottom: 0.8rem;
+        .accordion-header {
+            padding: 1.5rem 2rem;
+            background-color: var(--secondary);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s;
         }
         
-        .privacy-section h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 2px;
-            background-color: var(--accent);
+        .accordion-header:hover {
+            background-color: #00264d;
         }
         
-        .privacy-section h3 {
-            color: var(--secondary);
-            margin: 2rem 0 1rem;
+        .accordion-header h3 {
+            margin: 0;
             font-size: 1.4rem;
+            font-weight: 600;
         }
         
-        .privacy-section p, 
-        .privacy-section ul {
+        .accordion-icon {
+            transition: transform 0.3s ease;
+            font-size: 1.2rem;
+        }
+        
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+        
+        .accordion-content {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            background-color: white;
+        }
+        
+        .accordion-content.active {
+            padding: 2rem;
+            max-height: 1000px;
+        }
+        
+        .accordion-content p {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
             color: #555;
         }
         
-        .privacy-section ul {
+        .accordion-content ul {
             padding-left: 2rem;
+            margin-bottom: 1.5rem;
         }
         
-        .privacy-section li {
+        .accordion-content li {
             margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
         }
         
-        .privacy-section strong {
+        .accordion-content strong {
             color: var(--secondary);
             font-weight: 600;
         }
         
-        .privacy-section a {
+        .accordion-content a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .privacy-section a:hover {
+        .accordion-content a:hover {
             color: var(--primary);
             text-decoration: underline;
         }
+        
+        .certification-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--light);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .certification-badge i {
+            margin-right: 0.5rem;
+            color: var(--accent);
+        }
+        
         
         /* Footer */
         footer {
@@ -832,32 +878,154 @@
         </div>
     </header>
 
-    <section class="privacy-hero">
+    <section class="certifications-hero">
         <div class="hero-content">
-            <h1>Qualità</h1>
+            <h1>Certificazioni</h1>
+            <p>Le certificazioni che attestano il nostro impegno verso l'eccellenza e la conformità normativa</p>
         </div>
     </section>
 
     <section class="section">
-        <div class="privacy-content">
-            <div class="privacy-section">
-                <h2>Politica della qualità</h2>
-                <p>Acrisure Services S.r.l. è la società dedicata a fornire servizi di supporto altamente qualificati alle realtà del Gruppo e ai partner.
-                    All’interno del nostro Sistema di Gestione della Qualità, la crescita delle competenze, l’efficienza organizzativa e l’innovazione rappresentano i pilastri che ci permettono di garantire affidabilità, tempestività e valore operativo.<br><br>
-                    La Politica per la Qualità, conforme alla Norma ISO 9001:2015, è parte integrante della nostra strategia e orienta ogni attività verso la conformità ai requisiti applicabili e il miglioramento continuo dei processi e della soddisfazione degli stakeholder.<br><br>
-                    Ci impegniamo a: <br>
+        <div class="certifications-content">
+            <h2 class="section-title">Le Nostre Certificazioni</h2>
+            
+            <!-- Certificazione Qualità -->
+            <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Politica della Qualità</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Services S.r.l. è la società dedicata a fornire servizi di supporto altamente qualificati alle realtà del Gruppo e ai partner. All’interno del nostro Sistema di Gestione della Qualità, la crescita delle competenze, l’efficienza organizzativa e l’innovazione rappresentano i pilastri che ci permettono di garantire affidabilità, tempestività e valore operativo.</p>
+                    
+                    <p>La Politica per la Qualità, conforme alla Norma ISO 9001:2015, è parte integrante della nostra strategia e orienta ogni attività verso la conformità ai requisiti applicabili e il miglioramento continuo dei processi e della soddisfazione degli stakeholder.</p>
+                    
+                    <p>Ci impegniamo a:</p>
                     <ul>
                         <li>assicurare servizi puntuali, efficienti e di elevato standard qualitativo;</li>
                         <li>valorizzare la professionalità dei nostri collaboratori attraverso formazione, coinvolgimento e responsabilizzazione;</li>
                         <li>monitorare costantemente le performance, gestendo rischi e opportunità per garantire innovazione e ottimizzazione.</li>
                     </ul>
-                    Per Acrisure Services, qualità significa essere il partner operativo di fiducia, capace di supportare e potenziare le performance del business.
-                    La Politica è comunicata a tutti i livelli e viene riesaminata con regolarità per assicurarne coerenza ed efficacia. <br>
-                    <ul>
-                        <li><a href="/DOCUMENTI/QUALITÀ/Qualità Services.pdf" target="_blank">Acrisure Services S.r.l. - Politica per la Qualità</a></li>
-                    </ul>
-                </p>
+                    
+                    <p>Per Acrisure Services, qualità significa essere il partner operativo di fiducia, capace di supportare e potenziare le performance del business. La Politica è comunicata a tutti i livelli e viene riesaminata con regolarità per assicurarne coerenza ed efficacia.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>ISO 9001:2015</span>
+                    </div>
+                    
+                    <p><a href="/DOCUMENTI/QUALITÀ/Politica della Qualità Acrisure Services.pdf" target="_blank">Scarica il documento completo della Politica per la Qualità</a></p>
+                </div>
             </div>
+            
+            <!-- Certificazione Privacy -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Protezione dei Dati Personali</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. è impegnata a garantire la massima protezione dei dati personali dei propri clienti e stakeholder, in conformità al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa italiana in materia.</p>
+                    
+                    <p>Il nostro Sistema di Gestione della Privacy è progettato per:</p>
+                    <ul>
+                        <li>Garantire la riservatezza, integrità e disponibilità dei dati personali</li>
+                        <li>Rispettare i diritti degli interessati in materia di protezione dati</li>
+                        <li>Implementare misure tecniche e organizzative adeguate per la sicurezza dei dati</li>
+                        <li>Assicurare la conformità normativa in tutte le attività di trattamento</li>
+                    </ul>
+                    
+                    <p>La nostra organizzazione ha nominato un Responsabile della Protezione dei Dati (DPO) che supervisiona l'attuazione e il mantenimento del sistema di gestione privacy.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Conforme al GDPR</span>
+                    </div>
+                    
+                    <p><a href="/policy/policyItalia.php">Consulta la nostra Privacy Policy completa</a></p>
+                </div>
+            </div> -->
+            
+            <!-- Certificazione Antiriciclaggio -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Antiriciclaggio e Compliance</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. adotta un rigoroso sistema di compliance antiriciclaggio in conformità al D.Lgs. 231/2007 e successive modifiche, nonché alle disposizioni IVASS in materia.</p>
+                    
+                    <p>Il nostro sistema di controlli interni include:</p>
+                    <ul>
+                        <li>Procedure di verifica della clientela (KYC - Know Your Customer)</li>
+                        <li>Monitoraggio continuo delle operazioni sospette</li>
+                        <li>Formazione obbligatoria del personale sulle normative antiriciclaggio</li>
+                        <li>Nomina di un Responsabile Antiriciclaggio</li>
+                        <li>Adozione di un Modello Organizzativo ex D.Lgs. 231/2001</li>
+                    </ul>
+                    
+                    <p>Questo approccio ci consente di operare nel pieno rispetto della legalità e di contribuire attivamente alla lotta contro il riciclaggio e il finanziamento del terrorismo.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-balance-scale"></i>
+                        <span>Conforme D.Lgs. 231/2007</span>
+                    </div>
+                </div>
+            </div> -->
+            
+            <!-- Certificazione Ambientale -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Sostenibilità Ambientale</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. è impegnata nella riduzione del proprio impatto ambientale attraverso l'adozione di pratiche sostenibili e l'implementazione di un sistema di gestione ambientale.</p>
+                    
+                    <p>Le nostre iniziative includono:</p>
+                    <ul>
+                        <li>Digitalizzazione dei processi per ridurre il consumo di carta</li>
+                        <li>Implementazione di politiche di risparmio energetico</li>
+                        <li>Promozione della mobilità sostenibile</li>
+                        <li>Scelta di fornitori che condividono i nostri valori ambientali</li>
+                        <li>Sensibilizzazione del personale sulle tematiche ambientali</li>
+                    </ul>
+                    
+                    <p>Il nostro impegno verso la sostenibilità si riflette anche nell'offerta di soluzioni assicurative che promuovono pratiche eco-compatibili presso i nostri clienti.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-leaf"></i>
+                        <span>Impegno Sostenibilità</span>
+                    </div>
+                    
+                    <p><a href="/Sostenibilità/sostenibilitaItalia.php">Scopri di più sul nostro impegno per la sostenibilità</a></p>
+                </div>
+            </div> -->
+            
+            <!-- Spazio per future certificazioni -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Certificazioni Future</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. è costantemente impegnata nel miglioramento continuo e nell'espansione delle proprie certificazioni per garantire i più alti standard di qualità e conformità.</p>
+                    
+                    <p>Stiamo attualmente valutando l'ottenimento di ulteriori certificazioni in ambiti quali:</p>
+                    <ul>
+                        <li>Cybersecurity e protezione dei dati</li>
+                        <li>Responsabilità sociale d'impresa (CSR)</li>
+                        <li>Innovazione digitale nei servizi assicurativi</li>
+                    </ul>
+                    
+                    <p>Questa sezione verrà aggiornata non appena nuove certificazioni saranno ottenute, a testimonianza del nostro costante impegno verso l'eccellenza.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-rocket"></i>
+                        <span>In Evoluzione</span>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </section>
 
@@ -915,7 +1083,7 @@
                 
                 <div class="legal-links">
                     <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
-                    <a href="#header">Qualità</a>
+                    <a href="#header">Certificazioni</a>
                     <a href="/policy/policyServices.php">Privacy Policy</a>
                     <a href="/cookies/cookiesServices.php">Cookie Policy</a>
                 </div>

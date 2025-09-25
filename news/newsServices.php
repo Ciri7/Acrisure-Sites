@@ -1111,7 +1111,7 @@
                 
                 <div class="legal-links">
                     <a href="/legal&comp/legalServices.php">Legal & Compliance</a>
-                    <a href="/Qualità/qualitàServices.php">Qualità</a>
+                    <a href="/Certificazioni/certificazioniServices.php">Certificazioni</a>
                     <a href="/policy/policyServices.php">Privacy Policy</a>
                     <a href="/cookies/cookiesServices.php">Cookie Policy</a>
                 </div>

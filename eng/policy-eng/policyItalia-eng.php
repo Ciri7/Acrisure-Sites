@@ -1080,7 +1080,7 @@
                 <br>
                 <div class="legal-links">
                     <a href="../eng/legal-eng/legalItalia-eng.php">Legal & Compliance</a>
-                    <a href="../eng/Qualità-eng/qualitàItalia-eng.php">Quality</a>
+                    <a href="../eng/Certificazioni-eng/certificazioniItalia-eng.php">Certifications</a>
                     <a href="../eng/Sostenibilità-eng/sostenibilitàItalia-eng.php">Sustainability</a>
                     <a href="#header">Privacy Policy</a>
                     <a href="../eng/cookies-eng/cookiesItalia-eng.php">Cookie Policy</a>

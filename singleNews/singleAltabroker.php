@@ -1097,6 +1097,18 @@ $article = $articles[$article_id];
             padding-left: 0.5rem;
             border-bottom-color: var(--accent);
         }
+
+        /* RECLAMI LINK---------- */
+        .footer-title-link {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+        }
+
+        .footer-title-link:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>

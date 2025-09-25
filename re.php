@@ -1779,14 +1779,13 @@
     </section>
 
     <!-- ========== LEADERSHIP SECTION ========== -->
-    <section id="gruppo" class="section leadership">
+    <section id="gruppo" class="section leadership"><br>
         <h2 class="section-title">Leadership</h2>
         <p class="section-subtitle2">Il nostro team guida l'azienda con visione strategica, esperienza consolidata e un forte impegno verso l'innovazione e l'eccellenza. Scopri chi sono le persone che ispirano la nostra crescita e ne tracciano il futuro</p>
         
         <div class="leadership-container">
             <div class="leadership-grid">
-
-                <!-- Prima riga -->
+                <!-- Prima riga con 2 card centrate -->
                 <div class="leadership-first-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
@@ -1798,6 +1797,27 @@
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Giuseppe Gionta</h3>
                         <p class="leadership-desc">Chief Executive Officier</p>
+                    </div>
+                </div>
+
+                <!-- Seconda riga con 3 card -->
+                <div class="leadership-other-rows">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Moira Ciccone</h3>
+                        <p class="leadership-desc">Actuarial Services</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandro Segatori</h3>
+                        <p class="leadership-desc">Reinsurance Market</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Romana Del Vecchio</h3>
+                        <p class="leadership-desc">Client Management</p>
                     </div>
                 </div>
             </div><br>

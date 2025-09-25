@@ -1,4 +1,4 @@
-<?php include('../includes/auth.php'); ?>
+<?php include('../../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -987,10 +987,10 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/eng/legal-eng/legalServices-eng.php">Legal & Compliance</a>
-                    <a href="#header">Certifications</a>
-                    <a href="/eng/policy-eng/policyServices-eng.php">Privacy Policy</a>
-                    <a href="/eng/cookies-eng/cookiesServices-eng.php">Cookie Policy</a>
+                    <a href="../legal-eng/legalServices-eng.php">Legal & Compliance</a>
+                    <a href="../Certificazioni-eng/certificazioniServices-eng.php">Certifications</a>
+                    <a href="../policy-eng/policyServices-eng.php">Privacy Policy</a>
+                    <a href="../cookies-eng/cookiesServices-eng.php">Cookie Policy</a>
                 </div>
             </div>
         </div>

@@ -1769,7 +1769,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsItalia.php" class="btn">See all news</a>
+            <a href="/eng/news-eng/newsItalia-eng.php" class="btn">See all news</a>
         </div>
     </section>
 

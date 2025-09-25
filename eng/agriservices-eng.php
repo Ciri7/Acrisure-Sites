@@ -1933,7 +1933,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsAgriservices.php" class="btn">View all news</a>
+            <a href="/eng/news-eng/newsAgriservices-eng.php" class="btn">View all news</a>
         </div>
     </section>
 

@@ -1946,7 +1946,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsAcrisure.php" class="btn btn-secondary">View all news</a>
+            <a href="/eng/news-eng/newsAcrisure-eng.php" class="btn btn-secondary">View all news</a>
         </div>
         <br><br><br>
     </section>

@@ -1851,7 +1851,7 @@
         </div>
         
         <div class="news-cta">
-            <a href="news/newsAltabroker.php" class="btn">View all news</a>
+            <a href="/eng/news-eng/newsAltabroker-eng.php" class="btn">View all news</a>
         </div>
     </section>
 

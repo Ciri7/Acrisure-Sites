@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Italia - Qualità</title>
+    <title>Certificazioni - Acrisure Italia</title>
     <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
     <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
@@ -200,7 +200,7 @@
         }
         
         /* Hero Section */
-        .privacy-hero {
+        .certifications-hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Franco7.jpg');
             background-size: cover;
             background-position: center;
@@ -221,14 +221,14 @@
             width: 100%;
         }
         
-        .privacy-hero h1 {
+        .certifications-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
             animation: fadeIn 0.8s ease;
         }
         
-        .privacy-hero p {
+        .certifications-hero p {
             font-size: 1.3rem;
             max-width: 600px;
             margin-bottom: 2.5rem;
@@ -272,74 +272,119 @@
             border-radius: 2px;
         }
         
-        /* Privacy Content */
-        .privacy-content {
+        /* Certifications Content */
+        .certifications-content {
             max-width: 1000px;
             margin: 0 auto;
-            background-color: white;
-            padding: 3rem;
+        }
+        
+        /* Accordion Styling */
+        .certification-accordion {
+            margin-bottom: 2rem;
             border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            background-color: white;
         }
         
-        .privacy-section {
-            margin-bottom: 3rem;
+        .certification-accordion:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            transform: translateY(-5px);
         }
         
-        .privacy-section h2 {
-            color: var(--secondary);
-            margin-bottom: 1.5rem;
-            font-size: 1.8rem;
-            position: relative;
-            padding-bottom: 0.8rem;
+        .accordion-header {
+            padding: 1.5rem 2rem;
+            background-color: var(--secondary);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s;
         }
         
-        .privacy-section h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 2px;
-            background-color: var(--accent);
+        .accordion-header:hover {
+            background-color: #00264d;
         }
         
-        .privacy-section h3 {
-            color: var(--secondary);
-            margin: 2rem 0 1rem;
+        .accordion-header h3 {
+            margin: 0;
             font-size: 1.4rem;
+            font-weight: 600;
         }
         
-        .privacy-section p, 
-        .privacy-section ul {
+        .accordion-icon {
+            transition: transform 0.3s ease;
+            font-size: 1.2rem;
+        }
+        
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+        
+        .accordion-content {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            background-color: white;
+        }
+        
+        .accordion-content.active {
+            padding: 2rem;
+            max-height: 1000px;
+        }
+        
+        .accordion-content p {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
             color: #555;
         }
         
-        .privacy-section ul {
+        .accordion-content ul {
             padding-left: 2rem;
+            margin-bottom: 1.5rem;
         }
         
-        .privacy-section li {
+        .accordion-content li {
             margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
         }
         
-        .privacy-section strong {
+        .accordion-content strong {
             color: var(--secondary);
             font-weight: 600;
         }
         
-        .privacy-section a {
+        .accordion-content a {
             color: var(--accent);
             text-decoration: none;
             transition: color 0.3s;
         }
         
-        .privacy-section a:hover {
+        .accordion-content a:hover {
             color: var(--primary);
             text-decoration: underline;
+        }
+        
+        .certification-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--light);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+        }
+        
+        .certification-badge i {
+            margin-right: 0.5rem;
+            color: var(--accent);
         }
         
         /* Footer */
@@ -584,7 +629,7 @@
         
         /* Responsive */
         @media (max-width: 1024px) {
-            .privacy-hero h1 {
+            .certifications-hero h1 {
                 font-size: 3rem;
             }
             
@@ -635,21 +680,29 @@
                 display: none;
             }
             
-            .privacy-hero {
+            .certifications-hero {
                 height: 40vh;
                 min-height: 300px;
             }
             
-            .privacy-hero h1 {
+            .certifications-hero h1 {
                 font-size: 2.5rem;
             }
             
-            .privacy-hero p {
+            .certifications-hero p {
                 font-size: 1.1rem;
             }
             
-            .privacy-content {
-                padding: 2rem;
+            .accordion-header {
+                padding: 1.2rem 1.5rem;
+            }
+            
+            .accordion-header h3 {
+                font-size: 1.2rem;
+            }
+            
+            .accordion-content.active {
+                padding: 1.5rem;
             }
             
             .menu-toggle.active span:nth-child(1) {
@@ -690,7 +743,7 @@
         }
         
         @media (max-width: 480px) {
-            .privacy-hero h1 {
+            .certifications-hero h1 {
                 font-size: 2rem;
             }
             
@@ -702,20 +755,20 @@
                 padding: 4rem 5%;
             }
             
-            .privacy-content {
-                padding: 1.5rem;
+            .accordion-header {
+                padding: 1rem;
             }
             
-            .privacy-section h2 {
-                font-size: 1.5rem;
+            .accordion-header h3 {
+                font-size: 1.1rem;
             }
             
-            .privacy-section h3 {
-                font-size: 1.2rem;
+            .accordion-content.active {
+                padding: 1rem;
             }
             
-            .privacy-section p, 
-            .privacy-section ul {
+            .accordion-content p, 
+            .accordion-content ul {
                 font-size: 1rem;
             }
 
@@ -832,32 +885,154 @@
         </div>
     </header>
 
-    <section class="privacy-hero">
+    <section class="certifications-hero">
         <div class="hero-content">
-            <h1>Qualità</h1>
+            <h1>Certificazioni</h1>
+            <p>Le certificazioni che attestano il nostro impegno verso l'eccellenza e la conformità normativa</p>
         </div>
     </section>
 
     <section class="section">
-        <div class="privacy-content">
-            <div class="privacy-section">
-                <h2>Politica della qualità</h2>
-                <p>In qualità di broker assicurativo, Acrisure Italia S.p.A. considera la qualità come il fulcro del proprio impegno verso clienti e stakeholder. Attraverso il Sistema di Gestione della Qualità, investiamo costantemente nella crescita delle nostre persone e nella solidità delle relazioni con i clienti, per offrire soluzioni assicurative caratterizzate da trasparenza, professionalità ed eccellenza consulenziale.<br><br>
-                    Abbiamo adottato una Politica per la Qualità conforme alla Norma ISO 9001:2015, consapevoli che rappresenti una leva strategica per raggiungere gli obiettivi aziendali, garantire la conformità ai requisiti applicabili e creare valore sostenibile nel tempo.<br><br>
-                    Con questa Politica ci impegniamo a: <br>
+        <div class="certifications-content">
+            <h2 class="section-title">Le Nostre Certificazioni</h2>
+            
+            <!-- Certificazione Qualità -->
+            <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Politica della Qualità</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>In qualità di broker assicurativo, Acrisure Italia S.p.A. considera la qualità come il fulcro del proprio impegno verso clienti e stakeholder. Attraverso il Sistema di Gestione della Qualità, investiamo costantemente nella crescita delle nostre persone e nella solidità delle relazioni con i clienti, per offrire soluzioni assicurative caratterizzate da trasparenza, professionalità ed eccellenza consulenziale.</p>
+                    
+                    <p>Abbiamo adottato una Politica per la Qualità conforme alla Norma ISO 9001:2015, consapevoli che rappresenti una leva strategica per raggiungere gli obiettivi aziendali, garantire la conformità ai requisiti applicabili e creare valore sostenibile nel tempo.</p>
+                    
+                    <p>Con questa Politica ci impegniamo a:</p>
                     <ul>
                         <li>comprendere a fondo i bisogni dei clienti, fornendo risposte puntuali e personalizzate;</li>
                         <li>rafforzare la fiducia attraverso un approccio consulenziale etico, responsabile e conforme alle normative;</li>
                         <li>promuovere il miglioramento continuo delle competenze, dei processi interni e delle performance aziendali.</li>
                     </ul>
-                    <br><br>
-                    Per noi, qualità significa dare certezze e costruire fiducia, accompagnando i nostri clienti nelle scelte più importanti.
-                    La Politica è diffusa, compresa e riesaminata periodicamente per garantirne l’attualità e l’efficacia.
-                </p>
-                <ul>
-                    <li><a href="/DOCUMENTI/QUALITÀ/Qualità Italia.pdf" target="_blank">Acrisure Italia - Politica per la Qualità</a></li>
-                </ul>
+                    
+                    <p>Per noi, qualità significa dare certezze e costruire fiducia, accompagnando i nostri clienti nelle scelte più importanti. La Politica è diffusa, compresa e riesaminata periodicamente per garantirne l'attualità e l'efficacia.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>ISO 9001</span>
+                    </div>
+                    
+                    <p><a href="/DOCUMENTI/QUALITÀ/Qualità Italia.pdf" target="_blank">Scarica il documento completo della Politica per la Qualità</a></p>
+                </div>
             </div>
+            
+            <!-- Certificazione Privacy -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Protezione dei Dati Personali</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. è impegnata a garantire la massima protezione dei dati personali dei propri clienti e stakeholder, in conformità al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa italiana in materia.</p>
+                    
+                    <p>Il nostro Sistema di Gestione della Privacy è progettato per:</p>
+                    <ul>
+                        <li>Garantire la riservatezza, integrità e disponibilità dei dati personali</li>
+                        <li>Rispettare i diritti degli interessati in materia di protezione dati</li>
+                        <li>Implementare misure tecniche e organizzative adeguate per la sicurezza dei dati</li>
+                        <li>Assicurare la conformità normativa in tutte le attività di trattamento</li>
+                    </ul>
+                    
+                    <p>La nostra organizzazione ha nominato un Responsabile della Protezione dei Dati (DPO) che supervisiona l'attuazione e il mantenimento del sistema di gestione privacy.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Conforme al GDPR</span>
+                    </div>
+                    
+                    <p><a href="/policy/policyItalia.php">Consulta la nostra Privacy Policy completa</a></p>
+                </div>
+            </div> -->
+            
+            <!-- Certificazione Antiriciclaggio -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Antiriciclaggio e Compliance</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. adotta un rigoroso sistema di compliance antiriciclaggio in conformità al D.Lgs. 231/2007 e successive modifiche, nonché alle disposizioni IVASS in materia.</p>
+                    
+                    <p>Il nostro sistema di controlli interni include:</p>
+                    <ul>
+                        <li>Procedure di verifica della clientela (KYC - Know Your Customer)</li>
+                        <li>Monitoraggio continuo delle operazioni sospette</li>
+                        <li>Formazione obbligatoria del personale sulle normative antiriciclaggio</li>
+                        <li>Nomina di un Responsabile Antiriciclaggio</li>
+                        <li>Adozione di un Modello Organizzativo ex D.Lgs. 231/2001</li>
+                    </ul>
+                    
+                    <p>Questo approccio ci consente di operare nel pieno rispetto della legalità e di contribuire attivamente alla lotta contro il riciclaggio e il finanziamento del terrorismo.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-balance-scale"></i>
+                        <span>Conforme D.Lgs. 231/2007</span>
+                    </div>
+                </div>
+            </div> -->
+            
+            <!-- Certificazione Ambientale -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Sostenibilità Ambientale</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. è impegnata nella riduzione del proprio impatto ambientale attraverso l'adozione di pratiche sostenibili e l'implementazione di un sistema di gestione ambientale.</p>
+                    
+                    <p>Le nostre iniziative includono:</p>
+                    <ul>
+                        <li>Digitalizzazione dei processi per ridurre il consumo di carta</li>
+                        <li>Implementazione di politiche di risparmio energetico</li>
+                        <li>Promozione della mobilità sostenibile</li>
+                        <li>Scelta di fornitori che condividono i nostri valori ambientali</li>
+                        <li>Sensibilizzazione del personale sulle tematiche ambientali</li>
+                    </ul>
+                    
+                    <p>Il nostro impegno verso la sostenibilità si riflette anche nell'offerta di soluzioni assicurative che promuovono pratiche eco-compatibili presso i nostri clienti.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-leaf"></i>
+                        <span>Impegno Sostenibilità</span>
+                    </div>
+                    
+                    <p><a href="/Sostenibilità/sostenibilitaItalia.php">Scopri di più sul nostro impegno per la sostenibilità</a></p>
+                </div>
+            </div> -->
+            
+            <!-- Spazio per future certificazioni -->
+            <!-- <div class="certification-accordion">
+                <div class="accordion-header">
+                    <h3>Certificazioni Future</h3>
+                    <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="accordion-content">
+                    <p>Acrisure Italia S.p.A. è costantemente impegnata nel miglioramento continuo e nell'espansione delle proprie certificazioni per garantire i più alti standard di qualità e conformità.</p>
+                    
+                    <p>Stiamo attualmente valutando l'ottenimento di ulteriori certificazioni in ambiti quali:</p>
+                    <ul>
+                        <li>Cybersecurity e protezione dei dati</li>
+                        <li>Responsabilità sociale d'impresa (CSR)</li>
+                        <li>Innovazione digitale nei servizi assicurativi</li>
+                    </ul>
+                    
+                    <p>Questa sezione verrà aggiornata non appena nuove certificazioni saranno ottenute, a testimonianza del nostro costante impegno verso l'eccellenza.</p>
+                    
+                    <div class="certification-badge">
+                        <i class="fas fa-rocket"></i>
+                        <span>In Evoluzione</span>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </section>
 
@@ -951,126 +1126,104 @@
     </footer>
 
     <script>
-        // Page transition logic
+        // Accordion functionality
         document.addEventListener('DOMContentLoaded', function() {
-            // Add transition class to all internal links
-            const links = document.querySelectorAll('.page-transition-link');
-            const transition = document.querySelector('.page-transition');
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
             
-            links.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    // Skip if it's an anchor link or external URL
-                    if (this.href.includes('#') || !this.href.includes(window.location.hostname)) {
-                        return;
-                    }
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    // Toggle active class on header
+                    this.classList.toggle('active');
                     
-                    e.preventDefault();
-                    const href = this.getAttribute('href');
+                    // Toggle active class on content
+                    const content = this.nextElementSibling;
+                    content.classList.toggle('active');
                     
-                    // Show transition overlay
-                    transition.classList.add('active');
-                    
-                    // After transition, change page
-                    setTimeout(() => {
-                        window.location.href = href;
-                    }, 400);
+                    // Close other open accordions (optional)
+                    accordionHeaders.forEach(otherHeader => {
+                        if (otherHeader !== header && otherHeader.classList.contains('active')) {
+                            otherHeader.classList.remove('active');
+                            otherHeader.nextElementSibling.classList.remove('active');
+                        }
+                    });
                 });
             });
             
-            // On page load, fade out transition
-            if (transition) {
-                setTimeout(() => {
-                    transition.classList.remove('active');
-                }, 100);
-            }
+            // Intersection Observer for section animations
+            const sections = document.querySelectorAll('.section');
             
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-                    
-                    if (targetElement) {
-                        const headerHeight = document.querySelector('header').offsetHeight;
-                        const targetPosition = targetElement.offsetTop - headerHeight;
-                        
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
-                        
-                        if (document.querySelector('.menu-toggle').classList.contains('active')) {
-                            toggleMenu();
-                        }
+            const sectionObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
                     }
                 });
+            }, { threshold: 0.1 });
+            
+            sections.forEach(section => {
+                sectionObserver.observe(section);
+            });
+            
+            // Header scroll effect
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
             });
             
             // Mobile menu toggle
             const menuToggle = document.querySelector('.menu-toggle');
             const nav = document.querySelector('nav');
             
-            function toggleMenu() {
-                menuToggle.classList.toggle('active');
+            menuToggle.addEventListener('click', function() {
                 nav.classList.toggle('active');
-            }
-            
-            if (menuToggle) {
-                menuToggle.addEventListener('click', toggleMenu);
-            }
-            
-            // Close menu when clicking on a link
-            document.querySelectorAll('nav ul li a').forEach(link => {
-                link.addEventListener('click', () => {
-                    if (window.innerWidth <= 768) {
-                        toggleMenu();
-                    }
-                });
-            });
-            
-            // Header scroll effect
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 100) {
-                    document.getElementById('header').classList.add('scrolled');
-                } else {
-                    document.getElementById('header').classList.remove('scrolled');
-                }
+                menuToggle.classList.toggle('active');
             });
             
             // Cookie banner
-            const cookieBanner = document.getElementById('cookie-banner');
-            const acceptCookiesBtn = document.getElementById('accept-cookies');
+            const cookieBanner = document.getElementById('cookieBanner');
+            const acceptCookies = document.getElementById('acceptCookies');
             
-            if (!localStorage.getItem('cookies-accepted') && cookieBanner) {
-                cookieBanner.style.display = 'flex';
-                
-                if (acceptCookiesBtn) {
-                    acceptCookiesBtn.addEventListener('click', () => {
-                        localStorage.setItem('cookies-accepted', 'true');
-                        cookieBanner.style.display = 'none';
-                    });
-                }
+            // Check if user has already accepted cookies
+            if (!localStorage.getItem('cookiesAccepted')) {
+                setTimeout(() => {
+                    cookieBanner.style.display = 'flex';
+                }, 1000);
             }
-
-            // Section animation on scroll
-            const sections = document.querySelectorAll('.section');
             
-            function checkSections() {
-                sections.forEach(section => {
-                    const sectionTop = section.getBoundingClientRect().top;
-                    const windowHeight = window.innerHeight;
-                    
-                    if (sectionTop < windowHeight * 0.75) {
-                        section.classList.add('visible');
+            acceptCookies.addEventListener('click', function() {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieBanner.style.display = 'none';
+            });
+            
+            // Page transition
+            const pageTransition = document.querySelector('.page-transition');
+            const links = document.querySelectorAll('a:not(.language-btn)');
+            
+            // Hide transition on page load
+            window.addEventListener('load', function() {
+                setTimeout(() => {
+                    pageTransition.classList.remove('active');
+                }, 500);
+            });
+            
+            // Show transition on link click
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Only apply to internal links
+                    if (this.href && this.href.indexOf(window.location.hostname) !== -1) {
+                        e.preventDefault();
+                        pageTransition.classList.add('active');
+                        
+                        setTimeout(() => {
+                            window.location.href = this.href;
+                        }, 400);
                     }
                 });
-            }
-            
-            // Initialize
-            window.addEventListener('load', checkSections);
-            window.addEventListener('scroll', checkSections);
+            });
         });
     </script>
 </body>

@@ -1015,7 +1015,7 @@
                     <span class="news-date">28 Febbraio 2024</span>
                     <h3>Premio Innovazione Assicurativa 2024</h3>
                     <p class="news-excerpt">Acrisure Italia si aggiudica il prestigioso premio per la sua piattaforma digitale di risk management avanzato.</p>
-                    <a href="news-article.php?id=2" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="/singleNews/singleItalia.php?id=2" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -1026,7 +1026,7 @@
                     <span class="news-date">10 Gennaio 2024</span>
                     <h3>Espansione della rete italiana</h3>
                     <p class="news-excerpt">Apertura del nuovo ufficio di Torino, con un team specializzato in assicurazioni per il settore automotive.</p>
-                    <a href="news-article.php?id=3" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="/singleNews/singleItalia.php?id=3" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -1037,7 +1037,7 @@
                     <span class="news-date">5 Dicembre 2023</span>
                     <h3>Lancio del nuovo servizio di risk management</h3>
                     <p class="news-excerpt">Acrisure lancia una piattaforma innovativa per la gestione del rischio per le PMI italiane.</p>
-                    <a href="news-article.php?id=4" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="/singleNews/singleItalia.php?id=4" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -1048,7 +1048,7 @@
                     <span class="news-date">20 Novembre 2023</span>
                     <h3>Partnership con l'Università di Sassari</h3>
                     <p class="news-excerpt">Collaborazione con il dipartimento di Economia per la formazione di nuovi professionisti nel settore assicurativo.</p>
-                    <a href="news-article.php?id=5" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="/singleNews/singleItalia.php?id=5" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
             
@@ -1059,7 +1059,7 @@
                     <span class="news-date">15 Ottobre 2023</span>
                     <h3>Successo dell'evento annuale Acrisure Italia</h3>
                     <p class="news-excerpt">Oltre 200 partecipanti all'evento che ha presentato le novità per il 2024 e le tendenze del settore.</p>
-                    <a href="news-article.php?id=6" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
+                    <a href="/singleNews/singleItalia.php?id=6" class="news-link">Leggi tutto <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
         </div>

@@ -1,10 +1,10 @@
-<?php include('../../includes/auth.php'); ?>
+<?php include('../includes/auth.php'); ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acrisure Services - Quality</title>
+    <title>Certifications - Acrisure Services</title>
     <meta name="description" content="Informativa sulla privacy di Acrisure Italia. Scopri come gestiamo e proteggiamo i tuoi dati personali.">
     <meta name="keywords" content="privacy policy, protezione dati, GDPR, trattamento dati, Acrisure Italia">
     <link rel="canonical" href="https://www.acrisureitalia.com/privacy" />
@@ -200,7 +200,7 @@
         }
         
         /* Hero Section */
-        .privacy-hero {
+        .certifications-hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hr3.jpg');
             background-size: cover;
             background-position: center;
@@ -221,14 +221,14 @@
             width: 100%;
         }
         
-        .privacy-hero h1 {
+        .certifications-hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
             animation: fadeIn 0.8s ease;
         }
         
-        .privacy-hero p {
+        .certifications-hero p {
             font-size: 1.3rem;
             max-width: 600px;
             margin-bottom: 2.5rem;
@@ -629,7 +629,7 @@
         
         /* Responsive */
         @media (max-width: 1024px) {
-            .privacy-hero h1 {
+            .certifications-hero h1 {
                 font-size: 3rem;
             }
             
@@ -680,21 +680,29 @@
                 display: none;
             }
             
-            .privacy-hero {
+            .certifications-hero {
                 height: 40vh;
                 min-height: 300px;
             }
             
-            .privacy-hero h1 {
+            .certifications-hero h1 {
                 font-size: 2.5rem;
             }
             
-            .privacy-hero p {
+            .certifications-hero p {
                 font-size: 1.1rem;
             }
             
-            .privacy-content {
-                padding: 2rem;
+            .accordion-header {
+                padding: 1.2rem 1.5rem;
+            }
+            
+            .accordion-header h3 {
+                font-size: 1.2rem;
+            }
+            
+            .accordion-content.active {
+                padding: 1.5rem;
             }
             
             .menu-toggle.active span:nth-child(1) {
@@ -735,7 +743,7 @@
         }
         
         @media (max-width: 480px) {
-            .privacy-hero h1 {
+            .certifications-hero h1 {
                 font-size: 2rem;
             }
             
@@ -747,20 +755,20 @@
                 padding: 4rem 5%;
             }
             
-            .privacy-content {
-                padding: 1.5rem;
+            .accordion-header {
+                padding: 1rem;
             }
             
-            .privacy-section h2 {
-                font-size: 1.5rem;
+            .accordion-header h3 {
+                font-size: 1.1rem;
             }
             
-            .privacy-section h3 {
-                font-size: 1.2rem;
+            .accordion-content.active {
+                padding: 1rem;
             }
             
-            .privacy-section p, 
-            .privacy-section ul {
+            .accordion-content p, 
+            .accordion-content ul {
                 font-size: 1rem;
             }
 
@@ -829,18 +837,6 @@
             line-height: 1.5;
             margin: 0;
         }
-
-        /* RECLAMI LINK---------- */
-        .footer-title-link {
-        color: var(--secondary);
-        text-decoration: none;
-        transition: all 0.3s;
-        display: inline-block;
-        }
-
-        .footer-title-link:hover {
-            color: var(--accent);
-        }
     </style>
 </head>
 <body>
@@ -850,7 +846,7 @@
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="#home">
+                <a href="/eng/services-eng.php">
                 <img src="/img/Acrisure Services.jpg" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
@@ -861,18 +857,17 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/services.php#news" class="nav-link">News</a></li>
-                    <li><a href="/services.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/services.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
-                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work With Us</a></li>
+                    <li><a href="/eng/services-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/services-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/services-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
-    
             <nav class="language-switcher">
                 <ul>
-                    <li><a href="../../Qualità/qualitàServices.php" class="language-btn">IT</a></li>
-                    <li><a onclick="window.location.href='##'" class="language-btn active">EN</a></li>
+                    <li><a href="/Certificazioni/certificazioniServices.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -944,7 +939,6 @@
             </div> -->
         </div>
     </section>
-
 
     <!-- FOOTER ------------------------------------------------------------------------------------------------------------------ -->
     <footer>
@@ -1020,126 +1014,114 @@
     </footer>
 
     <script>
-        // Page transition logic
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                document.getElementById('header').classList.add('scrolled');
+            } else {
+                document.getElementById('header').classList.remove('scrolled');
+            }
+        });
+
+        // Accordion functionality
         document.addEventListener('DOMContentLoaded', function() {
-            // Add transition class to all internal links
-            const links = document.querySelectorAll('.page-transition-link');
-            const transition = document.querySelector('.page-transition');
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
             
-            links.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    // Skip if it's an anchor link or external URL
-                    if (this.href.includes('#') || !this.href.includes(window.location.hostname)) {
-                        return;
-                    }
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    // Toggle active class on header
+                    this.classList.toggle('active');
                     
-                    e.preventDefault();
-                    const href = this.getAttribute('href');
+                    // Toggle active class on content
+                    const content = this.nextElementSibling;
+                    content.classList.toggle('active');
                     
-                    // Show transition overlay
-                    transition.classList.add('active');
-                    
-                    // After transition, change page
-                    setTimeout(() => {
-                        window.location.href = href;
-                    }, 400);
+                    // Close other open accordions (optional)
+                    accordionHeaders.forEach(otherHeader => {
+                        if (otherHeader !== header && otherHeader.classList.contains('active')) {
+                            otherHeader.classList.remove('active');
+                            otherHeader.nextElementSibling.classList.remove('active');
+                        }
+                    });
                 });
             });
             
-            // On page load, fade out transition
-            if (transition) {
-                setTimeout(() => {
-                    transition.classList.remove('active');
-                }, 100);
-            }
+            // Intersection Observer for section animations
+            const sections = document.querySelectorAll('.section');
             
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
-                    
-                    if (targetElement) {
-                        const headerHeight = document.querySelector('header').offsetHeight;
-                        const targetPosition = targetElement.offsetTop - headerHeight;
-                        
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
-                        
-                        if (document.querySelector('.menu-toggle').classList.contains('active')) {
-                            toggleMenu();
-                        }
+            const sectionObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
                     }
                 });
+            }, { threshold: 0.1 });
+            
+            sections.forEach(section => {
+                sectionObserver.observe(section);
+            });
+            
+            // Header scroll effect
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
             });
             
             // Mobile menu toggle
             const menuToggle = document.querySelector('.menu-toggle');
             const nav = document.querySelector('nav');
             
-            function toggleMenu() {
-                menuToggle.classList.toggle('active');
+            menuToggle.addEventListener('click', function() {
                 nav.classList.toggle('active');
-            }
-            
-            if (menuToggle) {
-                menuToggle.addEventListener('click', toggleMenu);
-            }
-            
-            // Close menu when clicking on a link
-            document.querySelectorAll('nav ul li a').forEach(link => {
-                link.addEventListener('click', () => {
-                    if (window.innerWidth <= 768) {
-                        toggleMenu();
-                    }
-                });
-            });
-            
-            // Header scroll effect
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 100) {
-                    document.getElementById('header').classList.add('scrolled');
-                } else {
-                    document.getElementById('header').classList.remove('scrolled');
-                }
+                menuToggle.classList.toggle('active');
             });
             
             // Cookie banner
-            const cookieBanner = document.getElementById('cookie-banner');
-            const acceptCookiesBtn = document.getElementById('accept-cookies');
+            const cookieBanner = document.getElementById('cookieBanner');
+            const acceptCookies = document.getElementById('acceptCookies');
             
-            if (!localStorage.getItem('cookies-accepted') && cookieBanner) {
-                cookieBanner.style.display = 'flex';
-                
-                if (acceptCookiesBtn) {
-                    acceptCookiesBtn.addEventListener('click', () => {
-                        localStorage.setItem('cookies-accepted', 'true');
-                        cookieBanner.style.display = 'none';
-                    });
-                }
+            // Check if user has already accepted cookies
+            if (!localStorage.getItem('cookiesAccepted')) {
+                setTimeout(() => {
+                    cookieBanner.style.display = 'flex';
+                }, 1000);
             }
-
-            // Section animation on scroll
-            const sections = document.querySelectorAll('.section');
             
-            function checkSections() {
-                sections.forEach(section => {
-                    const sectionTop = section.getBoundingClientRect().top;
-                    const windowHeight = window.innerHeight;
-                    
-                    if (sectionTop < windowHeight * 0.75) {
-                        section.classList.add('visible');
+            acceptCookies.addEventListener('click', function() {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieBanner.style.display = 'none';
+            });
+            
+            // Page transition
+            const pageTransition = document.querySelector('.page-transition');
+            const links = document.querySelectorAll('a:not(.language-btn)');
+            
+            // Hide transition on page load
+            window.addEventListener('load', function() {
+                setTimeout(() => {
+                    pageTransition.classList.remove('active');
+                }, 500);
+            });
+            
+            // Show transition on link click
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Only apply to internal links
+                    if (this.href && this.href.indexOf(window.location.hostname) !== -1) {
+                        e.preventDefault();
+                        pageTransition.classList.add('active');
+                        
+                        setTimeout(() => {
+                            window.location.href = this.href;
+                        }, 400);
                     }
                 });
-            }
-            
-            // Initialize
-            window.addEventListener('load', checkSections);
-            window.addEventListener('scroll', checkSections);
+            });
         });
     </script>
 </body>

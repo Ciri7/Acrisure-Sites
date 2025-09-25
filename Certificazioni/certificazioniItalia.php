@@ -879,7 +879,7 @@
             <nav class="language-switcher">
                 <ul>
                     <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/Qualità-eng/qualitàItalia-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="/eng/Certificazioni-eng/certificazioniItalia-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -1127,23 +1127,13 @@
 
     <script>
 
-        // Gestione speciale per i link anchor
-        const anchorLinks = document.querySelectorAll('a[href^="#"]');
-
-        anchorLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                // Se il link anchor punta a un elemento nella stessa pagina
-                if (this.getAttribute('href') !== '#' && 
-                    document.querySelector(this.getAttribute('href'))) {
-                    
-                    e.preventDefault();
-                    pageTransition.classList.add('active');
-                    
-                    setTimeout(() => {
-                        window.location.href = this.href;
-                    }, 400);
-                }
-            });
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                document.getElementById('header').classList.add('scrolled');
+            } else {
+                document.getElementById('header').classList.remove('scrolled');
+            }
         });
 
         // Accordion functionality

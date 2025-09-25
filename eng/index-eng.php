@@ -1797,7 +1797,7 @@
                 </div>
             </div>
 
-            <h3 style="color: var(--secondary); text-align: center;">Presence in S.r.l.</h3>
+            <h3 style="color: var(--secondary); text-align: center;">Presence in Italy</h3>
             <div class="about-stats">
                 <div class="stat-item">
                     <div class="stat-number" data-count="6">0</div>

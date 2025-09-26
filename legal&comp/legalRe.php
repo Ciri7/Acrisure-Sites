@@ -818,6 +818,54 @@
             line-height: 1.5;
             margin: 0;
         }
+
+                /* Allineamento giustificato del contenuto - PERFETTO ---------------------------------------------------------*/
+        .legal-section p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .legal-section ul {
+            text-align: left;
+            margin: 1.5rem 0;
+        }
+
+        .legal-section li {
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+
+        /* Gestione specifica per il contenuto misto dentro i paragrafi */
+        .legal-section p br {
+            display: block;
+            margin: 0.8rem 0;
+            content: "";
+        }
+
+        /* Assicura che tutto il testo sia giustificato */
+        .legal-section {
+            text-align: justify;
+        }
+
+        /* Mantieni l'allineamento a sinistra per i titoli */
+        .legal-section h2,
+        .legal-section h3 {
+            text-align: left;
+        }
+
+        /* Migliora la spaziatura per una lettura ottimale */
+        .legal-section p {
+            margin-bottom: 1.2rem;
+            line-height: 1.7;
+        }
+
+        /* Allineamento specifico per i link nelle liste */
+        .legal-section li a {
+            text-align: left;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>

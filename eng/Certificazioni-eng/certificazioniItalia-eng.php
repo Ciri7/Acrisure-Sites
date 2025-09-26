@@ -849,6 +849,60 @@
         .footer-title-link:hover {
             color: var(--accent);
         }
+
+        /* Allineamento giustificato del contenuto */
+        .certifications-content {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .accordion-content p, 
+        .accordion-content ul {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .accordion-header h3 {
+            text-align: left; /* Mantieni i titoli allineati a sinistra */
+        }
+
+        /* Per migliorare la leggibilità del testo giustificato */
+        .certifications-content {
+            word-spacing: -0.05em;
+        }
+
+        .accordion-content p {
+            margin-bottom: 1.5rem;
+            word-spacing: -0.05em;
+        }
+
+        .accordion-content ul {
+            word-spacing: -0.05em;
+        }
+
+        /* Mantieni l'allineamento a sinistra per i link nelle liste */
+        .accordion-content ul li {
+            text-align: left;
+        }
+
+        .accordion-content ul li a {
+            text-align: left;
+            display: inline-block;
+        }
+
+        /* Allineamento per i badge delle certificazioni */
+        .certification-badge {
+            text-align: center; /* Centra i badge */
+            justify-content: center;
+        }
+
+        /* Allineamento per i link di download */
+        .accordion-content a {
+            text-align: left;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>

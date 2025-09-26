@@ -1097,6 +1097,34 @@ $article = $articles[$article_id];
             padding-left: 0.5rem;
             border-bottom-color: var(--accent);
         }
+
+        /* ALLINEAMENTO DEL CONTENUTO ________________________ */
+        .article-content {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .article-content p {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .article-content h2,
+        .article-content h3 {
+            text-align: left; /* Mantieni i titoli allineati a sinistra */
+        }
+
+        /* Per migliorare la leggibilità del testo giustificato */
+        .article-content {
+            word-spacing: -0.05em;
+        }
+
+        .article-content p {
+            margin-bottom: 1.8rem;
+            word-spacing: -0.05em;
+        }
     </style>
 </head>
 <body>

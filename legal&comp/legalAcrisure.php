@@ -819,7 +819,7 @@
             margin: 0;
         }
 
-        /* Allineamento giustificato del contenuto - PERFETTO */
+        /* Allineamento giustificato del contenuto - PERFETTO ---------------------------------------------------------*/
         .legal-section p {
             text-align: justify;
             text-justify: inter-word;

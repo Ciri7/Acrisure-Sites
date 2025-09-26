@@ -136,7 +136,7 @@ $article = $articles[$article_id];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - Acrisure Services</title>
+    <title>News - Acrisure Agriservices</title>
     <meta name="description" content="Acrisure Agriculture announces a strategic collaboration with the main national agricultural consortium to offer even more advantageous policies.">
     <meta name="keywords" content="agricultural insurance, Acrisure partnership, agriculture policies, Acrisure Agriculture">
     <link rel="canonical" href="https://www.acrisureitalia.com/en/news-article.html?id=1" />
@@ -1096,6 +1096,34 @@ $article = $articles[$article_id];
             color: var(--accent);
             padding-left: 0.5rem;
             border-bottom-color: var(--accent);
+        }
+
+        /* ALLINEAMENTO DEL CONTENUTO ________________________ */
+        .article-content {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .article-content p {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .article-content h2,
+        .article-content h3 {
+            text-align: left; /* Mantieni i titoli allineati a sinistra */
+        }
+
+        /* Per migliorare la leggibilità del testo giustificato */
+        .article-content {
+            word-spacing: -0.05em;
+        }
+
+        .article-content p {
+            margin-bottom: 1.8rem;
+            word-spacing: -0.05em;
         }
     </style>
 </head>

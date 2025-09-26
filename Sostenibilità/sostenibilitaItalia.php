@@ -796,8 +796,51 @@
         .footer-title-link:hover {
             color: var(--accent);
         }
+
+        /* Allineamento giustificato del contenuto */
+        .privacy-content {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .privacy-section p, 
+        .privacy-section ul {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .privacy-section h2,
+        .privacy-section h3 {
+            text-align: left; /* Mantieni i titoli allineati a sinistra */
+        }
+
+        /* Per migliorare la leggibilità del testo giustificato */
+        .privacy-content {
+            word-spacing: -0.05em;
+        }
+
+        .privacy-section p {
+            margin-bottom: 1.5rem;
+            word-spacing: -0.05em;
+        }
+
+        .privacy-section ul {
+            word-spacing: -0.05em;
+        }
+
+        /* Mantieni l'allineamento a sinistra per i link nelle liste */
+        .privacy-section ul li {
+            text-align: left;
+        }
+
+        .privacy-section ul li a {
+            text-align: left;
+            display: inline-block;
+        }
     </style>
-                    </head>
+</head>
 <body>
     <!-- Page transition overlay -->
     <div class="page-transition"></div>

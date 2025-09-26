@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alta Broker - Cookie Policy</title>
+    <title>Cookie Policy - Alta Broker & Partners</title>
     <meta name="description" content="Cookie Policy di Acrisure Italia. Scopri come utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web.">
     <link rel="canonical" href="https://www.acrisureitalia.com/cookie-policy" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -653,6 +653,70 @@
 
         .footer-title-link:hover {
             color: var(--accent);
+        }
+
+        /* Allineamento giustificato del contenuto */
+        .policy-container {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .policy-section p, 
+        .policy-section ul {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        .policy-section h2,
+        .policy-section h3 {
+            text-align: left; /* Mantieni i titoli allineati a sinistra */
+        }
+
+        /* Per migliorare la leggibilità del testo giustificato */
+        .policy-container {
+            word-spacing: -0.05em;
+        }
+
+        .policy-section p {
+            margin-bottom: 1.2rem;
+            word-spacing: -0.05em;
+        }
+
+        .policy-section ul {
+            word-spacing: -0.05em;
+        }
+
+        /* Mantieni l'allineamento a sinistra per le liste */
+        .policy-section ul li {
+            text-align: left;
+        }
+
+        .policy-section ul li a {
+            text-align: left;
+            display: inline-block;
+        }
+
+        /* Allineamento per le tabelle */
+        .policy-section table {
+            text-align: left; /* Mantieni il testo delle tabelle allineato a sinistra */
+        }
+
+        .policy-section th, 
+        .policy-section td {
+            text-align: left;
+        }
+
+        /* Allineamento per i link */
+        .policy-section a {
+            text-align: left;
+            display: inline-block;
+        }
+
+        /* Allineamento per la data di ultimo aggiornamento */
+        .last-updated {
+            text-align: center; /* Centra la data di ultimo aggiornamento */
         }
     </style>
 </head>

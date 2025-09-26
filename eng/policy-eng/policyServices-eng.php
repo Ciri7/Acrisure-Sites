@@ -821,18 +821,88 @@
             }
         }
 
-        .privacy-section p, 
-        .privacy-section ul,
-        .privacy-section li {
+        /* Allineamento giustificato del contenuto - PERFETTO */
+        .privacy-section p {
             text-align: justify;
             text-justify: inter-word;
+            margin-bottom: 1.2rem;
+            line-height: 1.7;
             hyphens: auto;
         }
 
-        /* Evita la giustificazione quando il testo è troppo corto */
+        .privacy-section ul {
+            text-align: left;
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+
+        .privacy-section li {
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+            hyphens: auto;
+        }
+
+        /* Gestione specifica per il contenuto misto dentro i paragrafi */
+        .privacy-section p br {
+            display: block;
+            margin: 0.8rem 0;
+            content: "";
+            line-height: 0;
+        }
+
+        /* Assicura che tutto il testo sia giustificato */
+        .privacy-section {
+            text-align: justify;
+        }
+
+        /* Mantieni l'allineamento a sinistra per i titoli */
+        .privacy-section h2,
+        .privacy-section h3 {
+            text-align: left;
+        }
+
+        /* Link nelle liste mantenuti a sinistra */
+        .privacy-section li a {
+            text-align: left;
+            display: inline-block;
+        }
+
+        /* Tabella con allineamento migliorato */
+        .privacy-table th, 
+        .privacy-table td {
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .privacy-table th {
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+
+        /* Migliora la leggibilità su mobile */
+        @media (max-width: 768px) {
+            .privacy-section p,
+            .privacy-section li {
+                text-align: left;
+                hyphens: none;
+            }
+            
+            .privacy-section {
+                text-align: left;
+            }
+            
+            .privacy-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+
+        /* Rimuovi le regole duplicate che potrebbero causare conflitti */
         .privacy-section p:only-of-type,
         .privacy-section p:first-child:last-child {
-            text-align: left;
+            text-align: justify !important;
         }
     </style>
 </head>

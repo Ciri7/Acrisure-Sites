@@ -818,6 +818,19 @@
                 overflow-x: auto;
             }
         }
+
+        .privacy-section p, 
+        .privacy-section ul,
+        .privacy-section li {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        /* Evita la giustificazione quando il testo è troppo corto */
+        .privacy-section p:only-of-type,
+        .privacy-section p:first-child:last-child {
+            text-align: left;
+        }
     </style>
 </head>
 <body>

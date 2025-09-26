@@ -372,7 +372,8 @@
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             line-height: 1.7;
-            text-align: center;
+            text-align: justify;
+            text-justify: inter-word;
         }
         
         /* Gruppo Section */

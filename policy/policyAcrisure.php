@@ -824,6 +824,7 @@
         .privacy-section li {
             text-align: justify;
             text-justify: inter-word;
+            hyphens: auto;
         }
 
         /* Evita la giustificazione quando il testo è troppo corto */

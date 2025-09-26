@@ -797,18 +797,20 @@
             color: var(--accent);
         }
 
-        /* ALLINEAMENTO TESTI */
-        .text-justify {
+        /* Allineamento giustificato del contenuto */
+        .privacy-section p {
             text-align: justify;
             text-justify: inter-word;
-            hyphens: auto;
         }
 
-        /* Per evitare spazi eccessivi nelle righe corte */
-        .text-justify p, 
-        .text-justify li {
-            word-spacing: normal;
-            letter-spacing: normal;
+        .privacy-section ul {
+            text-align: left; /* Mantieni l'allineamento a sinistra per le liste */
+        }
+
+        .privacy-section li {
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 1rem;
         }
     </style>
 </head>

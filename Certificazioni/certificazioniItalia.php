@@ -953,7 +953,7 @@
             <!-- Certificazione Qualità -->
             <div class="certification-accordion">
                 <div class="accordion-header">
-                    <h3>Politica della Qualità</h3>
+                    <h3>UNI EN ISO 9001:2015</h3>
                     <span class="accordion-icon"><i class="fas fa-chevron-down"></i></span>
                 </div>
                 <div class="accordion-content">

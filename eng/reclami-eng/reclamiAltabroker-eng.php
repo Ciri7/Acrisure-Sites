@@ -797,20 +797,40 @@
             color: var(--accent);
         }
 
-        /* Allineamento giustificato del contenuto */
+        /* Allineamento giustificato del contenuto - CORRETTO */
         .privacy-section p {
             text-align: justify;
             text-justify: inter-word;
         }
 
         .privacy-section ul {
-            text-align: left; /* Mantieni l'allineamento a sinistra per le liste */
+            text-align: left;
+            margin: 1.5rem 0;
         }
 
         .privacy-section li {
             text-align: justify;
             text-justify: inter-word;
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+
+        /* Gestione specifica per il contenuto misto dentro i paragrafi */
+        .privacy-section p br {
+            display: block;
+            margin: 0.8rem 0;
+            content: "";
+        }
+
+        /* Assicura che tutto il testo sia giustificato */
+        .privacy-section {
+            text-align: justify;
+        }
+
+        /* Mantieni l'allineamento a sinistra per i titoli */
+        .privacy-section h2,
+        .privacy-section h3 {
+            text-align: left;
         }
     </style>
 </head>

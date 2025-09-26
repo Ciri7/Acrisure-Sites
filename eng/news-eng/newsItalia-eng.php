@@ -974,7 +974,7 @@
                     <li><a href="/eng/italia-eng.php#news" class="nav-link">News</a></li>
                     <li><a href="/eng/italia-eng.php#gruppo" class="nav-link">Leadership</a></li>
                     <li><a href="/eng/italia-eng.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
                     <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Careers</a></li>
                 </ul>
             </nav>
@@ -1111,7 +1111,7 @@
 
                 <br>
                 <div class="footer-column">
-                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/reclami/reclamiItalia.php" class="footer-title-link">Complaints</a></h3>
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiItalia-eng.php" class="footer-title-link">Complaints</a></h3>
                     <ul class="footer-links">
                         <li><i class="fas fa-envelope"></i> <a href="mailto:reclami@acrisureitalia.com">reclami@acrisureitalia.com</a></li>
                     </ul>

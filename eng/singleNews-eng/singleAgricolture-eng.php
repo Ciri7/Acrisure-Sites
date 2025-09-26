@@ -3,122 +3,122 @@
 // Recupera l'ID dell'articolo dalla query string
 $article_id = isset($_GET['id']) ? intval($_GET['id']) : 1;
 
-// Array con i dati degli articoli
+// Array con i dati degli articoli (versione inglese)
 $articles = [
     1 => [
-        'title' => 'Nuova partnership nel settore agricolo',
-        'date' => '15 Marzo 2024',
+        'title' => 'New partnership in the agricultural sector',
+        'date' => 'March 15, 2024',
         'image' => '/img/news1-large.jpg',
         'author' => 'Marco Rossi',
         'author_img' => '/img/author1.jpg',
         'content' => '
-            <p>Acrisure Agricolture è lieta di annunciare una nuova collaborazione strategica con il Consorzio Agricolo Nazionale (CAN), il principale consorzio agricolo italiano, per offrire soluzioni assicurative ancora più vantaggiose e su misura per gli operatori del settore agricolo.</p>
+            <p>Acrisure Agriculture is pleased to announce a new strategic collaboration with the National Agricultural Consortium (CAN), the main Italian agricultural consortium, to offer even more advantageous and tailored insurance solutions for agricultural operators.</p>
             
-            <h2>Una partnership che unisce competenze</h2>
+            <h2>A partnership that combines expertise</h2>
             
-            <p>Questa partnership unisce l\'esperienza pluriennale di Acrisure nel settore assicurativo con la profonda conoscenza del settore agricolo del CAN. Insieme, svilupperemo polizze innovative che rispondano alle reali esigenze degli agricoltori italiani, con particolare attenzione alla sostenibilità e alla gestione del rischio climatico.</p>
+            <p>This partnership combines Acrisure\'s long-standing experience in the insurance sector with CAN\'s deep knowledge of the agricultural sector. Together, we will develop innovative policies that meet the real needs of Italian farmers, with particular attention to sustainability and climate risk management.</p>
             
             <blockquote>
-                "Siamo entusiasti di questa collaborazione con il Consorzio Agricolo Nazionale. Insieme possiamo offrire soluzioni realmente personalizzate che proteggano il lavoro e gli investimenti degli agricoltori italiani", ha dichiarato il CEO di Acrisure Italia.
+                "We are excited about this collaboration with the National Agricultural Consortium. Together we can offer truly customized solutions that protect the work and investments of Italian farmers," declared the CEO of Acrisure Italy.
             </blockquote>
             
-            <h3>Le nuove soluzioni</h3>
+            <h3>The new solutions</h3>
             
-            <p>Tra le novità introdotte da questa partnership:</p>
+            <p>Among the novelties introduced by this partnership:</p>
             
             <ul>
-                <li>Polizze multirischio per coltivazioni con coperture estese</li>
-                <li>Soluzioni per la protezione dagli eventi climatici estremi</li>
-                <li>Coperture innovative per le nuove tecniche di agricoltura sostenibile</li>
-                <li>Servizi di consulenza e risk management dedicati</li>
+                <li>Multi-risk policies for crops with extended coverage</li>
+                <li>Solutions for protection against extreme weather events</li>
+                <li>Innovative coverage for new sustainable agriculture techniques</li>
+                <li>Dedicated consulting and risk management services</li>
             </ul>
             
-            <img src="/img/agricoltura1.jpg" alt="Agricoltura sostenibile">
-            <p class="image-caption">Nuove tecniche di agricoltura sostenibile che saranno coperte dalle polizze</p>
+            <img src="/img/agricoltura1.jpg" alt="Sustainable agriculture">
+            <p class="image-caption">New sustainable agriculture techniques that will be covered by the policies</p>
             
-            <h2>Vantaggi per gli associati CAN</h2>
+            <h2>Benefits for CAN members</h2>
             
-            <p>Gli associati al Consorzio Agricolo Nazionale avranno accesso a condizioni privilegiate e a un servizio dedicato, con consulenti specializzati nel settore agricolo. Inoltre, sarà disponibile una piattaforma digitale per la gestione delle polizze e la segnalazione dei sinistri con tempi di risposta rapidi.</p>
+            <p>Members of the National Agricultural Consortium will have access to privileged conditions and a dedicated service, with consultants specialized in the agricultural sector. Additionally, a digital platform will be available for policy management and claims reporting with fast response times.</p>
             
-            <p>Le nuove polizze saranno disponibili a partire dal prossimo mese di aprile in tutte le sedi del CAN e attraverso i canali digitali di Acrisure Agricolture.</p>
+            <p>The new policies will be available starting next April in all CAN offices and through Acrisure Agriculture\'s digital channels.</p>
             
-            <h3>Prospettive future</h3>
+            <h3>Future prospects</h3>
             
-            <p>Questa partnership rappresenta solo il primo passo di una collaborazione più ampia che vedrà Acrisure e il CAN lavorare insieme su progetti di ricerca e sviluppo per creare prodotti assicurativi sempre più innovativi e rispondenti alle esigenze del settore agricolo italiano.</p>
+            <p>This partnership represents only the first step of a broader collaboration that will see Acrisure and CAN working together on research and development projects to create increasingly innovative insurance products that meet the needs of the Italian agricultural sector.</p>
         ',
-        'tags' => ['Agricoltura', 'Partnership', 'Innovazione', 'Assicurazioni'],
+        'tags' => ['Agriculture', 'Partnership', 'Innovation', 'Insurance'],
         'related' => [4, 5, 6]
     ],
     2 => [
-        'title' => 'Premio Innovazione Assicurativa 2024',
-        'date' => '28 Febbraio 2024',
+        'title' => 'Insurance Innovation Award 2024',
+        'date' => 'February 28, 2024',
         'image' => '/img/news2-large.jpg',
         'author' => 'Laura Bianchi',
         'author_img' => '/img/author2.jpg',
         'content' => '
-            <p>Acrisure Italia si è aggiudicata il prestigioso Premio Innovazione Assicurativa 2024 per la sua piattaforma digitale di risk management avanzato, riconoscimento che conferma la leadership dell\'azienda nel campo della tecnologia applicata al settore assicurativo.</p>
+            <p>Acrisure Italy has won the prestigious Insurance Innovation Award 2024 for its advanced digital risk management platform, a recognition that confirms the company\'s leadership in the field of technology applied to the insurance sector.</p>
             
-            <h2>Una piattaforma rivoluzionaria</h2>
+            <h2>A revolutionary platform</h2>
             
-            <p>La piattaforma premiata rappresenta un punto di riferimento nel settore, combinando intelligenza artificiale, analisi predittiva e machine learning per offrire soluzioni di risk management personalizzate e proattive.</p>
+            <p>The award-winning platform represents a benchmark in the sector, combining artificial intelligence, predictive analytics and machine learning to offer personalized and proactive risk management solutions.</p>
             
             <blockquote>
-                "Questo premio riconosce il nostro impegno costante nell\'innovazione tecnologica. Siamo orgogliosi di essere all\'avanguardia nel settore assicurativo italiano", ha commentato il CTO di Acrisure Italia.
+                "This award recognizes our constant commitment to technological innovation. We are proud to be at the forefront of the Italian insurance sector," commented the CTO of Acrisure Italy.
             </blockquote>
             
-            <p>La cerimonia di premiazione si è tenuta a Roma alla presenza delle principali autorità del settore assicurativo italiano.</p>
+            <p>The award ceremony was held in Rome in the presence of the main authorities of the Italian insurance sector.</p>
         ',
-        'tags' => ['Innovazione', 'Premio', 'Tecnologia', 'Risk Management'],
+        'tags' => ['Innovation', 'Award', 'Technology', 'Risk Management'],
         'related' => [1, 3, 6]
     ],
     3 => [
-        'title' => 'Espansione della rete italiana',
-        'date' => '10 Gennaio 2024',
+        'title' => 'Expansion of the Italian network',
+        'date' => 'January 10, 2024',
         'image' => '/img/news3-large.jpg',
         'author' => 'Giuseppe Verdi',
         'author_img' => '/img/author3.jpg',
         'content' => '
-            <p>Acrisure Italia annuncia l\'apertura del nuovo ufficio di Torino, rafforzando ulteriormente la sua presenza sul territorio nazionale con un team specializzato in assicurazioni per il settore automotive.</p>
+            <p>Acrisure Italy announces the opening of the new Turin office, further strengthening its national presence with a team specialized in insurance for the automotive sector.</p>
             
-            <h2>Nuove opportunità nel settore automotive</h2>
+            <h2>New opportunities in the automotive sector</h2>
             
-            <p>Il nuovo ufficio, situato in via Roma 123, sarà dedicato esclusivamente alle esigenze del settore automotive, offrendo soluzioni assicurative tailor-made per concessionarie, officine e aziende di trasporto.</p>
+            <p>The new office, located at via Roma 123, will be dedicated exclusively to the needs of the automotive sector, offering tailor-made insurance solutions for dealerships, workshops, and transport companies.</p>
             
-            <p>Con questa apertura, Acrisure Italia consolida la sua presenza in Piemonte e rafforza il suo impegno nel supportare le imprese del territorio.</p>
+            <p>With this opening, Acrisure Italy consolidates its presence in Piedmont and strengthens its commitment to supporting local businesses.</p>
         ',
-        'tags' => ['Espansione', 'Torino', 'Automotive', 'Crescita'],
+        'tags' => ['Expansion', 'Turin', 'Automotive', 'Growth'],
         'related' => [1, 2, 4]
     ],
     4 => [
-        'title' => 'Nuovo servizio di welfare',
-        'date' => '5 Dicembre 2023',
+        'title' => 'New welfare service',
+        'date' => 'December 5, 2023',
         'image' => '/img/news4-large.jpg',
         'author' => 'Maria Rossi',
         'author_img' => '/img/author4.jpg',
         'content' => '
-            <p>Acrisure Italia lancia un innovativo pacchetto di benefit per i dipendenti delle aziende clienti, offrendo soluzioni di welfare personalizzabili che rispondono alle esigenze specifiche di ogni realtà aziendale.</p>
+            <p>Acrisure Italy launches an innovative benefit package for client company employees, offering customizable welfare solutions that respond to the specific needs of each business reality.</p>
             
-            <h2>Welfare su misura</h2>
+            <h2>Tailored welfare</h2>
             
-            <p>Il nuovo servizio permette alle aziende di costruire pacchetti benefit modulari, scegliendo tra diverse opzioni tra cui assicurazioni sanitarie, previdenza complementare, buoni pasto e servizi di conciliazione vita-lavoro.</p>
+            <p>The new service allows companies to build modular benefit packages, choosing from various options including health insurance, supplementary pensions, meal vouchers, and work-life balance services.</p>
         ',
-        'tags' => ['Welfare', 'Benefit', 'Risorse Umane', 'Servizi'],
+        'tags' => ['Welfare', 'Benefits', 'Human Resources', 'Services'],
         'related' => [1, 5, 6]
     ],
     5 => [
-        'title' => 'Convegno annuale',
-        'date' => '20 Novembre 2023',
+        'title' => 'Annual conference',
+        'date' => 'November 20, 2023',
         'image' => '/img/news5-large.jpg',
         'author' => 'Andrea Neri',
         'author_img' => '/img/author5.jpg',
         'content' => '
-            <p>Successo per il convegno "Innovazione e assicurazioni" organizzato da Acrisure Italia a Milano, che ha riunito oltre 300 professionisti del settore per discutere le nuove frontiere dell\'assicurazione digitale.</p>
+            <p>Success for the "Innovation and Insurance" conference organized by Acrisure Italy in Milan, which brought together over 300 sector professionals to discuss the new frontiers of digital insurance.</p>
             
-            <h2>Un evento di riferimento</h2>
+            <h2>A reference event</h2>
             
-            <p>L\'evento ha rappresentato un momento di confronto importante per tutto il settore assicurativo italiano, con interventi di esperti nazionali e internazionali.</p>
+            <p>The event represented an important moment of discussion for the entire Italian insurance sector, with interventions from national and international experts.</p>
         ',
-        'tags' => ['Convegno', 'Evento', 'Milano', 'Innovazione'],
+        'tags' => ['Conference', 'Event', 'Milan', 'Innovation'],
         'related' => [2, 3, 4]
     ]
 ];
@@ -132,14 +132,14 @@ $article = $articles[$article_id];
 ?>
 
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - Acrisure Re Italia</title>
-    <meta name="description" content="Acrisure Agricolture annuncia una collaborazione strategica con il principale consorzio agricolo nazionale per offrire polizze ancora più vantaggiose.">
-    <meta name="keywords" content="assicurazioni agricole, partnership Acrisure, polizze agricoltura, Acrisure Agricolture">
-    <link rel="canonical" href="https://www.acrisureitalia.com/news-article.html?id=1" />
+    <title>News - Acrisure Agricolture</title>
+    <meta name="description" content="Acrisure Agriculture announces a strategic collaboration with the main national agricultural consortium to offer even more advantageous policies.">
+    <meta name="keywords" content="agricultural insurance, Acrisure partnership, agriculture policies, Acrisure Agriculture">
+    <link rel="canonical" href="https://www.acrisureitalia.com/en/news-article.html?id=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -1097,14 +1097,26 @@ $article = $articles[$article_id];
             padding-left: 0.5rem;
             border-bottom-color: var(--accent);
         }
+
+        /* RECLAMI LINK---------- */
+        .footer-title-link {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+        }
+
+        .footer-title-link:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 <body>
     <header id="header">
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/re.php">
-                    <img src="/img/Acrisure Re Italia.jpg" alt="Acrisure Services Logo" class="logo">
+                <a href="/eng/agricolture-eng.php">
+                <img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo" alt=""></li>
                 </a>
                 <div class="menu-toggle">
                     <span></span>
@@ -1114,17 +1126,17 @@ $article = $articles[$article_id];
             </div>
             <nav>
                 <ul>
-                    <li><a href="/re.php#news" class="nav-link">News</a></li>
-                    <li><a href="/re.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/re.php#services" class="nav-link">Servizi</a></li>
-                    <li><a href="/index.php#gruppo" class="nav-link">Il Nostro Gruppo</a></li>
-                    <li><a href="/lavora-con-noi/lcn-acrisure.php" class="nav-link">Lavora con noi</a></li>
+                    <li><a href="/eng/agricolture-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/agricolture-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/agricolture-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/lavora-con-noi-eng/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">
                 <ul>
-                    <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/singleNews-eng/singleRe-eng.php" class="language-btn">EN</a></li>
+                    <li><a href="/singleNews/singleAgricolture.php" class="language-btn">IT</a></li>
+                    <li><a onclick="window.location.href='#'" class="language-btn active">EN</a></li>
                 </ul>
             </nav>
         </div>
@@ -1133,7 +1145,7 @@ $article = $articles[$article_id];
     <!-- Article Hero -->
     <section class="article-hero">
         <div class="article-hero-content">
-            <h1>News & Aggiornamenti</h1>
+            <h1>News & Updates</h1>
         </div>
     </section>
 
@@ -1143,9 +1155,9 @@ $article = $articles[$article_id];
             <span class="news-date"><?php echo $article['date']; ?></span>
             <h1><?php echo htmlspecialchars($article['title']); ?></h1>
             <div class="article-meta">
-                <span class="author"><img src="<?php echo $article['author_img']; ?>" alt="Autore"> <?php echo $article['author']; ?></span>
+                <span class="author"><img src="<?php echo $article['author_img']; ?>" alt="Author"> <?php echo $article['author']; ?></span>
                 <span>•</span>
-                <span>3 minuti di lettura</span>
+                <span>3 minute read</span>
             </div>
         </div>
         
@@ -1163,23 +1175,23 @@ $article = $articles[$article_id];
             </div>
             
             <div class="social-share">
-                <span>Condividi:</span>
-                <a href="#" class="share-btn" aria-label="Condividi su Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="share-btn" aria-label="Condividi su LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="share-btn" aria-label="Condividi su Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="share-btn" aria-label="Condividi via Email"><i class="fas fa-envelope"></i></a>
+                <span>Share:</span>
+                <a href="#" class="share-btn" aria-label="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="share-btn" aria-label="Share on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="share-btn" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="share-btn" aria-label="Share via Email"><i class="fas fa-envelope"></i></a>
             </div>
             
-            <a href="../news/newsRe.php" class="back-to-news"><i class="fas fa-arrow-left"></i> Torna alle news</a>
+            <a href="../news-eng/newsAgricolture-eng.php" class="back-to-news"><i class="fas fa-arrow-left"></i> Back to news</a>
             
             <div class="related-news">
-                <h2>Potrebbero interessarti anche</h2>
+                <h2>You might also be interested in</h2>
                 <div class="related-grid">
                     <?php 
                     $related_articles = [
-                        4 => ['title' => 'Nuovo servizio di risk management', 'date' => '5 Dicembre 2023', 'image' => '/img/news4.jpg'],
-                        5 => ['title' => 'Partnership con l\'Università di Sassari', 'date' => '20 Novembre 2023', 'image' => '/img/news5.jpg'],
-                        6 => ['title' => 'Successo dell\'evento annuale Acrisure Italia', 'date' => '15 Ottobre 2023', 'image' => '/img/news6.jpg']
+                        4 => ['title' => 'New risk management service', 'date' => 'December 5, 2023', 'image' => '/img/news4.jpg'],
+                        5 => ['title' => 'Partnership with University of Sassari', 'date' => 'November 20, 2023', 'image' => '/img/news5.jpg'],
+                        6 => ['title' => 'Success of Acrisure Italy annual event', 'date' => 'October 15, 2023', 'image' => '/img/news6.jpg']
                     ];
                     
                     foreach ($article['related'] as $related_id): 
@@ -1191,7 +1203,7 @@ $article = $articles[$article_id];
                         <div class="related-content">
                             <span class="related-date"><?php echo $related['date']; ?></span>
                             <h3><?php echo htmlspecialchars($related['title']); ?></h3>
-                            <a href="singleAcrisure.php?id=<?php echo $related_id; ?>" class="related-link">Leggi l'articolo <i class="fas fa-arrow-right"></i></a>
+                            <a href="/eng/singleNews-eng/singleAgricolture-eng.php?php echo $related_id; ?>" class="related-link">Read article <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </article>
                     <?php 
@@ -1203,80 +1215,74 @@ $article = $articles[$article_id];
         </div>
     </article>
 
-    <!-- FOOTER ------------------------------------------------------------------------------------------------------------------ -->
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3><i class="fas fa-building"></i>Sede Legale</h3>
+                <h3><i class="fas fa-building"></i>Legal Headquarters</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-file-contract"></i>Acrisure Re Italia S.r.l.</li>
-                    <!-- <li><i class="fas fa-id-card"></i> P.IVA: 13147890969</li> -->
-                    <li><i class="fas fa-map-marker-alt"></i>Via Giuseppe Mazzini, 3 - 07100 Sassari</li><br>
-                    <li><img src="/img/Acrisure Re Italia.jpg" class="logo-footer" alt=""></li>
+                    <li><i class="fas fa-file-contract"></i>Acrisure Agricolture S.r.l.</li>
+                    <!-- <li><i class="fas fa-id-card"></i> VAT: 13147890969</li> -->
+                    <li><i class="fas fa-map-marker-alt"></i>6 Lovanio Street - 00198 Rome</li><br>
+                    <li><img src="/img/ACRISURE AGRICOLTURE.jpg" class="logo-footer" alt="Acrisure Agricolture Logo"></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3><i class="fas fa-map-marked-alt"></i>Sedi Italiane</h3>
+                <h3><i class="fas fa-map-marked-alt"></i>Italian Offices</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-city"></i> <strong>Sassari (SS)</strong><br>Via Giuseppe Mazzini, 3 - 07100</li>
-                    <li><i class="fas fa-city"></i> <strong>Milano (MI)</strong><br>Via Santa Maria Segreta 6 - 20123</li>
-                    <li><i class="fas fa-city"></i> <strong>Roma (RM)</strong><br>Via Lovanio 6 - 00198</li>
+                    <li><i class="fas fa-city"></i> <strong>Rome (RM)</strong><br>6 Lovanio Street - 00198</li>
                 </ul>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-headset"></i>Contatti</h3>
+                <h3><i class="fas fa-headset"></i>Contacts</h3>
                 <ul class="footer-links">
-                    <li><i class="fas fa-phone-alt"></i>Amministrazione: 079 2016047</li>
-                    <li><i class="fas fa-phone-volume"></i>Customer Care: 079 2853063</li>
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li>
-                    <li><i class="fas fa-file-alt"></i> <a href="mailto:acrisurereitalia@pec.it">acrisurereitalia@pec.it</a></li>
+                    <li><i class="fas fa-phone-alt"></i>Administration: +39 06 98968206</li>
+                    <!-- <li><i class="fas fa-phone-volume"></i> Customer Care: +39 079 2853063</li> -->
+                    <!-- <li><i class="fas fa-envelope"></i> <a href="mailto:info@acrisure.it">info@acrisure.it</a></li> -->
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:agricolture@pec.acrisure.it">agricolture@pec.acrisure.it</a></li>
                 </ul>
                 
                 <div class="social-links">
                     <a href="https://it.linkedin.com/company/acrisureitalia" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/acrisureitalia/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+
+                <br>
+                <div class="footer-column">
+                    <h3><i class="fas fa-exclamation-circle"></i> <a href="/eng/reclami-eng/reclamiAgricolture-eng.php" class="footer-title-link">Complaints</a></h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:reclami.agricolture@acrisure.it">reclami.agricolture@acrisure.it</a></li>
+                    </ul>
+                </div>
             </div>
             
             <div class="footer-column">
-                <h3><i class="fas fa-clock"></i>Orari Ufficio</h3>
+                <h3><i class="fas fa-clock"></i> Office Hours</h3>
                 <ul class="footer-links">
-                    <li><i class="far fa-clock"></i> <strong>Lun-Ven</strong>: 9:00 - 18:00</li>
-                    <li><i class="fas fa-door-closed"></i> <strong>Sab-Dom</strong>: Chiuso</li>
+                    <li><i class="far fa-clock"></i> <strong>Mon-Fri</strong>: 9:00 AM - 6:00 PM</li>
+                    <li><i class="fas fa-door-closed"></i> <strong>Sat-Sun</strong>: Closed</li>
                 </ul>
                 
-                <!-- <div class="footer-badge">
-                    <img src="/img/BV.jpg" class="logo-footer" alt=""> 
-                    <a href="https://www.accredia.it/" target="_blank"><img src="/img/Marchio ACCREDIA.jpg" class="logo-footer" alt=""></a>
-                    <a href="https://aiba.it/" target="_blank"><img src="/img/AIBA.png" class="logo-footer" alt="Nuova immagine"></a>
-                </div> -->
-                
                 <div class="legal-links">
-                    <a href="/policy/policyRe.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesRe.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalRe.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAgricolture-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAgricolture-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAgricolture-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>
-
+        
         <br>
-        <!-- Aggiungi questa nuova sezione sopra il footer-bottom -->
+        <!-- Add this new section above the footer-bottom -->
         <div class="footer-legal-notice">
-            <p>Acrisure Re Italia S.r.l. - Società con socio unico soggetta alla direzione e coordinamento di Acrisure S.r.l. - Cap.sociale € 120.000,00 i.v.
-                Iscritta alla Sez. B del RUI n° B000729790, è soggetta alla vigilanza IVASS.
-                I dati identificativi e di iscrizione sopra forniti possono essere verificati consultando il Registro Unico degli Intermediari (RUI) sul sito Ivass: <a href="https://ruipubblico.ivass.it/rui-pubblica/ng/#/home" target="_blank">www.ivass.it</a>.
-                Società partecipante al Gruppo IVA Acrisure P.IVA 13147890969- Cod. Fiscale e n. iscr.al registro Imprese di Sassari n.02942110905 REA SS-217191
+            <p>Acrisure Agricolture S.r.l. - Sole shareholder company under the direction and coordination of Acrisure S.r.l. - Share Capital €150,000.00 fully paid.
+                Registered in Section B of the RUI under no. 000243223, it is subject to IVASS supervision.
+                The identification and registration data provided above can be verified by consulting the Single Register of Intermediaries (RUI) on the IVASS website: <a href="https://ruipubblico.ivass.it/rui-pubblica/ng/#/home" target="_blank">www.ivass.it</a>.
+                Company participating in the Acrisure Group VAT number P.IVA 13147890969 - Tax Code and registration number in the Rome Companies Register n. 08359221002. REA RM-1089539
             </p>
         </div>
     </footer>
-
-    <!-- Cookie banner -->
-    <!-- <div id="cookie-banner" class="cookie-banner">
-        <p>Utilizziamo cookie per migliorare la tua esperienza. <a href="/cookies/cookiesAcrisure.html">Maggiori informazioni</a></p>
-        <button id="accept-cookies" class="btn">Accetta</button>
-    </div> -->
 
     <script>
         // Smooth scrolling per i link di navigazione

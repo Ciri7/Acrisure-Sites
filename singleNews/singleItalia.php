@@ -1136,7 +1136,7 @@ $article = $articles[$article_id];
             <nav class="language-switcher">
                 <ul>
                     <li><a onclick="window.location.href='#'" class="language-btn active">IT</a></li>
-                    <li><a href="/eng/" class="language-btn">EN</a></li>
+                    <li><a href="/eng/singleNews-eng/singleItalia-eng.php" class="language-btn">EN</a></li>
                 </ul>
             </nav>
         </div>

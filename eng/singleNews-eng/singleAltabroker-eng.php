@@ -1,4 +1,4 @@
-<?php include('../includes/auth.php'); ?>
+<?php include('../../includes/auth.php'); ?>
 <?php
 // Recupera l'ID dell'articolo dalla query string
 $article_id = isset($_GET['id']) ? intval($_GET['id']) : 1;

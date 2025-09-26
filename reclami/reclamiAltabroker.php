@@ -796,6 +796,20 @@
         .footer-title-link:hover {
             color: var(--accent);
         }
+
+        /* ALLINEAMENTO TESTI */
+        .text-justify {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+        }
+
+        /* Per evitare spazi eccessivi nelle righe corte */
+        .text-justify p, 
+        .text-justify li {
+            word-spacing: normal;
+            letter-spacing: normal;
+        }
     </style>
 </head>
 <body>

@@ -853,11 +853,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="/agricolture-eng.php#news" class="nav-link">News</a></li>
-                    <li><a href="/agricolture-eng.php#gruppo" class="nav-link">Leadership</a></li>
-                    <li><a href="/agricolture-eng.php#services" class="nav-link">Services</a></li>
-                    <li><a href="/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
-                    <li><a href="/lavora-con-noi/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
+                    <li><a href="/eng/agricolture-eng.php#news" class="nav-link">News</a></li>
+                    <li><a href="/eng/agricolture-eng.php#gruppo" class="nav-link">Leadership</a></li>
+                    <li><a href="/eng/agricolture-eng.php#services" class="nav-link">Services</a></li>
+                    <li><a href="/eng/index-eng.php#gruppo" class="nav-link">Our Group</a></li>
+                    <li><a href="/eng/lavora-con-noi/lcn-acrisure-eng.php" class="nav-link">Work with us</a></li>
                 </ul>
             </nav>
             <nav class="language-switcher">

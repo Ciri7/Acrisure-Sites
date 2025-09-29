@@ -1809,15 +1809,15 @@
                     </div>
 
                     <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
-                        <h3 class="leadership-name">Alessandro Segatori</h3>
-                        <p class="leadership-desc">Reinsurance Market</p>
-                    </div>
-
-                    <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Romana Del Vecchio</h3>
                         <p class="leadership-desc">Client Management</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandro Segatori</h3>
+                        <p class="leadership-desc">Reinsurance Market</p>
                     </div>
                 </div>
             </div><br>

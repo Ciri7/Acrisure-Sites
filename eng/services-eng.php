@@ -336,7 +336,7 @@
         
         .leadership-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
             margin-top: 2rem;
             max-width: 1200px;
@@ -1786,78 +1786,37 @@
         <section id="gruppo" class="section leadership"><br>
         <h2 class="section-title">Leadership</h2>
         <p class="section-subtitle2">
-            Our team leads the company with strategic vision, consolidated experience and a strong commitment to innovation and excellence. Discover the people who inspire our growth and shape our future
-        </p>        
+            Our team leads the company with strategic vision, consolidated experience and a strong commitment to innovation and excellence. Discover the people who inspire our growth and shape our future</p>        
+            
         <div class="leadership-container">
             <div class="leadership-grid">
                 <!-- Prima riga con 2 card centrate -->
                 <div class="leadership-first-row">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Francesco Sardara</h3>
-                        <p class="leadership-desc">Chief Executive Officier</p>
-                    </div>
-                    
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Andrea Maffei</h3>
                         <p class="leadership-desc">Chairman</p>
                     </div>
-                </div>
 
-                <!-- Seconda riga con 5 card -->
-                <div class="leadership-other-rows">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Alessandra Capparucci</h3>
-                        <p class="leadership-desc">Human Resources</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
-                        <h3 class="leadership-name">Alessandra Sardara</h3>
-                        <p class="leadership-desc">Financial Analysis</p>
-                    </div>
-                    
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Alessandro Marras</h3>
-                        <p class="leadership-desc">Chief Operation Officer</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Alessandro Serra</h3>
-                        <p class="leadership-desc">Internal Audit & Quality Management</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
-                        <h3 class="leadership-name">Daniele Meloni</h3>
-                        <p class="leadership-desc">Business Analysis</p>
-                    </div>
-
-                </div>
-
-                <!-- Terza riga con 5 card -->
-                <div class="leadership-other-rows">
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
-                        <h3 class="leadership-name">Elisa Mulargia</h3>
-                        <p class="leadership-desc">Events</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
-                        <h3 class="leadership-name">Emanuela Vignotti</h3>
-                        <p class="leadership-desc">Welfare</p>
+                        <h3 class="leadership-name">Francesco Sardara</h3>
+                        <p class="leadership-desc">Chief Executive Officier</p>
                     </div>
 
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Gabriele Gilleri</h3>
                         <p class="leadership-desc">Executive Director Business</p>
+                    </div>
+                </div>
+
+                <!-- Seconda riga con 3 card -->
+                <div class="leadership-other-rows2">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandra Capparucci</h3>
+                        <p class="leadership-desc">Human Resources</p>
                     </div>
 
                     <div class="leadership-card">
@@ -1867,9 +1826,48 @@
                     </div>
 
                     <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandro Marras</h3>
+                        <p class="leadership-desc">Chief Operation Officer</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
+                        <h3 class="leadership-name">Daniele Meloni</h3>
+                        <p class="leadership-desc">Business Analysis</p>
+                    </div>
+                </div>
+
+                <!-- Terza riga con 3 card -->
+                <div class="leadership-other-rows">
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Services" class="leadership-logo">
+                        <h3 class="leadership-name">Elisa Mulargia</h3>
+                        <p class="leadership-desc">Events</p>
+                    </div>
+
+                    <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
                         <h3 class="leadership-name">Sara Sandroni</h3>
                         <p class="leadership-desc">Communications Brand Awareness</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandra Sardara</h3>
+                        <p class="leadership-desc">Financial Analysis</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Re Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Alessandro Serra</h3>
+                        <p class="leadership-desc">Internal Audit & Quality Management</p>
+                    </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agricolture" class="leadership-logo">
+                        <h3 class="leadership-name">Emanuela Vignotti</h3>
+                        <p class="leadership-desc">Welfare</p>
                     </div>
                 </div>
 

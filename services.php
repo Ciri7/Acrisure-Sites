@@ -348,7 +348,7 @@
         
         .leadership-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
             margin-top: 2rem;
             max-width: 1200px;
@@ -1801,10 +1801,16 @@
                         <h3 class="leadership-name">Francesco Sardara</h3>
                         <p class="leadership-desc">Chief Executive Officier</p>
                     </div>
+
+                    <div class="leadership-card">
+                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
+                        <h3 class="leadership-name">Gabriele Gilleri</h3>
+                        <p class="leadership-desc">Executive Director Business</p>
+                    </div>
                 </div>
 
                 <!-- Seconda riga con 3 card -->
-                <div class="leadership-other-rows">
+                <div class="leadership-other-rows2">
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Alessandra Capparucci</h3>
@@ -1815,12 +1821,6 @@
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Agriservices" class="leadership-logo">
                         <h3 class="leadership-name">Rossella Giacchi</h3>
                         <p class="leadership-desc">Group General Counsel</p>
-                    </div>
-
-                    <div class="leadership-card">
-                        <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
-                        <h3 class="leadership-name">Gabriele Gilleri</h3>
-                        <p class="leadership-desc">Executive Director Business</p>
                     </div>
 
                     <div class="leadership-card">

@@ -879,35 +879,37 @@
         <div class="privacy-content">
             <div class="privacy-section">
                 <h2>Devi inviarci un reclamo? Ecco le istruzioni</h2>
-                <p> Gentile Cliente,<br><br>
-                    ferma la possibilità di rivolgerti all’Autorità Giudiziaria, hai la facoltà di inoltrare reclamo per iscritto all’impresa preponente ai recapiti indicati nel DIP aggiuntivo o all’intermediario. Per i reclami all’intermediario può utilizzare gli indirizzi mail dedicati reclami.agricolture@acrisure.it, ovvero tramite PEC all’indirizzo agricolture@pec.acrisure.it ed infine con raccomandata A/R indirizzata alla Funzione Reclami - Acrisure Agricolture S.r.l., Via Lovanio n. 6 - 00198 Roma.<br><br>
-                    Anche al fine di facilitare il riscontro, il reclamo deve contenere l’indicazione di: <br>
-                    <ul>
-                    <li>l’oggetto del reclamo e una breve descrizione delle circostanze su cui lo stesso verte;</li>
-                    <li>il nominativo, l’indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail e la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro);</li>
+                <p>Gentile Cliente,</p>
+                <p>ferma la possibilità di rivolgerti all’Autorità Giudiziaria, hai la facoltà di inoltrare reclamo per iscritto all’impresa preponente ai recapiti indicati nel DIP aggiuntivo o all’intermediario. Per i reclami all’intermediario può utilizzare gli indirizzi mail dedicati reclami.agricolture@acrisure.it, ovvero tramite PEC all’indirizzo agricolture@pec.acrisure.it ed infine con raccomandata A/R indirizzata alla Funzione Reclami - Acrisure Agricolture S.r.l., Via Lovanio n. 6 - 00198 Roma.</p>
+                
+                <p>Anche al fine di facilitare il riscontro, il reclamo deve contenere l'indicazione di:</p>
+                <ul>
+                    <li>l'oggetto del reclamo e una breve descrizione delle circostanze su cui lo stesso verte;</li>
+                    <li>il nominativo, l'indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail e la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro);</li>
                     <li>il numero della polizza;</li>
                     <li>il nominativo del Contraente;</li>
-                    <li>il numero e la data dell’eventuale sinistro a cui fai riferimento;</li>
-                    <li>se il reclamo ha ad oggetto il comportamento dei nostri dipendenti e/o collaboratori oppure riguarda i prodotti/servizi da noi offerti, l’indicazione del soggetto o dei soggetti di cui si lamenta l’operato;</li>
+                    <li>il numero e la data dell'eventuale sinistro a cui fai riferimento;</li>
+                    <li>se il reclamo ha ad oggetto il comportamento dei nostri dipendenti e/o collaboratori oppure riguarda i prodotti/servizi da noi offerti, l'indicazione del soggetto o dei soggetti di cui si lamenta l'operato;</li>
                     <li>qualsiasi altra informazione che ritieni utile per aiutarci a comprendere il problema.</li>
-                    </ul>
+                </ul>
 
-                    <br>
-                    L’intermediario è tenuto a fornire riscontro entro 45 giorni dalla ricezione del reclamo. È opportuno evidenziare che non sono considerate reclami le richieste di informazioni o di chiarimenti, le richieste di risarcimento danni o di esecuzione del contratto, inoltre, qualora il reclamo riguardi il prodotto assicurativo è consigliabile rivolgersi direttamente alla Compagnia di Assicurazione.<br><br>
-                    Solo qualora non dovessi essere soddisfatto dell’esito del reclamo o in caso di assenza di riscontro da parte dell’intermediario o dell’impresa entro il termine di legge previsto in 45 giorni hai altresì la facoltà di rivolgerti all’IVASS tramite l’apposito form previsto sul sito web www.ivass.it inviando il reclamo ai seguenti recapiti: via PEC all’indirizzo tutela.consumatore@pec.ivass.it, via fax al numero 06.42133206 ovvero tramite posta ordinaria “IVASS Servizio Tutela del Consumatore” - Via del Quirinale, 21 00187 Roma. Tale comunicazione dovrà contenere i seguenti dati:<br>
-                    <ul>
-                    <li>l’oggetto del reclamo e una breve descrizione delle circostanze su cui lo stesso verte;</li>
-                    <li>il nominativo, l’indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail e la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro);</li>
-                    <li>l’indicazione del soggetto o dei soggetti di cui si lamenta l’operato;</li>
-                    <li>copia del reclamo presentato all’impresa o al broker di assicurazione e dell’eventuale riscontro fornito dalla stessa;</li>
+                <p>L'intermediario è tenuto a fornire riscontro entro 45 giorni dalla ricezione del reclamo. È opportuno evidenziare che non sono considerate reclami le richieste di informazioni o di chiarimenti, le richieste di risarcimento danni o di esecuzione del contratto, inoltre, qualora il reclamo riguardi il prodotto assicurativo è consigliabile rivolgersi direttamente alla Compagnia di Assicurazione.</p>
+                
+                <p>Solo qualora non dovessi essere soddisfatto dell'esito del reclamo o in caso di assenza di riscontro da parte dell'intermediario o dell'impresa entro il termine di legge previsto in 45 giorni hai altresì la facoltà di rivolgerti all'IVASS tramite l'apposito form previsto sul sito web www.ivass.it inviando il reclamo ai seguenti recapiti: via PEC all'indirizzo tutela.consumatore@pec.ivass.it, via fax al numero 06.42133206 ovvero tramite posta ordinaria "IVASS Servizio Tutela del Consumatore" - Via del Quirinale, 21 00187 Roma. Tale comunicazione dovrà contenere i seguenti dati:</p>
+                
+                <ul>
+                    <li>l'oggetto del reclamo e una breve descrizione delle circostanze su cui lo stesso verte;</li>
+                    <li>il nominativo, l'indirizzo di residenza; il recapito telefonico e/o indirizzo e-mail e la qualità del reclamante (ad es. Contraente, Assicurato, Danneggiato, Beneficiario, Associazione di Consumatore, o altro);</li>
+                    <li>l'indicazione del soggetto o dei soggetti di cui si lamenta l'operato;</li>
+                    <li>copia del reclamo presentato all'impresa o al broker di assicurazione e dell'eventuale riscontro fornito dalla stessa;</li>
                     <li>qualsiasi altra informazione che ritieni utile per descrivere più compiutamente il problema.</li>
-                    </ul>
+                </ul>
 
-                    <br>
-                    Eventuali reclami non relativi al rapporto contrattuale o alla gestione dei sinistri, ma relativi alla mancata osservanza di altre disposizioni del Codice delle assicurazioni, delle relative norme di attuazione, nonché delle norme sulla commercializzazione a distanza dei prodotti assicurativi, possono essere presentati direttamente all’IVASS secondo le modalità sopra elencate.<br><br>
-                    Ed ancora, hai la facoltà di avvalerti di altri eventuali sistemi alternativi di risoluzione delle controversie previsti dalla normativa vigente, sempre secondo quanto indicato nel DIP aggiuntivo.<br>
-                    Da ultimo, hai inoltre la facoltà di rivolgerti al Fondo di Garanzia per l’attività dei mediatori di assicurazione e riassicurazione istituito presso la Consap, Via Yser 14,00198 Roma, telefono 06.857961 per chiedere, laddove ne esistano i presupposti ed il diritto a farlo, il risarcimento del danno patrimoniale loro causato dall’esercizio dell’attività di intermediazione, che non sia stato risarcito dall’intermediario stesso o non sia stato indennizzato attraverso il contratto di assicurazione della Responsabilità Civile che copre i danni arrecati ai contraenti da negligenze ed errori professionali dell’intermediario o da negligenze, errori professionali ed infedeltà dei dipendenti, dei collaboratori o delle persone del cui operato l’intermediario deve rispondere a norma di legge.
-                </p>
+                <p>Eventuali reclami non relativi al rapporto contrattuale o alla gestione dei sinistri, ma relativi alla mancata osservanza di altre disposizioni del Codice delle assicurazioni, delle relative norme di attuazione, nonché delle norme sulla commercializzazione a distanza dei prodotti assicurativi, possono essere presentati direttamente all'IVASS secondo le modalità sopra elencate.</p>
+                
+                <p>Ed ancora, hai la facoltà di avvalerti di altri eventuali sistemi alternativi di risoluzione delle controversie previsti dalla normativa vigente, sempre secondo quanto indicato nel DIP aggiuntivo.</p>
+                
+                <p>Da ultimo, hai inoltre la facoltà di rivolgerti al Fondo di Garanzia per l'attività dei mediatori di assicurazione e riassicurazione istituito presso la Consap, Via Yser 14,00198 Roma, telefono 06.857961 per chiedere, laddove ne esistano i presupposti ed il diritto a farlo, il risarcimento del danno patrimoniale loro causato dall'esercizio dell'attività di intermediazione, che non sia stato risarcito dall'intermediario stesso o non sia stato indennizzato attraverso il contratto di assicurazione della Responsabilità Civile che copre i danni arrecati ai contraenti da negligenze ed errori professionali dell'intermediario o da negligenze, errori professionali ed infedeltà dei dipendenti, dei collaboratori o delle persone del cui operato l'intermediario deve rispondere a norma di legge.</p>
             </div>
         </div>
     </section>

@@ -878,35 +878,37 @@
         <div class="privacy-content">
             <div class="privacy-section">
                 <h2>Do you need to file a complaint? Here are the instructions</h2>
-                <p> Dear Customer,<br><br>
-                    without prejudice to the option of turning to the Judicial Authority, you have the right to submit a written complaint to the appointing company at the contacts indicated in the additional DIP or to the intermediary. For complaints to the intermediary, you may use the dedicated email addresses reclami@acrisureitalia.com, or via PEC at acrisurespa@pec.it, and finally by registered mail with return receipt addressed to the Complaints Function - Acrisure Italia S.p.A., Via Mazzini no. 3 - 07100 Sassari.<br><br>
-                    To facilitate a proper response, the complaint must include the following information: <br>
-                    <ul>
-                        <li>the subject of the complaint and a brief description of the circumstances on which it is based;</li>
-                        <li>the name, residential address, telephone number and/or email address, and the status of the complainant (e.g. Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other);</li>
-                        <li>the policy number;</li>
-                        <li>the name of the Policyholder;</li>
-                        <li>the number and date of any claim you are referring to;</li>
-                        <li>if the complaint concerns the conduct of our employees and/or collaborators or the products/services we offer, the identification of the person(s) whose actions are being contested;</li>
-                        <li>any other information you consider useful to help us understand the issue.</li>
-                    </ul>
+                <p>Dear Customer,</p>
+                <p>without prejudice to the option of turning to the Judicial Authority, you have the right to submit a written complaint to the appointing company at the contacts indicated in the additional DIP or to the intermediary. For complaints to the intermediary, you may use the dedicated email addresses reclami@acrisureitalia.com, or via PEC at acrisurespa@pec.it, and finally by registered mail with return receipt addressed to the Complaints Function - Acrisure Italia S.p.A., Via Mazzini no. 3 - 07100 Sassari.</p>
+                
+                <p>To facilitate a proper response, the complaint must include the following information:</p>
+                <ul>
+                    <li>the subject of the complaint and a brief description of the circumstances on which it is based;</li>
+                    <li>the name, residential address, telephone number and/or email address, and the status of the complainant (e.g. Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other);</li>
+                    <li>the policy number;</li>
+                    <li>the name of the Policyholder;</li>
+                    <li>the number and date of any claim you are referring to;</li>
+                    <li>if the complaint concerns the conduct of our employees and/or collaborators or the products/services we offer, the identification of the person(s) whose actions are being contested;</li>
+                    <li>any other information you consider useful to help us understand the issue.</li>
+                </ul>
 
-                    <br>
-                    The intermediary is required to provide a response within 45 days of receiving the complaint. It should be noted that requests for information or clarifications, claims for damages, or requests for contract execution are not considered complaints. Furthermore, if the complaint concerns the insurance product, it is advisable to contact the Insurance Company directly.<br><br>
-                    Only if you are not satisfied with the outcome of the complaint or in case of no response from the intermediary or the company within the legal term of 45 days, you also have the right to contact IVASS through the specific form available on the website www.ivass.it by sending the complaint to the following contacts: via PEC at tutela.consumatore@pec.ivass.it, via fax at 06.42133206, or by ordinary mail to “IVASS – Consumer Protection Service” - Via del Quirinale, 21 - 00187 Rome. Such communication must include the following information:<br>
-                    <ul>
-                        <li>the subject of the complaint and a brief description of the circumstances on which it is based;</li>
-                        <li>the name, residential address, telephone number and/or email address, and the status of the complainant (e.g. Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other);</li>
-                        <li>the identification of the person(s) whose actions are being contested;</li>
-                        <li>a copy of the complaint submitted to the company or the insurance broker and any response received;</li>
-                        <li>any other information you consider useful to better describe the issue.</li>
-                    </ul>
+                <p>The intermediary is required to provide a response within 45 days of receiving the complaint. It should be noted that requests for information or clarifications, claims for damages, or requests for contract execution are not considered complaints. Furthermore, if the complaint concerns the insurance product, it is advisable to contact the Insurance Company directly.</p>
+                
+                <p>Only if you are not satisfied with the outcome of the complaint or in case of no response from the intermediary or the company within the legal term of 45 days, you also have the right to contact IVASS through the specific form available on the website www.ivass.it by sending the complaint to the following contacts: via PEC at tutela.consumatore@pec.ivass.it, via fax at 06.42133206, or by ordinary mail to "IVASS – Consumer Protection Service" - Via del Quirinale, 21 - 00187 Rome. Such communication must include the following information:</p>
+                
+                <ul>
+                    <li>the subject of the complaint and a brief description of the circumstances on which it is based;</li>
+                    <li>the name, residential address, telephone number and/or email address, and the status of the complainant (e.g. Policyholder, Insured, Injured Party, Beneficiary, Consumer Association, or other);</li>
+                    <li>the identification of the person(s) whose actions are being contested;</li>
+                    <li>a copy of the complaint submitted to the company or the insurance broker and any response received;</li>
+                    <li>any other information you consider useful to better describe the issue.</li>
+                </ul>
 
-                    <br>
-                    Complaints not relating to the contractual relationship or claims management, but rather to the failure to comply with other provisions of the Insurance Code, its implementing rules, as well as the rules on distance marketing of insurance products, may be submitted directly to IVASS following the methods described above.<br><br>
-                    Furthermore, you may use other alternative dispute resolution systems provided for under current legislation, as indicated in the additional DIP.<br>
-                    Finally, you also have the right to contact the Guarantee Fund for the activity of insurance and reinsurance brokers established at Consap, Via Yser 14, 00198 Rome, telephone 06.857961, to request, where the requirements and rights exist, compensation for financial damages caused by the exercise of brokerage activity, which have not been compensated by the intermediary itself or indemnified through the Civil Liability insurance contract covering damages caused to policyholders by negligence and professional errors of the intermediary or by negligence, professional errors, and misconduct of employees, collaborators, or other persons for whose conduct the intermediary is legally responsible.
-                </p>
+                <p>Complaints not relating to the contractual relationship or claims management, but rather to the failure to comply with other provisions of the Insurance Code, its implementing rules, as well as the rules on distance marketing of insurance products, may be submitted directly to IVASS following the methods described above.</p>
+                
+                <p>Furthermore, you may use other alternative dispute resolution systems provided for under current legislation, as indicated in the additional DIP.</p>
+                
+                <p>Finally, you also have the right to contact the Guarantee Fund for the activity of insurance and reinsurance brokers established at Consap, Via Yser 14, 00198 Rome, telephone 06.857961, to request, where the requirements and rights exist, compensation for financial damages caused by the exercise of brokerage activity, which have not been compensated by the intermediary itself or indemnified through the Civil Liability insurance contract covering damages caused to policyholders by negligence and professional errors of the intermediary or by negligence, professional errors, and misconduct of employees, collaborators, or other persons for whose conduct the intermediary is legally responsible.</p>
             </div>
         </div>
     </section>

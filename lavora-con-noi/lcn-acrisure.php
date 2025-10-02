@@ -1672,7 +1672,7 @@
         <div class="application-form">
             <div class="form-header">
                 <h3>Invia la tua candidatura</h3>
-                <p>Compila il form sottostante per candidarti a una delle nostre posizioni aperte</p>
+                <p>Compila il form sottostante per candidarti a una delle nostre posizioni aperte o per una candidatura spontanea</p>
             </div>
             
             <div id="formMessage" class="form-message"></div>

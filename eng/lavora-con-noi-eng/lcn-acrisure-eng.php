@@ -1672,7 +1672,7 @@
         <div class="application-form">
             <div class="form-header">
                 <h3>Submit Your Application</h3>
-                <p>Fill out the form below to apply for one of our open positions</p>
+                <p>Fill out the form below to apply for one of our open positions or for a spontaneous application</p>
             </div>
             
             <div id="formMessage" class="form-message"></div>

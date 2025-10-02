@@ -1805,7 +1805,7 @@
                     <div class="leadership-card">
                         <img src="/img/Acrisure Bianco 2.webp" alt="Acrisure Italia" class="leadership-logo">
                         <h3 class="leadership-name">Gabriele Gilleri</h3>
-                        <p class="leadership-desc">Executive Director Business</p>
+                        <p class="leadership-desc">Executive Director Business Services Coordinator</p>
                     </div>
                 </div>
 

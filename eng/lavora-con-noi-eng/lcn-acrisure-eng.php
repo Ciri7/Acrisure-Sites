@@ -1740,7 +1740,7 @@
                 <div class="form-footer">
                     <div class="form-note">
                         <p><span class="required">*</span> Required fields</p>
-                        <p>Read our <a href="../policy/policyAcrisure.php">Privacy Policy</a></p>
+                        <p>Read our <a href="../policy-eng/policyAcrisure-eng.php">Privacy Policy</a></p>
                     </div>
                     <button type="submit" class="btn">Submit Application</button>
                 </div>
@@ -1790,9 +1790,9 @@
                 </ul>
                 
                 <div class="legal-links">
-                    <a href="/policy/policyAcrisure.php">Privacy Policy</a>
-                    <a href="/cookies/cookiesAcrisure.php">Cookie Policy</a>
-                    <a href="/legal&comp/legalAcrisure.php">Legal & Compliance</a>
+                    <a href="/eng/policy-eng/policyAcrisure-eng.php">Privacy Policy</a>
+                    <a href="/eng/cookies-eng/cookiesAcrisure-eng.php">Cookie Policy</a>
+                    <a href="/eng/legal-eng/legalAcrisure-eng.php">Legal & Compliance</a>
                 </div>
             </div>
         </div>

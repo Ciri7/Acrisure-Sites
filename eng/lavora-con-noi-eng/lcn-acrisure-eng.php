@@ -1391,14 +1391,14 @@
         
         <div class="benefits-grid">
             <!-- Team Building -->
-            <div class="benefit-card">
+            <!-- <div class="benefit-card">
                 <div class="benefit-icon">
                     <i class="fas fa-users"></i>
                 </div>
                 <h3 class="benefit-title">Team Building</h3>
                 <p class="benefit-description">Improve collaboration and create a cohesive and motivating work environment.</p>
                 <a href="#" class="benefit-link" onclick="openModal('modal-team-building', event)">Learn more <i class="fas fa-arrow-right"></i></a>
-            </div>
+            </div> -->
             
             <!-- Relax & Reset Zone -->
             <div class="benefit-card">
@@ -1423,7 +1423,7 @@
     </section>
 
     <!-- MODAL TEAM BUILDING (transformed into gallery) -->
-    <div id="modal-team-building" class="modal">
+    <!-- <div id="modal-team-building" class="modal">
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal('modal-team-building')">&times;</button>
             <div class="modal-header">
@@ -1471,7 +1471,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- MODAL RELAX ROOM -->
     <div id="modal-sala-relax" class="modal">

@@ -1518,7 +1518,7 @@
                 
                 <div class="gallery-container">
                     <div class="gallery-item">
-                        <img src="/img/Natale.jpg" alt="Christmas Dinner" class="gallery-image">
+                        <img src="/img/cena di natale2.jpg" alt="Christmas Dinner" class="gallery-image">
                         <div class="gallery-caption">
                             <h3 class="gallery-title">Christmas Dinner</h3>
                             <p class="gallery-description">Annual celebration to celebrate together</p>

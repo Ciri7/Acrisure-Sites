@@ -393,7 +393,7 @@
         
         .benefits-grid {
             display: grid;
-            grid-template-columns: repeat(3, minmax(300px, 1fr));
+            grid-template-columns: repeat(2, minmax(300px, 1fr));   /* DOPO DEVE TORNARE A 3 PER IL TEAM BUILDING */
             gap: 2rem;
             margin-top: 3rem;
         }
